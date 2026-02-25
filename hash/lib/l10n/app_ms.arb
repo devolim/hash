@@ -1,0 +1,1039 @@
+{
+  "@@locale": "ms",
+  "appName": "Hash",
+  "appTagline": "Tiada Jejak. Tiada Kompromi.",
+  "conversations": "Sembang",
+  "contacts": "Kenalan",
+  "noConversation": "Tiada sembang",
+  "noConversationSubtitle": "Tambah kenalan untuk mula bersembang dengan selamat",
+  "pendingRequestsCount": "{count, plural, =1{1 permintaan tertunda} other{{count} permintaan tertunda}}",
+  "sentRequestsCount": "{count, plural, =1{1 permintaan dihantar tertunda} other{{count} permintaan dihantar tertunda}}",
+  "addContact": "Tambah kenalan",
+  "shareApp": "Kongsi aplikasi",
+  "newMessage": "Mesej baharu",
+  "newConversation": "Hantar mesej",
+  "settings": "Tetapan",
+  "myHashId": "Hash ID saya",
+  "supportHash": "Sokong Hash",
+  "supportHashSubtitle": "Hash adalah projek bukan untung",
+  "donate": "Derma",
+  "appearance": "Penampilan",
+  "theme": "Tema",
+  "themeAuto": "Automatik",
+  "themeAutoSubtitle": "Mengikut tetapan sistem",
+  "themeDark": "Gelap",
+  "themeLight": "Cerah",
+  "themeRecommendation": "Tema gelap disyorkan untuk privasi yang lebih baik",
+  "language": "Bahasa",
+  "languageAuto": "Automatik (sistem)",
+  "notifications": "Pemberitahuan",
+  "messages": "Mesej",
+  "calls": "Panggilan",
+  "vibration": "Getaran",
+  "notificationContent": "Kandungan pemberitahuan",
+  "notificationContentFull": "Papar semua",
+  "notificationContentFullDesc": "Nama kenalan dan pratonton mesej",
+  "notificationContentName": "Nama sahaja",
+  "notificationContentNameDesc": "Hanya memaparkan nama kenalan",
+  "notificationContentDiscrete": "Diskret",
+  "notificationContentDiscreteDesc": "Hanya memaparkan \"Mesej baharu\"",
+  "security": "Keselamatan",
+  "howHashProtectsYou": "Bagaimana Hash melindungi anda",
+  "howHashProtectsYouSubtitle": "Fahami keselamatan anda",
+  "accountSecurity": "Keselamatan akaun",
+  "accountSecuritySubtitle": "PIN, biometrik, Mod Vash",
+  "blockScreenshots": "Sekat tangkapan skrin",
+  "transferDevice": "Pindah ke peranti lain",
+  "transferDeviceSubtitle": "Migrasi akaun anda",
+  "pinCode": "Kod PIN",
+  "changePin": "Tukar kod PIN",
+  "currentPin": "Kod PIN semasa",
+  "newPin": "Kod PIN baharu",
+  "confirmPin": "Sahkan kod PIN",
+  "pinChanged": "Kod PIN ditukar",
+  "incorrectPin": "PIN salah",
+  "pinsDoNotMatch": "PIN tidak sepadan",
+  "autoLock": "Kunci automatik",
+  "autoLockDelay": "Kelewatan kunci",
+  "autoLockImmediate": "Serta-merta",
+  "autoLockMinute": "1 minit",
+  "autoLockMinutes": "{count} minit",
+  "vashCode": "Kod Vash",
+  "vashModeTitle": "Mod Vash",
+  "vashModeExplanation": "Jaring keselamatan terakhir anda.",
+  "vashModeDescription": "Anda akan memilih kod PIN kedua. Jika anda dipaksa membuka Hash, masukkan kod ini dan bukannya PIN biasa anda.\n\nAplikasi akan dibuka seperti biasa, tetapi semua perbualan dan kenalan anda akan hilang.\n\nBagi sesiapa yang melihat skrin anda, Hash kelihatan kosong — seolah-olah anda tidak pernah menggunakannya.",
+  "vashModeIrreversible": "Tindakan ini senyap dan tidak boleh diterbalikkan.",
+  "chooseVashCode": "Pilih kod Vash saya",
+  "vashCodeInfo": "Kod PIN kedua yang membuka aplikasi seperti biasa, tetapi kosong.",
+  "vashCodeInfoDetail": "Jika anda memasukkan kod ini dan bukannya PIN anda:",
+  "vashDeleteContacts": "Kenalan anda hilang",
+  "vashDeleteMessages": "Perbualan anda hilang",
+  "vashDeleteHistory": "Nota anda hilang",
+  "vashKeepId": "Identiti Hash anda (#XXX-XXX-XXX) kekal sama",
+  "vashAppearNormal": "Aplikasi kelihatan normal tetapi kosong, seperti baharu. Tindakan ini tidak boleh diterbalikkan.",
+  "setupVashCode": "Sediakan kod Vash",
+  "modifyVashCode": "Ubah suai kod Vash",
+  "currentVashCode": "Kod Vash semasa",
+  "newVashCode": "Kod Vash baharu",
+  "confirmVashCode": "Sahkan kod Vash",
+  "vashCodeConfigured": "Kod Vash dikonfigurasi",
+  "vashCodeModified": "Kod Vash diubah suai",
+  "vashCodeMustDiffer": "Kod Vash mestilah berbeza daripada PIN",
+  "incorrectVashCode": "Kod Vash salah",
+  "vashWhatToDelete": "Apa yang Mod Vash patut hilangkan?",
+  "vashDeleteContactsOption": "Kenalan",
+  "vashDeleteMessagesOption": "Mesej",
+  "vashDeleteNotesOption": "Nota",
+  "vashActivated": "Mod Vash diaktifkan",
+  "vashCreateSubtitle": "Pilih kod yang berbeza daripada PIN utama anda",
+  "vashConfirmSubtitle": "Sahkan kod Vash anda",
+  "vashCodeSection": "Mod Vash",
+  "danger": "Bahaya",
+  "panicButton": "Butang panik",
+  "panicButtonSubtitle": "Padam semua data",
+  "deleteAccount": "Padam akaun saya",
+  "deleteAccountSubtitle": "Tindakan tidak boleh diterbalikkan",
+  "deleteAccountConfirmTitle": "Padam akaun saya",
+  "deleteAccountConfirmMessage": "Akaun anda akan dipadam secara kekal. Tindakan ini tidak boleh diterbalikkan.\n\n• Semua sembang anda\n• Semua kenalan anda\n• Hash ID anda\n\nAnda perlu membuat akaun baharu.",
+  "deleteForever": "Padam secara kekal",
+  "cancel": "Batal",
+  "panicConfirmTitle": "Butang Panik",
+  "panicConfirmMessage": "Tindakan ini akan memadamkan SEMUA data anda secara kekal:\n\n• Semua mesej anda\n• Semua kenalan anda\n• Akaun anda\n\nAnda benar-benar pasti?",
+  "deleteAll": "PADAM SEMUA",
+  "dataDeletedForSecurity": "Mod Vash diaktifkan.",
+  "deletionError": "Ralat pemadaman: {error}",
+  "yourSecurity": "Keselamatan anda",
+  "securityInfo": "• Penyulitan hujung-ke-hujung (Signal Protocol)\n• Tiada data di pelayan kami selepas penghantaran\n• Kunci disimpan hanya di peranti anda\n• Kod PIN tidak pernah dihantar ke pelayan",
+  "version": "Hash v{version}",
+  "welcome": "Selamat datang",
+  "securityStatement1": "Mesej anda dilindungi.",
+  "securityStatement2": "Penyulitan hujung-ke-hujung.",
+  "securityStatement3": "Tiada jejak. Tiada kompromi.",
+  "securityStatement4": "Privasi anda adalah hak.",
+  "accessBlocked": "Akses disekat",
+  "tooManyAttempts": "Terlalu banyak percubaan",
+  "pleaseWait": "Sila tunggu",
+  "waitDelay": "Sila tunggu sehingga kelewatan tamat",
+  "attemptCount": "Percubaan {current} daripada {max}",
+  "retryIn": "Cuba lagi dalam {time}",
+  "forgotPin": "Lupa PIN? Gunakan frasa pemulihan",
+  "useRecoveryPhrase": "Gunakan frasa pemulihan",
+  "recoveryWarningTitle": "Amaran",
+  "recoveryWarningMessage": "Pemulihan akaun akan:",
+  "recoveryDeleteAllMessages": "Memadamkan SEMUA mesej anda",
+  "recoveryWaitDelay": "Memerlukan kelewatan 1 jam",
+  "recoveryKeepContacts": "Mengekalkan kenalan anda",
+  "recoveryIrreversible": "Tindakan ini tidak boleh diterbalikkan. Mesej anda akan hilang secara kekal.",
+  "iUnderstand": "Saya faham",
+  "accountRecovery": "Pemulihan akaun",
+  "enterRecoveryPhrase": "Masukkan 24 perkataan frasa pemulihan anda, dipisahkan oleh ruang.",
+  "recoveryPhraseHint": "perkataan1 perkataan2 perkataan3 ...",
+  "recover": "Pulihkan",
+  "recoveryPhraseRequired": "Sila masukkan frasa pemulihan anda",
+  "recoveryPhrase24Words": "Frasa mesti mengandungi tepat 24 perkataan",
+  "incorrectRecoveryPhrase": "Frasa pemulihan salah",
+  "recoveryInitError": "Ralat memulakan pemulihan",
+  "securityDelay": "Kelewatan keselamatan",
+  "securityDelayMessage": "Untuk keselamatan anda, tempoh menunggu diperlukan sebelum anda boleh membuat PIN baharu.",
+  "timeRemaining": "Masa berbaki",
+  "messagesDeletedForProtection": "Mesej anda telah dipadamkan untuk perlindungan anda.",
+  "canCloseApp": "Anda boleh menutup aplikasi dan kembali kemudian.",
+  "onboardingTitle1": "Selamat datang ke Hash",
+  "onboardingSubtitle1": "Pemesejan yang tidak meninggalkan jejak",
+  "onboardingTitle2": "Penyulitan total",
+  "onboardingSubtitle2": "Mesej anda disulitkan hujung-ke-hujung dengan Signal Protocol",
+  "onboardingTitle3": "Tiada jejak",
+  "onboardingSubtitle3": "Mesej dipadamkan dari pelayan selepas penghantaran",
+  "onboardingTitle4": "Keselamatan anda",
+  "onboardingSubtitle4": "Kod PIN, Mod Vash dan frasa pemulihan",
+  "getStarted": "Mula",
+  "next": "Seterusnya",
+  "skip": "Langkau",
+  "alreadyHaveAccount": "Saya sudah mempunyai akaun",
+  "transferMyAccount": "Pindahkan akaun saya",
+  "createPin": "Buat kod PIN",
+  "createPinSubtitle": "Kod ini akan melindungi akses ke aplikasi anda",
+  "confirmYourPin": "Sahkan kod PIN anda",
+  "confirmPinSubtitle": "Masukkan kod PIN anda sekali lagi",
+  "saveRecoveryPhrase": "Frasa pemulihan",
+  "saveRecoveryPhraseSubtitle": "Tulis 24 perkataan ini mengikut urutan. Ia akan membolehkan anda memulihkan akaun jika anda lupa PIN.",
+  "phraseWritten": "Saya telah menulis frasa saya",
+  "warningRecoveryPhrase": "Jika anda kehilangan frasa ini dan lupa PIN, anda akan kehilangan akses ke akaun anda.",
+  "accountTransferred": "Akaun dipindahkan",
+  "accountTransferredMessage": "Akaun anda telah dipindahkan ke peranti lain. Sesi ini tidak lagi sah.",
+  "accountTransferredInfo": "Jika anda tidak memulakan pemindahan ini, akaun anda mungkin telah terjejas.",
+  "logout": "Log keluar",
+  "transferAccount": "Pindahkan akaun",
+  "transferAccountInfo": "Pindahkan akaun Hash anda ke peranti baharu. Sesi semasa anda akan dibatalkan.",
+  "generateTransferCode": "Jana kod pemindahan",
+  "transferCode": "Kod pemindahan",
+  "transferCodeExpires": "Kod ini tamat tempoh dalam {minutes} minit",
+  "enterCodeOnNewDevice": "Masukkan kod ini di peranti baharu anda untuk memindahkan akaun.",
+  "generateNewCode": "Jana kod baharu",
+  "scanQrCode": "Imbas kod QR",
+  "scanQrCodeSubtitle": "Imbas kod QR kenalan untuk menambah mereka",
+  "qrCodeDetected": "Kod QR dikesan",
+  "invalidQrCode": "Kod QR tidak sah",
+  "cameraPermissionRequired": "Kebenaran kamera diperlukan",
+  "myQrCode": "Kod QR saya",
+  "myQrCodeSubtitle": "Kongsi kod QR ini supaya kenalan anda boleh menambah anda",
+  "shareQrCode": "Kongsi",
+  "addContactTitle": "Tambah kenalan",
+  "addContactByHashId": "Masukkan Hash ID kenalan anda",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Cari",
+  "contactNotFound": "Kenalan tidak dijumpai",
+  "contactAlreadyAdded": "Kenalan ini sudah ada dalam senarai anda",
+  "contactAdded": "Kenalan ditambah",
+  "myProfile": "Profil saya",
+  "myProfileSubtitle": "Kongsi maklumat ini supaya orang lain boleh menambah anda",
+  "temporaryCode": "Kod sementara",
+  "temporaryCodeExpires": "Tamat tempoh dalam {time}",
+  "codeExpired": "Kod tamat tempoh",
+  "generateNewCodeButton": "Kod baharu",
+  "copyHashId": "Salin ID",
+  "copyCode": "Salin kod",
+  "copiedToClipboard": "Disalin",
+  "showMyQrCode": "Papar kod QR saya",
+  "orDivider": "atau",
+  "openScanner": "Buka pengimbas",
+  "addManually": "Tambah secara manual",
+  "contactHashIdLabel": "Hash ID kenalan",
+  "temporaryCodeLabel": "Kod sementara",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Minta kenalan anda menjana kod dari profil mereka",
+  "verifyAndAdd": "Sahkan dan tambah",
+  "fillAllFields": "Sila isi semua medan",
+  "invalidHashIdFormat": "Format ID tidak sah (cth.: 123-456-ABC)",
+  "userNotFound": "Pengguna tidak dijumpai",
+  "cannotAddYourself": "Anda tidak boleh menambah diri sendiri",
+  "invalidOrExpiredCode": "Kod sementara tidak sah atau tamat tempoh",
+  "contactFound": "Kenalan dijumpai!",
+  "howToCallContact": "Apa nama yang anda ingin berikan?",
+  "contactNameHint": "Nama kenalan",
+  "addContactButton": "Tambah",
+  "contactDetails": "Butiran kenalan",
+  "contactName": "Nama kenalan",
+  "contactHashId": "Hash ID",
+  "addedOn": "Ditambah pada {date}",
+  "deleteContact": "Padam kenalan",
+  "deleteContactConfirm": "Padam kenalan ini?",
+  "deleteContactMessage": "Ini juga akan memadamkan keseluruhan sembang.",
+  "delete": "Padam",
+  "typeMessage": "Taip mesej...",
+  "messageSent": "Dihantar",
+  "messageDelivered": "Disampaikan",
+  "messageRead": "Dibaca",
+  "messageFailed": "Gagal menghantar",
+  "now": "Sekarang",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}j",
+  "daysAgo": "{count}h",
+  "today": "Hari ini",
+  "yesterday": "Semalam",
+  "dateAtTime": "{date} pada {time}",
+  "shareMessage": "Sertai saya di Hash! 🔒\n\nIni adalah pemesejan yang benar-benar peribadi: penyulitan total, tiada jejak di pelayan, dan mod panik jika perlu.\n\nMuat turun aplikasi di sini 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Ralat",
+  "ok": "OK",
+  "view": "Lihat",
+  "yes": "Ya",
+  "no": "Tidak",
+  "save": "Simpan",
+  "edit": "Edit",
+  "close": "Tutup",
+  "confirm": "Sahkan",
+  "loading": "Memuatkan...",
+  "retry": "Cuba lagi",
+  "pendingRequests": "Permintaan tertunda",
+  "noPendingRequests": "Tiada permintaan tertunda",
+  "pendingRequestsSubtitle": "Orang-orang ini mahu menambah anda",
+  "requestFromUser": "Permintaan daripada {hashId}",
+  "requestExpiresIn": "Tamat tempoh dalam {days} hari",
+  "acceptRequest": "Terima",
+  "rejectRequest": "Tolak",
+  "requestAccepted": "Permintaan diterima",
+  "requestRejected": "Permintaan ditolak",
+  "requestSent": "Permintaan dihantar!",
+  "requestSentSubtitle": "Permintaan anda telah dihantar. Pengguna mesti menerimanya sebelum anda boleh bersembang.",
+  "requestAlreadyPending": "Permintaan sudah tertunda",
+  "requestAlreadySentByOther": "Orang ini sudah menghantar permintaan kepada anda",
+  "addByHashId": "Tambah melalui Hash ID",
+  "addByHashIdSubtitle": "Masukkan Hash ID dan kod sementara kenalan",
+  "enterTemporaryCode": "Masukkan kod 6 digit",
+  "sendRequest": "Hantar permintaan",
+  "acceptContactTitle": "Terima kenalan",
+  "acceptContactSubtitle": "Anda boleh memberi mereka nama tersuai",
+  "leaveEmptyForHashId": "Biarkan kosong untuk menggunakan Hash ID",
+  "firstName": "Nama pertama",
+  "lastName": "Nama akhir",
+  "notes": "Nota",
+  "notesHint": "Nota peribadi tentang kenalan ini",
+  "photoOptional": "Foto (pilihan)",
+  "contactNameOptional": "Nama (pilihan)",
+  "notesOptional": "Nota (pilihan)",
+  "storedLocally": "Disimpan di peranti anda sahaja",
+  "encryptedMessageLabel": "Mesej yang disulitkan",
+  "identityMessageHint": "Siapa anda? Bagaimana anda saling mengenali?",
+  "messageWillBeSentEncrypted": "Mesej ini akan disulitkan dan dihantar kepada penerima",
+  "sendRequestButton": "Hantar permintaan",
+  "requestExpiresIn24h": "Permintaan tamat tempoh dalam 24j jika tidak diterima",
+  "theyAlreadySentYouRequest": "Orang ini sudah menghantar permintaan kepada anda",
+  "requests": "Permintaan",
+  "receivedRequests": "Diterima",
+  "sentRequests": "Dihantar",
+  "noSentRequests": "Tiada permintaan dihantar",
+  "cancelRequest": "Batal",
+  "deleteRequest": "Padam permintaan",
+  "requestCancelled": "Permintaan dibatalkan",
+  "sentTo": "Dihantar kepada {hashId}",
+  "expiresIn": "Tamat tempoh dalam {time}",
+  "receivedAgo": "Diterima {time} lalu",
+  "messageFromRequester": "Mesej daripada peminta",
+  "copy": "Salin",
+  "messageInfo": "Maklumat mesej",
+  "messageDirection": "Arah",
+  "messageSentByYou": "Dihantar oleh anda",
+  "messageReceived": "Diterima",
+  "messageSentAt": "Dihantar pada",
+  "messageStatus": "Status",
+  "messageReadAt": "Dibaca pada",
+  "messageType": "Jenis",
+  "messageSize": "Saiz",
+  "messageExpiresAt": "Tamat tempoh pada",
+  "messageEncrypted": "Penyulitan hujung-ke-hujung",
+  "messageStatusSending": "Menghantar...",
+  "messageStatusSent": "Dihantar",
+  "messageStatusDelivered": "Disampaikan",
+  "messageStatusRead": "Dibaca",
+  "messageStatusFailed": "Gagal",
+  "serverStatus": "Pelayan",
+  "onServer": "Menunggu penghantaran",
+  "deletedFromServer": "Dipadamkan",
+  "messageTypeText": "Teks",
+  "messageTypeImage": "Imej",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Suara",
+  "messageTypeFile": "Fail",
+  "indefinitely": "Tanpa had",
+  "hoursShort": "j",
+  "minutesShort": "min",
+  "hours": "jam",
+  "minutes": "minit",
+  "seconds": "saat",
+  "ephemeralMessages": "Mesej sementara",
+  "ephemeralMessagesDescription": "Mesej dipadamkan secara automatik selepas masa ini",
+  "ephemeralImmediate": "Serta-merta (selepas dibaca)",
+  "ephemeralImmediateDesc": "Dipadamkan sebaik sahaja dibaca",
+  "ephemeralMyPreference": "Keutamaan saya",
+  "ephemeralMyPreferenceDesc": "Gunakan tetapan global",
+  "ephemeralDefaultSetting": "Tempoh mesej",
+  "ephemeralChooseDefault": "Disyorkan",
+  "ephemeral30Seconds": "30 saat",
+  "ephemeral5Minutes": "5 minit",
+  "ephemeral1Hour": "1 jam",
+  "ephemeral3Hours": "3 jam",
+  "ephemeral6Hours": "6 jam",
+  "ephemeral12Hours": "12 jam",
+  "ephemeral24Hours": "24 jam",
+  "customDuration": "Tempoh tersuai",
+  "muteNotifications": "Senyapkan pemberitahuan",
+  "muteDescription": "Anda tidak akan menerima pemberitahuan untuk kenalan ini",
+  "mutedUntil": "Disenyapkan sehingga {time}",
+  "notMuted": "Pemberitahuan aktif",
+  "unmute": "Nyahsenyap",
+  "notificationSound": "Bunyi pemberitahuan",
+  "defaultSound": "Lalai",
+  "chatSettings": "Tetapan sembang",
+  "bubbleColor": "Warna gelembung",
+  "backgroundColor": "Warna latar belakang",
+  "backgroundImage": "Imej latar belakang",
+  "chatBackground": "Latar belakang sembang",
+  "customColor": "Tersuai",
+  "defaultColor": "Lalai",
+  "imageSelected": "Imej dipilih",
+  "noImage": "Tiada imej",
+  "color": "Warna",
+  "image": "Imej",
+  "tapToSelectImage": "Ketik untuk memilih imej",
+  "changeImage": "Tukar imej",
+  "previewMessageReceived": "Hai!",
+  "previewMessageSent": "Apa khabar!",
+  "messageAction": "Mesej",
+  "callAction": "Panggil",
+  "videoAction": "Video",
+  "personalNotes": "Nota peribadi",
+  "addNotes": "Tambah nota...",
+  "noNotes": "Tiada nota",
+  "messageNotifications": "Pemberitahuan mesej",
+  "callNotifications": "Pemberitahuan panggilan",
+  "useGradient": "Gunakan kecerunan",
+  "gradientStart": "Warna mula",
+  "gradientEnd": "Warna akhir",
+  "preview": "Pratonton",
+  "reset": "Set semula",
+  "securityNumber": "Nombor keselamatan",
+  "securityNumberDescription": "Sahkan bahawa nombor keselamatan sepadan dengan peranti {name}",
+  "verifyEncryption": "Sahkan penyulitan hujung-ke-hujung",
+  "tapToCopy": "Ketik untuk menyalin",
+  "howToVerify": "Cara mengesahkan",
+  "verifyStep1": "Jumpa kenalan anda secara peribadi atau hubungi mereka",
+  "verifyStep2": "Bandingkan nombor keselamatan atau imbas kod QR",
+  "verifyStep3": "Jika sepadan, sembang anda selamat",
+  "scanToVerify": "Imbas untuk mengesahkan",
+  "reportSpam": "Laporkan spam",
+  "reportSpamSubtitle": "Laporkan kenalan ini sebagai spam",
+  "reportSpamDescription": "Ini akan melaporkan kenalan ini secara tanpa nama. Identiti anda tidak akan dikongsi. Anda pasti?",
+  "report": "Laporkan",
+  "spamReported": "Spam dilaporkan",
+  "reportError": "Gagal menghantar laporan. Sila cuba lagi.",
+  "reportRateLimited": "Anda telah mencapai jumlah maksimum laporan untuk hari ini.",
+  "blockContact": "Sekat kenalan",
+  "blockContactDescription": "Kenalan ini tidak akan dapat menghantar mesej atau menghubungi anda lagi. Mereka tidak akan diberitahu.",
+  "unblockContact": "Nyahsekat kenalan",
+  "unblockContactDescription": "Kenalan ini akan dapat menghantar mesej dan menghubungi anda semula.",
+  "contactBlocked": "Kenalan disekat",
+  "contactUnblocked": "Kenalan dinyahsekat",
+  "contactIsBlocked": "Kenalan ini disekat",
+  "unblock": "Nyahsekat",
+  "deleteContactSubtitle": "Padam kenalan dan sembang ini",
+  "confirmWithPin": "Sahkan dengan PIN",
+  "enterPinToConfirm": "Masukkan PIN anda untuk mengesahkan tindakan ini",
+  "mute1Hour": "1 jam",
+  "mute8Hours": "8 jam",
+  "mute1Day": "1 hari",
+  "mute1Week": "1 minggu",
+  "muteAlways": "Sentiasa",
+  "muteExplanation": "Anda tidak akan menerima pemberitahuan untuk kenalan ini",
+  "howItWorks": "Cara ia berfungsi",
+  "ephemeralExplanation1": "Mesej dipadamkan dari pelayan sebaik sahaja diterima.",
+  "ephemeralExplanation2": "Tetapan ini menentukan bila mesej hilang dari telefon ANDA selepas dibaca.",
+  "ephemeralExplanation3": "Kenalan anda mempunyai tetapan sendiri untuk telefon mereka.",
+  "profilePhoto": "Foto profil",
+  "takePhoto": "Ambil foto",
+  "chooseFromGallery": "Pilih dari galeri",
+  "removePhoto": "Buang foto",
+  "viewContactHashId": "Lihat pengecam kenalan",
+  "hashIdPartiallyMasked": "Separuh bertopeng untuk keselamatan anda dan privasi kenalan anda",
+  "addFirstContact": "Tambah kenalan pertama anda",
+  "addFirstContactSubtitle": "Kongsi kod QR anda atau imbas milik rakan",
+  "directory": "Direktori",
+  "noContacts": "Tiada kenalan",
+  "noContactsSubtitle": "Tambah kenalan untuk bermula",
+  "sendMessageAction": "Hantar mesej",
+  "audioCall": "Panggilan audio",
+  "videoCall": "Panggilan video",
+  "viewProfile": "Lihat profil",
+  "deleteContactDirectory": "Padam kenalan",
+  "scanShort": "Imbas",
+  "addShort": "Tambah",
+  "deleteContactConfirmName": "Anda pasti mahu memadamkan {name}?",
+  "noNotesTitle": "Tiada nota",
+  "noNotesSubtitle": "Buat nota pertama anda",
+  "newNote": "Nota baharu",
+  "editNote": "Edit nota",
+  "deleteNote": "Padam nota",
+  "deleteNoteConfirm": "Anda pasti mahu memadamkan nota ini?",
+  "noteTitle": "Tajuk",
+  "noteContent": "Kandungan",
+  "addItem": "Tambah item",
+  "pinNote": "Semat",
+  "unpinNote": "Nyahsemat",
+  "noteColor": "Warna",
+  "notePassword": "Kata laluan",
+  "setPassword": "Tetapkan kata laluan",
+  "changePassword": "Tukar kata laluan",
+  "removePassword": "Buang kata laluan",
+  "enterPassword": "Masukkan kata laluan",
+  "confirmPassword": "Sahkan kata laluan",
+  "passwordPin": "Kod PIN",
+  "passwordText": "Kata laluan teks",
+  "protectedNote": "Nota dilindungi",
+  "incorrectPassword": "Kata laluan salah",
+  "passwordSet": "Kata laluan ditetapkan",
+  "passwordRemoved": "Kata laluan dibuang",
+  "notesBiometric": "Face ID untuk nota",
+  "notesBiometricSubtitle": "Memerlukan pengesahan biometrik untuk membuka nota dilindungi",
+  "textNote": "Nota teks",
+  "checklistNote": "Senarai semak",
+  "tasksProgress": "{checked}/{total} tugas",
+  "autoSaved": "Disimpan",
+  "searchNotes": "Cari nota",
+  "legalConsent": "Persetujuan undang-undang",
+  "confirmAge13": "Saya mengesahkan bahawa saya berumur sekurang-kurangnya 13 tahun",
+  "acceptLegalStart": "Saya menerima ",
+  "privacyPolicy": "Dasar Privasi",
+  "termsOfService": "Terma Perkhidmatan",
+  "andThe": " dan ",
+  "continueButton": "Teruskan",
+  "mustAcceptTerms": "Anda mesti menerima kedua-dua syarat untuk meneruskan",
+  "support": "Sokongan",
+  "contactSupport": "Hubungi sokongan",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Laporkan penyalahgunaan",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Undang-undang",
+  "legalEntity": "Entiti undang-undang",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Semat",
+  "unpinConversation": "Nyahsemat",
+  "hideConversation": "Buang dari suapan",
+  "deleteConversation": "Padam perbualan",
+  "deleteConversationConfirm": "Masukkan PIN anda untuk mengesahkan pemadaman semua mesej",
+  "noConversations": "Belum ada perbualan",
+  "startConversation": "Mula",
+  "microphonePermissionRequired": "Kebenaran mikrofon diperlukan",
+  "microphonePermissionExplanation": "Hash memerlukan mikrofon untuk membuat panggilan.",
+  "cameraPermissionExplanation": "Hash memerlukan kamera untuk panggilan video.",
+  "openSettings": "Buka Tetapan",
+  "callConnecting": "Menyambung...",
+  "callRinging": "Berdering...",
+  "callReconnecting": "Menyambung semula...",
+  "callReconnectingTimer": "Menyambung semula ({seconds}s)",
+  "callPaused": "Dijeda",
+  "callPausedSubtitle": "Panggilan masih berlangsung",
+  "callRemoteMicMuted": "Mikrofon kenalan disenyapkan",
+  "callMiniControlsMute": "Senyap",
+  "callMiniControlsUnmute": "Nyahsenyap",
+  "callMiniControlsHangUp": "Tamatkan",
+  "callMiniControlsReturn": "Kembali ke panggilan",
+  "callNetworkPoor": "Sambungan tidak stabil",
+  "callNetworkLost": "Sambungan terputus",
+  "callEndedTitle": "Panggilan tamat",
+  "deviceData": "Data peranti",
+  "deviceDataSubtitle": "Storan tempatan dan pelayan",
+  "localStorage": "Storan tempatan",
+  "onThisDevice": "di peranti ini",
+  "encryptedDatabases": "Pangkalan data yang disulitkan",
+  "files": "Fail",
+  "secureKeychain": "Rantai kunci selamat",
+  "cache": "Cache",
+  "contactsDetail": "Nama, avatar, kunci Signal",
+  "messagesDetail": "Perbualan yang disulitkan",
+  "notesDetail": "Nota peribadi",
+  "signalSessions": "Sesi Signal",
+  "signalSessionsDetail": "Sesi penyulitan",
+  "pendingContacts": "Kenalan tertunda",
+  "pendingContactsDetail": "Permintaan tertunda",
+  "callHistory": "Panggilan",
+  "callHistoryDetail": "Sejarah panggilan",
+  "preferences": "Keutamaan",
+  "preferencesDetail": "Keutamaan media dan panggilan",
+  "avatars": "Avatar",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{tiada fail} =1{1 fail} other{{count} fail}}",
+  "active": "Aktif",
+  "notDefined": "Tidak ditentukan",
+  "biometrics": "Biometrik",
+  "recoveryPhrase": "Frasa pemulihan",
+  "identity": "Identiti (Hash ID)",
+  "signalKeys": "Kunci Signal Protocol",
+  "authTokens": "Token pengesahan",
+  "contactNamesCache": "Cache nama kenalan",
+  "remoteConfig": "Konfigurasi jauh",
+  "notificationPrefs": "Keutamaan pemberitahuan",
+  "serverData": "Data pelayan",
+  "serverDataInfo": "Hash menyimpan data minimum di pelayan, semuanya disulitkan atau sementara.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash ID, kunci awam, token peti surat",
+  "serverPrekeys": "Pra-kunci",
+  "serverPrekeysDetail": "Kunci Signal sekali guna (digunakan)",
+  "serverMessages": "Mesej dalam transit",
+  "serverMessagesDetail": "Dipadamkan selepas penghantaran (maks 24j)",
+  "serverMedia": "Media dalam transit",
+  "serverMediaDetail": "Dipadamkan selepas dimuat turun",
+  "serverContactRequests": "Permintaan kenalan",
+  "serverContactRequestsDetail": "Tamat tempoh selepas 24j",
+  "serverRateLimits": "Had kadar",
+  "serverRateLimitsDetail": "Data anti-penyalahgunaan sementara",
+  "privacyReassurance": "Hash tidak boleh membaca mesej anda. Semua data disulitkan hujung-ke-hujung. Data pelayan dipadamkan secara automatik.",
+  "pinTooSimple": "PIN ini terlalu mudah. Pilih kod yang lebih selamat.",
+  "genericError": "Ralat berlaku. Sila cuba lagi.",
+  "accountCreationError": "Tidak dapat membuat akaun: {error}",
+  "phraseCopiedToClipboard": "Frasa disalin ke papan keratan",
+  "copyPhrase": "Salin frasa",
+  "recoveryPhraseSecurityWarning": "Tulis frasa ini di tempat yang selamat. Jika anda kehilangan PIN tanpa frasa ini, anda akan kehilangan akses ke data anda secara kekal.",
+  "noMessages": "Tiada mesej",
+  "deleteAllMessagesWithContact": "Padam semua mesej dengan {name}?",
+  "confirmation": "Pengesahan",
+  "untitled": "Tanpa tajuk",
+  "noSessions": "Tiada sesi",
+  "unknownContact": "Kenalan tidak diketahui",
+  "unnamed": "Tanpa nama",
+  "noPendingRequestsAlt": "Tiada permintaan tertunda",
+  "deleteAllCallHistory": "Padam semua sejarah panggilan?",
+  "noCalls": "Tiada panggilan",
+  "noPreferences": "Tiada keutamaan",
+  "resetAllMediaPrefs": "Set semula semua keutamaan media?",
+  "deleteThisAvatar": "Padam avatar ini?",
+  "deleteAllAvatars": "Padam semua avatar?",
+  "noAvatars": "Tiada avatar",
+  "deleteThisFile": "Padam fail ini?",
+  "deleteAllMediaFiles": "Padam semua media?",
+  "noMediaFiles": "Tiada media",
+  "outgoing": "Keluar",
+  "incoming": "Masuk",
+  "ephemeralViewDuration": "Paparan sementara: {seconds}s",
+  "normalView": "Paparan biasa",
+  "callReasonCompleted": "Selesai",
+  "callReasonMissed": "Terlepas",
+  "callReasonDeclined": "Ditolak",
+  "callReasonFailed": "Gagal",
+  "justNow": "Baru sahaja",
+  "timeAgoMinutes": "{count} min lalu",
+  "timeAgoHours": "{count}j lalu",
+  "timeAgoDays": "{count}h lalu",
+  "messageTypeContact": "Kenalan",
+  "messageTypeLocation": "Lokasi",
+  "statusQueued": "Dalam giliran",
+  "blockedBadge": "Disekat",
+  "protectedBadge": "Dilindungi",
+  "messageCount": "{count} mesej",
+  "deleteQuestion": "Padam?",
+  "transferMyAccountTitle": "Pindahkan akaun saya",
+  "loadingError": "Ralat pemuatan",
+  "transferToNewDevice": "Pindah ke peranti baharu",
+  "transferInstructions": "Pada peranti baharu anda, pilih \"Pulihkan akaun saya\" dan masukkan maklumat ini:",
+  "yourHashIdLabel": "Hash ID anda",
+  "enterYourPinCode": "Masukkan kod PIN anda",
+  "pinOwnerConfirmation": "Untuk mengesahkan bahawa anda pemilik akaun ini",
+  "scanThisQrCode": "Imbas kod QR ini",
+  "withYourNewDevice": "Dengan peranti baharu anda",
+  "orEnterTheCode": "atau masukkan kod",
+  "transferCodeLabel": "Kod pemindahan",
+  "proximityVerification": "Pengesahan berdekatan",
+  "bringDevicesCloser": "Dekatkan kedua-dua peranti",
+  "confirmTransferQuestion": "Sahkan pemindahan?",
+  "accountWillBeTransferred": "Akaun anda akan dipindahkan ke peranti baharu.\n\nPeranti ini akan diputuskan secara kekal.",
+  "transferComplete": "Pemindahan selesai",
+  "transferSuccessMessage": "Akaun anda telah berjaya dipindahkan.\n\nAplikasi ini akan ditutup sekarang.",
+  "manualVerification": "Pengesahan manual",
+  "codeDisplayedOnBothDevices": "Kod dipaparkan pada kedua-dua peranti:",
+  "doesCodeMatchNewDevice": "Adakah kod ini sepadan dengan yang pada peranti baharu?",
+  "verifiedStatus": "Disahkan",
+  "inProgressStatus": "Sedang berlangsung...",
+  "notAvailableStatus": "Tidak tersedia",
+  "codeExpiredRestart": "Kod telah tamat tempoh. Sila mulakan semula.",
+  "codesDoNotMatchCancelled": "Kod tidak sepadan. Pemindahan dibatalkan.",
+  "transferToDevice": "Ke: {device}",
+  "copiedExclamation": "Disalin!",
+  "expiresInTime": "Tamat tempoh dalam {time}",
+  "biometricNotAvailable": "Biometrik tidak tersedia pada peranti ini",
+  "biometricAuthError": "Ralat pengesahan biometrik",
+  "authenticateForBiometric": "Sila buat pengesahan untuk mengaktifkan biometrik",
+  "biometricAuthFailed": "Pengesahan biometrik gagal",
+  "forceUpdateTitle": "Kemas kini diperlukan",
+  "forceUpdateMessage": "Versi baharu Hash tersedia. Sila kemas kini untuk meneruskan.",
+  "updateButton": "Kemas kini",
+  "maintenanceInProgress": "Penyelenggaraan sedang berlangsung",
+  "tryAgainLater": "Sila cuba lagi kemudian",
+  "information": "Maklumat",
+  "noLoginRecorded": "Tiada log masuk dicatatkan",
+  "nextUnlocksAppearHere": "Pembukaan kunci seterusnya akan muncul di sini.",
+  "noMaintenancePlanned": "Tiada penyelenggaraan dirancang",
+  "everythingWorkingNormally": "Semuanya berfungsi dengan normal",
+  "locking": "Mengunci...",
+  "newMessageNotification": "Mesej baharu",
+  "secExplainTitle": "Bagaimana Hash melindungi anda",
+  "secExplainIntro": "Hash direka supaya tiada sesiapa boleh membaca mesej anda.",
+  "secExplainIntroSub": "Termasuk kami.\nBegini cara ia berfungsi, dijelaskan dengan mudah.",
+  "secJourneyLabel": "PERJALANAN",
+  "secJourneyTitle": "Perjalanan mesej anda",
+  "secJourneySubtitle": "Dari jari anda ke skrin kenalan anda, setiap langkah dilindungi. Ikuti laluan.",
+  "secStep1Title": "Anda menulis mesej anda",
+  "secStep1Desc": "Anda menaip \"Hai!\" dalam aplikasi. Pada ketika ini, mesej hanya wujud dalam memori telefon anda. Tiada apa yang dihantar.",
+  "secStep2Title": "Penyulitan dengan Signal Protocol",
+  "secStep2Desc": "Sebaik sahaja anda menekan \"Hantar\", mesej anda diubah menjadi rentetan aksara yang tidak dapat difahami. Seolah-olah mesej anda dikunci dalam peti besi yang hanya kenalan anda mempunyai kuncinya.",
+  "secStep3Title": "Sealed Sender: sampul surat tidak kelihatan",
+  "secStep3Desc": "Bayangkan menghantar surat melalui pos, tetapi tanpa alamat pengirim pada sampul surat. Itulah yang Hash lakukan. Mesej dijatuhkan ke dalam peti surat tanpa nama. Pelayan tidak tahu siapa yang menghantarnya.",
+  "secStep4Title": "Pelayan tidak melihat apa-apa",
+  "secStep4Desc": "Pelayan bertindak sebagai posmen buta. Ia hanya tahu \"seseorang menjatuhkan sesuatu dalam peti surat #A7X9\". Ia tidak tahu siapa yang menghantarnya, apa itu, atau untuk siapa.",
+  "secStep4Highlight": "Tiada metadata disimpan: tiada alamat IP, tiada cap masa, tiada pautan antara pengirim dan penerima.",
+  "secStep5Title": "Kenalan anda menerima mesej",
+  "secStep5Desc": "Telefon kenalan anda mengambil kandungan dari peti surat tanpa nama mereka dan menyahsulit mesej dengan kunci peribadi mereka, yang tidak pernah meninggalkan peranti mereka. \"Hai!\" muncul di skrin mereka.",
+  "secStep6Title": "Mesej hilang dari pelayan",
+  "secStep6Desc": "Sebaik sahaja kenalan anda mengesahkan penerimaan, pelayan memadamkan mesej secara kekal. Tiada tong sampah, tiada arkib, tiada sandaran. Malah mesej yang belum dibaca dimusnahkan secara automatik selepas 24 jam.",
+  "secStep7Title": "Tamat tempoh tempatan",
+  "secStep7Desc": "Di telefon kenalan anda, mesej memusnahkan diri mengikut tempoh yang anda pilih: serta-merta selepas dibaca, 5 minit, 1 jam... anda tentukan.",
+  "secJourneyConclusion": "Hasilnya: tiada jejak di pelayan, tiada jejak di peranti. Mesej hanya wujud cukup lama untuk dibaca, kemudian ia hilang.",
+  "secArchLabel": "SENI BINA",
+  "secArchTitle": "5 lapisan perlindungan",
+  "secArchSubtitle": "Hash tidak bergantung pada satu teknologi. Setiap lapisan mengukuhkan yang lain. Walaupun satu lapisan terjejas, data anda kekal selamat.",
+  "secLayer1Title": "Penyulitan hujung-ke-hujung",
+  "secLayer1Desc": "Setiap mesej disulitkan dengan kunci unik. Dalam kata mudah: walaupun seseorang menyahsulit satu mesej, mereka tidak akan dapat menyahsulit yang seterusnya. Setiap mesej mempunyai kuncinya sendiri.",
+  "secLayer1Detail": "Untuk fail (foto, video, dokumen), Hash menggunakan penyulitan AES-256-GCM tambahan. Fail disulitkan sebelum meninggalkan telefon anda.",
+  "secLayer2Title": "Sealed Sender (kerahsiaan rangkaian)",
+  "secLayer2Desc": "Pemesejan biasa menghantar mesej anda dengan identiti anda dilampirkan. Seperti menulis nama anda pada sampul surat. Hash menggunakan peti surat tanpa nama: pelayan menghantar mesej tanpa tahu siapa pengirimnya.",
+  "secLayer2Detail": "Hasilnya: walaupun dalam kes kebocoran data pelayan, mustahil untuk membina semula siapa bercakap dengan siapa.",
+  "secLayer3Title": "Pemadaman automatik",
+  "secLayer3Desc": "Mesej dipadamkan dari pelayan sebaik sahaja penerimaan disahkan. Walaupun mesej tidak pernah diambil, ia dimusnahkan secara automatik selepas 24 jam.",
+  "secLayer3Detail": "Di telefon anda, mesej memusnahkan diri mengikut tempoh yang anda pilih: serta-merta, 5 min, 15 min, 30 min, 1j, 3j, 6j, atau 12j.",
+  "secLayer4Title": "Perlindungan akses tempatan",
+  "secLayer4Desc": "Aplikasi dilindungi oleh PIN 6 digit dan/atau biometrik (Face ID, cap jari). Selepas terlalu banyak percubaan gagal, aplikasi mengunci dengan kelewatan yang meningkat selepas setiap kegagalan.",
+  "secLayer5Title": "Pangkalan data berkunci",
+  "secLayer5Desc": "Di sisi pelayan, tiada pengguna yang boleh menulis terus ke pangkalan data. Semua tindakan melalui fungsi selamat yang mengesahkan setiap permintaan.",
+  "secLayer5Detail": "Seperti kaunter bank: anda tidak pernah menyentuh bilik kebal sendiri. Anda membuat permintaan, dan sistem memeriksa bahawa anda mempunyai hak sebelum bertindak.",
+  "secVashLabel": "UNIK DI DUNIA",
+  "secVashTitle": "Mod Vash",
+  "secVashSubtitle": "Sistem keselamatan kecemasan yang tidak wujud dalam mana-mana aplikasi pemesejan lain.",
+  "secVashScenarioTitle": "Bayangkan situasi ini",
+  "secVashScenario1": "Seseorang mengakses telefon anda",
+  "secVashScenario2": "Anda diminta kod PIN anda",
+  "secVashScenario3": "Anda mahu memadamkan semua data anda dengan segera",
+  "secVashSolutionTitle": "Penyelesaian: dua kod PIN",
+  "secVashSolutionDesc": "Anda mengkonfigurasi dua kod PIN berbeza dalam Hash:",
+  "secVashNormalCodeLabel": "Kod biasa",
+  "secVashNormalCodeDesc": "Membuka aplikasi seperti biasa dengan semua data anda",
+  "secVashCodeLabel2": "Kod Vash",
+  "secVashCodeDescription": "Membuka aplikasi seperti biasa... tetapi semua data anda dipadamkan secara senyap di latar belakang",
+  "secVashWhatHappensTitle": "Apa yang berlaku seterusnya",
+  "secVashWhatHappensDesc": "Aplikasi dibuka seperti biasa. Tiada amaran, tiada animasi mencurigakan. Skrin hanya memaparkan aplikasi kosong, seolah-olah anda baru sahaja memasangnya.\n\nHakikatnya, semua perbualan, kenalan, dan mesej anda telah dipadamkan secara tidak boleh diterbalikkan dalam sepersekian saat.",
+  "secCallsLabel": "PANGGILAN & FAIL",
+  "secCallsTitle": "Semuanya disulitkan",
+  "secCallsSubtitle": "Bukan hanya mesej. Segala-galanya yang melalui Hash disulitkan hujung-ke-hujung.",
+  "secAudioCallTitle": "Panggilan audio",
+  "secAudioCallDesc": "Disulitkan hujung-ke-hujung melalui WebRTC. Suara dihantar terus antara peranti.",
+  "secVideoCallTitle": "Panggilan video",
+  "secVideoCallDesc": "Teknologi yang sama, setiap aliran disulitkan secara individu.",
+  "secPhotosTitle": "Foto & video",
+  "secPhotosDesc": "Disulitkan dalam AES-256-GCM sebelum meninggalkan telefon anda.",
+  "secDocsTitle": "Dokumen",
+  "secDocsDesc": "PDF, ZIP, sebarang fail. Nama, saiz, dan kandungan disulitkan.",
+  "secAnonLabel": "KERAHSIAAN",
+  "secAnonTitle": "Tiada identiti diperlukan",
+  "secAnonSubtitle": "Hash tidak pernah meminta nombor telefon atau emel anda. Anda dikenal pasti oleh Hash ID yang unik dan tanpa nama.",
+  "secHashIdTitle": "Hash ID anda",
+  "secHashIdDesc": "Ini adalah pengecam unik anda. Ia tidak mendedahkan apa-apa tentang anda: bukan nama, bukan nombor, bukan lokasi anda. Seperti nama samaran yang mustahil dikaitkan dengan identiti sebenar anda.\n\nUntuk menambah kenalan, anda berkongsi Hash ID anda atau mengimbas kod QR. Itu sahaja. Tiada buku alamat disegerakkan, tiada cadangan \"Orang yang anda mungkin kenal\".",
+  "secDataLabel": "DATA",
+  "secDataTitle": "Apa yang Hash tidak tahu",
+  "secDataSubtitle": "Cara terbaik untuk melindungi data anda adalah tidak mengumpulnya.",
+  "secNeverCollected": "Tidak pernah dikumpul",
+  "secNeverItem1": "Kandungan mesej",
+  "secNeverItem2": "Senarai kenalan",
+  "secNeverItem3": "Nombor telefon",
+  "secNeverItem4": "Alamat emel",
+  "secNeverItem5": "Alamat IP",
+  "secNeverItem6": "Lokasi",
+  "secNeverItem7": "Metadata (siapa bercakap dengan siapa)",
+  "secNeverItem8": "Sejarah panggilan",
+  "secNeverItem9": "Buku alamat",
+  "secNeverItem10": "Pengecam pengiklanan",
+  "secTempStored": "Disimpan sementara",
+  "secTempItem1": "Hash ID tanpa nama (pengecam unik)",
+  "secTempItem2": "Kunci penyulitan awam",
+  "secTempItem3": "Mesej yang disulitkan dalam transit (maks 24j)",
+  "secTempNote": "Walaupun data minimum ini tidak boleh mengenal pasti anda. Hash ID anda tidak dikaitkan dengan sebarang maklumat peribadi.",
+  "secFooterTitle": "Privasi anda, kebebasan anda",
+  "secFooterDesc": "Hash menggunakan teknologi penyulitan yang sama seperti aplikasi profesional yang paling menuntut. Mesej anda dilindungi oleh matematik, bukan oleh janji.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometrik",
+  "biometricUnlock": "Buka kunci dengan cap jari atau Face ID",
+  "biometricWarningMessage": "Dengan mengaktifkan biometrik, anda tidak akan dapat menggunakan kod Vash untuk masuk ke aplikasi.\n\nAnda hanya boleh menggunakan kod Vash jika biometrik gagal (selepas beberapa percubaan gagal).\n\nAdakah anda pasti mahu meneruskan?",
+  "connectionCount": "Sambungan",
+  "currentSession": "Semasa",
+  "dataLocalOnly": "Data ini disimpan hanya pada peranti anda dan tidak pernah dihantar.",
+  "doYouLikeHash": "Adakah anda suka Hash?",
+  "donationMessage": "Hash adalah projek bukan untung. Sokongan anda membantu kami terus membina penghantar mesej yang benar-benar peribadi.",
+  "enableBiometric": "Aktifkan biometrik",
+  "ephemeral1HourDesc": "Dipadam 1j selepas dibaca",
+  "ephemeral24HoursDesc": "Dipadam 24j selepas dibaca",
+  "ephemeral30SecondsDesc": "Dipadam 30s selepas dibaca",
+  "ephemeral5MinutesDesc": "Dipadam 5min selepas dibaca",
+  "ephemeral6HoursDesc": "Dipadam 6j selepas dibaca",
+  "feedback": "Maklum balas",
+  "historyLabel": "Sejarah",
+  "hoursAgoLabel": "{hours}j lalu",
+  "hoursMinutesAgoLabel": "{hours}j {minutes}min lalu",
+  "justNowLabel": "Baru sahaja",
+  "later": "Kemudian",
+  "loginInfoText": "Setiap pembukaan PIN direkodkan secara tempatan. Hanya 24 jam terakhir disimpan.",
+  "maintenanceActiveLabel": "SEDANG BERJALAN",
+  "maintenancePlannedLabel": "DIRANCANG",
+  "maintenanceTitle": "Penyelenggaraan",
+  "minutesAgoLabel": "{count} min lalu",
+  "periodLabel": "Tempoh",
+  "pinCodeForEntry": "Kod PIN untuk masuk aplikasi",
+  "ratingBad": "Buruk",
+  "ratingExcellent": "Cemerlang!",
+  "ratingGood": "Baik",
+  "ratingOk": "Ok",
+  "ratingTerrible": "Teruk",
+  "recentConnections": "Sambungan terkini",
+  "share": "Kongsi",
+  "shareAppSubtitle": "Kongsi Hash dengan orang tersayang",
+  "showCallsInRecents": "Papar dalam panggilan terkini",
+  "showCallsInRecentsSubtitle": "Panggilan Hash muncul dalam sejarah telefon",
+  "todayLabel": "Hari ini",
+  "understood": "Saya faham",
+  "yesterdayLabel": "Semalam",
+  "yourFeedbackHelps": "Maklum balas anda membantu kami memperbaiki aplikasi"
+}

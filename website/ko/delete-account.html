@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hash 계정 삭제 - 계정 및 데이터의 영구 삭제 안내.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>계정 삭제 - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .step-list {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: step-counter;
+      margin: 24px 0;
+    }
+    .step-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding: 16px 16px 16px 64px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+    }
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--accent-dim);
+      border: 1px solid var(--border-accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--accent);
+      text-align: center;
+      line-height: 32px;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .data-item {
+      background: rgba(255, 71, 87, 0.08);
+      border: 1px solid rgba(255, 71, 87, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .data-item .icon {
+      color: var(--error);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .alternative-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .alternative-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .data-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">홈</a></li>
+        <li><a href="security.html">보안</a></li>
+        <li><a href="opensource.html">오픈 소스</a></li>
+        <li><a href="support.html">후원</a></li>
+        <li><a href="index.html#download" class="nav__cta">다운로드</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Hash 계정 삭제</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">최종 업데이트: 2026년 2월</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="warning-box">
+      <p><strong>주의:</strong> Hash 계정 삭제는 <strong>즉시 이루어지며 되돌릴 수 없습니다</strong>. 모든 데이터(메시지, 연락처, 암호화 키)가 영구적으로 삭제됩니다. 삭제 후 계정을 복구할 수 있는 방법은 없습니다.</p>
+    </div>
+
+    <h2>앱에서 계정 삭제</h2>
+    <p>계정을 삭제하는 가장 간단한 방법은 앱 내 <strong>계정 삭제</strong> 옵션을 사용하는 것입니다:</p>
+
+    <ol class="step-list">
+      <li>기기에서 <strong>Hash</strong> 앱을 엽니다</li>
+      <li>톱니바퀴 아이콘을 눌러 <strong>설정</strong>으로 이동합니다</li>
+      <li><strong>"계정"</strong> 섹션까지 아래로 스크롤합니다</li>
+      <li><strong>"계정 삭제"</strong>를 누릅니다</li>
+      <li>화면의 안내에 따라 삭제를 확인합니다</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p><strong>삭제하면 어떻게 되나요?</strong> 확인 즉시 기기와 서버 모두에서 모든 데이터가 즉시 삭제됩니다. 앱은 처음 설치된 것처럼 초기 상태로 돌아갑니다.</p>
+    </div>
+
+    <h2>삭제되는 데이터</h2>
+    <p>계정 삭제 시 다음 데이터가 <strong>영구적으로 삭제</strong>됩니다:</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>귀하의 Hash ID</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>공개 암호화 키</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>개인 키 (기기 내)</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>기기 정보</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>읽지 않은 전송 중 메시지</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>모든 연락처</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>대화 기록</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>로컬 파일 및 미디어</span>
+      </div>
+    </div>
+
+    <h2>대체 방법: 이메일로 요청</h2>
+
+    <div class="alternative-box">
+      <h3>앱에 더 이상 접근할 수 없나요?</h3>
+      <p>기기나 앱에 더 이상 접근할 수 없는 경우, 다음 주소로 이메일을 보내 계정 삭제를 요청할 수 있습니다:</p>
+      <p><strong><a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></strong></p>
+      <p>이메일에 다음 정보를 포함해 주세요:</p>
+      <ul>
+        <li>알고 계신 경우 <strong>Hash ID</strong> (형식 000-000-XXX)</li>
+        <li>계정 식별에 도움이 되는 모든 정보</li>
+      </ul>
+      <p style="margin-bottom: 0;"><strong>48시간</strong> 이내에 요청을 처리하겠습니다.</p>
+    </div>
+
+    <h2>삭제의 결과</h2>
+    <p>계정 삭제 후:</p>
+    <ul>
+      <li>연락처가 <strong>더 이상 메시지를 보낼 수 없습니다</strong>. 이전 계정으로 보낸 메시지는 거부됩니다</li>
+      <li>Hash ID가 <strong>해제</strong>되어 다른 사용자에게 재할당될 수 있습니다</li>
+      <li>로컬 대화가 <strong>기기에서 삭제</strong>됩니다</li>
+      <li>이미 연락처가 수신한 메시지는 <strong>해당 연락처의 기기</strong>에 남아 있습니다 (다른 사용자의 로컬 데이터에 대해서는 당사가 통제할 수 없습니다)</li>
+      <li>삭제 후 계정이나 데이터를 <strong>복구하는 것은 불가능</strong>합니다</li>
+    </ul>
+
+    <h2>연락처</h2>
+    <p>계정 삭제에 관한 문의 사항은 다음으로 연락해 주세요:</p>
+    <ul>
+      <li><strong>이메일:</strong> <a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></li>
+      <li><strong>개인정보 보호:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">당신에 대해 아무것도 모르는 메신저.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">제품</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">기능</a></li>
+            <li><a href="security.html">보안</a></li>
+            <li><a href="index.html#download">다운로드</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">프로젝트</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">오픈 소스</a></li>
+            <li><a href="support.html">Hash 후원</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">연락처</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">법적 고지</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">개인정보 처리방침</a></li>
+            <li><a href="terms.html">이용약관</a></li>
+            <li><a href="delete-account.html">계정 삭제</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. 모든 권리 보유.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

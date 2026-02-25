@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="سياسة الخصوصية لتطبيق Hash - تطبيق مراسلة فائق الأمان. اكتشف كيف نحمي بياناتك.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>سياسة الخصوصية - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="security.html">الأمان</a></li>
+        <li><a href="opensource.html">مفتوح المصدر</a></li>
+        <li><a href="support.html">الدعم</a></li>
+        <li><a href="index.html#download" class="nav__cta">تحميل</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">سياسة الخصوصية</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">آخر تحديث: فبراير 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="highlight-box">
+      <p><strong>باختصار:</strong> صُمِّم Hash بحيث لا يجمع أي بيانات شخصية تقريبًا. رسائلك مشفرة من طرف إلى طرف، ولا يمكننا قراءتها. لا تحليلات، لا إعلانات، لا مشاركة بيانات مع أطراف ثالثة.</p>
+    </div>
+
+    <h2>1. المسؤول عن معالجة البيانات</h2>
+    <p>المسؤول عن معالجة البيانات هو:</p>
+    <ul>
+      <li><strong>الشركة:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+      <li><strong>التواصل:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+
+    <h2>2. البيانات المُجمَّعة</h2>
+    <p>صُمِّم Hash وفق مبدأ <strong>تقليل البيانات</strong>. نحن نجمع فقط الحد الأدنى الضروري لتشغيل الخدمة:</p>
+
+    <h3>2.1 البيانات التي نجمعها</h3>
+    <ul>
+      <li><strong>Hash ID:</strong> معرّف فريد يُنشأ عشوائيًا (بصيغة 000-000-XXX)، غير مرتبط بهويتك الحقيقية</li>
+      <li><strong>معرّف الجهاز:</strong> معرّف تقني فريد يُستخدم لربط حسابك بجهازك</li>
+      <li><strong>المنصة:</strong> نوع الجهاز المُستخدم (iOS أو Android)، وهو ضروري لإرسال الإشعارات</li>
+      <li><strong>مفاتيح التشفير العامة:</strong> المفاتيح العامة من حزمة مفاتيح Signal Protocol الخاصة بك، وهي ضرورية ليتمكن جهات اتصالك من إرسال رسائل مشفرة إليك</li>
+      <li><strong>رمز صندوق البريد:</strong> رمز مُشتق تشفيريًا من مفاتيحك، يُستخدم لاستقبال الرسائل بشكل مجهول</li>
+    </ul>
+
+    <h3>2.2 البيانات التي لا نجمعها</h3>
+    <ul>
+      <li><strong>محتوى الرسائل:</strong> جميع الرسائل مشفرة من طرف إلى طرف (E2E). لا يمكننا قراءتها حتى لو أردنا ذلك</li>
+      <li><strong>قائمة جهات الاتصال:</strong> دفتر عناوينك يبقى على جهازك، ولا نصل إليه أبدًا</li>
+      <li><strong>الموقع الجغرافي:</strong> لا تُنقل بيانات الموقع الجغرافي إلا عند إرسال رسالة موقع طوعياً. وهي مشفرة من طرف إلى طرف ولا يمكن لخوادمنا قراءتها أو تخزينها</li>
+      <li><strong>البريد الإلكتروني:</strong> غير مطلوب، وغير مُجمَّع</li>
+      <li><strong>رقم الهاتف:</strong> غير مطلوب، وغير مُجمَّع</li>
+      <li><strong>عنوان IP:</strong> غير مُخزَّن في قواعد بياناتنا</li>
+      <li><strong>بيانات الاتصال الوصفية:</strong> لا نعرف من يتواصل مع من بفضل نظام الرموز المجهولة</li>
+      <li><strong>الصور والملفات والوسائط:</strong> جميع المحتويات المتعددة الوسائط تُشفَّر على جهاز العميل قبل الإرسال ولا تمر عبر خوادمنا إلا كبيانات مشفرة غير قابلة للقراءة</li>
+    </ul>
+
+    <h2>3. التشفير والأمان</h2>
+    <p>يستخدم Hash تقنيات تشفير متطورة لحماية اتصالاتك:</p>
+    <ul>
+      <li><strong>Signal Protocol:</strong> بروتوكول تشفير من طرف إلى طرف يُستخدم أيضًا بواسطة Signal وWhatsApp، ويوفر السرية الأمامية والسرية المستقبلية</li>
+      <li><strong>AES-256:</strong> خوارزمية تشفير متماثلة بمستوى عسكري لتشفير الرسائل والملفات</li>
+      <li><strong>Curve25519:</strong> منحنى إهليلجي لتبادل مفاتيح Diffie-Hellman</li>
+      <li><strong>Double Ratchet:</strong> كل رسالة تستخدم مفتاح جلسة فريدًا يتجدد تلقائيًا</li>
+      <li><strong>Sealed Sender:</strong> تقنية المُرسِل المجهول التي تمنع الخادم من معرفة مُرسِل الرسالة</li>
+    </ul>
+    <p><strong>مفاتيحك الخاصة لا تغادر جهازك أبدًا</strong>. يتم تخزينها محليًا في مساحة تخزين مشفرة (Hive) ولا تُنقل أبدًا إلى خوادمنا.</p>
+
+    <h2>4. مدة الاحتفاظ بالبيانات</h2>
+    <ul>
+      <li><strong>الرسائل أثناء النقل:</strong> تُخزَّن على الخادم لمدة <strong>24 ساعة كحد أقصى</strong>. بمجرد أن يؤكد المستلم الاستلام، تُحذف الرسالة <strong>فورًا وبشكل لا رجعة فيه</strong> من الخادم</li>
+      <li><strong>بيانات الحساب:</strong> تُحفظ طالما الحساب نشط. تُحذف فورًا ونهائيًا عند حذف الحساب (زر الطوارئ أو الحذف اليدوي)</li>
+      <li><strong>الملفات والوسائط:</strong> نفس سياسة الرسائل، تُحذف فور تأكيد الاستلام</li>
+    </ul>
+
+    <h2>5. التخزين المحلي</h2>
+    <p>تُخزَّن البيانات المحلية (الرسائل المفكوكة التشفير، جهات الاتصال، المفاتيح) <strong>فقط على جهازك</strong> في قاعدة بيانات Hive مشفرة. لا تُزامن هذه البيانات أبدًا مع خوادمنا أو السحابة.</p>
+    <p>في حالة فقدان أو تغيير الجهاز، تُفقد هذه البيانات <strong>نهائيًا</strong>. هذا خيار تصميمي متعمد: جهاز واحد = حساب واحد، بدون إمكانية استرداد.</p>
+
+    <h2>6. مشاركة البيانات مع أطراف ثالثة</h2>
+    <div class="highlight-box">
+      <p><strong>لا مشاركة للبيانات.</strong> لا يستخدم Hash أي أدوات تحليلات أو إعلانات أو متتبعات. نحن لا نشارك أو نبيع أو ننقل أي بيانات إلى أطراف ثالثة مهما كانت.</p>
+    </div>
+    <p>خوادمنا مُستضافة لدى Supabase. البيانات المُخزنة على هذه الخوادم هي إما بيانات مشفرة غير قابلة للقراءة (الرسائل) أو بيانات تقنية بسيطة (Hash ID، المفاتيح العامة).</p>
+    <p>تُسلَّم الإشعارات الفورية عبر Firebase Cloud Messaging (Google LLC). يعالج Google فقط رمز جهاز FCM لهذا الغرض. لا يُنقل أي محتوى رسائل عبر هذه الخدمة. <a href="https://firebase.google.com/support/privacy" target="_blank">سياسة خصوصية Firebase</a>.</p>
+
+    <h2>7. حقوقك (RGPD)</h2>
+    <p>وفقًا للائحة العامة لحماية البيانات (RGPD)، لديك الحقوق التالية:</p>
+    <ul>
+      <li><strong>حق الوصول:</strong> يمكنك طلب معرفة البيانات التي نحتفظ بها عنك (Hash ID، المفاتيح العامة، معرّف الجهاز)</li>
+      <li><strong>حق التصحيح:</strong> يمكنك طلب تصحيح البيانات غير الدقيقة</li>
+      <li><strong>حق المحو:</strong> يمكنك حذف جميع بياناتك في أي وقت عبر <strong>زر الطوارئ</strong> في التطبيق، أو عبر قسم الإعدادات. الحذف فوري ولا رجعة فيه</li>
+      <li><strong>حق نقل البيانات:</strong> نظرًا للحجم الأدنى من البيانات المُجمعة، يمكنك الاتصال بنا للحصول على نسخة من بياناتك</li>
+      <li><strong>حق الاعتراض:</strong> يمكنك الاعتراض على معالجة بياناتك عن طريق حذف حسابك</li>
+      <li><strong>حق تقديم شكوى:</strong> يمكنك تقديم شكوى لدى CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>)</li>
+    </ul>
+    <p>لممارسة حقوقك، تواصل معنا على <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>8. حقوقك (قوانين الخصوصية الأمريكية)</h2>
+    <p>إذا كنت مقيمًا في كاليفورنيا (CCPA/CPRA) أو فيرجينيا (VCDPA) أو كولورادو (CPA) أو ولاية أمريكية أخرى لديها تشريعات خصوصية، فلديك الحقوق التالية:</p>
+    <ul>
+      <li><strong>الحق في المعرفة:</strong> يمكنك طلب معلومات حول البيانات الشخصية التي نجمعها وكيفية استخدامها</li>
+      <li><strong>الحق في الحذف:</strong> يمكنك طلب حذف بياناتك الشخصية في أي وقت عبر ميزة الحذف في التطبيق أو بالتواصل معنا</li>
+      <li><strong>الحق في رفض البيع:</strong> نحن لا نبيع أو نشارك أو نؤجر بياناتك الشخصية لأطراف ثالثة مقابل مقابل مادي أو أي مقابل آخر ذي قيمة</li>
+      <li><strong>الحق في عدم التمييز:</strong> لن نميز ضدك لممارسة حقوقك في الخصوصية</li>
+    </ul>
+    <p>لممارسة هذه الحقوق، استخدم ميزة حذف الحساب في التطبيق أو تواصل معنا على <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>9. الحد الأدنى للسن</h2>
+    <p>Hash مُخصص للأشخاص الذين يبلغون <strong>13 عامًا أو أكثر</strong>. في بعض دول الاتحاد الأوروبي التي يتطلب فيها القانون المحلي ذلك، قد يكون الحد الأدنى للسن <strong>16 عامًا</strong>.</p>
+    <p>نحن لا نجمع عن عمد بيانات تتعلق بأطفال دون الحد الأدنى للسن المعمول به. إذا كنت والدًا أو وصيًا وتعتقد أن طفلك يستخدم Hash دون موافقتك، تواصل معنا على <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>10. ملفات تعريف الارتباط وتقنيات التتبع</h2>
+    <p>تطبيق Hash <strong>لا يستخدم أي ملفات تعريف ارتباط أو بكسلات تتبع أو أدوات تحليلات</strong>. كما أن موقع hash.devolim.fr لا يستخدم ملفات تعريف ارتباط للتتبع.</p>
+
+    <h2>11. عمليات النقل الدولية</h2>
+    <p>قد تُعالج البيانات التقنية البسيطة (Hash ID، المفاتيح العامة) على خوادم تقع خارج المنطقة الاقتصادية الأوروبية. ومع ذلك، نظرًا لأن جميع البيانات الحساسة مشفرة من طرف إلى طرف وأننا لا نجمع أي بيانات شخصية يمكن التعرف من خلالها على هويتك، فإن المخاطر على خصوصيتك تبقى ضئيلة.</p>
+
+    <h2>12. أمان البيانات</h2>
+    <p>نُطبق إجراءات الأمان التالية:</p>
+    <ul>
+      <li>تشفير من طرف إلى طرف لجميع الاتصالات (Signal Protocol)</li>
+      <li>تشفير AES-256 للبيانات المحلية</li>
+      <li>مصادقة بواسطة رمز PIN والبصمة البيومترية</li>
+      <li>رمز الإتلاف (duress PIN) للمحو الطارئ</li>
+      <li>حماية من لقطات الشاشة (FLAG_SECURE على Android)</li>
+      <li>حذف تلقائي للرسائل من الخادم بعد التسليم</li>
+      <li>الوصول إلى قاعدة البيانات حصريًا عبر دوال آمنة (security definer)</li>
+      <li>سياسات RLS (أمان مستوى الصف) على جميع الجداول</li>
+    </ul>
+
+    <h2>13. تعديلات هذه السياسة</h2>
+    <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. في حالة إجراء تعديل جوهري، سنُعلمك عبر إشعار في التطبيق. تاريخ آخر تحديث مُشار إليه أعلى هذه الصفحة.</p>
+
+    <h2>14. التواصل - مسؤول حماية البيانات</h2>
+    <p>لأي سؤال يتعلق بسياسة الخصوصية هذه أو حماية بياناتك الشخصية، يمكنك الاتصال بمسؤول حماية البيانات (DPO):</p>
+    <ul>
+      <li><strong>البريد الإلكتروني:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+      <li><strong>المسؤول:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">تطبيق المراسلة الذي لا يعرف شيئًا عنك.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">المنتج</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">الميزات</a></li>
+            <li><a href="security.html">الأمان</a></li>
+            <li><a href="index.html#download">تحميل</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">المشروع</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">مفتوح المصدر</a></li>
+            <li><a href="support.html">ادعم Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">قانوني</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">الخصوصية</a></li>
+            <li><a href="terms.html">شروط الاستخدام</a></li>
+            <li><a href="delete-account.html">حذف حسابي</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. جميع الحقوق محفوظة.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

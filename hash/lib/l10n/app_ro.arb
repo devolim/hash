@@ -1,0 +1,1039 @@
+{
+  "@@locale": "ro",
+  "appName": "Hash",
+  "appTagline": "Zero urme. Zero compromisuri.",
+  "conversations": "Conversatii",
+  "contacts": "Contacte",
+  "noConversation": "Nicio conversatie",
+  "noConversationSubtitle": "Adauga un contact pentru a incepe sa comunici in siguranta",
+  "pendingRequestsCount": "{count, plural, =1{1 cerere in asteptare} other{{count} cereri in asteptare}}",
+  "sentRequestsCount": "{count, plural, =1{1 cerere trimisa in asteptare} other{{count} cereri trimise in asteptare}}",
+  "addContact": "Adauga contact",
+  "shareApp": "Distribuie aplicatia",
+  "newMessage": "Mesaj nou",
+  "newConversation": "Trimite un mesaj",
+  "settings": "Setari",
+  "myHashId": "Hash ID-ul meu",
+  "supportHash": "Sustine Hash",
+  "supportHashSubtitle": "Hash este un proiect non-profit",
+  "donate": "Doneaza",
+  "appearance": "Aspect",
+  "theme": "Tema",
+  "themeAuto": "Automat",
+  "themeAutoSubtitle": "Urmeaza setarile sistemului",
+  "themeDark": "Intunecat",
+  "themeLight": "Luminos",
+  "themeRecommendation": "Tema intunecata este recomandata pentru confidentialitate mai buna",
+  "language": "Limba",
+  "languageAuto": "Automat (sistem)",
+  "notifications": "Notificari",
+  "messages": "Mesaje",
+  "calls": "Apeluri",
+  "vibration": "Vibratie",
+  "notificationContent": "Continut notificare",
+  "notificationContentFull": "Arata tot",
+  "notificationContentFullDesc": "Numele contactului si previzualizarea mesajului",
+  "notificationContentName": "Doar numele",
+  "notificationContentNameDesc": "Arata doar numele contactului",
+  "notificationContentDiscrete": "Discret",
+  "notificationContentDiscreteDesc": "Arata doar \"Mesaj nou\"",
+  "security": "Securitate",
+  "howHashProtectsYou": "Cum te protejeaza Hash",
+  "howHashProtectsYouSubtitle": "Intelege securitatea ta",
+  "accountSecurity": "Securitatea contului",
+  "accountSecuritySubtitle": "PIN, biometrie, Mod Vash",
+  "blockScreenshots": "Blocheaza capturile de ecran",
+  "transferDevice": "Transfera pe alt dispozitiv",
+  "transferDeviceSubtitle": "Migreaza contul tau",
+  "pinCode": "Cod PIN",
+  "changePin": "Schimba codul PIN",
+  "currentPin": "Codul PIN actual",
+  "newPin": "Cod PIN nou",
+  "confirmPin": "Confirma codul PIN",
+  "pinChanged": "Codul PIN a fost schimbat",
+  "incorrectPin": "PIN incorect",
+  "pinsDoNotMatch": "Codurile PIN nu se potrivesc",
+  "autoLock": "Blocare automata",
+  "autoLockDelay": "Intarziere blocare",
+  "autoLockImmediate": "Imediat",
+  "autoLockMinute": "1 minut",
+  "autoLockMinutes": "{count} minute",
+  "vashCode": "Cod Vash",
+  "vashModeTitle": "Mod Vash",
+  "vashModeExplanation": "Ultima ta plasa de siguranta.",
+  "vashModeDescription": "Vei alege un al doilea cod PIN. Daca esti vreodata fortat sa deschizi Hash, introdu acest cod in locul PIN-ului obisnuit.\n\nAplicatia se va deschide normal, dar toate conversatiile si contactele tale vor fi disparute.\n\nPentru oricine se uita la ecran, Hash pare pur si simplu gol — ca si cum nu l-ai fi folosit niciodata.",
+  "vashModeIrreversible": "Aceasta actiune este silentioasa si ireversibila.",
+  "chooseVashCode": "Alege codul meu Vash",
+  "vashCodeInfo": "Un al doilea cod PIN care deschide aplicatia normal, dar goala.",
+  "vashCodeInfoDetail": "Daca introduci acest cod in locul PIN-ului:",
+  "vashDeleteContacts": "Contactele tale dispar",
+  "vashDeleteMessages": "Conversatiile tale dispar",
+  "vashDeleteHistory": "Notitele tale dispar",
+  "vashKeepId": "Identitatea ta Hash (#XXX-XXX-XXX) ramane aceeasi",
+  "vashAppearNormal": "Aplicatia pare normala dar goala, ca noua. Aceasta actiune este ireversibila.",
+  "setupVashCode": "Configureaza codul Vash",
+  "modifyVashCode": "Modifica codul Vash",
+  "currentVashCode": "Codul Vash actual",
+  "newVashCode": "Cod Vash nou",
+  "confirmVashCode": "Confirma codul Vash",
+  "vashCodeConfigured": "Codul Vash a fost configurat",
+  "vashCodeModified": "Codul Vash a fost modificat",
+  "vashCodeMustDiffer": "Codul Vash trebuie sa fie diferit de PIN",
+  "incorrectVashCode": "Cod Vash incorect",
+  "vashWhatToDelete": "Ce ar trebui sa faca Modul Vash sa dispara?",
+  "vashDeleteContactsOption": "Contacte",
+  "vashDeleteMessagesOption": "Mesaje",
+  "vashDeleteNotesOption": "Notite",
+  "vashActivated": "Modul Vash activat",
+  "vashCreateSubtitle": "Alege un cod diferit de PIN-ul principal",
+  "vashConfirmSubtitle": "Confirma codul tau Vash",
+  "vashCodeSection": "Mod Vash",
+  "danger": "Pericol",
+  "panicButton": "Buton de panica",
+  "panicButtonSubtitle": "Sterge toate datele",
+  "deleteAccount": "Sterge contul meu",
+  "deleteAccountSubtitle": "Actiune ireversibila",
+  "deleteAccountConfirmTitle": "Sterge contul meu",
+  "deleteAccountConfirmMessage": "Contul tau va fi sters permanent. Aceasta actiune este ireversibila.\n\n• Toate conversatiile tale\n• Toate contactele tale\n• Hash ID-ul tau\n\nVa trebui sa creezi un cont nou.",
+  "deleteForever": "Sterge permanent",
+  "cancel": "Anuleaza",
+  "panicConfirmTitle": "Buton de panica",
+  "panicConfirmMessage": "Aceasta actiune va sterge permanent TOATE datele tale:\n\n• Toate mesajele tale\n• Toate contactele tale\n• Contul tau\n\nEsti absolut sigur?",
+  "deleteAll": "STERGE TOT",
+  "dataDeletedForSecurity": "Modul Vash activat.",
+  "deletionError": "Eroare la stergere: {error}",
+  "yourSecurity": "Securitatea ta",
+  "securityInfo": "• Criptare end-to-end (Signal Protocol)\n• Nicio data pe serverele noastre dupa livrare\n• Cheile stocate doar pe dispozitivul tau\n• Codul PIN nu este niciodata trimis la server",
+  "version": "Hash v{version}",
+  "welcome": "Bine ai venit",
+  "securityStatement1": "Mesajele tale sunt protejate.",
+  "securityStatement2": "Criptare end-to-end.",
+  "securityStatement3": "Nicio urma. Niciun compromis.",
+  "securityStatement4": "Confidentialitatea ta este un drept.",
+  "accessBlocked": "Acces blocat",
+  "tooManyAttempts": "Prea multe incercari. Incearca mai tarziu.",
+  "pleaseWait": "Te rugam sa astepti",
+  "waitDelay": "Te rugam sa astepti sa se termine intarzierea",
+  "attemptCount": "Incercarea {current} din {max}",
+  "retryIn": "Reincearca in {time}",
+  "forgotPin": "Ai uitat PIN-ul? Foloseste fraza de recuperare",
+  "useRecoveryPhrase": "Foloseste fraza de recuperare",
+  "recoveryWarningTitle": "Avertisment",
+  "recoveryWarningMessage": "Recuperarea contului va:",
+  "recoveryDeleteAllMessages": "Sterge TOATE mesajele tale",
+  "recoveryWaitDelay": "Necesita o intarziere de 1 ora",
+  "recoveryKeepContacts": "Pastra contactele tale",
+  "recoveryIrreversible": "Aceasta actiune este ireversibila. Mesajele tale vor fi pierdute permanent.",
+  "iUnderstand": "Inteleg",
+  "accountRecovery": "Recuperare cont",
+  "enterRecoveryPhrase": "Introdu cele 24 de cuvinte ale frazei de recuperare, separate prin spatii.",
+  "recoveryPhraseHint": "cuvant1 cuvant2 cuvant3 ...",
+  "recover": "Recupereaza",
+  "recoveryPhraseRequired": "Te rugam sa introduci fraza de recuperare",
+  "recoveryPhrase24Words": "Fraza trebuie sa contina exact 24 de cuvinte",
+  "incorrectRecoveryPhrase": "Fraza de recuperare incorecta",
+  "recoveryInitError": "Eroare la initializarea recuperarii",
+  "securityDelay": "Intarziere de securitate",
+  "securityDelayMessage": "Pentru securitatea ta, este necesara o perioada de asteptare inainte de a putea crea un nou PIN.",
+  "timeRemaining": "Timp ramas",
+  "messagesDeletedForProtection": "Mesajele tale au fost sterse pentru protectia ta.",
+  "canCloseApp": "Poti inchide aplicatia si sa revii mai tarziu.",
+  "onboardingTitle1": "Bine ai venit pe Hash",
+  "onboardingSubtitle1": "Mesagerul care nu lasa urme",
+  "onboardingTitle2": "Criptare totala",
+  "onboardingSubtitle2": "Mesajele tale sunt criptate end-to-end cu protocolul Signal",
+  "onboardingTitle3": "Nicio urma",
+  "onboardingSubtitle3": "Mesajele sunt sterse de pe servere la livrare",
+  "onboardingTitle4": "Securitatea ta",
+  "onboardingSubtitle4": "Cod PIN, Mod Vash si fraza de recuperare",
+  "getStarted": "Incepe",
+  "next": "Urmatorul",
+  "skip": "Sari",
+  "alreadyHaveAccount": "Am deja un cont",
+  "transferMyAccount": "Transfera contul meu",
+  "createPin": "Creeaza un cod PIN",
+  "createPinSubtitle": "Acest cod va proteja accesul la aplicatia ta",
+  "confirmYourPin": "Confirma codul tau PIN",
+  "confirmPinSubtitle": "Introdu din nou codul tau PIN",
+  "saveRecoveryPhrase": "Fraza de recuperare",
+  "saveRecoveryPhraseSubtitle": "Noteaza aceste 24 de cuvinte in ordine. Ele iti vor permite sa iti recuperezi contul daca uiti PIN-ul.",
+  "phraseWritten": "Am notat fraza",
+  "warningRecoveryPhrase": "Daca pierzi aceasta fraza si uiti PIN-ul, vei pierde accesul la cont.",
+  "accountTransferred": "Cont transferat",
+  "accountTransferredMessage": "Contul tau a fost transferat pe alt dispozitiv. Aceasta sesiune nu mai este valida.",
+  "accountTransferredInfo": "Daca nu ai initiat acest transfer, contul tau ar putea fi compromis.",
+  "logout": "Deconecteaza-te",
+  "transferAccount": "Transfera contul",
+  "transferAccountInfo": "Transfera contul tau Hash pe un dispozitiv nou. Sesiunea actuala va fi invalidata.",
+  "generateTransferCode": "Genereaza codul de transfer",
+  "transferCode": "Cod de transfer",
+  "transferCodeExpires": "Acest cod expira in {minutes} minute",
+  "enterCodeOnNewDevice": "Introdu acest cod pe noul dispozitiv pentru a transfera contul.",
+  "generateNewCode": "Genereaza cod nou",
+  "scanQrCode": "Scaneaza QR code",
+  "scanQrCodeSubtitle": "Scaneaza QR code-ul unui contact pentru a-l adauga",
+  "qrCodeDetected": "QR code detectat",
+  "invalidQrCode": "QR code invalid",
+  "cameraPermissionRequired": "Este necesara permisiunea camerei",
+  "myQrCode": "QR code-ul meu",
+  "myQrCodeSubtitle": "Distribuie acest QR code ca sa te poata adauga contactele",
+  "shareQrCode": "Distribuie",
+  "addContactTitle": "Adauga contact",
+  "addContactByHashId": "Introdu Hash ID-ul contactului tau",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Cauta",
+  "contactNotFound": "Contact negasit",
+  "contactAlreadyAdded": "Acest contact este deja in lista ta",
+  "contactAdded": "Contact adaugat",
+  "myProfile": "Profilul meu",
+  "myProfileSubtitle": "Distribuie aceste informatii ca altii sa te poata adauga",
+  "temporaryCode": "Cod temporar",
+  "temporaryCodeExpires": "Expira in {time}",
+  "codeExpired": "Cod expirat",
+  "generateNewCodeButton": "Cod nou",
+  "copyHashId": "Copiaza ID",
+  "copyCode": "Copiaza codul",
+  "copiedToClipboard": "Copiat",
+  "showMyQrCode": "Arata QR code-ul meu",
+  "orDivider": "sau",
+  "openScanner": "Deschide scanerul",
+  "addManually": "Adauga manual",
+  "contactHashIdLabel": "Hash ID-ul contactului",
+  "temporaryCodeLabel": "Cod temporar",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Cere contactului sa genereze un cod din profilul sau",
+  "verifyAndAdd": "Verifica si adauga",
+  "fillAllFields": "Te rugam sa completezi toate campurile",
+  "invalidHashIdFormat": "Format ID invalid (ex: 123-456-ABC)",
+  "userNotFound": "Utilizator negasit",
+  "cannotAddYourself": "Nu te poti adauga pe tine insuti",
+  "invalidOrExpiredCode": "Cod temporar invalid sau expirat",
+  "contactFound": "Contact gasit!",
+  "howToCallContact": "Cum ai vrea sa ii spui?",
+  "contactNameHint": "Numele contactului",
+  "addContactButton": "Adauga",
+  "contactDetails": "Detalii contact",
+  "contactName": "Numele contactului",
+  "contactHashId": "Hash ID",
+  "addedOn": "Adaugat pe {date}",
+  "deleteContact": "Sterge contactul",
+  "deleteContactConfirm": "Stergi acest contact?",
+  "deleteContactMessage": "Aceasta va sterge si intreaga conversatie.",
+  "delete": "Sterge",
+  "typeMessage": "Scrie un mesaj...",
+  "messageSent": "Trimis",
+  "messageDelivered": "Livrat",
+  "messageRead": "Citit",
+  "messageFailed": "Trimitere esuata",
+  "now": "Acum",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}h",
+  "daysAgo": "{count}z",
+  "today": "Azi",
+  "yesterday": "Ieri",
+  "dateAtTime": "{date} la {time}",
+  "shareMessage": "Alatura-te pe Hash! 🔒\n\nEste un mesager cu adevarat privat: criptare totala, nicio urma pe servere si mod de panica daca e nevoie.\n\nDescarca aplicatia aici 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Eroare",
+  "ok": "OK",
+  "view": "Vezi",
+  "yes": "Da",
+  "no": "Nu",
+  "save": "Salveaza",
+  "edit": "Editeaza",
+  "close": "Inchide",
+  "confirm": "Confirma",
+  "loading": "Se incarca...",
+  "retry": "Reincearca",
+  "pendingRequests": "Cereri in asteptare",
+  "noPendingRequests": "Nicio cerere in asteptare",
+  "pendingRequestsSubtitle": "Aceste persoane vor sa te adauge",
+  "requestFromUser": "Cerere de la {hashId}",
+  "requestExpiresIn": "Expira in {days} zile",
+  "acceptRequest": "Accepta",
+  "rejectRequest": "Respinge",
+  "requestAccepted": "Cerere acceptata",
+  "requestRejected": "Cerere respinsa",
+  "requestSent": "Cerere trimisa!",
+  "requestSentSubtitle": "Cererea ta a fost trimisa. Utilizatorul trebuie sa o accepte inainte sa puteti comunica.",
+  "requestAlreadyPending": "O cerere este deja in asteptare",
+  "requestAlreadySentByOther": "Aceasta persoana ti-a trimis deja o cerere",
+  "addByHashId": "Adauga dupa Hash ID",
+  "addByHashIdSubtitle": "Introdu Hash ID-ul si codul temporar al contactului",
+  "enterTemporaryCode": "Introdu codul de 6 cifre",
+  "sendRequest": "Trimite cererea",
+  "acceptContactTitle": "Accepta contactul",
+  "acceptContactSubtitle": "Poti sa ii dai un nume personalizat",
+  "leaveEmptyForHashId": "Lasa gol pentru a folosi Hash ID",
+  "firstName": "Prenume",
+  "lastName": "Nume",
+  "notes": "Notite",
+  "notesHint": "Notite personale despre acest contact",
+  "photoOptional": "Foto (optional)",
+  "contactNameOptional": "Nume (optional)",
+  "notesOptional": "Notite (optional)",
+  "storedLocally": "Stocat doar pe dispozitivul tau",
+  "encryptedMessageLabel": "Mesaj criptat",
+  "identityMessageHint": "Cine esti? Cum va cunoasteti?",
+  "messageWillBeSentEncrypted": "Acest mesaj va fi criptat si trimis destinatarului",
+  "sendRequestButton": "Trimite cererea",
+  "requestExpiresIn24h": "Cererea expira in 24h daca nu este acceptata",
+  "theyAlreadySentYouRequest": "Aceasta persoana ti-a trimis deja o cerere",
+  "requests": "Cereri",
+  "receivedRequests": "Primite",
+  "sentRequests": "Trimise",
+  "noSentRequests": "Nicio cerere trimisa",
+  "cancelRequest": "Anuleaza",
+  "deleteRequest": "Sterge cererea",
+  "requestCancelled": "Cerere anulata",
+  "sentTo": "Trimis catre {hashId}",
+  "expiresIn": "Expira in {time}",
+  "receivedAgo": "Primit acum {time}",
+  "messageFromRequester": "Mesaj de la solicitant",
+  "copy": "Copiaza",
+  "messageInfo": "Informatii mesaj",
+  "messageDirection": "Directie",
+  "messageSentByYou": "Trimis de tine",
+  "messageReceived": "Primit",
+  "messageSentAt": "Trimis la",
+  "messageStatus": "Stare",
+  "messageReadAt": "Citit la",
+  "messageType": "Tip",
+  "messageSize": "Dimensiune",
+  "messageExpiresAt": "Expira la",
+  "messageEncrypted": "Criptat end-to-end",
+  "messageStatusSending": "Se trimite...",
+  "messageStatusSent": "Trimis",
+  "messageStatusDelivered": "Livrat",
+  "messageStatusRead": "Citit",
+  "messageStatusFailed": "Esuat",
+  "serverStatus": "Server",
+  "onServer": "In asteptare livrare",
+  "deletedFromServer": "Sters",
+  "messageTypeText": "Text",
+  "messageTypeImage": "Imagine",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Voce",
+  "messageTypeFile": "Fisier",
+  "indefinitely": "Nedefinit",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "ore",
+  "minutes": "minute",
+  "seconds": "secunde",
+  "ephemeralMessages": "Mesaje efemere",
+  "ephemeralMessagesDescription": "Mesajele sunt sterse automat dupa acest timp",
+  "ephemeralImmediate": "Imediat (dupa citire)",
+  "ephemeralImmediateDesc": "Sterse imediat ce sunt citite",
+  "ephemeralMyPreference": "Preferinta mea",
+  "ephemeralMyPreferenceDesc": "Foloseste setarea globala",
+  "ephemeralDefaultSetting": "Durata mesajului",
+  "ephemeralChooseDefault": "Recomandat",
+  "ephemeral30Seconds": "30 secunde",
+  "ephemeral5Minutes": "5 minute",
+  "ephemeral1Hour": "1 ora",
+  "ephemeral3Hours": "3 ore",
+  "ephemeral6Hours": "6 ore",
+  "ephemeral12Hours": "12 ore",
+  "ephemeral24Hours": "24 ore",
+  "customDuration": "Durata personalizata",
+  "muteNotifications": "Dezactiveaza notificarile",
+  "muteDescription": "Nu vei primi notificari pentru acest contact",
+  "mutedUntil": "Dezactivat pana la {time}",
+  "notMuted": "Notificari activate",
+  "unmute": "Reactiveaza",
+  "notificationSound": "Sunet notificare",
+  "defaultSound": "Implicit",
+  "chatSettings": "Setari conversatie",
+  "bubbleColor": "Culoare balon",
+  "backgroundColor": "Culoare fundal",
+  "backgroundImage": "Imagine fundal",
+  "chatBackground": "Fundal conversatie",
+  "customColor": "Personalizat",
+  "defaultColor": "Implicit",
+  "imageSelected": "Imagine selectata",
+  "noImage": "Nicio imagine",
+  "color": "Culoare",
+  "image": "Imagine",
+  "tapToSelectImage": "Atinge pentru a selecta o imagine",
+  "changeImage": "Schimba imaginea",
+  "previewMessageReceived": "Salut!",
+  "previewMessageSent": "Buna!",
+  "messageAction": "Mesaj",
+  "callAction": "Apel",
+  "videoAction": "Video",
+  "personalNotes": "Notite personale",
+  "addNotes": "Adauga notite...",
+  "noNotes": "Nicio notita",
+  "messageNotifications": "Notificari mesaje",
+  "callNotifications": "Notificari apeluri",
+  "useGradient": "Foloseste gradient",
+  "gradientStart": "Culoare de start",
+  "gradientEnd": "Culoare de final",
+  "preview": "Previzualizare",
+  "reset": "Reseteaza",
+  "securityNumber": "Numar de securitate",
+  "securityNumberDescription": "Verifica ca numarul de securitate se potriveste cu dispozitivul lui {name}",
+  "verifyEncryption": "Verifica criptarea end-to-end",
+  "tapToCopy": "Atinge pentru a copia",
+  "howToVerify": "Cum sa verifici",
+  "verifyStep1": "Intalneste-te cu contactul tau personal sau suna-l",
+  "verifyStep2": "Compara numerele de securitate sau scaneaza QR code-urile",
+  "verifyStep3": "Daca se potrivesc, conversatia ta este sigura",
+  "scanToVerify": "Scaneaza pentru verificare",
+  "reportSpam": "Raporteaza spam",
+  "reportSpamSubtitle": "Raporteaza acest contact ca spam",
+  "reportSpamDescription": "Aceasta va raporta anonim acest contact. Identitatea ta nu va fi partajata. Esti sigur?",
+  "report": "Raporteaza",
+  "spamReported": "Spam raportat",
+  "reportError": "Raportul nu a putut fi trimis. Te rugam sa incerci din nou.",
+  "reportRateLimited": "Ai atins numarul maxim de rapoarte pentru azi.",
+  "blockContact": "Blocheaza contactul",
+  "blockContactDescription": "Acest contact nu va mai putea sa iti trimita mesaje sau sa te sune. Nu va fi notificat.",
+  "unblockContact": "Deblocheaza contactul",
+  "unblockContactDescription": "Acest contact va putea din nou sa iti trimita mesaje si sa te sune.",
+  "contactBlocked": "Contact blocat",
+  "contactUnblocked": "Contact deblocat",
+  "contactIsBlocked": "Acest contact este blocat",
+  "unblock": "Deblocheaza",
+  "deleteContactSubtitle": "Sterge acest contact si conversatia",
+  "confirmWithPin": "Confirma cu PIN",
+  "enterPinToConfirm": "Introdu PIN-ul pentru a confirma aceasta actiune",
+  "mute1Hour": "1 ora",
+  "mute8Hours": "8 ore",
+  "mute1Day": "1 zi",
+  "mute1Week": "1 saptamana",
+  "muteAlways": "Intotdeauna",
+  "muteExplanation": "Nu vei primi notificari pentru acest contact",
+  "howItWorks": "Cum functioneaza",
+  "ephemeralExplanation1": "Mesajele sunt sterse de pe server imediat ce sunt primite.",
+  "ephemeralExplanation2": "Aceasta setare defineste cand mesajele dispar de pe telefonul TAU dupa citire.",
+  "ephemeralExplanation3": "Contactul tau are propria setare pentru telefonul sau.",
+  "profilePhoto": "Foto profil",
+  "takePhoto": "Fa o fotografie",
+  "chooseFromGallery": "Alege din galerie",
+  "removePhoto": "Sterge fotografia",
+  "viewContactHashId": "Vezi identificatorul contactului",
+  "hashIdPartiallyMasked": "Partial mascat pentru securitatea ta si confidentialitatea contactului",
+  "addFirstContact": "Adauga primul tau contact",
+  "addFirstContactSubtitle": "Distribuie QR code-ul tau sau scaneaza-l pe al unui prieten",
+  "directory": "Director",
+  "noContacts": "Niciun contact",
+  "noContactsSubtitle": "Adauga un contact pentru a incepe",
+  "sendMessageAction": "Trimite un mesaj",
+  "audioCall": "Apel audio",
+  "videoCall": "Apel video",
+  "viewProfile": "Vezi profilul",
+  "deleteContactDirectory": "Sterge contactul",
+  "scanShort": "Scaneaza",
+  "addShort": "Adauga",
+  "deleteContactConfirmName": "Esti sigur ca vrei sa stergi pe {name}?",
+  "noNotesTitle": "Nicio notita",
+  "noNotesSubtitle": "Creeaza prima ta notita",
+  "newNote": "Notita noua",
+  "editNote": "Editeaza notita",
+  "deleteNote": "Sterge notita",
+  "deleteNoteConfirm": "Esti sigur ca vrei sa stergi aceasta notita?",
+  "noteTitle": "Titlu",
+  "noteContent": "Continut",
+  "addItem": "Adauga element",
+  "pinNote": "Fixeaza",
+  "unpinNote": "Defixeaza",
+  "noteColor": "Culoare",
+  "notePassword": "Parola",
+  "setPassword": "Seteaza parola",
+  "changePassword": "Schimba parola",
+  "removePassword": "Sterge parola",
+  "enterPassword": "Introdu parola",
+  "confirmPassword": "Confirma parola",
+  "passwordPin": "Cod PIN",
+  "passwordText": "Parola text",
+  "protectedNote": "Notita protejata",
+  "incorrectPassword": "Parola incorecta",
+  "passwordSet": "Parola setata",
+  "passwordRemoved": "Parola stearsa",
+  "notesBiometric": "Face ID pentru notite",
+  "notesBiometricSubtitle": "Necesita autentificare biometrica pentru a deschide notitele protejate",
+  "textNote": "Notita text",
+  "checklistNote": "Lista de verificare",
+  "tasksProgress": "{checked}/{total} sarcini",
+  "autoSaved": "Salvat",
+  "searchNotes": "Cauta notite",
+  "legalConsent": "Consimtamant legal",
+  "confirmAge13": "Confirm ca am cel putin 13 ani",
+  "acceptLegalStart": "Accept ",
+  "privacyPolicy": "Politica de confidentialitate",
+  "termsOfService": "Termeni si conditii",
+  "andThe": " si ",
+  "continueButton": "Continua",
+  "mustAcceptTerms": "Trebuie sa accepti ambele conditii pentru a continua",
+  "support": "Suport",
+  "contactSupport": "Contacteaza suportul",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Raporteaza abuz",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Legal",
+  "legalEntity": "Entitate juridica",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Fixeaza",
+  "unpinConversation": "Defixeaza",
+  "hideConversation": "Sterge din flux",
+  "deleteConversation": "Sterge conversatia",
+  "deleteConversationConfirm": "Introdu PIN-ul pentru a confirma stergerea tuturor mesajelor",
+  "noConversations": "Nicio conversatie inca",
+  "startConversation": "Incepe",
+  "microphonePermissionRequired": "Acces la microfon necesar",
+  "microphonePermissionExplanation": "Hash are nevoie de microfon pentru a efectua apeluri.",
+  "cameraPermissionExplanation": "Hash are nevoie de camera pentru apeluri video.",
+  "openSettings": "Deschide Setarile",
+  "callConnecting": "Se conecteaza...",
+  "callRinging": "Suna...",
+  "callReconnecting": "Se reconecteaza...",
+  "callReconnectingTimer": "Se reconecteaza ({seconds}s)",
+  "callPaused": "Pauză",
+  "callPausedSubtitle": "Apelul este încă activ",
+  "callRemoteMicMuted": "Microfonul contactului este dezactivat",
+  "callMiniControlsMute": "Dezactiveaza",
+  "callMiniControlsUnmute": "Activeaza",
+  "callMiniControlsHangUp": "Inchide",
+  "callMiniControlsReturn": "Inapoi la apel",
+  "callNetworkPoor": "Conexiune instabila",
+  "callNetworkLost": "Conexiune pierduta",
+  "callEndedTitle": "Apel incheiat",
+  "deviceData": "Datele dispozitivului",
+  "deviceDataSubtitle": "Stocare locala si pe server",
+  "localStorage": "Stocare locala",
+  "onThisDevice": "pe acest dispozitiv",
+  "encryptedDatabases": "Baze de date criptate",
+  "files": "Fisiere",
+  "secureKeychain": "Breloc securizat",
+  "cache": "Cache",
+  "contactsDetail": "Nume, avatare, chei Signal",
+  "messagesDetail": "Conversatii criptate",
+  "notesDetail": "Notite personale",
+  "signalSessions": "Sesiuni Signal",
+  "signalSessionsDetail": "Sesiuni de criptare",
+  "pendingContacts": "Contacte in asteptare",
+  "pendingContactsDetail": "Cereri in asteptare",
+  "callHistory": "Apeluri",
+  "callHistoryDetail": "Istoric apeluri",
+  "preferences": "Preferinte",
+  "preferencesDetail": "Preferinte media si apeluri",
+  "avatars": "Avatare",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{niciun fisier} =1{1 fisier} other{{count} fisiere}}",
+  "active": "Activ",
+  "notDefined": "Nedefinit",
+  "biometrics": "Biometrie",
+  "recoveryPhrase": "Fraza de recuperare",
+  "identity": "Identitate (Hash ID)",
+  "signalKeys": "Chei Signal Protocol",
+  "authTokens": "Token-uri de autentificare",
+  "contactNamesCache": "Cache nume contacte",
+  "remoteConfig": "Configurare la distanta",
+  "notificationPrefs": "Preferinte notificari",
+  "serverData": "Date server",
+  "serverDataInfo": "Hash pastreaza date minime pe server, toate criptate sau temporare.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash ID, chei publice, token mailbox",
+  "serverPrekeys": "Pre-chei",
+  "serverPrekeysDetail": "Chei Signal de unica folosinta (consumate)",
+  "serverMessages": "Mesaje in tranzit",
+  "serverMessagesDetail": "Sterse dupa livrare (max 24h)",
+  "serverMedia": "Media in tranzit",
+  "serverMediaDetail": "Sterse dupa descarcare",
+  "serverContactRequests": "Cereri de contact",
+  "serverContactRequestsDetail": "Expira dupa 24h",
+  "serverRateLimits": "Limite de rata",
+  "serverRateLimitsDetail": "Date temporare anti-abuz",
+  "privacyReassurance": "Hash nu poate citi mesajele tale. Toate datele sunt criptate end-to-end. Datele de pe server sunt sterse automat.",
+  "pinTooSimple": "Acest PIN este prea simplu. Alege un cod mai sigur.",
+  "genericError": "A aparut o eroare. Te rugam sa incerci din nou.",
+  "accountCreationError": "Nu s-a putut crea contul: {error}",
+  "phraseCopiedToClipboard": "Fraza copiata in clipboard",
+  "copyPhrase": "Copiaza fraza",
+  "recoveryPhraseSecurityWarning": "Noteaza aceasta fraza intr-un loc sigur. Daca pierzi PIN-ul fara aceasta fraza, vei pierde permanent accesul la datele tale.",
+  "noMessages": "Niciun mesaj",
+  "deleteAllMessagesWithContact": "Stergi toate mesajele cu {name}?",
+  "confirmation": "Confirmare",
+  "untitled": "Fara titlu",
+  "noSessions": "Nicio sesiune",
+  "unknownContact": "Contact necunoscut",
+  "unnamed": "Fara nume",
+  "noPendingRequestsAlt": "Nicio cerere in asteptare",
+  "deleteAllCallHistory": "Stergi tot istoricul apelurilor?",
+  "noCalls": "Niciun apel",
+  "noPreferences": "Nicio preferinta",
+  "resetAllMediaPrefs": "Resetezi toate preferintele media?",
+  "deleteThisAvatar": "Stergi acest avatar?",
+  "deleteAllAvatars": "Stergi toate avatarele?",
+  "noAvatars": "Niciun avatar",
+  "deleteThisFile": "Stergi acest fisier?",
+  "deleteAllMediaFiles": "Stergi toate fisierele media?",
+  "noMediaFiles": "Niciun fisier media",
+  "outgoing": "De iesire",
+  "incoming": "De intrare",
+  "ephemeralViewDuration": "Vizualizare efemera: {seconds}s",
+  "normalView": "Vizualizare normala",
+  "callReasonCompleted": "Finalizat",
+  "callReasonMissed": "Pierdut",
+  "callReasonDeclined": "Respins",
+  "callReasonFailed": "Esuat",
+  "justNow": "Chiar acum",
+  "timeAgoMinutes": "acum {count} min",
+  "timeAgoHours": "acum {count}h",
+  "timeAgoDays": "acum {count}z",
+  "messageTypeContact": "Contact",
+  "messageTypeLocation": "Locatie",
+  "statusQueued": "In coada",
+  "blockedBadge": "Blocat",
+  "protectedBadge": "Protejat",
+  "messageCount": "{count} mesaj(e)",
+  "deleteQuestion": "Stergi?",
+  "transferMyAccountTitle": "Transfera contul meu",
+  "loadingError": "Eroare de incarcare",
+  "transferToNewDevice": "Transfera pe un dispozitiv nou",
+  "transferInstructions": "Pe noul dispozitiv, alege \"Recupereaza contul meu\" si introdu aceste informatii:",
+  "yourHashIdLabel": "Hash ID-ul tau",
+  "enterYourPinCode": "Introdu codul tau PIN",
+  "pinOwnerConfirmation": "Pentru a confirma ca esti proprietarul acestui cont",
+  "scanThisQrCode": "Scaneaza acest QR code",
+  "withYourNewDevice": "Cu noul tau dispozitiv",
+  "orEnterTheCode": "sau introdu codul",
+  "transferCodeLabel": "Cod de transfer",
+  "proximityVerification": "Verificare de proximitate",
+  "bringDevicesCloser": "Apropie ambele dispozitive",
+  "confirmTransferQuestion": "Confirmi transferul?",
+  "accountWillBeTransferred": "Contul tau va fi transferat pe noul dispozitiv.\n\nAcest dispozitiv va fi deconectat permanent.",
+  "transferComplete": "Transfer complet",
+  "transferSuccessMessage": "Contul tau a fost transferat cu succes.\n\nAceasta aplicatie se va inchide acum.",
+  "manualVerification": "Verificare manuala",
+  "codeDisplayedOnBothDevices": "Codul afisat pe ambele dispozitive:",
+  "doesCodeMatchNewDevice": "Se potriveste acest cod cu cel de pe noul dispozitiv?",
+  "verifiedStatus": "Verificat",
+  "inProgressStatus": "In progres...",
+  "notAvailableStatus": "Indisponibil",
+  "codeExpiredRestart": "Codul a expirat. Te rugam sa reiei procesul.",
+  "codesDoNotMatchCancelled": "Codurile nu se potrivesc. Transfer anulat.",
+  "transferToDevice": "Catre: {device}",
+  "copiedExclamation": "Copiat!",
+  "expiresInTime": "Expira in {time}",
+  "biometricNotAvailable": "Biometria nu este disponibila pe acest dispozitiv",
+  "biometricAuthError": "Eroare in timpul autentificarii biometrice",
+  "authenticateForBiometric": "Te rugam sa te autentifici pentru a activa biometria",
+  "biometricAuthFailed": "Autentificarea biometrica a esuat",
+  "forceUpdateTitle": "Actualizare necesara",
+  "forceUpdateMessage": "O noua versiune Hash este disponibila. Te rugam sa actualizezi pentru a continua.",
+  "updateButton": "Actualizeaza",
+  "maintenanceInProgress": "Mentenanta in desfasurare",
+  "tryAgainLater": "Te rugam sa incerci mai tarziu",
+  "information": "Informatii",
+  "noLoginRecorded": "Nicio conectare inregistrata",
+  "nextUnlocksAppearHere": "Urmatoarele deblocari vor aparea aici.",
+  "noMaintenancePlanned": "Nicio mentenanta planificata",
+  "everythingWorkingNormally": "Totul functioneaza normal",
+  "locking": "Se blocheaza...",
+  "newMessageNotification": "Mesaj nou",
+  "secExplainTitle": "Cum te protejeaza Hash",
+  "secExplainIntro": "Hash este conceput astfel incat nimeni sa nu iti poata citi mesajele.",
+  "secExplainIntroSub": "Nici macar noi.\nIata cum functioneaza, explicat simplu.",
+  "secJourneyLabel": "CALATORIA",
+  "secJourneyTitle": "Calatoria mesajului tau",
+  "secJourneySubtitle": "De la degetul tau la ecranul contactului, fiecare pas este protejat. Urmareste traseul.",
+  "secStep1Title": "Scrii mesajul",
+  "secStep1Desc": "Tastezi \"Salut!\" in aplicatie. In acest moment, mesajul exista doar in memoria telefonului. Nimic nu a fost trimis.",
+  "secStep2Title": "Criptare cu Signal Protocol",
+  "secStep2Desc": "Imediat ce apesi \"Trimite\", mesajul este transformat intr-un sir de caractere incomprehensibil. E ca si cum mesajul tau ar fi inchis intr-un seif pe care doar contactul tau il poate deschide.",
+  "secStep3Title": "Sealed Sender: plicul invizibil",
+  "secStep3Desc": "Imagineaza-ti ca trimiti o scrisoare prin posta, dar fara adresa expeditorului pe plic. Exact asta face Hash. Mesajul este depus intr-o cutie postala anonima. Serverul nu stie cine l-a trimis.",
+  "secStep4Title": "Serverul nu vede nimic",
+  "secStep4Desc": "Serverul actioneaza ca un postas orb. Stie doar ca \"cineva a depus ceva in cutia postala #A7X9\". Nu stie cine l-a trimis, ce este sau pentru cine este.",
+  "secStep4Highlight": "Niciun metadat stocat: nicio adresa IP, niciun marcaj temporal, nicio legatura intre expeditor si destinatar.",
+  "secStep5Title": "Contactul tau primeste mesajul",
+  "secStep5Desc": "Telefonul contactului preia continutul din cutia postala anonima si decripteaza mesajul cu cheia lor privata, care nu a parasit niciodata dispozitivul lor. \"Salut!\" apare pe ecran.",
+  "secStep6Title": "Mesajul dispare de pe server",
+  "secStep6Desc": "Imediat ce contactul confirma receptia, serverul sterge permanent mesajul. Niciun cos de gunoi, nicio arhiva, nicio copie de rezerva. Chiar si mesajele necitite sunt distruse automat dupa 24 de ore.",
+  "secStep7Title": "Expirare locala",
+  "secStep7Desc": "Pe telefonul contactului, mesajul se autodistruge conform duratei alese: imediat dupa citire, 5 minute, 1 ora... tu decizi.",
+  "secJourneyConclusion": "Rezultat: zero urme pe server, zero urme pe dispozitive. Mesajul a existat doar cat a fost nevoie sa fie citit, apoi a disparut.",
+  "secArchLabel": "ARHITECTURA",
+  "secArchTitle": "5 straturi de protectie",
+  "secArchSubtitle": "Hash nu se bazeaza pe o singura tehnologie. Fiecare strat il intareste pe celelalte. Chiar daca un strat este compromis, datele tale raman in siguranta.",
+  "secLayer1Title": "Criptare end-to-end",
+  "secLayer1Desc": "Fiecare mesaj este criptat cu o cheie unica. Pe scurt: chiar daca cineva decripteaza un mesaj, nu va putea sa il decripteze pe urmatorul. Fiecare mesaj are propria incuietoare.",
+  "secLayer1Detail": "Pentru fisiere (fotografii, videoclipuri, documente), Hash foloseste criptare suplimentara AES-256-GCM. Fisierul este criptat inainte sa paraseasca telefonul.",
+  "secLayer2Title": "Sealed Sender (anonimitate retea)",
+  "secLayer2Desc": "Mesagerii obisnuiti trimit mesajele cu identitatea ta atasata. E ca si cum ti-ai scrie numele pe plic. Hash foloseste cutii postale anonime: serverul livreaza mesajul fara sa stie cine l-a trimis.",
+  "secLayer2Detail": "Rezultat: chiar si in cazul unei brese de date pe server, este imposibil sa se reconstructeasca cine vorbeste cu cine.",
+  "secLayer3Title": "Stergere automata",
+  "secLayer3Desc": "Mesajele sunt sterse de pe server imediat ce receptia este confirmata. Chiar daca un mesaj nu este niciodata preluat, este distrus automat dupa 24 de ore.",
+  "secLayer3Detail": "Pe telefon, mesajele se autodistrug conform duratei alese: imediat, 5 min, 15 min, 30 min, 1h, 3h, 6h sau 12h.",
+  "secLayer4Title": "Protectie acces local",
+  "secLayer4Desc": "Aplicatia este protejata printr-un PIN de 6 cifre si/sau biometrie (Face ID, amprenta). Dupa prea multe incercari esuate, aplicatia se blocheaza cu o intarziere crescatoare.",
+  "secLayer5Title": "Baza de date blocata",
+  "secLayer5Desc": "Pe partea de server, niciun utilizator nu poate scrie direct in baza de date. Toate actiunile trec prin functii securizate care verifica fiecare cerere.",
+  "secLayer5Detail": "E ca un ghiseu de banca: nu atingi niciodata seiful tu insuti. Faci o cerere, iar sistemul verifica daca ai dreptul inainte de a actiona.",
+  "secVashLabel": "UNIC IN LUME",
+  "secVashTitle": "Mod Vash",
+  "secVashSubtitle": "Un sistem de securitate de urgenta care nu exista in nicio alta aplicatie de mesagerie.",
+  "secVashScenarioTitle": "Imagineaza-ti aceasta situatie",
+  "secVashScenario1": "Cineva acceseaza telefonul tau",
+  "secVashScenario2": "Ti se cere codul PIN",
+  "secVashScenario3": "Vrei sa stergi urgent toate datele",
+  "secVashSolutionTitle": "Solutia: doua coduri PIN",
+  "secVashSolutionDesc": "Configurezi doua coduri PIN diferite in Hash:",
+  "secVashNormalCodeLabel": "Codul normal",
+  "secVashNormalCodeDesc": "Deschide aplicatia normal cu toate datele tale",
+  "secVashCodeLabel2": "Codul Vash",
+  "secVashCodeDescription": "Deschide aplicatia normal... dar toate datele tale sunt sterse silentios in fundal",
+  "secVashWhatHappensTitle": "Ce se intampla apoi",
+  "secVashWhatHappensDesc": "Aplicatia se deschide normal. Nicio alerta, nicio animatie suspecta. Ecranul arata pur si simplu o aplicatie goala, ca si cum ai instala-o.\n\nIn realitate, toate conversatiile, contactele si mesajele tale au fost sterse ireversibil intr-o fractiune de secunda.",
+  "secCallsLabel": "APELURI SI FISIERE",
+  "secCallsTitle": "Totul este criptat",
+  "secCallsSubtitle": "Nu doar mesajele. Absolut tot ce trece prin Hash este criptat end-to-end.",
+  "secAudioCallTitle": "Apeluri audio",
+  "secAudioCallDesc": "Criptate end-to-end prin WebRTC. Vocea este transmisa direct intre dispozitive.",
+  "secVideoCallTitle": "Apeluri video",
+  "secVideoCallDesc": "Aceeasi tehnologie, fiecare flux criptat individual.",
+  "secPhotosTitle": "Fotografii si videoclipuri",
+  "secPhotosDesc": "Criptate in AES-256-GCM inainte de a parasi telefonul.",
+  "secDocsTitle": "Documente",
+  "secDocsDesc": "PDF, ZIP, orice fisier. Numele, dimensiunea si continutul sunt criptate.",
+  "secAnonLabel": "ANONIMAT",
+  "secAnonTitle": "Nicio identitate necesara",
+  "secAnonSubtitle": "Hash nu iti cere niciodata numarul de telefon sau emailul. Esti identificat printr-un Hash ID unic si anonim.",
+  "secHashIdTitle": "Hash ID-ul tau",
+  "secHashIdDesc": "Acesta este identificatorul tau unic. Nu dezvaluie nimic despre tine: nici numele, nici numarul, nici locatia. E ca un pseudonim imposibil de legat de identitatea ta reala.\n\nPentru a adauga un contact, distribui Hash ID-ul sau scanezi un QR code. Atat. Niciun caiet de adrese sincronizat, nicio sugestie \"Persoane pe care le-ai putea cunoaste\".",
+  "secDataLabel": "DATE",
+  "secDataTitle": "Ce nu stie Hash",
+  "secDataSubtitle": "Cel mai bun mod de a proteja datele tale este sa nu le colectam.",
+  "secNeverCollected": "Niciodata colectate",
+  "secNeverItem1": "Continutul mesajelor",
+  "secNeverItem2": "Lista de contacte",
+  "secNeverItem3": "Numarul de telefon",
+  "secNeverItem4": "Adresa de email",
+  "secNeverItem5": "Adresa IP",
+  "secNeverItem6": "Locatia",
+  "secNeverItem7": "Metadate (cine vorbeste cu cine)",
+  "secNeverItem8": "Istoricul apelurilor",
+  "secNeverItem9": "Agenda de contacte",
+  "secNeverItem10": "Identificatori publicitari",
+  "secTempStored": "Stocate temporar",
+  "secTempItem1": "Hash ID anonim (identificator unic)",
+  "secTempItem2": "Chei publice de criptare",
+  "secTempItem3": "Mesaje criptate in tranzit (max 24h)",
+  "secTempNote": "Chiar si aceste date minime nu te pot identifica. Hash ID-ul tau nu este legat de nicio informatie personala.",
+  "secFooterTitle": "Confidentialitatea ta, libertatea ta",
+  "secFooterDesc": "Hash foloseste aceleasi tehnologii de criptare ca cele mai exigente aplicatii profesionale. Mesajele tale sunt protejate prin matematica, nu prin promisiuni.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometrie",
+  "biometricUnlock": "Deblochează cu amprenta sau Face ID",
+  "biometricWarningMessage": "Activând biometria, nu veți putea folosi codul Vash pentru a intra în aplicație.\n\nVeți putea folosi codul Vash doar dacă biometria eșuează (după mai multe încercări eșuate).\n\nSunteți sigur că doriți să continuați?",
+  "connectionCount": "Conexiune(i)",
+  "currentSession": "Curentă",
+  "dataLocalOnly": "Aceste date sunt stocate doar pe dispozitivul dvs. și nu sunt niciodată transmise.",
+  "doYouLikeHash": "Vă place Hash?",
+  "donationMessage": "Hash este un proiect non-profit. Sprijinul dvs. ne ajută să continuăm să construim un messenger cu adevărat privat.",
+  "enableBiometric": "Activează biometria",
+  "ephemeral1HourDesc": "Șters 1h după citire",
+  "ephemeral24HoursDesc": "Șters 24h după citire",
+  "ephemeral30SecondsDesc": "Șters 30s după citire",
+  "ephemeral5MinutesDesc": "Șters 5min după citire",
+  "ephemeral6HoursDesc": "Șters 6h după citire",
+  "feedback": "Feedback",
+  "historyLabel": "Istoric",
+  "hoursAgoLabel": "Acum {hours}h",
+  "hoursMinutesAgoLabel": "Acum {hours}h {minutes}min",
+  "justNowLabel": "Chiar acum",
+  "later": "Mai târziu",
+  "loginInfoText": "Fiecare deblocare prin PIN este înregistrată local. Doar ultimele 24 de ore sunt păstrate.",
+  "maintenanceActiveLabel": "ÎN CURS",
+  "maintenancePlannedLabel": "PLANIFICATĂ",
+  "maintenanceTitle": "Mentenanță",
+  "minutesAgoLabel": "Acum {count} min",
+  "periodLabel": "Perioadă",
+  "pinCodeForEntry": "Cod PIN pentru intrarea în aplicație",
+  "ratingBad": "Rău",
+  "ratingExcellent": "Excelent!",
+  "ratingGood": "Bine",
+  "ratingOk": "Ok",
+  "ratingTerrible": "Groaznic",
+  "recentConnections": "Conexiuni recente",
+  "share": "Distribuie",
+  "shareAppSubtitle": "Distribuiți Hash celor apropiați",
+  "showCallsInRecents": "Afișare în apeluri recente",
+  "showCallsInRecentsSubtitle": "Apelurile Hash apar în istoricul telefonului",
+  "todayLabel": "Astăzi",
+  "understood": "Am înțeles",
+  "yesterdayLabel": "Ieri",
+  "yourFeedbackHelps": "Feedback-ul dvs. ne ajută să îmbunătățim aplicația"
+}

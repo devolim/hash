@@ -1,0 +1,1038 @@
+{
+  "@@locale": "bs",
+
+  "appName": "Hash",
+  "appTagline": "Bez traga. Bez kompromisa.",
+
+  "conversations": "Chatovi",
+  "contacts": "Kontakti",
+  "noConversation": "Nema chatova",
+  "noConversationSubtitle": "Dodajte kontakt da započnete siguran razgovor",
+  "pendingRequestsCount": "{count, plural, =1{1 zahtjev na čekanju} other{{count} zahtjeva na čekanju}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 poslani zahtjev na čekanju} other{{count} poslanih zahtjeva na čekanju}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Dodaj kontakt",
+  "shareApp": "Podijeli aplikaciju",
+  "newMessage": "Nova poruka",
+  "newConversation": "Pošalji poruku",
+
+  "settings": "Postavke",
+  "myHashId": "Moj Hash ID",
+  "supportHash": "Podrži Hash",
+  "supportHashSubtitle": "Hash je neprofitni projekat",
+  "donate": "Doniraj",
+
+  "appearance": "Izgled",
+  "theme": "Tema",
+  "themeAuto": "Automatski",
+  "themeAutoSubtitle": "Prati sistemske postavke",
+  "themeDark": "Tamna",
+  "themeLight": "Svijetla",
+  "themeRecommendation": "Tamna tema se preporučuje za bolju privatnost",
+  "language": "Jezik",
+  "languageAuto": "Automatski (sistem)",
+
+  "notifications": "Obavještenja",
+  "messages": "Poruke",
+  "calls": "Pozivi",
+  "vibration": "Vibracija",
+  "notificationContent": "Sadržaj obavještenja",
+  "notificationContentFull": "Prikaži sve",
+  "notificationContentFullDesc": "Ime kontakta i pregled poruke",
+  "notificationContentName": "Samo ime",
+  "notificationContentNameDesc": "Prikazuje samo ime kontakta",
+  "notificationContentDiscrete": "Diskretno",
+  "notificationContentDiscreteDesc": "Prikazuje samo \"Nova poruka\"",
+
+  "security": "Sigurnost",
+  "howHashProtectsYou": "Kako vas Hash štiti",
+  "howHashProtectsYouSubtitle": "Razumijte svoju sigurnost",
+  "accountSecurity": "Sigurnost računa",
+  "accountSecuritySubtitle": "PIN, biometrija, Vash mod",
+  "blockScreenshots": "Blokiraj snimke ekrana",
+  "transferDevice": "Prebaci na drugi uređaj",
+  "transferDeviceSubtitle": "Migrirajte svoj račun",
+
+  "pinCode": "PIN kod",
+  "changePin": "Promijeni PIN kod",
+  "currentPin": "Trenutni PIN kod",
+  "newPin": "Novi PIN kod",
+  "confirmPin": "Potvrdi PIN kod",
+  "pinChanged": "PIN kod promijenjen",
+  "incorrectPin": "Neispravan PIN",
+  "pinsDoNotMatch": "PIN kodovi se ne podudaraju",
+
+  "autoLock": "Automatsko zaključavanje",
+  "autoLockDelay": "Odgoda zaključavanja",
+  "autoLockImmediate": "Odmah",
+  "autoLockMinute": "1 minuta",
+  "autoLockMinutes": "{count} minuta",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash kod",
+  "vashModeTitle": "Vash mod",
+  "vashModeExplanation": "Vaša krajnja sigurnosna mreža.",
+  "vashModeDescription": "Izabraćete drugi PIN kod. Ako vas ikada primoraju da otvorite Hash, unesite ovaj kod umjesto vašeg redovnog PIN-a.\n\nAplikacija će se otvoriti normalno, ali svi vaši razgovori i kontakti će nestati.\n\nZa svakoga ko gleda vaš ekran, Hash jednostavno izgleda prazan — kao da ga nikada niste koristili.",
+  "vashModeIrreversible": "Ova radnja je tiha i nepovratna.",
+  "chooseVashCode": "Izaberi moj Vash kod",
+  "vashCodeInfo": "Drugi PIN kod koji otvara aplikaciju normalno, ali praznu.",
+  "vashCodeInfoDetail": "Ako unesete ovaj kod umjesto PIN-a:",
+  "vashDeleteContacts": "Vaši kontakti nestaju",
+  "vashDeleteMessages": "Vaši razgovori nestaju",
+  "vashDeleteHistory": "Vaše bilješke nestaju",
+  "vashKeepId": "Vaš Hash identitet (#XXX-XXX-XXX) ostaje isti",
+  "vashAppearNormal": "Aplikacija izgleda normalno ali prazno, kao nova. Ova radnja je nepovratna.",
+  "setupVashCode": "Postavi Vash kod",
+  "modifyVashCode": "Izmijeni Vash kod",
+  "currentVashCode": "Trenutni Vash kod",
+  "newVashCode": "Novi Vash kod",
+  "confirmVashCode": "Potvrdi Vash kod",
+  "vashCodeConfigured": "Vash kod konfigurisan",
+  "vashCodeModified": "Vash kod izmijenjen",
+  "vashCodeMustDiffer": "Vash kod mora biti različit od PIN-a",
+  "incorrectVashCode": "Neispravan Vash kod",
+  "vashWhatToDelete": "Šta Vash mod treba učiniti da nestane?",
+  "vashDeleteContactsOption": "Kontakti",
+  "vashDeleteMessagesOption": "Poruke",
+  "vashDeleteNotesOption": "Bilješke",
+  "vashActivated": "Vash mod aktiviran",
+  "vashCreateSubtitle": "Izaberite kod različit od vašeg glavnog PIN-a",
+  "vashConfirmSubtitle": "Potvrdite svoj Vash kod",
+  "vashCodeSection": "Vash mod",
+
+  "pinCodeForEntry": "PIN kod za ulaz u aplikaciju",
+  "biometric": "Biometrija",
+  "biometricUnlock": "Otključaj otiskom prsta ili Face ID-om",
+  "enableBiometric": "Aktiviraj biometriju",
+  "biometricWarningMessage": "Aktiviranjem biometrije, nećete moći koristiti Vash kod za ulaz u aplikaciju.\n\nVash kod ćete moći koristiti samo ako biometrija ne uspije (nakon više neuspjelih pokušaja).\n\nJeste li sigurni da želite nastaviti?",
+  "understood": "Razumijem",
+
+  "shareAppSubtitle": "Podijelite Hash sa bližnjima",
+  "share": "Podijeli",
+
+  "danger": "Opasnost",
+  "panicButton": "Dugme za paniku",
+  "panicButtonSubtitle": "Izbriši sve podatke",
+  "deleteAccount": "Izbriši moj račun",
+  "deleteAccountSubtitle": "Nepovratna radnja",
+  "deleteAccountConfirmTitle": "Izbriši moj račun",
+  "deleteAccountConfirmMessage": "Vaš račun će biti trajno izbrisan. Ova radnja je nepovratna.\n\n• Svi vaši chatovi\n• Svi vaši kontakti\n• Vaš Hash ID\n\nMoraćete kreirati novi račun.",
+  "deleteForever": "Izbriši trajno",
+  "cancel": "Otkaži",
+
+  "panicConfirmTitle": "Dugme za paniku",
+  "panicConfirmMessage": "Ova radnja će trajno izbrisati SVE vaše podatke:\n\n• Sve vaše poruke\n• Sve vaše kontakte\n• Vaš račun\n\nJeste li apsolutno sigurni?",
+  "deleteAll": "IZBRIŠI SVE",
+  "dataDeletedForSecurity": "Vash mod aktiviran.",
+  "deletionError": "Greška pri brisanju: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Vaša sigurnost",
+  "securityInfo": "• End-to-end enkripcija (Signal Protocol)\n• Nema podataka na našim serverima nakon isporuke\n• Ključevi pohranjeni samo na vašem uređaju\n• PIN kod nikada nije poslan na server",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Dobrodošli",
+  "securityStatement1": "Vaše poruke su zaštićene.",
+  "securityStatement2": "End-to-end enkripcija.",
+  "securityStatement3": "Bez traga. Bez kompromisa.",
+  "securityStatement4": "Vaša privatnost je pravo.",
+
+  "accessBlocked": "Pristup blokiran",
+  "tooManyAttempts": "Previše pokušaja. Pokušajte ponovo kasnije.",
+  "pleaseWait": "Molimo sačekajte",
+  "waitDelay": "Molimo sačekajte da odgoda istekne",
+  "attemptCount": "Pokušaj {current} od {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Pokušajte ponovo za {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Zaboravili PIN? Koristite frazu za oporavak",
+  "useRecoveryPhrase": "Koristi frazu za oporavak",
+
+  "recoveryWarningTitle": "Upozorenje",
+  "recoveryWarningMessage": "Oporavak računa će:",
+  "recoveryDeleteAllMessages": "Izbrisati SVE vaše poruke",
+  "recoveryWaitDelay": "Zahtijevati odgodu od 1 sata",
+  "recoveryKeepContacts": "Zadržati vaše kontakte",
+  "recoveryIrreversible": "Ova radnja je nepovratna. Vaše poruke će biti trajno izgubljene.",
+  "iUnderstand": "Razumijem",
+
+  "accountRecovery": "Oporavak računa",
+  "enterRecoveryPhrase": "Unesite 24 riječi vaše fraze za oporavak, odvojene razmacima.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Oporavi",
+  "recoveryPhraseRequired": "Molimo unesite vašu frazu za oporavak",
+  "recoveryPhrase24Words": "Fraza mora sadržavati tačno 24 riječi",
+  "incorrectRecoveryPhrase": "Neispravna fraza za oporavak",
+  "recoveryInitError": "Greška pri inicijalizaciji oporavka",
+
+  "securityDelay": "Sigurnosna odgoda",
+  "securityDelayMessage": "Za vašu sigurnost, potrebno je sačekati prije kreiranja novog PIN-a.",
+  "timeRemaining": "Preostalo vrijeme",
+  "messagesDeletedForProtection": "Vaše poruke su izbrisane za vašu zaštitu.",
+  "canCloseApp": "Možete zatvoriti aplikaciju i vratiti se kasnije.",
+
+  "onboardingTitle1": "Dobrodošli u Hash",
+  "onboardingSubtitle1": "Komunikator koji ne ostavlja trag",
+  "onboardingTitle2": "Potpuna enkripcija",
+  "onboardingSubtitle2": "Vaše poruke su end-to-end enkriptovane Signal protokolom",
+  "onboardingTitle3": "Bez traga",
+  "onboardingSubtitle3": "Poruke se brišu sa servera po isporuci",
+  "onboardingTitle4": "Vaša sigurnost",
+  "onboardingSubtitle4": "PIN kod, Vash mod i fraza za oporavak",
+
+  "getStarted": "Započni",
+  "next": "Dalje",
+  "skip": "Preskoči",
+  "alreadyHaveAccount": "Već imam račun",
+  "transferMyAccount": "Prebaci moj račun",
+
+  "createPin": "Kreirajte PIN kod",
+  "createPinSubtitle": "Ovaj kod će štititi pristup vašoj aplikaciji",
+  "confirmYourPin": "Potvrdite svoj PIN kod",
+  "confirmPinSubtitle": "Ponovo unesite svoj PIN kod",
+
+  "saveRecoveryPhrase": "Fraza za oporavak",
+  "saveRecoveryPhraseSubtitle": "Zapišite ovih 24 riječi redom. One će vam omogućiti oporavak računa ako zaboravite PIN.",
+  "phraseWritten": "Zapisao/la sam svoju frazu",
+  "warningRecoveryPhrase": "Ako izgubite ovu frazu i zaboravite PIN, izgubićete pristup svom računu.",
+
+  "accountTransferred": "Račun prebačen",
+  "accountTransferredMessage": "Vaš račun je prebačen na drugi uređaj. Ova sesija više nije važeća.",
+  "accountTransferredInfo": "Ako niste vi pokrenuli ovaj prijenos, vaš račun je možda kompromitovan.",
+  "logout": "Odjavi se",
+
+  "transferAccount": "Prebaci račun",
+  "transferAccountInfo": "Prebacite svoj Hash račun na novi uređaj. Vaša trenutna sesija će biti poništena.",
+  "generateTransferCode": "Generiši kod za prijenos",
+  "transferCode": "Kod za prijenos",
+  "transferCodeExpires": "Ovaj kod ističe za {minutes} minuta",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Unesite ovaj kod na novom uređaju za prijenos računa.",
+  "generateNewCode": "Generiši novi kod",
+
+  "scanQrCode": "Skeniraj QR kod",
+  "scanQrCodeSubtitle": "Skenirajte QR kod kontakta da ga dodate",
+  "qrCodeDetected": "QR kod detektovan",
+  "invalidQrCode": "Nevažeći QR kod",
+  "cameraPermissionRequired": "Potrebna dozvola kamere",
+
+  "myQrCode": "Moj QR kod",
+  "myQrCodeSubtitle": "Podijelite ovaj QR kod da vas kontakti mogu dodati",
+  "shareQrCode": "Podijeli",
+
+  "addContactTitle": "Dodaj kontakt",
+  "addContactByHashId": "Unesite Hash ID vašeg kontakta",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Traži",
+  "contactNotFound": "Kontakt nije pronađen",
+  "contactAlreadyAdded": "Ovaj kontakt je već na vašoj listi",
+  "contactAdded": "Kontakt dodan",
+
+  "myProfile": "Moj profil",
+  "myProfileSubtitle": "Podijelite ove informacije da vas drugi mogu dodati",
+  "temporaryCode": "Privremeni kod",
+  "temporaryCodeExpires": "Ističe za {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Kod istekao",
+  "generateNewCodeButton": "Novi kod",
+  "copyHashId": "Kopiraj ID",
+  "copyCode": "Kopiraj kod",
+  "copiedToClipboard": "Kopirano",
+  "showMyQrCode": "Prikaži moj QR kod",
+  "orDivider": "ili",
+  "openScanner": "Otvori skener",
+  "addManually": "Dodaj ručno",
+  "contactHashIdLabel": "Hash ID kontakta",
+  "temporaryCodeLabel": "Privremeni kod",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Zamolite kontakt da generira kod sa svog profila",
+  "verifyAndAdd": "Verifikuj i dodaj",
+  "fillAllFields": "Molimo popunite sva polja",
+  "invalidHashIdFormat": "Nevažeći format ID-a (npr.: 123-456-ABC)",
+  "userNotFound": "Korisnik nije pronađen",
+  "cannotAddYourself": "Ne možete dodati sebe",
+  "invalidOrExpiredCode": "Nevažeći ili istekli privremeni kod",
+  "tooManyAttempts": "Previše pokušaja. Pokušajte ponovo kasnije.",
+  "contactFound": "Kontakt pronađen!",
+  "howToCallContact": "Kako želite da ga zovete?",
+  "contactNameHint": "Ime kontakta",
+  "addContactButton": "Dodaj",
+
+  "contactDetails": "Detalji kontakta",
+  "contactName": "Ime kontakta",
+  "contactHashId": "Hash ID",
+  "addedOn": "Dodano {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Izbriši kontakt",
+  "deleteContactConfirm": "Izbrisati ovaj kontakt?",
+  "deleteContactMessage": "Ovo će također izbrisati cijeli chat.",
+  "delete": "Izbriši",
+
+  "typeMessage": "Napišite poruku...",
+  "messageSent": "Poslano",
+  "messageDelivered": "Isporučeno",
+  "messageRead": "Pročitano",
+  "messageFailed": "Slanje nije uspjelo",
+
+  "now": "Sada",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}h",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Danas",
+  "yesterday": "Jučer",
+  "dateAtTime": "{date} u {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Pridruži mi se na Hash-u! 🔒\n\nTo je zaista privatni komunikator: potpuna enkripcija, bez tragova na serverima, i mod za paniku ako zatreba.\n\nPreuzmi aplikaciju ovdje 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Greška",
+  "ok": "U redu",
+  "view": "Pogledaj",
+  "yes": "Da",
+  "no": "Ne",
+  "save": "Sačuvaj",
+  "edit": "Uredi",
+  "close": "Zatvori",
+  "confirm": "Potvrdi",
+  "loading": "Učitavanje...",
+  "retry": "Pokušaj ponovo",
+
+  "pendingRequests": "Zahtjevi na čekanju",
+  "noPendingRequests": "Nema zahtjeva na čekanju",
+  "pendingRequestsSubtitle": "Ove osobe žele da vas dodaju",
+  "requestFromUser": "Zahtjev od {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Ističe za {days} dana",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Prihvati",
+  "rejectRequest": "Odbij",
+  "requestAccepted": "Zahtjev prihvaćen",
+  "requestRejected": "Zahtjev odbijen",
+  "requestSent": "Zahtjev poslan!",
+  "requestSentSubtitle": "Vaš zahtjev je poslan. Korisnik ga mora prihvatiti da biste mogli razgovarati.",
+  "requestAlreadyPending": "Zahtjev je već na čekanju",
+  "requestAlreadySentByOther": "Ova osoba vam je već poslala zahtjev",
+  "addByHashId": "Dodaj putem Hash ID-a",
+  "addByHashIdSubtitle": "Unesite Hash ID i privremeni kod kontakta",
+  "enterTemporaryCode": "Unesite 6-cifreni kod",
+  "sendRequest": "Pošalji zahtjev",
+  "acceptContactTitle": "Prihvati kontakt",
+  "acceptContactSubtitle": "Možete mu dati prilagođeno ime",
+  "leaveEmptyForHashId": "Ostavite prazno da koristite Hash ID",
+  "firstName": "Ime",
+  "lastName": "Prezime",
+  "notes": "Bilješke",
+  "notesHint": "Lične bilješke o ovom kontaktu",
+
+  "photoOptional": "Fotografija (opcionalno)",
+  "contactNameOptional": "Ime (opcionalno)",
+  "notesOptional": "Bilješke (opcionalno)",
+  "storedLocally": "Pohranjeno samo na vašem uređaju",
+  "encryptedMessageLabel": "Enkriptovana poruka",
+  "identityMessageHint": "Ko ste vi? Kako se poznajete?",
+  "messageWillBeSentEncrypted": "Ova poruka će biti enkriptovana i poslana primaocu",
+  "sendRequestButton": "Pošalji zahtjev",
+  "requestExpiresIn24h": "Zahtjev ističe za 24h ako nije prihvaćen",
+  "theyAlreadySentYouRequest": "Ova osoba vam je već poslala zahtjev",
+
+  "requests": "Zahtjevi",
+  "receivedRequests": "Primljeni",
+  "sentRequests": "Poslani",
+  "noSentRequests": "Nema poslanih zahtjeva",
+  "cancelRequest": "Otkaži",
+  "deleteRequest": "Izbriši zahtjev",
+  "requestCancelled": "Zahtjev otkazan",
+  "sentTo": "Poslano na {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Ističe za {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Primljeno prije {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Poruka od pošiljaoca zahtjeva",
+
+  "copy": "Kopiraj",
+  "messageInfo": "Info o poruci",
+
+  "messageDirection": "Smjer",
+  "messageSentByYou": "Poslano od vas",
+  "messageReceived": "Primljeno",
+  "messageSentAt": "Poslano u",
+  "messageStatus": "Status",
+  "messageReadAt": "Pročitano u",
+  "messageType": "Tip",
+  "messageSize": "Veličina",
+  "messageExpiresAt": "Ističe u",
+  "messageEncrypted": "End-to-end enkriptovano",
+
+  "messageStatusSending": "Slanje...",
+  "messageStatusSent": "Poslano",
+  "messageStatusDelivered": "Isporučeno",
+  "messageStatusRead": "Pročitano",
+  "messageStatusFailed": "Neuspjelo",
+
+  "serverStatus": "Server",
+  "onServer": "Čeka isporuku",
+  "deletedFromServer": "Izbrisano",
+
+  "messageTypeText": "Tekst",
+  "messageTypeImage": "Slika",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Glas",
+  "messageTypeFile": "Datoteka",
+
+  "indefinitely": "Neograničeno",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "sati",
+  "minutes": "minuta",
+  "seconds": "sekundi",
+
+  "ephemeralMessages": "Privremene poruke",
+  "ephemeralMessagesDescription": "Poruke se automatski brišu nakon ovog vremena",
+  "ephemeralImmediate": "Odmah (nakon čitanja)",
+  "ephemeralImmediateDesc": "Izbrisano čim se pročita",
+  "ephemeralMyPreference": "Moja preferencija",
+  "ephemeralMyPreferenceDesc": "Koristi globalne postavke",
+  "ephemeralDefaultSetting": "Trajanje poruka",
+  "ephemeralChooseDefault": "Preporučeno",
+  "ephemeral30Seconds": "30 sekundi",
+  "ephemeral30SecondsDesc": "Izbrisano 30s nakon čitanja",
+  "ephemeral5Minutes": "5 minuta",
+  "ephemeral5MinutesDesc": "Izbrisano 5min nakon čitanja",
+  "ephemeral1Hour": "1 sat",
+  "ephemeral1HourDesc": "Izbrisano 1h nakon čitanja",
+  "ephemeral3Hours": "3 sata",
+  "ephemeral6Hours": "6 sati",
+  "ephemeral6HoursDesc": "Izbrisano 6h nakon čitanja",
+  "ephemeral12Hours": "12 sati",
+  "ephemeral24Hours": "24 sata",
+  "ephemeral24HoursDesc": "Izbrisano 24h nakon čitanja",
+  "customDuration": "Prilagođeno trajanje",
+
+  "muteNotifications": "Utišaj obavještenja",
+  "muteDescription": "Nećete primati obavještenja za ovaj kontakt",
+  "mutedUntil": "Utišano do {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Obavještenja aktivna",
+  "unmute": "Uključi zvuk",
+
+  "notificationSound": "Zvuk obavještenja",
+  "defaultSound": "Zadani",
+
+  "chatSettings": "Postavke chata",
+  "bubbleColor": "Boja balončića",
+  "backgroundColor": "Boja pozadine",
+  "backgroundImage": "Slika pozadine",
+  "chatBackground": "Pozadina chata",
+  "customColor": "Prilagođena",
+  "defaultColor": "Zadana",
+  "imageSelected": "Slika odabrana",
+  "noImage": "Nema slike",
+  "color": "Boja",
+  "image": "Slika",
+  "tapToSelectImage": "Dodirnite da odaberete sliku",
+  "changeImage": "Promijeni sliku",
+  "previewMessageReceived": "Zdravo!",
+  "previewMessageSent": "Ej, kako si!",
+
+  "messageAction": "Poruka",
+  "callAction": "Poziv",
+  "videoAction": "Video",
+
+  "personalNotes": "Lične bilješke",
+  "addNotes": "Dodaj bilješke...",
+  "noNotes": "Nema bilješki",
+
+  "messageNotifications": "Obavještenja o porukama",
+  "callNotifications": "Obavještenja o pozivima",
+
+  "useGradient": "Koristi gradijent",
+  "gradientStart": "Početna boja",
+  "gradientEnd": "Krajnja boja",
+  "preview": "Pregled",
+  "reset": "Resetuj",
+
+  "securityNumber": "Sigurnosni broj",
+  "securityNumberDescription": "Verifikujte da se sigurnosni broj podudara sa uređajem kontakta {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Verifikuj end-to-end enkripciju",
+  "tapToCopy": "Dodirnite za kopiranje",
+  "howToVerify": "Kako verifikovati",
+  "verifyStep1": "Sretnite se sa kontaktom lično ili ga pozovite",
+  "verifyStep2": "Uporedite sigurnosne brojeve ili skenirajte QR kodove",
+  "verifyStep3": "Ako se podudaraju, vaš chat je siguran",
+  "scanToVerify": "Skeniraj za verifikaciju",
+
+  "reportSpam": "Prijavi spam",
+  "reportSpamSubtitle": "Prijavite ovaj kontakt kao spam",
+  "reportSpamDescription": "Ovaj kontakt će biti anonimno prijavljen. Vaš identitet neće biti podijeljen. Jeste li sigurni?",
+  "report": "Prijavi",
+  "spamReported": "Spam prijavljen",
+  "reportError": "Slanje prijave nije uspjelo. Molimo pokušajte ponovo.",
+  "reportRateLimited": "Dostigli ste maksimalan broj prijava za danas.",
+
+  "blockContact": "Blokiraj kontakt",
+  "blockContactDescription": "Ovaj kontakt vam više neće moći slati poruke ili vas pozivati. Neće biti obaviješten.",
+  "unblockContact": "Odblokiraj kontakt",
+  "unblockContactDescription": "Ovaj kontakt će vam ponovo moći slati poruke i pozivati vas.",
+  "contactBlocked": "Kontakt blokiran",
+  "contactUnblocked": "Kontakt odblokiran",
+  "contactIsBlocked": "Ovaj kontakt je blokiran",
+  "unblock": "Odblokiraj",
+
+  "deleteContactSubtitle": "Izbriši ovaj kontakt i chat",
+  "confirmWithPin": "Potvrdi PIN-om",
+  "enterPinToConfirm": "Unesite PIN da potvrdite ovu radnju",
+
+  "mute1Hour": "1 sat",
+  "mute8Hours": "8 sati",
+  "mute1Day": "1 dan",
+  "mute1Week": "1 sedmica",
+  "muteAlways": "Uvijek",
+  "muteExplanation": "Nećete primati obavještenja za ovaj kontakt",
+  "howItWorks": "Kako funkcioniše",
+  "ephemeralExplanation1": "Poruke se brišu sa servera čim se prime.",
+  "ephemeralExplanation2": "Ova postavka određuje kada poruke nestaju sa VAŠEG telefona nakon čitanja.",
+  "ephemeralExplanation3": "Vaš kontakt ima svoju postavku za svoj telefon.",
+
+  "showCallsInRecents": "Prikaži u nedavnim pozivima",
+  "showCallsInRecentsSubtitle": "Hash pozivi se pojavljuju u historiji poziva telefona",
+  "feedback": "Povratna informacija",
+
+  "profilePhoto": "Profilna fotografija",
+  "takePhoto": "Uslikaj fotografiju",
+  "chooseFromGallery": "Odaberi iz galerije",
+  "removePhoto": "Ukloni fotografiju",
+
+  "viewContactHashId": "Pogledaj identifikator kontakta",
+  "hashIdPartiallyMasked": "Djelomično maskiran za vašu sigurnost i privatnost kontakta",
+
+  "addFirstContact": "Dodajte prvi kontakt",
+  "addFirstContactSubtitle": "Podijelite QR kod ili skenirajte prijateljev",
+  "directory": "Imenik",
+  "noContacts": "Nema kontakata",
+  "noContactsSubtitle": "Dodajte kontakt da započnete",
+  "sendMessageAction": "Pošalji poruku",
+  "audioCall": "Audio poziv",
+  "videoCall": "Video poziv",
+  "viewProfile": "Pogledaj profil",
+  "deleteContactDirectory": "Izbriši kontakt",
+  "scanShort": "Skeniraj",
+  "addShort": "Dodaj",
+  "deleteContactConfirmName": "Jeste li sigurni da želite izbrisati {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Nema bilješki",
+  "noNotesSubtitle": "Kreirajte prvu bilješku",
+  "newNote": "Nova bilješka",
+  "editNote": "Uredi bilješku",
+  "deleteNote": "Izbriši bilješku",
+  "deleteNoteConfirm": "Jeste li sigurni da želite izbrisati ovu bilješku?",
+  "noteTitle": "Naslov",
+  "noteContent": "Sadržaj",
+  "addItem": "Dodaj stavku",
+  "pinNote": "Zakači",
+  "unpinNote": "Otkači",
+  "noteColor": "Boja",
+  "notePassword": "Lozinka",
+  "setPassword": "Postavi lozinku",
+  "changePassword": "Promijeni lozinku",
+  "removePassword": "Ukloni lozinku",
+  "enterPassword": "Unesite lozinku",
+  "confirmPassword": "Potvrdite lozinku",
+  "passwordPin": "PIN kod",
+  "passwordText": "Tekstualna lozinka",
+  "protectedNote": "Zaštićena bilješka",
+  "incorrectPassword": "Neispravna lozinka",
+  "passwordSet": "Lozinka postavljena",
+  "passwordRemoved": "Lozinka uklonjena",
+  "notesBiometric": "Face ID za bilješke",
+  "notesBiometricSubtitle": "Zahtijevaj biometrijsku autentikaciju za otvaranje zaštićenih bilješki",
+  "textNote": "Tekstualna bilješka",
+  "checklistNote": "Lista zadataka",
+  "tasksProgress": "{checked}/{total} zadataka",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Sačuvano",
+  "searchNotes": "Traži bilješke",
+  "legalConsent": "Pravna saglasnost",
+  "confirmAge13": "Potvrđujem da imam najmanje 13 godina",
+  "acceptLegalStart": "Prihvatam ",
+  "privacyPolicy": "Politiku privatnosti",
+  "termsOfService": "Uslove korištenja",
+  "andThe": " i ",
+  "continueButton": "Nastavi",
+  "mustAcceptTerms": "Morate prihvatiti oba uslova da nastavite",
+
+  "support": "Podrška",
+  "contactSupport": "Kontaktiraj podršku",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Prijavi zloupotrebu",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Pravno",
+  "legalEntity": "Pravni subjekt",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Zakači",
+  "unpinConversation": "Otkači",
+  "hideConversation": "Ukloni iz feeda",
+  "deleteConversation": "Izbriši razgovor",
+  "deleteConversationConfirm": "Unesite PIN da potvrdite brisanje svih poruka",
+  "noConversations": "Još nema razgovora",
+  "startConversation": "Započni",
+
+  "microphonePermissionRequired": "Potreban pristup mikrofonu",
+  "microphonePermissionExplanation": "Hash treba mikrofon za upućivanje poziva.",
+  "cameraPermissionExplanation": "Hash treba kameru za video pozive.",
+  "openSettings": "Otvori postavke",
+
+  "callConnecting": "Povezivanje...",
+  "callRinging": "Zvoni...",
+  "callReconnecting": "Ponovno povezivanje...",
+  "callReconnectingTimer": "Ponovno povezivanje ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Pauzirano",
+  "callPausedSubtitle": "Poziv je još aktivan",
+  "callRemoteMicMuted": "Mikrofon kontakta je utišan",
+  "callMiniControlsMute": "Utišaj",
+  "callMiniControlsUnmute": "Uključi zvuk",
+  "callMiniControlsHangUp": "Prekini",
+  "callMiniControlsReturn": "Vrati se na poziv",
+  "callNetworkPoor": "Nestabilna veza",
+  "callNetworkLost": "Veza izgubljena",
+  "callEndedTitle": "Poziv završen",
+
+  "deviceData": "Podaci uređaja",
+  "deviceDataSubtitle": "Lokalno i serversko skladištenje",
+  "localStorage": "Lokalno skladištenje",
+  "onThisDevice": "na ovom uređaju",
+  "encryptedDatabases": "Enkriptovane baze podataka",
+  "files": "Datoteke",
+  "secureKeychain": "Sigurni privjesak ključeva",
+  "cache": "Keš",
+  "contactsDetail": "Imena, avatari, Signal ključevi",
+  "messagesDetail": "Enkriptovani razgovori",
+  "notesDetail": "Lične bilješke",
+  "signalSessions": "Signal sesije",
+  "signalSessionsDetail": "Sesije enkripcije",
+  "pendingContacts": "Kontakti na čekanju",
+  "pendingContactsDetail": "Zahtjevi na čekanju",
+  "callHistory": "Pozivi",
+  "callHistoryDetail": "Historija poziva",
+  "preferences": "Preferencije",
+  "preferencesDetail": "Medijske i pozivne preferencije",
+  "avatars": "Avatari",
+  "media": "Mediji",
+  "fileCount": "{count, plural, =0{nema datoteka} =1{1 datoteka} other{{count} datoteka}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktivno",
+  "notDefined": "Nije definirano",
+  "biometrics": "Biometrija",
+  "recoveryPhrase": "Fraza za oporavak",
+  "identity": "Identitet (Hash ID)",
+  "signalKeys": "Signal Protocol ključevi",
+  "authTokens": "Tokeni autentikacije",
+  "contactNamesCache": "Keš imena kontakata",
+  "remoteConfig": "Udaljena konfiguracija",
+  "notificationPrefs": "Preferencije obavještenja",
+  "serverData": "Podaci na serveru",
+  "serverDataInfo": "Hash čuva minimalne podatke na serveru, sve enkriptovano ili privremeno.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash ID, javni ključevi, token poštanskog sandučeta",
+  "serverPrekeys": "Pred-ključevi",
+  "serverPrekeysDetail": "Jednokratni Signal ključevi (potrošeni)",
+  "serverMessages": "Poruke u tranzitu",
+  "serverMessagesDetail": "Izbrisane nakon isporuke (maks 24h)",
+  "serverMedia": "Mediji u tranzitu",
+  "serverMediaDetail": "Izbrisani nakon preuzimanja",
+  "serverContactRequests": "Zahtjevi za kontakt",
+  "serverContactRequestsDetail": "Ističu nakon 24h",
+  "serverRateLimits": "Ograničenja brzine",
+  "serverRateLimitsDetail": "Privremeni podaci protiv zloupotrebe",
+  "privacyReassurance": "Hash ne može čitati vaše poruke. Svi podaci su end-to-end enkriptovani. Serverski podaci se automatski brišu.",
+
+  "pinTooSimple": "Ovaj PIN je previše jednostavan. Odaberite sigurniji kod.",
+  "genericError": "Došlo je do greške. Molimo pokušajte ponovo.",
+  "accountCreationError": "Nije moguće kreirati račun: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Fraza kopirana u međuspremnik",
+  "copyPhrase": "Kopiraj frazu",
+  "recoveryPhraseSecurityWarning": "Zapišite ovu frazu na sigurno mjesto. Ako izgubite PIN bez ove fraze, trajno ćete izgubiti pristup podacima.",
+
+  "noMessages": "Nema poruka",
+  "deleteAllMessagesWithContact": "Izbrisati sve poruke sa {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Potvrda",
+  "untitled": "Bez naslova",
+  "noSessions": "Nema sesija",
+  "unknownContact": "Nepoznat kontakt",
+  "unnamed": "Bez imena",
+  "noPendingRequestsAlt": "Nema zahtjeva na čekanju",
+  "deleteAllCallHistory": "Izbrisati cijelu historiju poziva?",
+  "noCalls": "Nema poziva",
+  "noPreferences": "Nema preferencija",
+  "resetAllMediaPrefs": "Resetovati sve medijske preferencije?",
+  "deleteThisAvatar": "Izbrisati ovaj avatar?",
+  "deleteAllAvatars": "Izbrisati sve avatare?",
+  "noAvatars": "Nema avatara",
+  "deleteThisFile": "Izbrisati ovu datoteku?",
+  "deleteAllMediaFiles": "Izbrisati sve medije?",
+  "noMediaFiles": "Nema medija",
+  "outgoing": "Odlazni",
+  "incoming": "Dolazni",
+  "ephemeralViewDuration": "Privremeni prikaz: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normalan prikaz",
+  "callReasonCompleted": "Završen",
+  "callReasonMissed": "Propušten",
+  "callReasonDeclined": "Odbijen",
+  "callReasonFailed": "Neuspjeo",
+  "justNow": "Upravo sada",
+  "timeAgoMinutes": "Prije {count} min",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "Prije {count}h",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "Prije {count}d",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Lokacija",
+  "statusQueued": "U redu čekanja",
+  "blockedBadge": "Blokirano",
+  "protectedBadge": "Zaštićeno",
+  "messageCount": "{count} poruka",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Izbrisati?",
+
+  "transferMyAccountTitle": "Prebaci moj račun",
+  "loadingError": "Greška pri učitavanju",
+  "transferToNewDevice": "Prebaci na novi uređaj",
+  "transferInstructions": "Na novom uređaju odaberite \"Oporavi moj račun\" i unesite ove informacije:",
+  "yourHashIdLabel": "Vaš Hash ID",
+  "enterYourPinCode": "Unesite vaš PIN kod",
+  "pinOwnerConfirmation": "Da potvrdite da ste vlasnik ovog računa",
+  "scanThisQrCode": "Skenirajte ovaj QR kod",
+  "withYourNewDevice": "Sa vašim novim uređajem",
+  "orEnterTheCode": "ili unesite kod",
+  "transferCodeLabel": "Kod za prijenos",
+  "proximityVerification": "Verifikacija blizine",
+  "bringDevicesCloser": "Približite oba uređaja",
+  "confirmTransferQuestion": "Potvrditi prijenos?",
+  "accountWillBeTransferred": "Vaš račun će biti prebačen na novi uređaj.\n\nOvaj uređaj će biti trajno isključen.",
+  "transferComplete": "Prijenos završen",
+  "transferSuccessMessage": "Vaš račun je uspješno prebačen.\n\nOva aplikacija će se sada zatvoriti.",
+  "manualVerification": "Ručna verifikacija",
+  "codeDisplayedOnBothDevices": "Kod prikazan na oba uređaja:",
+  "doesCodeMatchNewDevice": "Podudara li se ovaj kod sa kodom na novom uređaju?",
+  "verifiedStatus": "Verifikovano",
+  "inProgressStatus": "U toku...",
+  "notAvailableStatus": "Nije dostupno",
+  "codeExpiredRestart": "Kod je istekao. Molimo pokrenite ponovo.",
+  "codesDoNotMatchCancelled": "Kodovi se ne podudaraju. Prijenos otkazan.",
+  "transferToDevice": "Na: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Kopirano!",
+  "expiresInTime": "Ističe za {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometrija nije dostupna na ovom uređaju",
+  "biometricAuthError": "Greška pri biometrijskoj autentikaciji",
+  "authenticateForBiometric": "Molimo autentikujte se da aktivirate biometriju",
+  "biometricAuthFailed": "Biometrijska autentikacija nije uspjela",
+
+  "forceUpdateTitle": "Potrebno ažuriranje",
+  "forceUpdateMessage": "Dostupna je nova verzija Hash-a. Molimo ažurirajte da nastavite.",
+  "updateButton": "Ažuriraj",
+  "maintenanceInProgress": "Održavanje u toku",
+  "tryAgainLater": "Molimo pokušajte ponovo kasnije",
+  "information": "Informacija",
+
+  "later": "Kasnije",
+  "doYouLikeHash": "Sviđa li vam se Hash?",
+  "yourFeedbackHelps": "Vaše mišljenje nam pomaže da poboljšamo aplikaciju",
+  "ratingTerrible": "Užasno",
+  "ratingBad": "Loše",
+  "ratingOk": "Okej",
+  "ratingGood": "Dobro",
+  "ratingExcellent": "Odlično!",
+  "donationMessage": "Hash je neprofitni projekat. Vaša podrška nam pomaže da nastavimo graditi zaista privatni komunikator.",
+
+  "recentConnections": "Nedavne konekcije",
+  "loginInfoText": "Svako otključavanje PIN-om se lokalno bilježi. Čuvaju se samo posljednja 24 sata.",
+  "connectionCount": "Konekcija(e)",
+  "periodLabel": "Period",
+  "historyLabel": "Historija",
+  "noLoginRecorded": "Nema zabilježenih prijava",
+  "nextUnlocksAppearHere": "Sljedeća otključavanja će se pojaviti ovdje.",
+  "dataLocalOnly": "Ovi podaci se čuvaju samo na vašem uređaju i nikada se ne prenose.",
+  "currentSession": "Trenutna",
+  "todayLabel": "Danas",
+  "yesterdayLabel": "Jučer",
+  "justNowLabel": "Upravo sada",
+  "minutesAgoLabel": "Prije {count} min",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "Prije {hours}h",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "Prije {hours}h {minutes}min",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Nema planiranog održavanja",
+  "everythingWorkingNormally": "Sve funkcioniše normalno",
+  "maintenanceTitle": "Održavanje",
+  "maintenanceActiveLabel": "U TOKU",
+  "maintenancePlannedLabel": "PLANIRANO",
+
+  "locking": "Zaključavanje...",
+
+  "newMessageNotification": "Nova poruka",
+
+  "secExplainTitle": "Kako vas Hash štiti",
+  "secExplainIntro": "Hash je dizajniran tako da niko ne može čitati vaše poruke.",
+  "secExplainIntroSub": "Čak ni mi.\nEvo kako funkcioniše, objašnjeno jednostavno.",
+  "secJourneyLabel": "PUTOVANJE",
+  "secJourneyTitle": "Putovanje vaše poruke",
+  "secJourneySubtitle": "Od vašeg prsta do ekrana kontakta, svaki korak je zaštićen. Pratite put.",
+  "secStep1Title": "Pišete svoju poruku",
+  "secStep1Desc": "Kucate \"Zdravo!\" u aplikaciji. U tom trenutku, poruka postoji samo u memoriji vašeg telefona. Ništa nije poslano.",
+  "secStep2Title": "Enkripcija sa Signal Protocol",
+  "secStep2Desc": "Čim pritisnete \"Pošalji\", vaša poruka se pretvara u niz nerazumljivih znakova. Kao da je vaša poruka zaključana u sef čiji ključ ima samo vaš kontakt.",
+  "secStep3Title": "Sealed Sender: nevidljiva koverta",
+  "secStep3Desc": "Zamislite da šaljete pismo poštom, ali bez adrese pošiljaoca na koverti. Tačno to radi Hash. Poruka se ubacuje u anonimno poštansko sanduče. Server ne zna ko ju je poslao.",
+  "secStep4Title": "Server ne vidi ništa",
+  "secStep4Desc": "Server igra ulogu slijepog poštara. Zna samo \"neko je ubacio nešto u sanduče #A7X9\". Ne zna ko je poslao, šta je, ni kome je namijenjeno.",
+  "secStep4Highlight": "Nikakvi metapodaci se ne čuvaju: ni IP adresa, ni vremenski pečat, ni veza između pošiljaoca i primaoca.",
+  "secStep5Title": "Vaš kontakt prima poruku",
+  "secStep5Desc": "Telefon vašeg kontakta preuzima sadržaj iz svog anonimnog sandučeta i dešifruje poruku svojim privatnim ključem, koji nikada nije napustio uređaj. \"Zdravo!\" se pojavljuje na ekranu.",
+  "secStep6Title": "Poruka nestaje sa servera",
+  "secStep6Desc": "Čim vaš kontakt potvrdi prijem, server trajno briše poruku. Nema kante za otpatke, arhive, ni sigurnosne kopije. Čak se i nepročitane poruke automatski uništavaju nakon 24 sata.",
+  "secStep7Title": "Lokalno istjecanje",
+  "secStep7Desc": "Na telefonu kontakta, poruka se sama uništava prema trajanju koje ste odabrali: odmah nakon čitanja, 5 minuta, 1 sat... vi odlučujete.",
+  "secJourneyConclusion": "Rezultat: nula tragova na serveru, nula tragova na uređajima. Poruka je postojala samo dovoljno dugo da bude pročitana, a onda je nestala.",
+  "secArchLabel": "ARHITEKTURA",
+  "secArchTitle": "5 slojeva zaštite",
+  "secArchSubtitle": "Hash se ne oslanja na jednu tehnologiju. Svaki sloj pojačava ostale. Čak i ako je jedan sloj kompromitovan, vaši podaci ostaju sigurni.",
+  "secLayer1Title": "End-to-end enkripcija",
+  "secLayer1Desc": "Svaka poruka je enkriptovana jedinstvenim ključem. Jednostavno rečeno: čak i ako neko dešifruje jednu poruku, neće moći dešifrovati sljedeću. Svaka poruka ima svoju bravu.",
+  "secLayer1Detail": "Za datoteke (fotografije, videe, dokumente), Hash koristi dodatnu AES-256-GCM enkripciju. Datoteka je enkriptovana prije nego što napusti vaš telefon.",
+  "secLayer2Title": "Sealed Sender (anonimnost mreže)",
+  "secLayer2Desc": "Obični komunikatori šalju vaše poruke s vašim identitetom. Kao da pišete ime na koverti. Hash koristi anonimna poštanska sandučad: server dostavlja poruku ne znajući ko ju je poslao.",
+  "secLayer2Detail": "Rezultat: čak i u slučaju curenja podataka sa servera, nemoguće je rekonstruisati ko priča s kim.",
+  "secLayer3Title": "Automatsko brisanje",
+  "secLayer3Desc": "Poruke se brišu sa servera čim se potvrdi prijem. Čak i ako poruka nikada nije preuzeta, automatski se uništava nakon 24 sata.",
+  "secLayer3Detail": "Na vašem telefonu, poruke se same uništavaju prema trajanju koje odaberete: odmah, 5 min, 15 min, 30 min, 1h, 3h, 6h ili 12h.",
+  "secLayer4Title": "Zaštita lokalnog pristupa",
+  "secLayer4Desc": "Aplikacija je zaštićena 6-cifrenim PIN-om i/ili biometrijom (Face ID, otisak prsta). Nakon previše neuspjelih pokušaja, aplikacija se zaključava sa rastućom odgodom nakon svakog neuspjeha.",
+  "secLayer5Title": "Zaključana baza podataka",
+  "secLayer5Desc": "Na strani servera, nijedan korisnik ne može direktno pisati u bazu podataka. Sve radnje prolaze kroz sigurne funkcije koje verificiraju svaki zahtjev.",
+  "secLayer5Detail": "To je kao šalter u banci: nikada ne dodirujete trezor sami. Podnesete zahtjev, a sistem provjerava imate li pravo prije nego djeluje.",
+  "secVashLabel": "JEDINSTVEN U SVIJETU",
+  "secVashTitle": "Vash mod",
+  "secVashSubtitle": "Hitni sigurnosni sistem koji ne postoji ni u jednoj drugoj aplikaciji za poruke.",
+  "secVashScenarioTitle": "Zamislite ovu situaciju",
+  "secVashScenario1": "Neko pristupa vašem telefonu",
+  "secVashScenario2": "Od vas traže PIN kod",
+  "secVashScenario3": "Želite hitno obrisati sve podatke",
+  "secVashSolutionTitle": "Rješenje: dva PIN koda",
+  "secVashSolutionDesc": "Konfigurišete dva različita PIN koda u Hash-u:",
+  "secVashNormalCodeLabel": "Normalni kod",
+  "secVashNormalCodeDesc": "Otvara aplikaciju normalno sa svim vašim podacima",
+  "secVashCodeLabel2": "Vash kod",
+  "secVashCodeDescription": "Otvara aplikaciju normalno... ali svi vaši podaci se tiho brišu u pozadini",
+  "secVashWhatHappensTitle": "Šta se dalje dešava",
+  "secVashWhatHappensDesc": "Aplikacija se otvara normalno. Nema upozorenja, nema sumnjive animacije. Ekran jednostavno prikazuje praznu aplikaciju, kao da ste je upravo instalirali.\n\nU stvarnosti, svi vaši razgovori, kontakti i poruke su nepovratno izbrisani u djeliću sekunde.",
+  "secCallsLabel": "POZIVI I DATOTEKE",
+  "secCallsTitle": "Sve je enkriptovano",
+  "secCallsSubtitle": "Nisu samo poruke. Apsolutno sve što prolazi kroz Hash je end-to-end enkriptovano.",
+  "secAudioCallTitle": "Audio pozivi",
+  "secAudioCallDesc": "End-to-end enkriptovani putem WebRTC. Glas se prenosi direktno između uređaja.",
+  "secVideoCallTitle": "Video pozivi",
+  "secVideoCallDesc": "Ista tehnologija, svaki stream enkriptovan pojedinačno.",
+  "secPhotosTitle": "Fotografije i videi",
+  "secPhotosDesc": "Enkriptovani u AES-256-GCM prije nego što napuste vaš telefon.",
+  "secDocsTitle": "Dokumenti",
+  "secDocsDesc": "PDF, ZIP, bilo koja datoteka. Ime, veličina i sadržaj enkriptovani.",
+  "secAnonLabel": "ANONIMNOST",
+  "secAnonTitle": "Identitet nije potreban",
+  "secAnonSubtitle": "Hash nikada ne traži vaš broj telefona ili email. Identifikovani ste jedinstvenim i anonimnim Hash ID-om.",
+  "secHashIdTitle": "Vaš Hash ID",
+  "secHashIdDesc": "Ovo je vaš jedinstveni identifikator. Ne otkriva ništa o vama: ni ime, ni broj, ni lokaciju. To je pseudonim koji je nemoguće povezati sa vašim pravim identitetom.\n\nDa dodate kontakt, dijelite svoj Hash ID ili skenirate QR kod. To je to. Bez sinhroniziranog imenika, bez prijedloga \"Ljudi koje možda poznajete\".",
+  "secDataLabel": "PODACI",
+  "secDataTitle": "Šta Hash ne zna",
+  "secDataSubtitle": "Najbolji način da zaštitite podatke je da ih ne prikupljate.",
+  "secNeverCollected": "Nikada prikupljeno",
+  "secNeverItem1": "Sadržaj poruka",
+  "secNeverItem2": "Lista kontakata",
+  "secNeverItem3": "Broj telefona",
+  "secNeverItem4": "Email adresa",
+  "secNeverItem5": "IP adresa",
+  "secNeverItem6": "Lokacija",
+  "secNeverItem7": "Metapodaci (ko priča s kim)",
+  "secNeverItem8": "Historija poziva",
+  "secNeverItem9": "Imenik",
+  "secNeverItem10": "Reklamni identifikatori",
+  "secTempStored": "Privremeno pohranjeno",
+  "secTempItem1": "Anonimni Hash ID (jedinstveni identifikator)",
+  "secTempItem2": "Javni ključevi enkripcije",
+  "secTempItem3": "Enkriptovane poruke u tranzitu (maks 24h)",
+  "secTempNote": "Čak ni ovi minimalni podaci vas ne mogu identificirati. Vaš Hash ID nije povezan ni sa kakvim ličnim informacijama.",
+  "secFooterTitle": "Vaša privatnost, vaša sloboda",
+  "secFooterDesc": "Hash koristi iste tehnologije enkripcije kao najzahtjevnije profesionalne aplikacije. Vaše poruke su zaštićene matematikom, ne obećanjima."
+}

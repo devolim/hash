@@ -1,0 +1,1039 @@
+{
+  "@@locale": "et",
+  "appName": "Hash",
+  "appTagline": "Jälgi null. Kompromissi null.",
+  "conversations": "Vestlused",
+  "contacts": "Kontaktid",
+  "noConversation": "Vestlusi pole",
+  "noConversationSubtitle": "Lisa kontakt, et alustada turvalist vestlust",
+  "pendingRequestsCount": "{count, plural, =1{1 ootel taotlus} other{{count} ootel taotlust}}",
+  "sentRequestsCount": "{count, plural, =1{1 saadetud taotlus ootel} other{{count} saadetud taotlust ootel}}",
+  "addContact": "Lisa kontakt",
+  "shareApp": "Jaga rakendust",
+  "newMessage": "Uus sõnum",
+  "newConversation": "Saada sõnum",
+  "settings": "Seaded",
+  "myHashId": "Minu Hash ID",
+  "supportHash": "Toeta Hash'i",
+  "supportHashSubtitle": "Hash on mittetulunduslik projekt",
+  "donate": "Anneta",
+  "appearance": "Välimus",
+  "theme": "Teema",
+  "themeAuto": "Automaatne",
+  "themeAutoSubtitle": "Järgib süsteemi seadeid",
+  "themeDark": "Tume",
+  "themeLight": "Hele",
+  "themeRecommendation": "Tume teema on soovitatav parema privaatsuse jaoks",
+  "language": "Keel",
+  "languageAuto": "Automaatne (süsteem)",
+  "notifications": "Teavitused",
+  "messages": "Sõnumid",
+  "calls": "Kõned",
+  "vibration": "Vibratsioon",
+  "notificationContent": "Teavituse sisu",
+  "notificationContentFull": "Näita kõike",
+  "notificationContentFullDesc": "Kontakti nimi ja sõnumi eelvaade",
+  "notificationContentName": "Ainult nimi",
+  "notificationContentNameDesc": "Näitab ainult kontakti nime",
+  "notificationContentDiscrete": "Diskreetne",
+  "notificationContentDiscreteDesc": "Näitab ainult \"Uus sõnum\"",
+  "security": "Turvalisus",
+  "howHashProtectsYou": "Kuidas Hash sind kaitseb",
+  "howHashProtectsYouSubtitle": "Mõista oma turvalisust",
+  "accountSecurity": "Konto turvalisus",
+  "accountSecuritySubtitle": "PIN, biomeetria, Vash režiim",
+  "blockScreenshots": "Blokeeri kuvatõmmised",
+  "transferDevice": "Kanna üle teisele seadmele",
+  "transferDeviceSubtitle": "Migreerige oma konto",
+  "pinCode": "PIN-kood",
+  "changePin": "Muuda PIN-koodi",
+  "currentPin": "Praegune PIN-kood",
+  "newPin": "Uus PIN-kood",
+  "confirmPin": "Kinnita PIN-kood",
+  "pinChanged": "PIN-kood muudetud",
+  "incorrectPin": "Vale PIN",
+  "pinsDoNotMatch": "PIN-koodid ei kattu",
+  "autoLock": "Automaatne lukustus",
+  "autoLockDelay": "Lukustuse viivitus",
+  "autoLockImmediate": "Kohene",
+  "autoLockMinute": "1 minut",
+  "autoLockMinutes": "{count} minutit",
+  "vashCode": "Vash kood",
+  "vashModeTitle": "Vash režiim",
+  "vashModeExplanation": "Teie viimane turvavõrk.",
+  "vashModeDescription": "Valite teise PIN-koodi. Kui teid sunnitakse Hash'i avama, sisestage see kood tavalise PIN-i asemel.\n\nRakendus avaneb normaalselt, kuid kõik teie vestlused ja kontaktid on kadunud.\n\nIgaüks, kes teie ekraanile vaatab, näeb Hash'i lihtsalt tühjana — nagu poleks te seda kunagi kasutanud.",
+  "vashModeIrreversible": "See toiming on vaikne ja pöördumatu.",
+  "chooseVashCode": "Vali Vash kood",
+  "vashCodeInfo": "Teine PIN-kood, mis avab rakenduse normaalselt, kuid tühjalt.",
+  "vashCodeInfoDetail": "Kui sisestate selle koodi oma PIN-i asemel:",
+  "vashDeleteContacts": "Teie kontaktid kaovad",
+  "vashDeleteMessages": "Teie vestlused kaovad",
+  "vashDeleteHistory": "Teie märkmed kaovad",
+  "vashKeepId": "Teie Hash identiteet (#XXX-XXX-XXX) jääb samaks",
+  "vashAppearNormal": "Rakendus tundub normaalne, kuid tühi, nagu uus. See toiming on pöördumatu.",
+  "setupVashCode": "Seadista Vash kood",
+  "modifyVashCode": "Muuda Vash koodi",
+  "currentVashCode": "Praegune Vash kood",
+  "newVashCode": "Uus Vash kood",
+  "confirmVashCode": "Kinnita Vash kood",
+  "vashCodeConfigured": "Vash kood seadistatud",
+  "vashCodeModified": "Vash kood muudetud",
+  "vashCodeMustDiffer": "Vash kood peab erinema PIN-ist",
+  "incorrectVashCode": "Vale Vash kood",
+  "vashWhatToDelete": "Mida peaks Vash režiim kaduma panema?",
+  "vashDeleteContactsOption": "Kontaktid",
+  "vashDeleteMessagesOption": "Sõnumid",
+  "vashDeleteNotesOption": "Märkmed",
+  "vashActivated": "Vash režiim aktiveeritud",
+  "vashCreateSubtitle": "Valige kood, mis erineb teie põhi-PIN-ist",
+  "vashConfirmSubtitle": "Kinnitage oma Vash kood",
+  "vashCodeSection": "Vash režiim",
+  "danger": "Oht",
+  "panicButton": "Paanikunupp",
+  "panicButtonSubtitle": "Kustuta kõik andmed",
+  "deleteAccount": "Kustuta konto",
+  "deleteAccountSubtitle": "Pöördumatu toiming",
+  "deleteAccountConfirmTitle": "Kustuta konto",
+  "deleteAccountConfirmMessage": "Teie konto kustutatakse jäädavalt. See toiming on pöördumatu.\n\n- Kõik teie vestlused\n- Kõik teie kontaktid\n- Teie Hash ID\n\nPeate looma uue konto.",
+  "deleteForever": "Kustuta jäädavalt",
+  "cancel": "Tühista",
+  "panicConfirmTitle": "Paanikunupp",
+  "panicConfirmMessage": "See toiming kustutab jäädavalt KÕIK teie andmed:\n\n- Kõik teie sõnumid\n- Kõik teie kontaktid\n- Teie konto\n\nKas olete täiesti kindel?",
+  "deleteAll": "KUSTUTA KÕIK",
+  "dataDeletedForSecurity": "Vash režiim aktiveeritud.",
+  "deletionError": "Kustutamise viga: {error}",
+  "yourSecurity": "Teie turvalisus",
+  "securityInfo": "- Täielik krüpteerimine (Signal Protocol)\n- Pärast kohaletoimetamist andmeid meie serverites pole\n- Võtmed salvestatakse ainult teie seadmesse\n- PIN-koodi ei saadeta kunagi serverisse",
+  "version": "Hash v{version}",
+  "welcome": "Tere tulemast",
+  "securityStatement1": "Teie sõnumid on kaitstud.",
+  "securityStatement2": "Täielik krüpteerimine.",
+  "securityStatement3": "Jälgi null. Kompromissi null.",
+  "securityStatement4": "Teie privaatsus on õigus.",
+  "accessBlocked": "Juurdepääs blokeeritud",
+  "tooManyAttempts": "Liiga palju katseid",
+  "pleaseWait": "Palun oodake",
+  "waitDelay": "Palun oodake viivituse lõpuni",
+  "attemptCount": "Katse {current}/{max}",
+  "retryIn": "Proovi uuesti {time} pärast",
+  "forgotPin": "Unustasid PIN-i? Kasuta taastefraasi",
+  "useRecoveryPhrase": "Kasuta taastefraasi",
+  "recoveryWarningTitle": "Hoiatus",
+  "recoveryWarningMessage": "Konto taastamine:",
+  "recoveryDeleteAllMessages": "Kustutab KÕIK teie sõnumid",
+  "recoveryWaitDelay": "Nõuab 1-tunnist viivitust",
+  "recoveryKeepContacts": "Säilitab teie kontaktid",
+  "recoveryIrreversible": "See toiming on pöördumatu. Teie sõnumid kaovad jäädavalt.",
+  "iUnderstand": "Ma mõistan",
+  "accountRecovery": "Konto taastamine",
+  "enterRecoveryPhrase": "Sisestage oma taastefraasi 24 sõna, eraldatuna tühikutega.",
+  "recoveryPhraseHint": "sõna1 sõna2 sõna3 ...",
+  "recover": "Taasta",
+  "recoveryPhraseRequired": "Palun sisestage oma taastefraas",
+  "recoveryPhrase24Words": "Fraas peab sisaldama täpselt 24 sõna",
+  "incorrectRecoveryPhrase": "Vale taastefraas",
+  "recoveryInitError": "Taastamise käivitamise viga",
+  "securityDelay": "Turvaviivitus",
+  "securityDelayMessage": "Teie turvalisuse tagamiseks on enne uue PIN-koodi loomist vajalik ooteaeg.",
+  "timeRemaining": "Aega jäänud",
+  "messagesDeletedForProtection": "Teie sõnumid on teie kaitseks kustutatud.",
+  "canCloseApp": "Võite rakenduse sulgeda ja hiljem tagasi tulla.",
+  "onboardingTitle1": "Tere tulemast Hash'i",
+  "onboardingSubtitle1": "Sõnumitooja, mis ei jäta jälge",
+  "onboardingTitle2": "Täielik krüpteerimine",
+  "onboardingSubtitle2": "Teie sõnumid on täielikult krüpteeritud Signal Protocol'iga",
+  "onboardingTitle3": "Jälgi null",
+  "onboardingSubtitle3": "Sõnumid kustutatakse serveritest kohe pärast kohaletoimetamist",
+  "onboardingTitle4": "Teie turvalisus",
+  "onboardingSubtitle4": "PIN-kood, Vash režiim ja taastefraas",
+  "getStarted": "Alusta",
+  "next": "Järgmine",
+  "skip": "Jäta vahele",
+  "alreadyHaveAccount": "Mul on juba konto",
+  "transferMyAccount": "Kanna minu konto üle",
+  "createPin": "Loo PIN-kood",
+  "createPinSubtitle": "See kood kaitseb juurdepääsu teie rakendusele",
+  "confirmYourPin": "Kinnitage oma PIN-kood",
+  "confirmPinSubtitle": "Sisestage oma PIN-kood uuesti",
+  "saveRecoveryPhrase": "Taastefraas",
+  "saveRecoveryPhraseSubtitle": "Kirjutage need 24 sõna järjestikku üles. Need võimaldavad teil konto taastada, kui unustate oma PIN-i.",
+  "phraseWritten": "Olen oma fraasi üles kirjutanud",
+  "warningRecoveryPhrase": "Kui kaotate selle fraasi ja unustate oma PIN-i, kaotate juurdepääsu oma kontole.",
+  "accountTransferred": "Konto üle kantud",
+  "accountTransferredMessage": "Teie konto on üle kantud teisele seadmele. See seanss ei kehti enam.",
+  "accountTransferredInfo": "Kui te seda ülekannet ei algatanud, võib teie konto olla ohustatud.",
+  "logout": "Logi välja",
+  "transferAccount": "Kanna konto üle",
+  "transferAccountInfo": "Kandke oma Hash konto uuele seadmele üle. Teie praegune seanss tühistatakse.",
+  "generateTransferCode": "Loo ülekandekood",
+  "transferCode": "Ülekandekood",
+  "transferCodeExpires": "See kood aegub {minutes} minuti pärast",
+  "enterCodeOnNewDevice": "Sisestage see kood oma uuele seadmele, et konto üle kanda.",
+  "generateNewCode": "Loo uus kood",
+  "scanQrCode": "Skaneeri QR code",
+  "scanQrCodeSubtitle": "Skaneerige kontakti QR code, et neid lisada",
+  "qrCodeDetected": "QR code tuvastatud",
+  "invalidQrCode": "Vigane QR code",
+  "cameraPermissionRequired": "Kaamera luba on vajalik",
+  "myQrCode": "Minu QR code",
+  "myQrCodeSubtitle": "Jagage seda QR code'i, et teie kontaktid saaksid teid lisada",
+  "shareQrCode": "Jaga",
+  "addContactTitle": "Lisa kontakt",
+  "addContactByHashId": "Sisestage oma kontakti Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Otsi",
+  "contactNotFound": "Kontakti ei leitud",
+  "contactAlreadyAdded": "See kontakt on juba teie nimekirjas",
+  "contactAdded": "Kontakt lisatud",
+  "myProfile": "Minu profiil",
+  "myProfileSubtitle": "Jagage seda teavet, et teised saaksid teid lisada",
+  "temporaryCode": "Ajutine kood",
+  "temporaryCodeExpires": "Aegub {time} pärast",
+  "codeExpired": "Kood aegunud",
+  "generateNewCodeButton": "Uus kood",
+  "copyHashId": "Kopeeri ID",
+  "copyCode": "Kopeeri kood",
+  "copiedToClipboard": "Kopeeritud",
+  "showMyQrCode": "Näita minu QR code'i",
+  "orDivider": "või",
+  "openScanner": "Ava skanner",
+  "addManually": "Lisa käsitsi",
+  "contactHashIdLabel": "Kontakti Hash ID",
+  "temporaryCodeLabel": "Ajutine kood",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Paluge oma kontaktil genereerida kood oma profiilist",
+  "verifyAndAdd": "Kontrolli ja lisa",
+  "fillAllFields": "Palun täitke kõik väljad",
+  "invalidHashIdFormat": "Vigane ID formaat (nt: 123-456-ABC)",
+  "userNotFound": "Kasutajat ei leitud",
+  "cannotAddYourself": "Te ei saa ennast lisada",
+  "invalidOrExpiredCode": "Vigane või aegunud ajutine kood",
+  "contactFound": "Kontakt leitud!",
+  "howToCallContact": "Kuidas soovite neid kutsuda?",
+  "contactNameHint": "Kontakti nimi",
+  "addContactButton": "Lisa",
+  "contactDetails": "Kontakti andmed",
+  "contactName": "Kontakti nimi",
+  "contactHashId": "Hash ID",
+  "addedOn": "Lisatud {date}",
+  "deleteContact": "Kustuta kontakt",
+  "deleteContactConfirm": "Kustutada see kontakt?",
+  "deleteContactMessage": "See kustutab ka kogu vestluse.",
+  "delete": "Kustuta",
+  "typeMessage": "Kirjutage sõnum...",
+  "messageSent": "Saadetud",
+  "messageDelivered": "Kohale toimetatud",
+  "messageRead": "Loetud",
+  "messageFailed": "Saatmine ebaõnnestus",
+  "now": "Praegu",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}t",
+  "daysAgo": "{count}p",
+  "today": "Täna",
+  "yesterday": "Eile",
+  "dateAtTime": "{date} kell {time}",
+  "shareMessage": "Liitu minuga Hash'is! See on tõeliselt privaatne sõnumitooja: täielik krüpteerimine, jälgi serverites pole ja paanikarežiim vajadusel.\n\nLaadi rakendus alla siit\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Viga",
+  "ok": "OK",
+  "view": "Vaata",
+  "yes": "Jah",
+  "no": "Ei",
+  "save": "Salvesta",
+  "edit": "Muuda",
+  "close": "Sulge",
+  "confirm": "Kinnita",
+  "loading": "Laadimine...",
+  "retry": "Proovi uuesti",
+  "pendingRequests": "Ootel taotlused",
+  "noPendingRequests": "Ootel taotlusi pole",
+  "pendingRequestsSubtitle": "Need inimesed soovivad teid lisada",
+  "requestFromUser": "Taotlus kasutajalt {hashId}",
+  "requestExpiresIn": "Aegub {days} päeva pärast",
+  "acceptRequest": "Nõustu",
+  "rejectRequest": "Keeldu",
+  "requestAccepted": "Taotlus vastu võetud",
+  "requestRejected": "Taotlus tagasi lükatud",
+  "requestSent": "Taotlus saadetud!",
+  "requestSentSubtitle": "Teie taotlus on saadetud. Kasutaja peab selle vastu võtma enne vestluse alustamist.",
+  "requestAlreadyPending": "Taotlus on juba ootel",
+  "requestAlreadySentByOther": "See isik on teile juba taotluse saatnud",
+  "addByHashId": "Lisa Hash ID kaudu",
+  "addByHashIdSubtitle": "Sisestage kontakti Hash ID ja ajutine kood",
+  "enterTemporaryCode": "Sisestage 6-kohaline kood",
+  "sendRequest": "Saada taotlus",
+  "acceptContactTitle": "Nõustu kontaktiga",
+  "acceptContactSubtitle": "Saate neile kohandatud nime anda",
+  "leaveEmptyForHashId": "Jätke tühjaks, et kasutada Hash ID-d",
+  "firstName": "Eesnimi",
+  "lastName": "Perekonnanimi",
+  "notes": "Märkmed",
+  "notesHint": "Isiklikud märkmed selle kontakti kohta",
+  "photoOptional": "Foto (valikuline)",
+  "contactNameOptional": "Nimi (valikuline)",
+  "notesOptional": "Märkmed (valikuline)",
+  "storedLocally": "Salvestatud ainult teie seadmesse",
+  "encryptedMessageLabel": "Krüpteeritud sõnum",
+  "identityMessageHint": "Kes te olete? Kuidas te üksteist tunnete?",
+  "messageWillBeSentEncrypted": "See sõnum krüpteeritakse ja saadetakse saajale",
+  "sendRequestButton": "Saada taotlus",
+  "requestExpiresIn24h": "Taotlus aegub 24 tunni pärast, kui seda vastu ei võeta",
+  "theyAlreadySentYouRequest": "See isik on teile juba taotluse saatnud",
+  "requests": "Taotlused",
+  "receivedRequests": "Saadud",
+  "sentRequests": "Saadetud",
+  "noSentRequests": "Saadetud taotlusi pole",
+  "cancelRequest": "Tühista",
+  "deleteRequest": "Kustuta taotlus",
+  "requestCancelled": "Taotlus tühistatud",
+  "sentTo": "Saadetud {hashId}",
+  "expiresIn": "Aegub {time} pärast",
+  "receivedAgo": "Saadud {time} tagasi",
+  "messageFromRequester": "Sõnum taotlejalt",
+  "copy": "Kopeeri",
+  "messageInfo": "Sõnumi info",
+  "messageDirection": "Suund",
+  "messageSentByYou": "Teie saadetud",
+  "messageReceived": "Saadud",
+  "messageSentAt": "Saadetud",
+  "messageStatus": "Olek",
+  "messageReadAt": "Loetud",
+  "messageType": "Tüüp",
+  "messageSize": "Suurus",
+  "messageExpiresAt": "Aegub",
+  "messageEncrypted": "Täielikult krüpteeritud",
+  "messageStatusSending": "Saatmine...",
+  "messageStatusSent": "Saadetud",
+  "messageStatusDelivered": "Kohale toimetatud",
+  "messageStatusRead": "Loetud",
+  "messageStatusFailed": "Ebaõnnestunud",
+  "serverStatus": "Server",
+  "onServer": "Ootab kohaletoimetamist",
+  "deletedFromServer": "Kustutatud",
+  "messageTypeText": "Tekst",
+  "messageTypeImage": "Pilt",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Hääl",
+  "messageTypeFile": "Fail",
+  "indefinitely": "Määramata ajaks",
+  "hoursShort": "t",
+  "minutesShort": "min",
+  "hours": "tundi",
+  "minutes": "minutit",
+  "seconds": "sekundit",
+  "ephemeralMessages": "Kaduv sõnum",
+  "ephemeralMessagesDescription": "Sõnumid kustutatakse automaatselt pärast seda aega",
+  "ephemeralImmediate": "Kohene (pärast lugemist)",
+  "ephemeralImmediateDesc": "Kustutatakse kohe pärast lugemist",
+  "ephemeralMyPreference": "Minu eelistus",
+  "ephemeralMyPreferenceDesc": "Kasuta üldist seadet",
+  "ephemeralDefaultSetting": "Sõnumi kestus",
+  "ephemeralChooseDefault": "Soovitatav",
+  "ephemeral30Seconds": "30 sekundit",
+  "ephemeral5Minutes": "5 minutit",
+  "ephemeral1Hour": "1 tund",
+  "ephemeral3Hours": "3 tundi",
+  "ephemeral6Hours": "6 tundi",
+  "ephemeral12Hours": "12 tundi",
+  "ephemeral24Hours": "24 tundi",
+  "customDuration": "Kohandatud kestus",
+  "muteNotifications": "Vaigista teavitused",
+  "muteDescription": "Te ei saa selle kontakti teavitusi",
+  "mutedUntil": "Vaigistatud kuni {time}",
+  "notMuted": "Teavitused lubatud",
+  "unmute": "Lülita tagasi sisse",
+  "notificationSound": "Teavituse heli",
+  "defaultSound": "Vaikimisi",
+  "chatSettings": "Vestluse seaded",
+  "bubbleColor": "Mulli värv",
+  "backgroundColor": "Taustavärv",
+  "backgroundImage": "Taustapilt",
+  "chatBackground": "Vestluse taust",
+  "customColor": "Kohandatud",
+  "defaultColor": "Vaikimisi",
+  "imageSelected": "Pilt valitud",
+  "noImage": "Pilti pole",
+  "color": "Värv",
+  "image": "Pilt",
+  "tapToSelectImage": "Puudutage pildi valimiseks",
+  "changeImage": "Muuda pilti",
+  "previewMessageReceived": "Tere!",
+  "previewMessageSent": "Hei!",
+  "messageAction": "Sõnum",
+  "callAction": "Kõne",
+  "videoAction": "Video",
+  "personalNotes": "Isiklikud märkmed",
+  "addNotes": "Lisa märkmeid...",
+  "noNotes": "Märkmeid pole",
+  "messageNotifications": "Sõnumi teavitused",
+  "callNotifications": "Kõne teavitused",
+  "useGradient": "Kasuta gradienti",
+  "gradientStart": "Algvärv",
+  "gradientEnd": "Lõppvärv",
+  "preview": "Eelvaade",
+  "reset": "Lähtesta",
+  "securityNumber": "Turvanumber",
+  "securityNumberDescription": "Kontrollige, et turvanumber ühtib {name} seadmega",
+  "verifyEncryption": "Kontrolli täielikku krüpteerimist",
+  "tapToCopy": "Puudutage kopeerimiseks",
+  "howToVerify": "Kuidas kontrollida",
+  "verifyStep1": "Kohtuge oma kontaktiga isiklikult või helistage neile",
+  "verifyStep2": "Võrrelge turvanumbreid või skaneerige QR code'e",
+  "verifyStep3": "Kui need ühtivad, on teie vestlus turvaline",
+  "scanToVerify": "Skaneeri kontrollimiseks",
+  "reportSpam": "Teata rämpspostist",
+  "reportSpamSubtitle": "Teatage sellest kontaktist kui rämpspostist",
+  "reportSpamDescription": "See teatab anonüümselt sellest kontaktist. Teie identiteeti ei jagata. Kas olete kindel?",
+  "report": "Teata",
+  "spamReported": "Rämpspostist teatatud",
+  "reportError": "Teate saatmine ebaõnnestus. Palun proovige uuesti.",
+  "reportRateLimited": "Olete jõudnud tänase teadete piirini.",
+  "blockContact": "Blokeeri kontakt",
+  "blockContactDescription": "See kontakt ei saa enam teile sõnumeid saata ega helistada. Neid ei teavitata.",
+  "unblockContact": "Deblokeeri kontakt",
+  "unblockContactDescription": "See kontakt saab teile uuesti sõnumeid saata ja helistada.",
+  "contactBlocked": "Kontakt blokeeritud",
+  "contactUnblocked": "Kontakt deblokeeritud",
+  "contactIsBlocked": "See kontakt on blokeeritud",
+  "unblock": "Deblokeeri",
+  "deleteContactSubtitle": "Kustuta see kontakt ja vestlus",
+  "confirmWithPin": "Kinnita PIN-iga",
+  "enterPinToConfirm": "Sisestage oma PIN selle toimingu kinnitamiseks",
+  "mute1Hour": "1 tund",
+  "mute8Hours": "8 tundi",
+  "mute1Day": "1 päev",
+  "mute1Week": "1 nädal",
+  "muteAlways": "Alati",
+  "muteExplanation": "Te ei saa selle kontakti teavitusi",
+  "howItWorks": "Kuidas see töötab",
+  "ephemeralExplanation1": "Sõnumid kustutatakse serverist kohe pärast vastuvõttu.",
+  "ephemeralExplanation2": "See seade määrab, millal sõnumid kaovad TEIE telefonist pärast lugemist.",
+  "ephemeralExplanation3": "Teie kontaktil on oma seade oma telefoni jaoks.",
+  "profilePhoto": "Profilifoto",
+  "takePhoto": "Tee foto",
+  "chooseFromGallery": "Vali galeriist",
+  "removePhoto": "Eemalda foto",
+  "viewContactHashId": "Vaata kontakti identifikaatorit",
+  "hashIdPartiallyMasked": "Osaliselt maskeeritud teie turvalisuse ja kontakti privaatsuse jaoks",
+  "addFirstContact": "Lisa esimene kontakt",
+  "addFirstContactSubtitle": "Jagage oma QR code'i või skaneerige sõbra oma",
+  "directory": "Kataloog",
+  "noContacts": "Kontakte pole",
+  "noContactsSubtitle": "Lisa kontakt alustamiseks",
+  "sendMessageAction": "Saada sõnum",
+  "audioCall": "Häälkõne",
+  "videoCall": "Videokõne",
+  "viewProfile": "Vaata profiili",
+  "deleteContactDirectory": "Kustuta kontakt",
+  "scanShort": "Skaneeri",
+  "addShort": "Lisa",
+  "deleteContactConfirmName": "Kas soovite kindlasti {name} kustutada?",
+  "noNotesTitle": "Märkmeid pole",
+  "noNotesSubtitle": "Looge oma esimene märkus",
+  "newNote": "Uus märkus",
+  "editNote": "Muuda märkust",
+  "deleteNote": "Kustuta märkus",
+  "deleteNoteConfirm": "Kas soovite kindlasti selle märkuse kustutada?",
+  "noteTitle": "Pealkiri",
+  "noteContent": "Sisu",
+  "addItem": "Lisa element",
+  "pinNote": "Kinnita",
+  "unpinNote": "Eemalda kinnitus",
+  "noteColor": "Värv",
+  "notePassword": "Parool",
+  "setPassword": "Määra parool",
+  "changePassword": "Muuda parooli",
+  "removePassword": "Eemalda parool",
+  "enterPassword": "Sisesta parool",
+  "confirmPassword": "Kinnita parool",
+  "passwordPin": "PIN-kood",
+  "passwordText": "Tekstiparool",
+  "protectedNote": "Kaitstud märkus",
+  "incorrectPassword": "Vale parool",
+  "passwordSet": "Parool määratud",
+  "passwordRemoved": "Parool eemaldatud",
+  "notesBiometric": "Face ID märkmete jaoks",
+  "notesBiometricSubtitle": "Nõua biomeetrilist autentimist kaitstud märkmete avamiseks",
+  "textNote": "Tekstimärkus",
+  "checklistNote": "Kontrollnimekiri",
+  "tasksProgress": "{checked}/{total} ülesannet",
+  "autoSaved": "Salvestatud",
+  "searchNotes": "Otsi märkmeid",
+  "legalConsent": "Õiguslik nõusolek",
+  "confirmAge13": "Kinnitan, et olen vähemalt 13-aastane",
+  "acceptLegalStart": "Nõustun ",
+  "privacyPolicy": "Privaatsuspoliitikaga",
+  "termsOfService": "Kasutustingimustega",
+  "andThe": " ja ",
+  "continueButton": "Jätka",
+  "mustAcceptTerms": "Jätkamiseks peate mõlemad tingimused aktsepteerima",
+  "support": "Tugi",
+  "contactSupport": "Võtke ühendust toega",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Teata kuritarvitamisest",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Õiguslik",
+  "legalEntity": "Juriidiline isik",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Kinnita",
+  "unpinConversation": "Eemalda kinnitus",
+  "hideConversation": "Eemalda voost",
+  "deleteConversation": "Kustuta vestlus",
+  "deleteConversationConfirm": "Sisestage oma PIN kõikide sõnumite kustutamise kinnitamiseks",
+  "noConversations": "Vestlusi pole veel",
+  "startConversation": "Alusta",
+  "microphonePermissionRequired": "Mikrofoni juurdepääs vajalik",
+  "microphonePermissionExplanation": "Hash vajab mikrofoni kõnede tegemiseks.",
+  "cameraPermissionExplanation": "Hash vajab kaamerat videokõnede jaoks.",
+  "openSettings": "Ava seaded",
+  "callConnecting": "Ühendumine...",
+  "callRinging": "Heliseb...",
+  "callReconnecting": "Taasühendumine...",
+  "callReconnectingTimer": "Taasühendumine ({seconds}s)",
+  "callPaused": "Peatatud",
+  "callPausedSubtitle": "Kõne on endiselt aktiivne",
+  "callRemoteMicMuted": "Kontakti mikrofon on vaigistatud",
+  "callMiniControlsMute": "Vaigista",
+  "callMiniControlsUnmute": "Lülita sisse",
+  "callMiniControlsHangUp": "Lõpeta kõne",
+  "callMiniControlsReturn": "Naase kõnesse",
+  "callNetworkPoor": "Ebastabiilne ühendus",
+  "callNetworkLost": "Ühendus kadunud",
+  "callEndedTitle": "Kõne lõppenud",
+  "deviceData": "Seadme andmed",
+  "deviceDataSubtitle": "Kohalik ja serveri salvestusruum",
+  "localStorage": "Kohalik salvestusruum",
+  "onThisDevice": "selles seadmes",
+  "encryptedDatabases": "Krüpteeritud andmebaasid",
+  "files": "Failid",
+  "secureKeychain": "Turvaline võtmehoidja",
+  "cache": "Vahemälu",
+  "contactsDetail": "Nimed, avatareid, Signal võtmed",
+  "messagesDetail": "Krüpteeritud vestlused",
+  "notesDetail": "Isiklikud märkmed",
+  "signalSessions": "Signal seansid",
+  "signalSessionsDetail": "Krüpteerimise seansid",
+  "pendingContacts": "Ootel kontaktid",
+  "pendingContactsDetail": "Ootel taotlused",
+  "callHistory": "Kõned",
+  "callHistoryDetail": "Kõnede ajalugu",
+  "preferences": "Eelistused",
+  "preferencesDetail": "Meedia ja kõnede eelistused",
+  "avatars": "Avatareid",
+  "media": "Meedia",
+  "fileCount": "{count, plural, =0{faile pole} =1{1 fail} other{{count} faili}}",
+  "active": "Aktiivne",
+  "notDefined": "Pole määratud",
+  "biometrics": "Biomeetria",
+  "recoveryPhrase": "Taastefraas",
+  "identity": "Identiteet (Hash ID)",
+  "signalKeys": "Signal Protocol võtmed",
+  "authTokens": "Autentimise tokenid",
+  "contactNamesCache": "Kontaktinimede vahemälu",
+  "remoteConfig": "Kaugkonfiguratsioon",
+  "notificationPrefs": "Teavituste eelistused",
+  "serverData": "Serveri andmed",
+  "serverDataInfo": "Hash hoiab serveris minimaalselt andmeid, kõik krüpteeritud või ajutised.",
+  "serverProfile": "Profiil",
+  "serverProfileDetail": "Hash ID, avalikud võtmed, postkasti token",
+  "serverPrekeys": "Eelvõtmed",
+  "serverPrekeysDetail": "Ühekordsed Signal võtmed (tarbitud)",
+  "serverMessages": "Sõnumid teel",
+  "serverMessagesDetail": "Kustutatakse pärast kohaletoimetamist (max 24t)",
+  "serverMedia": "Meedia teel",
+  "serverMediaDetail": "Kustutatakse pärast allalaadimist",
+  "serverContactRequests": "Kontaktitaotlused",
+  "serverContactRequestsDetail": "Aeguvad 24 tunni pärast",
+  "serverRateLimits": "Kiiruspiirangud",
+  "serverRateLimitsDetail": "Ajutised kuritarvitamisvastased andmed",
+  "privacyReassurance": "Hash ei saa teie sõnumeid lugeda. Kõik andmed on täielikult krüpteeritud. Serveri andmed kustutatakse automaatselt.",
+  "pinTooSimple": "See PIN on liiga lihtne. Valige turvalisem kood.",
+  "genericError": "Ilmnes viga. Palun proovige uuesti.",
+  "accountCreationError": "Konto loomine ebaõnnestus: {error}",
+  "phraseCopiedToClipboard": "Fraas kopeeritud lõikelauale",
+  "copyPhrase": "Kopeeri fraas",
+  "recoveryPhraseSecurityWarning": "Kirjutage see fraas turvalisse kohta üles. Kui kaotate oma PIN-i ilma selle fraasita, kaotate jäädavalt juurdepääsu oma andmetele.",
+  "noMessages": "Sõnumeid pole",
+  "deleteAllMessagesWithContact": "Kustutada kõik sõnumid {name}-ga?",
+  "confirmation": "Kinnitus",
+  "untitled": "Pealkirjata",
+  "noSessions": "Seansse pole",
+  "unknownContact": "Tundmatu kontakt",
+  "unnamed": "Nimetu",
+  "noPendingRequestsAlt": "Ootel taotlusi pole",
+  "deleteAllCallHistory": "Kustutada kogu kõnede ajalugu?",
+  "noCalls": "Kõnesid pole",
+  "noPreferences": "Eelistusi pole",
+  "resetAllMediaPrefs": "Lähtestada kõik meedia eelistused?",
+  "deleteThisAvatar": "Kustutada see avatar?",
+  "deleteAllAvatars": "Kustutada kõik avatarid?",
+  "noAvatars": "Avatare pole",
+  "deleteThisFile": "Kustutada see fail?",
+  "deleteAllMediaFiles": "Kustutada kogu meedia?",
+  "noMediaFiles": "Meediat pole",
+  "outgoing": "Väljaminev",
+  "incoming": "Sissetulev",
+  "ephemeralViewDuration": "Kaduv vaade: {seconds}s",
+  "normalView": "Tavaline vaade",
+  "callReasonCompleted": "Lõppenud",
+  "callReasonMissed": "Vastamata",
+  "callReasonDeclined": "Keeldutud",
+  "callReasonFailed": "Ebaõnnestunud",
+  "justNow": "Just praegu",
+  "timeAgoMinutes": "{count} min tagasi",
+  "timeAgoHours": "{count}t tagasi",
+  "timeAgoDays": "{count}p tagasi",
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Asukoht",
+  "statusQueued": "Järjekorras",
+  "blockedBadge": "Blokeeritud",
+  "protectedBadge": "Kaitstud",
+  "messageCount": "{count} sõnum(it)",
+  "deleteQuestion": "Kustutada?",
+  "transferMyAccountTitle": "Kanna minu konto üle",
+  "loadingError": "Laadimise viga",
+  "transferToNewDevice": "Kanna üle uuele seadmele",
+  "transferInstructions": "Valige oma uuel seadmel \"Taasta minu konto\" ja sisestage see teave:",
+  "yourHashIdLabel": "Teie Hash ID",
+  "enterYourPinCode": "Sisestage oma PIN-kood",
+  "pinOwnerConfirmation": "Konto omaniku kinnitamiseks",
+  "scanThisQrCode": "Skaneerige see QR code",
+  "withYourNewDevice": "Oma uue seadmega",
+  "orEnterTheCode": "või sisestage kood",
+  "transferCodeLabel": "Ülekandekood",
+  "proximityVerification": "Läheduse kontroll",
+  "bringDevicesCloser": "Tooge mõlemad seadmed lähemale",
+  "confirmTransferQuestion": "Kinnitada ülekanne?",
+  "accountWillBeTransferred": "Teie konto kantakse üle uuele seadmele.\n\nSee seade ühendatakse jäädavalt lahti.",
+  "transferComplete": "Ülekanne lõppenud",
+  "transferSuccessMessage": "Teie konto on edukalt üle kantud.\n\nRakendus sulgub nüüd.",
+  "manualVerification": "Käsitsi kontroll",
+  "codeDisplayedOnBothDevices": "Mõlemal seadmel kuvatav kood:",
+  "doesCodeMatchNewDevice": "Kas see kood ühtib uuel seadmel olevaga?",
+  "verifiedStatus": "Kontrollitud",
+  "inProgressStatus": "Pooleli...",
+  "notAvailableStatus": "Pole saadaval",
+  "codeExpiredRestart": "Kood on aegunud. Palun alustage uuesti.",
+  "codesDoNotMatchCancelled": "Koodid ei ühti. Ülekanne tühistatud.",
+  "transferToDevice": "Kuhu: {device}",
+  "copiedExclamation": "Kopeeritud!",
+  "expiresInTime": "Aegub {time} pärast",
+  "biometricNotAvailable": "Biomeetria pole selles seadmes saadaval",
+  "biometricAuthError": "Viga biomeetrilise autentimise ajal",
+  "authenticateForBiometric": "Palun autentimine biomeetria lubamiseks",
+  "biometricAuthFailed": "Biomeetriline autentimine ebaõnnestus",
+  "forceUpdateTitle": "Uuendus vajalik",
+  "forceUpdateMessage": "Hash'i uus versioon on saadaval. Palun uuendage jätkamiseks.",
+  "updateButton": "Uuenda",
+  "maintenanceInProgress": "Hooldus käimas",
+  "tryAgainLater": "Palun proovige hiljem uuesti",
+  "information": "Teave",
+  "noLoginRecorded": "Sisselogimist pole registreeritud",
+  "nextUnlocksAppearHere": "Järgmised avamised ilmuvad siia.",
+  "noMaintenancePlanned": "Hooldust pole planeeritud",
+  "everythingWorkingNormally": "Kõik töötab normaalselt",
+  "locking": "Lukustamine...",
+  "newMessageNotification": "Uus sõnum",
+  "secExplainTitle": "Kuidas Hash sind kaitseb",
+  "secExplainIntro": "Hash on loodud nii, et keegi ei saaks teie sõnumeid lugeda.",
+  "secExplainIntroSub": "Isegi mitte meie.\nSiin on, kuidas see töötab, lihtsalt selgitatud.",
+  "secJourneyLabel": "TEEKOND",
+  "secJourneyTitle": "Teie sõnumi teekond",
+  "secJourneySubtitle": "Teie sõrmest kontakti ekraanini on iga samm kaitstud. Järgige teekonda.",
+  "secStep1Title": "Kirjutate oma sõnumi",
+  "secStep1Desc": "Trükite rakenduses \"Tere!\". Sel hetkel eksisteerib sõnum ainult teie telefoni mälus. Midagi pole saadetud.",
+  "secStep2Title": "Krüpteerimine Signal Protocol'iga",
+  "secStep2Desc": "Kohe kui vajutate \"Saada\", muudetakse teie sõnum arusaamatuks tähemärkide jadaks. See on nagu teie sõnum lukustatakse seifi, millele ainult teie kontaktil on võti.",
+  "secStep3Title": "Sealed Sender: nähtamatu ümbrik",
+  "secStep3Desc": "Kujutage ette, et saadate kirja ilma tagastusaadressita ümbrikul. Täpselt seda Hash teeb. Sõnum pannakse anonüümsesse postkasti. Server ei tea, kes selle saatis.",
+  "secStep4Title": "Server ei näe midagi",
+  "secStep4Desc": "Server toimib pimeda postiljonina. Ta teab ainult, et \"keegi pani midagi postkasti #A7X9\". Ta ei tea, kes selle saatis, mis see on ega kellele see on.",
+  "secStep4Highlight": "Metaandmeid ei salvestata: IP-aadressi pole, ajatemplit pole, saatja ja saaja vahel seost pole.",
+  "secStep5Title": "Teie kontakt saab sõnumi",
+  "secStep5Desc": "Teie kontakti telefon hangib sisu anonüümsest postkastist ja dekrüpteerib sõnumi oma privaatvõtmega, mis pole kunagi seadmest lahkunud. \"Tere!\" ilmub ekraanile.",
+  "secStep6Title": "Sõnum kaob serverist",
+  "secStep6Desc": "Kohe kui kontakt kinnitab kättesaamist, kustutab server sõnumi jäädavalt. Prügikasti pole, arhiivi pole, varukoopiat pole. Isegi lugemata sõnumid hävitatakse automaatselt 24 tunni pärast.",
+  "secStep7Title": "Kohalik aegumine",
+  "secStep7Desc": "Teie kontakti telefonis hävitab sõnum ennast ise vastavalt teie valitud kestusele: kohe pärast lugemist, 5 minutit, 1 tund... teie otsustate.",
+  "secJourneyConclusion": "Tulemus: null jälge serveris, null jälge seadmetes. Sõnum eksisteeris ainult nii kaua, kui seda loeti, seejärel kadus.",
+  "secArchLabel": "ARHITEKTUUR",
+  "secArchTitle": "5 kaitsekihti",
+  "secArchSubtitle": "Hash ei tugine ühele tehnoloogiale. Iga kiht tugevdab teisi. Isegi kui üks kiht on ohustatud, jäävad teie andmed turvaliseks.",
+  "secLayer1Title": "Täielik krüpteerimine",
+  "secLayer1Desc": "Iga sõnum krüpteeritakse unikaalse võtmega. Lihtsamalt: isegi kui keegi dekrüpteerib ühe sõnumi, ei suuda ta järgmist dekrüpteerida. Igal sõnumil on oma lukk.",
+  "secLayer1Detail": "Failide (fotod, videod, dokumendid) jaoks kasutab Hash täiendavat AES-256-GCM krüpteerimist. Fail krüpteeritakse enne teie telefonist lahkumist.",
+  "secLayer2Title": "Sealed Sender (võrgu anonüümsus)",
+  "secLayer2Desc": "Tavalised sõnumitoojad saadavad teie sõnumid koos teie identiteediga. See on nagu kirjutaksite oma nime ümbrikule. Hash kasutab anonüümseid postkaste: server edastab sõnumi teadmata, kes selle saatis.",
+  "secLayer2Detail": "Tulemus: isegi serveri andmelekke korral on võimatu rekonstrueerida, kes kellega räägib.",
+  "secLayer3Title": "Automaatne kustutamine",
+  "secLayer3Desc": "Sõnumid kustutatakse serverist kohe pärast kättesaamise kinnitamist. Isegi kui sõnumit kunagi ei hangita, hävitatakse see automaatselt 24 tunni pärast.",
+  "secLayer3Detail": "Teie telefonis hävitavad sõnumid ennast vastavalt teie valitud kestusele: kohe, 5 min, 15 min, 30 min, 1t, 3t, 6t või 12t.",
+  "secLayer4Title": "Kohaliku juurdepääsu kaitse",
+  "secLayer4Desc": "Rakendust kaitseb 6-kohaline PIN ja/või biomeetria (Face ID, sõrmejälg). Pärast liiga paljusid ebaõnnestunud katseid lukustub rakendus iga ebaõnnestumise järel pikeneva viivitusega.",
+  "secLayer5Title": "Lukustatud andmebaas",
+  "secLayer5Desc": "Serveri poolel ei saa ükski kasutaja otse andmebaasi kirjutada. Kõik toimingud läbivad turvalisi funktsioone, mis kontrollivad iga taotlust.",
+  "secLayer5Detail": "See on nagu pangalett: te ei puutu kunagi ise hoidlat. Esitate taotluse ja süsteem kontrollib, et teil on õigus enne tegutsemist.",
+  "secVashLabel": "AINULAADNE MAAILMAS",
+  "secVashTitle": "Vash režiim",
+  "secVashSubtitle": "Hädaolukorra turvasüsteem, mida ei eksisteeri üheski teises sõnumirakenduses.",
+  "secVashScenarioTitle": "Kujutage ette seda olukorda",
+  "secVashScenario1": "Keegi pääseb teie telefonile ligi",
+  "secVashScenario2": "Teilt küsitakse teie PIN-koodi",
+  "secVashScenario3": "Soovite kiiresti kõik andmed kustutada",
+  "secVashSolutionTitle": "Lahendus: kaks PIN-koodi",
+  "secVashSolutionDesc": "Seadistate Hash'is kaks erinevat PIN-koodi:",
+  "secVashNormalCodeLabel": "Tavaline kood",
+  "secVashNormalCodeDesc": "Avab rakenduse normaalselt kõigi teie andmetega",
+  "secVashCodeLabel2": "Vash kood",
+  "secVashCodeDescription": "Avab rakenduse normaalselt... kuid kõik teie andmed kustutatakse vaikselt taustal",
+  "secVashWhatHappensTitle": "Mis juhtub edasi",
+  "secVashWhatHappensDesc": "Rakendus avaneb normaalselt. Hoiatust pole, kahtlast animatsiooni pole. Ekraan näitab lihtsalt tühja rakendust, nagu oleksite selle just installinud.\n\nTegelikult on kõik teie vestlused, kontaktid ja sõnumid pöördumatult kustutatud murdosa sekundi jooksul.",
+  "secCallsLabel": "KÕNED JA FAILID",
+  "secCallsTitle": "Kõik on krüpteeritud",
+  "secCallsSubtitle": "Mitte ainult sõnumid. Absoluutselt kõik, mis Hash'i kaudu liigub, on täielikult krüpteeritud.",
+  "secAudioCallTitle": "Häälkõned",
+  "secAudioCallDesc": "Täielikult krüpteeritud WebRTC kaudu. Hääl edastatakse otse seadmete vahel.",
+  "secVideoCallTitle": "Videokõned",
+  "secVideoCallDesc": "Sama tehnoloogia, iga voog eraldi krüpteeritud.",
+  "secPhotosTitle": "Fotod ja videod",
+  "secPhotosDesc": "AES-256-GCM-ga krüpteeritud enne teie telefonist lahkumist.",
+  "secDocsTitle": "Dokumendid",
+  "secDocsDesc": "PDF, ZIP, mis tahes fail. Nimi, suurus ja sisu krüpteeritud.",
+  "secAnonLabel": "ANONÜÜMSUS",
+  "secAnonTitle": "Identiteeti pole vaja",
+  "secAnonSubtitle": "Hash ei küsi kunagi teie telefoninumbrit ega e-posti aadressi. Teid identifitseerib unikaalne ja anonüümne Hash ID.",
+  "secHashIdTitle": "Teie Hash ID",
+  "secHashIdDesc": "See on teie unikaalne identifikaator. See ei paljasta teist midagi: mitte teie nime, mitte teie numbrit, mitte teie asukohta. See on nagu pseudonüüm, mida on võimatu teie reaalse identiteediga siduda.\n\nKontakti lisamiseks jagate oma Hash ID-d või skaneerite QR code'i. See on kõik. Sünkroniseeritud aadressiraamatut pole, \"Inimesed, keda võite tunda\" soovitusi pole.",
+  "secDataLabel": "ANDMED",
+  "secDataTitle": "Mida Hash ei tea",
+  "secDataSubtitle": "Parim viis oma andmeid kaitsta on neid mitte koguda.",
+  "secNeverCollected": "Kunagi ei koguta",
+  "secNeverItem1": "Sõnumite sisu",
+  "secNeverItem2": "Kontaktide nimekiri",
+  "secNeverItem3": "Telefoninumber",
+  "secNeverItem4": "E-posti aadress",
+  "secNeverItem5": "IP-aadress",
+  "secNeverItem6": "Asukoht",
+  "secNeverItem7": "Metaandmed (kes kellega räägib)",
+  "secNeverItem8": "Kõnede ajalugu",
+  "secNeverItem9": "Aadressiraamat",
+  "secNeverItem10": "Reklaamiidentifikaatorid",
+  "secTempStored": "Ajutiselt salvestatud",
+  "secTempItem1": "Anonüümne Hash ID (unikaalne identifikaator)",
+  "secTempItem2": "Avalikud krüpteerimisvõtmed",
+  "secTempItem3": "Krüpteeritud sõnumid teel (max 24t)",
+  "secTempNote": "Isegi need minimaalsed andmed ei suuda teid identifitseerida. Teie Hash ID pole seotud ühegi isikuandmega.",
+  "secFooterTitle": "Teie privaatsus, teie vabadus",
+  "secFooterDesc": "Hash kasutab samu krüpteerimistehnoloogiaid, mis kõige nõudlikumad professionaalsed rakendused. Teie sõnumid on kaitstud matemaatikaga, mitte lubadustega.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biomeetria",
+  "biometricUnlock": "Ava sõrmejälge või Face ID-ga",
+  "biometricWarningMessage": "Biomeetria lubamisel ei saa te enam Vash koodi rakenduse avamiseks kasutada.\n\nVash koodi saate kasutada ainult siis, kui biomeetria ebaõnnestub (pärast mitut ebaõnnestunud katset).\n\nKas olete kindel, et soovite jätkata?",
+  "connectionCount": "Ühendus(ed)",
+  "currentSession": "Praegune",
+  "dataLocalOnly": "Need andmed salvestatakse ainult teie seadmesse ega edastata kunagi.",
+  "doYouLikeHash": "Kas teile meeldib Hash?",
+  "donationMessage": "Hash on mittetulunduslik projekt. Teie toetus aitab meil jätkata tõeliselt privaatse sõnumitooja ehitamist.",
+  "enableBiometric": "Luba biomeetria",
+  "ephemeral1HourDesc": "Kustutatud 1t pärast lugemist",
+  "ephemeral24HoursDesc": "Kustutatud 24t pärast lugemist",
+  "ephemeral30SecondsDesc": "Kustutatud 30s pärast lugemist",
+  "ephemeral5MinutesDesc": "Kustutatud 5min pärast lugemist",
+  "ephemeral6HoursDesc": "Kustutatud 6t pärast lugemist",
+  "feedback": "Tagasiside",
+  "historyLabel": "Ajalugu",
+  "hoursAgoLabel": "{hours}t tagasi",
+  "hoursMinutesAgoLabel": "{hours}t {minutes}min tagasi",
+  "justNowLabel": "Just praegu",
+  "later": "Hiljem",
+  "loginInfoText": "Iga PIN-i avamine salvestatakse kohalikult. Ainult viimased 24 tundi säilitatakse.",
+  "maintenanceActiveLabel": "KÄIMAS",
+  "maintenancePlannedLabel": "PLANEERITUD",
+  "maintenanceTitle": "Hooldus",
+  "minutesAgoLabel": "{count} min tagasi",
+  "periodLabel": "Periood",
+  "pinCodeForEntry": "PIN-kood rakenduse avamiseks",
+  "ratingBad": "Halb",
+  "ratingExcellent": "Suurepärane!",
+  "ratingGood": "Hea",
+  "ratingOk": "Okei",
+  "ratingTerrible": "Kohutav",
+  "recentConnections": "Hiljutised ühendused",
+  "share": "Jaga",
+  "shareAppSubtitle": "Jagage Hashi oma lähedastega",
+  "showCallsInRecents": "Kuva hiljutistes kõnedes",
+  "showCallsInRecentsSubtitle": "Hashi kõned kuvatakse telefoni ajaloos",
+  "todayLabel": "Täna",
+  "understood": "Saan aru",
+  "yesterdayLabel": "Eile",
+  "yourFeedbackHelps": "Teie tagasiside aitab meil rakendust paremaks teha"
+}

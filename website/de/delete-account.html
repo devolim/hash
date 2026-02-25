@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ihr Hash-Konto loschen - Anleitung zur endgultigen Loschung Ihres Kontos und Ihrer Daten.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Ihr Konto loschen - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .step-list {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: step-counter;
+      margin: 24px 0;
+    }
+    .step-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding: 16px 16px 16px 64px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+    }
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--accent-dim);
+      border: 1px solid var(--border-accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--accent);
+      text-align: center;
+      line-height: 32px;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .data-item {
+      background: rgba(255, 71, 87, 0.08);
+      border: 1px solid rgba(255, 71, 87, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .data-item .icon {
+      color: var(--error);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .alternative-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .alternative-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .data-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">STARTSEITE</a></li>
+        <li><a href="security.html">SICHERHEIT</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">UNTERSTUTZEN</a></li>
+        <li><a href="index.html#download" class="nav__cta">HERUNTERLADEN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Ihr Hash-Konto loschen</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Letzte Aktualisierung: Februar 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="warning-box">
+      <p><strong>Achtung:</strong> Die Loschung Ihres Hash-Kontos ist <strong>sofort und unwiderruflich</strong>. Alle Ihre Daten (Nachrichten, Kontakte, Verschlusselungsschlussel) werden endgultig geloscht. Es gibt keine Moglichkeit, Ihr Konto nach der Loschung wiederherzustellen.</p>
+    </div>
+
+    <h2>Ihr Konto aus der App loschen</h2>
+    <p>Der einfachste Weg, Ihr Konto zu loschen, ist die Option <strong>Mein Konto loschen</strong> direkt in der App:</p>
+
+    <ol class="step-list">
+      <li>Offnen Sie die <strong>Hash</strong>-App auf Ihrem Gerat</li>
+      <li>Gehen Sie zu den <strong>Einstellungen</strong>, indem Sie auf das Zahnradsymbol tippen</li>
+      <li>Scrollen Sie zum Abschnitt <strong>"Konto"</strong></li>
+      <li>Tippen Sie auf <strong>"Mein Konto loschen"</strong></li>
+      <li>Bestatigen Sie die Loschung, indem Sie den Anweisungen auf dem Bildschirm folgen</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p><strong>Was passiert dann?</strong> Sobald Sie bestatigen, werden alle Ihre Daten sofort geloscht, sowohl auf Ihrem Gerat als auch auf unseren Servern. Die App kehrt in ihren Ausgangszustand zuruck, als ware sie gerade erst installiert worden.</p>
+    </div>
+
+    <h2>Geloschte Daten</h2>
+    <p>Bei der Loschung Ihres Kontos werden folgende Daten <strong>endgultig geloscht</strong>:</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Ihre Hash ID</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Offentliche Verschlusselungsschlussel</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Private Schlussel (auf dem Gerat)</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Gerateinformationen</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Ungelesene Nachrichten im Transit</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Alle Kontakte</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Gesprachsverlauf</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Lokale Dateien und Medien</span>
+      </div>
+    </div>
+
+    <h2>Alternative Methode: per E-Mail</h2>
+
+    <div class="alternative-box">
+      <h3>Sie konnen nicht mehr auf die App zugreifen?</h3>
+      <p>Wenn Sie keinen Zugriff mehr auf Ihr Gerat oder die App haben, konnen Sie die Loschung Ihres Kontos per E-Mail an folgende Adresse beantragen:</p>
+      <p><strong><a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></strong></p>
+      <p>Bitte geben Sie in Ihrer E-Mail Folgendes an:</p>
+      <ul>
+        <li>Ihre <strong>Hash ID</strong> (Format 000-000-XXX), sofern Sie diese kennen</li>
+        <li>Alle Informationen, die zur Identifizierung Ihres Kontos beitragen konnen</li>
+      </ul>
+      <p style="margin-bottom: 0;">Wir werden Ihre Anfrage innerhalb von <strong>48 Stunden</strong> bearbeiten.</p>
+    </div>
+
+    <h2>Folgen der Loschung</h2>
+    <p>Nach der Loschung Ihres Kontos:</p>
+    <ul>
+      <li>Ihre Kontakte konnen Ihnen <strong>keine Nachrichten mehr senden</strong>. Nachrichten an Ihr ehemaliges Konto werden abgelehnt</li>
+      <li>Ihre Hash ID wird <strong>freigegeben</strong> und kann moglicherweise einem anderen Nutzer zugewiesen werden</li>
+      <li>Ihre lokalen Gesprache werden <strong>von Ihrem Gerat geloscht</strong></li>
+      <li>Nachrichten, die Sie gesendet haben und die bereits von Ihren Kontakten empfangen wurden, verbleiben auf <strong>deren Geraten</strong> (wir haben keine Kontrolle uber lokal auf den Geraten anderer Nutzer gespeicherte Daten)</li>
+      <li>Es ist <strong>unmoglich, Ihr Konto oder Ihre Daten</strong> nach der Loschung wiederherzustellen</li>
+    </ul>
+
+    <h2>Kontakt</h2>
+    <p>Bei Fragen zur Loschung Ihres Kontos kontaktieren Sie uns:</p>
+    <ul>
+      <li><strong>E-Mail:</strong> <a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></li>
+      <li><strong>Datenschutz:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">Der Messenger, der nichts uber Sie weiss.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Produkt</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Funktionen</a></li>
+            <li><a href="security.html">Sicherheit</a></li>
+            <li><a href="index.html#download">Herunterladen</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Projekt</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Hash unterstutzen</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Rechtliches</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Datenschutz</a></li>
+            <li><a href="terms.html">AGB</a></li>
+            <li><a href="delete-account.html">Konto loschen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

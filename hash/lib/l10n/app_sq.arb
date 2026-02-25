@@ -1,0 +1,1039 @@
+{
+  "@@locale": "sq",
+  "appName": "Hash",
+  "appTagline": "Zero gjurme. Zero kompromis.",
+  "conversations": "Bisedat",
+  "contacts": "Kontaktet",
+  "noConversation": "Asnje bisede",
+  "noConversationSubtitle": "Shtoni nje kontakt per te filluar komunikimin e sigurt",
+  "pendingRequestsCount": "{count, plural, =1{1 kerkese ne pritje} other{{count} kerkesa ne pritje}}",
+  "sentRequestsCount": "{count, plural, =1{1 kerkese e derguar ne pritje} other{{count} kerkesa te derguara ne pritje}}",
+  "addContact": "Shto kontakt",
+  "shareApp": "Ndaj aplikacionin",
+  "newMessage": "Mesazh i ri",
+  "newConversation": "Dergo nje mesazh",
+  "settings": "Cilesimet",
+  "myHashId": "Hash ID ime",
+  "supportHash": "Mbeshtesni Hash",
+  "supportHashSubtitle": "Hash eshte nje projekt jofitimprures",
+  "donate": "Dhuro",
+  "appearance": "Pamja",
+  "theme": "Tema",
+  "themeAuto": "Automatike",
+  "themeAutoSubtitle": "Ndjek cilesimet e sistemit",
+  "themeDark": "E erret",
+  "themeLight": "E ndritshme",
+  "themeRecommendation": "Tema e erret rekomandohet per privatesi me te mire",
+  "language": "Gjuha",
+  "languageAuto": "Automatike (sistemi)",
+  "notifications": "Njoftimet",
+  "messages": "Mesazhet",
+  "calls": "Thirrjet",
+  "vibration": "Dridhja",
+  "notificationContent": "Permbajtja e njoftimit",
+  "notificationContentFull": "Shfaq te gjitha",
+  "notificationContentFullDesc": "Emri i kontaktit dhe parapamja e mesazhit",
+  "notificationContentName": "Vetem emri",
+  "notificationContentNameDesc": "Shfaq vetem emrin e kontaktit",
+  "notificationContentDiscrete": "Diskret",
+  "notificationContentDiscreteDesc": "Shfaq vetem \"Mesazh i ri\"",
+  "security": "Siguria",
+  "howHashProtectsYou": "Si ju mbron Hash",
+  "howHashProtectsYouSubtitle": "Kuptoni sigurine tuaj",
+  "accountSecurity": "Siguria e llogarise",
+  "accountSecuritySubtitle": "PIN, biometria, modaliteti Vash",
+  "blockScreenshots": "Blloko pamjet e ekranit",
+  "transferDevice": "Transfero ne nje pajisje tjeter",
+  "transferDeviceSubtitle": "Migro llogarise tende",
+  "pinCode": "Kodi PIN",
+  "changePin": "Ndrysho kodin PIN",
+  "currentPin": "Kodi PIN aktual",
+  "newPin": "Kodi PIN i ri",
+  "confirmPin": "Konfirmo kodin PIN",
+  "pinChanged": "Kodi PIN u ndryshua",
+  "incorrectPin": "PIN i gabuar",
+  "pinsDoNotMatch": "Kodet PIN nuk perputhen",
+  "autoLock": "Kyçje automatike",
+  "autoLockDelay": "Vonesa e kyçjes",
+  "autoLockImmediate": "Menjehere",
+  "autoLockMinute": "1 minute",
+  "autoLockMinutes": "{count} minuta",
+  "vashCode": "Kodi Vash",
+  "vashModeTitle": "Modaliteti Vash",
+  "vashModeExplanation": "Rrjeta juaj e fundit e sigurise.",
+  "vashModeDescription": "Do te zgjidhni nje kod te dyte PIN. Nese detyroheni te hapni Hash, futni kete kod ne vend te PIN tuaj te zakonshem.\n\nAplikacioni do te hapet normalisht, por te gjitha bisedat dhe kontaktet do te jene zhdukur.\n\nPer kedo qe shikon ekranin, Hash duket thjesht bosh — sikur te mos e kishit perdorur kurre.",
+  "vashModeIrreversible": "Ky veprim eshte i heshtur dhe i pakthyeshem.",
+  "chooseVashCode": "Zgjidh kodin tim Vash",
+  "vashCodeInfo": "Nje kod i dyte PIN qe hap aplikacionin normalisht, por bosh.",
+  "vashCodeInfoDetail": "Nese futni kete kod ne vend te PIN:",
+  "vashDeleteContacts": "Kontaktet tuaja zhduken",
+  "vashDeleteMessages": "Bisedat tuaja zhduken",
+  "vashDeleteHistory": "Shenimetuaja zhduken",
+  "vashKeepId": "Identiteti juaj Hash (#XXX-XXX-XXX) mbetet i njejte",
+  "vashAppearNormal": "Aplikacioni duket normal por bosh, si i ri. Ky veprim eshte i pakthyeshem.",
+  "setupVashCode": "Vendos kodin Vash",
+  "modifyVashCode": "Modifiko kodin Vash",
+  "currentVashCode": "Kodi Vash aktual",
+  "newVashCode": "Kodi Vash i ri",
+  "confirmVashCode": "Konfirmo kodin Vash",
+  "vashCodeConfigured": "Kodi Vash u konfigurua",
+  "vashCodeModified": "Kodi Vash u modifikua",
+  "vashCodeMustDiffer": "Kodi Vash duhet te jete i ndryshem nga PIN",
+  "incorrectVashCode": "Kod Vash i gabuar",
+  "vashWhatToDelete": "Çfare duhet te beje modaliteti Vash te zhduke?",
+  "vashDeleteContactsOption": "Kontaktet",
+  "vashDeleteMessagesOption": "Mesazhet",
+  "vashDeleteNotesOption": "Shenimet",
+  "vashActivated": "Modaliteti Vash u aktivizua",
+  "vashCreateSubtitle": "Zgjidh nje kod te ndryshem nga PIN kryesor",
+  "vashConfirmSubtitle": "Konfirmo kodin tuaj Vash",
+  "vashCodeSection": "Modaliteti Vash",
+  "danger": "Rrezik",
+  "panicButton": "Butoni i panikes",
+  "panicButtonSubtitle": "Fshi te gjitha te dhenat",
+  "deleteAccount": "Fshi llogarise time",
+  "deleteAccountSubtitle": "Veprim i pakthyeshem",
+  "deleteAccountConfirmTitle": "Fshi llogarise time",
+  "deleteAccountConfirmMessage": "Llogaria juaj do te fshihet perfundimisht. Ky veprim eshte i pakthyeshem.\n\n• Te gjitha bisedat tuaja\n• Te gjitha kontaktet tuaja\n• Hash ID juaj\n\nDo te duhet te krijoni nje llogari te re.",
+  "deleteForever": "Fshi perfundimisht",
+  "cancel": "Anulo",
+  "panicConfirmTitle": "Butoni i panikes",
+  "panicConfirmMessage": "Ky veprim do te fshije perfundimisht TE GJITHA te dhenat tuaja:\n\n• Te gjitha mesazhet tuaja\n• Te gjitha kontaktet tuaja\n• Llogarise tuaj\n\nJeni absolutisht i sigurt?",
+  "deleteAll": "FSHI TE GJITHA",
+  "dataDeletedForSecurity": "Modaliteti Vash u aktivizua.",
+  "deletionError": "Gabim gjate fshirjes: {error}",
+  "yourSecurity": "Siguria juaj",
+  "securityInfo": "• Kriptim nga skaji ne skaj (Signal Protocol)\n• Asnje e dhene ne serverat tane pas dorezimit\n• Çelesat ruhen vetem ne pajisjen tuaj\n• Kodi PIN nuk dergohet kurre ne server",
+  "version": "Hash v{version}",
+  "welcome": "Mireseerdhet",
+  "securityStatement1": "Mesazhet tuaja jane te mbrojtura.",
+  "securityStatement2": "Kriptim nga skaji ne skaj.",
+  "securityStatement3": "Asnje gjurme. Asnje kompromis.",
+  "securityStatement4": "Privatesia juaj eshte nje e drejte.",
+  "accessBlocked": "Aksesi i bllokuar",
+  "tooManyAttempts": "Shume perpjekje. Provoni me vone.",
+  "pleaseWait": "Ju lutem prisni",
+  "waitDelay": "Ju lutem prisni derisa te mbaroje vonesa",
+  "attemptCount": "Perpjekja {current} nga {max}",
+  "retryIn": "Riprovo pas {time}",
+  "forgotPin": "Keni harruar PIN? Perdorni frazen e rikuperimit",
+  "useRecoveryPhrase": "Perdor frazen e rikuperimit",
+  "recoveryWarningTitle": "Paralajmerim",
+  "recoveryWarningMessage": "Rikuperimi i llogarise do te:",
+  "recoveryDeleteAllMessages": "Fshije TE GJITHA mesazhet tuaja",
+  "recoveryWaitDelay": "Kerkoje nje vonese 1-oreshe",
+  "recoveryKeepContacts": "Ruaje kontaktet tuaja",
+  "recoveryIrreversible": "Ky veprim eshte i pakthyeshem. Mesazhet tuaja do te humbasin perfundimisht.",
+  "iUnderstand": "Kuptoj",
+  "accountRecovery": "Rikuperimi i llogarise",
+  "enterRecoveryPhrase": "Futni 24 fjalet e frazes suaj te rikuperimit, te ndara me hapesira.",
+  "recoveryPhraseHint": "fjala1 fjala2 fjala3 ...",
+  "recover": "Rikupero",
+  "recoveryPhraseRequired": "Ju lutem futni frazen e rikuperimit",
+  "recoveryPhrase24Words": "Fraza duhet te permbaje saktesisht 24 fjale",
+  "incorrectRecoveryPhrase": "Fraze rikuperimi e gabuar",
+  "recoveryInitError": "Gabim gjate inicializimit te rikuperimit",
+  "securityDelay": "Vonese sigurie",
+  "securityDelayMessage": "Per sigurine tuaj, kerkohet nje periudhe pritjeje perpara se te krijoni nje PIN te ri.",
+  "timeRemaining": "Koha e mbetur",
+  "messagesDeletedForProtection": "Mesazhet tuaja jane fshire per mbrojtjen tuaj.",
+  "canCloseApp": "Mund te mbyllni aplikacionin dhe te ktheheni me vone.",
+  "onboardingTitle1": "Mireseerdhet ne Hash",
+  "onboardingSubtitle1": "Mesazhieri qe nuk le gjurme",
+  "onboardingTitle2": "Kriptim total",
+  "onboardingSubtitle2": "Mesazhet tuaja jane te kriptuara nga skaji ne skaj me protokollin Signal",
+  "onboardingTitle3": "Asnje gjurme",
+  "onboardingSubtitle3": "Mesazhet fshihen nga serverat pas dorezimit",
+  "onboardingTitle4": "Siguria juaj",
+  "onboardingSubtitle4": "Kodi PIN, modaliteti Vash dhe fraza e rikuperimit",
+  "getStarted": "Fillo",
+  "next": "Vazhdo",
+  "skip": "Kalo",
+  "alreadyHaveAccount": "Kam tashme nje llogari",
+  "transferMyAccount": "Transfero llogarise time",
+  "createPin": "Krijo nje kod PIN",
+  "createPinSubtitle": "Ky kod do te mbroje aksesin ne aplikacionin tuaj",
+  "confirmYourPin": "Konfirmo kodin tuaj PIN",
+  "confirmPinSubtitle": "Futni perseri kodin tuaj PIN",
+  "saveRecoveryPhrase": "Fraza e rikuperimit",
+  "saveRecoveryPhraseSubtitle": "Shkruani keto 24 fjale ne rend. Ato do t'ju lejojne te rikuperoni llogarise nese harroni PIN.",
+  "phraseWritten": "Kam shkruar frazen",
+  "warningRecoveryPhrase": "Nese humbni kete fraze dhe harroni PIN, do te humbni aksesin ne llogari.",
+  "accountTransferred": "Llogaria u transferua",
+  "accountTransferredMessage": "Llogaria juaj u transferua ne nje pajisje tjeter. Kjo seance nuk eshte me e vlefshme.",
+  "accountTransferredInfo": "Nese nuk e keni nisur kete transfer, llogaria juaj mund te jete e kompromituar.",
+  "logout": "Dil",
+  "transferAccount": "Transfero llogarise",
+  "transferAccountInfo": "Transfero llogarise tuaj Hash ne nje pajisje te re. Seanca aktuale do te anulohet.",
+  "generateTransferCode": "Gjenero kodin e transferimit",
+  "transferCode": "Kodi i transferimit",
+  "transferCodeExpires": "Ky kod skadon pas {minutes} minutash",
+  "enterCodeOnNewDevice": "Futni kete kod ne pajisjen e re per te transferuar llogarise.",
+  "generateNewCode": "Gjenero kod te ri",
+  "scanQrCode": "Skano QR code",
+  "scanQrCodeSubtitle": "Skanoni QR code e kontaktit per ta shtuar",
+  "qrCodeDetected": "QR code u detektua",
+  "invalidQrCode": "QR code e pavlefshme",
+  "cameraPermissionRequired": "Kerkohet leja e kameres",
+  "myQrCode": "QR code ime",
+  "myQrCodeSubtitle": "Ndani kete QR code qe kontaktet t'ju shtojne",
+  "shareQrCode": "Ndaj",
+  "addContactTitle": "Shto kontakt",
+  "addContactByHashId": "Futni Hash ID te kontaktit tuaj",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Kerko",
+  "contactNotFound": "Kontakti nuk u gjet",
+  "contactAlreadyAdded": "Ky kontakt eshte tashme ne listen tuaj",
+  "contactAdded": "Kontakti u shtua",
+  "myProfile": "Profili im",
+  "myProfileSubtitle": "Ndani keto informacione qe te tjeret t'ju shtojne",
+  "temporaryCode": "Kod i perkohshem",
+  "temporaryCodeExpires": "Skadon pas {time}",
+  "codeExpired": "Kodi ka skaduar",
+  "generateNewCodeButton": "Kod i ri",
+  "copyHashId": "Kopjo ID",
+  "copyCode": "Kopjo kodin",
+  "copiedToClipboard": "U kopjua",
+  "showMyQrCode": "Shfaq QR code time",
+  "orDivider": "ose",
+  "openScanner": "Hap skanerin",
+  "addManually": "Shto manualisht",
+  "contactHashIdLabel": "Hash ID i kontaktit",
+  "temporaryCodeLabel": "Kodi i perkohshem",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Kerkoni kontaktit te gjeneroje nje kod nga profili i tij",
+  "verifyAndAdd": "Verifiko dhe shto",
+  "fillAllFields": "Ju lutem plotesoni te gjitha fushat",
+  "invalidHashIdFormat": "Format ID i pavlefshem (p.sh.: 123-456-ABC)",
+  "userNotFound": "Perdoruesi nuk u gjet",
+  "cannotAddYourself": "Nuk mund te shtoni veten",
+  "invalidOrExpiredCode": "Kod i perkohshem i pavlefshem ose i skaduar",
+  "contactFound": "Kontakti u gjet!",
+  "howToCallContact": "Si deshironi ta quani?",
+  "contactNameHint": "Emri i kontaktit",
+  "addContactButton": "Shto",
+  "contactDetails": "Detajet e kontaktit",
+  "contactName": "Emri i kontaktit",
+  "contactHashId": "Hash ID",
+  "addedOn": "Shtuar me {date}",
+  "deleteContact": "Fshi kontaktin",
+  "deleteContactConfirm": "Te fshihet ky kontakt?",
+  "deleteContactMessage": "Kjo do te fshije edhe te gjithe biseden.",
+  "delete": "Fshi",
+  "typeMessage": "Shkruani nje mesazh...",
+  "messageSent": "Derguar",
+  "messageDelivered": "Dorezuar",
+  "messageRead": "Lexuar",
+  "messageFailed": "Dergimi deshtoi",
+  "now": "Tani",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}ore",
+  "daysAgo": "{count}d",
+  "today": "Sot",
+  "yesterday": "Dje",
+  "dateAtTime": "{date} ne {time}",
+  "shareMessage": "Bashkohuni me mua ne Hash! 🔒\n\nEshte nje mesazhier vertet privat: kriptim total, asnje gjurme ne servera dhe modalitet paniku nese nevojitet.\n\nShkarkoni aplikacionin ketu 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Gabim",
+  "ok": "OK",
+  "view": "Shiko",
+  "yes": "Po",
+  "no": "Jo",
+  "save": "Ruaj",
+  "edit": "Redakto",
+  "close": "Mbyll",
+  "confirm": "Konfirmo",
+  "loading": "Duke ngarkuar...",
+  "retry": "Riprovo",
+  "pendingRequests": "Kerkesat ne pritje",
+  "noPendingRequests": "Asnje kerkese ne pritje",
+  "pendingRequestsSubtitle": "Keta persona duan t'ju shtojne",
+  "requestFromUser": "Kerkese nga {hashId}",
+  "requestExpiresIn": "Skadon pas {days} ditesh",
+  "acceptRequest": "Prano",
+  "rejectRequest": "Refuzo",
+  "requestAccepted": "Kerkesa u pranua",
+  "requestRejected": "Kerkesa u refuzua",
+  "requestSent": "Kerkesa u dergua!",
+  "requestSentSubtitle": "Kerkesa juaj u dergua. Perdoruesi duhet ta pranoje perpara se te komunikoni.",
+  "requestAlreadyPending": "Nje kerkese eshte tashme ne pritje",
+  "requestAlreadySentByOther": "Kjo persone ju ka derguar tashme nje kerkese",
+  "addByHashId": "Shto me Hash ID",
+  "addByHashIdSubtitle": "Futni Hash ID dhe kodin e perkohshem te kontaktit",
+  "enterTemporaryCode": "Futni kodin me 6 shifra",
+  "sendRequest": "Dergo kerkesen",
+  "acceptContactTitle": "Prano kontaktin",
+  "acceptContactSubtitle": "Mund t'i jepni nje emer te personalizuar",
+  "leaveEmptyForHashId": "Leni bosh per te perdorur Hash ID",
+  "firstName": "Emri",
+  "lastName": "Mbiemri",
+  "notes": "Shenimet",
+  "notesHint": "Shenime personale per kete kontakt",
+  "photoOptional": "Foto (opsionale)",
+  "contactNameOptional": "Emri (opsional)",
+  "notesOptional": "Shenimet (opsionale)",
+  "storedLocally": "Ruajtur vetem ne pajisjen tuaj",
+  "encryptedMessageLabel": "Mesazh i kriptuar",
+  "identityMessageHint": "Kush jeni? Si e njihni njeri-tjetrin?",
+  "messageWillBeSentEncrypted": "Ky mesazh do te kriptohet dhe dergohet marresit",
+  "sendRequestButton": "Dergo kerkesen",
+  "requestExpiresIn24h": "Kerkesa skadon pas 24h nese nuk pranohet",
+  "theyAlreadySentYouRequest": "Kjo persone ju ka derguar tashme nje kerkese",
+  "requests": "Kerkesat",
+  "receivedRequests": "Te marra",
+  "sentRequests": "Te derguara",
+  "noSentRequests": "Asnje kerkese e derguar",
+  "cancelRequest": "Anulo",
+  "deleteRequest": "Fshi kerkesen",
+  "requestCancelled": "Kerkesa u anulua",
+  "sentTo": "Derguar tek {hashId}",
+  "expiresIn": "Skadon pas {time}",
+  "receivedAgo": "Marre {time} me pare",
+  "messageFromRequester": "Mesazh nga kerkuesi",
+  "copy": "Kopjo",
+  "messageInfo": "Informacione mbi mesazhin",
+  "messageDirection": "Drejtimi",
+  "messageSentByYou": "Derguar nga ju",
+  "messageReceived": "Marre",
+  "messageSentAt": "Derguar ne",
+  "messageStatus": "Statusi",
+  "messageReadAt": "Lexuar ne",
+  "messageType": "Tipi",
+  "messageSize": "Madhesia",
+  "messageExpiresAt": "Skadon ne",
+  "messageEncrypted": "I kriptuar nga skaji ne skaj",
+  "messageStatusSending": "Duke derguar...",
+  "messageStatusSent": "Derguar",
+  "messageStatusDelivered": "Dorezuar",
+  "messageStatusRead": "Lexuar",
+  "messageStatusFailed": "Deshtoi",
+  "serverStatus": "Serveri",
+  "onServer": "Ne pritje dorezimi",
+  "deletedFromServer": "Fshire",
+  "messageTypeText": "Tekst",
+  "messageTypeImage": "Imazh",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Zer",
+  "messageTypeFile": "Skedar",
+  "indefinitely": "Pa afat",
+  "hoursShort": "ore",
+  "minutesShort": "min",
+  "hours": "ore",
+  "minutes": "minuta",
+  "seconds": "sekonda",
+  "ephemeralMessages": "Mesazhe te perkohshme",
+  "ephemeralMessagesDescription": "Mesazhet fshihen automatikisht pas ketij kohe",
+  "ephemeralImmediate": "Menjehere (pas leximit)",
+  "ephemeralImmediateDesc": "Fshihen sapo lexohen",
+  "ephemeralMyPreference": "Preferenca ime",
+  "ephemeralMyPreferenceDesc": "Perdor cilesimin global",
+  "ephemeralDefaultSetting": "Kohezgjatja e mesazhit",
+  "ephemeralChooseDefault": "I rekomanduar",
+  "ephemeral30Seconds": "30 sekonda",
+  "ephemeral5Minutes": "5 minuta",
+  "ephemeral1Hour": "1 ore",
+  "ephemeral3Hours": "3 ore",
+  "ephemeral6Hours": "6 ore",
+  "ephemeral12Hours": "12 ore",
+  "ephemeral24Hours": "24 ore",
+  "customDuration": "Kohezgjatje e personalizuar",
+  "muteNotifications": "Hesht njoftimet",
+  "muteDescription": "Nuk do te merrni njoftime per kete kontakt",
+  "mutedUntil": "Heshtur deri ne {time}",
+  "notMuted": "Njoftimet te aktivizuara",
+  "unmute": "Aktivizo",
+  "notificationSound": "Tingulli i njoftimit",
+  "defaultSound": "I paracaktuar",
+  "chatSettings": "Cilesimet e bisedes",
+  "bubbleColor": "Ngjyra e flluskes",
+  "backgroundColor": "Ngjyra e sfondit",
+  "backgroundImage": "Imazhi i sfondit",
+  "chatBackground": "Sfondi i bisedes",
+  "customColor": "E personalizuar",
+  "defaultColor": "E paracaktuar",
+  "imageSelected": "Imazhi u zgjodh",
+  "noImage": "Asnje imazh",
+  "color": "Ngjyra",
+  "image": "Imazh",
+  "tapToSelectImage": "Trokitni per te zgjedhur nje imazh",
+  "changeImage": "Ndrysho imazhin",
+  "previewMessageReceived": "Pershendetje!",
+  "previewMessageSent": "Tungjatjeta!",
+  "messageAction": "Mesazh",
+  "callAction": "Thirrje",
+  "videoAction": "Video",
+  "personalNotes": "Shenime personale",
+  "addNotes": "Shto shenime...",
+  "noNotes": "Asnje shenim",
+  "messageNotifications": "Njoftimet e mesazheve",
+  "callNotifications": "Njoftimet e thirrjeve",
+  "useGradient": "Perdor gradient",
+  "gradientStart": "Ngjyra e fillimit",
+  "gradientEnd": "Ngjyra e fundit",
+  "preview": "Parapamje",
+  "reset": "Rivendos",
+  "securityNumber": "Numri i sigurise",
+  "securityNumberDescription": "Verifikoni qe numri i sigurise perputhet me pajisjen e {name}",
+  "verifyEncryption": "Verifiko kriptimin nga skaji ne skaj",
+  "tapToCopy": "Trokitni per te kopjuar",
+  "howToVerify": "Si te verifikoni",
+  "verifyStep1": "Takohuni me kontaktin personalisht ose telefononi",
+  "verifyStep2": "Krahasoni numrat e sigurise ose skanoni QR code",
+  "verifyStep3": "Nese perputhen, biseda juaj eshte e sigurt",
+  "scanToVerify": "Skano per te verifikuar",
+  "reportSpam": "Raporto spam",
+  "reportSpamSubtitle": "Raportoni kete kontakt si spam",
+  "reportSpamDescription": "Kjo do te raportoje anonim kete kontakt. Identiteti juaj nuk do te ndahet. Jeni i sigurt?",
+  "report": "Raporto",
+  "spamReported": "Spam u raportua",
+  "reportError": "Raportimi nuk u dergua. Ju lutem provoni perseri.",
+  "reportRateLimited": "Keni arritur numrin maksimal te raportimeve per sot.",
+  "blockContact": "Blloko kontaktin",
+  "blockContactDescription": "Ky kontakt nuk do te mund t'ju dergoje mesazhe ose t'ju telefonoje. Nuk do te njoftohet.",
+  "unblockContact": "Zhblloko kontaktin",
+  "unblockContactDescription": "Ky kontakt do te mund t'ju dergoje perseri mesazhe dhe t'ju telefonoje.",
+  "contactBlocked": "Kontakti u bllokua",
+  "contactUnblocked": "Kontakti u zhbllokua",
+  "contactIsBlocked": "Ky kontakt eshte i bllokuar",
+  "unblock": "Zhblloko",
+  "deleteContactSubtitle": "Fshi kete kontakt dhe biseden",
+  "confirmWithPin": "Konfirmo me PIN",
+  "enterPinToConfirm": "Futni PIN per te konfirmuar kete veprim",
+  "mute1Hour": "1 ore",
+  "mute8Hours": "8 ore",
+  "mute1Day": "1 dite",
+  "mute1Week": "1 jave",
+  "muteAlways": "Gjithmone",
+  "muteExplanation": "Nuk do te merrni njoftime per kete kontakt",
+  "howItWorks": "Si funksionon",
+  "ephemeralExplanation1": "Mesazhet fshihen nga serveri sapo merren.",
+  "ephemeralExplanation2": "Ky cilesim percakton kur mesazhet zhduken nga telefoni JUAJ pas leximit.",
+  "ephemeralExplanation3": "Kontakti juaj ka cilesimin e vet per telefonin e tij.",
+  "profilePhoto": "Foto e profilit",
+  "takePhoto": "Bej nje foto",
+  "chooseFromGallery": "Zgjidh nga galeria",
+  "removePhoto": "Hiq foton",
+  "viewContactHashId": "Shiko identifikuesin e kontaktit",
+  "hashIdPartiallyMasked": "Pjeserisht i maskuar per sigurine tuaj dhe privatesine e kontaktit",
+  "addFirstContact": "Shtoni kontaktin tuaj te pare",
+  "addFirstContactSubtitle": "Ndani QR code tuaj ose skanoni te nje miku",
+  "directory": "Drejtoria",
+  "noContacts": "Asnje kontakt",
+  "noContactsSubtitle": "Shtoni nje kontakt per te filluar",
+  "sendMessageAction": "Dergo nje mesazh",
+  "audioCall": "Thirrje audio",
+  "videoCall": "Thirrje video",
+  "viewProfile": "Shiko profilin",
+  "deleteContactDirectory": "Fshi kontaktin",
+  "scanShort": "Skano",
+  "addShort": "Shto",
+  "deleteContactConfirmName": "Jeni i sigurt qe doni te fshini {name}?",
+  "noNotesTitle": "Asnje shenim",
+  "noNotesSubtitle": "Krijoni shenimin tuaj te pare",
+  "newNote": "Shenim i ri",
+  "editNote": "Redakto shenimin",
+  "deleteNote": "Fshi shenimin",
+  "deleteNoteConfirm": "Jeni i sigurt qe doni te fshini kete shenim?",
+  "noteTitle": "Titulli",
+  "noteContent": "Permbajtja",
+  "addItem": "Shto element",
+  "pinNote": "Gozhdo",
+  "unpinNote": "Hiq gozhdimin",
+  "noteColor": "Ngjyra",
+  "notePassword": "Fjalekalimi",
+  "setPassword": "Vendos fjalekalimin",
+  "changePassword": "Ndrysho fjalekalimin",
+  "removePassword": "Hiq fjalekalimin",
+  "enterPassword": "Futni fjalekalimin",
+  "confirmPassword": "Konfirmoni fjalekalimin",
+  "passwordPin": "Kodi PIN",
+  "passwordText": "Fjalekalim tekst",
+  "protectedNote": "Shenim i mbrojtur",
+  "incorrectPassword": "Fjalekalim i gabuar",
+  "passwordSet": "Fjalekalimi u vendos",
+  "passwordRemoved": "Fjalekalimi u hoq",
+  "notesBiometric": "Face ID per shenimet",
+  "notesBiometricSubtitle": "Kerko vertetim biometrik per te hapur shenimet e mbrojtura",
+  "textNote": "Shenim teksti",
+  "checklistNote": "Liste kontrolli",
+  "tasksProgress": "{checked}/{total} detyra",
+  "autoSaved": "Ruajtur",
+  "searchNotes": "Kerko shenimet",
+  "legalConsent": "Pelqim ligjor",
+  "confirmAge13": "Konfirmoj qe jam te pakten 13 vjec",
+  "acceptLegalStart": "Pranoj ",
+  "privacyPolicy": "Politiken e Privatesise",
+  "termsOfService": "Kushtet e Sherbimit",
+  "andThe": " dhe ",
+  "continueButton": "Vazhdo",
+  "mustAcceptTerms": "Duhet te pranoni te dyja kushtet per te vazhduar",
+  "support": "Mbeshtetja",
+  "contactSupport": "Kontakto mbeshtetjen",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Raporto abuzimin",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Ligjore",
+  "legalEntity": "Entiteti ligjor",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Gozhdo",
+  "unpinConversation": "Hiq gozhdimin",
+  "hideConversation": "Hiq nga rrjedha",
+  "deleteConversation": "Fshi biseden",
+  "deleteConversationConfirm": "Futni PIN per te konfirmuar fshirjen e te gjitha mesazheve",
+  "noConversations": "Ende asnje bisede",
+  "startConversation": "Fillo",
+  "microphonePermissionRequired": "Kerkohet aksesi ne mikrofon",
+  "microphonePermissionExplanation": "Hash ka nevoje per mikrofon per te bere thirrje.",
+  "cameraPermissionExplanation": "Hash ka nevoje per kamere per thirrje video.",
+  "openSettings": "Hap Cilesimet",
+  "callConnecting": "Duke u lidhur...",
+  "callRinging": "Duke thirrur...",
+  "callReconnecting": "Duke u rilidhur...",
+  "callReconnectingTimer": "Duke u rilidhur ({seconds}s)",
+  "callPaused": "E ndaluar",
+  "callPausedSubtitle": "Thirrja është ende aktive",
+  "callRemoteMicMuted": "Mikrofoni i kontaktit eshte i heshtur",
+  "callMiniControlsMute": "Hesht",
+  "callMiniControlsUnmute": "Aktivizo",
+  "callMiniControlsHangUp": "Mbyll",
+  "callMiniControlsReturn": "Kthehu ne thirrje",
+  "callNetworkPoor": "Lidhje e paqendrueshme",
+  "callNetworkLost": "Lidhja u humbe",
+  "callEndedTitle": "Thirrja perfundoi",
+  "deviceData": "Te dhenat e pajisjes",
+  "deviceDataSubtitle": "Ruajtja lokale dhe ne server",
+  "localStorage": "Ruajtja lokale",
+  "onThisDevice": "ne kete pajisje",
+  "encryptedDatabases": "Baza te dhenash te kriptuara",
+  "files": "Skedare",
+  "secureKeychain": "Zinxhir celesash i sigurt",
+  "cache": "Cache",
+  "contactsDetail": "Emra, avatare, celesa Signal",
+  "messagesDetail": "Biseda te kriptuara",
+  "notesDetail": "Shenime personale",
+  "signalSessions": "Seanca Signal",
+  "signalSessionsDetail": "Seanca kriptimi",
+  "pendingContacts": "Kontakte ne pritje",
+  "pendingContactsDetail": "Kerkesa ne pritje",
+  "callHistory": "Thirrjet",
+  "callHistoryDetail": "Historiku i thirrjeve",
+  "preferences": "Preferencat",
+  "preferencesDetail": "Preferencat e medias dhe thirrjeve",
+  "avatars": "Avataret",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{asnje skedar} =1{1 skedar} other{{count} skedare}}",
+  "active": "Aktiv",
+  "notDefined": "I papercaktuar",
+  "biometrics": "Biometria",
+  "recoveryPhrase": "Fraza e rikuperimit",
+  "identity": "Identiteti (Hash ID)",
+  "signalKeys": "Celesat Signal Protocol",
+  "authTokens": "Tokenat e vertetimit",
+  "contactNamesCache": "Cache e emrave te kontakteve",
+  "remoteConfig": "Konfigurimi ne distance",
+  "notificationPrefs": "Preferencat e njoftimeve",
+  "serverData": "Te dhenat e serverit",
+  "serverDataInfo": "Hash ruan te dhena minimale ne server, te gjitha te kriptuara ose te perkohshme.",
+  "serverProfile": "Profili",
+  "serverProfileDetail": "Hash ID, celesa publike, token i kutise postare",
+  "serverPrekeys": "Para-celesa",
+  "serverPrekeysDetail": "Celesa njeperdorimshe Signal (te konsumuara)",
+  "serverMessages": "Mesazhe ne tranzit",
+  "serverMessagesDetail": "Fshihen pas dorezimit (maks 24h)",
+  "serverMedia": "Media ne tranzit",
+  "serverMediaDetail": "Fshihen pas shkarkimit",
+  "serverContactRequests": "Kerkesa kontakti",
+  "serverContactRequestsDetail": "Skadojne pas 24h",
+  "serverRateLimits": "Kufizime te shpejtesise",
+  "serverRateLimitsDetail": "Te dhena te perkohshme kunder abuzimit",
+  "privacyReassurance": "Hash nuk mund te lexoje mesazhet tuaja. Te gjitha te dhenat jane te kriptuara nga skaji ne skaj. Te dhenat e serverit fshihen automatikisht.",
+  "pinTooSimple": "Ky PIN eshte shume i thjesht. Zgjidhni nje kod me te sigurt.",
+  "genericError": "Ndodhi nje gabim. Ju lutem provoni perseri.",
+  "accountCreationError": "Nuk u krijua llogaria: {error}",
+  "phraseCopiedToClipboard": "Fraza u kopjua ne clipboard",
+  "copyPhrase": "Kopjo frazen",
+  "recoveryPhraseSecurityWarning": "Shkruani kete fraze ne nje vend te sigurt. Nese humbni PIN pa kete fraze, do te humbni perfundimisht aksesin ne te dhenat.",
+  "noMessages": "Asnje mesazh",
+  "deleteAllMessagesWithContact": "Te fshihen te gjitha mesazhet me {name}?",
+  "confirmation": "Konfirmim",
+  "untitled": "Pa titull",
+  "noSessions": "Asnje seance",
+  "unknownContact": "Kontakt i panjohur",
+  "unnamed": "Pa emer",
+  "noPendingRequestsAlt": "Asnje kerkese ne pritje",
+  "deleteAllCallHistory": "Te fshihet i gjithe historiku i thirrjeve?",
+  "noCalls": "Asnje thirrje",
+  "noPreferences": "Asnje preference",
+  "resetAllMediaPrefs": "Te rivendosen te gjitha preferencat e medias?",
+  "deleteThisAvatar": "Te fshihet ky avatar?",
+  "deleteAllAvatars": "Te fshihen te gjithe avataret?",
+  "noAvatars": "Asnje avatar",
+  "deleteThisFile": "Te fshihet ky skedar?",
+  "deleteAllMediaFiles": "Te fshihen te gjithe mediat?",
+  "noMediaFiles": "Asnje media",
+  "outgoing": "Dalese",
+  "incoming": "Hyrese",
+  "ephemeralViewDuration": "Pamje e perkohshme: {seconds}s",
+  "normalView": "Pamje normale",
+  "callReasonCompleted": "Perfunduar",
+  "callReasonMissed": "Humbur",
+  "callReasonDeclined": "Refuzuar",
+  "callReasonFailed": "Deshtuar",
+  "justNow": "Tani",
+  "timeAgoMinutes": "{count} min me pare",
+  "timeAgoHours": "{count}ore me pare",
+  "timeAgoDays": "{count}d me pare",
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Vendndodhja",
+  "statusQueued": "Ne radhe",
+  "blockedBadge": "I bllokuar",
+  "protectedBadge": "I mbrojtur",
+  "messageCount": "{count} mesazh(e)",
+  "deleteQuestion": "Fshi?",
+  "transferMyAccountTitle": "Transfero llogarise time",
+  "loadingError": "Gabim ngarkimi",
+  "transferToNewDevice": "Transfero ne nje pajisje te re",
+  "transferInstructions": "Ne pajisjen tuaj te re, zgjidhni \"Rikupero llogarise time\" dhe futni keto informacione:",
+  "yourHashIdLabel": "Hash ID juaj",
+  "enterYourPinCode": "Futni kodin tuaj PIN",
+  "pinOwnerConfirmation": "Per te konfirmuar qe jeni pronari i kesaj llogarise",
+  "scanThisQrCode": "Skanoni kete QR code",
+  "withYourNewDevice": "Me pajisjen tuaj te re",
+  "orEnterTheCode": "ose futni kodin",
+  "transferCodeLabel": "Kodi i transferimit",
+  "proximityVerification": "Verifikimi i aferises",
+  "bringDevicesCloser": "Afroni te dyja pajisjet",
+  "confirmTransferQuestion": "Konfirmoni transferimin?",
+  "accountWillBeTransferred": "Llogaria juaj do te transferohet ne pajisjen e re.\n\nKjo pajisje do te shkyçet perfundimisht.",
+  "transferComplete": "Transferimi perfundoi",
+  "transferSuccessMessage": "Llogaria juaj u transferua me sukses.\n\nKy aplikacion do te mbyllet tani.",
+  "manualVerification": "Verifikim manual",
+  "codeDisplayedOnBothDevices": "Kodi i shfaqur ne te dyja pajisjet:",
+  "doesCodeMatchNewDevice": "A perputhet ky kod me ate ne pajisjen e re?",
+  "verifiedStatus": "I verifikuar",
+  "inProgressStatus": "Ne proces...",
+  "notAvailableStatus": "I padisponueshem",
+  "codeExpiredRestart": "Kodi ka skaduar. Ju lutem rinisni.",
+  "codesDoNotMatchCancelled": "Kodet nuk perputhen. Transferimi u anulua.",
+  "transferToDevice": "Tek: {device}",
+  "copiedExclamation": "U kopjua!",
+  "expiresInTime": "Skadon pas {time}",
+  "biometricNotAvailable": "Biometria nuk eshte e disponueshme ne kete pajisje",
+  "biometricAuthError": "Gabim gjate vertetimit biometrik",
+  "authenticateForBiometric": "Ju lutem vertetohuni per te aktivizuar biometrine",
+  "biometricAuthFailed": "Vertetimi biometrik deshtoi",
+  "forceUpdateTitle": "Perditesim i kerkuar",
+  "forceUpdateMessage": "Nje version i ri i Hash eshte i disponueshem. Ju lutem perditesoni per te vazhduar.",
+  "updateButton": "Perditeso",
+  "maintenanceInProgress": "Mirembajtje ne proces",
+  "tryAgainLater": "Ju lutem provoni me vone",
+  "information": "Informacion",
+  "noLoginRecorded": "Asnje hyrje e regjistruar",
+  "nextUnlocksAppearHere": "Shkyçjet e ardhshme do te shfaqen ketu.",
+  "noMaintenancePlanned": "Asnje mirembajtje e planifikuar",
+  "everythingWorkingNormally": "Gjithçka po punon normalisht",
+  "locking": "Duke kyçur...",
+  "newMessageNotification": "Mesazh i ri",
+  "secExplainTitle": "Si ju mbron Hash",
+  "secExplainIntro": "Hash eshte projektuar qe askush te mos mund te lexoje mesazhet tuaja.",
+  "secExplainIntroSub": "As ne.\nJa si funksionon, shpjeguar thjesht.",
+  "secJourneyLabel": "UDHETIMI",
+  "secJourneyTitle": "Udhetimi i mesazhit tuaj",
+  "secJourneySubtitle": "Nga gishti juaj deri ne ekranin e kontaktit, çdo hap eshte i mbrojtur. Ndiqni rrugen.",
+  "secStep1Title": "Shkruani mesazhin",
+  "secStep1Desc": "Shkruani \"Pershendetje!\" ne aplikacion. Ne kete moment, mesazhi ekziston vetem ne memorien e telefonit. Asgje nuk eshte derguar.",
+  "secStep2Title": "Kriptimi me Signal Protocol",
+  "secStep2Desc": "Sapo shtypni \"Dergo\", mesazhi juaj transformohet ne nje varg karakteresh te pakuptueshme. Eshte sikur mesazhi juaj te ishte mbyllur ne nje kasaforte qe vetem kontakti juaj ka çelesin.",
+  "secStep3Title": "Sealed Sender: zarfi i padukshem",
+  "secStep3Desc": "Imagjinoni te dergoni nje leter me poste, por pa adrese kthimi ne zarf. Pikërisht kjo ndodh me Hash. Mesazhi hidhet ne nje kuti postare anonime. Serveri nuk e di kush e dergoi.",
+  "secStep4Title": "Serveri nuk sheh asgje",
+  "secStep4Desc": "Serveri vepron si nje postar i verber. Di vetem qe \"dikush hodhi diçka ne kutine postare #A7X9\". Nuk e di kush e dergoi, çfare eshte ose per ke eshte.",
+  "secStep4Highlight": "Asnje metadate e ruajtur: asnje adrese IP, asnje vule kohore, asnje lidhje midis derguesit dhe marresit.",
+  "secStep5Title": "Kontakti juaj merr mesazhin",
+  "secStep5Desc": "Telefoni i kontaktit merr permbajtjen nga kutia postare anonime dhe deshifron mesazhin me çelesin e tij privat, i cili nuk ka dalur kurre nga pajisja. \"Pershendetje!\" shfaqet ne ekran.",
+  "secStep6Title": "Mesazhi zhduket nga serveri",
+  "secStep6Desc": "Sapo kontakti konfirmon marrjen, serveri fshin perfundimisht mesazhin. Asnje kosh, asnje arkiv, asnje kopje rezerve. Edhe mesazhet e palexuara shkaterohen automatikisht pas 24 oreve.",
+  "secStep7Title": "Skadimi lokal",
+  "secStep7Desc": "Ne telefonin e kontaktit, mesazhi veteshkaterohet sipas kohezgjatjes qe keni zgjedhur: menjehere pas leximit, 5 minuta, 1 ore... ju vendosni.",
+  "secJourneyConclusion": "Rezultati: zero gjurme ne server, zero gjurme ne pajisje. Mesazhi ekzistoi vetem sa u desh per t'u lexuar, pastaj u zhduk.",
+  "secArchLabel": "ARKITEKTURA",
+  "secArchTitle": "5 shtresa mbrojtjeje",
+  "secArchSubtitle": "Hash nuk mbeshtetet ne nje teknologji te vetme. Çdo shtrese forcon te tjerat. Edhe nese nje shtrese kompromitohet, te dhenat tuaja mbeten te sigurta.",
+  "secLayer1Title": "Kriptimi nga skaji ne skaj",
+  "secLayer1Desc": "Çdo mesazh kriptohet me nje çeles unik. Thjesht: edhe nese dikush deshifron nje mesazh, nuk do te mund te deshifroje te ardhshem. Çdo mesazh ka braveten e vet.",
+  "secLayer1Detail": "Per skedaret (foto, video, dokumente), Hash perdor kriptim shtese AES-256-GCM. Skedari kriptohet perpara se te lere telefonin.",
+  "secLayer2Title": "Sealed Sender (anonimitet rrjeti)",
+  "secLayer2Desc": "Mesazhieret e zakonshem dergojne mesazhet me identitetin tuaj te bashkangjitur. Eshte si te shkruani emrin ne zarf. Hash perdor kutite postare anonime: serveri dorezoin mesazhin pa ditur kush e dergoi.",
+  "secLayer2Detail": "Rezultati: edhe ne rastin e nje shkeljeje te dhenash ne server, eshte e pamundur te rikonstruktohet kush flet me ke.",
+  "secLayer3Title": "Fshirje automatike",
+  "secLayer3Desc": "Mesazhet fshihen nga serveri sapo konfirmohet marrja. Edhe nese nje mesazh nuk merret kurre, shkaterohet automatikisht pas 24 oreve.",
+  "secLayer3Detail": "Ne telefon, mesazhet veteshkaterohen sipas kohezgjatjes qe zgjidhni: menjehere, 5 min, 15 min, 30 min, 1ore, 3ore, 6ore ose 12ore.",
+  "secLayer4Title": "Mbrojtja e aksesit lokal",
+  "secLayer4Desc": "Aplikacioni mbrohet me nje PIN 6-shifror dhe/ose biometri (Face ID, gjurme gishtash). Pas shume perpjekjeve te deshtuar, aplikacioni kyçet me vonese ne rritje.",
+  "secLayer5Title": "Baze te dhenash e kyçur",
+  "secLayer5Desc": "Ne anen e serverit, asnje perdorues nuk mund te shkruaje drejtperdrejt ne bazen e te dhenave. Te gjitha veprimet kalojne permes funksioneve te sigurta.",
+  "secLayer5Detail": "Eshte si nje sportel banke: nuk e prekni kurre kasaforten vete. Beni nje kerkese dhe sistemi verifikon nese keni te drejte perpara se te veproje.",
+  "secVashLabel": "UNIK NE BOTE",
+  "secVashTitle": "Modaliteti Vash",
+  "secVashSubtitle": "Nje sistem sigurie emergjence qe nuk ekziston ne asnje aplikacion tjeter mesazherisie.",
+  "secVashScenarioTitle": "Imagjinoni kete situate",
+  "secVashScenario1": "Dikush ka akses ne telefonin tuaj",
+  "secVashScenario2": "Ju kerkohet kodi PIN",
+  "secVashScenario3": "Doni te fshini urgjentisht te gjitha te dhenat",
+  "secVashSolutionTitle": "Zgjidhja: dy kode PIN",
+  "secVashSolutionDesc": "Konfiguroni dy kode PIN te ndryshme ne Hash:",
+  "secVashNormalCodeLabel": "Kodi normal",
+  "secVashNormalCodeDesc": "Hap aplikacionin normalisht me te gjitha te dhenat",
+  "secVashCodeLabel2": "Kodi Vash",
+  "secVashCodeDescription": "Hap aplikacionin normalisht... por te gjitha te dhenat fshihen ne heshtje ne sfond",
+  "secVashWhatHappensTitle": "Çfare ndodh pastaj",
+  "secVashWhatHappensDesc": "Aplikacioni hapet normalisht. Asnje alarm, asnje animacion e dyshimte. Ekrani thjesht tregon nje aplikacion bosh, sikur ta kishit instaluar sapo.\n\nNe realitet, te gjitha bisedat, kontaktet dhe mesazhet tuaja jane fshire ne menyre te pakthyeshme ne nje fraksion sekonde.",
+  "secCallsLabel": "THIRRJET DHE SKEDARET",
+  "secCallsTitle": "Gjithçka eshte e kriptuar",
+  "secCallsSubtitle": "Jo vetem mesazhet. Absolutisht gjithçka qe kalon permes Hash eshte e kriptuar nga skaji ne skaj.",
+  "secAudioCallTitle": "Thirrjet audio",
+  "secAudioCallDesc": "Te kriptuara nga skaji ne skaj permes WebRTC. Zeri transmetohet drejtperdrejt midis pajisjeve.",
+  "secVideoCallTitle": "Thirrjet video",
+  "secVideoCallDesc": "E njejta teknologji, çdo rrjedhe e kriptuar individualisht.",
+  "secPhotosTitle": "Fotot dhe videot",
+  "secPhotosDesc": "Te kriptuara me AES-256-GCM perpara se te largohen nga telefoni.",
+  "secDocsTitle": "Dokumentet",
+  "secDocsDesc": "PDF, ZIP, çdo skedar. Emri, madhesia dhe permbajtja e kriptuar.",
+  "secAnonLabel": "ANONIMITETI",
+  "secAnonTitle": "Asnje identitet i kerkuar",
+  "secAnonSubtitle": "Hash nuk kerkon kurre numrin tuaj te telefonit ose email. Ju identifikoheni me nje Hash ID unik dhe anonim.",
+  "secHashIdTitle": "Hash ID juaj",
+  "secHashIdDesc": "Ky eshte identifikuesi juaj unik. Nuk zbulon asgje per ju: as emrin, as numrin, as vendndodhjen. Eshte si nje pseudonim i pamundur per t'u lidhur me identitetin tuaj te vertete.\n\nPer te shtuar nje kontakt, ndani Hash ID ose skanoni nje QR code. Kaq. Asnje liber adresash i sinkronizuar, asnje sugjerim \"Njerez qe mund te njihni\".",
+  "secDataLabel": "TE DHENAT",
+  "secDataTitle": "Çfare nuk di Hash",
+  "secDataSubtitle": "Menyra me e mire per te mbrojtur te dhenat tuaja eshte te mos i mbledhim.",
+  "secNeverCollected": "Kurre e mbledhur",
+  "secNeverItem1": "Permbajtja e mesazheve",
+  "secNeverItem2": "Lista e kontakteve",
+  "secNeverItem3": "Numri i telefonit",
+  "secNeverItem4": "Adresa e email",
+  "secNeverItem5": "Adresa IP",
+  "secNeverItem6": "Vendndodhja",
+  "secNeverItem7": "Metadatat (kush flet me ke)",
+  "secNeverItem8": "Historiku i thirrjeve",
+  "secNeverItem9": "Libri i adresave",
+  "secNeverItem10": "Identifikuesit e reklamave",
+  "secTempStored": "E ruajtur perkohesisht",
+  "secTempItem1": "Hash ID anonim (identifikues unik)",
+  "secTempItem2": "Çelesa publike kriptimi",
+  "secTempItem3": "Mesazhe te kriptuara ne tranzit (maks 24h)",
+  "secTempNote": "Edhe keto te dhena minimale nuk mund t'ju identifikojne. Hash ID juaj nuk eshte i lidhur me asnje informacion personal.",
+  "secFooterTitle": "Privatesia juaj, liria juaj",
+  "secFooterDesc": "Hash perdor te njejtat teknologji kriptimi si aplikacionet me profesionale me kerkuese. Mesazhet tuaja mbrohen nga matematika, jo nga premtime.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometri",
+  "biometricUnlock": "Zhblloko me gjurmë gishti ose Face ID",
+  "biometricWarningMessage": "Duke aktivizuar biometrinë, nuk do të mund të përdorni kodin Vash për të hyrë në aplikacion.\n\nDo të mund të përdorni kodin Vash vetëm nëse biometria dështon (pas disa përpjekjeve të dështuara).\n\nA jeni i sigurt se dëshironi të vazhdoni?",
+  "connectionCount": "Lidhje(t)",
+  "currentSession": "Aktuale",
+  "dataLocalOnly": "Këto të dhëna ruhen vetëm në pajisjen tuaj dhe nuk transmetohen kurrë.",
+  "doYouLikeHash": "Ju pëlqen Hash?",
+  "donationMessage": "Hash është një projekt jofitimprurës. Mbështetja juaj na ndihmon të vazhdojmë të ndërtojmë një mesazher vërtet privat.",
+  "enableBiometric": "Aktivizo biometrinë",
+  "ephemeral1HourDesc": "Fshirë 1o pas leximit",
+  "ephemeral24HoursDesc": "Fshirë 24o pas leximit",
+  "ephemeral30SecondsDesc": "Fshirë 30s pas leximit",
+  "ephemeral5MinutesDesc": "Fshirë 5min pas leximit",
+  "ephemeral6HoursDesc": "Fshirë 6o pas leximit",
+  "feedback": "Përshtypje",
+  "historyLabel": "Historiku",
+  "hoursAgoLabel": "{hours}o më parë",
+  "hoursMinutesAgoLabel": "{hours}o {minutes}min më parë",
+  "justNowLabel": "Pikërisht tani",
+  "later": "Më vonë",
+  "loginInfoText": "Çdo zhbllokim me PIN regjistrohet në mënyrë lokale. Ruhen vetëm 24 orët e fundit.",
+  "maintenanceActiveLabel": "NË VAZHDIM",
+  "maintenancePlannedLabel": "E PLANIFIKUAR",
+  "maintenanceTitle": "Mirëmbajtje",
+  "minutesAgoLabel": "{count} min më parë",
+  "periodLabel": "Periudha",
+  "pinCodeForEntry": "Kodi PIN për hyrje në aplikacion",
+  "ratingBad": "Keq",
+  "ratingExcellent": "Shkëlqyer!",
+  "ratingGood": "Mirë",
+  "ratingOk": "Në rregull",
+  "ratingTerrible": "E tmerrshme",
+  "recentConnections": "Lidhjet e fundit",
+  "share": "Ndaj",
+  "shareAppSubtitle": "Ndani Hash me të afërmit tuaj",
+  "showCallsInRecents": "Shfaq në thirrjet e fundit",
+  "showCallsInRecentsSubtitle": "Thirrjet Hash shfaqen në historikun e telefonit",
+  "todayLabel": "Sot",
+  "understood": "E kuptova",
+  "yesterdayLabel": "Dje",
+  "yourFeedbackHelps": "Përshtypjet tuaja na ndihmojnë të përmirësojmë aplikacionin"
+}

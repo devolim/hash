@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source | Hash | Transparence totale</title>
+  <meta name="description" content="Hash est open source. Tout le code est public, auditable et vérifiable. Parce que la confiance se mérite.">
+  <meta name="theme-color" content="#FFAB00">
+  <meta property="og:title" content="Open Source | Hash">
+  <meta property="og:description" content="Hash est open source. Tout le code est public, auditable et vérifiable.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://hash.devolim.fr/assets/images/hash_icons.png">
+  <meta property="og:url" content="https://hash.devolim.fr/opensource.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Open Source | Hash">
+  <meta name="twitter:description" content="Hash est open source. Tout le code est public, auditable et vérifiable.">
+  <meta name="twitter:image" content="https://hash.devolim.fr/assets/images/hash_icons.png">
+  <link rel="canonical" href="https://hash.devolim.fr/opensource.html">
+  <link rel="icon" type="image/png" href="assets/images/hash_icons.png">
+  <link rel="apple-touch-icon" href="assets/images/hash_icons.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .journey { position: relative; padding-bottom: 20px; }
+    .journey__step { text-align: center; position: relative; padding-bottom: 72px; opacity: 0; transform: translateY(40px); transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+    .journey__step:last-child { padding-bottom: 0; }
+    .journey__step.journey--visible { opacity: 1; transform: translateY(0); }
+    .journey__number { font-size: 4rem; font-weight: 800; background: linear-gradient(135deg,#FFAB00,#FF8800); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; margin-bottom: 12px; transform: scale(0.5); transition: transform 0.6s cubic-bezier(0.34,1.56,0.64,1); }
+    .journey__step.journey--visible .journey__number { transform: scale(1); }
+    .journey__header { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 12px; transform: translateY(10px); opacity: 0; transition: transform 0.5s ease 0.2s, opacity 0.5s ease 0.2s; }
+    .journey__step.journey--visible .journey__header { transform: translateY(0); opacity: 1; }
+    .journey__icon { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .journey__title { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.06em; color: var(--text-primary); text-transform: uppercase; }
+    .journey__text { font-size: 0.92rem; color: var(--text-secondary); line-height: 1.8; max-width: 440px; margin: 0 auto; transform: translateY(10px); opacity: 0; transition: transform 0.5s ease 0.35s, opacity 0.5s ease 0.35s; }
+    .journey__step.journey--visible .journey__text { transform: translateY(0); opacity: 1; }
+    @media (max-width: 768px) { .journey__number { font-size: 3rem; } .journey__step { padding-bottom: 56px; } }
+  </style>
+  <style>
+    .encrypt-list { display: flex; flex-direction: column; }
+    .encrypt-item { display: flex; align-items: center; gap: 20px; padding: 28px 0; border-bottom: 1px solid rgba(255,255,255,0.06); opacity: 0; transform: translateX(-20px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .encrypt-item:first-child { border-top: 1px solid rgba(255,255,255,0.06); }
+    .encrypt-item.visible { opacity: 1; transform: translateX(0); }
+    .encrypt-item__icon { display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .encrypt-item__content { flex: 1; }
+    .encrypt-item__title { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.07em; color: var(--text-primary); text-transform: uppercase; margin-bottom: 6px; }
+    .encrypt-item__text { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; }
+    .encrypt-item__badge { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; color: var(--accent); margin-left: 10px; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Hash",
+    "url": "https://hash.devolim.fr",
+    "logo": "https://hash.devolim.fr/assets/images/hash_icons.png",
+    "description": "Messagerie ultra-sécurisée. Zéro trace. Zéro compromis.",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hash-support@devolim.fr",
+      "contactType": "customer support"
+    }
+  }
+  </script>
+  <style>
+    .code-block {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 0.85rem;
+      line-height: 1.8;
+      overflow-x: auto;
+      color: var(--text-secondary);
+      margin: 24px 0;
+    }
+    .code-block .comment {
+      color: var(--text-tertiary);
+    }
+    .code-block .keyword {
+      color: var(--accent);
+    }
+    .code-block .string {
+      color: var(--success);
+    }
+    .arch-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .arch-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+    .arch-card__header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .arch-card__icon {
+      width: 32px;
+      height: 32px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .arch-card__icon svg {
+      width: 32px;
+      height: 32px;
+    }
+    .arch-card__title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .arch-card__subtitle {
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+    }
+    .arch-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .arch-card li {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .arch-card li:last-child {
+      border-bottom: none;
+    }
+    .arch-card li::before {
+      content: '>';
+      color: var(--accent);
+      font-weight: 700;
+      font-family: monospace;
+    }
+    @media (max-width: 768px) {
+      .arch-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .github-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 40px;
+      background: #fff;
+      color: #000;
+      font-size: 1.05rem;
+      font-weight: 700;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: all 0.25s;
+      font-family: var(--font);
+    }
+    .github-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+      opacity: 1;
+    }
+    .github-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+    .opensource-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 60px;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      .opensource-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .opensource-hero-grid .mac-mockup {
+        order: -1;
+        margin: 0 auto;
+        max-width: 400px;
+      }
+      .opensource-hero-grid .section-header {
+        text-align: center !important;
+      }
+      .opensource-hero-grid .section-header__text {
+        margin: 0 auto;
+      }
+    }
+    .mac-mockup {
+      max-width: 480px;
+      width: 100%;
+    }
+    .mac-mockup__frame {
+      background: #1a1a1a;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid #333;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    .mac-mockup__toolbar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 14px;
+      background: #2a2a2a;
+      border-bottom: 1px solid #333;
+    }
+    .mac-mockup__dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .mac-mockup__dot--red { background: #ff5f57; }
+    .mac-mockup__dot--yellow { background: #ffbd2e; }
+    .mac-mockup__dot--green { background: #28c840; }
+    .mac-mockup__screen {
+      line-height: 0;
+    }
+    .mac-mockup__screen img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .mac-mockup__base {
+      width: 60%;
+      height: 4px;
+      background: linear-gradient(to bottom, #555, #333);
+      margin: 0 auto;
+      border-radius: 0 0 4px 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">ACCUEIL</a></li>
+        <li><a href="security.html">SÉCURITÉ</a></li>
+        <li><a href="opensource.html" class="active">OPEN SOURCE</a></li>
+        <li><a href="support.html">SOUTENIR</a></li>
+        <li><a href="index.html#download" class="nav__cta">TÉLÉCHARGER</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="section-header__label">Open Source</span>
+      <h1 class="page-header__title">Code ouvert.<br><span class="text-gradient">Confiance méritée.</span></h1>
+      <p class="page-header__text">
+        Quand une application dit "nous ne collectons rien", vous devez la croire sur parole.
+        Avec Hash, vous pouvez <strong>vérifier vous-même</strong>.
+      </p>
+    </div>
+  </header>
+
+  <!-- GitHub link -->
+  <section class="section" style="padding-top: 0; padding-bottom: 40px;">
+    <div class="container" style="text-align: center;">
+<a href="#" class="github-btn" id="github-link">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        VOIR SUR GITHUB
+      </a>
+      <p style="color: var(--text-tertiary); font-size: 0.8rem; margin-top: 12px;">Le lien GitHub sera ajouté prochainement.</p>
+    </div>
+  </section>
+
+  <!-- Why Open Source -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Transparence</span>
+        <h2 class="section-header__title">NE FAITES CONFIANCE À PERSONNE.<br><span id="verifiez" style="color: var(--accent); opacity: 0; transition: opacity 1s ease-in-out;">VÉRIFIEZ.</span></h2>
+        <p class="section-header__text">
+          Hash est un projet open source. Chaque ligne de code, de l'application mobile aux fonctions serveur,
+          est publique et vérifiable.
+        </p>
+      </div>
+
+      <div class="encrypt-list">
+        <div class="encrypt-item">
+          <div class="encrypt-item__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div class="encrypt-item__content">
+            <div class="encrypt-item__title">Code auditable</div>
+            <p class="encrypt-item__text">N'importe qui peut lire le code source de Hash et vérifier que l'application fait exactement ce qu'elle promet.</p>
+          </div>
+        </div>
+        <div class="encrypt-item">
+          <div class="encrypt-item__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg></div>
+          <div class="encrypt-item__content">
+            <div class="encrypt-item__title">Pas de porte dérobée</div>
+            <p class="encrypt-item__text">Avec du code fermé, impossible de savoir s'il y a une backdoor. Avec Hash, tout est visible. Zéro secret.</p>
+          </div>
+        </div>
+        <div class="encrypt-item">
+          <div class="encrypt-item__icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <div class="encrypt-item__content">
+            <div class="encrypt-item__title">Communauté</div>
+            <p class="encrypt-item__text">Développeurs et experts en sécurité du monde entier peuvent contribuer, améliorer et renforcer Hash.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contribute -->
+  <section class="section" id="contribuer">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Contribuer</span>
+        <h2 class="section-header__title" id="twRejoignez" style="min-height:1.4em;">&nbsp;</h2>
+        <p class="section-header__text">
+          Développeur, designer, expert en sécurité, traducteur : chacun peut apporter sa pierre à l'édifice.
+        </p>
+      </div>
+
+      <div class="journey" id="journeyContrib" style="max-width: 580px; margin: 0 auto;">
+        <div class="journey__step">
+          <div class="journey__number">1</div>
+          <div class="journey__header">
+            <div class="journey__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" fill="#fff"/></svg></div>
+            <h3 class="journey__title">Forkez le dépôt</h3>
+          </div>
+          <p class="journey__text">Clonez le repository sur votre machine et créez une branche pour votre contribution.</p>
+        </div>
+        <div class="journey__step">
+          <div class="journey__number">2</div>
+          <div class="journey__header">
+            <div class="journey__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3 class="journey__title">Développez & testez</h3>
+          </div>
+          <p class="journey__text">Implémentez votre correction ou fonctionnalité. Assurez-vous que les tests passent et que le code respecte les conventions du projet.</p>
+        </div>
+        <div class="journey__step">
+          <div class="journey__number">3</div>
+          <div class="journey__header">
+            <div class="journey__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg></div>
+            <h3 class="journey__title">Ouvrez une Pull Request</h3>
+          </div>
+          <p class="journey__text">Soumettez votre PR avec une description claire. L'équipe la reverra et vous donnera un retour.</p>
+        </div>
+        <div class="journey__step">
+          <div class="journey__number">4</div>
+          <div class="journey__header">
+            <div class="journey__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <h3 class="journey__title">Votre code est intégré</h3>
+          </div>
+          <p class="journey__text">Une fois approuvée, votre contribution est fusionnée. Vous faites maintenant partie de l'histoire de Hash.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="assets/images/hash_icons.webp" alt="Hash">
+            <img src="assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">
+            La messagerie qui ne sait rien de vous.
+            Chiffrée, éphémère, anonyme. Par conception.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">Produit</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Fonctionnalités</a></li>
+            <li><a href="security.html">Sécurité</a></li>
+            <li><a href="index.html#comparison">Comparaison</a></li>
+            <li><a href="index.html#download">Télécharger</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Projet</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Soutenir Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Légal</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Politique de confidentialité</a></li>
+            <li><a href="terms.html">Conditions d'utilisation</a></li>
+            <li><a href="delete-account.html">Supprimer mon compte</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Tous droits réservés.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js" defer></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Fade-in "VÉRIFIEZ."
+    var verifiez = document.getElementById('verifiez');
+    if (verifiez) {
+      var obsV = new IntersectionObserver(function(e) {
+        if (e[0].isIntersecting) { setTimeout(function(){ verifiez.style.opacity='1'; }, 400); obsV.disconnect(); }
+      }, { threshold: 0.5 });
+      obsV.observe(verifiez);
+    }
+
+    // Typewriter "REJOIGNEZ LE PROJET."
+    var twR = document.getElementById('twRejoignez');
+    if (twR) {
+      var startedR = false;
+      var obsR = new IntersectionObserver(function(e) {
+        if (e[0].isIntersecting && !startedR) {
+          startedR = true; twR.textContent = '';
+          var i = 0, txt = 'REJOIGNEZ LE PROJET.';
+          (function type(){ if(i<=txt.length){ twR.textContent=txt.slice(0,i++); setTimeout(type,70); } })();
+        }
+      }, { threshold: 0.5 });
+      obsR.observe(twR);
+    }
+
+    // Journey contrib animation
+    document.querySelectorAll('#journeyContrib .journey__step').forEach(function(step) {
+      var obs = new IntersectionObserver(function(entries) {
+        if (entries[0].isIntersecting) { step.classList.add('journey--visible'); obs.disconnect(); }
+      }, { threshold: 0.2 });
+      obs.observe(step);
+    });
+
+    document.querySelectorAll('.encrypt-item').forEach(function(el, i) {
+      const obs = new IntersectionObserver(function(entries) {
+        if (entries[0].isIntersecting) {
+          setTimeout(function() { el.classList.add('visible'); }, i * 100);
+          obs.disconnect();
+        }
+      }, { threshold: 0.2 });
+      obs.observe(el);
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

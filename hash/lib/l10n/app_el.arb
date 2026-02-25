@@ -1,0 +1,1039 @@
+{
+  "@@locale": "el",
+  "appName": "Hash",
+  "appTagline": "Kανένα ίχνος. Κανένας συμβιβασμός.",
+  "conversations": "Συνομιλίες",
+  "contacts": "Επαφές",
+  "noConversation": "Καμία συνομιλία",
+  "noConversationSubtitle": "Προσθέστε μια επαφή για να ξεκινήσετε μια ασφαλή συνομιλία",
+  "pendingRequestsCount": "{count, plural, =1{1 εκκρεμές αίτημα} other{{count} εκκρεμή αιτήματα}}",
+  "sentRequestsCount": "{count, plural, =1{1 εκκρεμές απεσταλμένο αίτημα} other{{count} εκκρεμή απεσταλμένα αιτήματα}}",
+  "addContact": "Προσθήκη επαφής",
+  "shareApp": "Κοινοποίηση εφαρμογής",
+  "newMessage": "Νέο μήνυμα",
+  "newConversation": "Αποστολή μηνύματος",
+  "settings": "Ρυθμίσεις",
+  "myHashId": "Το Hash ID μου",
+  "supportHash": "Υποστήριξη Hash",
+  "supportHashSubtitle": "Το Hash είναι ένα μη κερδοσκοπικό έργο",
+  "donate": "Δωρεά",
+  "appearance": "Εμφάνιση",
+  "theme": "Θέμα",
+  "themeAuto": "Αυτόματο",
+  "themeAutoSubtitle": "Ακολουθεί τις ρυθμίσεις συστήματος",
+  "themeDark": "Σκοτεινό",
+  "themeLight": "Φωτεινό",
+  "themeRecommendation": "Το σκοτεινό θέμα συνιστάται για καλύτερη ιδιωτικότητα",
+  "language": "Γλώσσα",
+  "languageAuto": "Αυτόματο (σύστημα)",
+  "notifications": "Ειδοποιήσεις",
+  "messages": "Μηνύματα",
+  "calls": "Κλήσεις",
+  "vibration": "Δόνηση",
+  "notificationContent": "Περιεχόμενο ειδοποιήσεων",
+  "notificationContentFull": "Εμφάνιση όλων",
+  "notificationContentFullDesc": "Όνομα επαφής και προεπισκόπηση μηνύματος",
+  "notificationContentName": "Μόνο όνομα",
+  "notificationContentNameDesc": "Εμφανίζει μόνο το όνομα της επαφής",
+  "notificationContentDiscrete": "Διακριτικό",
+  "notificationContentDiscreteDesc": "Εμφανίζει μόνο \"Νέο μήνυμα\"",
+  "security": "Ασφάλεια",
+  "howHashProtectsYou": "Πώς σε προστατεύει το Hash",
+  "howHashProtectsYouSubtitle": "Κατανοήστε την ασφάλειά σας",
+  "accountSecurity": "Ασφάλεια λογαριασμού",
+  "accountSecuritySubtitle": "PIN, βιομετρικά, Vash Mode",
+  "blockScreenshots": "Αποκλεισμός στιγμιότυπων",
+  "transferDevice": "Μεταφορά σε άλλη συσκευή",
+  "transferDeviceSubtitle": "Μεταφέρετε τον λογαριασμό σας",
+  "pinCode": "Κωδικός PIN",
+  "changePin": "Αλλαγή κωδικού PIN",
+  "currentPin": "Τρέχων κωδικός PIN",
+  "newPin": "Νέος κωδικός PIN",
+  "confirmPin": "Επιβεβαίωση κωδικού PIN",
+  "pinChanged": "Ο κωδικός PIN άλλαξε",
+  "incorrectPin": "Λανθασμένος κωδικός PIN",
+  "pinsDoNotMatch": "Οι κωδικοί PIN δεν ταιριάζουν",
+  "autoLock": "Αυτόματο κλείδωμα",
+  "autoLockDelay": "Καθυστέρηση κλειδώματος",
+  "autoLockImmediate": "Άμεσο",
+  "autoLockMinute": "1 λεπτό",
+  "autoLockMinutes": "{count} λεπτά",
+  "vashCode": "Κωδικός Vash",
+  "vashModeTitle": "Λειτουργία Vash",
+  "vashModeExplanation": "Το απόλυτο δίχτυ ασφαλείας σας.",
+  "vashModeDescription": "Θα επιλέξετε ένα δεύτερο κωδικό PIN. Αν ποτέ αναγκαστείτε να ανοίξετε το Hash, εισάγετε αυτόν τον κωδικό αντί για τον κανονικό σας PIN.\n\nΗ εφαρμογή θα ανοίξει κανονικά, αλλά όλες οι συνομιλίες και οι επαφές σας θα έχουν εξαφανιστεί.\n\nΣε οποιονδήποτε κοιτάζει την οθόνη σας, το Hash φαίνεται απλά άδειο — σαν να μην το χρησιμοποιήσατε ποτέ.",
+  "vashModeIrreversible": "Αυτή η ενέργεια είναι σιωπηλή και μη αναστρέψιμη.",
+  "chooseVashCode": "Επιλογή κωδικού Vash",
+  "vashCodeInfo": "Ένας δεύτερος κωδικός PIN που ανοίγει κανονικά την εφαρμογή, αλλά άδεια.",
+  "vashCodeInfoDetail": "Αν εισάγετε αυτόν τον κωδικό αντί για το PIN σας:",
+  "vashDeleteContacts": "Οι επαφές σας εξαφανίζονται",
+  "vashDeleteMessages": "Οι συνομιλίες σας εξαφανίζονται",
+  "vashDeleteHistory": "Οι σημειώσεις σας εξαφανίζονται",
+  "vashKeepId": "Η ταυτότητά σας Hash (#XXX-XXX-XXX) παραμένει η ίδια",
+  "vashAppearNormal": "Η εφαρμογή φαίνεται κανονική αλλά άδεια, σαν καινούρια. Αυτή η ενέργεια είναι μη αναστρέψιμη.",
+  "setupVashCode": "Ρύθμιση κωδικού Vash",
+  "modifyVashCode": "Τροποποίηση κωδικού Vash",
+  "currentVashCode": "Τρέχων κωδικός Vash",
+  "newVashCode": "Νέος κωδικός Vash",
+  "confirmVashCode": "Επιβεβαίωση κωδικού Vash",
+  "vashCodeConfigured": "Ο κωδικός Vash ρυθμίστηκε",
+  "vashCodeModified": "Ο κωδικός Vash τροποποιήθηκε",
+  "vashCodeMustDiffer": "Ο κωδικός Vash πρέπει να διαφέρει από το PIN",
+  "incorrectVashCode": "Λανθασμένος κωδικός Vash",
+  "vashWhatToDelete": "Τι πρέπει να εξαφανίσει η λειτουργία Vash;",
+  "vashDeleteContactsOption": "Επαφές",
+  "vashDeleteMessagesOption": "Μηνύματα",
+  "vashDeleteNotesOption": "Σημειώσεις",
+  "vashActivated": "Η λειτουργία Vash ενεργοποιήθηκε",
+  "vashCreateSubtitle": "Επιλέξτε έναν κωδικό διαφορετικό από τον κύριο PIN σας",
+  "vashConfirmSubtitle": "Επιβεβαιώστε τον κωδικό Vash σας",
+  "vashCodeSection": "Λειτουργία Vash",
+  "danger": "Κίνδυνος",
+  "panicButton": "Κουμπί πανικού",
+  "panicButtonSubtitle": "Διαγραφή όλων των δεδομένων",
+  "deleteAccount": "Διαγραφή λογαριασμού",
+  "deleteAccountSubtitle": "Μη αναστρέψιμη ενέργεια",
+  "deleteAccountConfirmTitle": "Διαγραφή λογαριασμού",
+  "deleteAccountConfirmMessage": "Ο λογαριασμός σας θα διαγραφεί οριστικά. Αυτή η ενέργεια είναι μη αναστρέψιμη.\n\n- Όλες οι συνομιλίες σας\n- Όλες οι επαφές σας\n- Το Hash ID σας\n\nΘα χρειαστεί να δημιουργήσετε νέο λογαριασμό.",
+  "deleteForever": "Οριστική διαγραφή",
+  "cancel": "Ακύρωση",
+  "panicConfirmTitle": "Κουμπί πανικού",
+  "panicConfirmMessage": "Αυτή η ενέργεια θα διαγράψει οριστικά ΟΛΑ τα δεδομένα σας:\n\n- Όλα τα μηνύματά σας\n- Όλες τις επαφές σας\n- Τον λογαριασμό σας\n\nΕίστε απολύτως σίγουροι;",
+  "deleteAll": "ΔΙΑΓΡΑΦΗ ΟΛΩΝ",
+  "dataDeletedForSecurity": "Η λειτουργία Vash ενεργοποιήθηκε.",
+  "deletionError": "Σφάλμα διαγραφής: {error}",
+  "yourSecurity": "Η ασφάλειά σας",
+  "securityInfo": "- Κρυπτογράφηση από άκρο σε άκρο (Signal Protocol)\n- Κανένα δεδομένο στους διακομιστές μας μετά την παράδοση\n- Κλειδιά αποθηκευμένα μόνο στη συσκευή σας\n- Ο κωδικός PIN δεν αποστέλλεται ποτέ στον διακομιστή",
+  "version": "Hash v{version}",
+  "welcome": "Καλώς ήρθατε",
+  "securityStatement1": "Τα μηνύματά σας είναι προστατευμένα.",
+  "securityStatement2": "Κρυπτογράφηση από άκρο σε άκρο.",
+  "securityStatement3": "Κανένα ίχνος. Κανένας συμβιβασμός.",
+  "securityStatement4": "Η ιδιωτικότητά σας είναι δικαίωμα.",
+  "accessBlocked": "Η πρόσβαση αποκλείστηκε",
+  "tooManyAttempts": "Πολλές αποτυχημένες προσπάθειες",
+  "pleaseWait": "Παρακαλώ περιμένετε",
+  "waitDelay": "Παρακαλώ περιμένετε να λήξει η καθυστέρηση",
+  "attemptCount": "Προσπάθεια {current} από {max}",
+  "retryIn": "Επανάληψη σε {time}",
+  "forgotPin": "Ξεχάσατε το PIN; Χρησιμοποιήστε τη φράση ανάκτησης",
+  "useRecoveryPhrase": "Χρήση φράσης ανάκτησης",
+  "recoveryWarningTitle": "Προειδοποίηση",
+  "recoveryWarningMessage": "Η ανάκτηση λογαριασμού θα:",
+  "recoveryDeleteAllMessages": "Διαγράψει ΟΛΑ τα μηνύματά σας",
+  "recoveryWaitDelay": "Απαιτήσει καθυστέρηση 1 ώρας",
+  "recoveryKeepContacts": "Διατηρήσει τις επαφές σας",
+  "recoveryIrreversible": "Αυτή η ενέργεια είναι μη αναστρέψιμη. Τα μηνύματά σας θα χαθούν μόνιμα.",
+  "iUnderstand": "Κατανοώ",
+  "accountRecovery": "Ανάκτηση λογαριασμού",
+  "enterRecoveryPhrase": "Εισάγετε τις 24 λέξεις της φράσης ανάκτησής σας, χωρισμένες με κενά.",
+  "recoveryPhraseHint": "λέξη1 λέξη2 λέξη3 ...",
+  "recover": "Ανάκτηση",
+  "recoveryPhraseRequired": "Παρακαλώ εισάγετε τη φράση ανάκτησης",
+  "recoveryPhrase24Words": "Η φράση πρέπει να περιέχει ακριβώς 24 λέξεις",
+  "incorrectRecoveryPhrase": "Λανθασμένη φράση ανάκτησης",
+  "recoveryInitError": "Σφάλμα κατά την αρχικοποίηση ανάκτησης",
+  "securityDelay": "Καθυστέρηση ασφαλείας",
+  "securityDelayMessage": "Για την ασφάλειά σας, απαιτείται περίοδος αναμονής πριν δημιουργήσετε νέο PIN.",
+  "timeRemaining": "Υπολειπόμενος χρόνος",
+  "messagesDeletedForProtection": "Τα μηνύματά σας διαγράφηκαν για την προστασία σας.",
+  "canCloseApp": "Μπορείτε να κλείσετε την εφαρμογή και να επιστρέψετε αργότερα.",
+  "onboardingTitle1": "Καλώς ήρθατε στο Hash",
+  "onboardingSubtitle1": "Ο messenger που δεν αφήνει ίχνη",
+  "onboardingTitle2": "Πλήρης κρυπτογράφηση",
+  "onboardingSubtitle2": "Τα μηνύματά σας κρυπτογραφούνται από άκρο σε άκρο με Signal Protocol",
+  "onboardingTitle3": "Κανένα ίχνος",
+  "onboardingSubtitle3": "Τα μηνύματα διαγράφονται από τους διακομιστές κατά την παράδοση",
+  "onboardingTitle4": "Η ασφάλειά σας",
+  "onboardingSubtitle4": "Κωδικός PIN, λειτουργία Vash και φράση ανάκτησης",
+  "getStarted": "Ξεκινήστε",
+  "next": "Επόμενο",
+  "skip": "Παράλειψη",
+  "alreadyHaveAccount": "Έχω ήδη λογαριασμό",
+  "transferMyAccount": "Μεταφορά του λογαριασμού μου",
+  "createPin": "Δημιουργία κωδικού PIN",
+  "createPinSubtitle": "Αυτός ο κωδικός θα προστατεύει την πρόσβαση στην εφαρμογή σας",
+  "confirmYourPin": "Επιβεβαιώστε τον κωδικό PIN σας",
+  "confirmPinSubtitle": "Εισάγετε ξανά τον κωδικό PIN σας",
+  "saveRecoveryPhrase": "Φράση ανάκτησης",
+  "saveRecoveryPhraseSubtitle": "Σημειώστε αυτές τις 24 λέξεις με τη σειρά. Θα σας επιτρέψουν να ανακτήσετε τον λογαριασμό σας αν ξεχάσετε το PIN σας.",
+  "phraseWritten": "Σημείωσα τη φράση μου",
+  "warningRecoveryPhrase": "Αν χάσετε αυτή τη φράση και ξεχάσετε το PIN σας, θα χάσετε την πρόσβαση στον λογαριασμό σας.",
+  "accountTransferred": "Ο λογαριασμός μεταφέρθηκε",
+  "accountTransferredMessage": "Ο λογαριασμός σας μεταφέρθηκε σε άλλη συσκευή. Αυτή η συνεδρία δεν είναι πλέον έγκυρη.",
+  "accountTransferredInfo": "Αν δεν ξεκινήσατε εσείς αυτή τη μεταφορά, ο λογαριασμός σας μπορεί να έχει παραβιαστεί.",
+  "logout": "Αποσύνδεση",
+  "transferAccount": "Μεταφορά λογαριασμού",
+  "transferAccountInfo": "Μεταφέρετε τον λογαριασμό Hash σας σε νέα συσκευή. Η τρέχουσα συνεδρία σας θα ακυρωθεί.",
+  "generateTransferCode": "Δημιουργία κωδικού μεταφοράς",
+  "transferCode": "Κωδικός μεταφοράς",
+  "transferCodeExpires": "Αυτός ο κωδικός λήγει σε {minutes} λεπτά",
+  "enterCodeOnNewDevice": "Εισάγετε αυτόν τον κωδικό στη νέα σας συσκευή για να μεταφέρετε τον λογαριασμό σας.",
+  "generateNewCode": "Δημιουργία νέου κωδικού",
+  "scanQrCode": "Σάρωση QR code",
+  "scanQrCodeSubtitle": "Σαρώστε το QR code μιας επαφής για να την προσθέσετε",
+  "qrCodeDetected": "Ανιχνεύτηκε QR code",
+  "invalidQrCode": "Μη έγκυρο QR code",
+  "cameraPermissionRequired": "Απαιτείται άδεια κάμερας",
+  "myQrCode": "Το QR code μου",
+  "myQrCodeSubtitle": "Μοιραστείτε αυτό το QR code ώστε οι επαφές σας να σας προσθέσουν",
+  "shareQrCode": "Κοινοποίηση",
+  "addContactTitle": "Προσθήκη επαφής",
+  "addContactByHashId": "Εισάγετε το Hash ID της επαφής σας",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Αναζήτηση",
+  "contactNotFound": "Η επαφή δεν βρέθηκε",
+  "contactAlreadyAdded": "Αυτή η επαφή είναι ήδη στη λίστα σας",
+  "contactAdded": "Η επαφή προστέθηκε",
+  "myProfile": "Το προφίλ μου",
+  "myProfileSubtitle": "Μοιραστείτε αυτές τις πληροφορίες ώστε άλλοι να σας προσθέσουν",
+  "temporaryCode": "Προσωρινός κωδικός",
+  "temporaryCodeExpires": "Λήγει σε {time}",
+  "codeExpired": "Ο κωδικός έληξε",
+  "generateNewCodeButton": "Νέος κωδικός",
+  "copyHashId": "Αντιγραφή ID",
+  "copyCode": "Αντιγραφή κωδικού",
+  "copiedToClipboard": "Αντιγράφηκε",
+  "showMyQrCode": "Εμφάνιση του QR code μου",
+  "orDivider": "ή",
+  "openScanner": "Άνοιγμα σαρωτή",
+  "addManually": "Χειροκίνητη προσθήκη",
+  "contactHashIdLabel": "Hash ID επαφής",
+  "temporaryCodeLabel": "Προσωρινός κωδικός",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Ζητήστε από την επαφή σας να δημιουργήσει έναν κωδικό από το προφίλ της",
+  "verifyAndAdd": "Επαλήθευση και προσθήκη",
+  "fillAllFields": "Παρακαλώ συμπληρώστε όλα τα πεδία",
+  "invalidHashIdFormat": "Μη έγκυρη μορφή ID (π.χ.: 123-456-ABC)",
+  "userNotFound": "Ο χρήστης δεν βρέθηκε",
+  "cannotAddYourself": "Δεν μπορείτε να προσθέσετε τον εαυτό σας",
+  "invalidOrExpiredCode": "Μη έγκυρος ή ληγμένος προσωρινός κωδικός",
+  "contactFound": "Η επαφή βρέθηκε!",
+  "howToCallContact": "Πώς θέλετε να τον/την αποκαλείτε;",
+  "contactNameHint": "Όνομα επαφής",
+  "addContactButton": "Προσθήκη",
+  "contactDetails": "Στοιχεία επαφής",
+  "contactName": "Όνομα επαφής",
+  "contactHashId": "Hash ID",
+  "addedOn": "Προστέθηκε στις {date}",
+  "deleteContact": "Διαγραφή επαφής",
+  "deleteContactConfirm": "Διαγραφή αυτής της επαφής;",
+  "deleteContactMessage": "Αυτό θα διαγράψει επίσης ολόκληρη τη συνομιλία.",
+  "delete": "Διαγραφή",
+  "typeMessage": "Πληκτρολογήστε ένα μήνυμα...",
+  "messageSent": "Απεστάλη",
+  "messageDelivered": "Παραδόθηκε",
+  "messageRead": "Διαβάστηκε",
+  "messageFailed": "Αποτυχία αποστολής",
+  "now": "Τώρα",
+  "minutesAgo": "{count}λ",
+  "hoursAgo": "{count}ω",
+  "daysAgo": "{count}μ",
+  "today": "Σήμερα",
+  "yesterday": "Χθες",
+  "dateAtTime": "{date} στις {time}",
+  "shareMessage": "Ελάτε στο Hash! Είναι ένας πραγματικά ιδιωτικός messenger: πλήρης κρυπτογράφηση, κανένα ίχνος στους διακομιστές και λειτουργία πανικού αν χρειαστεί.\n\nΚατεβάστε την εφαρμογή εδώ\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Σφάλμα",
+  "ok": "OK",
+  "view": "Προβολή",
+  "yes": "Ναι",
+  "no": "Όχι",
+  "save": "Αποθήκευση",
+  "edit": "Επεξεργασία",
+  "close": "Κλείσιμο",
+  "confirm": "Επιβεβαίωση",
+  "loading": "Φόρτωση...",
+  "retry": "Επανάληψη",
+  "pendingRequests": "Εκκρεμή αιτήματα",
+  "noPendingRequests": "Κανένα εκκρεμές αίτημα",
+  "pendingRequestsSubtitle": "Αυτοί οι άνθρωποι θέλουν να σας προσθέσουν",
+  "requestFromUser": "Αίτημα από {hashId}",
+  "requestExpiresIn": "Λήγει σε {days} ημέρες",
+  "acceptRequest": "Αποδοχή",
+  "rejectRequest": "Απόρριψη",
+  "requestAccepted": "Το αίτημα έγινε δεκτό",
+  "requestRejected": "Το αίτημα απορρίφθηκε",
+  "requestSent": "Το αίτημα εστάλη!",
+  "requestSentSubtitle": "Το αίτημά σας εστάλη. Ο χρήστης πρέπει να το αποδεχτεί πριν μπορέσετε να συνομιλήσετε.",
+  "requestAlreadyPending": "Ένα αίτημα είναι ήδη σε εκκρεμότητα",
+  "requestAlreadySentByOther": "Αυτό το άτομο σας έχει ήδη στείλει αίτημα",
+  "addByHashId": "Προσθήκη μέσω Hash ID",
+  "addByHashIdSubtitle": "Εισάγετε το Hash ID και τον προσωρινό κωδικό της επαφής",
+  "enterTemporaryCode": "Εισάγετε τον 6-ψήφιο κωδικό",
+  "sendRequest": "Αποστολή αιτήματος",
+  "acceptContactTitle": "Αποδοχή επαφής",
+  "acceptContactSubtitle": "Μπορείτε να τους δώσετε ένα προσαρμοσμένο όνομα",
+  "leaveEmptyForHashId": "Αφήστε κενό για να χρησιμοποιηθεί το Hash ID",
+  "firstName": "Όνομα",
+  "lastName": "Επώνυμο",
+  "notes": "Σημειώσεις",
+  "notesHint": "Προσωπικές σημειώσεις για αυτήν την επαφή",
+  "photoOptional": "Φωτογραφία (προαιρετικό)",
+  "contactNameOptional": "Όνομα (προαιρετικό)",
+  "notesOptional": "Σημειώσεις (προαιρετικό)",
+  "storedLocally": "Αποθηκευμένο μόνο στη συσκευή σας",
+  "encryptedMessageLabel": "Κρυπτογραφημένο μήνυμα",
+  "identityMessageHint": "Ποιος είστε; Πώς γνωρίζεστε;",
+  "messageWillBeSentEncrypted": "Αυτό το μήνυμα θα κρυπτογραφηθεί και θα σταλεί στον παραλήπτη",
+  "sendRequestButton": "Αποστολή αιτήματος",
+  "requestExpiresIn24h": "Το αίτημα λήγει σε 24ω αν δεν γίνει αποδεκτό",
+  "theyAlreadySentYouRequest": "Αυτό το άτομο σας έχει ήδη στείλει αίτημα",
+  "requests": "Αιτήματα",
+  "receivedRequests": "Ληφθέντα",
+  "sentRequests": "Απεσταλμένα",
+  "noSentRequests": "Κανένα απεσταλμένο αίτημα",
+  "cancelRequest": "Ακύρωση",
+  "deleteRequest": "Διαγραφή αιτήματος",
+  "requestCancelled": "Το αίτημα ακυρώθηκε",
+  "sentTo": "Στάλθηκε σε {hashId}",
+  "expiresIn": "Λήγει σε {time}",
+  "receivedAgo": "Ελήφθη πριν από {time}",
+  "messageFromRequester": "Μήνυμα από τον αποστολέα",
+  "copy": "Αντιγραφή",
+  "messageInfo": "Πληροφορίες μηνύματος",
+  "messageDirection": "Κατεύθυνση",
+  "messageSentByYou": "Απεστάλη από εσάς",
+  "messageReceived": "Ελήφθη",
+  "messageSentAt": "Απεστάλη στις",
+  "messageStatus": "Κατάσταση",
+  "messageReadAt": "Διαβάστηκε στις",
+  "messageType": "Τύπος",
+  "messageSize": "Μέγεθος",
+  "messageExpiresAt": "Λήγει στις",
+  "messageEncrypted": "Κρυπτογράφηση από άκρο σε άκρο",
+  "messageStatusSending": "Αποστολή...",
+  "messageStatusSent": "Απεστάλη",
+  "messageStatusDelivered": "Παραδόθηκε",
+  "messageStatusRead": "Διαβάστηκε",
+  "messageStatusFailed": "Απέτυχε",
+  "serverStatus": "Διακομιστής",
+  "onServer": "Εκκρεμής παράδοση",
+  "deletedFromServer": "Διαγράφηκε",
+  "messageTypeText": "Κείμενο",
+  "messageTypeImage": "Εικόνα",
+  "messageTypeVideo": "Βίντεο",
+  "messageTypeVoice": "Φωνή",
+  "messageTypeFile": "Αρχείο",
+  "indefinitely": "Επ' αόριστον",
+  "hoursShort": "ω",
+  "minutesShort": "λ",
+  "hours": "ώρες",
+  "minutes": "λεπτά",
+  "seconds": "δευτερόλεπτα",
+  "ephemeralMessages": "Εφήμερα μηνύματα",
+  "ephemeralMessagesDescription": "Τα μηνύματα διαγράφονται αυτόματα μετά από αυτό το χρονικό διάστημα",
+  "ephemeralImmediate": "Άμεσα (μετά την ανάγνωση)",
+  "ephemeralImmediateDesc": "Διαγράφεται αμέσως μετά την ανάγνωση",
+  "ephemeralMyPreference": "Η προτίμησή μου",
+  "ephemeralMyPreferenceDesc": "Χρήση γενικής ρύθμισης",
+  "ephemeralDefaultSetting": "Διάρκεια μηνύματος",
+  "ephemeralChooseDefault": "Συνιστώμενο",
+  "ephemeral30Seconds": "30 δευτερόλεπτα",
+  "ephemeral5Minutes": "5 λεπτά",
+  "ephemeral1Hour": "1 ώρα",
+  "ephemeral3Hours": "3 ώρες",
+  "ephemeral6Hours": "6 ώρες",
+  "ephemeral12Hours": "12 ώρες",
+  "ephemeral24Hours": "24 ώρες",
+  "customDuration": "Προσαρμοσμένη διάρκεια",
+  "muteNotifications": "Σίγαση ειδοποιήσεων",
+  "muteDescription": "Δεν θα λαμβάνετε ειδοποιήσεις για αυτήν την επαφή",
+  "mutedUntil": "Σε σίγαση μέχρι {time}",
+  "notMuted": "Οι ειδοποιήσεις είναι ενεργοποιημένες",
+  "unmute": "Κατάργηση σίγασης",
+  "notificationSound": "Ήχος ειδοποίησης",
+  "defaultSound": "Προεπιλογή",
+  "chatSettings": "Ρυθμίσεις συνομιλίας",
+  "bubbleColor": "Χρώμα φούσκας",
+  "backgroundColor": "Χρώμα φόντου",
+  "backgroundImage": "Εικόνα φόντου",
+  "chatBackground": "Φόντο συνομιλίας",
+  "customColor": "Προσαρμοσμένο",
+  "defaultColor": "Προεπιλογή",
+  "imageSelected": "Η εικόνα επιλέχθηκε",
+  "noImage": "Καμία εικόνα",
+  "color": "Χρώμα",
+  "image": "Εικόνα",
+  "tapToSelectImage": "Πατήστε για επιλογή εικόνας",
+  "changeImage": "Αλλαγή εικόνας",
+  "previewMessageReceived": "Γεια σου!",
+  "previewMessageSent": "Γεια σας!",
+  "messageAction": "Μήνυμα",
+  "callAction": "Κλήση",
+  "videoAction": "Βίντεο",
+  "personalNotes": "Προσωπικές σημειώσεις",
+  "addNotes": "Προσθήκη σημειώσεων...",
+  "noNotes": "Δεν υπάρχουν σημειώσεις",
+  "messageNotifications": "Ειδοποιήσεις μηνυμάτων",
+  "callNotifications": "Ειδοποιήσεις κλήσεων",
+  "useGradient": "Χρήση ντεγκραντέ",
+  "gradientStart": "Αρχικό χρώμα",
+  "gradientEnd": "Τελικό χρώμα",
+  "preview": "Προεπισκόπηση",
+  "reset": "Επαναφορά",
+  "securityNumber": "Αριθμός ασφαλείας",
+  "securityNumberDescription": "Επαληθεύστε ότι ο αριθμός ασφαλείας ταιριάζει με τη συσκευή του/της {name}",
+  "verifyEncryption": "Επαλήθευση κρυπτογράφησης από άκρο σε άκρο",
+  "tapToCopy": "Πατήστε για αντιγραφή",
+  "howToVerify": "Πώς να επαληθεύσετε",
+  "verifyStep1": "Συναντήστε την επαφή σας αυτοπροσώπως ή καλέστε την",
+  "verifyStep2": "Συγκρίνετε τους αριθμούς ασφαλείας ή σαρώστε τα QR code",
+  "verifyStep3": "Αν ταιριάζουν, η συνομιλία σας είναι ασφαλής",
+  "scanToVerify": "Σάρωση για επαλήθευση",
+  "reportSpam": "Αναφορά spam",
+  "reportSpamSubtitle": "Αναφέρετε αυτήν την επαφή ως spam",
+  "reportSpamDescription": "Αυτό θα αναφέρει ανώνυμα αυτήν την επαφή. Η ταυτότητά σας δεν θα κοινοποιηθεί. Είστε σίγουροι;",
+  "report": "Αναφορά",
+  "spamReported": "Αναφέρθηκε ως spam",
+  "reportError": "Αποτυχία αποστολής αναφοράς. Παρακαλώ δοκιμάστε ξανά.",
+  "reportRateLimited": "Έχετε φτάσει τον μέγιστο αριθμό αναφορών για σήμερα.",
+  "blockContact": "Αποκλεισμός επαφής",
+  "blockContactDescription": "Αυτή η επαφή δεν θα μπορεί πλέον να σας στέλνει μηνύματα ή να σας καλεί. Δεν θα ειδοποιηθεί.",
+  "unblockContact": "Ξεμπλοκάρισμα επαφής",
+  "unblockContactDescription": "Αυτή η επαφή θα μπορεί ξανά να σας στέλνει μηνύματα και να σας καλεί.",
+  "contactBlocked": "Η επαφή αποκλείστηκε",
+  "contactUnblocked": "Η επαφή ξεμπλοκαρίστηκε",
+  "contactIsBlocked": "Αυτή η επαφή είναι αποκλεισμένη",
+  "unblock": "Ξεμπλοκάρισμα",
+  "deleteContactSubtitle": "Διαγραφή αυτής της επαφής και της συνομιλίας",
+  "confirmWithPin": "Επιβεβαίωση με PIN",
+  "enterPinToConfirm": "Εισάγετε το PIN σας για επιβεβαίωση αυτής της ενέργειας",
+  "mute1Hour": "1 ώρα",
+  "mute8Hours": "8 ώρες",
+  "mute1Day": "1 ημέρα",
+  "mute1Week": "1 εβδομάδα",
+  "muteAlways": "Πάντα",
+  "muteExplanation": "Δεν θα λαμβάνετε ειδοποιήσεις για αυτήν την επαφή",
+  "howItWorks": "Πώς λειτουργεί",
+  "ephemeralExplanation1": "Τα μηνύματα διαγράφονται από τον διακομιστή αμέσως μόλις ληφθούν.",
+  "ephemeralExplanation2": "Αυτή η ρύθμιση καθορίζει πότε τα μηνύματα εξαφανίζονται από ΤΟ ΤΗΛΕΦΩΝΟ ΣΑΣ μετά την ανάγνωση.",
+  "ephemeralExplanation3": "Η επαφή σας έχει τη δική της ρύθμιση για το τηλέφωνό της.",
+  "profilePhoto": "Φωτογραφία προφίλ",
+  "takePhoto": "Λήψη φωτογραφίας",
+  "chooseFromGallery": "Επιλογή από τη γκαλερί",
+  "removePhoto": "Αφαίρεση φωτογραφίας",
+  "viewContactHashId": "Προβολή αναγνωριστικού επαφής",
+  "hashIdPartiallyMasked": "Μερικώς κρυφό για την ασφάλειά σας και την ιδιωτικότητα της επαφής σας",
+  "addFirstContact": "Προσθέστε την πρώτη σας επαφή",
+  "addFirstContactSubtitle": "Μοιραστείτε το QR code σας ή σαρώστε ενός φίλου",
+  "directory": "Κατάλογος",
+  "noContacts": "Δεν υπάρχουν επαφές",
+  "noContactsSubtitle": "Προσθέστε μια επαφή για να ξεκινήσετε",
+  "sendMessageAction": "Αποστολή μηνύματος",
+  "audioCall": "Φωνητική κλήση",
+  "videoCall": "Βιντεοκλήση",
+  "viewProfile": "Προβολή προφίλ",
+  "deleteContactDirectory": "Διαγραφή επαφής",
+  "scanShort": "Σάρωση",
+  "addShort": "Προσθήκη",
+  "deleteContactConfirmName": "Σίγουρα θέλετε να διαγράψετε {name};",
+  "noNotesTitle": "Δεν υπάρχουν σημειώσεις",
+  "noNotesSubtitle": "Δημιουργήστε την πρώτη σας σημείωση",
+  "newNote": "Νέα σημείωση",
+  "editNote": "Επεξεργασία σημείωσης",
+  "deleteNote": "Διαγραφή σημείωσης",
+  "deleteNoteConfirm": "Σίγουρα θέλετε να διαγράψετε αυτή τη σημείωση;",
+  "noteTitle": "Τίτλος",
+  "noteContent": "Περιεχόμενο",
+  "addItem": "Προσθήκη στοιχείου",
+  "pinNote": "Καρφίτσωμα",
+  "unpinNote": "Ξεκαρφίτσωμα",
+  "noteColor": "Χρώμα",
+  "notePassword": "Κωδικός πρόσβασης",
+  "setPassword": "Ορισμός κωδικού πρόσβασης",
+  "changePassword": "Αλλαγή κωδικού πρόσβασης",
+  "removePassword": "Αφαίρεση κωδικού πρόσβασης",
+  "enterPassword": "Εισαγωγή κωδικού πρόσβασης",
+  "confirmPassword": "Επιβεβαίωση κωδικού πρόσβασης",
+  "passwordPin": "Κωδικός PIN",
+  "passwordText": "Κωδικός κειμένου",
+  "protectedNote": "Προστατευμένη σημείωση",
+  "incorrectPassword": "Λανθασμένος κωδικός πρόσβασης",
+  "passwordSet": "Ο κωδικός πρόσβασης ορίστηκε",
+  "passwordRemoved": "Ο κωδικός πρόσβασης αφαιρέθηκε",
+  "notesBiometric": "Face ID για σημειώσεις",
+  "notesBiometricSubtitle": "Απαίτηση βιομετρικής ταυτοποίησης για το άνοιγμα προστατευμένων σημειώσεων",
+  "textNote": "Σημείωση κειμένου",
+  "checklistNote": "Λίστα ελέγχου",
+  "tasksProgress": "{checked}/{total} εργασίες",
+  "autoSaved": "Αποθηκεύτηκε",
+  "searchNotes": "Αναζήτηση σημειώσεων",
+  "legalConsent": "Νομική συγκατάθεση",
+  "confirmAge13": "Επιβεβαιώνω ότι είμαι τουλάχιστον 13 ετών",
+  "acceptLegalStart": "Αποδέχομαι την ",
+  "privacyPolicy": "Πολιτική Απορρήτου",
+  "termsOfService": "Όρους Χρήσης",
+  "andThe": " και τους ",
+  "continueButton": "Συνέχεια",
+  "mustAcceptTerms": "Πρέπει να αποδεχτείτε και τις δύο προϋποθέσεις για να συνεχίσετε",
+  "support": "Υποστήριξη",
+  "contactSupport": "Επικοινωνία με υποστήριξη",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Αναφορά κατάχρησης",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Νομικά",
+  "legalEntity": "Νομική οντότητα",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Καρφίτσωμα",
+  "unpinConversation": "Ξεκαρφίτσωμα",
+  "hideConversation": "Αφαίρεση από τη ροή",
+  "deleteConversation": "Διαγραφή συνομιλίας",
+  "deleteConversationConfirm": "Εισάγετε το PIN σας για επιβεβαίωση της διαγραφής όλων των μηνυμάτων",
+  "noConversations": "Δεν υπάρχουν ακόμη συνομιλίες",
+  "startConversation": "Έναρξη",
+  "microphonePermissionRequired": "Απαιτείται πρόσβαση στο μικρόφωνο",
+  "microphonePermissionExplanation": "Το Hash χρειάζεται το μικρόφωνο για πραγματοποίηση κλήσεων.",
+  "cameraPermissionExplanation": "Το Hash χρειάζεται την κάμερα για βιντεοκλήσεις.",
+  "openSettings": "Άνοιγμα ρυθμίσεων",
+  "callConnecting": "Σύνδεση...",
+  "callRinging": "Κουδουνίζει...",
+  "callReconnecting": "Επανασύνδεση...",
+  "callReconnectingTimer": "Επανασύνδεση ({seconds}δ)",
+  "callPaused": "Σε παύση",
+  "callPausedSubtitle": "Η κλήση είναι ακόμα ενεργή",
+  "callRemoteMicMuted": "Το μικρόφωνο της επαφής είναι σε σίγαση",
+  "callMiniControlsMute": "Σίγαση",
+  "callMiniControlsUnmute": "Κατάργηση σίγασης",
+  "callMiniControlsHangUp": "Τερματισμός",
+  "callMiniControlsReturn": "Επιστροφή στην κλήση",
+  "callNetworkPoor": "Ασταθής σύνδεση",
+  "callNetworkLost": "Η σύνδεση χάθηκε",
+  "callEndedTitle": "Η κλήση τερματίστηκε",
+  "deviceData": "Δεδομένα συσκευής",
+  "deviceDataSubtitle": "Τοπική και απομακρυσμένη αποθήκευση",
+  "localStorage": "Τοπική αποθήκευση",
+  "onThisDevice": "σε αυτή τη συσκευή",
+  "encryptedDatabases": "Κρυπτογραφημένες βάσεις δεδομένων",
+  "files": "Αρχεία",
+  "secureKeychain": "Ασφαλές κλειδοθήκη",
+  "cache": "Προσωρινή μνήμη",
+  "contactsDetail": "Ονόματα, εικονίδια, κλειδιά Signal",
+  "messagesDetail": "Κρυπτογραφημένες συνομιλίες",
+  "notesDetail": "Προσωπικές σημειώσεις",
+  "signalSessions": "Συνεδρίες Signal",
+  "signalSessionsDetail": "Συνεδρίες κρυπτογράφησης",
+  "pendingContacts": "Εκκρεμείς επαφές",
+  "pendingContactsDetail": "Εκκρεμή αιτήματα",
+  "callHistory": "Κλήσεις",
+  "callHistoryDetail": "Ιστορικό κλήσεων",
+  "preferences": "Προτιμήσεις",
+  "preferencesDetail": "Προτιμήσεις πολυμέσων και κλήσεων",
+  "avatars": "Εικονίδια",
+  "media": "Πολυμέσα",
+  "fileCount": "{count, plural, =0{κανένα αρχείο} =1{1 αρχείο} other{{count} αρχεία}}",
+  "active": "Ενεργό",
+  "notDefined": "Δεν έχει οριστεί",
+  "biometrics": "Βιομετρικά",
+  "recoveryPhrase": "Φράση ανάκτησης",
+  "identity": "Ταυτότητα (Hash ID)",
+  "signalKeys": "Κλειδιά Signal Protocol",
+  "authTokens": "Διακριτικά ταυτοποίησης",
+  "contactNamesCache": "Προσωρινή μνήμη ονομάτων επαφών",
+  "remoteConfig": "Απομακρυσμένη διαμόρφωση",
+  "notificationPrefs": "Προτιμήσεις ειδοποιήσεων",
+  "serverData": "Δεδομένα διακομιστή",
+  "serverDataInfo": "Το Hash κρατά ελάχιστα δεδομένα στον διακομιστή, όλα κρυπτογραφημένα ή προσωρινά.",
+  "serverProfile": "Προφίλ",
+  "serverProfileDetail": "Hash ID, δημόσια κλειδιά, token γραμματοκιβωτίου",
+  "serverPrekeys": "Προ-κλειδιά",
+  "serverPrekeysDetail": "Κλειδιά Signal μίας χρήσης (αναλωμένα)",
+  "serverMessages": "Μηνύματα σε μεταφορά",
+  "serverMessagesDetail": "Διαγράφονται μετά την παράδοση (μέγ. 24ω)",
+  "serverMedia": "Πολυμέσα σε μεταφορά",
+  "serverMediaDetail": "Διαγράφονται μετά τη λήψη",
+  "serverContactRequests": "Αιτήματα επαφών",
+  "serverContactRequestsDetail": "Λήγουν μετά από 24ω",
+  "serverRateLimits": "Όρια ρυθμού",
+  "serverRateLimitsDetail": "Προσωρινά δεδομένα κατά της κατάχρησης",
+  "privacyReassurance": "Το Hash δεν μπορεί να διαβάσει τα μηνύματά σας. Όλα τα δεδομένα κρυπτογραφούνται από άκρο σε άκρο. Τα δεδομένα του διακομιστή διαγράφονται αυτόματα.",
+  "pinTooSimple": "Αυτός ο κωδικός PIN είναι πολύ απλός. Επιλέξτε έναν πιο ασφαλή κωδικό.",
+  "genericError": "Παρουσιάστηκε σφάλμα. Παρακαλώ δοκιμάστε ξανά.",
+  "accountCreationError": "Αδυναμία δημιουργίας λογαριασμού: {error}",
+  "phraseCopiedToClipboard": "Η φράση αντιγράφηκε στο πρόχειρο",
+  "copyPhrase": "Αντιγραφή φράσης",
+  "recoveryPhraseSecurityWarning": "Σημειώστε αυτή τη φράση σε ασφαλές μέρος. Αν χάσετε το PIN σας χωρίς αυτή τη φράση, θα χάσετε μόνιμα την πρόσβαση στα δεδομένα σας.",
+  "noMessages": "Κανένα μήνυμα",
+  "deleteAllMessagesWithContact": "Διαγραφή όλων των μηνυμάτων με {name};",
+  "confirmation": "Επιβεβαίωση",
+  "untitled": "Χωρίς τίτλο",
+  "noSessions": "Καμία συνεδρία",
+  "unknownContact": "Άγνωστη επαφή",
+  "unnamed": "Χωρίς όνομα",
+  "noPendingRequestsAlt": "Κανένα εκκρεμές αίτημα",
+  "deleteAllCallHistory": "Διαγραφή όλου του ιστορικού κλήσεων;",
+  "noCalls": "Καμία κλήση",
+  "noPreferences": "Δεν υπάρχουν προτιμήσεις",
+  "resetAllMediaPrefs": "Επαναφορά όλων των προτιμήσεων πολυμέσων;",
+  "deleteThisAvatar": "Διαγραφή αυτού του εικονιδίου;",
+  "deleteAllAvatars": "Διαγραφή όλων των εικονιδίων;",
+  "noAvatars": "Κανένα εικονίδιο",
+  "deleteThisFile": "Διαγραφή αυτού του αρχείου;",
+  "deleteAllMediaFiles": "Διαγραφή όλων των πολυμέσων;",
+  "noMediaFiles": "Κανένα πολυμέσο",
+  "outgoing": "Εξερχόμενο",
+  "incoming": "Εισερχόμενο",
+  "ephemeralViewDuration": "Εφήμερη προβολή: {seconds}δ",
+  "normalView": "Κανονική προβολή",
+  "callReasonCompleted": "Ολοκληρώθηκε",
+  "callReasonMissed": "Αναπάντητη",
+  "callReasonDeclined": "Απορρίφθηκε",
+  "callReasonFailed": "Απέτυχε",
+  "justNow": "Μόλις τώρα",
+  "timeAgoMinutes": "πριν {count} λ",
+  "timeAgoHours": "πριν {count}ω",
+  "timeAgoDays": "πριν {count}μ",
+  "messageTypeContact": "Επαφή",
+  "messageTypeLocation": "Τοποθεσία",
+  "statusQueued": "Στην ουρά",
+  "blockedBadge": "Αποκλεισμένος",
+  "protectedBadge": "Προστατευμένο",
+  "messageCount": "{count} μήνυμα(τα)",
+  "deleteQuestion": "Διαγραφή;",
+  "transferMyAccountTitle": "Μεταφορά λογαριασμού μου",
+  "loadingError": "Σφάλμα φόρτωσης",
+  "transferToNewDevice": "Μεταφορά σε νέα συσκευή",
+  "transferInstructions": "Στη νέα σας συσκευή, επιλέξτε \"Ανάκτηση λογαριασμού\" και εισάγετε αυτές τις πληροφορίες:",
+  "yourHashIdLabel": "Το Hash ID σας",
+  "enterYourPinCode": "Εισάγετε τον κωδικό PIN σας",
+  "pinOwnerConfirmation": "Για να επιβεβαιώσετε ότι είστε ο κάτοχος αυτού του λογαριασμού",
+  "scanThisQrCode": "Σαρώστε αυτό το QR code",
+  "withYourNewDevice": "Με τη νέα σας συσκευή",
+  "orEnterTheCode": "ή εισάγετε τον κωδικό",
+  "transferCodeLabel": "Κωδικός μεταφοράς",
+  "proximityVerification": "Επαλήθευση εγγύτητας",
+  "bringDevicesCloser": "Φέρτε τις δύο συσκευές κοντύτερα",
+  "confirmTransferQuestion": "Επιβεβαίωση μεταφοράς;",
+  "accountWillBeTransferred": "Ο λογαριασμός σας θα μεταφερθεί στη νέα συσκευή.\n\nΑυτή η συσκευή θα αποσυνδεθεί μόνιμα.",
+  "transferComplete": "Η μεταφορά ολοκληρώθηκε",
+  "transferSuccessMessage": "Ο λογαριασμός σας μεταφέρθηκε με επιτυχία.\n\nΗ εφαρμογή θα κλείσει τώρα.",
+  "manualVerification": "Χειροκίνητη επαλήθευση",
+  "codeDisplayedOnBothDevices": "Κωδικός που εμφανίζεται και στις δύο συσκευές:",
+  "doesCodeMatchNewDevice": "Ταιριάζει αυτός ο κωδικός με αυτόν στη νέα συσκευή;",
+  "verifiedStatus": "Επαληθεύτηκε",
+  "inProgressStatus": "Σε εξέλιξη...",
+  "notAvailableStatus": "Μη διαθέσιμο",
+  "codeExpiredRestart": "Ο κωδικός έληξε. Παρακαλώ ξεκινήστε ξανά.",
+  "codesDoNotMatchCancelled": "Οι κωδικοί δεν ταιριάζουν. Η μεταφορά ακυρώθηκε.",
+  "transferToDevice": "Προς: {device}",
+  "copiedExclamation": "Αντιγράφηκε!",
+  "expiresInTime": "Λήγει σε {time}",
+  "biometricNotAvailable": "Τα βιομετρικά δεν είναι διαθέσιμα σε αυτή τη συσκευή",
+  "biometricAuthError": "Σφάλμα κατά τη βιομετρική ταυτοποίηση",
+  "authenticateForBiometric": "Παρακαλώ πιστοποιηθείτε για να ενεργοποιήσετε τα βιομετρικά",
+  "biometricAuthFailed": "Η βιομετρική ταυτοποίηση απέτυχε",
+  "forceUpdateTitle": "Απαιτείται ενημέρωση",
+  "forceUpdateMessage": "Μια νέα έκδοση του Hash είναι διαθέσιμη. Παρακαλώ ενημερώστε για να συνεχίσετε.",
+  "updateButton": "Ενημέρωση",
+  "maintenanceInProgress": "Συντήρηση σε εξέλιξη",
+  "tryAgainLater": "Παρακαλώ δοκιμάστε ξανά αργότερα",
+  "information": "Πληροφορίες",
+  "noLoginRecorded": "Δεν καταγράφηκε σύνδεση",
+  "nextUnlocksAppearHere": "Τα επόμενα ξεκλειδώματα θα εμφανιστούν εδώ.",
+  "noMaintenancePlanned": "Δεν υπάρχει προγραμματισμένη συντήρηση",
+  "everythingWorkingNormally": "Όλα λειτουργούν κανονικά",
+  "locking": "Κλείδωμα...",
+  "newMessageNotification": "Νέο μήνυμα",
+  "secExplainTitle": "Πώς σε προστατεύει το Hash",
+  "secExplainIntro": "Το Hash σχεδιάστηκε ώστε κανείς να μην μπορεί να διαβάσει τα μηνύματά σας.",
+  "secExplainIntroSub": "Ούτε καν εμείς.\nΔείτε πώς λειτουργεί, με απλά λόγια.",
+  "secJourneyLabel": "Η ΔΙΑΔΡΟΜΗ",
+  "secJourneyTitle": "Η διαδρομή του μηνύματός σας",
+  "secJourneySubtitle": "Από το δάχτυλό σας μέχρι την οθόνη της επαφής σας, κάθε βήμα είναι προστατευμένο. Ακολουθήστε τη διαδρομή.",
+  "secStep1Title": "Γράφετε το μήνυμά σας",
+  "secStep1Desc": "Πληκτρολογείτε \"Γεια!\" στην εφαρμογή. Σε αυτό το σημείο, το μήνυμα υπάρχει μόνο στη μνήμη του τηλεφώνου σας. Τίποτα δεν έχει σταλεί.",
+  "secStep2Title": "Κρυπτογράφηση με Signal Protocol",
+  "secStep2Desc": "Μόλις πατήσετε \"Αποστολή\", το μήνυμά σας μετατρέπεται σε μια σειρά ακατανόητων χαρακτήρων. Είναι σαν το μήνυμά σας να κλειδώνεται σε ένα χρηματοκιβώτιο που μόνο η επαφή σας έχει το κλειδί.",
+  "secStep3Title": "Sealed Sender: ο αόρατος φάκελος",
+  "secStep3Desc": "Φανταστείτε να στέλνετε ένα γράμμα χωρίς διεύθυνση αποστολέα στον φάκελο. Αυτό ακριβώς κάνει το Hash. Το μήνυμα αφήνεται σε ένα ανώνυμο γραμματοκιβώτιο. Ο διακομιστής δεν ξέρει ποιος το έστειλε.",
+  "secStep4Title": "Ο διακομιστής δεν βλέπει τίποτα",
+  "secStep4Desc": "Ο διακομιστής λειτουργεί ως τυφλός ταχυδρόμος. Ξέρει μόνο \"κάποιος άφησε κάτι στο γραμματοκιβώτιο #A7X9\". Δεν ξέρει ποιος το έστειλε, τι είναι ή σε ποιον απευθύνεται.",
+  "secStep4Highlight": "Κανένα μεταδεδομένο δεν αποθηκεύεται: καμία διεύθυνση IP, καμία χρονοσφραγίδα, κανένας σύνδεσμος μεταξύ αποστολέα και παραλήπτη.",
+  "secStep5Title": "Η επαφή σας λαμβάνει το μήνυμα",
+  "secStep5Desc": "Το τηλέφωνο της επαφής σας ανακτά το περιεχόμενο από το ανώνυμο γραμματοκιβώτιό της και αποκρυπτογραφεί το μήνυμα με το ιδιωτικό κλειδί της, που δεν έχει φύγει ποτέ από τη συσκευή της. Το \"Γεια!\" εμφανίζεται στην οθόνη της.",
+  "secStep6Title": "Το μήνυμα εξαφανίζεται από τον διακομιστή",
+  "secStep6Desc": "Μόλις η επαφή σας επιβεβαιώσει τη λήψη, ο διακομιστής διαγράφει μόνιμα το μήνυμα. Κανένας κάδος, κανένα αρχείο, κανένα αντίγραφο ασφαλείας. Ακόμη και τα αδιάβαστα μηνύματα καταστρέφονται αυτόματα μετά από 24 ώρες.",
+  "secStep7Title": "Τοπική λήξη",
+  "secStep7Desc": "Στο τηλέφωνο της επαφής σας, το μήνυμα αυτοκαταστρέφεται σύμφωνα με τη διάρκεια που επιλέξατε: αμέσως μετά την ανάγνωση, 5 λεπτά, 1 ώρα... εσείς αποφασίζετε.",
+  "secJourneyConclusion": "Αποτέλεσμα: μηδέν ίχνη στον διακομιστή, μηδέν ίχνη στις συσκευές. Το μήνυμα υπήρχε μόνο αρκετά ώστε να διαβαστεί, μετά εξαφανίστηκε.",
+  "secArchLabel": "ΑΡΧΙΤΕΚΤΟΝΙΚΗ",
+  "secArchTitle": "5 επίπεδα προστασίας",
+  "secArchSubtitle": "Το Hash δεν βασίζεται σε μία μόνο τεχνολογία. Κάθε επίπεδο ενισχύει τα υπόλοιπα. Ακόμη κι αν ένα επίπεδο παραβιαστεί, τα δεδομένα σας παραμένουν ασφαλή.",
+  "secLayer1Title": "Κρυπτογράφηση από άκρο σε άκρο",
+  "secLayer1Desc": "Κάθε μήνυμα κρυπτογραφείται με ένα μοναδικό κλειδί. Με απλά λόγια: ακόμη κι αν κάποιος αποκρυπτογραφήσει ένα μήνυμα, δεν θα μπορέσει να αποκρυπτογραφήσει το επόμενο. Κάθε μήνυμα έχει τη δική του κλειδαριά.",
+  "secLayer1Detail": "Για αρχεία (φωτογραφίες, βίντεο, έγγραφα), το Hash χρησιμοποιεί πρόσθετη κρυπτογράφηση AES-256-GCM. Το αρχείο κρυπτογραφείται πριν φύγει από το τηλέφωνό σας.",
+  "secLayer2Title": "Sealed Sender (ανωνυμία δικτύου)",
+  "secLayer2Desc": "Οι συνηθισμένοι messenger στέλνουν τα μηνύματά σας με την ταυτότητά σας. Είναι σαν να γράφετε το όνομά σας στον φάκελο. Το Hash χρησιμοποιεί ανώνυμα γραμματοκιβώτια: ο διακομιστής παραδίδει το μήνυμα χωρίς να ξέρει ποιος το έστειλε.",
+  "secLayer2Detail": "Αποτέλεσμα: ακόμη και σε περίπτωση παραβίασης δεδομένων του διακομιστή, είναι αδύνατο να ανασυνθέσει κανείς ποιος μιλά σε ποιον.",
+  "secLayer3Title": "Αυτόματη διαγραφή",
+  "secLayer3Desc": "Τα μηνύματα διαγράφονται από τον διακομιστή αμέσως μόλις επιβεβαιωθεί η λήψη. Ακόμη κι αν ένα μήνυμα δεν ανακτηθεί ποτέ, καταστρέφεται αυτόματα μετά από 24 ώρες.",
+  "secLayer3Detail": "Στο τηλέφωνό σας, τα μηνύματα αυτοκαταστρέφονται σύμφωνα με τη διάρκεια που επιλέγετε: αμέσως, 5 λ, 15 λ, 30 λ, 1ω, 3ω, 6ω ή 12ω.",
+  "secLayer4Title": "Προστασία τοπικής πρόσβασης",
+  "secLayer4Desc": "Η εφαρμογή προστατεύεται από ένα 6-ψήφιο PIN ή/και βιομετρικά (Face ID, δαχτυλικό αποτύπωμα). Μετά από πολλές αποτυχημένες προσπάθειες, η εφαρμογή κλειδώνει με αυξανόμενη καθυστέρηση μετά από κάθε αποτυχία.",
+  "secLayer5Title": "Κλειδωμένη βάση δεδομένων",
+  "secLayer5Desc": "Στην πλευρά του διακομιστή, κανένας χρήστης δεν μπορεί να γράψει απευθείας στη βάση δεδομένων. Όλες οι ενέργειες περνούν από ασφαλείς λειτουργίες που ελέγχουν κάθε αίτημα.",
+  "secLayer5Detail": "Είναι σαν ταμείο τράπεζας: δεν αγγίζετε ποτέ το θησαυροφυλάκιο μόνοι σας. Κάνετε ένα αίτημα και το σύστημα ελέγχει ότι έχετε το δικαίωμα πριν ενεργήσει.",
+  "secVashLabel": "ΜΟΝΑΔΙΚΟ ΣΤΟΝ ΚΟΣΜΟ",
+  "secVashTitle": "Λειτουργία Vash",
+  "secVashSubtitle": "Ένα σύστημα ασφαλείας έκτακτης ανάγκης που δεν υπάρχει σε καμία άλλη εφαρμογή μηνυμάτων.",
+  "secVashScenarioTitle": "Φανταστείτε αυτή την κατάσταση",
+  "secVashScenario1": "Κάποιος αποκτά πρόσβαση στο τηλέφωνό σας",
+  "secVashScenario2": "Σας ζητούν τον κωδικό PIN σας",
+  "secVashScenario3": "Θέλετε να διαγράψετε όλα τα δεδομένα σας επειγόντως",
+  "secVashSolutionTitle": "Η λύση: δύο κωδικοί PIN",
+  "secVashSolutionDesc": "Ρυθμίζετε δύο διαφορετικούς κωδικούς PIN στο Hash:",
+  "secVashNormalCodeLabel": "Κανονικός κωδικός",
+  "secVashNormalCodeDesc": "Ανοίγει κανονικά την εφαρμογή με όλα τα δεδομένα σας",
+  "secVashCodeLabel2": "Κωδικός Vash",
+  "secVashCodeDescription": "Ανοίγει κανονικά την εφαρμογή... αλλά όλα τα δεδομένα σας διαγράφονται σιωπηλά στο παρασκήνιο",
+  "secVashWhatHappensTitle": "Τι συμβαίνει μετά",
+  "secVashWhatHappensDesc": "Η εφαρμογή ανοίγει κανονικά. Καμία ειδοποίηση, κανένα ύποπτο animation. Η οθόνη δείχνει απλά μια άδεια εφαρμογή, σαν να μόλις την εγκαταστήσατε.\n\nΣτην πραγματικότητα, όλες οι συνομιλίες, επαφές και μηνύματά σας έχουν διαγραφεί αμετάκλητα σε κλάσμα δευτερολέπτου.",
+  "secCallsLabel": "ΚΛΗΣΕΙΣ & ΑΡΧΕΙΑ",
+  "secCallsTitle": "Τα πάντα κρυπτογραφούνται",
+  "secCallsSubtitle": "Δεν είναι μόνο τα μηνύματα. Απολύτως τα πάντα που περνούν από το Hash κρυπτογραφούνται από άκρο σε άκρο.",
+  "secAudioCallTitle": "Φωνητικές κλήσεις",
+  "secAudioCallDesc": "Κρυπτογράφηση από άκρο σε άκρο μέσω WebRTC. Η φωνή μεταδίδεται απευθείας μεταξύ συσκευών.",
+  "secVideoCallTitle": "Βιντεοκλήσεις",
+  "secVideoCallDesc": "Ίδια τεχνολογία, κάθε ροή κρυπτογραφείται ξεχωριστά.",
+  "secPhotosTitle": "Φωτογραφίες & βίντεο",
+  "secPhotosDesc": "Κρυπτογράφηση σε AES-256-GCM πριν φύγουν από το τηλέφωνό σας.",
+  "secDocsTitle": "Έγγραφα",
+  "secDocsDesc": "PDF, ZIP, οποιοδήποτε αρχείο. Όνομα, μέγεθος και περιεχόμενο κρυπτογραφημένα.",
+  "secAnonLabel": "ΑΝΩΝΥΜΙΑ",
+  "secAnonTitle": "Δεν απαιτείται ταυτότητα",
+  "secAnonSubtitle": "Το Hash δεν ζητά ποτέ τον αριθμό τηλεφώνου ή το email σας. Αναγνωρίζεστε από ένα μοναδικό και ανώνυμο Hash ID.",
+  "secHashIdTitle": "Το Hash ID σας",
+  "secHashIdDesc": "Αυτό είναι το μοναδικό σας αναγνωριστικό. Δεν αποκαλύπτει τίποτα για εσάς: ούτε το όνομα, ούτε τον αριθμό, ούτε την τοποθεσία σας. Είναι σαν ένα ψευδώνυμο αδύνατο να συνδεθεί με την πραγματική σας ταυτότητα.\n\nΓια να προσθέσετε μια επαφή, μοιράζεστε το Hash ID σας ή σαρώνετε ένα QR code. Αυτό είναι. Κανένα συγχρονισμένο βιβλίο διευθύνσεων, καμία πρόταση \"Άτομα που ίσως γνωρίζετε\".",
+  "secDataLabel": "ΔΕΔΟΜΕΝΑ",
+  "secDataTitle": "Τι δεν γνωρίζει το Hash",
+  "secDataSubtitle": "Ο καλύτερος τρόπος να προστατεύσετε τα δεδομένα σας είναι να μην τα συλλέγετε.",
+  "secNeverCollected": "Δεν συλλέγονται ποτέ",
+  "secNeverItem1": "Περιεχόμενο μηνυμάτων",
+  "secNeverItem2": "Λίστα επαφών",
+  "secNeverItem3": "Αριθμός τηλεφώνου",
+  "secNeverItem4": "Διεύθυνση email",
+  "secNeverItem5": "Διεύθυνση IP",
+  "secNeverItem6": "Τοποθεσία",
+  "secNeverItem7": "Μεταδεδομένα (ποιος μιλά σε ποιον)",
+  "secNeverItem8": "Ιστορικό κλήσεων",
+  "secNeverItem9": "Βιβλίο διευθύνσεων",
+  "secNeverItem10": "Διαφημιστικά αναγνωριστικά",
+  "secTempStored": "Προσωρινά αποθηκευμένα",
+  "secTempItem1": "Ανώνυμο Hash ID (μοναδικό αναγνωριστικό)",
+  "secTempItem2": "Δημόσια κλειδιά κρυπτογράφησης",
+  "secTempItem3": "Κρυπτογραφημένα μηνύματα σε μεταφορά (μέγ. 24ω)",
+  "secTempNote": "Ακόμη και αυτά τα ελάχιστα δεδομένα δεν μπορούν να σας ταυτοποιήσουν. Το Hash ID σας δεν συνδέεται με κανένα προσωπικό στοιχείο.",
+  "secFooterTitle": "Η ιδιωτικότητά σας, η ελευθερία σας",
+  "secFooterDesc": "Το Hash χρησιμοποιεί τις ίδιες τεχνολογίες κρυπτογράφησης με τις πιο απαιτητικές επαγγελματικές εφαρμογές. Τα μηνύματά σας προστατεύονται από μαθηματικά, όχι από υποσχέσεις.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Βιομετρικά",
+  "biometricUnlock": "Ξεκλείδωμα με δαχτυλικό αποτύπωμα ή Face ID",
+  "biometricWarningMessage": "Ενεργοποιώντας τα βιομετρικά, δεν θα μπορείτε να χρησιμοποιήσετε τον κωδικό Vash για να μπείτε στην εφαρμογή.\n\nΘα μπορείτε να χρησιμοποιήσετε τον κωδικό Vash μόνο αν τα βιομετρικά αποτύχουν (μετά από αρκετές αποτυχημένες προσπάθειες).\n\nΕίστε σίγουροι ότι θέλετε να συνεχίσετε;",
+  "connectionCount": "Σύνδεση(εις)",
+  "currentSession": "Τρέχουσα",
+  "dataLocalOnly": "Αυτά τα δεδομένα αποθηκεύονται μόνο στη συσκευή σας και δεν μεταδίδονται ποτέ.",
+  "doYouLikeHash": "Σας αρέσει το Hash;",
+  "donationMessage": "Το Hash είναι ένα μη κερδοσκοπικό έργο. Η υποστήριξή σας μας βοηθά να συνεχίσουμε να χτίζουμε έναν πραγματικά ιδιωτικό messenger.",
+  "enableBiometric": "Ενεργοποίηση βιομετρικών",
+  "ephemeral1HourDesc": "Διαγραφή 1ώ μετά την ανάγνωση",
+  "ephemeral24HoursDesc": "Διαγραφή 24ώ μετά την ανάγνωση",
+  "ephemeral30SecondsDesc": "Διαγραφή 30δ μετά την ανάγνωση",
+  "ephemeral5MinutesDesc": "Διαγραφή 5λ μετά την ανάγνωση",
+  "ephemeral6HoursDesc": "Διαγραφή 6ώ μετά την ανάγνωση",
+  "feedback": "Σχόλια",
+  "historyLabel": "Ιστορικό",
+  "hoursAgoLabel": "Πριν {hours}ώ",
+  "hoursMinutesAgoLabel": "Πριν {hours}ώ {minutes}λ",
+  "justNowLabel": "Μόλις τώρα",
+  "later": "Αργότερα",
+  "loginInfoText": "Κάθε ξεκλείδωμα με PIN καταγράφεται τοπικά. Μόνο οι τελευταίες 24 ώρες διατηρούνται.",
+  "maintenanceActiveLabel": "ΣΕ ΕΞΕΛΙΞΗ",
+  "maintenancePlannedLabel": "ΠΡΟΓΡΑΜΜΑΤΙΣΜΕΝΗ",
+  "maintenanceTitle": "Συντήρηση",
+  "minutesAgoLabel": "Πριν {count} λεπ",
+  "periodLabel": "Περίοδος",
+  "pinCodeForEntry": "Κωδικός PIN για είσοδο στην εφαρμογή",
+  "ratingBad": "Κακό",
+  "ratingExcellent": "Εξαιρετικό!",
+  "ratingGood": "Καλό",
+  "ratingOk": "Μέτριο",
+  "ratingTerrible": "Τρομερό",
+  "recentConnections": "Πρόσφατες συνδέσεις",
+  "share": "Κοινοποίηση",
+  "shareAppSubtitle": "Μοιραστείτε το Hash με τους κοντινούς σας",
+  "showCallsInRecents": "Εμφάνιση στις πρόσφατες κλήσεις",
+  "showCallsInRecentsSubtitle": "Οι κλήσεις Hash εμφανίζονται στο ιστορικό κλήσεων",
+  "todayLabel": "Σήμερα",
+  "understood": "Κατάλαβα",
+  "yesterdayLabel": "Χθες",
+  "yourFeedbackHelps": "Τα σχόλιά σας μας βοηθούν να βελτιώσουμε την εφαρμογή"
+}

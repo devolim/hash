@@ -1,0 +1,1039 @@
+{
+  "@@locale": "kn",
+  "appName": "Hash",
+  "appTagline": "ಯಾವುದೇ ಕುರುಹಿಲ್ಲ. ರಾಜಿ ಇಲ್ಲ.",
+  "conversations": "ಚಾಟ್‌ಗಳು",
+  "contacts": "ಸಂಪರ್ಕಗಳು",
+  "noConversation": "ಯಾವುದೇ ಚಾಟ್ ಇಲ್ಲ",
+  "noConversationSubtitle": "ಸುರಕ್ಷಿತ ಚಾಟ್ ಪ್ರಾರಂಭಿಸಲು ಸಂಪರ್ಕ ಸೇರಿಸಿ",
+  "pendingRequestsCount": "{count, plural, =1{1 ಬಾಕಿ ವಿನಂತಿ} other{{count} ಬಾಕಿ ವಿನಂತಿಗಳು}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "sentRequestsCount": "{count, plural, =1{1 ಕಳಿಸಿದ ವಿನಂತಿ ಬಾಕಿ} other{{count} ಕಳಿಸಿದ ವಿನಂತಿಗಳು ಬಾಕಿ}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "addContact": "ಸಂಪರ್ಕ ಸೇರಿಸಿ",
+  "shareApp": "ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿಕೊಳ್ಳಿ",
+  "newMessage": "ಹೊಸ ಸಂದೇಶ",
+  "newConversation": "ಸಂದೇಶ ಕಳಿಸಿ",
+  "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+  "myHashId": "ನನ್ನ Hash ID",
+  "supportHash": "Hash ಬೆಂಬಲಿಸಿ",
+  "supportHashSubtitle": "Hash ಅಭಿವೃದ್ಧಿಗೆ ಸಹಾಯ ಮಾಡಿ",
+  "donate": "ದೇಣಿಗೆ ನೀಡಿ",
+  "appearance": "ನೋಟ",
+  "theme": "ಥೀಮ್",
+  "themeAuto": "ಸ್ವಯಂ",
+  "themeAutoSubtitle": "Follows system settings",
+  "themeDark": "ಕತ್ತಲೆ",
+  "themeLight": "ಬೆಳಕು",
+  "themeRecommendation": "Dark theme is recommended for better privacy",
+  "language": "ಭಾಷೆ",
+  "languageAuto": "ಸ್ವಯಂ (ಸಿಸ್ಟಂ)",
+  "notifications": "ಅಧಿಸೂಚನೆಗಳು",
+  "messages": "Messages",
+  "calls": "Calls",
+  "vibration": "Vibration",
+  "notificationContent": "ಅಧಿಸೂಚನೆ ವಿಷಯ",
+  "notificationContentFull": "ಪೂರ್ಣ",
+  "notificationContentFullDesc": "ಕಳಿಸುವವರ ಹೆಸರು ಮತ್ತು ಸಂದೇಶ ತೋರಿಸಿ",
+  "notificationContentName": "ಹೆಸರು ಮಾತ್ರ",
+  "notificationContentNameDesc": "ಸಂಪರ್ಕದ ಹೆಸರು ಮಾತ್ರ ತೋರಿಸಿ",
+  "notificationContentDiscrete": "ಸಂಕ್ಷಿಪ್ತ",
+  "notificationContentDiscreteDesc": "\"ಹೊಸ ಸಂದೇಶ\" ಮಾತ್ರ ತೋರಿಸಿ",
+  "security": "ಭದ್ರತೆ",
+  "howHashProtectsYou": "How Hash protects you",
+  "howHashProtectsYouSubtitle": "Understand your security",
+  "accountSecurity": "Account security",
+  "accountSecuritySubtitle": "PIN, biometrics, Vash Mode",
+  "blockScreenshots": "Block screenshots",
+  "transferDevice": "Transfer to another device",
+  "transferDeviceSubtitle": "Migrate your account",
+  "pinCode": "PIN ಕೋಡ್",
+  "changePin": "PIN ಬದಲಿಸಿ",
+  "currentPin": "Current PIN code",
+  "newPin": "ಹೊಸ PIN",
+  "confirmPin": "PIN ದೃಢೀಕರಿಸಿ",
+  "pinChanged": "PIN ಬದಲಾಯಿಸಲಾಗಿದೆ",
+  "incorrectPin": "Incorrect PIN",
+  "pinsDoNotMatch": "PINs do not match",
+  "autoLock": "Auto-lock",
+  "autoLockDelay": "Lock delay",
+  "autoLockImmediate": "Immediate",
+  "autoLockMinute": "1 minute",
+  "autoLockMinutes": "{count} minutes",
+  "@autoLockMinutes": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "vashCode": "Vash code",
+  "vashModeTitle": "Vash Mode",
+  "vashModeExplanation": "Your ultimate safety net.",
+  "vashModeDescription": "You will choose a second PIN code. If you are ever forced to open Hash, enter this code instead of your regular PIN.\n\nThe app will open normally, but all your conversations and contacts will be gone.\n\nTo anyone looking at your screen, Hash simply appears empty — as if you never used it.",
+  "vashModeIrreversible": "This action is silent and irreversible.",
+  "chooseVashCode": "Choose my Vash code",
+  "vashCodeInfo": "A second PIN code that opens the app normally, but empty.",
+  "vashCodeInfoDetail": "If you enter this code instead of your PIN:",
+  "vashDeleteContacts": "Your contacts disappear",
+  "vashDeleteMessages": "Your conversations disappear",
+  "vashDeleteHistory": "Your notes disappear",
+  "vashKeepId": "Your Hash identity (#XXX-XXX-XXX) remains the same",
+  "vashAppearNormal": "The app appears normal but empty, like new. This action is irreversible.",
+  "setupVashCode": "Set up Vash code",
+  "modifyVashCode": "Modify Vash code",
+  "currentVashCode": "Current Vash code",
+  "newVashCode": "New Vash code",
+  "confirmVashCode": "Confirm Vash code",
+  "vashCodeConfigured": "Vash code configured",
+  "vashCodeModified": "Vash code modified",
+  "vashCodeMustDiffer": "Vash code must be different from PIN",
+  "incorrectVashCode": "Incorrect Vash code",
+  "vashWhatToDelete": "What should Vash Mode make disappear?",
+  "vashDeleteContactsOption": "Contacts",
+  "vashDeleteMessagesOption": "Messages",
+  "vashDeleteNotesOption": "Notes",
+  "vashActivated": "Vash Mode activated",
+  "vashCreateSubtitle": "Choose a code different from your main PIN",
+  "vashConfirmSubtitle": "Confirm your Vash code",
+  "pinCodeForEntry": "ಅಪ್ಲಿಕೇಶನ್ ಪ್ರವೇಶಕ್ಕಾಗಿ PIN ಕೋಡ್",
+  "vashCodeSection": "Vash Mode",
+  "biometric": "ಬಯೋಮೆಟ್ರಿಕ್",
+  "biometricUnlock": "ಬೆರಳಚ್ಚು ಅಥವಾ Face ID ಮೂಲಕ ಅನ್‌ಲಾಕ್",
+  "enableBiometric": "ಬಯೋಮೆಟ್ರಿಕ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+  "biometricWarningMessage": "ಬಯೋಮೆಟ್ರಿಕ್ ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ PIN ಬಳಸಲಾಗುವುದಿಲ್ಲ. ಖಚಿತವಾಗಿ?",
+  "understood": "ಅರ್ಥವಾಯಿತು",
+  "shareAppSubtitle": "ನಿಮ್ಮ ಪ್ರಿಯಜನರೊಂದಿಗೆ Hash ಹಂಚಿಕೊಳ್ಳಿ",
+  "share": "ಹಂಚಿಕೊಳ್ಳಿ",
+  "danger": "Danger",
+  "panicButton": "ತುರ್ತು ಅಳಿಸು",
+  "panicButtonSubtitle": "ತಕ್ಷಣ ಎಲ್ಲಾ ಡೇಟಾ ಅಳಿಸಿ",
+  "deleteAccount": "ಖಾತೆ ಅಳಿಸಿ",
+  "deleteAccountSubtitle": "ಎಲ್ಲಾ ಡೇಟಾ ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಿ",
+  "deleteAccountConfirmTitle": "Delete my account",
+  "deleteAccountConfirmMessage": "Your account will be permanently deleted. This action is irreversible.\n\n• All your chats\n• All your contacts\n• Your Hash ID\n\nYou will need to create a new account.",
+  "deleteForever": "Delete permanently",
+  "cancel": "ರದ್ದು",
+  "panicConfirmTitle": "Panic Button",
+  "panicConfirmMessage": "This action will permanently delete ALL your data:\n\n• All your messages\n• All your contacts\n• Your account\n\nAre you absolutely sure?",
+  "deleteAll": "DELETE ALL",
+  "dataDeletedForSecurity": "Vash Mode activated.",
+  "deletionError": "Deletion error: {error}",
+  "@deletionError": {
+    "placeholders": {
+    "error": {
+    "type": "String"
+    }
+    }
+    },
+  "yourSecurity": "Your security",
+  "securityInfo": "ಭದ್ರತಾ ಮಾಹಿತಿ",
+  "version": "ಆವೃತ್ತಿ",
+  "@version": {
+    "placeholders": {
+    "version": {
+    "type": "String"
+    }
+    }
+    },
+  "welcome": "Welcome",
+  "securityStatement1": "Your messages are protected.",
+  "securityStatement2": "End-to-end encryption.",
+  "securityStatement3": "No trace. No compromise.",
+  "securityStatement4": "Your privacy is a right.",
+  "accessBlocked": "Access blocked",
+  "tooManyAttempts": "Too many attempts. Try again later.",
+  "pleaseWait": "Please wait",
+  "waitDelay": "Please wait for the delay to end",
+  "attemptCount": "Attempt {current} of {max}",
+  "@attemptCount": {
+    "placeholders": {
+    "current": {
+    "type": "int"
+    },
+    "max": {
+    "type": "int"
+    }
+    }
+    },
+  "retryIn": "Retry in {time}",
+  "@retryIn": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "forgotPin": "Forgot PIN? Use recovery phrase",
+  "useRecoveryPhrase": "Use recovery phrase",
+  "recoveryWarningTitle": "Warning",
+  "recoveryWarningMessage": "Account recovery will:",
+  "recoveryDeleteAllMessages": "Delete ALL your messages",
+  "recoveryWaitDelay": "Require a 1-hour delay",
+  "recoveryKeepContacts": "Keep your contacts",
+  "recoveryIrreversible": "This action is irreversible. Your messages will be permanently lost.",
+  "iUnderstand": "I understand",
+  "accountRecovery": "Account recovery",
+  "enterRecoveryPhrase": "Enter the 24 words of your recovery phrase, separated by spaces.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Recover",
+  "recoveryPhraseRequired": "Please enter your recovery phrase",
+  "recoveryPhrase24Words": "The phrase must contain exactly 24 words",
+  "incorrectRecoveryPhrase": "Incorrect recovery phrase",
+  "recoveryInitError": "Error initializing recovery",
+  "securityDelay": "Security delay",
+  "securityDelayMessage": "For your security, a waiting period is required before you can create a new PIN.",
+  "timeRemaining": "Time remaining",
+  "messagesDeletedForProtection": "Your messages have been deleted for your protection.",
+  "canCloseApp": "You can close the app and come back later.",
+  "onboardingTitle1": "Welcome to Hash",
+  "onboardingSubtitle1": "The messenger that leaves no trace",
+  "onboardingTitle2": "Total encryption",
+  "onboardingSubtitle2": "Your messages are end-to-end encrypted with Signal protocol",
+  "onboardingTitle3": "No trace",
+  "onboardingSubtitle3": "Messages are deleted from servers upon delivery",
+  "onboardingTitle4": "Your security",
+  "onboardingSubtitle4": "PIN code, Vash Mode and recovery phrase",
+  "getStarted": "ಪ್ರಾರಂಭಿಸಿ",
+  "next": "Next",
+  "skip": "Skip",
+  "alreadyHaveAccount": "I already have an account",
+  "transferMyAccount": "Transfer my account",
+  "createPin": "Create a PIN code",
+  "createPinSubtitle": "This code will protect access to your app",
+  "confirmYourPin": "Confirm your PIN code",
+  "confirmPinSubtitle": "Enter your PIN code again",
+  "saveRecoveryPhrase": "Recovery phrase",
+  "saveRecoveryPhraseSubtitle": "Write down these 24 words in order. They will allow you to recover your account if you forget your PIN.",
+  "phraseWritten": "I've written my phrase",
+  "warningRecoveryPhrase": "If you lose this phrase and forget your PIN, you will lose access to your account.",
+  "accountTransferred": "Account transferred",
+  "accountTransferredMessage": "Your account has been transferred to another device. This session is no longer valid.",
+  "accountTransferredInfo": "If you did not initiate this transfer, your account may have been compromised.",
+  "logout": "Log out",
+  "transferAccount": "ಖಾತೆ ವರ್ಗಾಯಿಸಿ",
+  "transferAccountInfo": "Transfer your Hash account to a new device. Your current session will be invalidated.",
+  "generateTransferCode": "Generate transfer code",
+  "transferCode": "Transfer code",
+  "transferCodeExpires": "This code expires in {minutes} minutes",
+  "@transferCodeExpires": {
+    "placeholders": {
+    "minutes": {
+    "type": "int"
+    }
+    }
+    },
+  "enterCodeOnNewDevice": "Enter this code on your new device to transfer your account.",
+  "generateNewCode": "ಹೊಸ ಕೋಡ್ ರಚಿಸಿ",
+  "scanQrCode": "Scan QR code",
+  "scanQrCodeSubtitle": "Scan a contact's QR code to add them",
+  "qrCodeDetected": "QR code detected",
+  "invalidQrCode": "Invalid QR code",
+  "cameraPermissionRequired": "Camera permission required",
+  "myQrCode": "My QR code",
+  "myQrCodeSubtitle": "Share this QR code so your contacts can add you",
+  "shareQrCode": "Share",
+  "addContactTitle": "ಸಂಪರ್ಕ ಸೇರಿಸಿ",
+  "addContactByHashId": "Enter your contact's Hash ID",
+  "hashIdHint": "Hash ID ನಮೂದಿಸಿ",
+  "searchContact": "Search",
+  "contactNotFound": "Contact not found",
+  "contactAlreadyAdded": "This contact is already in your list",
+  "contactAdded": "Contact added",
+  "myProfile": "My profile",
+  "myProfileSubtitle": "Share this information so others can add you",
+  "temporaryCode": "Temporary code",
+  "temporaryCodeExpires": "Expires in {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "codeExpired": "ಕೋಡ್ ಅವಧಿ ಮೀರಿದೆ",
+  "generateNewCodeButton": "New code",
+  "copyHashId": "Copy ID",
+  "copyCode": "Copy code",
+  "copiedToClipboard": "Copied",
+  "showMyQrCode": "Show my QR code",
+  "orDivider": "or",
+  "openScanner": "Open scanner",
+  "addManually": "Add manually",
+  "contactHashIdLabel": "Contact's Hash ID",
+  "temporaryCodeLabel": "Temporary code",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Ask your contact to generate a code from their profile",
+  "verifyAndAdd": "Verify and add",
+  "fillAllFields": "Please fill in all fields",
+  "invalidHashIdFormat": "Invalid ID format (e.g.: 123-456-ABC)",
+  "userNotFound": "User not found",
+  "cannotAddYourself": "You cannot add yourself",
+  "invalidOrExpiredCode": "Invalid or expired temporary code",
+  "contactFound": "Contact found!",
+  "howToCallContact": "What would you like to call them?",
+  "contactNameHint": "Contact name",
+  "addContactButton": "Add",
+  "contactDetails": "Contact details",
+  "contactName": "Contact name",
+  "contactHashId": "Hash ID",
+  "addedOn": "Added on {date}",
+  "@addedOn": {
+    "placeholders": {
+    "date": {
+    "type": "String"
+    }
+    }
+    },
+  "deleteContact": "ಸಂಪರ್ಕ ಅಳಿಸಿ",
+  "deleteContactConfirm": "{name} ಅಳಿಸಲು ಬಯಸುತ್ತೀರಾ?",
+  "deleteContactMessage": "ಈ ಸಂಪರ್ಕದೊಂದಿಗಿನ ಎಲ್ಲಾ ಸಂದೇಶಗಳು ಅಳಿಯಲ್ಪಡುತ್ತವೆ",
+  "delete": "ಅಳಿಸಿ",
+  "typeMessage": "ಸಂದೇಶ ಟೈಪ್ ಮಾಡಿ...",
+  "messageSent": "Sent",
+  "messageDelivered": "Delivered",
+  "messageRead": "Read",
+  "messageFailed": "Failed to send",
+  "now": "Now",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursAgo": "{count}h",
+  "@hoursAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "dateAtTime": "{date} at {time}",
+  "@dateAtTime": {
+    "placeholders": {
+    "date": {
+    "type": "String"
+    },
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "shareMessage": "Join me on Hash! 🔒\n\nIt's a truly private messenger: total encryption, no trace on servers, and panic mode if needed.\n\nDownload the app here 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "ದೋಷ",
+  "ok": "ಸರಿ",
+  "view": "View",
+  "yes": "Yes",
+  "no": "No",
+  "save": "ಉಳಿಸಿ",
+  "edit": "ಸಂಪಾದಿಸಿ",
+  "close": "ಮುಚ್ಚಿ",
+  "confirm": "ದೃಢೀಕರಿಸಿ",
+  "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+  "retry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+  "pendingRequests": "ಬಾಕಿ ವಿನಂತಿಗಳು",
+  "noPendingRequests": "ಬಾಕಿ ವಿನಂತಿಗಳಿಲ್ಲ",
+  "pendingRequestsSubtitle": "These people want to add you",
+  "requestFromUser": "Request from {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+    "hashId": {
+    "type": "String"
+    }
+    }
+    },
+  "requestExpiresIn": "Expires in {days} days",
+  "@requestExpiresIn": {
+    "placeholders": {
+    "days": {
+    "type": "int"
+    }
+    }
+    },
+  "acceptRequest": "ಸ್ವೀಕರಿಸಿ",
+  "rejectRequest": "Reject",
+  "requestAccepted": "ವಿನಂತಿ ಸ್ವೀಕರಿಸಲಾಗಿದೆ",
+  "requestRejected": "Request rejected",
+  "requestSent": "Request sent!",
+  "requestSentSubtitle": "Your request has been sent. The user must accept it before you can chat.",
+  "requestAlreadyPending": "A request is already pending",
+  "requestAlreadySentByOther": "This person has already sent you a request",
+  "addByHashId": "Add by Hash ID",
+  "addByHashIdSubtitle": "Enter the contact's Hash ID and temporary code",
+  "enterTemporaryCode": "Enter the 6-digit code",
+  "sendRequest": "Send request",
+  "acceptContactTitle": "Accept contact",
+  "acceptContactSubtitle": "You can give them a custom name",
+  "leaveEmptyForHashId": "Leave empty to use Hash ID",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "notes": "Notes",
+  "notesHint": "Personal notes about this contact",
+  "photoOptional": "Photo (optional)",
+  "contactNameOptional": "Name (optional)",
+  "notesOptional": "Notes (optional)",
+  "storedLocally": "Stored on your device only",
+  "encryptedMessageLabel": "Encrypted message",
+  "identityMessageHint": "Who are you? How do you know each other?",
+  "messageWillBeSentEncrypted": "This message will be encrypted and sent to the recipient",
+  "sendRequestButton": "Send request",
+  "requestExpiresIn24h": "Request expires in 24h if not accepted",
+  "theyAlreadySentYouRequest": "This person has already sent you a request",
+  "requests": "Requests",
+  "receivedRequests": "Received",
+  "sentRequests": "ಕಳಿಸಿದ ವಿನಂತಿಗಳು",
+  "noSentRequests": "ಕಳಿಸಿದ ವಿನಂತಿಗಳಿಲ್ಲ",
+  "cancelRequest": "ರದ್ದು",
+  "deleteRequest": "Delete request",
+  "requestCancelled": "ವಿನಂತಿ ರದ್ದು ಮಾಡಲಾಗಿದೆ",
+  "sentTo": "Sent to {hashId}",
+  "@sentTo": {
+    "placeholders": {
+    "hashId": {
+    "type": "String"
+    }
+    }
+    },
+  "expiresIn": "Expires in {time}",
+  "@expiresIn": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "receivedAgo": "Received {time} ago",
+  "@receivedAgo": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "messageFromRequester": "Message from requester",
+  "copy": "ನಕಲಿಸಿ",
+  "messageInfo": "Message info",
+  "messageDirection": "Direction",
+  "messageSentByYou": "Sent by you",
+  "messageReceived": "Received",
+  "messageSentAt": "Sent at",
+  "messageStatus": "Status",
+  "messageReadAt": "Read at",
+  "messageType": "Type",
+  "messageSize": "Size",
+  "messageExpiresAt": "Expires at",
+  "messageEncrypted": "End-to-end encrypted",
+  "messageStatusSending": "Sending...",
+  "messageStatusSent": "Sent",
+  "messageStatusDelivered": "Delivered",
+  "messageStatusRead": "Read",
+  "messageStatusFailed": "Failed",
+  "serverStatus": "Server",
+  "onServer": "Pending delivery",
+  "deletedFromServer": "Deleted",
+  "messageTypeText": "Text",
+  "messageTypeImage": "Image",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Voice",
+  "messageTypeFile": "File",
+  "indefinitely": "Indefinitely",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "hours",
+  "minutes": "minutes",
+  "seconds": "seconds",
+  "ephemeralMessages": "Ephemeral messages",
+  "ephemeralMessagesDescription": "Messages are automatically deleted after this time",
+  "ephemeralImmediate": "Immediate (after reading)",
+  "ephemeralImmediateDesc": "Deleted as soon as read",
+  "ephemeralMyPreference": "My preference",
+  "ephemeralMyPreferenceDesc": "Use global setting",
+  "ephemeralDefaultSetting": "Message duration",
+  "ephemeralChooseDefault": "Recommended",
+  "ephemeral30Seconds": "30 ಸೆಕೆಂಡ್",
+  "ephemeral30SecondsDesc": "ಓದಿದ 30 ಸೆಕೆಂಡ್ ನಂತರ ಅಳಿಸಲಾಗಿದೆ",
+  "ephemeral5Minutes": "5 ನಿಮಿಷ",
+  "ephemeral5MinutesDesc": "ಓದಿದ 5 ನಿಮಿಷ ನಂತರ ಅಳಿಸಲಾಗಿದೆ",
+  "ephemeral1Hour": "1 ಗಂಟೆ",
+  "ephemeral1HourDesc": "ಓದಿದ 1 ಗಂಟೆ ನಂತರ ಅಳಿಸಲಾಗಿದೆ",
+  "ephemeral3Hours": "3 hours",
+  "ephemeral6Hours": "6 ಗಂಟೆ",
+  "ephemeral6HoursDesc": "ಓದಿದ 6 ಗಂಟೆ ನಂತರ ಅಳಿಸಲಾಗಿದೆ",
+  "ephemeral12Hours": "12 hours",
+  "ephemeral24Hours": "24 ಗಂಟೆ",
+  "ephemeral24HoursDesc": "ಓದಿದ 24 ಗಂಟೆ ನಂತರ ಅಳಿಸಲಾಗಿದೆ",
+  "customDuration": "Custom duration",
+  "howItWorks": "How it works",
+  "ephemeralExplanation1": "Messages are deleted from the server as soon as received.",
+  "ephemeralExplanation2": "This setting defines when messages disappear from YOUR phone after reading.",
+  "ephemeralExplanation3": "Your contact has their own setting for their phone.",
+  "mute1Hour": "1 hour",
+  "mute8Hours": "8 hours",
+  "mute1Day": "1 day",
+  "mute1Week": "1 week",
+  "muteAlways": "Always",
+  "muteExplanation": "You won't receive notifications for this contact",
+  "showCallsInRecents": "ಇತ್ತೀಚಿನ ಕರೆಗಳಲ್ಲಿ ತೋರಿಸಿ",
+  "showCallsInRecentsSubtitle": "Hash ಕರೆಗಳು ಫೋನ್ ಇತಿಹಾಸದಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ",
+  "feedback": "ಪ್ರತಿಕ್ರಿಯೆ",
+  "muteNotifications": "Mute notifications",
+  "muteDescription": "You won't receive notifications for this contact",
+  "mutedUntil": "Muted until {time}",
+  "@mutedUntil": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "notMuted": "Notifications enabled",
+  "unmute": "Unmute",
+  "notificationSound": "Notification sound",
+  "defaultSound": "Default",
+  "chatSettings": "Chat settings",
+  "bubbleColor": "Bubble color",
+  "backgroundColor": "Background color",
+  "backgroundImage": "Background image",
+  "chatBackground": "Chat background",
+  "customColor": "Custom",
+  "defaultColor": "Default",
+  "imageSelected": "Image selected",
+  "noImage": "No image",
+  "color": "Color",
+  "image": "Image",
+  "tapToSelectImage": "Tap to select an image",
+  "changeImage": "Change image",
+  "previewMessageReceived": "Hello!",
+  "previewMessageSent": "Hey there!",
+  "messageAction": "Message",
+  "callAction": "Call",
+  "videoAction": "Video",
+  "personalNotes": "Personal notes",
+  "addNotes": "Add notes...",
+  "noNotes": "No notes",
+  "messageNotifications": "Message notifications",
+  "callNotifications": "Call notifications",
+  "useGradient": "Use gradient",
+  "gradientStart": "Start color",
+  "gradientEnd": "End color",
+  "preview": "Preview",
+  "reset": "Reset",
+  "securityNumber": "Security number",
+  "securityNumberDescription": "Verify that the security number matches {name}'s device",
+  "@securityNumberDescription": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "verifyEncryption": "Verify end-to-end encryption",
+  "tapToCopy": "Tap to copy",
+  "howToVerify": "How to verify",
+  "verifyStep1": "Meet your contact in person or call them",
+  "verifyStep2": "Compare the security numbers or scan QR codes",
+  "verifyStep3": "If they match, your chat is secure",
+  "scanToVerify": "Scan to verify",
+  "reportSpam": "ಸ್ಪ್ಯಾಮ್ ವರದಿ",
+  "reportSpamSubtitle": "Report this contact as spam",
+  "reportSpamDescription": "This will anonymously report this contact. Your identity will not be shared. Are you sure?",
+  "report": "Report",
+  "spamReported": "Spam reported",
+  "reportError": "Failed to send report. Please try again.",
+  "reportRateLimited": "You have reached the maximum number of reports for today.",
+  "blockContact": "ಸಂಪರ್ಕ ನಿರ್ಬಂಧಿಸಿ",
+  "blockContactDescription": "This contact will no longer be able to send you messages or call you. They won't be notified.",
+  "unblockContact": "ನಿರ್ಬಂಧ ತೆಗೆದು",
+  "unblockContactDescription": "This contact will be able to send you messages and call you again.",
+  "contactBlocked": "ಸಂಪರ್ಕ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ",
+  "contactUnblocked": "ನಿರ್ಬಂಧ ತೆಗೆದುಹಾಕಲಾಗಿದೆ",
+  "contactIsBlocked": "This contact is blocked",
+  "unblock": "Unblock",
+  "deleteContactSubtitle": "Delete this contact and chat",
+  "confirmWithPin": "Confirm with PIN",
+  "enterPinToConfirm": "Enter your PIN to confirm this action",
+  "profilePhoto": "Profile photo",
+  "takePhoto": "ಫೋಟೋ ತೆಗೆಯಿರಿ",
+  "chooseFromGallery": "ಗ್ಯಾಲರಿಯಿಂದ ಆರಿಸಿ",
+  "removePhoto": "Remove photo",
+  "viewContactHashId": "View contact's identifier",
+  "hashIdPartiallyMasked": "Partially masked for your security and your contact's privacy",
+  "addFirstContact": "Add your first contact",
+  "addFirstContactSubtitle": "Share your QR code or scan a friend's",
+  "directory": "Directory",
+  "noContacts": "No contacts",
+  "noContactsSubtitle": "Add a contact to get started",
+  "sendMessageAction": "Send a message",
+  "audioCall": "Audio call",
+  "videoCall": "Video call",
+  "viewProfile": "View profile",
+  "deleteContactDirectory": "Delete contact",
+  "scanShort": "Scan",
+  "addShort": "Add",
+  "deleteContactConfirmName": "Are you sure you want to delete {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "noNotesTitle": "No notes",
+  "noNotesSubtitle": "Create your first note",
+  "newNote": "New note",
+  "editNote": "Edit note",
+  "deleteNote": "Delete note",
+  "deleteNoteConfirm": "Are you sure you want to delete this note?",
+  "noteTitle": "Title",
+  "noteContent": "Content",
+  "addItem": "Add item",
+  "pinNote": "Pin",
+  "unpinNote": "Unpin",
+  "noteColor": "Color",
+  "notePassword": "Password",
+  "setPassword": "Set password",
+  "changePassword": "Change password",
+  "removePassword": "Remove password",
+  "enterPassword": "Enter password",
+  "confirmPassword": "Confirm password",
+  "passwordPin": "PIN code",
+  "passwordText": "Text password",
+  "protectedNote": "Protected note",
+  "incorrectPassword": "Incorrect password",
+  "passwordSet": "Password set",
+  "passwordRemoved": "Password removed",
+  "notesBiometric": "Face ID for notes",
+  "notesBiometricSubtitle": "Require biometric authentication to open protected notes",
+  "textNote": "Text note",
+  "checklistNote": "Checklist",
+  "tasksProgress": "{checked}/{total} tasks",
+  "@tasksProgress": {
+    "placeholders": {
+    "checked": {
+    "type": "int"
+    },
+    "total": {
+    "type": "int"
+    }
+    }
+    },
+  "autoSaved": "Saved",
+  "searchNotes": "Search notes",
+  "legalConsent": "Legal consent",
+  "confirmAge13": "I confirm that I am at least 13 years old",
+  "acceptLegalStart": "I accept the ",
+  "privacyPolicy": "ಗೌಪ್ಯತಾ ನೀತಿ",
+  "termsOfService": "ಸೇವಾ ನಿಯಮಗಳು",
+  "andThe": " and the ",
+  "continueButton": "Continue",
+  "mustAcceptTerms": "You must accept both conditions to continue",
+  "support": "ಬೆಂಬಲ",
+  "contactSupport": "ಬೆಂಬಲ ತಂಡವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "ವರದಿ ಮಾಡಿ",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "ಕಾನೂನು",
+  "legalEntity": "Legal entity",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Pin",
+  "unpinConversation": "Unpin",
+  "hideConversation": "Remove from feed",
+  "deleteConversation": "Delete conversation",
+  "deleteConversationConfirm": "Enter your PIN to confirm the deletion of all messages",
+  "noConversations": "No conversations yet",
+  "startConversation": "Start",
+  "microphonePermissionRequired": "Microphone access required",
+  "microphonePermissionExplanation": "Hash needs the microphone to make calls.",
+  "cameraPermissionExplanation": "Hash needs the camera for video calls.",
+  "openSettings": "Open Settings",
+  "callConnecting": "Connecting...",
+  "callRinging": "Ringing...",
+  "callReconnecting": "Reconnecting...",
+  "callReconnectingTimer": "Reconnecting ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+    "seconds": {
+    "type": "int"
+    }
+    }
+    },
+  "callPaused": "ವಿರಾಮ",
+  "callPausedSubtitle": "ಕರೆ ಇನ್ನೂ ಸಕ್ರಿಯವಾಗಿದೆ",
+  "callRemoteMicMuted": "Contact's microphone is muted",
+  "callMiniControlsMute": "Mute",
+  "callMiniControlsUnmute": "Unmute",
+  "callMiniControlsHangUp": "Hang up",
+  "callMiniControlsReturn": "Return to call",
+  "callNetworkPoor": "Unstable connection",
+  "callNetworkLost": "Connection lost",
+  "callEndedTitle": "Call ended",
+  "deviceData": "Device data",
+  "deviceDataSubtitle": "Local and server storage",
+  "localStorage": "Local storage",
+  "onThisDevice": "on this device",
+  "encryptedDatabases": "Encrypted databases",
+  "files": "Files",
+  "secureKeychain": "Secure keychain",
+  "cache": "Cache",
+  "contactsDetail": "Names, avatars, Signal keys",
+  "messagesDetail": "Encrypted conversations",
+  "notesDetail": "Personal notes",
+  "signalSessions": "Signal sessions",
+  "signalSessionsDetail": "Encryption sessions",
+  "pendingContacts": "Pending contacts",
+  "pendingContactsDetail": "Pending requests",
+  "callHistory": "Calls",
+  "callHistoryDetail": "Call history",
+  "preferences": "Preferences",
+  "preferencesDetail": "Media and call preferences",
+  "avatars": "Avatars",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{no files} =1{1 file} other{{count} files}}",
+  "@fileCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "active": "Active",
+  "notDefined": "Not defined",
+  "biometrics": "Biometrics",
+  "recoveryPhrase": "Recovery phrase",
+  "identity": "Identity (Hash ID)",
+  "signalKeys": "Signal Protocol keys",
+  "authTokens": "Authentication tokens",
+  "contactNamesCache": "Contact names cache",
+  "remoteConfig": "Remote config",
+  "notificationPrefs": "Notification preferences",
+  "serverData": "Server data",
+  "serverDataInfo": "Hash keeps minimal data on the server, all encrypted or temporary.",
+  "serverProfile": "Profile",
+  "serverProfileDetail": "Hash ID, public keys, mailbox token",
+  "serverPrekeys": "Pre-keys",
+  "serverPrekeysDetail": "One-time Signal keys (consumed)",
+  "serverMessages": "Messages in transit",
+  "serverMessagesDetail": "Deleted after delivery (24h max)",
+  "serverMedia": "Media in transit",
+  "serverMediaDetail": "Deleted after download",
+  "serverContactRequests": "Contact requests",
+  "serverContactRequestsDetail": "Expire after 24h",
+  "serverRateLimits": "Rate limits",
+  "serverRateLimitsDetail": "Temporary anti-abuse data",
+  "privacyReassurance": "Hash cannot read your messages. All data is end-to-end encrypted. Server data is automatically deleted.",
+  "pinTooSimple": "This PIN is too simple. Choose a more secure code.",
+  "genericError": "An error occurred. Please try again.",
+  "accountCreationError": "Unable to create account: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+    "error": {
+    "type": "String"
+    }
+    }
+    },
+  "phraseCopiedToClipboard": "Phrase copied to clipboard",
+  "copyPhrase": "Copy phrase",
+  "recoveryPhraseSecurityWarning": "Write down this phrase in a safe place. If you lose your PIN without this phrase, you will permanently lose access to your data.",
+  "noMessages": "No messages",
+  "deleteAllMessagesWithContact": "Delete all messages with {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "confirmation": "Confirmation",
+  "untitled": "Untitled",
+  "noSessions": "No sessions",
+  "unknownContact": "Unknown contact",
+  "unnamed": "Unnamed",
+  "noPendingRequestsAlt": "No pending requests",
+  "deleteAllCallHistory": "Delete all call history?",
+  "noCalls": "No calls",
+  "noPreferences": "No preferences",
+  "resetAllMediaPrefs": "Reset all media preferences?",
+  "deleteThisAvatar": "Delete this avatar?",
+  "deleteAllAvatars": "Delete all avatars?",
+  "noAvatars": "No avatars",
+  "deleteThisFile": "Delete this file?",
+  "deleteAllMediaFiles": "Delete all media?",
+  "noMediaFiles": "No media",
+  "outgoing": "Outgoing",
+  "incoming": "Incoming",
+  "ephemeralViewDuration": "Ephemeral view: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+    "seconds": {
+    "type": "int"
+    }
+    }
+    },
+  "normalView": "Normal view",
+  "callReasonCompleted": "Completed",
+  "callReasonMissed": "Missed",
+  "callReasonDeclined": "Declined",
+  "callReasonFailed": "Failed",
+  "justNow": "Just now",
+  "timeAgoMinutes": "{count} min ago",
+  "@timeAgoMinutes": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "timeAgoHours": "{count}h ago",
+  "@timeAgoHours": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "timeAgoDays": "{count}d ago",
+  "@timeAgoDays": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "messageTypeContact": "Contact",
+  "messageTypeLocation": "Location",
+  "statusQueued": "Queued",
+  "blockedBadge": "Blocked",
+  "protectedBadge": "Protected",
+  "messageCount": "{count} message(s)",
+  "@messageCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "deleteQuestion": "Delete?",
+  "transferMyAccountTitle": "Transfer my account",
+  "loadingError": "ಲೋಡಿಂಗ್ ದೋಷ",
+  "transferToNewDevice": "ಹೊಸ ಸಾಧನಕ್ಕೆ ವರ್ಗಾಯಿಸಿ",
+  "transferInstructions": "ಹೊಸ ಸಾಧನದಲ್ಲಿ \"ಖಾತೆ ಮರುಸ್ಥಾಪಿಸಿ\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ಈ ಮಾಹಿತಿ ನಮೂದಿಸಿ:",
+  "yourHashIdLabel": "ನಿಮ್ಮ Hash ID",
+  "enterYourPinCode": "PIN ಕೋಡ್ ನಮೂದಿಸಿ",
+  "pinOwnerConfirmation": "To confirm that you are the owner of this account",
+  "scanThisQrCode": "Scan this QR code",
+  "withYourNewDevice": "With your new device",
+  "orEnterTheCode": "or enter the code",
+  "transferCodeLabel": "Transfer code",
+  "proximityVerification": "Proximity verification",
+  "bringDevicesCloser": "Bring both devices closer",
+  "confirmTransferQuestion": "Confirm the transfer?",
+  "accountWillBeTransferred": "Your account will be transferred to the new device.\n\nThis device will be permanently disconnected.",
+  "transferComplete": "Transfer complete",
+  "transferSuccessMessage": "Your account has been transferred successfully.\n\nThis application will now close.",
+  "manualVerification": "Manual verification",
+  "codeDisplayedOnBothDevices": "Code displayed on both devices:",
+  "doesCodeMatchNewDevice": "Does this code match the one on the new device?",
+  "verifiedStatus": "Verified",
+  "inProgressStatus": "In progress...",
+  "notAvailableStatus": "Not available",
+  "codeExpiredRestart": "The code has expired. Please restart.",
+  "codesDoNotMatchCancelled": "The codes do not match. Transfer cancelled.",
+  "transferToDevice": "To: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+    "device": {
+    "type": "String"
+    }
+    }
+    },
+  "copiedExclamation": "Copied!",
+  "expiresInTime": "Expires in {time}",
+  "@expiresInTime": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "biometricNotAvailable": "Biometrics is not available on this device",
+  "biometricAuthError": "Error during biometric authentication",
+  "authenticateForBiometric": "Please authenticate to enable biometrics",
+  "biometricAuthFailed": "Biometric authentication failed",
+  "forceUpdateTitle": "ಅಪ್‌ಡೇಟ್ ಅಗತ್ಯ",
+  "forceUpdateMessage": "ಈ ಆವೃತ್ತಿ ಇನ್ನು ಬೆಂಬಲಿಸಲ್ಪಡುವುದಿಲ್ಲ. ಮುಂದುವರಿಸಲು ಅಪ್‌ಡೇಟ್ ಮಾಡಿ.",
+  "updateButton": "Update",
+  "maintenanceInProgress": "Maintenance in progress",
+  "tryAgainLater": "Please try again later",
+  "information": "Information",
+  "later": "ನಂತರ",
+  "doYouLikeHash": "Hash ನಿಮಗೆ ಇಷ್ಟವಾಗುತ್ತದೆಯೇ?",
+  "yourFeedbackHelps": "ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಅಪ್ಲಿಕೇಶನ್ ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+  "ratingTerrible": "ಭಯಾನಕ",
+  "ratingBad": "ಕೆಟ್ಟ",
+  "ratingOk": "ಸರಿ",
+  "ratingGood": "ಒಳ್ಳೆಯ",
+  "ratingExcellent": "ಅದ್ಭುತ!",
+  "donationMessage": "Hash ಒಂದು ಲಾಭರಹಿತ ಯೋಜನೆ. ನಿಮ್ಮ ಬೆಂಬಲ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+  "recentConnections": "ಇತ್ತೀಚಿನ ಸಂಪರ್ಕಗಳು",
+  "loginInfoText": "ಪ್ರತಿ PIN ಅನ್‌ಲಾಕ್ ಸ್ಥಳೀಯವಾಗಿ ದಾಖಲಿಸಲಾಗುತ್ತದೆ. ನೀವು ಮಾತ್ರ ನೋಡಬಹುದು.",
+  "connectionCount": "ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
+  "periodLabel": "ಅವಧಿ",
+  "historyLabel": "ಇತಿಹಾಸ",
+  "noLoginRecorded": "No login recorded",
+  "nextUnlocksAppearHere": "Next unlocks will appear here.",
+  "dataLocalOnly": "ಈ ಡೇಟಾ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಮಾತ್ರ ಸಂಗ್ರಹಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳಲ್ಲ.",
+  "currentSession": "ಪ್ರಸ್ತುತ",
+  "todayLabel": "ಇಂದು",
+  "yesterdayLabel": "ನಿನ್ನೆ",
+  "justNowLabel": "ಈಗಷ್ಟೇ",
+  "minutesAgoLabel": "{count} ನಿಮಿಷ ಹಿಂದೆ",
+  "@minutesAgoLabel": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursAgoLabel": "{hours} ಗಂಟೆ ಹಿಂದೆ",
+  "@hoursAgoLabel": {
+    "placeholders": {
+    "hours": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursMinutesAgoLabel": "{hours} ಗಂಟೆ {minutes} ನಿಮಿಷ ಹಿಂದೆ",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+    "hours": {
+    "type": "int"
+    },
+    "minutes": {
+    "type": "int"
+    }
+    }
+    },
+  "noMaintenancePlanned": "No maintenance planned",
+  "everythingWorkingNormally": "Everything is working normally",
+  "maintenanceTitle": "ನಿರ್ವಹಣೆ",
+  "maintenanceActiveLabel": "ಸಕ್ರಿಯ",
+  "maintenancePlannedLabel": "ಯೋಜಿಸಲಾಗಿದೆ",
+  "locking": "ಲಾಕ್ ಆಗುತ್ತಿದೆ...",
+  "newMessageNotification": "ಹೊಸ ಸಂದೇಶ",
+  "secExplainTitle": "Hash ಹೇಗೆ ನಿಮ್ಮನ್ನು ರಕ್ಷಿಸುತ್ತದೆ",
+  "secExplainIntro": "Hash is designed so that nobody can read your messages.",
+  "secExplainIntroSub": "Not even us.\nHere's how it works, explained simply.",
+  "secJourneyLabel": "THE JOURNEY",
+  "secJourneyTitle": "The journey of your message",
+  "secJourneySubtitle": "From your finger to your contact's screen, every step is protected. Follow the path.",
+  "secStep1Title": "ಸಂದೇಶ ಬರೆಯಿರಿ",
+  "secStep1Desc": "ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ. ಈ ಕ್ಷಣದಲ್ಲಿ ಸಂದೇಶ ನಿಮ್ಮ ಫೋನ್ ಮೆಮೊರಿಯಲ್ಲಿ ಮಾತ್ರ ಇದೆ.",
+  "secStep2Title": "ತ್ವರಿತ ಎನ್‌ಕ್ರಿಪ್ಶನ್",
+  "secStep2Desc": "ಕಳಿಸಿದಾಗ Signal ಪ್ರೋಟೋಕಾಲ್ ಸಂದೇಶವನ್ನು ಅಕ್ಷರಗಳ ಸಮೂಹಕ್ಕೆ ಪರಿವರ್ತಿಸುತ್ತದೆ.",
+  "secStep3Title": "ಅನಾಮಧೇಯ ಪ್ರಸರಣ",
+  "secStep3Desc": "ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಡೇಟಾ ಸರ್ವರ್‌ಗೆ ಕಳಿಸಲಾಗುತ್ತದೆ. ಸರ್ವರ್‌ಗೆ ಯಾರು ಕಳಿಸುತ್ತಿದ್ದಾರೆ ಗೊತ್ತಿಲ್ಲ.",
+  "secStep4Title": "ಕುರುಡು ಸರ್ವರ್",
+  "secStep4Desc": "ಸರ್ವರ್ ಕುರುಡು ಅಂಚೆ ಸಿಬ್ಬಂದಿಯಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಯಾರೋ ಒಬ್ಬರು ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಏನನ್ನೋ ಇಟ್ಟಿದ್ದಾರೆ ಎಂದು ಮಾತ್ರ ಗೊತ್ತು.",
+  "secStep4Highlight": "No metadata stored: no IP address, no timestamp, no link between sender and recipient.",
+  "secStep5Title": "ಸ್ವೀಕರಿಸುವವರು ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡುತ್ತಾರೆ",
+  "secStep5Desc": "ಸ್ವೀಕರಿಸುವವರ ಫೋನ್ ವಿಷಯ ತೆಗೆದುಕೊಂಡು ಸ್ಥಳೀಯವಾಗಿ ಡಿಕ್ರಿಪ್ಟ್ ಮಾಡುತ್ತದೆ.",
+  "secStep6Title": "ಸ್ವಯಂಚಾಲಿತ ಅಳಿಸುವಿಕೆ",
+  "secStep6Desc": "ಓದಿದ ನಂತರ ಸಂದೇಶ ಸರ್ವರ್‌ನಿಂದ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಯಲ್ಪಡುತ್ತದೆ.",
+  "secStep7Title": "Local expiration",
+  "secStep7Desc": "On your contact's phone, the message self-destructs according to the duration you chose: immediately after reading, 5 minutes, 1 hour... you decide.",
+  "secJourneyConclusion": "Result: zero trace on the server, zero trace on devices. The message existed only long enough to be read, then it disappeared.",
+  "secArchLabel": "ARCHITECTURE",
+  "secArchTitle": "5 layers of protection",
+  "secArchSubtitle": "Hash doesn't rely on a single technology. Each layer reinforces the others. Even if one layer is compromised, your data remains safe.",
+  "secLayer1Title": "End-to-end encryption",
+  "secLayer1Desc": "Each message is encrypted with a unique key. In simple terms: even if someone decrypts one message, they won't be able to decrypt the next one. Each message has its own lock.",
+  "secLayer1Detail": "For files (photos, videos, documents), Hash uses additional AES-256-GCM encryption. The file is encrypted before it leaves your phone.",
+  "secLayer2Title": "Sealed Sender (network anonymity)",
+  "secLayer2Desc": "Regular messengers send your messages with your identity attached. It's like writing your name on the envelope. Hash uses anonymous mailboxes: the server delivers the message without knowing who sent it.",
+  "secLayer2Detail": "Result: even in case of a server data breach, it's impossible to reconstruct who talks to whom.",
+  "secLayer3Title": "Automatic deletion",
+  "secLayer3Desc": "Messages are deleted from the server as soon as receipt is confirmed. Even if a message is never retrieved, it's automatically destroyed after 24 hours.",
+  "secLayer3Detail": "On your phone, messages self-destruct according to the duration you choose: immediately, 5 min, 15 min, 30 min, 1h, 3h, 6h, or 12h.",
+  "secLayer4Title": "Local access protection",
+  "secLayer4Desc": "The app is protected by a 6-digit PIN and/or biometrics (Face ID, fingerprint). After too many failed attempts, the app locks with an increasing delay after each failure.",
+  "secLayer5Title": "Locked database",
+  "secLayer5Desc": "On the server side, no user can write directly to the database. All actions go through secure functions that verify each request.",
+  "secLayer5Detail": "It's like a bank counter: you never touch the vault yourself. You make a request, and the system checks that you have the right before acting.",
+  "secVashLabel": "UNIQUE IN THE WORLD",
+  "secVashTitle": "Vash Mode",
+  "secVashSubtitle": "An emergency security system that doesn't exist in any other messaging app.",
+  "secVashScenarioTitle": "Imagine this situation",
+  "secVashScenario1": "Someone accesses your phone",
+  "secVashScenario2": "You're asked for your PIN code",
+  "secVashScenario3": "You want to erase all your data urgently",
+  "secVashSolutionTitle": "The solution: two PIN codes",
+  "secVashSolutionDesc": "You configure two different PIN codes in Hash:",
+  "secVashNormalCodeLabel": "Normal code",
+  "secVashNormalCodeDesc": "Opens the app normally with all your data",
+  "secVashCodeLabel2": "Vash code",
+  "secVashCodeDescription": "Opens the app normally... but all your data is silently deleted in the background",
+  "secVashWhatHappensTitle": "What happens next",
+  "secVashWhatHappensDesc": "The app opens normally. No alert, no suspicious animation. The screen simply shows an empty app, as if you just installed it.\n\nIn reality, all your conversations, contacts, and messages have been irreversibly deleted in a fraction of a second.",
+  "secCallsLabel": "CALLS & FILES",
+  "secCallsTitle": "Everything is encrypted",
+  "secCallsSubtitle": "It's not just messages. Absolutely everything that goes through Hash is end-to-end encrypted.",
+  "secAudioCallTitle": "Audio calls",
+  "secAudioCallDesc": "End-to-end encrypted via WebRTC. Voice is transmitted directly between devices.",
+  "secVideoCallTitle": "Video calls",
+  "secVideoCallDesc": "Same technology, each stream encrypted individually.",
+  "secPhotosTitle": "Photos & videos",
+  "secPhotosDesc": "Encrypted in AES-256-GCM before leaving your phone.",
+  "secDocsTitle": "Documents",
+  "secDocsDesc": "PDF, ZIP, any file. Name, size, and content encrypted.",
+  "secAnonLabel": "ANONYMITY",
+  "secAnonTitle": "No identity required",
+  "secAnonSubtitle": "Hash never asks for your phone number or email. You are identified by a unique and anonymous Hash ID.",
+  "secHashIdTitle": "Your Hash ID",
+  "secHashIdDesc": "This is your unique identifier. It reveals nothing about you: not your name, not your number, not your location. It's like a pseudonym impossible to link to your real identity.\n\nTo add a contact, you share your Hash ID or scan a QR code. That's it. No synchronized address book, no \"People you may know\" suggestions.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "ಸಂಗ್ರಹಿಸಿದ ಡೇಟಾ",
+  "secDataSubtitle": "Hash ಕನಿಷ್ಠ ಡೇಟಾ ಸಂಗ್ರಹಿಸುತ್ತದೆ",
+  "secNeverCollected": "ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸಲ್ಲ",
+  "secNeverItem1": "ಫೋನ್ ಸಂಖ್ಯೆ ಅಥವಾ ಇಮೇಲ್",
+  "secNeverItem2": "ನಿಜ ಹೆಸರು",
+  "secNeverItem3": "ಸ್ಥಳ ಡೇಟಾ",
+  "secNeverItem4": "ಸಂಪರ್ಕ ಪಟ್ಟಿ",
+  "secNeverItem5": "ಸಂದೇಶ ವಿಷಯ",
+  "secNeverItem6": "ಬಳಕೆ ಅಂಕಿಅಂಶ",
+  "secNeverItem7": "ಜಾಹೀರಾತು ID",
+  "secNeverItem8": "ಸಾಧನ ಮಾಹಿತಿ",
+  "secNeverItem9": "IP ವಿಳಾಸ",
+  "secNeverItem10": "ಬಯೋಮೆಟ್ರಿಕ್ ಡೇಟಾ",
+  "secTempStored": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ",
+  "secTempItem1": "Hash ID (ಅನಾಮಧೇಯ ID)",
+  "secTempItem2": "ಎನ್‌ಕ್ರಿಪ್ಟ್ ಸಂದೇಶಗಳು (ಡೆಲಿವರಿ ವರೆಗೆ)",
+  "secTempItem3": "ಸಾರ್ವಜನಿಕ ಎನ್‌ಕ್ರಿಪ್ಶನ್ ಕೀಲಿಗಳು",
+  "secTempNote": "ಎಲ್ಲಾ ತಾತ್ಕಾಲಿಕ ಡೇಟಾ ಡೆಲಿವರಿ ನಂತರ ಅಳಿಯಲ್ಪಡುತ್ತದೆ",
+  "secFooterTitle": "ಸಂಪೂರ್ಣ ಗೌಪ್ಯತೆ",
+  "secFooterDesc": "Hash ನಿಮ್ಮ ಖಾಸಗಿ ಡೇಟಾ ಎಂದಿಗೂ ಮಾರಾಟ ಮಾಡಲ್ಲ."
+}

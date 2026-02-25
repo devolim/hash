@@ -1,0 +1,1037 @@
+{
+  "@@locale": "sv",
+
+  "appName": "Hash",
+  "appTagline": "Inga spår. Inga kompromisser.",
+
+  "conversations": "Chattar",
+  "contacts": "Kontakter",
+  "noConversation": "Inga chattar",
+  "noConversationSubtitle": "Lägg till en kontakt för att börja chatta säkert",
+  "pendingRequestsCount": "{count, plural, =1{1 väntande förfrågan} other{{count} väntande förfrågningar}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 skickad förfrågan väntar} other{{count} skickade förfrågningar väntar}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Lägg till kontakt",
+  "shareApp": "Dela appen",
+  "newMessage": "Nytt meddelande",
+  "newConversation": "Skicka ett meddelande",
+
+  "settings": "Inställningar",
+  "myHashId": "Mitt Hash-ID",
+  "supportHash": "Stöd Hash",
+  "supportHashSubtitle": "Hash är ett ideellt projekt",
+  "donate": "Donera",
+
+  "appearance": "Utseende",
+  "theme": "Tema",
+  "themeAuto": "Automatiskt",
+  "themeAutoSubtitle": "Följer systeminställningarna",
+  "themeDark": "Mörkt",
+  "themeLight": "Ljust",
+  "themeRecommendation": "Mörkt tema rekommenderas för bättre integritet",
+  "language": "Språk",
+  "languageAuto": "Automatiskt (system)",
+
+  "notifications": "Aviseringar",
+  "messages": "Meddelanden",
+  "calls": "Samtal",
+  "vibration": "Vibration",
+  "notificationContent": "Aviseringsinnehåll",
+  "notificationContentFull": "Visa allt",
+  "notificationContentFullDesc": "Kontaktnamn och meddelandeförhandsgranskning",
+  "notificationContentName": "Endast namn",
+  "notificationContentNameDesc": "Visar bara kontaktens namn",
+  "notificationContentDiscrete": "Diskret",
+  "notificationContentDiscreteDesc": "Visar bara \"Nytt meddelande\"",
+
+  "security": "Säkerhet",
+  "howHashProtectsYou": "Hur Hash skyddar dig",
+  "howHashProtectsYouSubtitle": "Förstå din säkerhet",
+  "accountSecurity": "Kontosäkerhet",
+  "accountSecuritySubtitle": "PIN, biometri, Vash-läge",
+  "blockScreenshots": "Blockera skärmdumpar",
+  "transferDevice": "Överför till en annan enhet",
+  "transferDeviceSubtitle": "Migrera ditt konto",
+
+  "pinCode": "PIN-kod",
+  "changePin": "Ändra PIN-kod",
+  "currentPin": "Nuvarande PIN-kod",
+  "newPin": "Ny PIN-kod",
+  "confirmPin": "Bekräfta PIN-kod",
+  "pinChanged": "PIN-kod ändrad",
+  "incorrectPin": "Felaktig PIN",
+  "pinsDoNotMatch": "PIN-koderna matchar inte",
+
+  "autoLock": "Automatisk låsning",
+  "autoLockDelay": "Låsfördröjning",
+  "autoLockImmediate": "Omedelbar",
+  "autoLockMinute": "1 minut",
+  "autoLockMinutes": "{count} minuter",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash-kod",
+  "vashModeTitle": "Vash-läge",
+  "vashModeExplanation": "Ditt ultimata skyddsnät.",
+  "vashModeDescription": "Du väljer en andra PIN-kod. Om du någonsin tvingas öppna Hash, ange denna kod istället för din vanliga PIN.\n\nAppen öppnas normalt, men alla dina konversationer och kontakter är borta.\n\nFör alla som tittar på din skärm ser Hash helt enkelt tom ut — som om du aldrig använt den.",
+  "vashModeIrreversible": "Denna åtgärd är tyst och oåterkallelig.",
+  "chooseVashCode": "Välj min Vash-kod",
+  "vashCodeInfo": "En andra PIN-kod som öppnar appen normalt, men tom.",
+  "vashCodeInfoDetail": "Om du anger denna kod istället för din PIN:",
+  "vashDeleteContacts": "Dina kontakter försvinner",
+  "vashDeleteMessages": "Dina konversationer försvinner",
+  "vashDeleteHistory": "Dina anteckningar försvinner",
+  "vashKeepId": "Din Hash-identitet (#XXX-XXX-XXX) förblir densamma",
+  "vashAppearNormal": "Appen ser normal men tom ut, som ny. Denna åtgärd är oåterkallelig.",
+  "setupVashCode": "Konfigurera Vash-kod",
+  "modifyVashCode": "Ändra Vash-kod",
+  "currentVashCode": "Nuvarande Vash-kod",
+  "newVashCode": "Ny Vash-kod",
+  "confirmVashCode": "Bekräfta Vash-kod",
+  "vashCodeConfigured": "Vash-kod konfigurerad",
+  "vashCodeModified": "Vash-kod ändrad",
+  "vashCodeMustDiffer": "Vash-koden måste skilja sig från PIN",
+  "incorrectVashCode": "Felaktig Vash-kod",
+  "vashWhatToDelete": "Vad ska Vash-läget ta bort?",
+  "vashDeleteContactsOption": "Kontakter",
+  "vashDeleteMessagesOption": "Meddelanden",
+  "vashDeleteNotesOption": "Anteckningar",
+  "vashActivated": "Vash-läge aktiverat",
+  "vashCreateSubtitle": "Välj en kod som skiljer sig från din huvud-PIN",
+  "vashConfirmSubtitle": "Bekräfta din Vash-kod",
+  "vashCodeSection": "Vash-läge",
+
+  "pinCodeForEntry": "PIN-kod för att komma in i appen",
+  "biometric": "Biometri",
+  "biometricUnlock": "Lås upp med fingeravtryck eller Face ID",
+  "enableBiometric": "Aktivera biometri",
+  "biometricWarningMessage": "Genom att aktivera biometri kommer du inte att kunna använda din Vash-kod för att logga in i appen.\n\nDu kan bara använda Vash-koden om biometrin misslyckas (efter flera misslyckade försök).\n\nÄr du säker på att du vill fortsätta?",
+  "understood": "Jag förstår",
+
+  "shareAppSubtitle": "Dela Hash med dina nära och kära",
+  "share": "Dela",
+
+  "danger": "Fara",
+  "panicButton": "Panikknapp",
+  "panicButtonSubtitle": "Radera all data",
+  "deleteAccount": "Radera mitt konto",
+  "deleteAccountSubtitle": "Oåterkallelig åtgärd",
+  "deleteAccountConfirmTitle": "Radera mitt konto",
+  "deleteAccountConfirmMessage": "Ditt konto kommer att raderas permanent. Denna åtgärd är oåterkallelig.\n\n• Alla dina chattar\n• Alla dina kontakter\n• Ditt Hash-ID\n\nDu behöver skapa ett nytt konto.",
+  "deleteForever": "Radera permanent",
+  "cancel": "Avbryt",
+
+  "panicConfirmTitle": "Panikknapp",
+  "panicConfirmMessage": "Denna åtgärd kommer att permanent radera ALL din data:\n\n• Alla dina meddelanden\n• Alla dina kontakter\n• Ditt konto\n\nÄr du helt säker?",
+  "deleteAll": "RADERA ALLT",
+  "dataDeletedForSecurity": "Vash-läge aktiverat.",
+  "deletionError": "Raderingsfel: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Din säkerhet",
+  "securityInfo": "• Ände-till-ände-kryptering (Signal Protocol)\n• Ingen data på våra servrar efter leverans\n• Nycklar lagras bara på din enhet\n• PIN-kod skickas aldrig till servern",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Välkommen",
+  "securityStatement1": "Dina meddelanden är skyddade.",
+  "securityStatement2": "Ände-till-ände-kryptering.",
+  "securityStatement3": "Inga spår. Inga kompromisser.",
+  "securityStatement4": "Din integritet är en rättighet.",
+
+  "accessBlocked": "Åtkomst blockerad",
+  "tooManyAttempts": "För många försök. Försök igen senare.",
+  "pleaseWait": "Vänligen vänta",
+  "waitDelay": "Vänligen vänta tills fördröjningen är slut",
+  "attemptCount": "Försök {current} av {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Försök igen om {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Glömt PIN? Använd återställningsfras",
+  "useRecoveryPhrase": "Använd återställningsfras",
+
+  "recoveryWarningTitle": "Varning",
+  "recoveryWarningMessage": "Kontoåterställning kommer att:",
+  "recoveryDeleteAllMessages": "Radera ALLA dina meddelanden",
+  "recoveryWaitDelay": "Kräva 1 timmes väntetid",
+  "recoveryKeepContacts": "Behålla dina kontakter",
+  "recoveryIrreversible": "Denna åtgärd är oåterkallelig. Dina meddelanden går permanent förlorade.",
+  "iUnderstand": "Jag förstår",
+
+  "accountRecovery": "Kontoåterställning",
+  "enterRecoveryPhrase": "Ange de 24 orden i din återställningsfras, separerade med mellanslag.",
+  "recoveryPhraseHint": "ord1 ord2 ord3 ...",
+  "recover": "Återställ",
+  "recoveryPhraseRequired": "Ange din återställningsfras",
+  "recoveryPhrase24Words": "Frasen måste innehålla exakt 24 ord",
+  "incorrectRecoveryPhrase": "Felaktig återställningsfras",
+  "recoveryInitError": "Fel vid initiering av återställning",
+
+  "securityDelay": "Säkerhetsfördröjning",
+  "securityDelayMessage": "För din säkerhet krävs en väntetid innan du kan skapa en ny PIN.",
+  "timeRemaining": "Tid kvar",
+  "messagesDeletedForProtection": "Dina meddelanden har raderats för ditt skydd.",
+  "canCloseApp": "Du kan stänga appen och komma tillbaka senare.",
+
+  "onboardingTitle1": "Välkommen till Hash",
+  "onboardingSubtitle1": "Meddelandeappen som inte lämnar några spår",
+  "onboardingTitle2": "Total kryptering",
+  "onboardingSubtitle2": "Dina meddelanden är ände-till-ände-krypterade med Signal-protokollet",
+  "onboardingTitle3": "Inga spår",
+  "onboardingSubtitle3": "Meddelanden raderas från servrarna vid leverans",
+  "onboardingTitle4": "Din säkerhet",
+  "onboardingSubtitle4": "PIN-kod, Vash-läge och återställningsfras",
+
+  "getStarted": "Kom igång",
+  "next": "Nästa",
+  "skip": "Hoppa över",
+  "alreadyHaveAccount": "Jag har redan ett konto",
+  "transferMyAccount": "Överför mitt konto",
+
+  "createPin": "Skapa en PIN-kod",
+  "createPinSubtitle": "Denna kod skyddar åtkomsten till din app",
+  "confirmYourPin": "Bekräfta din PIN-kod",
+  "confirmPinSubtitle": "Ange din PIN-kod igen",
+
+  "saveRecoveryPhrase": "Återställningsfras",
+  "saveRecoveryPhraseSubtitle": "Skriv ner dessa 24 ord i ordning. De låter dig återställa ditt konto om du glömmer din PIN.",
+  "phraseWritten": "Jag har skrivit ner min fras",
+  "warningRecoveryPhrase": "Om du förlorar denna fras och glömmer din PIN förlorar du åtkomsten till ditt konto.",
+
+  "accountTransferred": "Konto överfört",
+  "accountTransferredMessage": "Ditt konto har överförts till en annan enhet. Denna session är inte längre giltig.",
+  "accountTransferredInfo": "Om du inte initierade denna överföring kan ditt konto ha komprometterats.",
+  "logout": "Logga ut",
+
+  "transferAccount": "Överför konto",
+  "transferAccountInfo": "Överför ditt Hash-konto till en ny enhet. Din nuvarande session ogiltigförklaras.",
+  "generateTransferCode": "Generera överföringskod",
+  "transferCode": "Överföringskod",
+  "transferCodeExpires": "Denna kod löper ut om {minutes} minuter",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Ange denna kod på din nya enhet för att överföra ditt konto.",
+  "generateNewCode": "Generera ny kod",
+
+  "scanQrCode": "Skanna QR-kod",
+  "scanQrCodeSubtitle": "Skanna en kontakts QR-kod för att lägga till dem",
+  "qrCodeDetected": "QR-kod identifierad",
+  "invalidQrCode": "Ogiltig QR-kod",
+  "cameraPermissionRequired": "Kamerabehörighet krävs",
+
+  "myQrCode": "Min QR-kod",
+  "myQrCodeSubtitle": "Dela denna QR-kod så att dina kontakter kan lägga till dig",
+  "shareQrCode": "Dela",
+
+  "addContactTitle": "Lägg till kontakt",
+  "addContactByHashId": "Ange din kontakts Hash-ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Sök",
+  "contactNotFound": "Kontakt hittades inte",
+  "contactAlreadyAdded": "Denna kontakt finns redan i din lista",
+  "contactAdded": "Kontakt tillagd",
+
+  "myProfile": "Min profil",
+  "myProfileSubtitle": "Dela denna information så att andra kan lägga till dig",
+  "temporaryCode": "Tillfällig kod",
+  "temporaryCodeExpires": "Löper ut om {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Koden har löpt ut",
+  "generateNewCodeButton": "Ny kod",
+  "copyHashId": "Kopiera ID",
+  "copyCode": "Kopiera kod",
+  "copiedToClipboard": "Kopierat",
+  "showMyQrCode": "Visa min QR-kod",
+  "orDivider": "eller",
+  "openScanner": "Öppna skanner",
+  "addManually": "Lägg till manuellt",
+  "contactHashIdLabel": "Kontaktens Hash-ID",
+  "temporaryCodeLabel": "Tillfällig kod",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Be din kontakt att generera en kod från sin profil",
+  "verifyAndAdd": "Verifiera och lägg till",
+  "fillAllFields": "Fyll i alla fält",
+  "invalidHashIdFormat": "Ogiltigt ID-format (t.ex.: 123-456-ABC)",
+  "userNotFound": "Användaren hittades inte",
+  "cannotAddYourself": "Du kan inte lägga till dig själv",
+  "invalidOrExpiredCode": "Ogiltig eller utgången tillfällig kod",
+  "contactFound": "Kontakt hittad!",
+  "howToCallContact": "Vad vill du kalla dem?",
+  "contactNameHint": "Kontaktnamn",
+  "addContactButton": "Lägg till",
+
+  "contactDetails": "Kontaktdetaljer",
+  "contactName": "Kontaktnamn",
+  "contactHashId": "Hash-ID",
+  "addedOn": "Tillagd {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Radera kontakt",
+  "deleteContactConfirm": "Radera denna kontakt?",
+  "deleteContactMessage": "Detta raderar även hela chatten.",
+  "delete": "Radera",
+
+  "typeMessage": "Skriv ett meddelande...",
+  "messageSent": "Skickat",
+  "messageDelivered": "Levererat",
+  "messageRead": "Läst",
+  "messageFailed": "Kunde inte skicka",
+
+  "now": "Nu",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}t",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Idag",
+  "yesterday": "Igår",
+  "dateAtTime": "{date} kl {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Kom med mig på Hash! 🔒\n\nDet är en verkligt privat meddelandeapp: total kryptering, inga spår på servrar och panikläge vid behov.\n\nLadda ner appen här 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Fel",
+  "ok": "OK",
+  "view": "Visa",
+  "yes": "Ja",
+  "no": "Nej",
+  "save": "Spara",
+  "edit": "Redigera",
+  "close": "Stäng",
+  "confirm": "Bekräfta",
+  "loading": "Laddar...",
+  "retry": "Försök igen",
+
+  "pendingRequests": "Väntande förfrågningar",
+  "noPendingRequests": "Inga väntande förfrågningar",
+  "pendingRequestsSubtitle": "Dessa personer vill lägga till dig",
+  "requestFromUser": "Förfrågan från {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Löper ut om {days} dagar",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Acceptera",
+  "rejectRequest": "Avvisa",
+  "requestAccepted": "Förfrågan accepterad",
+  "requestRejected": "Förfrågan avvisad",
+  "requestSent": "Förfrågan skickad!",
+  "requestSentSubtitle": "Din förfrågan har skickats. Användaren måste acceptera den innan ni kan chatta.",
+  "requestAlreadyPending": "En förfrågan väntar redan",
+  "requestAlreadySentByOther": "Denna person har redan skickat dig en förfrågan",
+  "addByHashId": "Lägg till via Hash-ID",
+  "addByHashIdSubtitle": "Ange kontaktens Hash-ID och tillfälliga kod",
+  "enterTemporaryCode": "Ange den 6-siffriga koden",
+  "sendRequest": "Skicka förfrågan",
+  "acceptContactTitle": "Acceptera kontakt",
+  "acceptContactSubtitle": "Du kan ge dem ett eget namn",
+  "leaveEmptyForHashId": "Lämna tomt för att använda Hash-ID",
+  "firstName": "Förnamn",
+  "lastName": "Efternamn",
+  "notes": "Anteckningar",
+  "notesHint": "Personliga anteckningar om denna kontakt",
+
+  "photoOptional": "Foto (valfritt)",
+  "contactNameOptional": "Namn (valfritt)",
+  "notesOptional": "Anteckningar (valfritt)",
+  "storedLocally": "Lagras bara på din enhet",
+  "encryptedMessageLabel": "Krypterat meddelande",
+  "identityMessageHint": "Vem är du? Hur känner ni varandra?",
+  "messageWillBeSentEncrypted": "Detta meddelande krypteras och skickas till mottagaren",
+  "sendRequestButton": "Skicka förfrågan",
+  "requestExpiresIn24h": "Förfrågan löper ut om 24 timmar om den inte accepteras",
+  "theyAlreadySentYouRequest": "Denna person har redan skickat dig en förfrågan",
+
+  "requests": "Förfrågningar",
+  "receivedRequests": "Mottagna",
+  "sentRequests": "Skickade",
+  "noSentRequests": "Inga skickade förfrågningar",
+  "cancelRequest": "Avbryt",
+  "deleteRequest": "Radera förfrågan",
+  "requestCancelled": "Förfrågan avbruten",
+  "sentTo": "Skickad till {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Löper ut om {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Mottagen {time} sedan",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Meddelande från avsändaren",
+
+  "copy": "Kopiera",
+  "messageInfo": "Meddelandeinfo",
+
+  "messageDirection": "Riktning",
+  "messageSentByYou": "Skickat av dig",
+  "messageReceived": "Mottaget",
+  "messageSentAt": "Skickat",
+  "messageStatus": "Status",
+  "messageReadAt": "Läst",
+  "messageType": "Typ",
+  "messageSize": "Storlek",
+  "messageExpiresAt": "Löper ut",
+  "messageEncrypted": "Ände-till-ände-krypterat",
+
+  "messageStatusSending": "Skickar...",
+  "messageStatusSent": "Skickat",
+  "messageStatusDelivered": "Levererat",
+  "messageStatusRead": "Läst",
+  "messageStatusFailed": "Misslyckades",
+
+  "serverStatus": "Server",
+  "onServer": "Väntar på leverans",
+  "deletedFromServer": "Raderat",
+
+  "messageTypeText": "Text",
+  "messageTypeImage": "Bild",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Röst",
+  "messageTypeFile": "Fil",
+
+  "indefinitely": "På obestämd tid",
+  "hoursShort": "t",
+  "minutesShort": "min",
+  "hours": "timmar",
+  "minutes": "minuter",
+  "seconds": "sekunder",
+
+  "ephemeralMessages": "Försvinnande meddelanden",
+  "ephemeralMessagesDescription": "Meddelanden raderas automatiskt efter denna tid",
+  "ephemeralImmediate": "Omedelbart (efter läsning)",
+  "ephemeralImmediateDesc": "Raderas direkt efter läsning",
+  "ephemeralMyPreference": "Min preferens",
+  "ephemeralMyPreferenceDesc": "Använd global inställning",
+  "ephemeralDefaultSetting": "Meddelandets varaktighet",
+  "ephemeralChooseDefault": "Rekommenderat",
+  "ephemeral30Seconds": "30 sekunder",
+  "ephemeral30SecondsDesc": "Raderas 30s efter läsning",
+  "ephemeral5Minutes": "5 minuter",
+  "ephemeral5MinutesDesc": "Raderas 5min efter läsning",
+  "ephemeral1Hour": "1 timme",
+  "ephemeral1HourDesc": "Raderas 1t efter läsning",
+  "ephemeral3Hours": "3 timmar",
+  "ephemeral6Hours": "6 timmar",
+  "ephemeral6HoursDesc": "Raderas 6t efter läsning",
+  "ephemeral12Hours": "12 timmar",
+  "ephemeral24Hours": "24 timmar",
+  "ephemeral24HoursDesc": "Raderas 24t efter läsning",
+  "customDuration": "Anpassad varaktighet",
+
+  "muteNotifications": "Tysta aviseringar",
+  "muteDescription": "Du får inga aviseringar för denna kontakt",
+  "mutedUntil": "Tystad till {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Aviseringar aktiverade",
+  "unmute": "Slå på ljud",
+
+  "notificationSound": "Aviseringsljud",
+  "defaultSound": "Standard",
+
+  "chatSettings": "Chattinställningar",
+  "bubbleColor": "Bubbelfärg",
+  "backgroundColor": "Bakgrundsfärg",
+  "backgroundImage": "Bakgrundsbild",
+  "chatBackground": "Chattbakgrund",
+  "customColor": "Anpassad",
+  "defaultColor": "Standard",
+  "imageSelected": "Bild vald",
+  "noImage": "Ingen bild",
+  "color": "Färg",
+  "image": "Bild",
+  "tapToSelectImage": "Tryck för att välja en bild",
+  "changeImage": "Ändra bild",
+  "previewMessageReceived": "Hej!",
+  "previewMessageSent": "Tjena!",
+
+  "messageAction": "Meddelande",
+  "callAction": "Samtal",
+  "videoAction": "Video",
+
+  "personalNotes": "Personliga anteckningar",
+  "addNotes": "Lägg till anteckningar...",
+  "noNotes": "Inga anteckningar",
+
+  "messageNotifications": "Meddelandeaviseringar",
+  "callNotifications": "Samtalsaviseringar",
+
+  "useGradient": "Använd gradient",
+  "gradientStart": "Startfärg",
+  "gradientEnd": "Slutfärg",
+  "preview": "Förhandsgranskning",
+  "reset": "Återställ",
+
+  "securityNumber": "Säkerhetsnummer",
+  "securityNumberDescription": "Verifiera att säkerhetsnumret matchar {name}s enhet",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Verifiera ände-till-ände-kryptering",
+  "tapToCopy": "Tryck för att kopiera",
+  "howToVerify": "Hur verifierar man",
+  "verifyStep1": "Träffa din kontakt personligen eller ring dem",
+  "verifyStep2": "Jämför säkerhetsnumren eller skanna QR-koder",
+  "verifyStep3": "Om de matchar är din chatt säker",
+  "scanToVerify": "Skanna för att verifiera",
+
+  "reportSpam": "Rapportera spam",
+  "reportSpamSubtitle": "Rapportera denna kontakt som spam",
+  "reportSpamDescription": "Denna kontakt rapporteras anonymt. Din identitet delas inte. Är du säker?",
+  "report": "Rapportera",
+  "spamReported": "Spam rapporterat",
+  "reportError": "Kunde inte skicka rapport. Försök igen.",
+  "reportRateLimited": "Du har nått det maximala antalet rapporter för idag.",
+
+  "blockContact": "Blockera kontakt",
+  "blockContactDescription": "Denna kontakt kan inte längre skicka meddelanden till dig eller ringa dig. De meddelas inte.",
+  "unblockContact": "Avblockera kontakt",
+  "unblockContactDescription": "Denna kontakt kan åter skicka meddelanden till dig och ringa dig.",
+  "contactBlocked": "Kontakt blockerad",
+  "contactUnblocked": "Kontakt avblockerad",
+  "contactIsBlocked": "Denna kontakt är blockerad",
+  "unblock": "Avblockera",
+
+  "deleteContactSubtitle": "Radera denna kontakt och chatt",
+  "confirmWithPin": "Bekräfta med PIN",
+  "enterPinToConfirm": "Ange din PIN för att bekräfta denna åtgärd",
+
+  "mute1Hour": "1 timme",
+  "mute8Hours": "8 timmar",
+  "mute1Day": "1 dag",
+  "mute1Week": "1 vecka",
+  "muteAlways": "Alltid",
+  "muteExplanation": "Du får inga aviseringar för denna kontakt",
+  "howItWorks": "Hur det fungerar",
+  "ephemeralExplanation1": "Meddelanden raderas från servern direkt vid mottagning.",
+  "ephemeralExplanation2": "Denna inställning bestämmer när meddelanden försvinner från DIN telefon efter läsning.",
+  "ephemeralExplanation3": "Din kontakt har sin egen inställning för sin telefon.",
+
+  "showCallsInRecents": "Visa i senaste samtal",
+  "showCallsInRecentsSubtitle": "Hash-samtal visas i telefonens samtalshistorik",
+  "feedback": "Feedback",
+
+  "profilePhoto": "Profilbild",
+  "takePhoto": "Ta ett foto",
+  "chooseFromGallery": "Välj från galleri",
+  "removePhoto": "Ta bort foto",
+
+  "viewContactHashId": "Visa kontaktens identifierare",
+  "hashIdPartiallyMasked": "Delvis maskerat för din säkerhet och din kontakts integritet",
+
+  "addFirstContact": "Lägg till din första kontakt",
+  "addFirstContactSubtitle": "Dela din QR-kod eller skanna en väns",
+  "directory": "Katalog",
+  "noContacts": "Inga kontakter",
+  "noContactsSubtitle": "Lägg till en kontakt för att komma igång",
+  "sendMessageAction": "Skicka ett meddelande",
+  "audioCall": "Röstsamtal",
+  "videoCall": "Videosamtal",
+  "viewProfile": "Visa profil",
+  "deleteContactDirectory": "Radera kontakt",
+  "scanShort": "Skanna",
+  "addShort": "Lägg till",
+  "deleteContactConfirmName": "Är du säker på att du vill radera {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Inga anteckningar",
+  "noNotesSubtitle": "Skapa din första anteckning",
+  "newNote": "Ny anteckning",
+  "editNote": "Redigera anteckning",
+  "deleteNote": "Radera anteckning",
+  "deleteNoteConfirm": "Är du säker på att du vill radera denna anteckning?",
+  "noteTitle": "Titel",
+  "noteContent": "Innehåll",
+  "addItem": "Lägg till objekt",
+  "pinNote": "Fäst",
+  "unpinNote": "Lossa",
+  "noteColor": "Färg",
+  "notePassword": "Lösenord",
+  "setPassword": "Ange lösenord",
+  "changePassword": "Ändra lösenord",
+  "removePassword": "Ta bort lösenord",
+  "enterPassword": "Ange lösenord",
+  "confirmPassword": "Bekräfta lösenord",
+  "passwordPin": "PIN-kod",
+  "passwordText": "Textlösenord",
+  "protectedNote": "Skyddad anteckning",
+  "incorrectPassword": "Felaktigt lösenord",
+  "passwordSet": "Lösenord angivet",
+  "passwordRemoved": "Lösenord borttaget",
+  "notesBiometric": "Face ID för anteckningar",
+  "notesBiometricSubtitle": "Kräv biometrisk autentisering för att öppna skyddade anteckningar",
+  "textNote": "Textanteckning",
+  "checklistNote": "Checklista",
+  "tasksProgress": "{checked}/{total} uppgifter",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Sparat",
+  "searchNotes": "Sök anteckningar",
+  "legalConsent": "Juridiskt samtycke",
+  "confirmAge13": "Jag bekräftar att jag är minst 13 år",
+  "acceptLegalStart": "Jag accepterar ",
+  "privacyPolicy": "Integritetspolicyn",
+  "termsOfService": "Användarvillkoren",
+  "andThe": " och ",
+  "continueButton": "Fortsätt",
+  "mustAcceptTerms": "Du måste acceptera båda villkoren för att fortsätta",
+
+  "support": "Support",
+  "contactSupport": "Kontakta support",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Rapportera missbruk",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Juridiskt",
+  "legalEntity": "Juridisk enhet",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Fäst",
+  "unpinConversation": "Lossa",
+  "hideConversation": "Ta bort från flödet",
+  "deleteConversation": "Radera konversation",
+  "deleteConversationConfirm": "Ange din PIN för att bekräfta radering av alla meddelanden",
+  "noConversations": "Inga konversationer ännu",
+  "startConversation": "Starta",
+
+  "microphonePermissionRequired": "Mikrofonåtkomst krävs",
+  "microphonePermissionExplanation": "Hash behöver mikrofonen för samtal.",
+  "cameraPermissionExplanation": "Hash behöver kameran för videosamtal.",
+  "openSettings": "Öppna inställningar",
+
+  "callConnecting": "Ansluter...",
+  "callRinging": "Ringer...",
+  "callReconnecting": "Återansluter...",
+  "callReconnectingTimer": "Återansluter ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Pausad",
+  "callPausedSubtitle": "Samtalet pågår fortfarande",
+  "callRemoteMicMuted": "Kontaktens mikrofon är tystad",
+  "callMiniControlsMute": "Tysta",
+  "callMiniControlsUnmute": "Slå på ljud",
+  "callMiniControlsHangUp": "Lägg på",
+  "callMiniControlsReturn": "Återgå till samtalet",
+  "callNetworkPoor": "Instabil anslutning",
+  "callNetworkLost": "Anslutning förlorad",
+  "callEndedTitle": "Samtal avslutat",
+
+  "deviceData": "Enhetsdata",
+  "deviceDataSubtitle": "Lokal och serverlagring",
+  "localStorage": "Lokal lagring",
+  "onThisDevice": "på denna enhet",
+  "encryptedDatabases": "Krypterade databaser",
+  "files": "Filer",
+  "secureKeychain": "Säker nyckelring",
+  "cache": "Cache",
+  "contactsDetail": "Namn, avatarer, Signal-nycklar",
+  "messagesDetail": "Krypterade konversationer",
+  "notesDetail": "Personliga anteckningar",
+  "signalSessions": "Signal-sessioner",
+  "signalSessionsDetail": "Krypteringssessioner",
+  "pendingContacts": "Väntande kontakter",
+  "pendingContactsDetail": "Väntande förfrågningar",
+  "callHistory": "Samtal",
+  "callHistoryDetail": "Samtalshistorik",
+  "preferences": "Inställningar",
+  "preferencesDetail": "Media- och samtalsinställningar",
+  "avatars": "Avatarer",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{inga filer} =1{1 fil} other{{count} filer}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktiv",
+  "notDefined": "Ej definierad",
+  "biometrics": "Biometri",
+  "recoveryPhrase": "Återställningsfras",
+  "identity": "Identitet (Hash-ID)",
+  "signalKeys": "Signal Protocol-nycklar",
+  "authTokens": "Autentiseringstoken",
+  "contactNamesCache": "Cache för kontaktnamn",
+  "remoteConfig": "Fjärrkonfiguration",
+  "notificationPrefs": "Aviseringsinställningar",
+  "serverData": "Serverdata",
+  "serverDataInfo": "Hash lagrar minimal data på servern, allt krypterat eller tillfälligt.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash-ID, publika nycklar, brevlådetoken",
+  "serverPrekeys": "Förnycklar",
+  "serverPrekeysDetail": "Engångs-Signal-nycklar (förbrukade)",
+  "serverMessages": "Meddelanden under transport",
+  "serverMessagesDetail": "Raderas efter leverans (max 24t)",
+  "serverMedia": "Media under transport",
+  "serverMediaDetail": "Raderas efter nedladdning",
+  "serverContactRequests": "Kontaktförfrågningar",
+  "serverContactRequestsDetail": "Löper ut efter 24t",
+  "serverRateLimits": "Hastighetsbegränsningar",
+  "serverRateLimitsDetail": "Tillfällig data mot missbruk",
+  "privacyReassurance": "Hash kan inte läsa dina meddelanden. All data är ände-till-ände-krypterad. Serverdata raderas automatiskt.",
+
+  "pinTooSimple": "Denna PIN är för enkel. Välj en säkrare kod.",
+  "genericError": "Ett fel uppstod. Försök igen.",
+  "accountCreationError": "Kunde inte skapa konto: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Fras kopierad till urklipp",
+  "copyPhrase": "Kopiera fras",
+  "recoveryPhraseSecurityWarning": "Skriv ner denna fras på en säker plats. Om du förlorar din PIN utan denna fras förlorar du permanent åtkomst till dina data.",
+
+  "noMessages": "Inga meddelanden",
+  "deleteAllMessagesWithContact": "Radera alla meddelanden med {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Bekräftelse",
+  "untitled": "Utan titel",
+  "noSessions": "Inga sessioner",
+  "unknownContact": "Okänd kontakt",
+  "unnamed": "Namnlös",
+  "noPendingRequestsAlt": "Inga väntande förfrågningar",
+  "deleteAllCallHistory": "Radera all samtalshistorik?",
+  "noCalls": "Inga samtal",
+  "noPreferences": "Inga inställningar",
+  "resetAllMediaPrefs": "Återställ alla mediainställningar?",
+  "deleteThisAvatar": "Radera denna avatar?",
+  "deleteAllAvatars": "Radera alla avatarer?",
+  "noAvatars": "Inga avatarer",
+  "deleteThisFile": "Radera denna fil?",
+  "deleteAllMediaFiles": "Radera all media?",
+  "noMediaFiles": "Ingen media",
+  "outgoing": "Utgående",
+  "incoming": "Inkommande",
+  "ephemeralViewDuration": "Försvinnande visning: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normal visning",
+  "callReasonCompleted": "Avslutad",
+  "callReasonMissed": "Missat",
+  "callReasonDeclined": "Avvisat",
+  "callReasonFailed": "Misslyckat",
+  "justNow": "Just nu",
+  "timeAgoMinutes": "{count} min sedan",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}t sedan",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}d sedan",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Plats",
+  "statusQueued": "I kö",
+  "blockedBadge": "Blockerad",
+  "protectedBadge": "Skyddad",
+  "messageCount": "{count} meddelande(n)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Radera?",
+
+  "transferMyAccountTitle": "Överför mitt konto",
+  "loadingError": "Laddningsfel",
+  "transferToNewDevice": "Överför till en ny enhet",
+  "transferInstructions": "Välj \"Återställ mitt konto\" på din nya enhet och ange denna information:",
+  "yourHashIdLabel": "Ditt Hash-ID",
+  "enterYourPinCode": "Ange din PIN-kod",
+  "pinOwnerConfirmation": "För att bekräfta att du är ägaren av detta konto",
+  "scanThisQrCode": "Skanna denna QR-kod",
+  "withYourNewDevice": "Med din nya enhet",
+  "orEnterTheCode": "eller ange koden",
+  "transferCodeLabel": "Överföringskod",
+  "proximityVerification": "Närhetsverifiering",
+  "bringDevicesCloser": "Håll båda enheterna nära",
+  "confirmTransferQuestion": "Bekräfta överföringen?",
+  "accountWillBeTransferred": "Ditt konto överförs till den nya enheten.\n\nDenna enhet kopplas permanent bort.",
+  "transferComplete": "Överföring klar",
+  "transferSuccessMessage": "Ditt konto har överförts framgångsrikt.\n\nDenna applikation stängs nu.",
+  "manualVerification": "Manuell verifiering",
+  "codeDisplayedOnBothDevices": "Kod visad på båda enheterna:",
+  "doesCodeMatchNewDevice": "Matchar denna kod den på den nya enheten?",
+  "verifiedStatus": "Verifierad",
+  "inProgressStatus": "Pågår...",
+  "notAvailableStatus": "Ej tillgänglig",
+  "codeExpiredRestart": "Koden har löpt ut. Vänligen börja om.",
+  "codesDoNotMatchCancelled": "Koderna matchar inte. Överföring avbruten.",
+  "transferToDevice": "Till: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Kopierat!",
+  "expiresInTime": "Löper ut om {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometri är inte tillgänglig på denna enhet",
+  "biometricAuthError": "Fel vid biometrisk autentisering",
+  "authenticateForBiometric": "Autentisera dig för att aktivera biometri",
+  "biometricAuthFailed": "Biometrisk autentisering misslyckades",
+
+  "forceUpdateTitle": "Uppdatering krävs",
+  "forceUpdateMessage": "En ny version av Hash finns tillgänglig. Uppdatera för att fortsätta.",
+  "updateButton": "Uppdatera",
+  "maintenanceInProgress": "Underhåll pågår",
+  "tryAgainLater": "Försök igen senare",
+  "information": "Information",
+
+  "later": "Senare",
+  "doYouLikeHash": "Gillar du Hash?",
+  "yourFeedbackHelps": "Din feedback hjälper oss att förbättra appen",
+  "ratingTerrible": "Hemskt",
+  "ratingBad": "Dåligt",
+  "ratingOk": "Okej",
+  "ratingGood": "Bra",
+  "ratingExcellent": "Utmärkt!",
+  "donationMessage": "Hash är ett ideellt projekt. Ditt stöd hjälper oss att fortsätta bygga en verkligt privat meddelandeapp.",
+
+  "recentConnections": "Senaste anslutningar",
+  "loginInfoText": "Varje PIN-upplåsning registreras lokalt. Bara de senaste 24 timmarna sparas.",
+  "connectionCount": "Anslutning(ar)",
+  "periodLabel": "Period",
+  "historyLabel": "Historik",
+  "noLoginRecorded": "Inga inloggningar registrerade",
+  "nextUnlocksAppearHere": "Nästa upplåsningar visas här.",
+  "dataLocalOnly": "Denna data lagras bara på din enhet och överförs aldrig.",
+  "currentSession": "Nuvarande",
+  "todayLabel": "Idag",
+  "yesterdayLabel": "Igår",
+  "justNowLabel": "Just nu",
+  "minutesAgoLabel": "{count} min sedan",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}t sedan",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}t {minutes}min sedan",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Inget planerat underhåll",
+  "everythingWorkingNormally": "Allt fungerar normalt",
+  "maintenanceTitle": "Underhåll",
+  "maintenanceActiveLabel": "PÅGÅR",
+  "maintenancePlannedLabel": "PLANERAT",
+
+  "locking": "Låser...",
+
+  "newMessageNotification": "Nytt meddelande",
+
+  "secExplainTitle": "Hur Hash skyddar dig",
+  "secExplainIntro": "Hash är designat så att ingen kan läsa dina meddelanden.",
+  "secExplainIntroSub": "Inte ens vi.\nSå här fungerar det, enkelt förklarat.",
+  "secJourneyLabel": "RESAN",
+  "secJourneyTitle": "Ditt meddelandes resa",
+  "secJourneySubtitle": "Från ditt finger till din kontakts skärm, varje steg är skyddat. Följ vägen.",
+  "secStep1Title": "Du skriver ditt meddelande",
+  "secStep1Desc": "Du skriver \"Hej!\" i appen. I detta skede existerar meddelandet bara i din telefons minne. Inget har skickats.",
+  "secStep2Title": "Kryptering med Signal-protokollet",
+  "secStep2Desc": "Så fort du trycker \"Skicka\" omvandlas ditt meddelande till en sträng av obegripliga tecken. Det är som att ditt meddelande låses i ett kassaskåp som bara din kontakt har nyckeln till.",
+  "secStep3Title": "Sealed Sender: det osynliga kuvertet",
+  "secStep3Desc": "Föreställ dig att du skickar ett brev med posten, men utan avsändaradress på kuvertet. Det är precis vad Hash gör. Meddelandet läggs i en anonym brevlåda. Servern vet inte vem som skickade det.",
+  "secStep4Title": "Servern ser ingenting",
+  "secStep4Desc": "Servern agerar som en blind brevbärare. Den vet bara \"någon lade något i brevlåda #A7X9\". Den vet inte vem som skickade det, vad det är eller vem det är till.",
+  "secStep4Highlight": "Ingen metadata lagras: ingen IP-adress, ingen tidsstämpel, ingen koppling mellan avsändare och mottagare.",
+  "secStep5Title": "Din kontakt tar emot meddelandet",
+  "secStep5Desc": "Din kontakts telefon hämtar innehållet från sin anonyma brevlåda och dekrypterar meddelandet med sin privata nyckel, som aldrig lämnat deras enhet. \"Hej!\" visas på deras skärm.",
+  "secStep6Title": "Meddelandet försvinner från servern",
+  "secStep6Desc": "Så fort din kontakt bekräftar mottagandet raderar servern permanent meddelandet. Ingen papperskorg, inget arkiv, ingen säkerhetskopia. Även olästa meddelanden förstörs automatiskt efter 24 timmar.",
+  "secStep7Title": "Lokal utgång",
+  "secStep7Desc": "På din kontakts telefon förstörs meddelandet enligt den varaktighet du valde: direkt efter läsning, 5 minuter, 1 timme... du bestämmer.",
+  "secJourneyConclusion": "Resultat: inga spår på servern, inga spår på enheterna. Meddelandet existerade bara tillräckligt länge för att bli läst, sedan försvann det.",
+  "secArchLabel": "ARKITEKTUR",
+  "secArchTitle": "5 skyddslager",
+  "secArchSubtitle": "Hash förlitar sig inte på en enda teknologi. Varje lager förstärker de andra. Även om ett lager komprometteras förblir din data säker.",
+  "secLayer1Title": "Ände-till-ände-kryptering",
+  "secLayer1Desc": "Varje meddelande krypteras med en unik nyckel. Enkelt uttryckt: även om någon dekrypterar ett meddelande kan de inte dekryptera nästa. Varje meddelande har sitt eget lås.",
+  "secLayer1Detail": "För filer (foton, videor, dokument) använder Hash ytterligare AES-256-GCM-kryptering. Filen krypteras innan den lämnar din telefon.",
+  "secLayer2Title": "Sealed Sender (nätverksanonymitet)",
+  "secLayer2Desc": "Vanliga meddelandeappar skickar dina meddelanden med din identitet bifogad. Det är som att skriva ditt namn på kuvertet. Hash använder anonyma brevlådor: servern levererar meddelandet utan att veta vem som skickade det.",
+  "secLayer2Detail": "Resultat: även vid ett serverdataläckage är det omöjligt att rekonstruera vem som pratar med vem.",
+  "secLayer3Title": "Automatisk radering",
+  "secLayer3Desc": "Meddelanden raderas från servern så fort mottagandet bekräftas. Även om ett meddelande aldrig hämtas förstörs det automatiskt efter 24 timmar.",
+  "secLayer3Detail": "På din telefon förstörs meddelanden enligt den varaktighet du väljer: omedelbart, 5 min, 15 min, 30 min, 1t, 3t, 6t eller 12t.",
+  "secLayer4Title": "Lokalt åtkomstskydd",
+  "secLayer4Desc": "Appen skyddas av en 6-siffrig PIN-kod och/eller biometri (Face ID, fingeravtryck). Efter för många misslyckade försök låses appen med en ökande fördröjning efter varje misslyckande.",
+  "secLayer5Title": "Låst databas",
+  "secLayer5Desc": "På serversidan kan ingen användare skriva direkt till databasen. Alla åtgärder går genom säkra funktioner som verifierar varje förfrågan.",
+  "secLayer5Detail": "Det är som en bankdisk: du rör aldrig valvet själv. Du gör en förfrågan, och systemet kontrollerar att du har rätt innan det agerar.",
+  "secVashLabel": "UNIKT I VÄRLDEN",
+  "secVashTitle": "Vash-läge",
+  "secVashSubtitle": "Ett nödsäkerhetssystem som inte finns i någon annan meddelandeapp.",
+  "secVashScenarioTitle": "Föreställ dig denna situation",
+  "secVashScenario1": "Någon kommer åt din telefon",
+  "secVashScenario2": "Du ombeds ange din PIN-kod",
+  "secVashScenario3": "Du vill radera all din data omedelbart",
+  "secVashSolutionTitle": "Lösningen: två PIN-koder",
+  "secVashSolutionDesc": "Du konfigurerar två olika PIN-koder i Hash:",
+  "secVashNormalCodeLabel": "Normal kod",
+  "secVashNormalCodeDesc": "Öppnar appen normalt med all din data",
+  "secVashCodeLabel2": "Vash-kod",
+  "secVashCodeDescription": "Öppnar appen normalt... men all din data raderas tyst i bakgrunden",
+  "secVashWhatHappensTitle": "Vad som händer sedan",
+  "secVashWhatHappensDesc": "Appen öppnas normalt. Ingen varning, ingen misstänkt animation. Skärmen visar helt enkelt en tom app, som om du precis installerat den.\n\nI verkligheten har alla dina konversationer, kontakter och meddelanden oåterkalleligt raderats på en bråkdel av en sekund.",
+  "secCallsLabel": "SAMTAL & FILER",
+  "secCallsTitle": "Allt är krypterat",
+  "secCallsSubtitle": "Det är inte bara meddelanden. Absolut allt som passerar genom Hash är ände-till-ände-krypterat.",
+  "secAudioCallTitle": "Röstsamtal",
+  "secAudioCallDesc": "Ände-till-ände-krypterade via WebRTC. Rösten överförs direkt mellan enheterna.",
+  "secVideoCallTitle": "Videosamtal",
+  "secVideoCallDesc": "Samma teknologi, varje ström krypterad individuellt.",
+  "secPhotosTitle": "Foton & videor",
+  "secPhotosDesc": "Krypterade med AES-256-GCM innan de lämnar din telefon.",
+  "secDocsTitle": "Dokument",
+  "secDocsDesc": "PDF, ZIP, vilken fil som helst. Namn, storlek och innehåll krypterat.",
+  "secAnonLabel": "ANONYMITET",
+  "secAnonTitle": "Ingen identitet krävs",
+  "secAnonSubtitle": "Hash ber aldrig om ditt telefonnummer eller din e-post. Du identifieras med ett unikt och anonymt Hash-ID.",
+  "secHashIdTitle": "Ditt Hash-ID",
+  "secHashIdDesc": "Detta är din unika identifierare. Den avslöjar ingenting om dig: inte ditt namn, inte ditt nummer, inte din plats. Det är som en pseudonym omöjlig att koppla till din riktiga identitet.\n\nFör att lägga till en kontakt delar du ditt Hash-ID eller skannar en QR-kod. Det är allt. Ingen synkroniserad adressbok, inga \"Personer du kanske känner\"-förslag.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "Vad Hash inte vet",
+  "secDataSubtitle": "Det bästa sättet att skydda din data är att inte samla in den.",
+  "secNeverCollected": "Aldrig insamlat",
+  "secNeverItem1": "Meddelandeinnehåll",
+  "secNeverItem2": "Kontaktlista",
+  "secNeverItem3": "Telefonnummer",
+  "secNeverItem4": "E-postadress",
+  "secNeverItem5": "IP-adress",
+  "secNeverItem6": "Plats",
+  "secNeverItem7": "Metadata (vem pratar med vem)",
+  "secNeverItem8": "Samtalshistorik",
+  "secNeverItem9": "Adressbok",
+  "secNeverItem10": "Reklamidentifierare",
+  "secTempStored": "Tillfälligt lagrat",
+  "secTempItem1": "Anonymt Hash-ID (unik identifierare)",
+  "secTempItem2": "Publika krypteringsnycklar",
+  "secTempItem3": "Krypterade meddelanden under transport (max 24t)",
+  "secTempNote": "Inte ens denna minimala data kan identifiera dig. Ditt Hash-ID är inte kopplat till någon personlig information.",
+  "secFooterTitle": "Din integritet, din frihet",
+  "secFooterDesc": "Hash använder samma krypteringsteknologier som de mest krävande professionella applikationerna. Dina meddelanden skyddas av matematik, inte av löften."
+}

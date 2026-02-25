@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informativa sulla privacy di Hash - Messaggistica ultra-sicura. Scopri come proteggiamo i tuoi dati.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Informativa sulla Privacy - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="security.html">SICUREZZA</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">SOSTIENI</a></li>
+        <li><a href="index.html#download" class="nav__cta">SCARICA</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Informativa sulla Privacy</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Ultimo aggiornamento: Febbraio 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="highlight-box">
+      <p><strong>In sintesi:</strong> Hash è progettato per non raccogliere quasi nessun dato personale. I tuoi messaggi sono crittografati end-to-end, non possiamo leggerli. Nessun analytics, nessuna pubblicità, nessuna condivisione di dati con terze parti.</p>
+    </div>
+
+    <h2>1. Titolare del trattamento</h2>
+    <p>Il titolare del trattamento dei dati è:</p>
+    <ul>
+      <li><strong>Azienda:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+      <li><strong>Contatto:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+
+    <h2>2. Dati raccolti</h2>
+    <p>Hash è stato progettato secondo il principio di <strong>minimizzazione dei dati</strong>. Raccogliamo solo lo stretto necessario per il funzionamento del servizio:</p>
+
+    <h3>2.1 Dati che raccogliamo</h3>
+    <ul>
+      <li><strong>Hash ID:</strong> identificativo unico generato casualmente (formato 000-000-XXX), non collegato alla tua identità reale</li>
+      <li><strong>Identificativo dispositivo:</strong> un identificativo tecnico unico che consente di associare il tuo account al tuo dispositivo</li>
+      <li><strong>Piattaforma:</strong> il tipo di dispositivo utilizzato (iOS o Android), necessario per l'invio delle notifiche</li>
+      <li><strong>Chiavi di crittografia pubbliche:</strong> le chiavi pubbliche del tuo portachiavi Signal Protocol, necessarie affinché i tuoi contatti possano inviarti messaggi crittografati</li>
+      <li><strong>Token casella postale:</strong> un token derivato crittograficamente dalle tue chiavi, utilizzato per la ricezione anonima dei messaggi</li>
+    </ul>
+
+    <h3>2.2 Dati che NON raccogliamo</h3>
+    <ul>
+      <li><strong>Contenuto dei messaggi:</strong> tutti i messaggi sono crittografati end-to-end (E2E). Non possiamo leggerli, anche se lo volessimo</li>
+      <li><strong>Lista contatti:</strong> la tua rubrica resta sul tuo dispositivo, non vi accediamo mai</li>
+      <li><strong>Posizione:</strong> i dati di geolocalizzazione vengono trasmessi solo quando si invia volontariamente un messaggio di posizione. Sono crittografati end-to-end e non possono essere letti o memorizzati dai nostri server</li>
+      <li><strong>Indirizzo email:</strong> non richiesto, non raccolto</li>
+      <li><strong>Numero di telefono:</strong> non richiesto, non raccolto</li>
+      <li><strong>Indirizzo IP:</strong> non memorizzato nei nostri database</li>
+      <li><strong>Metadati di comunicazione:</strong> non sappiamo chi comunica con chi grazie al sistema di token anonimi</li>
+      <li><strong>Foto, file, media:</strong> tutti i contenuti multimediali sono crittografati lato client prima dell'invio e transitano sui nostri server solo sotto forma di dati crittografati illeggibili</li>
+    </ul>
+
+    <h2>3. Crittografia e sicurezza</h2>
+    <p>Hash utilizza tecnologie di crittografia all'avanguardia per proteggere le tue comunicazioni:</p>
+    <ul>
+      <li><strong>Signal Protocol:</strong> protocollo di crittografia end-to-end utilizzato anche da Signal e WhatsApp, che offre forward secrecy e future secrecy</li>
+      <li><strong>AES-256:</strong> algoritmo di crittografia simmetrica di livello militare per la crittografia dei messaggi e dei file</li>
+      <li><strong>Curve25519:</strong> curva ellittica per lo scambio di chiavi Diffie-Hellman</li>
+      <li><strong>Double Ratchet:</strong> ogni messaggio utilizza una chiave di sessione unica, rinnovata automaticamente</li>
+      <li><strong>Sealed Sender:</strong> tecnologia di mittente anonimo che impedisce al server di conoscere il mittente di un messaggio</li>
+    </ul>
+    <p>Le tue <strong>chiavi private non lasciano mai il tuo dispositivo</strong>. Sono memorizzate localmente in uno spazio di archiviazione crittografato (Hive) e non vengono mai trasmesse ai nostri server.</p>
+
+    <h2>4. Durata di conservazione dei dati</h2>
+    <ul>
+      <li><strong>Messaggi in transito:</strong> memorizzati sul server per <strong>un massimo di 24 ore</strong>. Non appena il destinatario conferma la ricezione, il messaggio viene <strong>immediatamente e irreversibilmente cancellato</strong> dal server</li>
+      <li><strong>Dati dell'account:</strong> conservati finché l'account è attivo. Cancellati immediatamente e definitivamente alla cancellazione dell'account (pulsante panico o cancellazione manuale)</li>
+      <li><strong>File e media:</strong> stessa politica dei messaggi, cancellati alla conferma di ricezione</li>
+    </ul>
+
+    <h2>5. Archiviazione locale</h2>
+    <p>I dati locali (messaggi decifrati, contatti, chiavi) sono memorizzati <strong>esclusivamente sul tuo dispositivo</strong> in un database Hive crittografato. Questi dati non vengono mai sincronizzati verso i nostri server né verso il cloud.</p>
+    <p>In caso di perdita o cambio di dispositivo, questi dati sono <strong>definitivamente persi</strong>. È una scelta progettuale deliberata: un dispositivo = un account, nessun recupero possibile.</p>
+
+    <h2>6. Condivisione dei dati con terze parti</h2>
+    <div class="highlight-box">
+      <p><strong>Nessuna condivisione di dati.</strong> Hash non utilizza alcuno strumento di analytics, nessuna pubblicità, nessun tracker. Non condividiamo, non vendiamo e non trasferiamo alcun dato a terze parti, di qualsiasi tipo.</p>
+    </div>
+    <p>I nostri server sono ospitati da Supabase. I dati memorizzati su questi server sono o dati crittografati illeggibili (messaggi), o dati tecnici minimi (Hash ID, chiavi pubbliche).</p>
+    <p>Le notifiche push vengono inviate tramite Firebase Cloud Messaging (Google LLC). Solo il token dispositivo FCM viene elaborato da Google a questo scopo. Nessun contenuto dei messaggi viene trasmesso attraverso questo servizio. <a href="https://firebase.google.com/support/privacy" target="_blank">Informativa sulla privacy di Firebase</a>.</p>
+
+    <h2>7. I tuoi diritti (GDPR)</h2>
+    <p>Conformemente al Regolamento Generale sulla Protezione dei Dati (GDPR), disponi dei seguenti diritti:</p>
+    <ul>
+      <li><strong>Diritto di accesso:</strong> puoi richiedere quali dati deteniamo che ti riguardano (Hash ID, chiavi pubbliche, identificativo dispositivo)</li>
+      <li><strong>Diritto di rettifica:</strong> puoi richiedere la correzione di dati inesatti</li>
+      <li><strong>Diritto alla cancellazione:</strong> puoi cancellare la totalità dei tuoi dati in qualsiasi momento tramite il <strong>pulsante panico</strong> nell'applicazione, o tramite la sezione Impostazioni. La cancellazione è immediata e irreversibile</li>
+      <li><strong>Diritto alla portabilità:</strong> dato il volume minimo di dati raccolti, puoi contattarci per ottenere una copia dei tuoi dati</li>
+      <li><strong>Diritto di opposizione:</strong> puoi opporti al trattamento dei tuoi dati cancellando il tuo account</li>
+      <li><strong>Diritto di presentare reclamo:</strong> puoi presentare un reclamo presso la CNIL (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>)</li>
+    </ul>
+    <p>Per esercitare i tuoi diritti, contattaci all'indirizzo <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>8. I tuoi diritti (leggi sulla privacy degli Stati Uniti)</h2>
+    <p>Se risiedi in California (CCPA/CPRA), Virginia (VCDPA), Colorado (CPA) o in un altro stato degli Stati Uniti con legislazione sulla privacy, hai i seguenti diritti:</p>
+    <ul>
+      <li><strong>Diritto di sapere:</strong> puoi richiedere informazioni sui dati personali che raccogliamo e su come vengono utilizzati</li>
+      <li><strong>Diritto alla cancellazione:</strong> puoi richiedere la cancellazione dei tuoi dati personali in qualsiasi momento tramite la funzione di eliminazione nell'app o contattandoci</li>
+      <li><strong>Diritto di rinunciare alla vendita:</strong> non vendiamo, condividiamo o affittiamo i tuoi dati personali a terzi per corrispettivo monetario o altro di valore</li>
+      <li><strong>Diritto alla non discriminazione:</strong> non ti discrimineremo per l'esercizio dei tuoi diritti sulla privacy</li>
+    </ul>
+    <p>Per esercitare questi diritti, utilizza la funzione di eliminazione account nell'app o contattaci all'indirizzo <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>9. Età minima</h2>
+    <p>Hash è destinato a persone di età pari o superiore a <strong>13 anni</strong>. In alcuni paesi dell'Unione Europea in cui la legislazione locale lo richiede, l'età minima può essere di <strong>16 anni</strong>.</p>
+    <p>Non raccogliamo consapevolmente dati riguardanti minori al di sotto dell'età minima applicabile. Se sei genitore o tutore e ritieni che tuo figlio utilizzi Hash senza il tuo consenso, contattaci all'indirizzo <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a>.</p>
+
+    <h2>10. Cookie e tecnologie di tracciamento</h2>
+    <p>L'applicazione Hash <strong>non utilizza alcun cookie, nessun pixel di tracciamento, nessun SDK di analytics</strong>. Anche il sito web hash.devolim.fr non utilizza cookie di tracciamento.</p>
+
+    <h2>11. Trasferimenti internazionali</h2>
+    <p>I dati tecnici minimi (Hash ID, chiavi pubbliche) possono essere trattati su server situati al di fuori dello Spazio Economico Europeo. Tuttavia, dato che tutti i dati sensibili sono crittografati end-to-end e che non raccogliamo alcun dato personale identificativo, il rischio per la tua privacy è minimo.</p>
+
+    <h2>12. Sicurezza dei dati</h2>
+    <p>Implementiamo le seguenti misure di sicurezza:</p>
+    <ul>
+      <li>Crittografia end-to-end di tutte le comunicazioni (Signal Protocol)</li>
+      <li>Crittografia AES-256 dei dati locali</li>
+      <li>Autenticazione tramite codice PIN e biometria</li>
+      <li>Codice di distruzione (duress PIN) per la cancellazione d'emergenza</li>
+      <li>Protezione contro gli screenshot (FLAG_SECURE su Android)</li>
+      <li>Cancellazione automatica dei messaggi dal server dopo la consegna</li>
+      <li>Accesso al database esclusivamente tramite funzioni sicure (security definer)</li>
+      <li>Politiche RLS (Row Level Security) su tutte le tabelle</li>
+    </ul>
+
+    <h2>13. Modifiche a questa informativa</h2>
+    <p>Potremmo aggiornare questa informativa sulla privacy di tanto in tanto. In caso di modifica sostanziale, ti informeremo tramite una notifica nell'applicazione. La data dell'ultimo aggiornamento è indicata in cima a questa pagina.</p>
+
+    <h2>14. Contatto - Responsabile della protezione dei dati</h2>
+    <p>Per qualsiasi domanda relativa a questa informativa sulla privacy o alla protezione dei tuoi dati personali, puoi contattare il nostro Responsabile della Protezione dei Dati (DPO):</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+      <li><strong>Responsabile:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">La messaggistica che non sa nulla di te.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Prodotto</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Funzionalità</a></li>
+            <li><a href="security.html">Sicurezza</a></li>
+            <li><a href="index.html#download">Scarica</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Progetto</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Sostieni Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Contatto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Legale</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Condizioni d'uso</a></li>
+            <li><a href="delete-account.html">Elimina il mio account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

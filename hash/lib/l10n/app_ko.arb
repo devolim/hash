@@ -1,0 +1,1039 @@
+{
+  "@@locale": "ko",
+  "appName": "Hash",
+  "appTagline": "흔적 없음. 타협 없음.",
+  "conversations": "채팅",
+  "contacts": "연락처",
+  "noConversation": "채팅 없음",
+  "noConversationSubtitle": "안전하게 대화하려면 연락처를 추가하세요",
+  "pendingRequestsCount": "{count, plural, =1{대기 중인 요청 1개} other{대기 중인 요청 {count}개}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "sentRequestsCount": "{count, plural, =1{보낸 요청 1개 대기 중} other{보낸 요청 {count}개 대기 중}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "addContact": "연락처 추가",
+  "shareApp": "앱 공유",
+  "newMessage": "새 메시지",
+  "newConversation": "메시지 보내기",
+  "settings": "설정",
+  "myHashId": "내 Hash ID",
+  "supportHash": "Hash 지원",
+  "supportHashSubtitle": "Hash 개발을 지원해 주세요",
+  "donate": "기부하기",
+  "appearance": "화면",
+  "theme": "테마",
+  "themeAuto": "자동",
+  "themeAutoSubtitle": "Follows system settings",
+  "themeDark": "어둡게",
+  "themeLight": "밝게",
+  "themeRecommendation": "Dark theme is recommended for better privacy",
+  "language": "언어",
+  "languageAuto": "자동 (시스템)",
+  "notifications": "알림",
+  "messages": "Messages",
+  "calls": "Calls",
+  "vibration": "Vibration",
+  "notificationContent": "알림 내용",
+  "notificationContentFull": "전체",
+  "notificationContentFullDesc": "발신자 이름과 메시지 미리보기 표시",
+  "notificationContentName": "이름만",
+  "notificationContentNameDesc": "연락처 이름만 표시",
+  "notificationContentDiscrete": "간략히",
+  "notificationContentDiscreteDesc": "\"새 메시지\"만 표시",
+  "security": "보안",
+  "howHashProtectsYou": "How Hash protects you",
+  "howHashProtectsYouSubtitle": "Understand your security",
+  "accountSecurity": "Account security",
+  "accountSecuritySubtitle": "PIN, biometrics, Vash Mode",
+  "blockScreenshots": "Block screenshots",
+  "transferDevice": "Transfer to another device",
+  "transferDeviceSubtitle": "Migrate your account",
+  "pinCode": "PIN 코드",
+  "changePin": "PIN 변경",
+  "currentPin": "Current PIN code",
+  "newPin": "새 PIN",
+  "confirmPin": "PIN 확인",
+  "pinChanged": "PIN이 변경되었습니다",
+  "incorrectPin": "Incorrect PIN",
+  "pinsDoNotMatch": "PINs do not match",
+  "autoLock": "Auto-lock",
+  "autoLockDelay": "Lock delay",
+  "autoLockImmediate": "Immediate",
+  "autoLockMinute": "1 minute",
+  "autoLockMinutes": "{count} minutes",
+  "@autoLockMinutes": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "vashCode": "Vash code",
+  "vashModeTitle": "Vash Mode",
+  "vashModeExplanation": "Your ultimate safety net.",
+  "vashModeDescription": "You will choose a second PIN code. If you are ever forced to open Hash, enter this code instead of your regular PIN.\n\nThe app will open normally, but all your conversations and contacts will be gone.\n\nTo anyone looking at your screen, Hash simply appears empty — as if you never used it.",
+  "vashModeIrreversible": "This action is silent and irreversible.",
+  "chooseVashCode": "Choose my Vash code",
+  "vashCodeInfo": "A second PIN code that opens the app normally, but empty.",
+  "vashCodeInfoDetail": "If you enter this code instead of your PIN:",
+  "vashDeleteContacts": "Your contacts disappear",
+  "vashDeleteMessages": "Your conversations disappear",
+  "vashDeleteHistory": "Your notes disappear",
+  "vashKeepId": "Your Hash identity (#XXX-XXX-XXX) remains the same",
+  "vashAppearNormal": "The app appears normal but empty, like new. This action is irreversible.",
+  "setupVashCode": "Set up Vash code",
+  "modifyVashCode": "Modify Vash code",
+  "currentVashCode": "Current Vash code",
+  "newVashCode": "New Vash code",
+  "confirmVashCode": "Confirm Vash code",
+  "vashCodeConfigured": "Vash code configured",
+  "vashCodeModified": "Vash code modified",
+  "vashCodeMustDiffer": "Vash code must be different from PIN",
+  "incorrectVashCode": "Incorrect Vash code",
+  "vashWhatToDelete": "What should Vash Mode make disappear?",
+  "vashDeleteContactsOption": "Contacts",
+  "vashDeleteMessagesOption": "Messages",
+  "vashDeleteNotesOption": "Notes",
+  "vashActivated": "Vash Mode activated",
+  "vashCreateSubtitle": "Choose a code different from your main PIN",
+  "vashConfirmSubtitle": "Confirm your Vash code",
+  "pinCodeForEntry": "앱 진입용 PIN 코드",
+  "vashCodeSection": "Vash Mode",
+  "biometric": "생체 인식",
+  "biometricUnlock": "지문 또는 Face ID로 잠금 해제",
+  "enableBiometric": "생체 인식 활성화",
+  "biometricWarningMessage": "생체 인식을 활성화하면 PIN을 사용할 수 없습니다. 계속하시겠습니까?",
+  "understood": "이해했습니다",
+  "shareAppSubtitle": "소중한 사람들과 Hash를 공유하세요",
+  "share": "공유",
+  "danger": "Danger",
+  "panicButton": "긴급 삭제",
+  "panicButtonSubtitle": "즉시 모든 데이터 삭제",
+  "deleteAccount": "계정 삭제",
+  "deleteAccountSubtitle": "모든 데이터 영구 삭제",
+  "deleteAccountConfirmTitle": "Delete my account",
+  "deleteAccountConfirmMessage": "Your account will be permanently deleted. This action is irreversible.\n\n• All your chats\n• All your contacts\n• Your Hash ID\n\nYou will need to create a new account.",
+  "deleteForever": "Delete permanently",
+  "cancel": "취소",
+  "panicConfirmTitle": "Panic Button",
+  "panicConfirmMessage": "This action will permanently delete ALL your data:\n\n• All your messages\n• All your contacts\n• Your account\n\nAre you absolutely sure?",
+  "deleteAll": "DELETE ALL",
+  "dataDeletedForSecurity": "Vash Mode activated.",
+  "deletionError": "Deletion error: {error}",
+  "@deletionError": {
+    "placeholders": {
+    "error": {
+    "type": "String"
+    }
+    }
+    },
+  "yourSecurity": "Your security",
+  "securityInfo": "보안 정보",
+  "version": "버전",
+  "@version": {
+    "placeholders": {
+    "version": {
+    "type": "String"
+    }
+    }
+    },
+  "welcome": "Welcome",
+  "securityStatement1": "Your messages are protected.",
+  "securityStatement2": "End-to-end encryption.",
+  "securityStatement3": "No trace. No compromise.",
+  "securityStatement4": "Your privacy is a right.",
+  "accessBlocked": "Access blocked",
+  "tooManyAttempts": "Too many attempts. Try again later.",
+  "pleaseWait": "Please wait",
+  "waitDelay": "Please wait for the delay to end",
+  "attemptCount": "Attempt {current} of {max}",
+  "@attemptCount": {
+    "placeholders": {
+    "current": {
+    "type": "int"
+    },
+    "max": {
+    "type": "int"
+    }
+    }
+    },
+  "retryIn": "Retry in {time}",
+  "@retryIn": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "forgotPin": "Forgot PIN? Use recovery phrase",
+  "useRecoveryPhrase": "Use recovery phrase",
+  "recoveryWarningTitle": "Warning",
+  "recoveryWarningMessage": "Account recovery will:",
+  "recoveryDeleteAllMessages": "Delete ALL your messages",
+  "recoveryWaitDelay": "Require a 1-hour delay",
+  "recoveryKeepContacts": "Keep your contacts",
+  "recoveryIrreversible": "This action is irreversible. Your messages will be permanently lost.",
+  "iUnderstand": "I understand",
+  "accountRecovery": "Account recovery",
+  "enterRecoveryPhrase": "Enter the 24 words of your recovery phrase, separated by spaces.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Recover",
+  "recoveryPhraseRequired": "Please enter your recovery phrase",
+  "recoveryPhrase24Words": "The phrase must contain exactly 24 words",
+  "incorrectRecoveryPhrase": "Incorrect recovery phrase",
+  "recoveryInitError": "Error initializing recovery",
+  "securityDelay": "Security delay",
+  "securityDelayMessage": "For your security, a waiting period is required before you can create a new PIN.",
+  "timeRemaining": "Time remaining",
+  "messagesDeletedForProtection": "Your messages have been deleted for your protection.",
+  "canCloseApp": "You can close the app and come back later.",
+  "onboardingTitle1": "Welcome to Hash",
+  "onboardingSubtitle1": "The messenger that leaves no trace",
+  "onboardingTitle2": "Total encryption",
+  "onboardingSubtitle2": "Your messages are end-to-end encrypted with Signal protocol",
+  "onboardingTitle3": "No trace",
+  "onboardingSubtitle3": "Messages are deleted from servers upon delivery",
+  "onboardingTitle4": "Your security",
+  "onboardingSubtitle4": "PIN code, Vash Mode and recovery phrase",
+  "getStarted": "시작하기",
+  "next": "Next",
+  "skip": "Skip",
+  "alreadyHaveAccount": "I already have an account",
+  "transferMyAccount": "Transfer my account",
+  "createPin": "Create a PIN code",
+  "createPinSubtitle": "This code will protect access to your app",
+  "confirmYourPin": "Confirm your PIN code",
+  "confirmPinSubtitle": "Enter your PIN code again",
+  "saveRecoveryPhrase": "Recovery phrase",
+  "saveRecoveryPhraseSubtitle": "Write down these 24 words in order. They will allow you to recover your account if you forget your PIN.",
+  "phraseWritten": "I've written my phrase",
+  "warningRecoveryPhrase": "If you lose this phrase and forget your PIN, you will lose access to your account.",
+  "accountTransferred": "Account transferred",
+  "accountTransferredMessage": "Your account has been transferred to another device. This session is no longer valid.",
+  "accountTransferredInfo": "If you did not initiate this transfer, your account may have been compromised.",
+  "logout": "Log out",
+  "transferAccount": "계정 이전",
+  "transferAccountInfo": "Transfer your Hash account to a new device. Your current session will be invalidated.",
+  "generateTransferCode": "Generate transfer code",
+  "transferCode": "Transfer code",
+  "transferCodeExpires": "This code expires in {minutes} minutes",
+  "@transferCodeExpires": {
+    "placeholders": {
+    "minutes": {
+    "type": "int"
+    }
+    }
+    },
+  "enterCodeOnNewDevice": "Enter this code on your new device to transfer your account.",
+  "generateNewCode": "새 코드 생성",
+  "scanQrCode": "Scan QR code",
+  "scanQrCodeSubtitle": "Scan a contact's QR code to add them",
+  "qrCodeDetected": "QR code detected",
+  "invalidQrCode": "Invalid QR code",
+  "cameraPermissionRequired": "Camera permission required",
+  "myQrCode": "My QR code",
+  "myQrCodeSubtitle": "Share this QR code so your contacts can add you",
+  "shareQrCode": "Share",
+  "addContactTitle": "연락처 추가",
+  "addContactByHashId": "Enter your contact's Hash ID",
+  "hashIdHint": "Hash ID를 입력하세요",
+  "searchContact": "Search",
+  "contactNotFound": "Contact not found",
+  "contactAlreadyAdded": "This contact is already in your list",
+  "contactAdded": "Contact added",
+  "myProfile": "My profile",
+  "myProfileSubtitle": "Share this information so others can add you",
+  "temporaryCode": "Temporary code",
+  "temporaryCodeExpires": "Expires in {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "codeExpired": "코드가 만료되었습니다",
+  "generateNewCodeButton": "New code",
+  "copyHashId": "Copy ID",
+  "copyCode": "Copy code",
+  "copiedToClipboard": "Copied",
+  "showMyQrCode": "Show my QR code",
+  "orDivider": "or",
+  "openScanner": "Open scanner",
+  "addManually": "Add manually",
+  "contactHashIdLabel": "Contact's Hash ID",
+  "temporaryCodeLabel": "Temporary code",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Ask your contact to generate a code from their profile",
+  "verifyAndAdd": "Verify and add",
+  "fillAllFields": "Please fill in all fields",
+  "invalidHashIdFormat": "Invalid ID format (e.g.: 123-456-ABC)",
+  "userNotFound": "User not found",
+  "cannotAddYourself": "You cannot add yourself",
+  "invalidOrExpiredCode": "Invalid or expired temporary code",
+  "contactFound": "Contact found!",
+  "howToCallContact": "What would you like to call them?",
+  "contactNameHint": "Contact name",
+  "addContactButton": "Add",
+  "contactDetails": "Contact details",
+  "contactName": "Contact name",
+  "contactHashId": "Hash ID",
+  "addedOn": "Added on {date}",
+  "@addedOn": {
+    "placeholders": {
+    "date": {
+    "type": "String"
+    }
+    }
+    },
+  "deleteContact": "연락처 삭제",
+  "deleteContactConfirm": "{name}을(를) 삭제하시겠습니까?",
+  "deleteContactMessage": "이 연락처와의 모든 메시지가 삭제됩니다",
+  "delete": "삭제",
+  "typeMessage": "메시지 입력...",
+  "messageSent": "Sent",
+  "messageDelivered": "Delivered",
+  "messageRead": "Read",
+  "messageFailed": "Failed to send",
+  "now": "Now",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursAgo": "{count}h",
+  "@hoursAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "dateAtTime": "{date} at {time}",
+  "@dateAtTime": {
+    "placeholders": {
+    "date": {
+    "type": "String"
+    },
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "shareMessage": "Join me on Hash! 🔒\n\nIt's a truly private messenger: total encryption, no trace on servers, and panic mode if needed.\n\nDownload the app here 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "오류",
+  "ok": "확인",
+  "view": "View",
+  "yes": "Yes",
+  "no": "No",
+  "save": "저장",
+  "edit": "편집",
+  "close": "닫기",
+  "confirm": "확인",
+  "loading": "로딩 중...",
+  "retry": "다시 시도",
+  "pendingRequests": "대기 중인 요청",
+  "noPendingRequests": "대기 중인 요청 없음",
+  "pendingRequestsSubtitle": "These people want to add you",
+  "requestFromUser": "Request from {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+    "hashId": {
+    "type": "String"
+    }
+    }
+    },
+  "requestExpiresIn": "Expires in {days} days",
+  "@requestExpiresIn": {
+    "placeholders": {
+    "days": {
+    "type": "int"
+    }
+    }
+    },
+  "acceptRequest": "수락",
+  "rejectRequest": "Reject",
+  "requestAccepted": "요청이 수락되었습니다",
+  "requestRejected": "Request rejected",
+  "requestSent": "Request sent!",
+  "requestSentSubtitle": "Your request has been sent. The user must accept it before you can chat.",
+  "requestAlreadyPending": "A request is already pending",
+  "requestAlreadySentByOther": "This person has already sent you a request",
+  "addByHashId": "Add by Hash ID",
+  "addByHashIdSubtitle": "Enter the contact's Hash ID and temporary code",
+  "enterTemporaryCode": "Enter the 6-digit code",
+  "sendRequest": "Send request",
+  "acceptContactTitle": "Accept contact",
+  "acceptContactSubtitle": "You can give them a custom name",
+  "leaveEmptyForHashId": "Leave empty to use Hash ID",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "notes": "Notes",
+  "notesHint": "Personal notes about this contact",
+  "photoOptional": "Photo (optional)",
+  "contactNameOptional": "Name (optional)",
+  "notesOptional": "Notes (optional)",
+  "storedLocally": "Stored on your device only",
+  "encryptedMessageLabel": "Encrypted message",
+  "identityMessageHint": "Who are you? How do you know each other?",
+  "messageWillBeSentEncrypted": "This message will be encrypted and sent to the recipient",
+  "sendRequestButton": "Send request",
+  "requestExpiresIn24h": "Request expires in 24h if not accepted",
+  "theyAlreadySentYouRequest": "This person has already sent you a request",
+  "requests": "Requests",
+  "receivedRequests": "Received",
+  "sentRequests": "보낸 요청",
+  "noSentRequests": "보낸 요청 없음",
+  "cancelRequest": "취소",
+  "deleteRequest": "Delete request",
+  "requestCancelled": "요청이 취소되었습니다",
+  "sentTo": "Sent to {hashId}",
+  "@sentTo": {
+    "placeholders": {
+    "hashId": {
+    "type": "String"
+    }
+    }
+    },
+  "expiresIn": "Expires in {time}",
+  "@expiresIn": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "receivedAgo": "Received {time} ago",
+  "@receivedAgo": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "messageFromRequester": "Message from requester",
+  "copy": "복사",
+  "messageInfo": "Message info",
+  "messageDirection": "Direction",
+  "messageSentByYou": "Sent by you",
+  "messageReceived": "Received",
+  "messageSentAt": "Sent at",
+  "messageStatus": "Status",
+  "messageReadAt": "Read at",
+  "messageType": "Type",
+  "messageSize": "Size",
+  "messageExpiresAt": "Expires at",
+  "messageEncrypted": "End-to-end encrypted",
+  "messageStatusSending": "Sending...",
+  "messageStatusSent": "Sent",
+  "messageStatusDelivered": "Delivered",
+  "messageStatusRead": "Read",
+  "messageStatusFailed": "Failed",
+  "serverStatus": "Server",
+  "onServer": "Pending delivery",
+  "deletedFromServer": "Deleted",
+  "messageTypeText": "Text",
+  "messageTypeImage": "Image",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Voice",
+  "messageTypeFile": "File",
+  "indefinitely": "Indefinitely",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "hours",
+  "minutes": "minutes",
+  "seconds": "seconds",
+  "ephemeralMessages": "Ephemeral messages",
+  "ephemeralMessagesDescription": "Messages are automatically deleted after this time",
+  "ephemeralImmediate": "Immediate (after reading)",
+  "ephemeralImmediateDesc": "Deleted as soon as read",
+  "ephemeralMyPreference": "My preference",
+  "ephemeralMyPreferenceDesc": "Use global setting",
+  "ephemeralDefaultSetting": "Message duration",
+  "ephemeralChooseDefault": "Recommended",
+  "ephemeral30Seconds": "30초",
+  "ephemeral30SecondsDesc": "읽은 후 30초 후 삭제",
+  "ephemeral5Minutes": "5분",
+  "ephemeral5MinutesDesc": "읽은 후 5분 후 삭제",
+  "ephemeral1Hour": "1시간",
+  "ephemeral1HourDesc": "읽은 후 1시간 후 삭제",
+  "ephemeral3Hours": "3 hours",
+  "ephemeral6Hours": "6시간",
+  "ephemeral6HoursDesc": "읽은 후 6시간 후 삭제",
+  "ephemeral12Hours": "12 hours",
+  "ephemeral24Hours": "24시간",
+  "ephemeral24HoursDesc": "읽은 후 24시간 후 삭제",
+  "customDuration": "Custom duration",
+  "howItWorks": "How it works",
+  "ephemeralExplanation1": "Messages are deleted from the server as soon as received.",
+  "ephemeralExplanation2": "This setting defines when messages disappear from YOUR phone after reading.",
+  "ephemeralExplanation3": "Your contact has their own setting for their phone.",
+  "mute1Hour": "1 hour",
+  "mute8Hours": "8 hours",
+  "mute1Day": "1 day",
+  "mute1Week": "1 week",
+  "muteAlways": "Always",
+  "muteExplanation": "You won't receive notifications for this contact",
+  "showCallsInRecents": "최근 통화에 표시",
+  "showCallsInRecentsSubtitle": "Hash 통화가 전화 기록에 표시됩니다",
+  "feedback": "피드백",
+  "muteNotifications": "Mute notifications",
+  "muteDescription": "You won't receive notifications for this contact",
+  "mutedUntil": "Muted until {time}",
+  "@mutedUntil": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "notMuted": "Notifications enabled",
+  "unmute": "Unmute",
+  "notificationSound": "Notification sound",
+  "defaultSound": "Default",
+  "chatSettings": "Chat settings",
+  "bubbleColor": "Bubble color",
+  "backgroundColor": "Background color",
+  "backgroundImage": "Background image",
+  "chatBackground": "Chat background",
+  "customColor": "Custom",
+  "defaultColor": "Default",
+  "imageSelected": "Image selected",
+  "noImage": "No image",
+  "color": "Color",
+  "image": "Image",
+  "tapToSelectImage": "Tap to select an image",
+  "changeImage": "Change image",
+  "previewMessageReceived": "Hello!",
+  "previewMessageSent": "Hey there!",
+  "messageAction": "Message",
+  "callAction": "Call",
+  "videoAction": "Video",
+  "personalNotes": "Personal notes",
+  "addNotes": "Add notes...",
+  "noNotes": "No notes",
+  "messageNotifications": "Message notifications",
+  "callNotifications": "Call notifications",
+  "useGradient": "Use gradient",
+  "gradientStart": "Start color",
+  "gradientEnd": "End color",
+  "preview": "Preview",
+  "reset": "Reset",
+  "securityNumber": "Security number",
+  "securityNumberDescription": "Verify that the security number matches {name}'s device",
+  "@securityNumberDescription": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "verifyEncryption": "Verify end-to-end encryption",
+  "tapToCopy": "Tap to copy",
+  "howToVerify": "How to verify",
+  "verifyStep1": "Meet your contact in person or call them",
+  "verifyStep2": "Compare the security numbers or scan QR codes",
+  "verifyStep3": "If they match, your chat is secure",
+  "scanToVerify": "Scan to verify",
+  "reportSpam": "스팸 신고",
+  "reportSpamSubtitle": "Report this contact as spam",
+  "reportSpamDescription": "This will anonymously report this contact. Your identity will not be shared. Are you sure?",
+  "report": "Report",
+  "spamReported": "Spam reported",
+  "reportError": "Failed to send report. Please try again.",
+  "reportRateLimited": "You have reached the maximum number of reports for today.",
+  "blockContact": "연락처 차단",
+  "blockContactDescription": "This contact will no longer be able to send you messages or call you. They won't be notified.",
+  "unblockContact": "차단 해제",
+  "unblockContactDescription": "This contact will be able to send you messages and call you again.",
+  "contactBlocked": "연락처가 차단되었습니다",
+  "contactUnblocked": "차단이 해제되었습니다",
+  "contactIsBlocked": "This contact is blocked",
+  "unblock": "Unblock",
+  "deleteContactSubtitle": "Delete this contact and chat",
+  "confirmWithPin": "Confirm with PIN",
+  "enterPinToConfirm": "Enter your PIN to confirm this action",
+  "profilePhoto": "Profile photo",
+  "takePhoto": "사진 촬영",
+  "chooseFromGallery": "갤러리에서 선택",
+  "removePhoto": "Remove photo",
+  "viewContactHashId": "View contact's identifier",
+  "hashIdPartiallyMasked": "Partially masked for your security and your contact's privacy",
+  "addFirstContact": "Add your first contact",
+  "addFirstContactSubtitle": "Share your QR code or scan a friend's",
+  "directory": "Directory",
+  "noContacts": "No contacts",
+  "noContactsSubtitle": "Add a contact to get started",
+  "sendMessageAction": "Send a message",
+  "audioCall": "Audio call",
+  "videoCall": "Video call",
+  "viewProfile": "View profile",
+  "deleteContactDirectory": "Delete contact",
+  "scanShort": "Scan",
+  "addShort": "Add",
+  "deleteContactConfirmName": "Are you sure you want to delete {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "noNotesTitle": "No notes",
+  "noNotesSubtitle": "Create your first note",
+  "newNote": "New note",
+  "editNote": "Edit note",
+  "deleteNote": "Delete note",
+  "deleteNoteConfirm": "Are you sure you want to delete this note?",
+  "noteTitle": "Title",
+  "noteContent": "Content",
+  "addItem": "Add item",
+  "pinNote": "Pin",
+  "unpinNote": "Unpin",
+  "noteColor": "Color",
+  "notePassword": "Password",
+  "setPassword": "Set password",
+  "changePassword": "Change password",
+  "removePassword": "Remove password",
+  "enterPassword": "Enter password",
+  "confirmPassword": "Confirm password",
+  "passwordPin": "PIN code",
+  "passwordText": "Text password",
+  "protectedNote": "Protected note",
+  "incorrectPassword": "Incorrect password",
+  "passwordSet": "Password set",
+  "passwordRemoved": "Password removed",
+  "notesBiometric": "Face ID for notes",
+  "notesBiometricSubtitle": "Require biometric authentication to open protected notes",
+  "textNote": "Text note",
+  "checklistNote": "Checklist",
+  "tasksProgress": "{checked}/{total} tasks",
+  "@tasksProgress": {
+    "placeholders": {
+    "checked": {
+    "type": "int"
+    },
+    "total": {
+    "type": "int"
+    }
+    }
+    },
+  "autoSaved": "Saved",
+  "searchNotes": "Search notes",
+  "legalConsent": "Legal consent",
+  "confirmAge13": "I confirm that I am at least 13 years old",
+  "acceptLegalStart": "I accept the ",
+  "privacyPolicy": "개인정보 처리방침",
+  "termsOfService": "서비스 약관",
+  "andThe": " and the ",
+  "continueButton": "Continue",
+  "mustAcceptTerms": "You must accept both conditions to continue",
+  "support": "지원",
+  "contactSupport": "지원팀 문의",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "신고하기",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "법적 정보",
+  "legalEntity": "Legal entity",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Pin",
+  "unpinConversation": "Unpin",
+  "hideConversation": "Remove from feed",
+  "deleteConversation": "Delete conversation",
+  "deleteConversationConfirm": "Enter your PIN to confirm the deletion of all messages",
+  "noConversations": "No conversations yet",
+  "startConversation": "Start",
+  "microphonePermissionRequired": "Microphone access required",
+  "microphonePermissionExplanation": "Hash needs the microphone to make calls.",
+  "cameraPermissionExplanation": "Hash needs the camera for video calls.",
+  "openSettings": "Open Settings",
+  "callConnecting": "Connecting...",
+  "callRinging": "Ringing...",
+  "callReconnecting": "Reconnecting...",
+  "callReconnectingTimer": "Reconnecting ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+    "seconds": {
+    "type": "int"
+    }
+    }
+    },
+  "callPaused": "일시정지",
+  "callPausedSubtitle": "통화가 계속 진행 중입니다",
+  "callRemoteMicMuted": "Contact's microphone is muted",
+  "callMiniControlsMute": "Mute",
+  "callMiniControlsUnmute": "Unmute",
+  "callMiniControlsHangUp": "Hang up",
+  "callMiniControlsReturn": "Return to call",
+  "callNetworkPoor": "Unstable connection",
+  "callNetworkLost": "Connection lost",
+  "callEndedTitle": "Call ended",
+  "deviceData": "Device data",
+  "deviceDataSubtitle": "Local and server storage",
+  "localStorage": "Local storage",
+  "onThisDevice": "on this device",
+  "encryptedDatabases": "Encrypted databases",
+  "files": "Files",
+  "secureKeychain": "Secure keychain",
+  "cache": "Cache",
+  "contactsDetail": "Names, avatars, Signal keys",
+  "messagesDetail": "Encrypted conversations",
+  "notesDetail": "Personal notes",
+  "signalSessions": "Signal sessions",
+  "signalSessionsDetail": "Encryption sessions",
+  "pendingContacts": "Pending contacts",
+  "pendingContactsDetail": "Pending requests",
+  "callHistory": "Calls",
+  "callHistoryDetail": "Call history",
+  "preferences": "Preferences",
+  "preferencesDetail": "Media and call preferences",
+  "avatars": "Avatars",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{no files} =1{1 file} other{{count} files}}",
+  "@fileCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "active": "Active",
+  "notDefined": "Not defined",
+  "biometrics": "Biometrics",
+  "recoveryPhrase": "Recovery phrase",
+  "identity": "Identity (Hash ID)",
+  "signalKeys": "Signal Protocol keys",
+  "authTokens": "Authentication tokens",
+  "contactNamesCache": "Contact names cache",
+  "remoteConfig": "Remote config",
+  "notificationPrefs": "Notification preferences",
+  "serverData": "Server data",
+  "serverDataInfo": "Hash keeps minimal data on the server, all encrypted or temporary.",
+  "serverProfile": "Profile",
+  "serverProfileDetail": "Hash ID, public keys, mailbox token",
+  "serverPrekeys": "Pre-keys",
+  "serverPrekeysDetail": "One-time Signal keys (consumed)",
+  "serverMessages": "Messages in transit",
+  "serverMessagesDetail": "Deleted after delivery (24h max)",
+  "serverMedia": "Media in transit",
+  "serverMediaDetail": "Deleted after download",
+  "serverContactRequests": "Contact requests",
+  "serverContactRequestsDetail": "Expire after 24h",
+  "serverRateLimits": "Rate limits",
+  "serverRateLimitsDetail": "Temporary anti-abuse data",
+  "privacyReassurance": "Hash cannot read your messages. All data is end-to-end encrypted. Server data is automatically deleted.",
+  "pinTooSimple": "This PIN is too simple. Choose a more secure code.",
+  "genericError": "An error occurred. Please try again.",
+  "accountCreationError": "Unable to create account: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+    "error": {
+    "type": "String"
+    }
+    }
+    },
+  "phraseCopiedToClipboard": "Phrase copied to clipboard",
+  "copyPhrase": "Copy phrase",
+  "recoveryPhraseSecurityWarning": "Write down this phrase in a safe place. If you lose your PIN without this phrase, you will permanently lose access to your data.",
+  "noMessages": "No messages",
+  "deleteAllMessagesWithContact": "Delete all messages with {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+    "name": {
+    "type": "String"
+    }
+    }
+    },
+  "confirmation": "Confirmation",
+  "untitled": "Untitled",
+  "noSessions": "No sessions",
+  "unknownContact": "Unknown contact",
+  "unnamed": "Unnamed",
+  "noPendingRequestsAlt": "No pending requests",
+  "deleteAllCallHistory": "Delete all call history?",
+  "noCalls": "No calls",
+  "noPreferences": "No preferences",
+  "resetAllMediaPrefs": "Reset all media preferences?",
+  "deleteThisAvatar": "Delete this avatar?",
+  "deleteAllAvatars": "Delete all avatars?",
+  "noAvatars": "No avatars",
+  "deleteThisFile": "Delete this file?",
+  "deleteAllMediaFiles": "Delete all media?",
+  "noMediaFiles": "No media",
+  "outgoing": "Outgoing",
+  "incoming": "Incoming",
+  "ephemeralViewDuration": "Ephemeral view: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+    "seconds": {
+    "type": "int"
+    }
+    }
+    },
+  "normalView": "Normal view",
+  "callReasonCompleted": "Completed",
+  "callReasonMissed": "Missed",
+  "callReasonDeclined": "Declined",
+  "callReasonFailed": "Failed",
+  "justNow": "Just now",
+  "timeAgoMinutes": "{count} min ago",
+  "@timeAgoMinutes": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "timeAgoHours": "{count}h ago",
+  "@timeAgoHours": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "timeAgoDays": "{count}d ago",
+  "@timeAgoDays": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "messageTypeContact": "Contact",
+  "messageTypeLocation": "Location",
+  "statusQueued": "Queued",
+  "blockedBadge": "Blocked",
+  "protectedBadge": "Protected",
+  "messageCount": "{count} message(s)",
+  "@messageCount": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "deleteQuestion": "Delete?",
+  "transferMyAccountTitle": "Transfer my account",
+  "loadingError": "로딩 오류",
+  "transferToNewDevice": "새 기기로 이전",
+  "transferInstructions": "새 기기에서 \"계정 복원\"을 선택하고 이 정보를 입력하세요:",
+  "yourHashIdLabel": "내 Hash ID",
+  "enterYourPinCode": "PIN 코드 입력",
+  "pinOwnerConfirmation": "To confirm that you are the owner of this account",
+  "scanThisQrCode": "Scan this QR code",
+  "withYourNewDevice": "With your new device",
+  "orEnterTheCode": "or enter the code",
+  "transferCodeLabel": "Transfer code",
+  "proximityVerification": "Proximity verification",
+  "bringDevicesCloser": "Bring both devices closer",
+  "confirmTransferQuestion": "Confirm the transfer?",
+  "accountWillBeTransferred": "Your account will be transferred to the new device.\n\nThis device will be permanently disconnected.",
+  "transferComplete": "Transfer complete",
+  "transferSuccessMessage": "Your account has been transferred successfully.\n\nThis application will now close.",
+  "manualVerification": "Manual verification",
+  "codeDisplayedOnBothDevices": "Code displayed on both devices:",
+  "doesCodeMatchNewDevice": "Does this code match the one on the new device?",
+  "verifiedStatus": "Verified",
+  "inProgressStatus": "In progress...",
+  "notAvailableStatus": "Not available",
+  "codeExpiredRestart": "The code has expired. Please restart.",
+  "codesDoNotMatchCancelled": "The codes do not match. Transfer cancelled.",
+  "transferToDevice": "To: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+    "device": {
+    "type": "String"
+    }
+    }
+    },
+  "copiedExclamation": "Copied!",
+  "expiresInTime": "Expires in {time}",
+  "@expiresInTime": {
+    "placeholders": {
+    "time": {
+    "type": "String"
+    }
+    }
+    },
+  "biometricNotAvailable": "Biometrics is not available on this device",
+  "biometricAuthError": "Error during biometric authentication",
+  "authenticateForBiometric": "Please authenticate to enable biometrics",
+  "biometricAuthFailed": "Biometric authentication failed",
+  "forceUpdateTitle": "업데이트 필요",
+  "forceUpdateMessage": "이 버전은 더 이상 지원되지 않습니다. 업데이트하세요.",
+  "updateButton": "Update",
+  "maintenanceInProgress": "Maintenance in progress",
+  "tryAgainLater": "Please try again later",
+  "information": "Information",
+  "later": "나중에",
+  "doYouLikeHash": "Hash가 마음에 드시나요?",
+  "yourFeedbackHelps": "여러분의 의견이 앱 개선에 도움이 됩니다",
+  "ratingTerrible": "최악",
+  "ratingBad": "나쁨",
+  "ratingOk": "보통",
+  "ratingGood": "좋음",
+  "ratingExcellent": "훌륭함!",
+  "donationMessage": "Hash는 비영리 프로젝트입니다. 여러분의 지원이 도움이 됩니다.",
+  "recentConnections": "최근 연결",
+  "loginInfoText": "각 PIN 잠금 해제는 로컬에서 기록됩니다. 본인만 볼 수 있습니다.",
+  "connectionCount": "연결 수",
+  "periodLabel": "기간",
+  "historyLabel": "기록",
+  "noLoginRecorded": "No login recorded",
+  "nextUnlocksAppearHere": "Next unlocks will appear here.",
+  "dataLocalOnly": "이 데이터는 기기에만 저장되며 공유되지 않습니다.",
+  "currentSession": "현재",
+  "todayLabel": "오늘",
+  "yesterdayLabel": "어제",
+  "justNowLabel": "방금",
+  "minutesAgoLabel": "{count}분 전",
+  "@minutesAgoLabel": {
+    "placeholders": {
+    "count": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursAgoLabel": "{hours}시간 전",
+  "@hoursAgoLabel": {
+    "placeholders": {
+    "hours": {
+    "type": "int"
+    }
+    }
+    },
+  "hoursMinutesAgoLabel": "{hours}시간 {minutes}분 전",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+    "hours": {
+    "type": "int"
+    },
+    "minutes": {
+    "type": "int"
+    }
+    }
+    },
+  "noMaintenancePlanned": "No maintenance planned",
+  "everythingWorkingNormally": "Everything is working normally",
+  "maintenanceTitle": "유지 관리",
+  "maintenanceActiveLabel": "진행 중",
+  "maintenancePlannedLabel": "예정됨",
+  "locking": "잠금 중...",
+  "newMessageNotification": "새 메시지",
+  "secExplainTitle": "Hash의 보호 방법",
+  "secExplainIntro": "Hash is designed so that nobody can read your messages.",
+  "secExplainIntroSub": "Not even us.\nHere's how it works, explained simply.",
+  "secJourneyLabel": "THE JOURNEY",
+  "secJourneyTitle": "The journey of your message",
+  "secJourneySubtitle": "From your finger to your contact's screen, every step is protected. Follow the path.",
+  "secStep1Title": "메시지 작성",
+  "secStep1Desc": "앱에서 \"안녕하세요!\"를 입력합니다. 메시지가 휴대폰 메모리에만 존재합니다.",
+  "secStep2Title": "즉각적인 암호화",
+  "secStep2Desc": "\"보내기\"를 누르면 메시지가 알 수 없는 문자열로 변환됩니다.",
+  "secStep3Title": "익명 전송",
+  "secStep3Desc": "암호화된 데이터가 서버로 전송됩니다. 서버는 누가 보내는지 알 수 없습니다.",
+  "secStep4Title": "블라인드 서버",
+  "secStep4Desc": "서버는 눈먼 우편 배달부 역할을 합니다. 누군가가 우편함에 무언가를 넣었다는 것만 압니다.",
+  "secStep4Highlight": "No metadata stored: no IP address, no timestamp, no link between sender and recipient.",
+  "secStep5Title": "수신자 복호화",
+  "secStep5Desc": "연락처의 휴대폰이 내용을 로컬에서 복호화합니다. 서버는 내용을 볼 수 없습니다.",
+  "secStep6Title": "자동 삭제",
+  "secStep6Desc": "읽힌 후 메시지는 서버에서 자동으로 삭제됩니다. 어떤 흔적도 남지 않습니다.",
+  "secStep7Title": "Local expiration",
+  "secStep7Desc": "On your contact's phone, the message self-destructs according to the duration you chose: immediately after reading, 5 minutes, 1 hour... you decide.",
+  "secJourneyConclusion": "Result: zero trace on the server, zero trace on devices. The message existed only long enough to be read, then it disappeared.",
+  "secArchLabel": "ARCHITECTURE",
+  "secArchTitle": "5 layers of protection",
+  "secArchSubtitle": "Hash doesn't rely on a single technology. Each layer reinforces the others. Even if one layer is compromised, your data remains safe.",
+  "secLayer1Title": "End-to-end encryption",
+  "secLayer1Desc": "Each message is encrypted with a unique key. In simple terms: even if someone decrypts one message, they won't be able to decrypt the next one. Each message has its own lock.",
+  "secLayer1Detail": "For files (photos, videos, documents), Hash uses additional AES-256-GCM encryption. The file is encrypted before it leaves your phone.",
+  "secLayer2Title": "Sealed Sender (network anonymity)",
+  "secLayer2Desc": "Regular messengers send your messages with your identity attached. It's like writing your name on the envelope. Hash uses anonymous mailboxes: the server delivers the message without knowing who sent it.",
+  "secLayer2Detail": "Result: even in case of a server data breach, it's impossible to reconstruct who talks to whom.",
+  "secLayer3Title": "Automatic deletion",
+  "secLayer3Desc": "Messages are deleted from the server as soon as receipt is confirmed. Even if a message is never retrieved, it's automatically destroyed after 24 hours.",
+  "secLayer3Detail": "On your phone, messages self-destruct according to the duration you choose: immediately, 5 min, 15 min, 30 min, 1h, 3h, 6h, or 12h.",
+  "secLayer4Title": "Local access protection",
+  "secLayer4Desc": "The app is protected by a 6-digit PIN and/or biometrics (Face ID, fingerprint). After too many failed attempts, the app locks with an increasing delay after each failure.",
+  "secLayer5Title": "Locked database",
+  "secLayer5Desc": "On the server side, no user can write directly to the database. All actions go through secure functions that verify each request.",
+  "secLayer5Detail": "It's like a bank counter: you never touch the vault yourself. You make a request, and the system checks that you have the right before acting.",
+  "secVashLabel": "UNIQUE IN THE WORLD",
+  "secVashTitle": "Vash Mode",
+  "secVashSubtitle": "An emergency security system that doesn't exist in any other messaging app.",
+  "secVashScenarioTitle": "Imagine this situation",
+  "secVashScenario1": "Someone accesses your phone",
+  "secVashScenario2": "You're asked for your PIN code",
+  "secVashScenario3": "You want to erase all your data urgently",
+  "secVashSolutionTitle": "The solution: two PIN codes",
+  "secVashSolutionDesc": "You configure two different PIN codes in Hash:",
+  "secVashNormalCodeLabel": "Normal code",
+  "secVashNormalCodeDesc": "Opens the app normally with all your data",
+  "secVashCodeLabel2": "Vash code",
+  "secVashCodeDescription": "Opens the app normally... but all your data is silently deleted in the background",
+  "secVashWhatHappensTitle": "What happens next",
+  "secVashWhatHappensDesc": "The app opens normally. No alert, no suspicious animation. The screen simply shows an empty app, as if you just installed it.\n\nIn reality, all your conversations, contacts, and messages have been irreversibly deleted in a fraction of a second.",
+  "secCallsLabel": "CALLS & FILES",
+  "secCallsTitle": "Everything is encrypted",
+  "secCallsSubtitle": "It's not just messages. Absolutely everything that goes through Hash is end-to-end encrypted.",
+  "secAudioCallTitle": "Audio calls",
+  "secAudioCallDesc": "End-to-end encrypted via WebRTC. Voice is transmitted directly between devices.",
+  "secVideoCallTitle": "Video calls",
+  "secVideoCallDesc": "Same technology, each stream encrypted individually.",
+  "secPhotosTitle": "Photos & videos",
+  "secPhotosDesc": "Encrypted in AES-256-GCM before leaving your phone.",
+  "secDocsTitle": "Documents",
+  "secDocsDesc": "PDF, ZIP, any file. Name, size, and content encrypted.",
+  "secAnonLabel": "ANONYMITY",
+  "secAnonTitle": "No identity required",
+  "secAnonSubtitle": "Hash never asks for your phone number or email. You are identified by a unique and anonymous Hash ID.",
+  "secHashIdTitle": "Your Hash ID",
+  "secHashIdDesc": "This is your unique identifier. It reveals nothing about you: not your name, not your number, not your location. It's like a pseudonym impossible to link to your real identity.\n\nTo add a contact, you share your Hash ID or scan a QR code. That's it. No synchronized address book, no \"People you may know\" suggestions.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "수집되는 데이터",
+  "secDataSubtitle": "Hash는 최소한의 데이터만 수집합니다",
+  "secNeverCollected": "절대 수집하지 않음",
+  "secNeverItem1": "전화번호 또는 이메일",
+  "secNeverItem2": "실명",
+  "secNeverItem3": "위치 정보",
+  "secNeverItem4": "연락처 목록",
+  "secNeverItem5": "메시지 내용",
+  "secNeverItem6": "사용 통계",
+  "secNeverItem7": "광고 식별자",
+  "secNeverItem8": "기기 정보",
+  "secNeverItem9": "IP 주소",
+  "secNeverItem10": "생체 인식 데이터",
+  "secTempStored": "임시 저장",
+  "secTempItem1": "Hash ID (익명 식별자)",
+  "secTempItem2": "암호화된 메시지 (전달 확인까지)",
+  "secTempItem3": "공개 암호화 키",
+  "secTempNote": "모든 임시 데이터는 전달 확인 후 삭제됩니다",
+  "secFooterTitle": "완전한 개인정보 보호",
+  "secFooterDesc": "Hash는 개인정보를 판매하거나 공유하지 않습니다. 절대로."
+}

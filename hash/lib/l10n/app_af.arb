@@ -1,0 +1,1039 @@
+{
+  "@@locale": "af",
+  "appName": "Hash",
+  "appTagline": "Geen spoor. Geen kompromie.",
+  "conversations": "Geselsies",
+  "contacts": "Kontakte",
+  "noConversation": "Geen geselsies",
+  "noConversationSubtitle": "Voeg 'n kontak by om veilig te begin gesels",
+  "pendingRequestsCount": "{count, plural, =1{1 hangende versoek} other{{count} hangende versoeke}}",
+  "sentRequestsCount": "{count, plural, =1{1 gestuurde versoek hangend} other{{count} gestuurde versoeke hangend}}",
+  "addContact": "Voeg kontak by",
+  "shareApp": "Deel app",
+  "newMessage": "Nuwe boodskap",
+  "newConversation": "Stuur 'n boodskap",
+  "settings": "Instellings",
+  "myHashId": "My Hash ID",
+  "supportHash": "Ondersteun Hash",
+  "supportHashSubtitle": "Hash is 'n nie-winsgewende projek",
+  "donate": "Skenk",
+  "appearance": "Voorkoms",
+  "theme": "Tema",
+  "themeAuto": "Outomaties",
+  "themeAutoSubtitle": "Volg stelselinstellings",
+  "themeDark": "Donker",
+  "themeLight": "Lig",
+  "themeRecommendation": "Donker tema word aanbeveel vir beter privaatheid",
+  "language": "Taal",
+  "languageAuto": "Outomaties (stelsel)",
+  "notifications": "Kennisgewings",
+  "messages": "Boodskappe",
+  "calls": "Oproepe",
+  "vibration": "Vibrasie",
+  "notificationContent": "Kennisgewinginhoud",
+  "notificationContentFull": "Wys alles",
+  "notificationContentFullDesc": "Kontaknaam en boodskapvoorskou",
+  "notificationContentName": "Slegs naam",
+  "notificationContentNameDesc": "Wys slegs die kontaknaam",
+  "notificationContentDiscrete": "Diskreet",
+  "notificationContentDiscreteDesc": "Wys slegs \"Nuwe boodskap\"",
+  "security": "Sekuriteit",
+  "howHashProtectsYou": "Hoe Hash jou beskerm",
+  "howHashProtectsYouSubtitle": "Verstaan jou sekuriteit",
+  "accountSecurity": "Rekeningsekuriteit",
+  "accountSecuritySubtitle": "PIN, biometrie, Vash-modus",
+  "blockScreenshots": "Blokkeer skermskote",
+  "transferDevice": "Dra oor na ander toestel",
+  "transferDeviceSubtitle": "Migreer jou rekening",
+  "pinCode": "PIN-kode",
+  "changePin": "Verander PIN-kode",
+  "currentPin": "Huidige PIN-kode",
+  "newPin": "Nuwe PIN-kode",
+  "confirmPin": "Bevestig PIN-kode",
+  "pinChanged": "PIN-kode verander",
+  "incorrectPin": "Verkeerde PIN",
+  "pinsDoNotMatch": "PIN's stem nie ooreen nie",
+  "autoLock": "Outo-sluit",
+  "autoLockDelay": "Sluitvertraging",
+  "autoLockImmediate": "Onmiddellik",
+  "autoLockMinute": "1 minuut",
+  "autoLockMinutes": "{count} minute",
+  "vashCode": "Vash-kode",
+  "vashModeTitle": "Vash-modus",
+  "vashModeExplanation": "Jou uiteindelike veiligheidsnet.",
+  "vashModeDescription": "Jy sal 'n tweede PIN-kode kies. As jy ooit gedwing word om Hash oop te maak, voer hierdie kode in plaas van jou gewone PIN in.\n\nDie app sal normaal oopmaak, maar al jou gesprekke en kontakte sal weg wees.\n\nVir enigiemand wat na jou skerm kyk, lyk Hash eenvoudig leeg — asof jy dit nooit gebruik het nie.",
+  "vashModeIrreversible": "Hierdie aksie is stil en onomkeerbaar.",
+  "chooseVashCode": "Kies my Vash-kode",
+  "vashCodeInfo": "'n Tweede PIN-kode wat die app normaal oopmaak, maar leeg.",
+  "vashCodeInfoDetail": "As jy hierdie kode in plaas van jou PIN invoer:",
+  "vashDeleteContacts": "Jou kontakte verdwyn",
+  "vashDeleteMessages": "Jou gesprekke verdwyn",
+  "vashDeleteHistory": "Jou notas verdwyn",
+  "vashKeepId": "Jou Hash-identiteit (#XXX-XXX-XXX) bly dieselfde",
+  "vashAppearNormal": "Die app lyk normaal maar leeg, soos nuut. Hierdie aksie is onomkeerbaar.",
+  "setupVashCode": "Stel Vash-kode op",
+  "modifyVashCode": "Wysig Vash-kode",
+  "currentVashCode": "Huidige Vash-kode",
+  "newVashCode": "Nuwe Vash-kode",
+  "confirmVashCode": "Bevestig Vash-kode",
+  "vashCodeConfigured": "Vash-kode opgestel",
+  "vashCodeModified": "Vash-kode gewysig",
+  "vashCodeMustDiffer": "Vash-kode moet verskil van PIN",
+  "incorrectVashCode": "Verkeerde Vash-kode",
+  "vashWhatToDelete": "Wat moet Vash-modus laat verdwyn?",
+  "vashDeleteContactsOption": "Kontakte",
+  "vashDeleteMessagesOption": "Boodskappe",
+  "vashDeleteNotesOption": "Notas",
+  "vashActivated": "Vash-modus geaktiveer",
+  "vashCreateSubtitle": "Kies 'n kode anders as jou hoof-PIN",
+  "vashConfirmSubtitle": "Bevestig jou Vash-kode",
+  "vashCodeSection": "Vash-modus",
+  "danger": "Gevaar",
+  "panicButton": "Paniekknoppie",
+  "panicButtonSubtitle": "Vee alle data uit",
+  "deleteAccount": "Verwyder my rekening",
+  "deleteAccountSubtitle": "Onomkeerbare aksie",
+  "deleteAccountConfirmTitle": "Verwyder my rekening",
+  "deleteAccountConfirmMessage": "Jou rekening sal permanent verwyder word. Hierdie aksie is onomkeerbaar.\n\n• Al jou geselsies\n• Al jou kontakte\n• Jou Hash ID\n\nJy sal 'n nuwe rekening moet skep.",
+  "deleteForever": "Verwyder permanent",
+  "cancel": "Kanselleer",
+  "panicConfirmTitle": "Paniekknoppie",
+  "panicConfirmMessage": "Hierdie aksie sal AL jou data permanent verwyder:\n\n• Al jou boodskappe\n• Al jou kontakte\n• Jou rekening\n\nIs jy absoluut seker?",
+  "deleteAll": "VEE ALLES UIT",
+  "dataDeletedForSecurity": "Vash-modus geaktiveer.",
+  "deletionError": "Verwyderingsfout: {error}",
+  "yourSecurity": "Jou sekuriteit",
+  "securityInfo": "• End-tot-end-enkripsie (Signal Protocol)\n• Geen data op ons bedieners na aflewering nie\n• Sleutels slegs op jou toestel gestoor\n• PIN-kode nooit na bediener gestuur nie",
+  "version": "Hash v{version}",
+  "welcome": "Welkom",
+  "securityStatement1": "Jou boodskappe is beskerm.",
+  "securityStatement2": "End-tot-end-enkripsie.",
+  "securityStatement3": "Geen spoor. Geen kompromie.",
+  "securityStatement4": "Jou privaatheid is 'n reg.",
+  "accessBlocked": "Toegang geblokkeer",
+  "tooManyAttempts": "Te veel pogings",
+  "pleaseWait": "Wag asseblief",
+  "waitDelay": "Wag asseblief vir die vertraging om te eindig",
+  "attemptCount": "Poging {current} van {max}",
+  "retryIn": "Probeer weer oor {time}",
+  "forgotPin": "PIN vergeet? Gebruik herstelfrase",
+  "useRecoveryPhrase": "Gebruik herstelfrase",
+  "recoveryWarningTitle": "Waarskuwing",
+  "recoveryWarningMessage": "Rekeningherwinning sal:",
+  "recoveryDeleteAllMessages": "AL jou boodskappe verwyder",
+  "recoveryWaitDelay": "'n Vertraging van 1 uur vereis",
+  "recoveryKeepContacts": "Jou kontakte behou",
+  "recoveryIrreversible": "Hierdie aksie is onomkeerbaar. Jou boodskappe sal permanent verlore gaan.",
+  "iUnderstand": "Ek verstaan",
+  "accountRecovery": "Rekeningherwinning",
+  "enterRecoveryPhrase": "Voer die 24 woorde van jou herstelfrase in, geskei deur spasies.",
+  "recoveryPhraseHint": "woord1 woord2 woord3 ...",
+  "recover": "Herwin",
+  "recoveryPhraseRequired": "Voer asseblief jou herstelfrase in",
+  "recoveryPhrase24Words": "Die frase moet presies 24 woorde bevat",
+  "incorrectRecoveryPhrase": "Verkeerde herstelfrase",
+  "recoveryInitError": "Fout met inisialisering van herwinning",
+  "securityDelay": "Sekuriteitsvertraging",
+  "securityDelayMessage": "Vir jou sekuriteit word 'n wagperiode vereis voordat jy 'n nuwe PIN kan skep.",
+  "timeRemaining": "Tyd oor",
+  "messagesDeletedForProtection": "Jou boodskappe is verwyder vir jou beskerming.",
+  "canCloseApp": "Jy kan die app sluit en later terugkom.",
+  "onboardingTitle1": "Welkom by Hash",
+  "onboardingSubtitle1": "Die boodskapdiens wat geen spoor laat nie",
+  "onboardingTitle2": "Totale enkripsie",
+  "onboardingSubtitle2": "Jou boodskappe is end-tot-end geënkripteer met Signal Protocol",
+  "onboardingTitle3": "Geen spoor",
+  "onboardingSubtitle3": "Boodskappe word van bedieners verwyder by aflewering",
+  "onboardingTitle4": "Jou sekuriteit",
+  "onboardingSubtitle4": "PIN-kode, Vash-modus en herstelfrase",
+  "getStarted": "Begin",
+  "next": "Volgende",
+  "skip": "Slaan oor",
+  "alreadyHaveAccount": "Ek het reeds 'n rekening",
+  "transferMyAccount": "Dra my rekening oor",
+  "createPin": "Skep 'n PIN-kode",
+  "createPinSubtitle": "Hierdie kode sal toegang tot jou app beskerm",
+  "confirmYourPin": "Bevestig jou PIN-kode",
+  "confirmPinSubtitle": "Voer jou PIN-kode weer in",
+  "saveRecoveryPhrase": "Herstelfrase",
+  "saveRecoveryPhraseSubtitle": "Skryf hierdie 24 woorde in volgorde neer. Dit sal jou toelaat om jou rekening te herwin as jy jou PIN vergeet.",
+  "phraseWritten": "Ek het my frase neergeskryf",
+  "warningRecoveryPhrase": "As jy hierdie frase verloor en jou PIN vergeet, sal jy toegang tot jou rekening verloor.",
+  "accountTransferred": "Rekening oorgedra",
+  "accountTransferredMessage": "Jou rekening is na 'n ander toestel oorgedra. Hierdie sessie is nie meer geldig nie.",
+  "accountTransferredInfo": "As jy nie hierdie oordrag begin het nie, is jou rekening moontlik gekompromitteer.",
+  "logout": "Teken uit",
+  "transferAccount": "Dra rekening oor",
+  "transferAccountInfo": "Dra jou Hash-rekening oor na 'n nuwe toestel. Jou huidige sessie sal ongeldig gemaak word.",
+  "generateTransferCode": "Genereer oordragkode",
+  "transferCode": "Oordragkode",
+  "transferCodeExpires": "Hierdie kode verval oor {minutes} minute",
+  "enterCodeOnNewDevice": "Voer hierdie kode op jou nuwe toestel in om jou rekening oor te dra.",
+  "generateNewCode": "Genereer nuwe kode",
+  "scanQrCode": "Skandeer QR-kode",
+  "scanQrCodeSubtitle": "Skandeer 'n kontak se QR-kode om hulle by te voeg",
+  "qrCodeDetected": "QR-kode opgespoor",
+  "invalidQrCode": "Ongeldige QR-kode",
+  "cameraPermissionRequired": "Kameratoestemming vereis",
+  "myQrCode": "My QR-kode",
+  "myQrCodeSubtitle": "Deel hierdie QR-kode sodat jou kontakte jou kan byvoeg",
+  "shareQrCode": "Deel",
+  "addContactTitle": "Voeg kontak by",
+  "addContactByHashId": "Voer jou kontak se Hash ID in",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Soek",
+  "contactNotFound": "Kontak nie gevind nie",
+  "contactAlreadyAdded": "Hierdie kontak is reeds in jou lys",
+  "contactAdded": "Kontak bygevoeg",
+  "myProfile": "My profiel",
+  "myProfileSubtitle": "Deel hierdie inligting sodat ander jou kan byvoeg",
+  "temporaryCode": "Tydelike kode",
+  "temporaryCodeExpires": "Verval oor {time}",
+  "codeExpired": "Kode verval",
+  "generateNewCodeButton": "Nuwe kode",
+  "copyHashId": "Kopieer ID",
+  "copyCode": "Kopieer kode",
+  "copiedToClipboard": "Gekopieer",
+  "showMyQrCode": "Wys my QR-kode",
+  "orDivider": "of",
+  "openScanner": "Maak skandeerder oop",
+  "addManually": "Voeg handmatig by",
+  "contactHashIdLabel": "Kontak se Hash ID",
+  "temporaryCodeLabel": "Tydelike kode",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Vra jou kontak om 'n kode van hul profiel te genereer",
+  "verifyAndAdd": "Verifieer en voeg by",
+  "fillAllFields": "Vul asseblief alle velde in",
+  "invalidHashIdFormat": "Ongeldige ID-formaat (bv.: 123-456-ABC)",
+  "userNotFound": "Gebruiker nie gevind nie",
+  "cannotAddYourself": "Jy kan nie jouself byvoeg nie",
+  "invalidOrExpiredCode": "Ongeldige of vervalde tydelike kode",
+  "contactFound": "Kontak gevind!",
+  "howToCallContact": "Wat wil jy hulle noem?",
+  "contactNameHint": "Kontaknaam",
+  "addContactButton": "Voeg by",
+  "contactDetails": "Kontakbesonderhede",
+  "contactName": "Kontaknaam",
+  "contactHashId": "Hash ID",
+  "addedOn": "Bygevoeg op {date}",
+  "deleteContact": "Verwyder kontak",
+  "deleteContactConfirm": "Verwyder hierdie kontak?",
+  "deleteContactMessage": "Dit sal ook die hele geselsie verwyder.",
+  "delete": "Verwyder",
+  "typeMessage": "Tik 'n boodskap...",
+  "messageSent": "Gestuur",
+  "messageDelivered": "Afgelewer",
+  "messageRead": "Gelees",
+  "messageFailed": "Kon nie stuur nie",
+  "now": "Nou",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}u",
+  "daysAgo": "{count}d",
+  "today": "Vandag",
+  "yesterday": "Gister",
+  "dateAtTime": "{date} om {time}",
+  "shareMessage": "Sluit aan by my op Hash! 🔒\n\nDit is 'n werklik private boodskapdiens: totale enkripsie, geen spoor op bedieners, en paniekmodus indien nodig.\n\nLaai die app hier af 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Fout",
+  "ok": "OK",
+  "view": "Bekyk",
+  "yes": "Ja",
+  "no": "Nee",
+  "save": "Stoor",
+  "edit": "Wysig",
+  "close": "Sluit",
+  "confirm": "Bevestig",
+  "loading": "Laai...",
+  "retry": "Probeer weer",
+  "pendingRequests": "Hangende versoeke",
+  "noPendingRequests": "Geen hangende versoeke",
+  "pendingRequestsSubtitle": "Hierdie mense wil jou byvoeg",
+  "requestFromUser": "Versoek van {hashId}",
+  "requestExpiresIn": "Verval oor {days} dae",
+  "acceptRequest": "Aanvaar",
+  "rejectRequest": "Weier",
+  "requestAccepted": "Versoek aanvaar",
+  "requestRejected": "Versoek geweier",
+  "requestSent": "Versoek gestuur!",
+  "requestSentSubtitle": "Jou versoek is gestuur. Die gebruiker moet dit aanvaar voordat julle kan gesels.",
+  "requestAlreadyPending": "'n Versoek is reeds hangend",
+  "requestAlreadySentByOther": "Hierdie persoon het reeds vir jou 'n versoek gestuur",
+  "addByHashId": "Voeg by met Hash ID",
+  "addByHashIdSubtitle": "Voer die kontak se Hash ID en tydelike kode in",
+  "enterTemporaryCode": "Voer die 6-syfer kode in",
+  "sendRequest": "Stuur versoek",
+  "acceptContactTitle": "Aanvaar kontak",
+  "acceptContactSubtitle": "Jy kan hulle 'n pasgemaakte naam gee",
+  "leaveEmptyForHashId": "Laat leeg om Hash ID te gebruik",
+  "firstName": "Voornaam",
+  "lastName": "Van",
+  "notes": "Notas",
+  "notesHint": "Persoonlike notas oor hierdie kontak",
+  "photoOptional": "Foto (opsioneel)",
+  "contactNameOptional": "Naam (opsioneel)",
+  "notesOptional": "Notas (opsioneel)",
+  "storedLocally": "Slegs op jou toestel gestoor",
+  "encryptedMessageLabel": "Geënkripteerde boodskap",
+  "identityMessageHint": "Wie is jy? Hoe ken julle mekaar?",
+  "messageWillBeSentEncrypted": "Hierdie boodskap sal geënkripteer en aan die ontvanger gestuur word",
+  "sendRequestButton": "Stuur versoek",
+  "requestExpiresIn24h": "Versoek verval binne 24u as dit nie aanvaar word nie",
+  "theyAlreadySentYouRequest": "Hierdie persoon het reeds vir jou 'n versoek gestuur",
+  "requests": "Versoeke",
+  "receivedRequests": "Ontvang",
+  "sentRequests": "Gestuur",
+  "noSentRequests": "Geen gestuurde versoeke",
+  "cancelRequest": "Kanselleer",
+  "deleteRequest": "Verwyder versoek",
+  "requestCancelled": "Versoek gekanselleer",
+  "sentTo": "Gestuur aan {hashId}",
+  "expiresIn": "Verval oor {time}",
+  "receivedAgo": "Ontvang {time} gelede",
+  "messageFromRequester": "Boodskap van versoeker",
+  "copy": "Kopieer",
+  "messageInfo": "Boodskapinligting",
+  "messageDirection": "Rigting",
+  "messageSentByYou": "Deur jou gestuur",
+  "messageReceived": "Ontvang",
+  "messageSentAt": "Gestuur om",
+  "messageStatus": "Status",
+  "messageReadAt": "Gelees om",
+  "messageType": "Tipe",
+  "messageSize": "Grootte",
+  "messageExpiresAt": "Verval om",
+  "messageEncrypted": "End-tot-end geënkripteer",
+  "messageStatusSending": "Stuur...",
+  "messageStatusSent": "Gestuur",
+  "messageStatusDelivered": "Afgelewer",
+  "messageStatusRead": "Gelees",
+  "messageStatusFailed": "Misluk",
+  "serverStatus": "Bediener",
+  "onServer": "Wag op aflewering",
+  "deletedFromServer": "Verwyder",
+  "messageTypeText": "Teks",
+  "messageTypeImage": "Beeld",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Stem",
+  "messageTypeFile": "Lêer",
+  "indefinitely": "Onbepaald",
+  "hoursShort": "u",
+  "minutesShort": "min",
+  "hours": "ure",
+  "minutes": "minute",
+  "seconds": "sekondes",
+  "ephemeralMessages": "Verganklike boodskappe",
+  "ephemeralMessagesDescription": "Boodskappe word outomaties verwyder na hierdie tyd",
+  "ephemeralImmediate": "Onmiddellik (na lees)",
+  "ephemeralImmediateDesc": "Verwyder sodra dit gelees is",
+  "ephemeralMyPreference": "My voorkeur",
+  "ephemeralMyPreferenceDesc": "Gebruik globale instelling",
+  "ephemeralDefaultSetting": "Boodskapduur",
+  "ephemeralChooseDefault": "Aanbeveel",
+  "ephemeral30Seconds": "30 sekondes",
+  "ephemeral5Minutes": "5 minute",
+  "ephemeral1Hour": "1 uur",
+  "ephemeral3Hours": "3 ure",
+  "ephemeral6Hours": "6 ure",
+  "ephemeral12Hours": "12 ure",
+  "ephemeral24Hours": "24 ure",
+  "customDuration": "Pasgemaakte duur",
+  "muteNotifications": "Demp kennisgewings",
+  "muteDescription": "Jy sal nie kennisgewings vir hierdie kontak ontvang nie",
+  "mutedUntil": "Gedemp tot {time}",
+  "notMuted": "Kennisgewings geaktiveer",
+  "unmute": "Ontdemp",
+  "notificationSound": "Kennisgewingklank",
+  "defaultSound": "Verstek",
+  "chatSettings": "Geselsieinstellings",
+  "bubbleColor": "Borrelkleur",
+  "backgroundColor": "Agtergrondkleur",
+  "backgroundImage": "Agtergrondbeeld",
+  "chatBackground": "Geselsie-agtergrond",
+  "customColor": "Pasgemaak",
+  "defaultColor": "Verstek",
+  "imageSelected": "Beeld gekies",
+  "noImage": "Geen beeld",
+  "color": "Kleur",
+  "image": "Beeld",
+  "tapToSelectImage": "Tik om 'n beeld te kies",
+  "changeImage": "Verander beeld",
+  "previewMessageReceived": "Hallo!",
+  "previewMessageSent": "Haai daar!",
+  "messageAction": "Boodskap",
+  "callAction": "Bel",
+  "videoAction": "Video",
+  "personalNotes": "Persoonlike notas",
+  "addNotes": "Voeg notas by...",
+  "noNotes": "Geen notas",
+  "messageNotifications": "Boodskapkennisgewings",
+  "callNotifications": "Oproepkennisgewings",
+  "useGradient": "Gebruik gradiënt",
+  "gradientStart": "Beginkleur",
+  "gradientEnd": "Eindkleur",
+  "preview": "Voorskou",
+  "reset": "Herstel",
+  "securityNumber": "Sekuriteitsnommer",
+  "securityNumberDescription": "Verifieer dat die sekuriteitsnommer ooreenstem met {name} se toestel",
+  "verifyEncryption": "Verifieer end-tot-end-enkripsie",
+  "tapToCopy": "Tik om te kopieer",
+  "howToVerify": "Hoe om te verifieer",
+  "verifyStep1": "Ontmoet jou kontak persoonlik of bel hulle",
+  "verifyStep2": "Vergelyk die sekuriteitsnommers of skandeer QR-kodes",
+  "verifyStep3": "As hulle ooreenstem, is jou geselsie veilig",
+  "scanToVerify": "Skandeer om te verifieer",
+  "reportSpam": "Rapporteer gemorspos",
+  "reportSpamSubtitle": "Rapporteer hierdie kontak as gemorspos",
+  "reportSpamDescription": "Dit sal hierdie kontak anoniem rapporteer. Jou identiteit sal nie gedeel word nie. Is jy seker?",
+  "report": "Rapporteer",
+  "spamReported": "Gemorspos gerapporteer",
+  "reportError": "Kon nie rapport stuur nie. Probeer asseblief weer.",
+  "reportRateLimited": "Jy het die maksimum aantal rapporte vir vandag bereik.",
+  "blockContact": "Blokkeer kontak",
+  "blockContactDescription": "Hierdie kontak sal nie meer vir jou boodskappe kan stuur of jou kan bel nie. Hulle sal nie in kennis gestel word nie.",
+  "unblockContact": "Deblokkeer kontak",
+  "unblockContactDescription": "Hierdie kontak sal weer vir jou boodskappe kan stuur en jou kan bel.",
+  "contactBlocked": "Kontak geblokkeer",
+  "contactUnblocked": "Kontak gedeblokkeer",
+  "contactIsBlocked": "Hierdie kontak is geblokkeer",
+  "unblock": "Deblokkeer",
+  "deleteContactSubtitle": "Verwyder hierdie kontak en geselsie",
+  "confirmWithPin": "Bevestig met PIN",
+  "enterPinToConfirm": "Voer jou PIN in om hierdie aksie te bevestig",
+  "mute1Hour": "1 uur",
+  "mute8Hours": "8 ure",
+  "mute1Day": "1 dag",
+  "mute1Week": "1 week",
+  "muteAlways": "Altyd",
+  "muteExplanation": "Jy sal nie kennisgewings vir hierdie kontak ontvang nie",
+  "howItWorks": "Hoe dit werk",
+  "ephemeralExplanation1": "Boodskappe word van die bediener verwyder sodra dit ontvang is.",
+  "ephemeralExplanation2": "Hierdie instelling bepaal wanneer boodskappe van JOU foon verdwyn na lees.",
+  "ephemeralExplanation3": "Jou kontak het hul eie instelling vir hul foon.",
+  "profilePhoto": "Profielfoto",
+  "takePhoto": "Neem 'n foto",
+  "chooseFromGallery": "Kies uit galery",
+  "removePhoto": "Verwyder foto",
+  "viewContactHashId": "Bekyk kontak se identifiseerder",
+  "hashIdPartiallyMasked": "Gedeeltelik gemaskeer vir jou sekuriteit en jou kontak se privaatheid",
+  "addFirstContact": "Voeg jou eerste kontak by",
+  "addFirstContactSubtitle": "Deel jou QR-kode of skandeer 'n vriend se kode",
+  "directory": "Gids",
+  "noContacts": "Geen kontakte",
+  "noContactsSubtitle": "Voeg 'n kontak by om te begin",
+  "sendMessageAction": "Stuur 'n boodskap",
+  "audioCall": "Klankoproep",
+  "videoCall": "Video-oproep",
+  "viewProfile": "Bekyk profiel",
+  "deleteContactDirectory": "Verwyder kontak",
+  "scanShort": "Skandeer",
+  "addShort": "Voeg by",
+  "deleteContactConfirmName": "Is jy seker jy wil {name} verwyder?",
+  "noNotesTitle": "Geen notas",
+  "noNotesSubtitle": "Skep jou eerste nota",
+  "newNote": "Nuwe nota",
+  "editNote": "Wysig nota",
+  "deleteNote": "Verwyder nota",
+  "deleteNoteConfirm": "Is jy seker jy wil hierdie nota verwyder?",
+  "noteTitle": "Titel",
+  "noteContent": "Inhoud",
+  "addItem": "Voeg item by",
+  "pinNote": "Vaspen",
+  "unpinNote": "Lospen",
+  "noteColor": "Kleur",
+  "notePassword": "Wagwoord",
+  "setPassword": "Stel wagwoord",
+  "changePassword": "Verander wagwoord",
+  "removePassword": "Verwyder wagwoord",
+  "enterPassword": "Voer wagwoord in",
+  "confirmPassword": "Bevestig wagwoord",
+  "passwordPin": "PIN-kode",
+  "passwordText": "Tekswagwoord",
+  "protectedNote": "Beskermde nota",
+  "incorrectPassword": "Verkeerde wagwoord",
+  "passwordSet": "Wagwoord gestel",
+  "passwordRemoved": "Wagwoord verwyder",
+  "notesBiometric": "Face ID vir notas",
+  "notesBiometricSubtitle": "Vereis biometriese verifikasie om beskermde notas oop te maak",
+  "textNote": "Teksnota",
+  "checklistNote": "Kontrolelys",
+  "tasksProgress": "{checked}/{total} take",
+  "autoSaved": "Gestoor",
+  "searchNotes": "Soek notas",
+  "legalConsent": "Wetlike toestemming",
+  "confirmAge13": "Ek bevestig dat ek minstens 13 jaar oud is",
+  "acceptLegalStart": "Ek aanvaar die ",
+  "privacyPolicy": "Privaatheidsbeleid",
+  "termsOfService": "Diensvoorwaardes",
+  "andThe": " en die ",
+  "continueButton": "Gaan voort",
+  "mustAcceptTerms": "Jy moet albei voorwaardes aanvaar om voort te gaan",
+  "support": "Ondersteuning",
+  "contactSupport": "Kontak ondersteuning",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Rapporteer misbruik",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Wetlik",
+  "legalEntity": "Wetlike entiteit",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Vaspen",
+  "unpinConversation": "Lospen",
+  "hideConversation": "Verwyder uit voer",
+  "deleteConversation": "Verwyder gesprek",
+  "deleteConversationConfirm": "Voer jou PIN in om die verwydering van alle boodskappe te bevestig",
+  "noConversations": "Nog geen gesprekke",
+  "startConversation": "Begin",
+  "microphonePermissionRequired": "Mikrofoontoestemming vereis",
+  "microphonePermissionExplanation": "Hash het die mikrofoon nodig om oproepe te maak.",
+  "cameraPermissionExplanation": "Hash het die kamera nodig vir video-oproepe.",
+  "openSettings": "Maak instellings oop",
+  "callConnecting": "Verbind...",
+  "callRinging": "Lui...",
+  "callReconnecting": "Herverbind...",
+  "callReconnectingTimer": "Herverbind ({seconds}s)",
+  "callPaused": "Onderbreek",
+  "callPausedSubtitle": "Die oproep is steeds aktief",
+  "callRemoteMicMuted": "Kontak se mikrofoon is gedemp",
+  "callMiniControlsMute": "Demp",
+  "callMiniControlsUnmute": "Ontdemp",
+  "callMiniControlsHangUp": "Beëindig",
+  "callMiniControlsReturn": "Keer terug na oproep",
+  "callNetworkPoor": "Onstabiele verbinding",
+  "callNetworkLost": "Verbinding verloor",
+  "callEndedTitle": "Oproep beëindig",
+  "deviceData": "Toesteldata",
+  "deviceDataSubtitle": "Plaaslike en bedienerberging",
+  "localStorage": "Plaaslike berging",
+  "onThisDevice": "op hierdie toestel",
+  "encryptedDatabases": "Geënkripteerde databasisse",
+  "files": "Lêers",
+  "secureKeychain": "Veilige sleutelbos",
+  "cache": "Kas",
+  "contactsDetail": "Name, avatars, Signal-sleutels",
+  "messagesDetail": "Geënkripteerde gesprekke",
+  "notesDetail": "Persoonlike notas",
+  "signalSessions": "Signal-sessies",
+  "signalSessionsDetail": "Enkripsiesessies",
+  "pendingContacts": "Hangende kontakte",
+  "pendingContactsDetail": "Hangende versoeke",
+  "callHistory": "Oproepe",
+  "callHistoryDetail": "Oproepgeskiedenis",
+  "preferences": "Voorkeure",
+  "preferencesDetail": "Media- en oproepvoorkeure",
+  "avatars": "Avatars",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{geen lêers} =1{1 lêer} other{{count} lêers}}",
+  "active": "Aktief",
+  "notDefined": "Nie gedefinieer",
+  "biometrics": "Biometrie",
+  "recoveryPhrase": "Herstelfrase",
+  "identity": "Identiteit (Hash ID)",
+  "signalKeys": "Signal Protocol-sleutels",
+  "authTokens": "Verifikasiestekens",
+  "contactNamesCache": "Kontakname-kas",
+  "remoteConfig": "Afgeleë konfigurasie",
+  "notificationPrefs": "Kennisgewingvoorkeure",
+  "serverData": "Bedienerdata",
+  "serverDataInfo": "Hash hou minimale data op die bediener, alles geënkripteer of tydelik.",
+  "serverProfile": "Profiel",
+  "serverProfileDetail": "Hash ID, publieke sleutels, posbus-token",
+  "serverPrekeys": "Voorsleutels",
+  "serverPrekeysDetail": "Eenmalige Signal-sleutels (verbruik)",
+  "serverMessages": "Boodskappe in transito",
+  "serverMessagesDetail": "Verwyder na aflewering (maks 24u)",
+  "serverMedia": "Media in transito",
+  "serverMediaDetail": "Verwyder na aflaai",
+  "serverContactRequests": "Kontakversoeke",
+  "serverContactRequestsDetail": "Verval na 24u",
+  "serverRateLimits": "Tarieflimiete",
+  "serverRateLimitsDetail": "Tydelike anti-misbruik data",
+  "privacyReassurance": "Hash kan nie jou boodskappe lees nie. Alle data is end-tot-end geënkripteer. Bedienerdata word outomaties verwyder.",
+  "pinTooSimple": "Hierdie PIN is te eenvoudig. Kies 'n veiliger kode.",
+  "genericError": "'n Fout het voorgekom. Probeer asseblief weer.",
+  "accountCreationError": "Kan nie rekening skep nie: {error}",
+  "phraseCopiedToClipboard": "Frase na knipbord gekopieer",
+  "copyPhrase": "Kopieer frase",
+  "recoveryPhraseSecurityWarning": "Skryf hierdie frase op 'n veilige plek neer. As jy jou PIN sonder hierdie frase verloor, sal jy permanent toegang tot jou data verloor.",
+  "noMessages": "Geen boodskappe",
+  "deleteAllMessagesWithContact": "Verwyder alle boodskappe met {name}?",
+  "confirmation": "Bevestiging",
+  "untitled": "Titelloos",
+  "noSessions": "Geen sessies",
+  "unknownContact": "Onbekende kontak",
+  "unnamed": "Naamloos",
+  "noPendingRequestsAlt": "Geen hangende versoeke",
+  "deleteAllCallHistory": "Verwyder alle oproepgeskiedenis?",
+  "noCalls": "Geen oproepe",
+  "noPreferences": "Geen voorkeure",
+  "resetAllMediaPrefs": "Herstel alle mediavoorkeure?",
+  "deleteThisAvatar": "Verwyder hierdie avatar?",
+  "deleteAllAvatars": "Verwyder alle avatars?",
+  "noAvatars": "Geen avatars",
+  "deleteThisFile": "Verwyder hierdie lêer?",
+  "deleteAllMediaFiles": "Verwyder alle media?",
+  "noMediaFiles": "Geen media",
+  "outgoing": "Uitgaande",
+  "incoming": "Inkomende",
+  "ephemeralViewDuration": "Verganklike vertoning: {seconds}s",
+  "normalView": "Normale vertoning",
+  "callReasonCompleted": "Voltooid",
+  "callReasonMissed": "Gemis",
+  "callReasonDeclined": "Geweier",
+  "callReasonFailed": "Misluk",
+  "justNow": "Sopas",
+  "timeAgoMinutes": "{count} min gelede",
+  "timeAgoHours": "{count}u gelede",
+  "timeAgoDays": "{count}d gelede",
+  "messageTypeContact": "Kontak",
+  "messageTypeLocation": "Ligging",
+  "statusQueued": "In ry",
+  "blockedBadge": "Geblokkeer",
+  "protectedBadge": "Beskerm",
+  "messageCount": "{count} boodskap(pe)",
+  "deleteQuestion": "Verwyder?",
+  "transferMyAccountTitle": "Dra my rekening oor",
+  "loadingError": "Laaifout",
+  "transferToNewDevice": "Dra oor na 'n nuwe toestel",
+  "transferInstructions": "Op jou nuwe toestel, kies \"Herwin my rekening\" en voer hierdie inligting in:",
+  "yourHashIdLabel": "Jou Hash ID",
+  "enterYourPinCode": "Voer jou PIN-kode in",
+  "pinOwnerConfirmation": "Om te bevestig dat jy die eienaar van hierdie rekening is",
+  "scanThisQrCode": "Skandeer hierdie QR-kode",
+  "withYourNewDevice": "Met jou nuwe toestel",
+  "orEnterTheCode": "of voer die kode in",
+  "transferCodeLabel": "Oordragkode",
+  "proximityVerification": "Nabyheidsverifikasie",
+  "bringDevicesCloser": "Bring albei toestelle nader",
+  "confirmTransferQuestion": "Bevestig die oordrag?",
+  "accountWillBeTransferred": "Jou rekening sal na die nuwe toestel oorgedra word.\n\nHierdie toestel sal permanent ontkoppel word.",
+  "transferComplete": "Oordrag voltooid",
+  "transferSuccessMessage": "Jou rekening is suksesvol oorgedra.\n\nHierdie toepassing sal nou sluit.",
+  "manualVerification": "Handmatige verifikasie",
+  "codeDisplayedOnBothDevices": "Kode vertoon op albei toestelle:",
+  "doesCodeMatchNewDevice": "Stem hierdie kode ooreen met die een op die nuwe toestel?",
+  "verifiedStatus": "Geverifieer",
+  "inProgressStatus": "In proses...",
+  "notAvailableStatus": "Nie beskikbaar",
+  "codeExpiredRestart": "Die kode het verval. Begin asseblief oor.",
+  "codesDoNotMatchCancelled": "Die kodes stem nie ooreen nie. Oordrag gekanselleer.",
+  "transferToDevice": "Na: {device}",
+  "copiedExclamation": "Gekopieer!",
+  "expiresInTime": "Verval oor {time}",
+  "biometricNotAvailable": "Biometrie is nie beskikbaar op hierdie toestel nie",
+  "biometricAuthError": "Fout tydens biometriese verifikasie",
+  "authenticateForBiometric": "Verifieer asseblief om biometrie te aktiveer",
+  "biometricAuthFailed": "Biometriese verifikasie het misluk",
+  "forceUpdateTitle": "Opdatering vereis",
+  "forceUpdateMessage": "'n Nuwe weergawe van Hash is beskikbaar. Dateer asseblief op om voort te gaan.",
+  "updateButton": "Opdateer",
+  "maintenanceInProgress": "Onderhoud aan die gang",
+  "tryAgainLater": "Probeer asseblief later weer",
+  "information": "Inligting",
+  "noLoginRecorded": "Geen aanmelding aangeteken",
+  "nextUnlocksAppearHere": "Volgende ontsluitings sal hier verskyn.",
+  "noMaintenancePlanned": "Geen onderhoud beplan",
+  "everythingWorkingNormally": "Alles werk normaal",
+  "locking": "Sluit...",
+  "newMessageNotification": "Nuwe boodskap",
+  "secExplainTitle": "Hoe Hash jou beskerm",
+  "secExplainIntro": "Hash is ontwerp sodat niemand jou boodskappe kan lees nie.",
+  "secExplainIntroSub": "Nie eens ons nie.\nHier is hoe dit werk, eenvoudig verduidelik.",
+  "secJourneyLabel": "DIE REIS",
+  "secJourneyTitle": "Die reis van jou boodskap",
+  "secJourneySubtitle": "Van jou vinger tot jou kontak se skerm, elke stap is beskerm. Volg die pad.",
+  "secStep1Title": "Jy skryf jou boodskap",
+  "secStep1Desc": "Jy tik \"Hallo!\" in die app. Op hierdie punt bestaan die boodskap slegs in jou foon se geheue. Niks is gestuur nie.",
+  "secStep2Title": "Enkripsie met Signal Protocol",
+  "secStep2Desc": "Sodra jy \"Stuur\" druk, word jou boodskap omgeskakel in 'n string onverstaanbare karakters. Dit is asof jou boodskap in 'n kluis gesluit is waarvoor slegs jou kontak die sleutel het.",
+  "secStep3Title": "Sealed Sender: die onsigbare koevert",
+  "secStep3Desc": "Stel jou voor jy stuur 'n brief per pos, maar sonder 'n terugstuuradres op die koevert. Dit is presies wat Hash doen. Die boodskap word in 'n anonieme posbus geplaas. Die bediener weet nie wie dit gestuur het nie.",
+  "secStep4Title": "Die bediener sien niks",
+  "secStep4Desc": "Die bediener tree op as 'n blinde posman. Dit weet net \"iemand het iets in posbus #A7X9 geplaas\". Dit weet nie wie dit gestuur het, wat dit is, of vir wie dit is nie.",
+  "secStep4Highlight": "Geen metadata gestoor nie: geen IP-adres, geen tydstempel, geen skakel tussen sender en ontvanger.",
+  "secStep5Title": "Jou kontak ontvang die boodskap",
+  "secStep5Desc": "Jou kontak se foon haal die inhoud uit hul anonieme posbus en dekripteer die boodskap met hul private sleutel, wat nooit hul toestel verlaat het nie. \"Hallo!\" verskyn op hul skerm.",
+  "secStep6Title": "Die boodskap verdwyn van die bediener",
+  "secStep6Desc": "Sodra jou kontak ontvangs bevestig, verwyder die bediener die boodskap permanent. Geen asblik, geen argief, geen rugsteun nie. Selfs ongelees boodskappe word outomaties vernietig na 24 uur.",
+  "secStep7Title": "Plaaslike verval",
+  "secStep7Desc": "Op jou kontak se foon vernietig die boodskap homself volgens die duur wat jy gekies het: onmiddellik na lees, 5 minute, 1 uur... jy besluit.",
+  "secJourneyConclusion": "Resultaat: geen spoor op die bediener, geen spoor op toestelle. Die boodskap het net lank genoeg bestaan om gelees te word, dan het dit verdwyn.",
+  "secArchLabel": "ARGITEKTUUR",
+  "secArchTitle": "5 lae van beskerming",
+  "secArchSubtitle": "Hash maak nie staat op 'n enkele tegnologie nie. Elke laag versterk die ander. Selfs as een laag gekompromitteer word, bly jou data veilig.",
+  "secLayer1Title": "End-tot-end-enkripsie",
+  "secLayer1Desc": "Elke boodskap word met 'n unieke sleutel geënkripteer. In eenvoudige terme: selfs as iemand een boodskap dekripteer, sal hulle nie die volgende een kan dekripteer nie. Elke boodskap het sy eie slot.",
+  "secLayer1Detail": "Vir lêers (foto's, video's, dokumente) gebruik Hash addisionele AES-256-GCM-enkripsie. Die lêer word geënkripteer voordat dit jou foon verlaat.",
+  "secLayer2Title": "Sealed Sender (netwerkanonimiteit)",
+  "secLayer2Desc": "Gewone boodskapdienste stuur jou boodskappe met jou identiteit aangeheg. Dit is asof jy jou naam op die koevert skryf. Hash gebruik anonieme posbusse: die bediener lewer die boodskap af sonder om te weet wie dit gestuur het.",
+  "secLayer2Detail": "Resultaat: selfs in geval van 'n bediener-datalek, is dit onmoontlik om te rekonstrueer wie met wie praat.",
+  "secLayer3Title": "Outomatiese verwydering",
+  "secLayer3Desc": "Boodskappe word van die bediener verwyder sodra ontvangs bevestig is. Selfs as 'n boodskap nooit onttrek word, word dit outomaties vernietig na 24 uur.",
+  "secLayer3Detail": "Op jou foon vernietig boodskappe hulself volgens die duur wat jy kies: onmiddellik, 5 min, 15 min, 30 min, 1u, 3u, 6u, of 12u.",
+  "secLayer4Title": "Plaaslike toegangsbeskerming",
+  "secLayer4Desc": "Die app word beskerm deur 'n 6-syfer PIN en/of biometrie (Face ID, vingerafdruk). Na te veel mislukte pogings sluit die app met 'n toenemende vertraging na elke mislukking.",
+  "secLayer5Title": "Geslote databasis",
+  "secLayer5Desc": "Aan die bedienerkant kan geen gebruiker direk na die databasis skryf nie. Alle aksies gaan deur veilige funksies wat elke versoek verifieer.",
+  "secLayer5Detail": "Dit is soos 'n banktoonbank: jy raak nooit self aan die kluis nie. Jy maak 'n versoek, en die stelsel kontroleer dat jy die reg het voordat dit optree.",
+  "secVashLabel": "UNIEK IN DIE WÊRELD",
+  "secVashTitle": "Vash-modus",
+  "secVashSubtitle": "'n Nood-sekuriteitstelsel wat nie in enige ander boodskap-app bestaan nie.",
+  "secVashScenarioTitle": "Stel jou hierdie situasie voor",
+  "secVashScenario1": "Iemand kry toegang tot jou foon",
+  "secVashScenario2": "Jou PIN-kode word gevra",
+  "secVashScenario3": "Jy wil al jou data dringend uitvee",
+  "secVashSolutionTitle": "Die oplossing: twee PIN-kodes",
+  "secVashSolutionDesc": "Jy stel twee verskillende PIN-kodes in Hash op:",
+  "secVashNormalCodeLabel": "Normale kode",
+  "secVashNormalCodeDesc": "Maak die app normaal oop met al jou data",
+  "secVashCodeLabel2": "Vash-kode",
+  "secVashCodeDescription": "Maak die app normaal oop... maar al jou data word stilweg in die agtergrond verwyder",
+  "secVashWhatHappensTitle": "Wat gebeur daarna",
+  "secVashWhatHappensDesc": "Die app maak normaal oop. Geen waarskuwing, geen verdagte animasie nie. Die skerm wys eenvoudig 'n leë app, asof jy dit pas geïnstalleer het.\n\nIn werklikheid is al jou gesprekke, kontakte en boodskappe onomkeerbaar verwyder in 'n fraksie van 'n sekonde.",
+  "secCallsLabel": "OPROEPE EN LÊERS",
+  "secCallsTitle": "Alles is geënkripteer",
+  "secCallsSubtitle": "Dit is nie net boodskappe nie. Absoluut alles wat deur Hash gaan, is end-tot-end geënkripteer.",
+  "secAudioCallTitle": "Klankoproepe",
+  "secAudioCallDesc": "End-tot-end geënkripteer via WebRTC. Stem word direk tussen toestelle oorgedra.",
+  "secVideoCallTitle": "Video-oproepe",
+  "secVideoCallDesc": "Dieselfde tegnologie, elke stroom individueel geënkripteer.",
+  "secPhotosTitle": "Foto's en video's",
+  "secPhotosDesc": "Geënkripteer in AES-256-GCM voordat dit jou foon verlaat.",
+  "secDocsTitle": "Dokumente",
+  "secDocsDesc": "PDF, ZIP, enige lêer. Naam, grootte en inhoud geënkripteer.",
+  "secAnonLabel": "ANONIMITEIT",
+  "secAnonTitle": "Geen identiteit nodig",
+  "secAnonSubtitle": "Hash vra nooit vir jou telefoonnommer of e-pos nie. Jy word geïdentifiseer deur 'n unieke en anonieme Hash ID.",
+  "secHashIdTitle": "Jou Hash ID",
+  "secHashIdDesc": "Dit is jou unieke identifiseerder. Dit onthul niks oor jou nie: nie jou naam, nie jou nommer, nie jou ligging nie. Dit is soos 'n skuilnaam wat onmoontlik aan jou werklike identiteit gekoppel kan word.\n\nOm 'n kontak by te voeg, deel jy jou Hash ID of skandeer 'n QR-kode. Dit is al. Geen gesinkroniseerde adresboek, geen \"Mense wat jy dalk ken\" voorstelle nie.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "Wat Hash nie weet nie",
+  "secDataSubtitle": "Die beste manier om jou data te beskerm, is om dit nie in te samel nie.",
+  "secNeverCollected": "Nooit ingesamel",
+  "secNeverItem1": "Boodskapinhoud",
+  "secNeverItem2": "Kontaklys",
+  "secNeverItem3": "Telefoonnommer",
+  "secNeverItem4": "E-posadres",
+  "secNeverItem5": "IP-adres",
+  "secNeverItem6": "Ligging",
+  "secNeverItem7": "Metadata (wie praat met wie)",
+  "secNeverItem8": "Oproepgeskiedenis",
+  "secNeverItem9": "Adresboek",
+  "secNeverItem10": "Advertensie-identifiseerders",
+  "secTempStored": "Tydelik gestoor",
+  "secTempItem1": "Anonieme Hash ID (unieke identifiseerder)",
+  "secTempItem2": "Publieke enkripsie-sleutels",
+  "secTempItem3": "Geënkripteerde boodskappe in transito (maks 24u)",
+  "secTempNote": "Selfs hierdie minimale data kan jou nie identifiseer nie. Jou Hash ID is nie aan enige persoonlike inligting gekoppel nie.",
+  "secFooterTitle": "Jou privaatheid, jou vryheid",
+  "secFooterDesc": "Hash gebruik dieselfde enkripsietegnologieë as die mees veeleisende professionele toepassings. Jou boodskappe word deur wiskunde beskerm, nie deur beloftes nie.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometrie",
+  "biometricUnlock": "Ontsluit met vingerafdruk of Face ID",
+  "biometricWarningMessage": "Deur biometrie te aktiveer, sal jy nie jou Vash-kode kan gebruik om in die toepassing in te kom nie.\n\nJy sal slegs die Vash-kode kan gebruik as biometrie misluk (na verskeie mislukte pogings).\n\nIs jy seker jy wil voortgaan?",
+  "connectionCount": "Verbinding(e)",
+  "currentSession": "Huidig",
+  "dataLocalOnly": "Hierdie data word slegs op jou toestel gestoor en word nooit gestuur nie.",
+  "doYouLikeHash": "Hou jy van Hash?",
+  "donationMessage": "Hash is 'n niewinsgewende projek. Jou ondersteuning help ons om 'n werklik private boodskapper te bou.",
+  "enableBiometric": "Aktiveer biometrie",
+  "ephemeral1HourDesc": "Verwyder 1u na lees",
+  "ephemeral24HoursDesc": "Verwyder 24u na lees",
+  "ephemeral30SecondsDesc": "Verwyder 30s na lees",
+  "ephemeral5MinutesDesc": "Verwyder 5min na lees",
+  "ephemeral6HoursDesc": "Verwyder 6u na lees",
+  "feedback": "Terugvoer",
+  "historyLabel": "Geskiedenis",
+  "hoursAgoLabel": "{hours}u gelede",
+  "hoursMinutesAgoLabel": "{hours}u {minutes}min gelede",
+  "justNowLabel": "Sopas",
+  "later": "Later",
+  "loginInfoText": "Elke PIN-ontsluit word plaaslik aangeteken. Slegs die laaste 24 uur word gehou.",
+  "maintenanceActiveLabel": "AAN DIE GANG",
+  "maintenancePlannedLabel": "BEPLAN",
+  "maintenanceTitle": "Onderhoud",
+  "minutesAgoLabel": "{count} min gelede",
+  "periodLabel": "Tydperk",
+  "pinCodeForEntry": "PIN-kode om die toep oop te maak",
+  "ratingBad": "Sleg",
+  "ratingExcellent": "Uitstekend!",
+  "ratingGood": "Goed",
+  "ratingOk": "Ok",
+  "ratingTerrible": "Verskriklik",
+  "recentConnections": "Onlangse verbindings",
+  "share": "Deel",
+  "shareAppSubtitle": "Deel Hash met jou naastes",
+  "showCallsInRecents": "Wys in onlangse oproepe",
+  "showCallsInRecentsSubtitle": "Hash-oproepe verskyn in die foon se geskiedenis",
+  "todayLabel": "Vandag",
+  "understood": "Ek verstaan",
+  "yesterdayLabel": "Gister",
+  "yourFeedbackHelps": "Jou terugvoer help ons om die toep te verbeter"
+}

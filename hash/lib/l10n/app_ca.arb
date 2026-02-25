@@ -1,0 +1,1038 @@
+{
+  "@@locale": "ca",
+
+  "appName": "Hash",
+  "appTagline": "Zero rastre. Zero compromís.",
+
+  "conversations": "Xats",
+  "contacts": "Contactes",
+  "noConversation": "Cap xat",
+  "noConversationSubtitle": "Afegeix un contacte per començar a xatejar de forma segura",
+  "pendingRequestsCount": "{count, plural, =1{1 sol·licitud pendent} other{{count} sol·licituds pendents}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 sol·licitud enviada pendent} other{{count} sol·licituds enviades pendents}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Afegir contacte",
+  "shareApp": "Compartir l'aplicació",
+  "newMessage": "Missatge nou",
+  "newConversation": "Envia un missatge",
+
+  "settings": "Configuració",
+  "myHashId": "El meu Hash ID",
+  "supportHash": "Dona suport a Hash",
+  "supportHashSubtitle": "Hash és un projecte sense ànim de lucre",
+  "donate": "Donar",
+
+  "appearance": "Aparença",
+  "theme": "Tema",
+  "themeAuto": "Automàtic",
+  "themeAutoSubtitle": "Segueix la configuració del sistema",
+  "themeDark": "Fosc",
+  "themeLight": "Clar",
+  "themeRecommendation": "El tema fosc es recomana per a més privacitat",
+  "language": "Idioma",
+  "languageAuto": "Automàtic (sistema)",
+
+  "notifications": "Notificacions",
+  "messages": "Missatges",
+  "calls": "Trucades",
+  "vibration": "Vibració",
+  "notificationContent": "Contingut de les notificacions",
+  "notificationContentFull": "Mostra-ho tot",
+  "notificationContentFullDesc": "Nom del contacte i previsualització del missatge",
+  "notificationContentName": "Només el nom",
+  "notificationContentNameDesc": "Mostra només el nom del contacte",
+  "notificationContentDiscrete": "Discret",
+  "notificationContentDiscreteDesc": "Mostra només \"Missatge nou\"",
+
+  "security": "Seguretat",
+  "howHashProtectsYou": "Com Hash et protegeix",
+  "howHashProtectsYouSubtitle": "Entén la teva seguretat",
+  "accountSecurity": "Seguretat del compte",
+  "accountSecuritySubtitle": "PIN, biomètrics, Mode Vash",
+  "blockScreenshots": "Bloquejar captures de pantalla",
+  "transferDevice": "Transferir a un altre dispositiu",
+  "transferDeviceSubtitle": "Migrar el teu compte",
+
+  "pinCode": "Codi PIN",
+  "changePin": "Canviar codi PIN",
+  "currentPin": "Codi PIN actual",
+  "newPin": "Nou codi PIN",
+  "confirmPin": "Confirmar codi PIN",
+  "pinChanged": "Codi PIN canviat",
+  "incorrectPin": "PIN incorrecte",
+  "pinsDoNotMatch": "Els PIN no coincideixen",
+
+  "autoLock": "Bloqueig automàtic",
+  "autoLockDelay": "Retard de bloqueig",
+  "autoLockImmediate": "Immediat",
+  "autoLockMinute": "1 minut",
+  "autoLockMinutes": "{count} minuts",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Codi Vash",
+  "vashModeTitle": "Mode Vash",
+  "vashModeExplanation": "La teva xarxa de seguretat definitiva.",
+  "vashModeDescription": "Triaràs un segon codi PIN. Si alguna vegada et forcen a obrir Hash, introdueix aquest codi en lloc del teu PIN habitual.\n\nL'aplicació s'obrirà normalment, però totes les teves converses i contactes hauran desaparegut.\n\nPer a qualsevol que miri la teva pantalla, Hash simplement apareix buit — com si mai l'haguessis usat.",
+  "vashModeIrreversible": "Aquesta acció és silenciosa i irreversible.",
+  "chooseVashCode": "Triar el meu codi Vash",
+  "vashCodeInfo": "Un segon codi PIN que obre l'aplicació normalment, però buida.",
+  "vashCodeInfoDetail": "Si introdueixes aquest codi en lloc del teu PIN:",
+  "vashDeleteContacts": "Els teus contactes desapareixen",
+  "vashDeleteMessages": "Les teves converses desapareixen",
+  "vashDeleteHistory": "Les teves notes desapareixen",
+  "vashKeepId": "La teva identitat Hash (#XXX-XXX-XXX) es manté igual",
+  "vashAppearNormal": "L'aplicació apareix normal però buida, com nova. Aquesta acció és irreversible.",
+  "setupVashCode": "Configurar codi Vash",
+  "modifyVashCode": "Modificar codi Vash",
+  "currentVashCode": "Codi Vash actual",
+  "newVashCode": "Nou codi Vash",
+  "confirmVashCode": "Confirmar codi Vash",
+  "vashCodeConfigured": "Codi Vash configurat",
+  "vashCodeModified": "Codi Vash modificat",
+  "vashCodeMustDiffer": "El codi Vash ha de ser diferent del PIN",
+  "incorrectVashCode": "Codi Vash incorrecte",
+  "vashWhatToDelete": "Què ha de fer desaparèixer el Mode Vash?",
+  "vashDeleteContactsOption": "Contactes",
+  "vashDeleteMessagesOption": "Missatges",
+  "vashDeleteNotesOption": "Notes",
+  "vashActivated": "Mode Vash activat",
+  "vashCreateSubtitle": "Tria un codi diferent del teu PIN principal",
+  "vashConfirmSubtitle": "Confirma el teu codi Vash",
+  "vashCodeSection": "Mode Vash",
+
+  "pinCodeForEntry": "Codi PIN per entrar a l'aplicació",
+  "biometric": "Biomètrics",
+  "biometricUnlock": "Desbloquejar amb empremta o Face ID",
+  "enableBiometric": "Activar biomètrics",
+  "biometricWarningMessage": "En activar els biomètrics, no podràs usar el teu codi Vash per entrar a l'aplicació.\n\nNomés podràs usar el codi Vash si els biomètrics fallen (després de diversos intents fallits).\n\nEstàs segur que vols continuar?",
+  "understood": "Ho entenc",
+
+  "shareAppSubtitle": "Comparteix Hash amb els teus propers",
+  "share": "Compartir",
+
+  "danger": "Perill",
+  "panicButton": "Botó de pànic",
+  "panicButtonSubtitle": "Eliminar totes les dades",
+  "deleteAccount": "Eliminar el meu compte",
+  "deleteAccountSubtitle": "Acció irreversible",
+  "deleteAccountConfirmTitle": "Eliminar el meu compte",
+  "deleteAccountConfirmMessage": "El teu compte s'eliminarà permanentment. Aquesta acció és irreversible.\n\n• Tots els teus xats\n• Tots els teus contactes\n• El teu Hash ID\n\nHauràs de crear un compte nou.",
+  "deleteForever": "Eliminar permanentment",
+  "cancel": "Cancel·lar",
+
+  "panicConfirmTitle": "Botó de pànic",
+  "panicConfirmMessage": "Aquesta acció eliminarà permanentment TOTES les teves dades:\n\n• Tots els teus missatges\n• Tots els teus contactes\n• El teu compte\n\nN'estàs absolutament segur?",
+  "deleteAll": "ELIMINAR TOT",
+  "dataDeletedForSecurity": "Mode Vash activat.",
+  "deletionError": "Error d'eliminació: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "La teva seguretat",
+  "securityInfo": "• Xifrat d'extrem a extrem (Signal Protocol)\n• Cap dada als nostres servidors després del lliurament\n• Claus emmagatzemades només al teu dispositiu\n• Codi PIN mai enviat al servidor",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Benvingut",
+  "securityStatement1": "Els teus missatges estan protegits.",
+  "securityStatement2": "Xifrat d'extrem a extrem.",
+  "securityStatement3": "Cap rastre. Cap compromís.",
+  "securityStatement4": "La teva privacitat és un dret.",
+
+  "accessBlocked": "Accés bloquejat",
+  "tooManyAttempts": "Massa intents. Torna-ho a provar més tard.",
+  "pleaseWait": "Si us plau, espera",
+  "waitDelay": "Si us plau, espera que finalitzi el retard",
+  "attemptCount": "Intent {current} de {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Torna-ho a provar en {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Has oblidat el PIN? Usa la frase de recuperació",
+  "useRecoveryPhrase": "Usar la frase de recuperació",
+
+  "recoveryWarningTitle": "Atenció",
+  "recoveryWarningMessage": "La recuperació del compte:",
+  "recoveryDeleteAllMessages": "Eliminarà TOTS els teus missatges",
+  "recoveryWaitDelay": "Requerirà un retard d'1 hora",
+  "recoveryKeepContacts": "Conservarà els teus contactes",
+  "recoveryIrreversible": "Aquesta acció és irreversible. Els teus missatges es perdran permanentment.",
+  "iUnderstand": "Ho entenc",
+
+  "accountRecovery": "Recuperació del compte",
+  "enterRecoveryPhrase": "Introdueix les 24 paraules de la teva frase de recuperació, separades per espais.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Recuperar",
+  "recoveryPhraseRequired": "Si us plau, introdueix la teva frase de recuperació",
+  "recoveryPhrase24Words": "La frase ha de contenir exactament 24 paraules",
+  "incorrectRecoveryPhrase": "Frase de recuperació incorrecta",
+  "recoveryInitError": "Error en inicialitzar la recuperació",
+
+  "securityDelay": "Retard de seguretat",
+  "securityDelayMessage": "Per la teva seguretat, cal un temps d'espera abans de poder crear un nou PIN.",
+  "timeRemaining": "Temps restant",
+  "messagesDeletedForProtection": "Els teus missatges s'han eliminat per la teva protecció.",
+  "canCloseApp": "Pots tancar l'aplicació i tornar més tard.",
+
+  "onboardingTitle1": "Benvingut a Hash",
+  "onboardingSubtitle1": "El missatger que no deixa rastre",
+  "onboardingTitle2": "Xifrat total",
+  "onboardingSubtitle2": "Els teus missatges estan xifrats d'extrem a extrem amb el protocol Signal",
+  "onboardingTitle3": "Cap rastre",
+  "onboardingSubtitle3": "Els missatges s'eliminen dels servidors un cop lliurats",
+  "onboardingTitle4": "La teva seguretat",
+  "onboardingSubtitle4": "Codi PIN, Mode Vash i frase de recuperació",
+
+  "getStarted": "Començar",
+  "next": "Següent",
+  "skip": "Saltar",
+  "alreadyHaveAccount": "Ja tinc un compte",
+  "transferMyAccount": "Transferir el meu compte",
+
+  "createPin": "Crea un codi PIN",
+  "createPinSubtitle": "Aquest codi protegirà l'accés a la teva aplicació",
+  "confirmYourPin": "Confirma el teu codi PIN",
+  "confirmPinSubtitle": "Torna a introduir el teu codi PIN",
+
+  "saveRecoveryPhrase": "Frase de recuperació",
+  "saveRecoveryPhraseSubtitle": "Apunta aquestes 24 paraules en ordre. Et permetran recuperar el teu compte si oblides el PIN.",
+  "phraseWritten": "He apuntat la meva frase",
+  "warningRecoveryPhrase": "Si perds aquesta frase i oblides el PIN, perdràs l'accés al teu compte.",
+
+  "accountTransferred": "Compte transferit",
+  "accountTransferredMessage": "El teu compte s'ha transferit a un altre dispositiu. Aquesta sessió ja no és vàlida.",
+  "accountTransferredInfo": "Si no has iniciat aquesta transferència, el teu compte podria estar compromès.",
+  "logout": "Tancar sessió",
+
+  "transferAccount": "Transferir compte",
+  "transferAccountInfo": "Transfereix el teu compte Hash a un nou dispositiu. La teva sessió actual serà invalidada.",
+  "generateTransferCode": "Generar codi de transferència",
+  "transferCode": "Codi de transferència",
+  "transferCodeExpires": "Aquest codi caduca en {minutes} minuts",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Introdueix aquest codi al teu nou dispositiu per transferir el compte.",
+  "generateNewCode": "Generar nou codi",
+
+  "scanQrCode": "Escanejar codi QR",
+  "scanQrCodeSubtitle": "Escaneja el codi QR d'un contacte per afegir-lo",
+  "qrCodeDetected": "Codi QR detectat",
+  "invalidQrCode": "Codi QR no vàlid",
+  "cameraPermissionRequired": "Permís de càmera requerit",
+
+  "myQrCode": "El meu codi QR",
+  "myQrCodeSubtitle": "Comparteix aquest codi QR perquè els teus contactes et puguin afegir",
+  "shareQrCode": "Compartir",
+
+  "addContactTitle": "Afegir contacte",
+  "addContactByHashId": "Introdueix el Hash ID del teu contacte",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Cercar",
+  "contactNotFound": "Contacte no trobat",
+  "contactAlreadyAdded": "Aquest contacte ja és a la teva llista",
+  "contactAdded": "Contacte afegit",
+
+  "myProfile": "El meu perfil",
+  "myProfileSubtitle": "Comparteix aquesta informació perquè et puguin afegir",
+  "temporaryCode": "Codi temporal",
+  "temporaryCodeExpires": "Caduca en {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Codi caducat",
+  "generateNewCodeButton": "Nou codi",
+  "copyHashId": "Copiar ID",
+  "copyCode": "Copiar codi",
+  "copiedToClipboard": "Copiat",
+  "showMyQrCode": "Mostrar el meu codi QR",
+  "orDivider": "o",
+  "openScanner": "Obrir escàner",
+  "addManually": "Afegir manualment",
+  "contactHashIdLabel": "Hash ID del contacte",
+  "temporaryCodeLabel": "Codi temporal",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Demana al teu contacte que generi un codi des del seu perfil",
+  "verifyAndAdd": "Verificar i afegir",
+  "fillAllFields": "Si us plau, omple tots els camps",
+  "invalidHashIdFormat": "Format d'ID no vàlid (p. ex.: 123-456-ABC)",
+  "userNotFound": "Usuari no trobat",
+  "cannotAddYourself": "No et pots afegir a tu mateix",
+  "invalidOrExpiredCode": "Codi temporal no vàlid o caducat",
+  "tooManyAttempts": "Massa intents. Torna-ho a provar més tard.",
+  "contactFound": "Contacte trobat!",
+  "howToCallContact": "Com vols dir-li?",
+  "contactNameHint": "Nom del contacte",
+  "addContactButton": "Afegir",
+
+  "contactDetails": "Detalls del contacte",
+  "contactName": "Nom del contacte",
+  "contactHashId": "Hash ID",
+  "addedOn": "Afegit el {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Eliminar contacte",
+  "deleteContactConfirm": "Eliminar aquest contacte?",
+  "deleteContactMessage": "Això també eliminarà tot el xat.",
+  "delete": "Eliminar",
+
+  "typeMessage": "Escriu un missatge...",
+  "messageSent": "Enviat",
+  "messageDelivered": "Lliurat",
+  "messageRead": "Llegit",
+  "messageFailed": "Error en l'enviament",
+
+  "now": "Ara",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}h",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Avui",
+  "yesterday": "Ahir",
+  "dateAtTime": "{date} a les {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Uneix-te a mi a Hash! 🔒\n\nÉs un missatger realment privat: xifrat total, cap rastre als servidors, i mode pànic si cal.\n\nDescarrega l'app aquí 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Error",
+  "ok": "D'acord",
+  "view": "Veure",
+  "yes": "Sí",
+  "no": "No",
+  "save": "Desar",
+  "edit": "Editar",
+  "close": "Tancar",
+  "confirm": "Confirmar",
+  "loading": "Carregant...",
+  "retry": "Tornar-ho a provar",
+
+  "pendingRequests": "Sol·licituds pendents",
+  "noPendingRequests": "Cap sol·licitud pendent",
+  "pendingRequestsSubtitle": "Aquestes persones volen afegir-te",
+  "requestFromUser": "Sol·licitud de {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Caduca en {days} dies",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Acceptar",
+  "rejectRequest": "Rebutjar",
+  "requestAccepted": "Sol·licitud acceptada",
+  "requestRejected": "Sol·licitud rebutjada",
+  "requestSent": "Sol·licitud enviada!",
+  "requestSentSubtitle": "La teva sol·licitud s'ha enviat. L'usuari l'ha d'acceptar per poder xatejar.",
+  "requestAlreadyPending": "Ja hi ha una sol·licitud pendent",
+  "requestAlreadySentByOther": "Aquesta persona ja t'ha enviat una sol·licitud",
+  "addByHashId": "Afegir per Hash ID",
+  "addByHashIdSubtitle": "Introdueix el Hash ID i el codi temporal del contacte",
+  "enterTemporaryCode": "Introdueix el codi de 6 dígits",
+  "sendRequest": "Enviar sol·licitud",
+  "acceptContactTitle": "Acceptar contacte",
+  "acceptContactSubtitle": "Li pots donar un nom personalitzat",
+  "leaveEmptyForHashId": "Deixa buit per usar el Hash ID",
+  "firstName": "Nom",
+  "lastName": "Cognom",
+  "notes": "Notes",
+  "notesHint": "Notes personals sobre aquest contacte",
+
+  "photoOptional": "Foto (opcional)",
+  "contactNameOptional": "Nom (opcional)",
+  "notesOptional": "Notes (opcional)",
+  "storedLocally": "Emmagatzemat només al teu dispositiu",
+  "encryptedMessageLabel": "Missatge xifrat",
+  "identityMessageHint": "Qui ets? Com us coneixeu?",
+  "messageWillBeSentEncrypted": "Aquest missatge serà xifrat i enviat al destinatari",
+  "sendRequestButton": "Enviar sol·licitud",
+  "requestExpiresIn24h": "La sol·licitud caduca en 24h si no s'accepta",
+  "theyAlreadySentYouRequest": "Aquesta persona ja t'ha enviat una sol·licitud",
+
+  "requests": "Sol·licituds",
+  "receivedRequests": "Rebudes",
+  "sentRequests": "Enviades",
+  "noSentRequests": "Cap sol·licitud enviada",
+  "cancelRequest": "Cancel·lar",
+  "deleteRequest": "Eliminar sol·licitud",
+  "requestCancelled": "Sol·licitud cancel·lada",
+  "sentTo": "Enviada a {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Caduca en {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Rebuda fa {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Missatge del sol·licitant",
+
+  "copy": "Copiar",
+  "messageInfo": "Info del missatge",
+
+  "messageDirection": "Direcció",
+  "messageSentByYou": "Enviat per tu",
+  "messageReceived": "Rebut",
+  "messageSentAt": "Enviat el",
+  "messageStatus": "Estat",
+  "messageReadAt": "Llegit el",
+  "messageType": "Tipus",
+  "messageSize": "Mida",
+  "messageExpiresAt": "Caduca el",
+  "messageEncrypted": "Xifrat d'extrem a extrem",
+
+  "messageStatusSending": "Enviant...",
+  "messageStatusSent": "Enviat",
+  "messageStatusDelivered": "Lliurat",
+  "messageStatusRead": "Llegit",
+  "messageStatusFailed": "Fallat",
+
+  "serverStatus": "Servidor",
+  "onServer": "Pendent de lliurament",
+  "deletedFromServer": "Eliminat",
+
+  "messageTypeText": "Text",
+  "messageTypeImage": "Imatge",
+  "messageTypeVideo": "Vídeo",
+  "messageTypeVoice": "Veu",
+  "messageTypeFile": "Fitxer",
+
+  "indefinitely": "Indefinidament",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "hores",
+  "minutes": "minuts",
+  "seconds": "segons",
+
+  "ephemeralMessages": "Missatges efímers",
+  "ephemeralMessagesDescription": "Els missatges s'eliminen automàticament després d'aquest temps",
+  "ephemeralImmediate": "Immediat (després de llegir)",
+  "ephemeralImmediateDesc": "Eliminat en llegir-lo",
+  "ephemeralMyPreference": "La meva preferència",
+  "ephemeralMyPreferenceDesc": "Usar la configuració global",
+  "ephemeralDefaultSetting": "Durada dels missatges",
+  "ephemeralChooseDefault": "Recomanat",
+  "ephemeral30Seconds": "30 segons",
+  "ephemeral30SecondsDesc": "Eliminat 30s després de llegir",
+  "ephemeral5Minutes": "5 minuts",
+  "ephemeral5MinutesDesc": "Eliminat 5min després de llegir",
+  "ephemeral1Hour": "1 hora",
+  "ephemeral1HourDesc": "Eliminat 1h després de llegir",
+  "ephemeral3Hours": "3 hores",
+  "ephemeral6Hours": "6 hores",
+  "ephemeral6HoursDesc": "Eliminat 6h després de llegir",
+  "ephemeral12Hours": "12 hores",
+  "ephemeral24Hours": "24 hores",
+  "ephemeral24HoursDesc": "Eliminat 24h després de llegir",
+  "customDuration": "Durada personalitzada",
+
+  "muteNotifications": "Silenciar notificacions",
+  "muteDescription": "No rebràs notificacions d'aquest contacte",
+  "mutedUntil": "Silenciat fins {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Notificacions activades",
+  "unmute": "Activar so",
+
+  "notificationSound": "So de notificació",
+  "defaultSound": "Per defecte",
+
+  "chatSettings": "Configuració del xat",
+  "bubbleColor": "Color de les bombolles",
+  "backgroundColor": "Color de fons",
+  "backgroundImage": "Imatge de fons",
+  "chatBackground": "Fons del xat",
+  "customColor": "Personalitzat",
+  "defaultColor": "Per defecte",
+  "imageSelected": "Imatge seleccionada",
+  "noImage": "Cap imatge",
+  "color": "Color",
+  "image": "Imatge",
+  "tapToSelectImage": "Toca per seleccionar una imatge",
+  "changeImage": "Canviar imatge",
+  "previewMessageReceived": "Hola!",
+  "previewMessageSent": "Ei, com va!",
+
+  "messageAction": "Missatge",
+  "callAction": "Trucada",
+  "videoAction": "Vídeo",
+
+  "personalNotes": "Notes personals",
+  "addNotes": "Afegir notes...",
+  "noNotes": "Cap nota",
+
+  "messageNotifications": "Notificacions de missatges",
+  "callNotifications": "Notificacions de trucades",
+
+  "useGradient": "Usar degradat",
+  "gradientStart": "Color inicial",
+  "gradientEnd": "Color final",
+  "preview": "Previsualització",
+  "reset": "Restablir",
+
+  "securityNumber": "Número de seguretat",
+  "securityNumberDescription": "Verifica que el número de seguretat coincideixi amb el dispositiu de {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Verificar xifrat d'extrem a extrem",
+  "tapToCopy": "Toca per copiar",
+  "howToVerify": "Com verificar",
+  "verifyStep1": "Trobeu-vos amb el contacte en persona o truqueu-li",
+  "verifyStep2": "Compareu els números de seguretat o escanegeu els codis QR",
+  "verifyStep3": "Si coincideixen, el xat és segur",
+  "scanToVerify": "Escanejar per verificar",
+
+  "reportSpam": "Reportar spam",
+  "reportSpamSubtitle": "Reporta aquest contacte com a spam",
+  "reportSpamDescription": "Aquest contacte serà reportat de forma anònima. La teva identitat no serà compartida. N'estàs segur?",
+  "report": "Reportar",
+  "spamReported": "Spam reportat",
+  "reportError": "Error en enviar el report. Si us plau, torna-ho a provar.",
+  "reportRateLimited": "Has assolit el nombre màxim de reports per avui.",
+
+  "blockContact": "Bloquejar contacte",
+  "blockContactDescription": "Aquest contacte ja no podrà enviar-te missatges ni trucar-te. No serà notificat.",
+  "unblockContact": "Desbloquejar contacte",
+  "unblockContactDescription": "Aquest contacte podrà tornar a enviar-te missatges i trucar-te.",
+  "contactBlocked": "Contacte bloquejat",
+  "contactUnblocked": "Contacte desbloquejat",
+  "contactIsBlocked": "Aquest contacte està bloquejat",
+  "unblock": "Desbloquejar",
+
+  "deleteContactSubtitle": "Eliminar aquest contacte i el xat",
+  "confirmWithPin": "Confirmar amb PIN",
+  "enterPinToConfirm": "Introdueix el teu PIN per confirmar aquesta acció",
+
+  "mute1Hour": "1 hora",
+  "mute8Hours": "8 hores",
+  "mute1Day": "1 dia",
+  "mute1Week": "1 setmana",
+  "muteAlways": "Sempre",
+  "muteExplanation": "No rebràs notificacions d'aquest contacte",
+  "howItWorks": "Com funciona",
+  "ephemeralExplanation1": "Els missatges s'eliminen del servidor tan bon punt es reben.",
+  "ephemeralExplanation2": "Aquesta configuració defineix quan els missatges desapareixen del TEU telèfon després de llegir-los.",
+  "ephemeralExplanation3": "El teu contacte té la seva pròpia configuració per al seu telèfon.",
+
+  "showCallsInRecents": "Mostrar a trucades recents",
+  "showCallsInRecentsSubtitle": "Les trucades de Hash apareixen a l'historial de trucades del telèfon",
+  "feedback": "Comentaris",
+
+  "profilePhoto": "Foto de perfil",
+  "takePhoto": "Fer una foto",
+  "chooseFromGallery": "Triar de la galeria",
+  "removePhoto": "Eliminar foto",
+
+  "viewContactHashId": "Veure l'identificador del contacte",
+  "hashIdPartiallyMasked": "Parcialment ocultat per la teva seguretat i la privacitat del teu contacte",
+
+  "addFirstContact": "Afegeix el teu primer contacte",
+  "addFirstContactSubtitle": "Comparteix el teu codi QR o escaneja el d'un amic",
+  "directory": "Directori",
+  "noContacts": "Cap contacte",
+  "noContactsSubtitle": "Afegeix un contacte per començar",
+  "sendMessageAction": "Enviar un missatge",
+  "audioCall": "Trucada d'àudio",
+  "videoCall": "Videotrucada",
+  "viewProfile": "Veure perfil",
+  "deleteContactDirectory": "Eliminar contacte",
+  "scanShort": "Escanejar",
+  "addShort": "Afegir",
+  "deleteContactConfirmName": "Estàs segur que vols eliminar {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Cap nota",
+  "noNotesSubtitle": "Crea la teva primera nota",
+  "newNote": "Nova nota",
+  "editNote": "Editar nota",
+  "deleteNote": "Eliminar nota",
+  "deleteNoteConfirm": "Estàs segur que vols eliminar aquesta nota?",
+  "noteTitle": "Títol",
+  "noteContent": "Contingut",
+  "addItem": "Afegir element",
+  "pinNote": "Fixar",
+  "unpinNote": "Desafixar",
+  "noteColor": "Color",
+  "notePassword": "Contrasenya",
+  "setPassword": "Establir contrasenya",
+  "changePassword": "Canviar contrasenya",
+  "removePassword": "Eliminar contrasenya",
+  "enterPassword": "Introdueix la contrasenya",
+  "confirmPassword": "Confirma la contrasenya",
+  "passwordPin": "Codi PIN",
+  "passwordText": "Contrasenya de text",
+  "protectedNote": "Nota protegida",
+  "incorrectPassword": "Contrasenya incorrecta",
+  "passwordSet": "Contrasenya establerta",
+  "passwordRemoved": "Contrasenya eliminada",
+  "notesBiometric": "Face ID per a notes",
+  "notesBiometricSubtitle": "Requerir autenticació biomètrica per obrir notes protegides",
+  "textNote": "Nota de text",
+  "checklistNote": "Llista de tasques",
+  "tasksProgress": "{checked}/{total} tasques",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Desat",
+  "searchNotes": "Cercar notes",
+  "legalConsent": "Consentiment legal",
+  "confirmAge13": "Confirmo que tinc almenys 13 anys",
+  "acceptLegalStart": "Accepto la ",
+  "privacyPolicy": "Política de privacitat",
+  "termsOfService": "Condicions d'ús",
+  "andThe": " i les ",
+  "continueButton": "Continuar",
+  "mustAcceptTerms": "Has d'acceptar ambdues condicions per continuar",
+
+  "support": "Suport",
+  "contactSupport": "Contactar suport",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Reportar abús",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Legal",
+  "legalEntity": "Entitat legal",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Fixar",
+  "unpinConversation": "Desafixar",
+  "hideConversation": "Eliminar del feed",
+  "deleteConversation": "Eliminar conversa",
+  "deleteConversationConfirm": "Introdueix el PIN per confirmar l'eliminació de tots els missatges",
+  "noConversations": "Cap conversa encara",
+  "startConversation": "Iniciar",
+
+  "microphonePermissionRequired": "Accés al micròfon requerit",
+  "microphonePermissionExplanation": "Hash necessita el micròfon per fer trucades.",
+  "cameraPermissionExplanation": "Hash necessita la càmera per a videotrucades.",
+  "openSettings": "Obrir configuració",
+
+  "callConnecting": "Connectant...",
+  "callRinging": "Sonant...",
+  "callReconnecting": "Reconnectant...",
+  "callReconnectingTimer": "Reconnectant ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "En pausa",
+  "callPausedSubtitle": "La trucada encara és activa",
+  "callRemoteMicMuted": "El micròfon del contacte està silenciat",
+  "callMiniControlsMute": "Silenciar",
+  "callMiniControlsUnmute": "Activar so",
+  "callMiniControlsHangUp": "Penjar",
+  "callMiniControlsReturn": "Tornar a la trucada",
+  "callNetworkPoor": "Connexió inestable",
+  "callNetworkLost": "Connexió perduda",
+  "callEndedTitle": "Trucada finalitzada",
+
+  "deviceData": "Dades del dispositiu",
+  "deviceDataSubtitle": "Emmagatzematge local i del servidor",
+  "localStorage": "Emmagatzematge local",
+  "onThisDevice": "en aquest dispositiu",
+  "encryptedDatabases": "Bases de dades xifrades",
+  "files": "Fitxers",
+  "secureKeychain": "Clauer segur",
+  "cache": "Memòria cau",
+  "contactsDetail": "Noms, avatars, claus Signal",
+  "messagesDetail": "Converses xifrades",
+  "notesDetail": "Notes personals",
+  "signalSessions": "Sessions Signal",
+  "signalSessionsDetail": "Sessions de xifrat",
+  "pendingContacts": "Contactes pendents",
+  "pendingContactsDetail": "Sol·licituds pendents",
+  "callHistory": "Trucades",
+  "callHistoryDetail": "Historial de trucades",
+  "preferences": "Preferències",
+  "preferencesDetail": "Preferències de mèdia i trucades",
+  "avatars": "Avatars",
+  "media": "Mèdia",
+  "fileCount": "{count, plural, =0{cap fitxer} =1{1 fitxer} other{{count} fitxers}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Actiu",
+  "notDefined": "No definit",
+  "biometrics": "Biomètrics",
+  "recoveryPhrase": "Frase de recuperació",
+  "identity": "Identitat (Hash ID)",
+  "signalKeys": "Claus Signal Protocol",
+  "authTokens": "Tokens d'autenticació",
+  "contactNamesCache": "Memòria cau de noms de contactes",
+  "remoteConfig": "Configuració remota",
+  "notificationPrefs": "Preferències de notificacions",
+  "serverData": "Dades al servidor",
+  "serverDataInfo": "Hash conserva dades mínimes al servidor, totes xifrades o temporals.",
+  "serverProfile": "Perfil",
+  "serverProfileDetail": "Hash ID, claus públiques, token de bústia",
+  "serverPrekeys": "Pre-claus",
+  "serverPrekeysDetail": "Claus Signal d'un sol ús (consumides)",
+  "serverMessages": "Missatges en trànsit",
+  "serverMessagesDetail": "Eliminats després del lliurament (màx 24h)",
+  "serverMedia": "Mèdia en trànsit",
+  "serverMediaDetail": "Eliminats després de la descàrrega",
+  "serverContactRequests": "Sol·licituds de contacte",
+  "serverContactRequestsDetail": "Caduquen després de 24h",
+  "serverRateLimits": "Límits de velocitat",
+  "serverRateLimitsDetail": "Dades temporals anti-abús",
+  "privacyReassurance": "Hash no pot llegir els teus missatges. Totes les dades estan xifrades d'extrem a extrem. Les dades del servidor s'eliminen automàticament.",
+
+  "pinTooSimple": "Aquest PIN és massa simple. Tria un codi més segur.",
+  "genericError": "S'ha produït un error. Si us plau, torna-ho a provar.",
+  "accountCreationError": "No s'ha pogut crear el compte: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frase copiada al porta-retalls",
+  "copyPhrase": "Copiar frase",
+  "recoveryPhraseSecurityWarning": "Apunta aquesta frase en un lloc segur. Si perds el PIN sense aquesta frase, perdràs permanentment l'accés a les teves dades.",
+
+  "noMessages": "Cap missatge",
+  "deleteAllMessagesWithContact": "Eliminar tots els missatges amb {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Confirmació",
+  "untitled": "Sense títol",
+  "noSessions": "Cap sessió",
+  "unknownContact": "Contacte desconegut",
+  "unnamed": "Sense nom",
+  "noPendingRequestsAlt": "Cap sol·licitud pendent",
+  "deleteAllCallHistory": "Eliminar tot l'historial de trucades?",
+  "noCalls": "Cap trucada",
+  "noPreferences": "Cap preferència",
+  "resetAllMediaPrefs": "Restablir totes les preferències de mèdia?",
+  "deleteThisAvatar": "Eliminar aquest avatar?",
+  "deleteAllAvatars": "Eliminar tots els avatars?",
+  "noAvatars": "Cap avatar",
+  "deleteThisFile": "Eliminar aquest fitxer?",
+  "deleteAllMediaFiles": "Eliminar tots els mèdia?",
+  "noMediaFiles": "Cap mèdia",
+  "outgoing": "Sortint",
+  "incoming": "Entrant",
+  "ephemeralViewDuration": "Vista efímera: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Vista normal",
+  "callReasonCompleted": "Completada",
+  "callReasonMissed": "Perduda",
+  "callReasonDeclined": "Rebutjada",
+  "callReasonFailed": "Fallada",
+  "justNow": "Ara mateix",
+  "timeAgoMinutes": "Fa {count} min",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "Fa {count}h",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "Fa {count}d",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Contacte",
+  "messageTypeLocation": "Ubicació",
+  "statusQueued": "En cua",
+  "blockedBadge": "Bloquejat",
+  "protectedBadge": "Protegida",
+  "messageCount": "{count} missatge(s)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Eliminar?",
+
+  "transferMyAccountTitle": "Transferir el meu compte",
+  "loadingError": "Error de càrrega",
+  "transferToNewDevice": "Transferir a un nou dispositiu",
+  "transferInstructions": "Al teu nou dispositiu, tria \"Recuperar el meu compte\" i introdueix aquesta informació:",
+  "yourHashIdLabel": "El teu Hash ID",
+  "enterYourPinCode": "Introdueix el teu codi PIN",
+  "pinOwnerConfirmation": "Per confirmar que ets el propietari d'aquest compte",
+  "scanThisQrCode": "Escaneja aquest codi QR",
+  "withYourNewDevice": "Amb el teu nou dispositiu",
+  "orEnterTheCode": "o introdueix el codi",
+  "transferCodeLabel": "Codi de transferència",
+  "proximityVerification": "Verificació de proximitat",
+  "bringDevicesCloser": "Apropa els dos dispositius",
+  "confirmTransferQuestion": "Confirmar la transferència?",
+  "accountWillBeTransferred": "El teu compte es transferirà al nou dispositiu.\n\nAquest dispositiu es desconnectarà permanentment.",
+  "transferComplete": "Transferència completada",
+  "transferSuccessMessage": "El teu compte s'ha transferit correctament.\n\nAquesta aplicació es tancarà ara.",
+  "manualVerification": "Verificació manual",
+  "codeDisplayedOnBothDevices": "Codi mostrat als dos dispositius:",
+  "doesCodeMatchNewDevice": "Coincideix aquest codi amb el del nou dispositiu?",
+  "verifiedStatus": "Verificat",
+  "inProgressStatus": "En curs...",
+  "notAvailableStatus": "No disponible",
+  "codeExpiredRestart": "El codi ha caducat. Si us plau, reinicia.",
+  "codesDoNotMatchCancelled": "Els codis no coincideixen. Transferència cancel·lada.",
+  "transferToDevice": "A: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Copiat!",
+  "expiresInTime": "Caduca en {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Els biomètrics no estan disponibles en aquest dispositiu",
+  "biometricAuthError": "Error durant l'autenticació biomètrica",
+  "authenticateForBiometric": "Si us plau, autenticà't per activar els biomètrics",
+  "biometricAuthFailed": "L'autenticació biomètrica ha fallat",
+
+  "forceUpdateTitle": "Actualització requerida",
+  "forceUpdateMessage": "Hi ha una nova versió de Hash disponible. Si us plau, actualitza per continuar.",
+  "updateButton": "Actualitzar",
+  "maintenanceInProgress": "Manteniment en curs",
+  "tryAgainLater": "Si us plau, torna-ho a provar més tard",
+  "information": "Informació",
+
+  "later": "Més tard",
+  "doYouLikeHash": "T'agrada Hash?",
+  "yourFeedbackHelps": "La teva opinió ens ajuda a millorar l'aplicació",
+  "ratingTerrible": "Terrible",
+  "ratingBad": "Dolent",
+  "ratingOk": "Acceptable",
+  "ratingGood": "Bo",
+  "ratingExcellent": "Excel·lent!",
+  "donationMessage": "Hash és un projecte sense ànim de lucre. El teu suport ens ajuda a continuar construint un missatger realment privat.",
+
+  "recentConnections": "Connexions recents",
+  "loginInfoText": "Cada desbloqueig amb PIN es registra localment. Només es conserven les últimes 24 hores.",
+  "connectionCount": "Connexió(ns)",
+  "periodLabel": "Període",
+  "historyLabel": "Historial",
+  "noLoginRecorded": "Cap inici de sessió registrat",
+  "nextUnlocksAppearHere": "Els propers desbloqueigs apareixeran aquí.",
+  "dataLocalOnly": "Aquestes dades s'emmagatzemen només al teu dispositiu i mai es transmeten.",
+  "currentSession": "Actual",
+  "todayLabel": "Avui",
+  "yesterdayLabel": "Ahir",
+  "justNowLabel": "Ara mateix",
+  "minutesAgoLabel": "Fa {count} min",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "Fa {hours}h",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "Fa {hours}h {minutes}min",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Cap manteniment planificat",
+  "everythingWorkingNormally": "Tot funciona normalment",
+  "maintenanceTitle": "Manteniment",
+  "maintenanceActiveLabel": "EN CURS",
+  "maintenancePlannedLabel": "PLANIFICAT",
+
+  "locking": "Bloquejant...",
+
+  "newMessageNotification": "Missatge nou",
+
+  "secExplainTitle": "Com Hash et protegeix",
+  "secExplainIntro": "Hash està dissenyat perquè ningú pugui llegir els teus missatges.",
+  "secExplainIntroSub": "Ni tan sols nosaltres.\nAixí és com funciona, explicat de forma senzilla.",
+  "secJourneyLabel": "EL VIATGE",
+  "secJourneyTitle": "El viatge del teu missatge",
+  "secJourneySubtitle": "Del teu dit a la pantalla del teu contacte, cada pas està protegit. Segueix el camí.",
+  "secStep1Title": "Escrius el teu missatge",
+  "secStep1Desc": "Escrius \"Hola!\" a l'aplicació. En aquest moment, el missatge només existeix a la memòria del teu telèfon. Res no s'ha enviat.",
+  "secStep2Title": "Xifrat amb Signal Protocol",
+  "secStep2Desc": "Quan prems \"Enviar\", el teu missatge es transforma en una cadena de caràcters incomprensibles. És com si el missatge estigués tancat en una caixa forta de la qual només el teu contacte té la clau.",
+  "secStep3Title": "Sealed Sender: el sobre invisible",
+  "secStep3Desc": "Imagina que envies una carta per correu, però sense adreça del remitent al sobre. Això és exactament el que fa Hash. El missatge es diposita en una bústia anònima. El servidor no sap qui l'ha enviat.",
+  "secStep4Title": "El servidor no veu res",
+  "secStep4Desc": "El servidor fa de carter cec. Només sap que \"algú ha dipositat alguna cosa a la bústia #A7X9\". No sap qui l'ha enviat, què és, ni per a qui és.",
+  "secStep4Highlight": "Cap metadada emmagatzemada: ni adreça IP, ni marca de temps, ni enllaç entre remitent i destinatari.",
+  "secStep5Title": "El teu contacte rep el missatge",
+  "secStep5Desc": "El telèfon del teu contacte recupera el contingut de la seva bústia anònima i desxifra el missatge amb la seva clau privada, que mai ha sortit del seu dispositiu. \"Hola!\" apareix a la seva pantalla.",
+  "secStep6Title": "El missatge desapareix del servidor",
+  "secStep6Desc": "Quan el teu contacte confirma la recepció, el servidor elimina permanentment el missatge. Cap paperera, cap arxiu, cap còpia de seguretat. Fins i tot els missatges no llegits es destrueixen automàticament després de 24 hores.",
+  "secStep7Title": "Caducitat local",
+  "secStep7Desc": "Al telèfon del teu contacte, el missatge s'autodestrueix segons la durada que has triat: immediatament després de llegir, 5 minuts, 1 hora... tu decideixes.",
+  "secJourneyConclusion": "Resultat: zero rastres al servidor, zero rastres als dispositius. El missatge ha existit només el temps necessari per ser llegit, després ha desaparegut.",
+  "secArchLabel": "ARQUITECTURA",
+  "secArchTitle": "5 capes de protecció",
+  "secArchSubtitle": "Hash no depèn d'una sola tecnologia. Cada capa reforça les altres. Fins i tot si una capa es compromet, les teves dades romanen segures.",
+  "secLayer1Title": "Xifrat d'extrem a extrem",
+  "secLayer1Desc": "Cada missatge es xifra amb una clau única. En termes senzills: fins i tot si algú desxifra un missatge, no podrà desxifrar el següent. Cada missatge té el seu propi pany.",
+  "secLayer1Detail": "Per als fitxers (fotos, vídeos, documents), Hash utilitza xifrat addicional AES-256-GCM. El fitxer es xifra abans de sortir del teu telèfon.",
+  "secLayer2Title": "Sealed Sender (anonimat de xarxa)",
+  "secLayer2Desc": "Els missatgers normals envien els teus missatges amb la teva identitat adjunta. És com escriure el teu nom al sobre. Hash utilitza bústies anònimes: el servidor lliura el missatge sense saber qui l'ha enviat.",
+  "secLayer2Detail": "Resultat: fins i tot en cas de filtració de dades del servidor, és impossible reconstruir qui parla amb qui.",
+  "secLayer3Title": "Eliminació automàtica",
+  "secLayer3Desc": "Els missatges s'eliminen del servidor tan bon punt es confirma la recepció. Fins i tot si un missatge mai es recupera, es destrueix automàticament després de 24 hores.",
+  "secLayer3Detail": "Al teu telèfon, els missatges s'autodestrueixen segons la durada que tries: immediatament, 5 min, 15 min, 30 min, 1h, 3h, 6h o 12h.",
+  "secLayer4Title": "Protecció d'accés local",
+  "secLayer4Desc": "L'aplicació està protegida per un PIN de 6 dígits i/o biomètrics (Face ID, empremta digital). Després de massa intents fallits, l'aplicació es bloqueja amb un retard creixent després de cada error.",
+  "secLayer5Title": "Base de dades bloquejada",
+  "secLayer5Desc": "Al costat del servidor, cap usuari pot escriure directament a la base de dades. Totes les accions passen per funcions segures que verifiquen cada sol·licitud.",
+  "secLayer5Detail": "És com un taulell de banc: mai toques la caixa forta tu mateix. Fas una sol·licitud, i el sistema verifica que tens el dret abans d'actuar.",
+  "secVashLabel": "ÚNIC AL MÓN",
+  "secVashTitle": "Mode Vash",
+  "secVashSubtitle": "Un sistema de seguretat d'emergència que no existeix en cap altra aplicació de missatgeria.",
+  "secVashScenarioTitle": "Imagina aquesta situació",
+  "secVashScenario1": "Algú accedeix al teu telèfon",
+  "secVashScenario2": "Et demanen el codi PIN",
+  "secVashScenario3": "Vols esborrar totes les dades urgentment",
+  "secVashSolutionTitle": "La solució: dos codis PIN",
+  "secVashSolutionDesc": "Configures dos codis PIN diferents a Hash:",
+  "secVashNormalCodeLabel": "Codi normal",
+  "secVashNormalCodeDesc": "Obre l'aplicació normalment amb totes les teves dades",
+  "secVashCodeLabel2": "Codi Vash",
+  "secVashCodeDescription": "Obre l'aplicació normalment... però totes les teves dades s'eliminen silenciosament en segon pla",
+  "secVashWhatHappensTitle": "Què passa després",
+  "secVashWhatHappensDesc": "L'aplicació s'obre normalment. Cap alerta, cap animació sospitosa. La pantalla simplement mostra una aplicació buida, com si l'acabessis d'instal·lar.\n\nEn realitat, totes les teves converses, contactes i missatges s'han eliminat irreversiblement en una fracció de segon.",
+  "secCallsLabel": "TRUCADES I FITXERS",
+  "secCallsTitle": "Tot està xifrat",
+  "secCallsSubtitle": "No són només els missatges. Absolutament tot el que passa per Hash està xifrat d'extrem a extrem.",
+  "secAudioCallTitle": "Trucades d'àudio",
+  "secAudioCallDesc": "Xifrades d'extrem a extrem via WebRTC. La veu es transmet directament entre dispositius.",
+  "secVideoCallTitle": "Videotrucades",
+  "secVideoCallDesc": "Mateixa tecnologia, cada flux xifrat individualment.",
+  "secPhotosTitle": "Fotos i vídeos",
+  "secPhotosDesc": "Xifrats en AES-256-GCM abans de sortir del teu telèfon.",
+  "secDocsTitle": "Documents",
+  "secDocsDesc": "PDF, ZIP, qualsevol fitxer. Nom, mida i contingut xifrats.",
+  "secAnonLabel": "ANONIMAT",
+  "secAnonTitle": "Cap identitat requerida",
+  "secAnonSubtitle": "Hash mai demana el teu número de telèfon ni el teu correu electrònic. Ets identificat per un Hash ID únic i anònim.",
+  "secHashIdTitle": "El teu Hash ID",
+  "secHashIdDesc": "Aquest és el teu identificador únic. No revela res sobre tu: ni el nom, ni el número, ni la ubicació. És com un pseudònim impossible de vincular a la teva identitat real.\n\nPer afegir un contacte, comparteixes el teu Hash ID o escaneges un codi QR. Això és tot. Sense llibreta d'adreces sincronitzada, sense suggeriments \"Persones que potser coneixes\".",
+  "secDataLabel": "DADES",
+  "secDataTitle": "Què no sap Hash",
+  "secDataSubtitle": "La millor manera de protegir les teves dades és no recollir-les.",
+  "secNeverCollected": "Mai recollit",
+  "secNeverItem1": "Contingut dels missatges",
+  "secNeverItem2": "Llista de contactes",
+  "secNeverItem3": "Número de telèfon",
+  "secNeverItem4": "Adreça de correu electrònic",
+  "secNeverItem5": "Adreça IP",
+  "secNeverItem6": "Ubicació",
+  "secNeverItem7": "Metadades (qui parla amb qui)",
+  "secNeverItem8": "Historial de trucades",
+  "secNeverItem9": "Llibreta d'adreces",
+  "secNeverItem10": "Identificadors publicitaris",
+  "secTempStored": "Emmagatzemat temporalment",
+  "secTempItem1": "Hash ID anònim (identificador únic)",
+  "secTempItem2": "Claus públiques de xifrat",
+  "secTempItem3": "Missatges xifrats en trànsit (màx 24h)",
+  "secTempNote": "Fins i tot aquestes dades mínimes no et poden identificar. El teu Hash ID no està vinculat a cap informació personal.",
+  "secFooterTitle": "La teva privacitat, la teva llibertat",
+  "secFooterDesc": "Hash utilitza les mateixes tecnologies de xifrat que les aplicacions professionals més exigents. Els teus missatges estan protegits per les matemàtiques, no per promeses."
+}

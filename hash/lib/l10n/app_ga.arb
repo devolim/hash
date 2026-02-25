@@ -1,0 +1,1041 @@
+{
+  "@@locale": "ga",
+
+  "appName": "Hash",
+  "appTagline": "Zero Trace. Zero Compromise.",
+
+  "conversations": "Comhraite",
+  "contacts": "Teagmhalaithe",
+  "noConversation": "Gan comhra",
+  "noConversationSubtitle": "Cuir teagmhalaiche leis chun tosu ag comhra go sabhailte",
+  "pendingRequestsCount": "{count, plural, =1{1 iarratas faighte} other{{count} iarratas faighte}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 iarratas seolta ar feitheamh} other{{count} iarratas seolta ar feitheamh}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Cuir teagmhalaiche leis",
+  "shareApp": "Roinn an aip",
+  "newMessage": "Teachtaireacht nua",
+  "newConversation": "Seol teachtaireacht",
+
+  "settings": "Socruithe",
+  "myHashId": "Mo Hash ID",
+  "supportHash": "Tacaigh le Hash",
+  "supportHashSubtitle": "Is tionscadal neamhbhrabusach e Hash",
+  "donate": "Tabhair sintiuis",
+
+  "appearance": "Cuma",
+  "theme": "Teama",
+  "themeAuto": "Uathobrioch",
+  "themeAutoSubtitle": "Leanann socruithe an chorais",
+  "themeDark": "Dorcha",
+  "themeLight": "Eadrom",
+  "themeRecommendation": "Moltar an teama dorcha le haghaidh priobhaideachta nios fearr",
+  "language": "Teanga",
+  "languageAuto": "Uathobrioch (coras)",
+
+  "notifications": "Fograi",
+  "messages": "Teachtaireachtai",
+  "calls": "Glaonna",
+  "vibration": "Critheadh",
+  "notificationContent": "Abhar an fhogra",
+  "notificationContentFull": "Taispeain gach rud",
+  "notificationContentFullDesc": "Ainm an teagmhalaiche agus reamhamharc na teachtaireachta",
+  "notificationContentName": "Ainm amhain",
+  "notificationContentNameDesc": "Taispeain ainm an teagmhalaiche amhain",
+  "notificationContentDiscrete": "Discreideach",
+  "notificationContentDiscreteDesc": "Taispeain \"Teachtaireacht nua\" amhain",
+
+  "security": "Slandail",
+  "howHashProtectsYou": "Conas a chosnaionn Hash thu",
+  "howHashProtectsYouSubtitle": "Tuig do shlandail",
+  "accountSecurity": "Slandail an chuntais",
+  "accountSecuritySubtitle": "PIN, biomeadrach, Modh Vash",
+  "blockScreenshots": "Cuir cosc ar ghabhail scaileain",
+  "transferDevice": "Aistriu go gleas eile",
+  "transferDeviceSubtitle": "Aistrigh do chuntas",
+
+  "pinCode": "Cod PIN",
+  "changePin": "Athraigh an cod PIN",
+  "currentPin": "Cod PIN reatha",
+  "newPin": "Cod PIN nua",
+  "confirmPin": "Deimhnigh an cod PIN",
+  "pinChanged": "Cod PIN athraithe",
+  "incorrectPin": "PIN micheart",
+  "pinsDoNotMatch": "Ni mheaitsealann na coid",
+
+  "autoLock": "Glasail uathobrioch",
+  "autoLockDelay": "Moill ghlasala",
+  "autoLockImmediate": "Laithreach",
+  "autoLockMinute": "1 noimead",
+  "autoLockMinutes": "{count} noimead",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "vashCode": "Cod Vash",
+  "vashModeTitle": "Modh Vash",
+  "vashModeExplanation": "Do lion sabhailteachta deireanach.",
+  "vashModeDescription": "Roghnoidh tu an dara cod PIN. Ma chuirtear iallach ort Hash a oscailt la eigin, cuir isteach an cod seo in ait do ghnath-PIN.\n\nOscloidh an aip mar is gnath, ach beidh do chuid comhraite agus teagmhalacha imithe.\n\nD'aon duine ata ag feachaint ar do scailean, ta cuma fholamh ar Hash - mar nach ndearna tu e a usaid riamh.",
+  "vashModeIrreversible": "Ta an gniomh seo ciuin agus do-aischuirthe.",
+  "chooseVashCode": "Roghnaigh mo chod Vash",
+  "vashCodeInfo": "An dara cod PIN a osclaionn an aip mar is gnath, ach folamh.",
+  "vashCodeInfoDetail": "Ma chuireann tu an cod seo isteach in ait do PIN:",
+  "vashDeleteContacts": "Imionn do theagmhalacha",
+  "vashDeleteMessages": "Imionn do chuid comhraite",
+  "vashDeleteHistory": "Imionn do notai",
+  "vashKeepId": "Fanann d'aitheantas Hash (#XXX-XXX-XXX) mar an gceanna",
+  "vashAppearNormal": "Beidh cuma normalta ar an aip ach folamh, mar a bhi si nua. Ta an gniomh seo do-aischuirthe.",
+  "setupVashCode": "Socraigh an cod Vash",
+  "modifyVashCode": "Athraigh an cod Vash",
+  "currentVashCode": "Cod Vash reatha",
+  "newVashCode": "Cod Vash nua",
+  "confirmVashCode": "Deimhnigh an cod Vash",
+  "vashCodeConfigured": "Cod Vash socraithe",
+  "vashCodeModified": "Cod Vash athraithe",
+  "vashCodeMustDiffer": "Caithfidh an cod Vash a bheith difriuil on chod PIN",
+  "incorrectVashCode": "Cod Vash micheart",
+  "vashWhatToDelete": "Cad ba mhaith leat a chur ar ceal le Modh Vash?",
+  "vashDeleteContactsOption": "Teagmhalacha",
+  "vashDeleteMessagesOption": "Teachtaireachtai",
+  "vashDeleteNotesOption": "Notai",
+  "vashActivated": "Modh Vash gniomhachtaithe",
+  "vashCreateSubtitle": "Roghnaigh cod difriuil o do phriomh-PIN",
+  "vashConfirmSubtitle": "Deimhnigh do chod Vash",
+
+  "pinCodeForEntry": "Cod PIN chun an aip a oscailt",
+  "vashCodeSection": "Modh Vash",
+  "biometric": "Biomeadrach",
+  "biometricUnlock": "Dighlasal le mearloirg no Face ID",
+  "enableBiometric": "Cumasaigh biomeadrach",
+  "biometricWarningMessage": "Tri biomeadrach a chumasiu, ni bheidh tu in ann do chod Vash a usaid chun an aip a oscailt.\n\nNi bheidh tu in ann an cod Vash a usaid ach amhain ma theipeann ar an mbiomeadrach (tar eis roinnt iarrachtai teipthe).\n\nAn bhfuil tu cinnte gur mhaith leat leanunt ar aghaidh?",
+  "understood": "Tuigim",
+
+  "shareAppSubtitle": "Roinn Hash le do chairde",
+  "share": "Roinn",
+
+  "danger": "Conturt",
+  "panicButton": "Cnaipe scanraidh",
+  "panicButtonSubtitle": "Scrios gach sonrai",
+  "deleteAccount": "Scrios mo chuntas",
+  "deleteAccountSubtitle": "Gniomh do-aischuirthe",
+  "deleteAccountConfirmTitle": "Scrios mo chuntas",
+  "deleteAccountConfirmMessage": "Scriosfar do chuntas go buan. Ta an gniomh seo do-aischuirthe.\n\n- Do chuid comhraite go leir\n- Do chuid teagmhalacha go leir\n- Do Hash ID\n\nBeidh ort cuntas nua a chruthu.",
+  "deleteForever": "Scrios go buan",
+  "cancel": "Cealaigh",
+
+  "panicConfirmTitle": "Cnaipe Scanraidh",
+  "panicConfirmMessage": "Scriosfaidh an gniomh seo DO SHONRAI GO LEIR go do-aischuirthe:\n\n- Do chuid teachtaireachtai go leir\n- Do chuid teagmhalacha go leir\n- Do chuntas\n\nAn bhfuil tu lan-chinnte?",
+  "deleteAll": "SCRIOS GACH RUD",
+  "dataDeletedForSecurity": "Modh Vash gniomhachtaithe.",
+  "deletionError": "Earraid le linn scriosta: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "yourSecurity": "Do shlandail",
+  "securityInfo": "- Criptiuchain ceann go ceann (Protocal Signal)\n- Gan sonrai ar ar bhfreastalairi tar eis seachadadh\n- Eochracha storaite ar do ghleas amhain\n- Cod PIN nach seoltar chuig an bhfreastalai riamh",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "welcome": "Failte",
+  "securityStatement1": "Ta do chuid teachtaireachtai cosanta.",
+  "securityStatement2": "Criptiuchain ceann go ceann.",
+  "securityStatement3": "Gan rian. Gan comhreiteach.",
+  "securityStatement4": "Is ceart e do phriobhaideachas.",
+
+  "accessBlocked": "Rochtain blocailte",
+  "tooManyAttempts": "An iomarca iarrachtai. Bain triail eile as nios deanai.",
+  "pleaseWait": "Fan le do thoil",
+  "waitDelay": "Fan go dti go mbeidh an mhoill thart",
+  "attemptCount": "Iarracht {current} as {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Bain triail eile as i {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "PIN dearmadta? Usaid an frasa aisghabhala",
+  "useRecoveryPhrase": "Usaid an frasa aisghabhala",
+
+  "recoveryWarningTitle": "Rabhadh",
+  "recoveryWarningMessage": "Deanfaidh aisghabháil an chuntais:",
+  "recoveryDeleteAllMessages": "DO chuid teachtaireachtai GO LEIR a scriosadh",
+  "recoveryWaitDelay": "Moill 1 uair an chloig a fhorchur",
+  "recoveryKeepContacts": "Do chuid teagmhalacha a choinneal",
+  "recoveryIrreversible": "Ta an gniomh seo do-aischuirthe. Caillfear do chuid teachtaireachtai go buan.",
+  "iUnderstand": "Tuigim",
+
+  "accountRecovery": "Aisghabháil an chuntais",
+  "enterRecoveryPhrase": "Cuir isteach na 24 focal i d'fhrasa aisghabhala, scartha le spasanna.",
+  "recoveryPhraseHint": "focal1 focal2 focal3 ...",
+  "recover": "Aisghabh",
+  "recoveryPhraseRequired": "Cuir isteach d'fhrasa aisghabhala le do thoil",
+  "recoveryPhrase24Words": "Caithfidh go mbeadh 24 focal san fhrasa",
+  "incorrectRecoveryPhrase": "Frasa aisghabhala micheart",
+  "recoveryInitError": "Earraid agus an t-aisghabháil a thosu",
+
+  "securityDelay": "Moill slandala",
+  "securityDelayMessage": "Ar mhaithe le do shlandail, ta moill ag teastail sula feidir PIN nua a chruthu.",
+  "timeRemaining": "Am fagtha",
+  "messagesDeletedForProtection": "Scriosadh do chuid teachtaireachtai ar mhaithe le do chosaint.",
+  "canCloseApp": "Is feidir leat an aip a dhunadh agus filleadh nios deanai.",
+
+  "onboardingTitle1": "Failte go Hash",
+  "onboardingSubtitle1": "An aip teachtaireachtai nach bhfagann rian ar bith",
+  "onboardingTitle2": "Criptiuchain iomlan",
+  "onboardingSubtitle2": "Ta do chuid teachtaireachtai criptithe ceann go ceann le protocal Signal",
+  "onboardingTitle3": "Gan rian",
+  "onboardingSubtitle3": "Scriostar teachtaireachtai on bhfreastalai chomh luath agus a sheachadtar iad",
+  "onboardingTitle4": "Do shlandail",
+  "onboardingSubtitle4": "Cod PIN, Modh Vash agus frasa aisghabhala",
+
+  "getStarted": "Tosu",
+  "next": "Ar aghaidh",
+  "skip": "Sceip",
+  "alreadyHaveAccount": "Ta cuntas agam cheana",
+  "transferMyAccount": "Aistrigh mo chuntas",
+
+  "createPin": "Cruthaigh cod PIN",
+  "createPinSubtitle": "Cosnaionn an cod seo rochtain ar d'aip",
+  "confirmYourPin": "Deimhnigh do chod PIN",
+  "confirmPinSubtitle": "Cuir isteach do chod PIN aris",
+
+  "saveRecoveryPhrase": "Frasa aisghabhala",
+  "saveRecoveryPhraseSubtitle": "Scriobh sios na 24 focal seo in ord. Ligfidh siad duit do chuntas a aisghabháil ma dheanann tu dearmad ar do PIN.",
+  "phraseWritten": "Scriobh me sios mo fhrasa",
+  "warningRecoveryPhrase": "Ma chailleann tu an fhrasa seo agus ma dheanann tu dearmad ar do PIN, caillfidh tu rochtain ar do chuntas.",
+
+  "accountTransferred": "Cuntas aistrithe",
+  "accountTransferredMessage": "Aistriodh do chuntas go gleas eile. Nil an seisiun seo baili a thuilleadh.",
+  "accountTransferredInfo": "Mura tusa a rinne an t-aistriu seo, b'fheidir go bhfuil do chuntas i mbaol.",
+  "logout": "Logail amach",
+
+  "transferAccount": "Aistrigh an cuntas",
+  "transferAccountInfo": "Aistrigh do chuntas Hash go gleas nua. Cuirfear do sheisiun reatha ar neamhni.",
+  "generateTransferCode": "Gin cod aistrithe",
+  "transferCode": "Cod aistrithe",
+  "transferCodeExpires": "Rachaidh an cod seo in eag i {minutes} noimead",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Cuir isteach an cod seo ar do ghleas nua chun do chuntas a aistriu.",
+  "generateNewCode": "Gin cod nua",
+
+  "scanQrCode": "Scan cod QR",
+  "scanQrCodeSubtitle": "Scan cod QR teagmhala chun iad a chur leis",
+  "qrCodeDetected": "Cod QR aimsithe",
+  "invalidQrCode": "Cod QR neamhbhaili",
+  "cameraPermissionRequired": "Cead ceamara ag teastail",
+
+  "myQrCode": "Mo chod QR",
+  "myQrCodeSubtitle": "Roinn an cod QR seo le go bhfeadfaidh do theagmhalacha thu a chur leis",
+  "shareQrCode": "Roinn",
+
+  "addContactTitle": "Cuir teagmhail leis",
+  "addContactByHashId": "Cuir isteach Hash ID do theagmhala",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Cuardaigh",
+  "contactNotFound": "Teagmhail gan aimsiu",
+  "contactAlreadyAdded": "Ta an teagmhail seo i do liosta cheana",
+  "contactAdded": "Teagmhail curtha leis",
+
+  "myProfile": "Mo phroifil",
+  "myProfileSubtitle": "Roinn an fhaisneis seo le go bhfeadfar thu a chur leis",
+  "temporaryCode": "Cod sealadach",
+  "temporaryCodeExpires": "In eag i {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Cod imithe in eag",
+  "generateNewCodeButton": "Cod nua",
+  "copyHashId": "Coipeail an ID",
+  "copyCode": "Coipeail an cod",
+  "copiedToClipboard": "Coipeailte",
+  "showMyQrCode": "Taispeain mo chod QR",
+  "orDivider": "no",
+  "openScanner": "Oscail an scanoir",
+  "addManually": "Cuir leis de laimh",
+  "contactHashIdLabel": "Hash ID an teagmhala",
+  "temporaryCodeLabel": "Cod sealadach",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Iarr ar do theagmhail cod a ghinniunt ona bproifil",
+  "verifyAndAdd": "Fioraigh agus cuir leis",
+  "fillAllFields": "Lion gach reimse le do thoil",
+  "invalidHashIdFormat": "Formaid ID neamhbhaili (m.sh: 123-456-ABC)",
+  "userNotFound": "Usaideoir gan aimsiu",
+  "cannotAddYourself": "Ni feidir leat tu fein a chur leis",
+  "invalidOrExpiredCode": "Cod sealadach neamhbhaili no imithe in eag",
+  "contactFound": "Teagmhail aimsithe!",
+  "howToCallContact": "Cen t-ainm a thabharfaidh tu air/uirthi?",
+  "contactNameHint": "Ainm an teagmhala",
+  "addContactButton": "Cuir leis",
+
+  "contactDetails": "Sonrai an teagmhala",
+  "contactName": "Ainm an teagmhala",
+  "contactHashId": "Hash ID",
+  "addedOn": "Curtha leis ar {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Scrios an teagmhail",
+  "deleteContactConfirm": "Scrios an teagmhail seo?",
+  "deleteContactMessage": "Scriosfaidh an gniomh seo an comhra ar fad freisin.",
+  "delete": "Scrios",
+
+  "typeMessage": "Scriobh teachtaireacht...",
+  "messageSent": "Seolta",
+  "messageDelivered": "Seachadta",
+  "messageRead": "Leite",
+  "messageFailed": "Theip ar sheoladh",
+
+  "now": "Anois",
+  "minutesAgo": "{count}noi",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}u",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}l",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Inniu",
+  "yesterday": "Inne",
+  "dateAtTime": "{date} ag {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Bi liom ar Hash! 🔒\n\nIs aip teachtaireachtai fior-phriobhaideach i: criptiuchain iomlan, gan rian ar na freastalairi, agus modh scanraidh mas ga.\n\nIosladail an aip anseo 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Earraid",
+  "ok": "OK",
+  "view": "Feach",
+  "yes": "Ta",
+  "no": "Nil",
+  "save": "Sabhail",
+  "edit": "Cuir in eagar",
+  "close": "Dun",
+  "confirm": "Deimhnigh",
+  "loading": "Ag lodail...",
+  "retry": "Bain triail eile as",
+
+  "pendingRequests": "Iarratais faighte",
+  "noPendingRequests": "Gan iarratas ar feitheamh",
+  "pendingRequestsSubtitle": "Ba mhaith leis na daoine seo thu a chur leis",
+  "requestFromUser": "Iarratas o {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "In eag i {days} la",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Glac leis",
+  "rejectRequest": "Diultaigh",
+  "requestAccepted": "Iarratas glactha",
+  "requestRejected": "Iarratas diultaithe",
+  "requestSent": "Iarratas seolta!",
+  "requestSentSubtitle": "Seoladh d'iarratas. Caithfidh an t-usaideoir glacadh leis sula feidir libh comhra.",
+  "requestAlreadyPending": "Ta iarratas ar feitheamh cheana",
+  "requestAlreadySentByOther": "Sheol an duine seo iarratas chugat cheana",
+  "addByHashId": "Cuir leis le Hash ID",
+  "addByHashIdSubtitle": "Cuir isteach Hash ID agus cod sealadach an teagmhala",
+  "enterTemporaryCode": "Cuir isteach an cod 6 dhigit",
+  "sendRequest": "Seol an t-iarratas",
+  "acceptContactTitle": "Glac leis an teagmhail",
+  "acceptContactSubtitle": "Is feidir leat ainm pearsantaithe a thabhairt do/di",
+  "leaveEmptyForHashId": "Fag folamh chun an Hash ID a usaid",
+  "firstName": "Ceadainm",
+  "lastName": "Sloinne",
+  "notes": "Notai",
+  "notesHint": "Notai pearsanta faoin teagmhail seo",
+
+  "photoOptional": "Grianghraf (roghnach)",
+  "contactNameOptional": "Ainm (roghnach)",
+  "notesOptional": "Notai (roghnach)",
+  "storedLocally": "Storailte ar do ghleas amhain",
+  "encryptedMessageLabel": "Teachtaireacht chriptithe",
+  "identityMessageHint": "Ce thu fein? Conas a bhfuil aithne agaibh ar a cheile?",
+  "messageWillBeSentEncrypted": "Criptiofar an teachtaireacht seo agus seolfar chuig an bhfaighteoir i",
+  "sendRequestButton": "Seol an t-iarratas",
+  "requestExpiresIn24h": "Rachaidh an t-iarratas in eag i 24u mura nglactar leis",
+  "theyAlreadySentYouRequest": "Sheol an duine seo iarratas chugat cheana",
+
+  "requests": "Iarratais",
+  "receivedRequests": "Faighte",
+  "sentRequests": "Seolta",
+  "noSentRequests": "Gan iarratas seolta",
+  "cancelRequest": "Cealaigh",
+  "deleteRequest": "Scrios an t-iarratas",
+  "requestCancelled": "Iarratas cealaithe",
+  "sentTo": "Seolta chuig {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "In eag i {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Faighte {time} o shin",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Teachtaireacht on iarratasoir",
+
+  "copy": "Coipeail",
+  "messageInfo": "Eolas teachtaireachta",
+
+  "messageDirection": "Treo",
+  "messageSentByYou": "Seolta agatsa",
+  "messageReceived": "Faighte",
+  "messageSentAt": "Seolta ar",
+  "messageStatus": "Stadas",
+  "messageReadAt": "Leite ar",
+  "messageType": "Cineal",
+  "messageSize": "Meid",
+  "messageExpiresAt": "In eag ar",
+  "messageEncrypted": "Criptithe ceann go ceann",
+
+  "messageStatusSending": "A sheoladh...",
+  "messageStatusSent": "Seolta",
+  "messageStatusDelivered": "Seachadta",
+  "messageStatusRead": "Leite",
+  "messageStatusFailed": "Theip",
+
+  "serverStatus": "Freastalai",
+  "onServer": "Ag feitheamh le seachadadh",
+  "deletedFromServer": "Scriosta",
+
+  "messageTypeText": "Teacs",
+  "messageTypeImage": "Iomha",
+  "messageTypeVideo": "Fisean",
+  "messageTypeVoice": "Fuaim",
+  "messageTypeFile": "Comhad",
+
+  "indefinitely": "Go neamhtheoranta",
+  "hoursShort": "u",
+  "minutesShort": "noi",
+  "hours": "uaireanta",
+  "minutes": "noimeid",
+  "seconds": "soicindi",
+
+  "ephemeralMessages": "Teachtaireachtai gearrshaolach",
+  "ephemeralMessagesDescription": "Scriostar teachtaireachtai go huathobrioch tar eis an ama seo",
+  "ephemeralImmediate": "Laithreach",
+  "ephemeralImmediateDesc": "Scriosta chomh luath agus a leitear",
+  "ephemeralMyPreference": "Mo rogha",
+  "ephemeralMyPreferenceDesc": "Usaid an socru domhanda",
+  "ephemeralDefaultSetting": "Fad na dteachtaireachtai",
+  "ephemeralChooseDefault": "Molta",
+  "ephemeral30Seconds": "30 soicind",
+  "ephemeral30SecondsDesc": "Scriosta 30s tar eis leitheoireachta",
+  "ephemeral5Minutes": "5 noimead",
+  "ephemeral5MinutesDesc": "Scriosta 5noi tar eis leitheoireachta",
+  "ephemeral1Hour": "1 uair",
+  "ephemeral1HourDesc": "Scriosta 1u tar eis leitheoireachta",
+  "ephemeral3Hours": "3 huaire",
+  "ephemeral6Hours": "6 huaire",
+  "ephemeral6HoursDesc": "Scriosta 6u tar eis leitheoireachta",
+  "ephemeral12Hours": "12 uair",
+  "ephemeral24Hours": "24 uair",
+  "ephemeral24HoursDesc": "Scriosta 24u tar eis leitheoireachta",
+  "customDuration": "Fad saincheaptha",
+  "howItWorks": "Conas a oibrionn se?",
+  "ephemeralExplanation1": "Scriostar teachtaireachtai on bhfreastalai chomh luath agus a fhaightear iad.",
+  "ephemeralExplanation2": "Socraionn an socru seo cathain a imionn teachtaireachtai o DO ghuthan tar eis iad a leamh.",
+  "ephemeralExplanation3": "Ta a shocru fein ag do theagmhail da ghuthan fein.",
+  "mute1Hour": "1 uair",
+  "mute8Hours": "8 n-uaire",
+  "mute1Day": "1 la",
+  "mute1Week": "1 seachtain",
+  "muteAlways": "I gconai",
+  "muteExplanation": "Ni bhfaighidh tu fograi don teagmhail seo a thuilleadh",
+  "showCallsInRecents": "Taispeain i nglaonna le deanai",
+  "showCallsInRecentsSubtitle": "Beidh glaonna Hash le feiceail i stair ghlaonna an ghuthain",
+  "feedback": "Aiseolas",
+
+  "muteNotifications": "Ciunaigh fograi",
+  "muteDescription": "Ni bhfaighidh tu fograi don teagmhail seo",
+  "mutedUntil": "Ciunaithe go dti {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Fograi gniomhachtaithe",
+  "unmute": "Diciunaigh",
+
+  "notificationSound": "Fuaim fogra",
+  "defaultSound": "Reamhshocru",
+
+  "chatSettings": "Socruithe comhra",
+  "bubbleColor": "Dath na mbolgan",
+  "backgroundColor": "Dath an chulra",
+  "backgroundImage": "Iomha chulra",
+  "chatBackground": "Culra an chomhra",
+  "customColor": "Saincheaptha",
+  "defaultColor": "Reamhshocru",
+  "imageSelected": "Iomha roghnaithe",
+  "noImage": "Gan iomha",
+  "color": "Dath",
+  "image": "Iomha",
+  "tapToSelectImage": "Bruigh chun iomha a roghnu",
+  "changeImage": "Athraigh an iomha",
+  "previewMessageReceived": "Dia duit!",
+  "previewMessageSent": "Haigh!",
+
+  "messageAction": "Teachtaireacht",
+  "callAction": "Glao",
+  "videoAction": "Fisean",
+
+  "personalNotes": "Notai pearsanta",
+  "addNotes": "Cuir notai leis...",
+  "noNotes": "Gan nota",
+
+  "messageNotifications": "Fograi teachtaireachtai",
+  "callNotifications": "Fograi glaonna",
+
+  "useGradient": "Usaid gradan",
+  "gradientStart": "Dath tosaigh",
+  "gradientEnd": "Dath deiridh",
+  "preview": "Reamhamharc",
+  "reset": "Athshocraigh",
+
+  "securityNumber": "Uimhir shlándála",
+  "securityNumberDescription": "Fioraigh go meaitsealann an uimhir shlándála le gleas {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Fioraigh an criptiuchain ceann go ceann",
+  "tapToCopy": "Bruigh chun coipeail",
+  "howToVerify": "Conas fioiru",
+  "verifyStep1": "Buail le do theagmhail go pearsanta no cuir glao orthu",
+  "verifyStep2": "Cuir na huimhreacha slandala no na coid QR i gcomparaid",
+  "verifyStep3": "Ma mheaitsealann siad, ta do chomhra slan",
+  "scanToVerify": "Scan chun fioiru",
+
+  "reportSpam": "Tuairiscigh mar thruflais",
+  "reportSpamSubtitle": "Tuairiscigh an teagmhail seo mar thruflais",
+  "reportSpamDescription": "Tuairiscitear an teagmhail seo go hanaithnid. Ni roinnfear d'aitheantas. An bhfuil tu cinnte?",
+  "report": "Tuairiscigh",
+  "spamReported": "Truflais tuairiscithe",
+  "reportError": "Theip ar sheoladh na tuairisce. Bain triail eile as.",
+  "reportRateLimited": "Shroich tu an t-uaslion tuairisci don la inniu.",
+
+  "blockContact": "Blocail an teagmhail",
+  "blockContactDescription": "Ni bheidh an teagmhail seo in ann teachtaireachtai a sheoladh chugat na glao a chur ort. Ni chuirfear ar an eolas e/i.",
+  "unblockContact": "Dibhlocail an teagmhail",
+  "unblockContactDescription": "Beidh an teagmhail seo in ann teachtaireachtai a sheoladh chugat agus glao a chur ort aris.",
+  "contactBlocked": "Teagmhail blocailte",
+  "contactUnblocked": "Teagmhail dibhlocailte",
+  "contactIsBlocked": "Ta an teagmhail seo blocailte",
+  "unblock": "Dibhlocail",
+
+  "deleteContactSubtitle": "Scrios an teagmhail seo agus an comhra",
+  "confirmWithPin": "Deimhnigh le PIN",
+  "enterPinToConfirm": "Cuir isteach do PIN chun an gniomh seo a dheimhniu",
+
+  "profilePhoto": "Grianghraf proifil",
+  "takePhoto": "Glac grianghraf",
+  "chooseFromGallery": "Roghnaigh on danlann",
+  "removePhoto": "Bain an grianghraf",
+
+  "viewContactHashId": "Feach ar aitheantoir an teagmhala",
+  "hashIdPartiallyMasked": "Masctha go pairtigh ar mhaithe le do shlandail agus slandail do theagmhala",
+
+  "addFirstContact": "Cuir do chead teagmhail leis",
+  "addFirstContactSubtitle": "Roinn do chod QR no scan ceann cara",
+  "directory": "Eolai",
+  "noContacts": "Gan teagmhail",
+  "noContactsSubtitle": "Cuir teagmhail leis chun tosu",
+  "sendMessageAction": "Seol teachtaireacht",
+  "audioCall": "Glao fuaime",
+  "videoCall": "Glao fiseain",
+  "viewProfile": "Feach ar an bproifil",
+  "deleteContactDirectory": "Scrios an teagmhail",
+  "scanShort": "Scan",
+  "addShort": "Cuir leis",
+  "deleteContactConfirmName": "An bhfuil tu cinnte gur mhaith leat {name} a scriosadh?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Gan nota",
+  "noNotesSubtitle": "Cruthaigh do chead nota",
+  "newNote": "Nota nua",
+  "editNote": "Cuir an nota in eagar",
+  "deleteNote": "Scrios an nota",
+  "deleteNoteConfirm": "An bhfuil tu cinnte gur mhaith leat an nota seo a scriosadh?",
+  "noteTitle": "Teideal",
+  "noteContent": "Abhar",
+  "addItem": "Cuir mir leis",
+  "pinNote": "Pionnail",
+  "unpinNote": "Diphionnail",
+  "noteColor": "Dath",
+  "notePassword": "Pasfhocal",
+  "setPassword": "Socraigh pasfhocal",
+  "changePassword": "Athraigh pasfhocal",
+  "removePassword": "Bain pasfhocal",
+  "enterPassword": "Cuir isteach an pasfhocal",
+  "confirmPassword": "Deimhnigh an pasfhocal",
+  "passwordPin": "Cod PIN",
+  "passwordText": "Pasfhocal teacs",
+  "protectedNote": "Nota cosanta",
+  "incorrectPassword": "Pasfhocal micheart",
+  "passwordSet": "Pasfhocal socraithe",
+  "passwordRemoved": "Pasfhocal bainte",
+  "notesBiometric": "Face ID do notai",
+  "notesBiometricSubtitle": "Fiordheimnhiu bithmheadrach a eileamh chun notai cosanta a oscailt",
+  "textNote": "Nota teacs",
+  "checklistNote": "Liosta seiceala",
+  "tasksProgress": "{checked}/{total} tasc",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Sabhailte",
+  "searchNotes": "Cuardaigh nota",
+  "legalConsent": "Toiliu dlithiuil",
+  "confirmAge13": "Deimhnim go bhfuil me 13 bliana d'aois ar a laghad",
+  "acceptLegalStart": "Glacaim leis an ",
+  "privacyPolicy": "Polasai Priobhaideachais",
+  "termsOfService": "Tearmai Seirbhise",
+  "andThe": " agus na ",
+  "continueButton": "Lean ar aghaidh",
+  "mustAcceptTerms": "Caithfidh tu glacadh leis an da choinniol chun leanunt ar aghaidh",
+
+  "support": "Tacaiocht",
+  "contactSupport": "Dean teagmhail le tacaiocht",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Tuairiscigh mi-usaid",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Dlithiuil",
+  "legalEntity": "Aonan dlithiuil",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Pionnail",
+  "unpinConversation": "Diphionnail",
+  "hideConversation": "Bain on snaithe",
+  "deleteConversation": "Scrios an comhra",
+  "deleteConversationConfirm": "Cuir isteach do chod PIN chun scriosadh gach teachtaireachta a dheimhniu",
+  "noConversations": "Gan comhra",
+  "startConversation": "Tosaigh",
+
+  "microphonePermissionRequired": "Rochtain ar an micreafon ag teastail",
+  "microphonePermissionExplanation": "Teastaionn an micreafon o Hash chun glaonna a dheanamh.",
+  "cameraPermissionExplanation": "Teastaionn an ceamara o Hash le haghaidh fisglaonna.",
+  "openSettings": "Oscail na socruithe",
+
+  "callConnecting": "Ag nascadh...",
+  "callRinging": "Ag glaoch...",
+  "callReconnecting": "Ag athcheangal...",
+  "callReconnectingTimer": "Ag athcheangal ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Ar sos",
+  "callPausedSubtitle": "Tá an glao fós gníomhach",
+  "callRemoteMicMuted": "Micreafon an duine eile ciunaithe",
+  "callMiniControlsMute": "Ciunaigh an micreafon",
+  "callMiniControlsUnmute": "Gniomhachtaigh an micreafon",
+  "callMiniControlsHangUp": "Cuir sios",
+  "callMiniControlsReturn": "Fill ar an nglao",
+  "callNetworkPoor": "Nasc eagobhsai",
+  "callNetworkLost": "Nasc caillte",
+  "callEndedTitle": "Glao criochnaithe",
+
+  "deviceData": "Sonrai an ghleis",
+  "deviceDataSubtitle": "Storail aitiuil agus freastalai",
+  "localStorage": "Storail aitiuil",
+  "onThisDevice": "ar an ngleas seo",
+  "encryptedDatabases": "Bunachair shonrai chriptithe",
+  "files": "Comhaid",
+  "secureKeychain": "Slabhra eochracha slan",
+  "cache": "Taisce",
+  "contactsDetail": "Ainmneacha, avatair, eochracha Signal",
+  "messagesDetail": "Comhraite criptithe",
+  "notesDetail": "Notai pearsanta",
+  "signalSessions": "Seisiuin Signal",
+  "signalSessionsDetail": "Seisiuin chriptithe",
+  "pendingContacts": "Teagmhalacha ar feitheamh",
+  "pendingContactsDetail": "Iarratais ar siul",
+  "callHistory": "Glaonna",
+  "callHistoryDetail": "Stair na nglaonna",
+  "preferences": "Roghanna",
+  "preferencesDetail": "Roghanna mean agus glaonna",
+  "avatars": "Avatair",
+  "media": "Meain",
+  "fileCount": "{count, plural, =0{gan comhad} =1{1 chomhad} other{{count} comhad}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Gniomhach",
+  "notDefined": "Gan sainmhiniu",
+  "biometrics": "Bithmheadracht",
+  "recoveryPhrase": "Frasa aisghabhala",
+  "identity": "Aitheantas (Hash ID)",
+  "signalKeys": "Eochracha Protocal Signal",
+  "authTokens": "Comharthai fiordheimnhithe",
+  "contactNamesCache": "Taisce ainmneacha teagmhalaithe",
+  "remoteConfig": "Cumraiocht chianda",
+  "notificationPrefs": "Roghanna fograi",
+  "serverData": "Sonrai ar an bhfreastalai",
+  "serverDataInfo": "Coinneann Hash iosmheid sonrai ar an bhfreastalai, iad go leir criptithe no sealadach.",
+  "serverProfile": "Proifil",
+  "serverProfileDetail": "Hash ID, eochracha poibli, comhartha bosca",
+  "serverPrekeys": "Reamheochracha",
+  "serverPrekeysDetail": "Eochracha Signal aon usaide (caite)",
+  "serverMessages": "Teachtaireachtai ar bealach",
+  "serverMessagesDetail": "Scriosta tar eis glactha (24u ar a mhead)",
+  "serverMedia": "Meain ar bealach",
+  "serverMediaDetail": "Scriosta tar eis iosladala",
+  "serverContactRequests": "Iarratais teagmhala",
+  "serverContactRequestsDetail": "In eag tar eis 24u",
+  "serverRateLimits": "Teorainneacha rata",
+  "serverRateLimitsDetail": "Sonrai sealadacha frith-mhi-usaide",
+  "privacyReassurance": "Ni feidir le Hash do chuid teachtaireachtai a leamh. Ta gach sonrai criptithe ceann go ceann. Scriostar sonrai an fhreastalai go huathobrioch.",
+
+  "pinTooSimple": "Ta an cod PIN seo ro-shimpli. Roghnaigh cod nios slaine.",
+  "genericError": "Tharla earraid. Bain triail eile as le do thoil.",
+  "accountCreationError": "Ni feidir an cuntas a chruthu: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frasa coipeailte chuig an ngearrthaisce",
+  "copyPhrase": "Coipeail an fhrasa",
+  "recoveryPhraseSecurityWarning": "Scriobh sios an fhrasa seo in ait shlan. Ma chailleann tu do chod PIN gan an fhrasa seo, caillfidh tu rochtain ar do chuid sonrai go buan.",
+
+  "noMessages": "Gan teachtaireacht",
+  "deleteAllMessagesWithContact": "Scrios gach teachtaireacht le {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Deimhniu",
+  "untitled": "Gan teideal",
+  "noSessions": "Gan seisiun",
+  "unknownContact": "Teagmhail anaithnid",
+  "unnamed": "Gan ainm",
+  "noPendingRequestsAlt": "Gan iarratas ar feitheamh",
+  "deleteAllCallHistory": "Scrios stair na nglaonna go leir?",
+  "noCalls": "Gan glao",
+  "noPreferences": "Gan rogha",
+  "resetAllMediaPrefs": "Athshocraigh gach rogha mean?",
+  "deleteThisAvatar": "Scrios an t-avatar seo?",
+  "deleteAllAvatars": "Scrios gach avatar?",
+  "noAvatars": "Gan avatar",
+  "deleteThisFile": "Scrios an comhad seo?",
+  "deleteAllMediaFiles": "Scrios gach mean?",
+  "noMediaFiles": "Gan mean",
+  "outgoing": "Amach",
+  "incoming": "Isteach",
+  "ephemeralViewDuration": "Amharc gearrshaolach: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Gnathamharc",
+  "callReasonCompleted": "Criochnaithe",
+  "callReasonMissed": "Caillte",
+  "callReasonDeclined": "Diultaithe",
+  "callReasonFailed": "Theip",
+  "justNow": "Direach anois",
+  "timeAgoMinutes": "{count} noi o shin",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}u o shin",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}l o shin",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Teagmhail",
+  "messageTypeLocation": "Suiomh",
+  "statusQueued": "I scuaine",
+  "blockedBadge": "Blocailte",
+  "protectedBadge": "Cosanta",
+  "messageCount": "{count} teachtaireacht(ai)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Scrios?",
+
+  "transferMyAccountTitle": "Aistrigh mo chuntas",
+  "loadingError": "Earraid ag lodail",
+  "transferToNewDevice": "Aistrigh go gleas nua",
+  "transferInstructions": "Ar do ghleas nua, roghnaigh \"Aisghabh mo chuntas\" agus cuir isteach an fhaisneis seo:",
+  "yourHashIdLabel": "Do Hash ID",
+  "enterYourPinCode": "Cuir isteach do chod PIN",
+  "pinOwnerConfirmation": "Chun a dheimhniu gurb tusa uineir an chuntais seo",
+  "scanThisQrCode": "Scan an cod QR seo",
+  "withYourNewDevice": "Le do ghleas nua",
+  "orEnterTheCode": "no cuir isteach an cod",
+  "transferCodeLabel": "Cod aistrithe",
+  "proximityVerification": "Fioiru congarachta",
+  "bringDevicesCloser": "Tabhair na gleasanna nios congarai da cheile",
+  "confirmTransferQuestion": "Deimhnigh an t-aistriu?",
+  "accountWillBeTransferred": "Aistreofar do chuntas go dti an gleas nua.\n\nDeanfar an gleas seo a dhinascadh go buan.",
+  "transferComplete": "Aistriu criochnaithe",
+  "transferSuccessMessage": "D'aistrigh do chuntas go rathiuil.\n\nDunfaidh an aip seo anois.",
+  "manualVerification": "Fioiru laimhe",
+  "codeDisplayedOnBothDevices": "Cod ar taispeaint ar an da ghleas:",
+  "doesCodeMatchNewDevice": "An meaitsealann an cod seo leis an gceann ar an ngleas nua?",
+  "verifiedStatus": "Fioraithe",
+  "inProgressStatus": "Ar siul...",
+  "notAvailableStatus": "Nil ar fail",
+  "codeExpiredRestart": "Ta an cod imithe in eag. Tosaigh aris le do thoil.",
+  "codesDoNotMatchCancelled": "Ni mheaitsealann na coid. Aistriu cealaithe.",
+  "transferToDevice": "Chuig: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Coipeailte!",
+  "expiresInTime": "In eag i {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Nil bithmheadracht ar fail ar an ngleas seo",
+  "biometricAuthError": "Earraid le linn fiordheimnhiu bithmheadrach",
+  "authenticateForBiometric": "Dean fiordheimnhiu chun bithmheadracht a chumasiu le do thoil",
+  "biometricAuthFailed": "Theip ar fhiordheimnhiu bithmheadrach",
+
+  "forceUpdateTitle": "Nuashonru riachtanach",
+  "forceUpdateMessage": "Ta leagan nua de Hash ar fail. Nuashonraigh le do thoil chun leanunt ar aghaidh.",
+  "updateButton": "Nuashonraigh",
+  "maintenanceInProgress": "Cothabháil ar siul",
+  "tryAgainLater": "Bain triail eile as nios deanai le do thoil",
+  "information": "Eolas",
+
+  "later": "Nios deanai",
+  "doYouLikeHash": "An maith leat Hash?",
+  "yourFeedbackHelps": "Cuidioun d'aiseolas linn an aip a fheabhsu",
+  "ratingTerrible": "Uafasach",
+  "ratingBad": "Dona",
+  "ratingOk": "Ceart go leor",
+  "ratingGood": "Maith",
+  "ratingExcellent": "Ar fheabhas!",
+  "donationMessage": "Is tionscadal neamhbhrabusach e Hash. Ligeann do thacaiocht duinn leanunt ag forbairt aip teachtaireachtai ata fior-phriobhaideach.",
+
+  "recentConnections": "Naisc le deanai",
+  "loginInfoText": "Taifeadtar gach dighlasal PIN go haitiuil. Ni choinnitear ach na 24 uair dheireanacha.",
+  "connectionCount": "Nasc(anna)",
+  "periodLabel": "Treimhse",
+  "historyLabel": "Stair",
+  "noLoginRecorded": "Gan nasc taifeadta",
+  "nextUnlocksAppearHere": "Taispeanfar na chead dighlaslaithe eile anseo.",
+  "dataLocalOnly": "Storailtar na sonrai seo ar do ghleas amhain agus ni sheoltar iad riamh.",
+  "currentSession": "Reatha",
+  "todayLabel": "Inniu",
+  "yesterdayLabel": "Inne",
+  "justNowLabel": "Direach anois",
+  "minutesAgoLabel": "{count} noi o shin",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}u o shin",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}u {minutes}noi o shin",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Gan cothabháil beartaithe",
+  "everythingWorkingNormally": "Ta gach rud ag oibriu mar is gnath",
+  "maintenanceTitle": "Cothabháil",
+  "maintenanceActiveLabel": "AR SIUL",
+  "maintenancePlannedLabel": "BEARTAITHE",
+
+  "locking": "Ag glasail...",
+
+  "newMessageNotification": "Teachtaireacht nua",
+
+  "secExplainTitle": "Conas a chosnaionn Hash thu",
+  "secExplainIntro": "Ta Hash deartha ionas nach feidir le haon duine do chuid teachtaireachtai a leamh.",
+  "secExplainIntroSub": "Ni feidir linn fein fiu.\nSeo conas a oibrionn se, minithe go simpli.",
+  "secJourneyLabel": "AN TURAS",
+  "secJourneyTitle": "Turas do theachtaireachta",
+  "secJourneySubtitle": "O do mhear go dti scailean do theagmhala, ta gach ceim cosanta. Lean an cosan.",
+  "secStep1Title": "Scriobhann tu do theachtaireacht",
+  "secStep1Desc": "Closcriobbann tu \"Haigh!\" san aip. Ag an bpointe seo, nil an teachtaireacht ach i gcuimhne do ghuthain. Nior seoladh aon rud.",
+  "secStep2Title": "Criptiuchain le Protocal Signal",
+  "secStep2Desc": "Chomh luath agus a bhrunn tu \"Seol\", athraitear do theachtaireacht ina sraith carachtair dothagtha. Cosuil le do theachtaireacht a chur faoi ghlas i dtaisceadan nach bhfuil an eochair ach ag do theagmhail.",
+  "secStep3Title": "Sealed Sender: an cludach dofheicthe",
+  "secStep3Desc": "Samhlaigh go seolann tu litir sa phost, ach gan seoladh seoltora ar an gcludach. Sin direach a dheanann Hash. Fagtar an teachtaireacht i mbosca litreach anaithnid. Ni fhios don fhreastalai ce a sheol e.",
+  "secStep4Title": "Ni fheiceann an freastalai aon rud",
+  "secStep4Desc": "Ta rol an fhir phoist dhaill ag an bhfreastalai. Ni fhios do ach \"d'fhag duine eigin rud i mbosca #A7X9\". Ni fhios do ce a sheol e, cad e, na ce do.",
+  "secStep4Highlight": "Gan meiteashonrai storailte: gan seoladh IP, gan stampa ama, gan nasc idir seoltoir agus faighteoir.",
+  "secStep5Title": "Faigheann do theagmhail an teachtaireacht",
+  "secStep5Desc": "Bailionn guthan do theagmhala abhar a bhosca litreach anaithnid agus dicriptiunaionn se an teachtaireacht lena eochair phriobhaideach, nach bhfag a ghleas riamh. Taispeantar \"Haigh!\" ar a scailean.",
+  "secStep6Title": "Imionn an teachtaireacht on bhfreastalai",
+  "secStep6Desc": "Chomh luath agus a dheimhnionn do theagmhail go bhfuarthas i, scriosann an freastalai an teachtaireacht go buan. Gan bruscar, gan cartlann, gan cultaca. Scriostar fiu teachtaireachtai neamhleite go huathobrioch tar eis 24 uair.",
+  "secStep7Title": "Eag aitiuil",
+  "secStep7Desc": "Ar ghuthan do theagmhala, feinscriosann an teachtaireacht de reir an ama a roghnaigh tu: laithreach tar eis leitheoireachta, 5 noimead, 1 uair... is tusa a chinneann.",
+  "secJourneyConclusion": "Toradh: neamhrian ar an bhfreastalai, neamhrian ar na gleasanna. Mhair an teachtaireacht an t-am a thog se i a leamh, ansin d'imigh si.",
+  "secArchLabel": "AILTIREACHT",
+  "secArchTitle": "5 shraith cosanta",
+  "secArchSubtitle": "Ni bhraitheann Hash ar theicneolaiocht amhain. Neartaionn gach sraith na cinn eile. Fiu ma chuirtear sraith amhain i mbaol, fanann do shonrai slan.",
+  "secLayer1Title": "Criptiuchain ceann go ceann",
+  "secLayer1Desc": "Criptiunaitear gach teachtaireacht le heochair uathuil. Go simpli: fiu ma dhicriptiunaionn duine teachtaireacht amhain, ni feidir leo an chead cheann eile a dhicriptiuniu. Ta a ghlas fein ag gach teachtaireacht.",
+  "secLayer1Detail": "Le haghaidh comhaid (grianghraif, fiseain, doicimeidi), usaideann Hash criptiuchain breise AES-256-GCM. Criptiunaitear an comhad sula bhfagann se do ghuthan.",
+  "secLayer2Title": "Sealed Sender (anaithnideacht lionra)",
+  "secLayer2Desc": "Seolann aipeanna teachtaireachtai traidisiunta do chuid teachtaireachtai le d'aitheantas ceangailte. Cosuil le d'ainm a scriobh ar an gcludach. Usaideann Hash boscai litreach anaithnide: fagann an freastalai an teachtaireacht gan fhios ce a sheol i.",
+  "secLayer2Detail": "Toradh: fiu i gcas sceitheadh sonrai on bhfreastalai, ni feidir a athchruthu ce ata ag caint le ce.",
+  "secLayer3Title": "Scriosadh uathobrioch",
+  "secLayer3Desc": "Scriostar teachtaireachtai on bhfreastalai chomh luath agus a dheimhnionn an glacadh. Fiu mura mbailiter teachtaireacht riamh, scriostar go huathobrioch i tar eis 24 uair.",
+  "secLayer3Detail": "Ar do ghuthan, feinscriosann teachtaireachtai de reir an ama a roghnaionn tu: laithreach, 5 noi, 15 noi, 30 noi, 1u, 3u, 6u no 12u.",
+  "secLayer4Title": "Cosaint rochtana aitiuil",
+  "secLayer4Desc": "Ta an aip cosanta ag cod PIN 6 dhigit agus/no bithmheadracht (Face ID, mearloirg). Tar eis an iomarca iarrachtai teipthe, glasailitar an aip le moill a mheadaionn le gach teip.",
+  "secLayer5Title": "Bunachar sonrai faoi ghlas",
+  "secLayer5Desc": "Ar thaobh an fhreastalai, ni feidir le haon usaideoir scriobh go direach sa bhunachar sonrai. Teann gach gniomh tri fheidmeanna slana a dheanann gach iarratas a fhioriu.",
+  "secLayer5Detail": "Cosuil le cuntar bainc: ni leagann tu lamh ar an taisceadan fein riamh. Deanann tu iarratas, agus fioraionn an coras go bhfuil an ceart agat sula ngniomhaionn se.",
+  "secVashLabel": "UATHUIL AR DOMHAN",
+  "secVashTitle": "Modh Vash",
+  "secVashSubtitle": "Coras slandala eigeandala nach bhfuil in aon aip teachtaireachtai eile.",
+  "secVashScenarioTitle": "Samhlaigh an cas seo",
+  "secVashScenario1": "Faigheann duine rochtain ar do ghuthan",
+  "secVashScenario2": "Iarrtar do chod PIN ort",
+  "secVashScenario3": "Ba mhaith leat do shonrai go leir a scriosadh go prainneach",
+  "secVashSolutionTitle": "An reiteach: dha chod PIN",
+  "secVashSolutionDesc": "Cumraionn tu dha chod PIN eagsula i Hash:",
+  "secVashNormalCodeLabel": "Gnathchod",
+  "secVashNormalCodeDesc": "Osclaionn an aip mar is gnath le do shonrai go leir",
+  "secVashCodeLabel2": "Cod Vash",
+  "secVashCodeDescription": "Osclaionn an aip mar is gnath... ach scriostar do shonrai go leir go ciuin sa chulra",
+  "secVashWhatHappensTitle": "Cad a tharlaionn ina dhiaidh sin",
+  "secVashWhatHappensDesc": "Osclaionn an aip mar is gnath. Gan folareamh, gan beochan amhrasach. Taispeanann an scailean aip fholamh direach, cosuil le gur direach i a shuiteail tu.\n\nI ndairire, scriosadh do chuid comhraite, teagmhalacha agus teachtaireachtai go leir go do-aisiompaithe i bhfaiteadh na sul.",
+  "secCallsLabel": "GLAONNA & COMHAID",
+  "secCallsTitle": "Ta gach rud criptithe",
+  "secCallsSubtitle": "Ni hamhain na teachtaireachtai. Ta gach rud a theann tri Hash criptithe ceann go ceann.",
+  "secAudioCallTitle": "Glaonna fuaime",
+  "secAudioCallDesc": "Criptithe ceann go ceann tri WebRTC. Aisirítear an guth go direach idir gleasanna.",
+  "secVideoCallTitle": "Fisglaonna",
+  "secVideoCallDesc": "An teicneolaiocht cheanna, gach sruth criptithe go neamhspleach.",
+  "secPhotosTitle": "Grianghraif & fiseain",
+  "secPhotosDesc": "Criptithe i AES-256-GCM sula bhfagann siad do ghuthan.",
+  "secDocsTitle": "Doicimeidi",
+  "secDocsDesc": "PDF, ZIP, aon chomhad. Ainm, meid agus abhar criptithe.",
+  "secAnonLabel": "ANAITHNIDEACHT",
+  "secAnonTitle": "Gan aitheantas ag teastail",
+  "secAnonSubtitle": "Ni iarrann Hash do uimhir ghuthain na do riomhphost riamh. Aithnítear thu le Hash ID uathuil anaithnid.",
+  "secHashIdTitle": "Do Hash ID",
+  "secHashIdDesc": "Is e seo d'aitheantoir uathuil. Ni nochtann se aon rud faut: na d'ainm, na d'uimhir, na do shuiomh. Cosuil le leasainm ata dodhéanta a nascadh le d'fhioraitheantas.\n\nChun teagmhail a chur leis, roinneann tu do Hash ID no scanann tu cod QR. Sin e. Gan leabhar seoltai sioncronaithe, gan moltai \"Daoine a d'fheadfadh aithne a chur orthu\".",
+  "secDataLabel": "SONRAI",
+  "secDataTitle": "Na rudai nach bhfuil a fhios ag Hash",
+  "secDataSubtitle": "Is e an bealach is fearr chun do shonrai a chosaint na gan iad a bhailiu.",
+  "secNeverCollected": "Ni bhailítear riamh",
+  "secNeverItem1": "Abhar na dteachtaireachtai",
+  "secNeverItem2": "Liosta teagmhalaithe",
+  "secNeverItem3": "Uimhir ghuthain",
+  "secNeverItem4": "Seoladh riomhphoist",
+  "secNeverItem5": "Seoladh IP",
+  "secNeverItem6": "Suiomh",
+  "secNeverItem7": "Meiteashonrai (ce ata ag caint le ce)",
+  "secNeverItem8": "Stair glaonna",
+  "secNeverItem9": "Leabhar seoltai",
+  "secNeverItem10": "Aitheantoir fograiochta",
+  "secTempStored": "Storailte go sealadach",
+  "secTempItem1": "Hash ID anaithnid (aitheantoir uathuil)",
+  "secTempItem2": "Eochracha criptithe poibli",
+  "secTempItem3": "Teachtaireachtai criptithe ar bealach (24u ar a mhead)",
+  "secTempNote": "Fiu na sonrai iosta seo ni ligeann siad d'aithint. Nil do Hash ID nasctha le haon fhaisneis phearsanta.",
+  "secFooterTitle": "Do phriobhaideachas, do shaoirse",
+  "secFooterDesc": "Usaideann Hash na teicneolaiochta criptithe ceanna le haipeanna gairmiula is eiliti. Ta do chuid teachtaireachtai cosanta ag an matamaitic, ni ag gealluinti."
+}

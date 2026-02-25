@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hash Gizlilik Politikasi - Ultra guvenli mesajlasma uygulamasi. Verilerinizi nasil korudugumuz hakkinda bilgi edinin.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Gizlilik Politikasi - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">ANA SAYFA</a></li>
+        <li><a href="security.html">GUVENLIK</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">DESTEKLE</a></li>
+        <li><a href="index.html#download" class="nav__cta">INDIR</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Gizlilik Politikasi</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Son guncelleme: Subat 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="highlight-box">
+      <p><strong>Ozet:</strong> Hash, neredeyse hicbir kisisel veri toplamamak uzere tasarlanmistir. Mesajlariniz uctan uca sifrelenmistir, onlari okuyamayiz. Analitik yok, reklam yok, ucuncu taraflarla veri paylasimi yok.</p>
+    </div>
+
+    <h2>1. Veri sorumlusu</h2>
+    <p>Veri isleme sorumlusu:</p>
+    <ul>
+      <li><strong>Sirket:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+      <li><strong>Iletisim:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+
+    <h2>2. Toplanan veriler</h2>
+    <p>Hash, <strong>veri minimizasyonu</strong> ilkesine gore tasarlanmistir. Yalnizca hizmetin calismasi icin gerekli olan minimum veriyi topluyoruz:</p>
+
+    <h3>2.1 Topladigimiz veriler</h3>
+    <ul>
+      <li><strong>Hash ID:</strong> rastgele olusturulan benzersiz tanimlayici (000-000-XXX formati), gercek kimliginize bagli degildir</li>
+      <li><strong>Cihaz tanimlayicisi:</strong> hesabinizi cihaziniza baglamak icin kullanilan benzersiz teknik tanimlayici</li>
+      <li><strong>Platform:</strong> kullanilan cihaz turu (iOS veya Android), bildirim gondermek icin gereklidir</li>
+      <li><strong>Acik sifreleme anahtarlari:</strong> kisilerinizin size sifreli mesaj gonderebilmesi icin gerekli olan Signal Protocol anahtar kumenizdeki acik anahtarlar</li>
+      <li><strong>Posta kutusu jetonu:</strong> anonim mesaj alimi icin kullanilan, anahtarlarinizdan kriptografik olarak turetilmis bir jeton</li>
+    </ul>
+
+    <h3>2.2 Toplamadigimiz veriler</h3>
+    <ul>
+      <li><strong>Mesaj icerigi:</strong> tum mesajlar uctan uca (E2E) sifrelenmistir. Istesek bile onlari okuyamayiz</li>
+      <li><strong>Kisi listesi:</strong> rehberiniz cihazinizda kalir, ona asla erismeyiz</li>
+      <li><strong>Konum:</strong> konum verileri yalnızca gönüllü olarak bir konum mesajı gönderdiğinizde iletilir. Uçtan uca şifrelenir ve sunucularımız tarafından okunamaz veya saklanamaz</li>
+      <li><strong>E-posta adresi:</strong> gerekli degildir, toplanmaz</li>
+      <li><strong>Telefon numarasi:</strong> gerekli degildir, toplanmaz</li>
+      <li><strong>IP adresi:</strong> veritabanlarimizda saklanmaz</li>
+      <li><strong>Iletisim meta verileri:</strong> anonim jeton sistemi sayesinde kimin kiminle iletisim kurdugunu bilemeyiz</li>
+      <li><strong>Fotograflar, dosyalar, medya:</strong> tum multimedya icerigi gonderilmeden once istemci tarafinda sifrelenir ve sunucularimizdan yalnizca okunamaz sifreli veri olarak gecer</li>
+    </ul>
+
+    <h2>3. Sifreleme ve guvenlik</h2>
+    <p>Hash, iletisimlerinizi korumak icin en son sifreleme teknolojilerini kullanir:</p>
+    <ul>
+      <li><strong>Signal Protocol:</strong> Signal ve WhatsApp tarafindan da kullanilan, ileri gizlilik (forward secrecy) ve gelecek gizliligi (future secrecy) sunan uctan uca sifreleme protokolu</li>
+      <li><strong>AES-256:</strong> mesaj ve dosya sifreleme icin askeri duzeyde simetrik sifreleme algoritmasi</li>
+      <li><strong>Curve25519:</strong> Diffie-Hellman anahtar degisimi icin eliptik egri</li>
+      <li><strong>Double Ratchet:</strong> her mesaj otomatik olarak yenilenen benzersiz bir oturum anahtari kullanir</li>
+      <li><strong>Sealed Sender:</strong> sunucunun bir mesajin gonderenini bilmesini engelleyen anonim gonderici teknolojisi</li>
+    </ul>
+    <p><strong>Ozel anahtarlariniz cihazinizdan asla cikmaz</strong>. Yerel olarak sifreli bir depolama alaninda (Hive) saklanir ve sunucularimiza asla iletilmez.</p>
+
+    <h2>4. Veri saklama suresi</h2>
+    <ul>
+      <li><strong>Aktarilan mesajlar:</strong> sunucuda <strong>en fazla 24 saat</strong> saklanir. Alici teslimati onayladigi anda mesaj sunucudan <strong>aninda ve geri donusumsuz olarak silinir</strong></li>
+      <li><strong>Hesap verileri:</strong> hesap aktif oldugu surece saklanir. Hesap silindiginde (panik butonu veya manuel silme) aninda ve kalici olarak silinir</li>
+      <li><strong>Dosyalar ve medya:</strong> mesajlarla ayni politika uygulanir, teslim onaylandiginda silinir</li>
+    </ul>
+
+    <h2>5. Yerel depolama</h2>
+    <p>Yerel veriler (sifrelenmis mesajlar, kisiler, anahtarlar) <strong>yalnizca cihazinizda</strong> sifreli bir Hive veritabaninda saklanir. Bu veriler sunucularimiza veya buluta asla senkronize edilmez.</p>
+    <p>Cihaz kaybi veya degisimi durumunda bu veriler <strong>kalici olarak kaybolur</strong>. Bu bilingli bir tasarim tercihi: bir cihaz = bir hesap, kurtarma imkani yok.</p>
+
+    <h2>6. Ucuncu taraflarla veri paylasimi</h2>
+    <div class="highlight-box">
+      <p><strong>Hicbir veri paylasimi yapilmaz.</strong> Hash hicbir analitik araci, reklam veya izleyici kullanmaz. Hicbir veriyi hicbir ucuncu tarafla paylasmiyoruz, satmiyoruz ve aktarmiyoruz.</p>
+    </div>
+    <p>Sunucularimiz Supabase tarafindan barindiriliyor. Bu sunucularda depolanan veriler ya okunamaz sifreli verilerdir (mesajlar) ya da minimum teknik verilerdir (Hash ID, acik anahtarlar).</p>
+    <p>Push bildirimleri Firebase Cloud Messaging (Google LLC) araciligiyla iletilir. Bu amacla yalnizca FCM cihaz jetonu Google tarafindan islenir. Bu hizmet araciligiyla hicbir mesaj icerigi iletilmez. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Gizlilik Politikasi</a>.</p>
+
+    <h2>7. Haklariniz (KVKK/GDPR)</h2>
+    <p>Genel Veri Koruma Yonetmeligi (GDPR) uyarinca asagidaki haklara sahipsiniz:</p>
+    <ul>
+      <li><strong>Erisim hakki:</strong> hakkinizdaki hangi verileri tutugumuz hakkinda bilgi talep edebilirsiniz (Hash ID, acik anahtarlar, cihaz tanimlayicisi)</li>
+      <li><strong>Duzeltme hakki:</strong> hatali verilerin duzeltilmesini talep edebilirsiniz</li>
+      <li><strong>Silme hakki:</strong> uygulamadaki <strong>panik butonu</strong> veya Ayarlar bolumu araciligiyla tum verilerinizi istediginiz zaman silebilirsiniz. Silme aninda ve geri donusumsuz olarak gerceklesir</li>
+      <li><strong>Tasinabilirlik hakki:</strong> toplanan minimum veri miktari goz onune alindiginda, verilerinizin bir kopyasini almak icin bizimle iletisime gecebilirsiniz</li>
+      <li><strong>Itiraz hakki:</strong> hesabinizi silerek verilerinizin islenmesine itiraz edebilirsiniz</li>
+      <li><strong>Sikayet hakki:</strong> CNIL'e (<a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a>) sikayet bildiriminde bulunabilirsiniz</li>
+    </ul>
+    <p>Haklarinizi kullanmak icin bize <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a> adresinden ulasin.</p>
+
+    <h2>8. Haklariniz (ABD gizlilik yasalari)</h2>
+    <p>Kaliforniya (CCPA/CPRA), Virginia (VCDPA), Colorado (CPA) veya gizlilik mevzuati bulunan baska bir ABD eyaletinde ikamet ediyorsaniz, asagidaki haklara sahipsiniz:</p>
+    <ul>
+      <li><strong>Bilgi hakki:</strong> topladigimiz kisisel veriler ve bunlarin nasil kullanildigi hakkinda bilgi talep edebilirsiniz</li>
+      <li><strong>Silme hakki:</strong> kisisel verilerinizin silinmesini uygulama ici silme ozelligi veya bizimle iletisime gecerek istediginiz zaman talep edebilirsiniz</li>
+      <li><strong>Satisi reddetme hakki:</strong> kisisel verilerinizi maddi veya diger degerli bir karsilik karsiliginda ucuncu taraflara satmiyoruz, paylasmiyoruz veya kiralamiyoruz</li>
+      <li><strong>Ayrimcilik yapilmama hakki:</strong> gizlilik haklarinizi kullanmaniz nedeniyle size karsi ayrimcilik yapmayiz</li>
+    </ul>
+    <p>Bu haklari kullanmak icin uygulama ici hesap silme ozelligini kullanin veya bize <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a> adresinden ulasin.</p>
+
+    <h2>9. Minimum yas</h2>
+    <p>Hash, <strong>13 yas ve uzeri</strong> kisiler icin tasarlanmistir. Yerel mevzuatin gerektirdigi bazi Avrupa Birligi ulkelerinde minimum yas <strong>16</strong> olabilir.</p>
+    <p>Gecerli minimum yasin altindaki cocuklara ait verileri bilerek toplamiyoruz. Ebeveyn veya veli olarak cocugunuzun izniniz olmadan Hash kullandigini dusunuyorsaniz, <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a> adresinden bize ulasin.</p>
+
+    <h2>10. Cerezler ve izleme teknolojileri</h2>
+    <p>Hash uygulamasi <strong>hicbir cerez, izleme pikseli veya analitik SDK'si kullanmaz</strong>. hash.devolim.fr web sitesi de izleme cerezi kullanmaz.</p>
+
+    <h2>11. Uluslararasi transferler</h2>
+    <p>Minimum teknik veriler (Hash ID, acik anahtarlar) Avrupa Ekonomik Alani disinda bulunan sunucularda islenebilir. Ancak tum hassas verilerin uctan uca sifreli olmasi ve herhangi bir tanimlayici kisisel veri toplamamiz nedeniyle gizlilik riskiniz minimaldir.</p>
+
+    <h2>12. Veri guvenligi</h2>
+    <p>Asagidaki guvenlik onlemlerini uyguluyoruz:</p>
+    <ul>
+      <li>Tum iletisimlerin uctan uca sifrelenmesi (Signal Protocol)</li>
+      <li>Yerel verilerin AES-256 ile sifrelenmesi</li>
+      <li>PIN kodu ve biyometrik kimlik dogrulama</li>
+      <li>Acil silme icin imha kodu (duress PIN)</li>
+      <li>Ekran goruntusu korumasi (Android'de FLAG_SECURE)</li>
+      <li>Teslimattan sonra mesajlarin sunucudan otomatik silinmesi</li>
+      <li>Veritabanina yalnizca guvenli fonksiyonlar (security definer) araciligiyla erisim</li>
+      <li>Tum tablolarda RLS (Row Level Security) politikalari</li>
+    </ul>
+
+    <h2>13. Bu politikadaki degisiklikler</h2>
+    <p>Bu gizlilik politikasini zaman zaman guncelleyebiliriz. Onemli bir degisiklik durumunda uygulama ici bildirim yoluyla sizi bilgilendiririz. Son guncelleme tarihi bu sayfanin ust kisminda belirtilmistir.</p>
+
+    <h2>14. Iletisim - Veri koruma sorumlusu</h2>
+    <p>Bu gizlilik politikasi veya kisisel verilerinizin korunmasi hakkinda herhangi bir sorunuz varsa Veri Koruma Sorumlumuzla (DPO) iletisime gecebilirsiniz:</p>
+    <ul>
+      <li><strong>E-posta:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+      <li><strong>Sorumlu:</strong> DEVOLIM</li>
+      <li><strong>SIREN:</strong> 948 000 757</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">Hakkinda hicbir sey bilmeyen mesajlasma uygulamasi.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Urun</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Ozellikler</a></li>
+            <li><a href="security.html">Guvenlik</a></li>
+            <li><a href="index.html#download">Indir</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Proje</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Hash'i Destekle</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Iletisim</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Yasal</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Gizlilik</a></li>
+            <li><a href="terms.html">Kullanim Kosullari</a></li>
+            <li><a href="delete-account.html">Hesabimi sil</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Tum haklari saklidir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

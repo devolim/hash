@@ -1,0 +1,1039 @@
+{
+  "@@locale": "sk",
+  "appName": "Hash",
+  "appTagline": "Nulova stopa. Nulovy kompromis.",
+  "conversations": "Konverzacie",
+  "contacts": "Kontakty",
+  "noConversation": "Ziadne konverzacie",
+  "noConversationSubtitle": "Pridajte kontakt a zacnite bezpecne komunikovat",
+  "pendingRequestsCount": "{count, plural, =1{1 cakajuca ziadost} other{{count} cakajucich ziadosti}}",
+  "sentRequestsCount": "{count, plural, =1{1 odoslana ziadost caka} other{{count} odoslanych ziadosti caka}}",
+  "addContact": "Pridat kontakt",
+  "shareApp": "Zdielat aplikaciu",
+  "newMessage": "Nova sprava",
+  "newConversation": "Poslat spravu",
+  "settings": "Nastavenia",
+  "myHashId": "Moje Hash ID",
+  "supportHash": "Podporit Hash",
+  "supportHashSubtitle": "Hash je neziskovy projekt",
+  "donate": "Darovat",
+  "appearance": "Vzhled",
+  "theme": "Tema",
+  "themeAuto": "Automaticky",
+  "themeAutoSubtitle": "Nasleduje systemove nastavenia",
+  "themeDark": "Tmava",
+  "themeLight": "Svetla",
+  "themeRecommendation": "Tmava tema je odporucana pre lepsie sukromie",
+  "language": "Jazyk",
+  "languageAuto": "Automaticky (system)",
+  "notifications": "Notifikacie",
+  "messages": "Spravy",
+  "calls": "Hovory",
+  "vibration": "Vibracie",
+  "notificationContent": "Obsah notifikacie",
+  "notificationContentFull": "Zobrazit vsetko",
+  "notificationContentFullDesc": "Meno kontaktu a nahled spravy",
+  "notificationContentName": "Len meno",
+  "notificationContentNameDesc": "Zobrazi len meno kontaktu",
+  "notificationContentDiscrete": "Diskretne",
+  "notificationContentDiscreteDesc": "Zobrazi len \"Nova sprava\"",
+  "security": "Bezpecnost",
+  "howHashProtectsYou": "Ako vas Hash chrani",
+  "howHashProtectsYouSubtitle": "Pochopte svoju bezpecnost",
+  "accountSecurity": "Bezpecnost uctu",
+  "accountSecuritySubtitle": "PIN, biometria, rezim Vash",
+  "blockScreenshots": "Blokovat snimky obrazovky",
+  "transferDevice": "Preniest na ine zariadenie",
+  "transferDeviceSubtitle": "Migrovat vas ucet",
+  "pinCode": "PIN kod",
+  "changePin": "Zmenit PIN kod",
+  "currentPin": "Aktualny PIN kod",
+  "newPin": "Novy PIN kod",
+  "confirmPin": "Potvrdit PIN kod",
+  "pinChanged": "PIN kod zmeneny",
+  "incorrectPin": "Nespravny PIN",
+  "pinsDoNotMatch": "PIN kody sa nezhoduju",
+  "autoLock": "Automaticke zamknutie",
+  "autoLockDelay": "Oneskorenie zamknutia",
+  "autoLockImmediate": "Okamzite",
+  "autoLockMinute": "1 minuta",
+  "autoLockMinutes": "{count} minut",
+  "vashCode": "Kod Vash",
+  "vashModeTitle": "Rezim Vash",
+  "vashModeExplanation": "Vasa posledna zachranna siet.",
+  "vashModeDescription": "Vyberiete si druhy PIN kod. Ak vas niekedy nutia otvorit Hash, zadajte tento kod namiesto bezneho PIN.\n\nAplikacia sa otvori normalne, ale vsetky konverzacie a kontakty budu prec.\n\nPre kohokoivek, kto sa diva na obrazovku, Hash vyzera prazdny — akoby ste ho nikdy nepouzili.",
+  "vashModeIrreversible": "Tato akcia je ticha a nevratna.",
+  "chooseVashCode": "Zvolit moj kod Vash",
+  "vashCodeInfo": "Druhy PIN kod, ktory otvori aplikaciu normalne, ale prazdnu.",
+  "vashCodeInfoDetail": "Ak zadate tento kod namiesto PIN:",
+  "vashDeleteContacts": "Vase kontakty zmiznú",
+  "vashDeleteMessages": "Vase konverzacie zmiznú",
+  "vashDeleteHistory": "Vase poznamky zmiznú",
+  "vashKeepId": "Vasa identita Hash (#XXX-XXX-XXX) zostane rovnaka",
+  "vashAppearNormal": "Aplikacia vyzera normalne ale prazdna, ako nova. Tato akcia je nevratna.",
+  "setupVashCode": "Nastavit kod Vash",
+  "modifyVashCode": "Upravit kod Vash",
+  "currentVashCode": "Aktualny kod Vash",
+  "newVashCode": "Novy kod Vash",
+  "confirmVashCode": "Potvrdit kod Vash",
+  "vashCodeConfigured": "Kod Vash nastaveny",
+  "vashCodeModified": "Kod Vash upraveny",
+  "vashCodeMustDiffer": "Kod Vash musi byt odlisny od PIN",
+  "incorrectVashCode": "Nespravny kod Vash",
+  "vashWhatToDelete": "Co ma rezim Vash nechat zmiznut?",
+  "vashDeleteContactsOption": "Kontakty",
+  "vashDeleteMessagesOption": "Spravy",
+  "vashDeleteNotesOption": "Poznamky",
+  "vashActivated": "Rezim Vash aktivovany",
+  "vashCreateSubtitle": "Zvolte kod odlisny od hlavneho PIN",
+  "vashConfirmSubtitle": "Potvrdte vas kod Vash",
+  "vashCodeSection": "Rezim Vash",
+  "danger": "Nebezpecenstvo",
+  "panicButton": "Panicke tlacidlo",
+  "panicButtonSubtitle": "Vymazat vsetky udaje",
+  "deleteAccount": "Zmazat moj ucet",
+  "deleteAccountSubtitle": "Nevratna akcia",
+  "deleteAccountConfirmTitle": "Zmazat moj ucet",
+  "deleteAccountConfirmMessage": "Vas ucet bude trvalo zmazany. Tato akcia je nevratna.\n\n• Vsetky vase konverzacie\n• Vsetky vase kontakty\n• Vase Hash ID\n\nBudete si musiet vytvorit novy ucet.",
+  "deleteForever": "Zmazat trvalo",
+  "cancel": "Zrusit",
+  "panicConfirmTitle": "Panicke tlacidlo",
+  "panicConfirmMessage": "Tato akcia trvalo zmaze VSETKY vase udaje:\n\n• Vsetky vase spravy\n• Vsetky vase kontakty\n• Vas ucet\n\nSte si absolutne isty?",
+  "deleteAll": "ZMAZAT VSETKO",
+  "dataDeletedForSecurity": "Rezim Vash aktivovany.",
+  "deletionError": "Chyba pri mazani: {error}",
+  "yourSecurity": "Vasa bezpecnost",
+  "securityInfo": "• End-to-end sifrovanie (Signal Protocol)\n• Ziadne udaje na nasich serveroch po doruceni\n• Kluce ulozene len na vasom zariadeni\n• PIN kod sa nikdy neodosiela na server",
+  "version": "Hash v{version}",
+  "welcome": "Vitajte",
+  "securityStatement1": "Vase spravy su chranene.",
+  "securityStatement2": "End-to-end sifrovanie.",
+  "securityStatement3": "Ziadna stopa. Ziadny kompromis.",
+  "securityStatement4": "Vase sukromie je pravo.",
+  "accessBlocked": "Pristup blokovany",
+  "tooManyAttempts": "Prilis vela pokusov. Skuste neskor.",
+  "pleaseWait": "Prosim cakajte",
+  "waitDelay": "Prosim pockajte na koniec oneskorenia",
+  "attemptCount": "Pokus {current} z {max}",
+  "retryIn": "Skusit znova o {time}",
+  "forgotPin": "Zabudli ste PIN? Pouzite frazu na obnovenie",
+  "useRecoveryPhrase": "Pouzit frazu na obnovenie",
+  "recoveryWarningTitle": "Upozornenie",
+  "recoveryWarningMessage": "Obnovenie uctu:",
+  "recoveryDeleteAllMessages": "Zmaze VSETKY vase spravy",
+  "recoveryWaitDelay": "Vyzaduje 1-hodinove oneskorenie",
+  "recoveryKeepContacts": "Ponecha vase kontakty",
+  "recoveryIrreversible": "Tato akcia je nevratna. Vase spravy budu trvalo stratene.",
+  "iUnderstand": "Rozumiem",
+  "accountRecovery": "Obnovenie uctu",
+  "enterRecoveryPhrase": "Zadajte 24 slov vasej frazy na obnovenie, oddelene medzerami.",
+  "recoveryPhraseHint": "slovo1 slovo2 slovo3 ...",
+  "recover": "Obnovit",
+  "recoveryPhraseRequired": "Prosim zadajte frazu na obnovenie",
+  "recoveryPhrase24Words": "Fraza musi obsahovat presne 24 slov",
+  "incorrectRecoveryPhrase": "Nespravna fraza na obnovenie",
+  "recoveryInitError": "Chyba pri inicializacii obnovenia",
+  "securityDelay": "Bezpecnostne oneskorenie",
+  "securityDelayMessage": "Pre vasu bezpecnost je potrebna cakacia doba pred vytvorenim noveho PIN.",
+  "timeRemaining": "Zostava cas",
+  "messagesDeletedForProtection": "Vase spravy boli zmazane pre vasu ochranu.",
+  "canCloseApp": "Mozete zavriet aplikaciu a vratit sa neskor.",
+  "onboardingTitle1": "Vitajte v Hash",
+  "onboardingSubtitle1": "Messenger, ktory nezanechava stopy",
+  "onboardingTitle2": "Uplne sifrovanie",
+  "onboardingSubtitle2": "Vase spravy su end-to-end sifrovane protokolom Signal",
+  "onboardingTitle3": "Ziadna stopa",
+  "onboardingSubtitle3": "Spravy su po doruceni zo serverov zmazane",
+  "onboardingTitle4": "Vasa bezpecnost",
+  "onboardingSubtitle4": "PIN kod, rezim Vash a fraza na obnovenie",
+  "getStarted": "Zacat",
+  "next": "Dalej",
+  "skip": "Preskocit",
+  "alreadyHaveAccount": "Uz mam ucet",
+  "transferMyAccount": "Preniest moj ucet",
+  "createPin": "Vytvorte PIN kod",
+  "createPinSubtitle": "Tento kod bude chranit pristup k vasej aplikacii",
+  "confirmYourPin": "Potvrdte vas PIN kod",
+  "confirmPinSubtitle": "Zadajte PIN kod znova",
+  "saveRecoveryPhrase": "Fraza na obnovenie",
+  "saveRecoveryPhraseSubtitle": "Zapisite si tieto 24 slov v poradi. Umoznia vam obnovit ucet, ak zabudnete PIN.",
+  "phraseWritten": "Zapisal som si frazu",
+  "warningRecoveryPhrase": "Ak stratite tuto frazu a zabudnete PIN, stratite pristup k uctu.",
+  "accountTransferred": "Ucet preneseny",
+  "accountTransferredMessage": "Vas ucet bol preneseny na ine zariadenie. Toto sedenie uz nie je platne.",
+  "accountTransferredInfo": "Ak ste tento prenos neiniciovali, vas ucet mohol byt kompromitovany.",
+  "logout": "Odhlasit sa",
+  "transferAccount": "Preniest ucet",
+  "transferAccountInfo": "Preneste vas ucet Hash na nove zariadenie. Aktualne sedenie bude zneplatnene.",
+  "generateTransferCode": "Vygenerovat kod prenosu",
+  "transferCode": "Kod prenosu",
+  "transferCodeExpires": "Tento kod vyprsi za {minutes} minut",
+  "enterCodeOnNewDevice": "Zadajte tento kod na novom zariadeni pre prenos uctu.",
+  "generateNewCode": "Vygenerovat novy kod",
+  "scanQrCode": "Naskenovat QR code",
+  "scanQrCodeSubtitle": "Naskenujte QR code kontaktu na jeho pridanie",
+  "qrCodeDetected": "QR code detekovany",
+  "invalidQrCode": "Neplatny QR code",
+  "cameraPermissionRequired": "Vyzaduje sa povolenie kamery",
+  "myQrCode": "Moj QR code",
+  "myQrCodeSubtitle": "Zdielajte tento QR code, aby vas kontakty mohli pridat",
+  "shareQrCode": "Zdielat",
+  "addContactTitle": "Pridat kontakt",
+  "addContactByHashId": "Zadajte Hash ID vasho kontaktu",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Hladat",
+  "contactNotFound": "Kontakt nenajdeny",
+  "contactAlreadyAdded": "Tento kontakt uz je vo vasom zozname",
+  "contactAdded": "Kontakt pridany",
+  "myProfile": "Moj profil",
+  "myProfileSubtitle": "Zdielajte tieto informacie, aby vas ostatni mohli pridat",
+  "temporaryCode": "Docasny kod",
+  "temporaryCodeExpires": "Vyprsi za {time}",
+  "codeExpired": "Kod vyprsal",
+  "generateNewCodeButton": "Novy kod",
+  "copyHashId": "Kopirovat ID",
+  "copyCode": "Kopirovat kod",
+  "copiedToClipboard": "Skopirovane",
+  "showMyQrCode": "Zobrazit moj QR code",
+  "orDivider": "alebo",
+  "openScanner": "Otvorit skener",
+  "addManually": "Pridat manualne",
+  "contactHashIdLabel": "Hash ID kontaktu",
+  "temporaryCodeLabel": "Docasny kod",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Poziadajte kontakt o vygenerovanie kodu z jeho profilu",
+  "verifyAndAdd": "Overit a pridat",
+  "fillAllFields": "Prosim vyplnte vsetky polia",
+  "invalidHashIdFormat": "Neplatny format ID (napr.: 123-456-ABC)",
+  "userNotFound": "Pouzivatel nenajdeny",
+  "cannotAddYourself": "Nemozete pridat sameho seba",
+  "invalidOrExpiredCode": "Neplatny alebo expirovany docasny kod",
+  "contactFound": "Kontakt najdeny!",
+  "howToCallContact": "Ako by ste ich chceli nazvat?",
+  "contactNameHint": "Meno kontaktu",
+  "addContactButton": "Pridat",
+  "contactDetails": "Podrobnosti kontaktu",
+  "contactName": "Meno kontaktu",
+  "contactHashId": "Hash ID",
+  "addedOn": "Pridany {date}",
+  "deleteContact": "Zmazat kontakt",
+  "deleteContactConfirm": "Zmazat tento kontakt?",
+  "deleteContactMessage": "Toto zmaze aj celu konverzaciu.",
+  "delete": "Zmazat",
+  "typeMessage": "Napisat spravu...",
+  "messageSent": "Odoslane",
+  "messageDelivered": "Dorucene",
+  "messageRead": "Precitane",
+  "messageFailed": "Odoslanie zlyhalo",
+  "now": "Teraz",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}h",
+  "daysAgo": "{count}d",
+  "today": "Dnes",
+  "yesterday": "Vcera",
+  "dateAtTime": "{date} o {time}",
+  "shareMessage": "Pridajte sa ku mne na Hash! 🔒\n\nJe to skutocne sukromny messenger: uplne sifrovanie, ziadna stopa na serveroch a panicke tlacidlo v pripade potreby.\n\nStiahnite aplikaciu tu 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Chyba",
+  "ok": "OK",
+  "view": "Zobrazit",
+  "yes": "Ano",
+  "no": "Nie",
+  "save": "Ulozit",
+  "edit": "Upravit",
+  "close": "Zavriet",
+  "confirm": "Potvrdit",
+  "loading": "Nacitava sa...",
+  "retry": "Skusit znova",
+  "pendingRequests": "Cakajuce ziadosti",
+  "noPendingRequests": "Ziadne cakajuce ziadosti",
+  "pendingRequestsSubtitle": "Tito ludia vas chcu pridat",
+  "requestFromUser": "Ziadost od {hashId}",
+  "requestExpiresIn": "Vyprsi za {days} dni",
+  "acceptRequest": "Prijat",
+  "rejectRequest": "Odmietnut",
+  "requestAccepted": "Ziadost prijata",
+  "requestRejected": "Ziadost odmietnuta",
+  "requestSent": "Ziadost odoslana!",
+  "requestSentSubtitle": "Vasa ziadost bola odoslana. Pouzivatel ju musi prijat pred tym, nez budete moct komunikovat.",
+  "requestAlreadyPending": "Ziadost uz caka",
+  "requestAlreadySentByOther": "Tato osoba vam uz poslala ziadost",
+  "addByHashId": "Pridat podla Hash ID",
+  "addByHashIdSubtitle": "Zadajte Hash ID a docasny kod kontaktu",
+  "enterTemporaryCode": "Zadajte 6-miestny kod",
+  "sendRequest": "Poslat ziadost",
+  "acceptContactTitle": "Prijat kontakt",
+  "acceptContactSubtitle": "Mozete mu dat vlastne meno",
+  "leaveEmptyForHashId": "Nechajte prazdne pre pouzitie Hash ID",
+  "firstName": "Meno",
+  "lastName": "Priezvisko",
+  "notes": "Poznamky",
+  "notesHint": "Osobne poznamky o tomto kontakte",
+  "photoOptional": "Foto (volitelne)",
+  "contactNameOptional": "Meno (volitelne)",
+  "notesOptional": "Poznamky (volitelne)",
+  "storedLocally": "Ulozene len na vasom zariadeni",
+  "encryptedMessageLabel": "Sifrovana sprava",
+  "identityMessageHint": "Kto ste? Ako sa poznate?",
+  "messageWillBeSentEncrypted": "Tato sprava bude sifrovana a odoslana prijemcovi",
+  "sendRequestButton": "Poslat ziadost",
+  "requestExpiresIn24h": "Ziadost vyprsi za 24h, ak nebude prijata",
+  "theyAlreadySentYouRequest": "Tato osoba vam uz poslala ziadost",
+  "requests": "Ziadosti",
+  "receivedRequests": "Prijate",
+  "sentRequests": "Odoslane",
+  "noSentRequests": "Ziadne odoslane ziadosti",
+  "cancelRequest": "Zrusit",
+  "deleteRequest": "Zmazat ziadost",
+  "requestCancelled": "Ziadost zrusena",
+  "sentTo": "Odoslane {hashId}",
+  "expiresIn": "Vyprsi za {time}",
+  "receivedAgo": "Prijate pred {time}",
+  "messageFromRequester": "Sprava od ziadatela",
+  "copy": "Kopirovat",
+  "messageInfo": "Informacie o sprave",
+  "messageDirection": "Smer",
+  "messageSentByYou": "Odoslane vami",
+  "messageReceived": "Prijate",
+  "messageSentAt": "Odoslane o",
+  "messageStatus": "Stav",
+  "messageReadAt": "Precitane o",
+  "messageType": "Typ",
+  "messageSize": "Velkost",
+  "messageExpiresAt": "Vyprsi o",
+  "messageEncrypted": "End-to-end sifrovane",
+  "messageStatusSending": "Odosiela sa...",
+  "messageStatusSent": "Odoslane",
+  "messageStatusDelivered": "Dorucene",
+  "messageStatusRead": "Precitane",
+  "messageStatusFailed": "Zlyhalo",
+  "serverStatus": "Server",
+  "onServer": "Caka na dorucenie",
+  "deletedFromServer": "Zmazane",
+  "messageTypeText": "Text",
+  "messageTypeImage": "Obrazok",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Hlas",
+  "messageTypeFile": "Subor",
+  "indefinitely": "Neurcito",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "hodin",
+  "minutes": "minut",
+  "seconds": "sekund",
+  "ephemeralMessages": "Pomijive spravy",
+  "ephemeralMessagesDescription": "Spravy su automaticky zmazane po tomto case",
+  "ephemeralImmediate": "Okamzite (po precitani)",
+  "ephemeralImmediateDesc": "Zmazane hned po precitani",
+  "ephemeralMyPreference": "Moja preferencia",
+  "ephemeralMyPreferenceDesc": "Pouzit globalne nastavenie",
+  "ephemeralDefaultSetting": "Trvanie spravy",
+  "ephemeralChooseDefault": "Odporucane",
+  "ephemeral30Seconds": "30 sekund",
+  "ephemeral5Minutes": "5 minut",
+  "ephemeral1Hour": "1 hodina",
+  "ephemeral3Hours": "3 hodiny",
+  "ephemeral6Hours": "6 hodin",
+  "ephemeral12Hours": "12 hodin",
+  "ephemeral24Hours": "24 hodin",
+  "customDuration": "Vlastne trvanie",
+  "muteNotifications": "Stlmit notifikacie",
+  "muteDescription": "Nebudete dostavat notifikacie pre tento kontakt",
+  "mutedUntil": "Stlmene do {time}",
+  "notMuted": "Notifikacie zapnute",
+  "unmute": "Zapnut",
+  "notificationSound": "Zvuk notifikacie",
+  "defaultSound": "Predvoleny",
+  "chatSettings": "Nastavenia konverzacie",
+  "bubbleColor": "Farba bubliny",
+  "backgroundColor": "Farba pozadia",
+  "backgroundImage": "Obrazok pozadia",
+  "chatBackground": "Pozadie konverzacie",
+  "customColor": "Vlastna",
+  "defaultColor": "Predvolena",
+  "imageSelected": "Obrazok vybrany",
+  "noImage": "Ziadny obrazok",
+  "color": "Farba",
+  "image": "Obrazok",
+  "tapToSelectImage": "Klepnite na vyber obrazku",
+  "changeImage": "Zmenit obrazok",
+  "previewMessageReceived": "Ahoj!",
+  "previewMessageSent": "Cau!",
+  "messageAction": "Sprava",
+  "callAction": "Hovor",
+  "videoAction": "Video",
+  "personalNotes": "Osobne poznamky",
+  "addNotes": "Pridat poznamky...",
+  "noNotes": "Ziadne poznamky",
+  "messageNotifications": "Notifikacie sprav",
+  "callNotifications": "Notifikacie hovorov",
+  "useGradient": "Pouzit gradient",
+  "gradientStart": "Pociatocna farba",
+  "gradientEnd": "Koncova farba",
+  "preview": "Nahled",
+  "reset": "Resetovat",
+  "securityNumber": "Bezpecnostne cislo",
+  "securityNumberDescription": "Overte, ze sa bezpecnostne cislo zhoduje so zariadenim {name}",
+  "verifyEncryption": "Overit end-to-end sifrovanie",
+  "tapToCopy": "Klepnite na kopirovanie",
+  "howToVerify": "Ako overit",
+  "verifyStep1": "Stretnite sa s kontaktom osobne alebo mu zavolajte",
+  "verifyStep2": "Porovnajte bezpecnostne cisla alebo naskenujte QR code",
+  "verifyStep3": "Ak sa zhoduju, vasa konverzacia je bezpecna",
+  "scanToVerify": "Naskenovat na overenie",
+  "reportSpam": "Nahlasit spam",
+  "reportSpamSubtitle": "Nahlasit tento kontakt ako spam",
+  "reportSpamDescription": "Toto anonymne nahlasi tento kontakt. Vasa identita nebude zdielana. Ste si isty?",
+  "report": "Nahlasit",
+  "spamReported": "Spam nahlaseny",
+  "reportError": "Nepodarilo sa odoslat nahlasenie. Skuste to znova.",
+  "reportRateLimited": "Dosiahli ste maximalny pocet nahlaseni na dnes.",
+  "blockContact": "Blokovat kontakt",
+  "blockContactDescription": "Tento kontakt vam uz nebude moct posielat spravy ani volat. Nebude o tom informovany.",
+  "unblockContact": "Odblokovat kontakt",
+  "unblockContactDescription": "Tento kontakt vam bude opat moct posielat spravy a volat.",
+  "contactBlocked": "Kontakt blokovany",
+  "contactUnblocked": "Kontakt odblokovany",
+  "contactIsBlocked": "Tento kontakt je blokovany",
+  "unblock": "Odblokovat",
+  "deleteContactSubtitle": "Zmazat tento kontakt a konverzaciu",
+  "confirmWithPin": "Potvrdit PIN-om",
+  "enterPinToConfirm": "Zadajte PIN na potvrdenie tejto akcie",
+  "mute1Hour": "1 hodina",
+  "mute8Hours": "8 hodin",
+  "mute1Day": "1 den",
+  "mute1Week": "1 tyzden",
+  "muteAlways": "Vzdy",
+  "muteExplanation": "Nebudete dostavat notifikacie pre tento kontakt",
+  "howItWorks": "Ako to funguje",
+  "ephemeralExplanation1": "Spravy su zo servera zmazane hned po prijati.",
+  "ephemeralExplanation2": "Toto nastavenie urcuje, kedy spravy zmiznú z VASHO telefonu po precitani.",
+  "ephemeralExplanation3": "Vas kontakt ma vlastne nastavenie pre svoj telefon.",
+  "profilePhoto": "Profilova fotka",
+  "takePhoto": "Odfotit",
+  "chooseFromGallery": "Vybrat z galerie",
+  "removePhoto": "Odstranit fotku",
+  "viewContactHashId": "Zobrazit identifikator kontaktu",
+  "hashIdPartiallyMasked": "Ciastocne maskovane pre vasu bezpecnost a sukromie kontaktu",
+  "addFirstContact": "Pridajte prvy kontakt",
+  "addFirstContactSubtitle": "Zdielajte vas QR code alebo naskenujte priatela",
+  "directory": "Adresar",
+  "noContacts": "Ziadne kontakty",
+  "noContactsSubtitle": "Pridajte kontakt na zaciatok",
+  "sendMessageAction": "Poslat spravu",
+  "audioCall": "Audio hovor",
+  "videoCall": "Video hovor",
+  "viewProfile": "Zobrazit profil",
+  "deleteContactDirectory": "Zmazat kontakt",
+  "scanShort": "Skenovat",
+  "addShort": "Pridat",
+  "deleteContactConfirmName": "Naozaj chcete zmazat {name}?",
+  "noNotesTitle": "Ziadne poznamky",
+  "noNotesSubtitle": "Vytvorte svoju prvu poznamku",
+  "newNote": "Nova poznamka",
+  "editNote": "Upravit poznamku",
+  "deleteNote": "Zmazat poznamku",
+  "deleteNoteConfirm": "Naozaj chcete zmazat tuto poznamku?",
+  "noteTitle": "Nazov",
+  "noteContent": "Obsah",
+  "addItem": "Pridat polozku",
+  "pinNote": "Pripnut",
+  "unpinNote": "Odopnut",
+  "noteColor": "Farba",
+  "notePassword": "Heslo",
+  "setPassword": "Nastavit heslo",
+  "changePassword": "Zmenit heslo",
+  "removePassword": "Odstranit heslo",
+  "enterPassword": "Zadat heslo",
+  "confirmPassword": "Potvrdit heslo",
+  "passwordPin": "PIN kod",
+  "passwordText": "Textove heslo",
+  "protectedNote": "Chranena poznamka",
+  "incorrectPassword": "Nespravne heslo",
+  "passwordSet": "Heslo nastavene",
+  "passwordRemoved": "Heslo odstranene",
+  "notesBiometric": "Face ID pre poznamky",
+  "notesBiometricSubtitle": "Vyzadovat biometricku autentifikaciu na otvorenie chranenych poznamok",
+  "textNote": "Textova poznamka",
+  "checklistNote": "Kontrolny zoznam",
+  "tasksProgress": "{checked}/{total} uloh",
+  "autoSaved": "Ulozene",
+  "searchNotes": "Hladat poznamky",
+  "legalConsent": "Pravny suhlas",
+  "confirmAge13": "Potvrdzujem, ze mam aspon 13 rokov",
+  "acceptLegalStart": "Akceptujem ",
+  "privacyPolicy": "Zasady ochrany sukromia",
+  "termsOfService": "Podmienky pouzivania",
+  "andThe": " a ",
+  "continueButton": "Pokracovat",
+  "mustAcceptTerms": "Musite akceptovat obe podmienky na pokracovanie",
+  "support": "Podpora",
+  "contactSupport": "Kontaktovat podporu",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Nahlasit zneuzitie",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Pravne informacie",
+  "legalEntity": "Pravny subjekt",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Pripnut",
+  "unpinConversation": "Odopnut",
+  "hideConversation": "Odstranit z kanala",
+  "deleteConversation": "Zmazat konverzaciu",
+  "deleteConversationConfirm": "Zadajte PIN na potvrdenie zmazania vsetkych sprav",
+  "noConversations": "Zatial ziadne konverzacie",
+  "startConversation": "Zacat",
+  "microphonePermissionRequired": "Vyzaduje sa pristup k mikrofonu",
+  "microphonePermissionExplanation": "Hash potrebuje mikrofon na uskutocnenie hovorov.",
+  "cameraPermissionExplanation": "Hash potrebuje kameru na videohovory.",
+  "openSettings": "Otvorit nastavenia",
+  "callConnecting": "Pripajanie...",
+  "callRinging": "Zvoni...",
+  "callReconnecting": "Opätovne pripajanie...",
+  "callReconnectingTimer": "Opätovne pripajanie ({seconds}s)",
+  "callPaused": "Pozastavené",
+  "callPausedSubtitle": "Hovor stále prebieha",
+  "callRemoteMicMuted": "Mikrofon kontaktu je stlmeny",
+  "callMiniControlsMute": "Stlmit",
+  "callMiniControlsUnmute": "Zapnut",
+  "callMiniControlsHangUp": "Zavesit",
+  "callMiniControlsReturn": "Vratit sa k hovoru",
+  "callNetworkPoor": "Nestabilne pripojenie",
+  "callNetworkLost": "Pripojenie stratene",
+  "callEndedTitle": "Hovor ukonceny",
+  "deviceData": "Udaje zariadenia",
+  "deviceDataSubtitle": "Lokalne a serverove ulozisko",
+  "localStorage": "Lokalne ulozisko",
+  "onThisDevice": "na tomto zariadeni",
+  "encryptedDatabases": "Sifrovane databazy",
+  "files": "Subory",
+  "secureKeychain": "Bezpecna klucenka",
+  "cache": "Vyrovnavacia pamat",
+  "contactsDetail": "Mena, avatary, kluce Signal",
+  "messagesDetail": "Sifrovane konverzacie",
+  "notesDetail": "Osobne poznamky",
+  "signalSessions": "Sedenia Signal",
+  "signalSessionsDetail": "Sifrovacie sedenia",
+  "pendingContacts": "Cakajuce kontakty",
+  "pendingContactsDetail": "Cakajuce ziadosti",
+  "callHistory": "Hovory",
+  "callHistoryDetail": "Historia hovorov",
+  "preferences": "Preferencie",
+  "preferencesDetail": "Preferencie medii a hovorov",
+  "avatars": "Avatary",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{ziadne subory} =1{1 subor} other{{count} suborov}}",
+  "active": "Aktivne",
+  "notDefined": "Nedefinovane",
+  "biometrics": "Biometria",
+  "recoveryPhrase": "Fraza na obnovenie",
+  "identity": "Identita (Hash ID)",
+  "signalKeys": "Kluce Signal Protocol",
+  "authTokens": "Autentifikacne tokeny",
+  "contactNamesCache": "Vyrovnavacia pamat mien kontaktov",
+  "remoteConfig": "Vzdialena konfiguracia",
+  "notificationPrefs": "Preferencie notifikacii",
+  "serverData": "Serverove udaje",
+  "serverDataInfo": "Hash uchovava minimalne udaje na serveri, vsetky sifrovane alebo docasne.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash ID, verejne kluce, token schranky",
+  "serverPrekeys": "Predkluce",
+  "serverPrekeysDetail": "Jednorazove kluce Signal (spotrebovane)",
+  "serverMessages": "Spravy v tranzite",
+  "serverMessagesDetail": "Zmazane po doruceni (max 24h)",
+  "serverMedia": "Media v tranzite",
+  "serverMediaDetail": "Zmazane po stiahnuti",
+  "serverContactRequests": "Ziadosti o kontakt",
+  "serverContactRequestsDetail": "Vyprsia po 24h",
+  "serverRateLimits": "Limity rychlosti",
+  "serverRateLimitsDetail": "Docasne anti-abuzne udaje",
+  "privacyReassurance": "Hash nemoze citat vase spravy. Vsetky udaje su end-to-end sifrovane. Serverove udaje su automaticky mazane.",
+  "pinTooSimple": "Tento PIN je prilis jednoduchy. Zvolte bezpecnejsi kod.",
+  "genericError": "Vyskytla sa chyba. Skuste to znova.",
+  "accountCreationError": "Nepodarilo sa vytvorit ucet: {error}",
+  "phraseCopiedToClipboard": "Fraza skopirovana do schranky",
+  "copyPhrase": "Kopirovat frazu",
+  "recoveryPhraseSecurityWarning": "Zapisite si tuto frazu na bezpecne miesto. Ak stratite PIN bez tejto frazy, trvalo stratite pristup k udajom.",
+  "noMessages": "Ziadne spravy",
+  "deleteAllMessagesWithContact": "Zmazat vsetky spravy s {name}?",
+  "confirmation": "Potvrdenie",
+  "untitled": "Bez nazvu",
+  "noSessions": "Ziadne sedenia",
+  "unknownContact": "Neznamy kontakt",
+  "unnamed": "Bez mena",
+  "noPendingRequestsAlt": "Ziadne cakajuce ziadosti",
+  "deleteAllCallHistory": "Zmazat celu historiu hovorov?",
+  "noCalls": "Ziadne hovory",
+  "noPreferences": "Ziadne preferencie",
+  "resetAllMediaPrefs": "Resetovat vsetky preferencie medii?",
+  "deleteThisAvatar": "Zmazat tento avatar?",
+  "deleteAllAvatars": "Zmazat vsetky avatary?",
+  "noAvatars": "Ziadne avatary",
+  "deleteThisFile": "Zmazat tento subor?",
+  "deleteAllMediaFiles": "Zmazat vsetky media?",
+  "noMediaFiles": "Ziadne media",
+  "outgoing": "Odchadzajuce",
+  "incoming": "Prichadzajuce",
+  "ephemeralViewDuration": "Pomijive zobrazenie: {seconds}s",
+  "normalView": "Normalne zobrazenie",
+  "callReasonCompleted": "Dokonceny",
+  "callReasonMissed": "Zmeskany",
+  "callReasonDeclined": "Odmietnuty",
+  "callReasonFailed": "Zlyhal",
+  "justNow": "Prave teraz",
+  "timeAgoMinutes": "pred {count} min",
+  "timeAgoHours": "pred {count}h",
+  "timeAgoDays": "pred {count}d",
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Poloha",
+  "statusQueued": "V rade",
+  "blockedBadge": "Blokovany",
+  "protectedBadge": "Chraneny",
+  "messageCount": "{count} sprava(y)",
+  "deleteQuestion": "Zmazat?",
+  "transferMyAccountTitle": "Preniest moj ucet",
+  "loadingError": "Chyba nacitania",
+  "transferToNewDevice": "Preniest na nove zariadenie",
+  "transferInstructions": "Na novom zariadeni zvolte \"Obnovit moj ucet\" a zadajte tieto informacie:",
+  "yourHashIdLabel": "Vase Hash ID",
+  "enterYourPinCode": "Zadajte vas PIN kod",
+  "pinOwnerConfirmation": "Na potvrdenie, ze ste vlastnikom tohto uctu",
+  "scanThisQrCode": "Naskenujte tento QR code",
+  "withYourNewDevice": "Vasim novym zariadenim",
+  "orEnterTheCode": "alebo zadajte kod",
+  "transferCodeLabel": "Kod prenosu",
+  "proximityVerification": "Overenie blizkosti",
+  "bringDevicesCloser": "Priblizite obe zariadenia",
+  "confirmTransferQuestion": "Potvrdit prenos?",
+  "accountWillBeTransferred": "Vas ucet bude preneseny na nove zariadenie.\n\nToto zariadenie bude trvalo odpojene.",
+  "transferComplete": "Prenos dokonceny",
+  "transferSuccessMessage": "Vas ucet bol uspesne preneseny.\n\nTato aplikacia sa teraz zatvori.",
+  "manualVerification": "Manualne overenie",
+  "codeDisplayedOnBothDevices": "Kod zobrazeny na oboch zariadeniach:",
+  "doesCodeMatchNewDevice": "Zhoduje sa tento kod s kodom na novom zariadeni?",
+  "verifiedStatus": "Overene",
+  "inProgressStatus": "Prebieha...",
+  "notAvailableStatus": "Nedostupne",
+  "codeExpiredRestart": "Kod vyprsal. Prosim zacnite odznova.",
+  "codesDoNotMatchCancelled": "Kody sa nezhoduju. Prenos zruseny.",
+  "transferToDevice": "Na: {device}",
+  "copiedExclamation": "Skopirovane!",
+  "expiresInTime": "Vyprsi za {time}",
+  "biometricNotAvailable": "Biometria nie je na tomto zariadeni dostupna",
+  "biometricAuthError": "Chyba pri biometrickej autentifikacii",
+  "authenticateForBiometric": "Prosim autentifikujte sa na povolenie biometrie",
+  "biometricAuthFailed": "Biometricka autentifikacia zlyhala",
+  "forceUpdateTitle": "Vyzadovana aktualizacia",
+  "forceUpdateMessage": "K dispozicii je nova verzia Hash. Aktualizujte na pokracovanie.",
+  "updateButton": "Aktualizovat",
+  "maintenanceInProgress": "Prebieha udrzba",
+  "tryAgainLater": "Prosim skuste neskor",
+  "information": "Informacie",
+  "noLoginRecorded": "Ziadne zaznamenane prihlasenie",
+  "nextUnlocksAppearHere": "Nasledujuce odomknutia sa zobraziatu.",
+  "noMaintenancePlanned": "Ziadna planovana udrzba",
+  "everythingWorkingNormally": "Vsetko funguje normalne",
+  "locking": "Zamykanie...",
+  "newMessageNotification": "Nova sprava",
+  "secExplainTitle": "Ako vas Hash chrani",
+  "secExplainIntro": "Hash je navrhnuty tak, aby nikto nemohol citat vase spravy.",
+  "secExplainIntroSub": "Ani my.\nTu je vysvetlenie, jednoducho.",
+  "secJourneyLabel": "CESTA",
+  "secJourneyTitle": "Cesta vasej spravy",
+  "secJourneySubtitle": "Od vasho prsta po obrazovku kontaktu, kazdy krok je chraneny. Sledujte cestu.",
+  "secStep1Title": "Napisete spravu",
+  "secStep1Desc": "Napisete \"Ahoj!\" v aplikacii. V tomto momente sprava existuje iba v pamati telefonu. Nic nebolo odoslane.",
+  "secStep2Title": "Sifrovanie s Signal Protocol",
+  "secStep2Desc": "Hned ako stlacite \"Odoslat\", vasa sprava sa premeni na retazec nezrozumitelnych znakov. Je to, akoby bola vasa sprava zamknuta v trezore, od ktoreho ma kluc iba vas kontakt.",
+  "secStep3Title": "Sealed Sender: neviditelna obalka",
+  "secStep3Desc": "Predstavte si, ze posielate list postou, ale bez spatocnej adresy na obalke. Presne to robi Hash. Sprava je vlozena do anonymnej schranky. Server nevie, kto ju poslal.",
+  "secStep4Title": "Server nic nevidi",
+  "secStep4Desc": "Server funguje ako slepy postar. Vie len, ze \"niekto nieco vlozil do schranky #A7X9\". Nevie, kto to poslal, co to je ani pre koho to je.",
+  "secStep4Highlight": "Ziadne metaudaje: ziadna IP adresa, ziadna casova znacka, ziadne prepojenie medzi odosielatelom a prijemcom.",
+  "secStep5Title": "Vas kontakt prijme spravu",
+  "secStep5Desc": "Telefon kontaktu stiahne obsah z anonymnej schranky a dessifruje spravu svojim sukromnym klucom, ktory nikdy neopustil jeho zariadenie. \"Ahoj!\" sa zobrazi na obrazovke.",
+  "secStep6Title": "Sprava zmizne zo servera",
+  "secStep6Desc": "Hned ako vas kontakt potvrdí prijatie, server trvalo zmaze spravu. Ziadny kos, ziadny archiv, ziadna zaloha. Aj neprecitane spravy su automaticky znicene po 24 hodinach.",
+  "secStep7Title": "Lokalna expiracia",
+  "secStep7Desc": "Na telefone kontaktu sa sprava samoznici podla vasho nastavenia: okamzite po precitani, 5 minut, 1 hodina... vy rozhodujete.",
+  "secJourneyConclusion": "Vysledok: ziadna stopa na serveri, ziadna stopa na zariadeniach. Sprava existovala len tak dlho, aby bola precitana, potom zmizla.",
+  "secArchLabel": "ARCHITEKTURA",
+  "secArchTitle": "5 vrstiev ochrany",
+  "secArchSubtitle": "Hash sa nespoleha na jednu technologiu. Kazda vrstva posilnuje ostatne. Aj ked je jedna vrstva kompromitovana, vase udaje zostavaju v bezpeci.",
+  "secLayer1Title": "End-to-end sifrovanie",
+  "secLayer1Desc": "Kazda sprava je sifrovana jedinecnym klucom. Jednoducho: aj ked niekto dessifruje jednu spravu, nasledujucu uz nedesifruje. Kazda sprava ma vlastny zamok.",
+  "secLayer1Detail": "Pre subory (fotky, videa, dokumenty) Hash pouziva dodatocne sifrovanie AES-256-GCM. Subor je sifrovany pred odoslanim z telefonu.",
+  "secLayer2Title": "Sealed Sender (sietova anonymita)",
+  "secLayer2Desc": "Bezne messengery posielajú spravy s vasou identitou. Je to akoby ste napisali meno na obalku. Hash pouziva anonymne schranky: server doruci spravu bez vedenia, kto ju poslal.",
+  "secLayer2Detail": "Vysledok: aj pri uniku dat zo servera je nemozne zrekonstruovat, kto s kym komunikuje.",
+  "secLayer3Title": "Automaticke mazanie",
+  "secLayer3Desc": "Spravy su zo servera zmazane hned po potvrdeni prijatia. Aj ked sprava nie je nikdy vyzdvihnuta, je automaticky znicena po 24 hodinach.",
+  "secLayer3Detail": "Na telefone sa spravy samozncia podla vasho nastavenia: okamzite, 5 min, 15 min, 30 min, 1h, 3h, 6h alebo 12h.",
+  "secLayer4Title": "Ochrana lokalneho pristupu",
+  "secLayer4Desc": "Aplikacia je chranena 6-miestnym PIN a/alebo biometriou (Face ID, odtlacok). Po prilis velkym poctom neuspesnych pokusov sa aplikacia zamkne s rastucim oneskorenim.",
+  "secLayer5Title": "Zamknuta databaza",
+  "secLayer5Desc": "Na strane servera ziadny pouzivatel nemoze priamo zapisovat do databazy. Vsetky akcie prechádzajú cez bezpecnostne funkcie.",
+  "secLayer5Detail": "Je to ako bankovy prepazka: nikdy sa nedotknete trezoru sami. Podate ziadost a system overi, ci mate pravo pred vykonanim.",
+  "secVashLabel": "JEDINEENY NA SVETE",
+  "secVashTitle": "Rezim Vash",
+  "secVashSubtitle": "System nudzovej bezpecnosti, ktory neexistuje v ziadnej inej aplikacii na posielanie sprav.",
+  "secVashScenarioTitle": "Predstavte si tuto situaciu",
+  "secVashScenario1": "Niekto ziska pristup k vasmu telefonu",
+  "secVashScenario2": "Pytaju si od vas PIN kod",
+  "secVashScenario3": "Chcete nudzovo vymazat vsetky udaje",
+  "secVashSolutionTitle": "Riesenie: dva PIN kody",
+  "secVashSolutionDesc": "V Hash nastavite dva rozne PIN kody:",
+  "secVashNormalCodeLabel": "Normalny kod",
+  "secVashNormalCodeDesc": "Otvori aplikaciu normalne so vsetkymi udajmi",
+  "secVashCodeLabel2": "Kod Vash",
+  "secVashCodeDescription": "Otvori aplikaciu normalne... ale vsetky vase udaje sa ticho zmazú na pozadi",
+  "secVashWhatHappensTitle": "Co sa stane potom",
+  "secVashWhatHappensDesc": "Aplikacia sa otvori normalne. Ziadne upozornenie, ziadna podozriva animacia. Obrazovka jednoducho zobrazuje prazdnu aplikaciu, akoby ste ju prave nainštalovali.\n\nV skutocnosti boli vsetky vase konverzacie, kontakty a spravy nenavratne zmazane za zlomok sekundy.",
+  "secCallsLabel": "HOVORY A SUBORY",
+  "secCallsTitle": "Vsetko je sifrovane",
+  "secCallsSubtitle": "Nie len spravy. Absolutne vsetko, co prechadza cez Hash, je end-to-end sifrovane.",
+  "secAudioCallTitle": "Audio hovory",
+  "secAudioCallDesc": "End-to-end sifrovane cez WebRTC. Hlas je prenasany priamo medzi zariadeniami.",
+  "secVideoCallTitle": "Video hovory",
+  "secVideoCallDesc": "Rovnaka technologia, kazdy prúd sifrovany individualne.",
+  "secPhotosTitle": "Fotky a videa",
+  "secPhotosDesc": "Sifrovane AES-256-GCM pred opustenim telefonu.",
+  "secDocsTitle": "Dokumenty",
+  "secDocsDesc": "PDF, ZIP, akykolvek subor. Nazov, velkost a obsah sifrovane.",
+  "secAnonLabel": "ANONYMITA",
+  "secAnonTitle": "Ziadna identita nie je potrebna",
+  "secAnonSubtitle": "Hash nikdy nepyta vase telefonne cislo ani email. Ste identifikovany jedinecnym a anonymnym Hash ID.",
+  "secHashIdTitle": "Vase Hash ID",
+  "secHashIdDesc": "Toto je vas jedinecny identifikator. Neodhaluje nic o vas: ani meno, ani cislo, ani polohu. Je to ako pseudonym, ktory je nemozne prepojit s vasou skutocnou identitou.\n\nNa pridanie kontaktu zdielate Hash ID alebo naskenujete QR code. To je vsetko. Ziadny synchronizovany adresar, ziadne navrhy \"Ludia, ktorych mozete poznat\".",
+  "secDataLabel": "UDAJE",
+  "secDataTitle": "Co Hash nevie",
+  "secDataSubtitle": "Najlepsi sposob, ako chranit vase udaje, je nezbieraT ich.",
+  "secNeverCollected": "Nikdy zbierane",
+  "secNeverItem1": "Obsah sprav",
+  "secNeverItem2": "Zoznam kontaktov",
+  "secNeverItem3": "Telefonne cislo",
+  "secNeverItem4": "Emailova adresa",
+  "secNeverItem5": "IP adresa",
+  "secNeverItem6": "Poloha",
+  "secNeverItem7": "Metaudaje (kto s kym komunikuje)",
+  "secNeverItem8": "Historia hovorov",
+  "secNeverItem9": "Adresar",
+  "secNeverItem10": "Reklamne identifikatory",
+  "secTempStored": "Ulozene docasne",
+  "secTempItem1": "Anonymne Hash ID (jedinecny identifikator)",
+  "secTempItem2": "Verejne sifrovacie kluce",
+  "secTempItem3": "Sifrovane spravy v tranzite (max 24h)",
+  "secTempNote": "Ani tieto minimalne udaje vas nemozu identifikovat. Vase Hash ID nie je prepojene so ziadnymi osobnymi informaciami.",
+  "secFooterTitle": "Vase sukromie, vasa sloboda",
+  "secFooterDesc": "Hash pouziva rovnake sifrovacie technologie ako najnarocnejsie profesionalne aplikacie. Vase spravy su chranene matematikou, nie slubmi.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometria",
+  "biometricUnlock": "Odomknúť odtlačkom prsta alebo Face ID",
+  "biometricWarningMessage": "Povolením biometrie nebudete môcť používať Vash kód na vstup do aplikácie.\n\nVash kód budete môcť použiť iba ak biometria zlyhá (po viacerých neúspešných pokusoch).\n\nSte si istí, že chcete pokračovať?",
+  "connectionCount": "Pripojenie(a)",
+  "currentSession": "Aktuálne",
+  "dataLocalOnly": "Tieto údaje sú uložené len vo vašom zariadení a nikdy sa neprenášajú.",
+  "doYouLikeHash": "Páči sa vám Hash?",
+  "donationMessage": "Hash je neziskový projekt. Vaša podpora nám pomáha pokračovať v budovaní skutočne súkromného messengera.",
+  "enableBiometric": "Povoliť biometriu",
+  "ephemeral1HourDesc": "Zmazané 1h po prečítaní",
+  "ephemeral24HoursDesc": "Zmazané 24h po prečítaní",
+  "ephemeral30SecondsDesc": "Zmazané 30s po prečítaní",
+  "ephemeral5MinutesDesc": "Zmazané 5min po prečítaní",
+  "ephemeral6HoursDesc": "Zmazané 6h po prečítaní",
+  "feedback": "Spätná väzba",
+  "historyLabel": "História",
+  "hoursAgoLabel": "Pred {hours}h",
+  "hoursMinutesAgoLabel": "Pred {hours}h {minutes}min",
+  "justNowLabel": "Práve teraz",
+  "later": "Neskôr",
+  "loginInfoText": "Každé odomknutie PIN-om sa zaznamenáva lokálne. Uchovávajú sa len posledných 24 hodín.",
+  "maintenanceActiveLabel": "PREBIEHA",
+  "maintenancePlannedLabel": "PLÁNOVANÁ",
+  "maintenanceTitle": "Údržba",
+  "minutesAgoLabel": "Pred {count} min",
+  "periodLabel": "Obdobie",
+  "pinCodeForEntry": "PIN kód pre vstup do aplikácie",
+  "ratingBad": "Zlé",
+  "ratingExcellent": "Výborné!",
+  "ratingGood": "Dobré",
+  "ratingOk": "Ok",
+  "ratingTerrible": "Hrozné",
+  "recentConnections": "Posledné pripojenia",
+  "share": "Zdieľať",
+  "shareAppSubtitle": "Zdieľajte Hash so svojimi blízkymi",
+  "showCallsInRecents": "Zobraziť v posledných hovoroch",
+  "showCallsInRecentsSubtitle": "Hash hovory sa zobrazujú v histórii telefónu",
+  "todayLabel": "Dnes",
+  "understood": "Rozumiem",
+  "yesterdayLabel": "Včera",
+  "yourFeedbackHelps": "Vaša spätná väzba nám pomáha zlepšovať aplikáciu"
+}

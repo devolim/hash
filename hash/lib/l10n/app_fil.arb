@@ -1,0 +1,1044 @@
+{
+  "@@locale": "fil",
+
+  "appName": "Hash",
+  "appTagline": "Walang Bakas. Walang Kompromiso.",
+
+  "conversations": "Mga Chat",
+  "contacts": "Mga Kontak",
+  "noConversation": "Walang chat",
+  "noConversationSubtitle": "Magdagdag ng kontak para magsimulang mag-chat nang ligtas",
+  "pendingRequestsCount": "{count, plural, =1{1 naghihintay na kahilingan} other{{count} mga naghihintay na kahilingan}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 naipadala na kahilingan na naghihintay} other{{count} mga naipadala na kahilingan na naghihintay}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Magdagdag ng kontak",
+  "shareApp": "Ibahagi ang app",
+  "newMessage": "Bagong mensahe",
+  "newConversation": "Magpadala ng mensahe",
+
+  "settings": "Mga Setting",
+  "myHashId": "Aking Hash ID",
+  "supportHash": "Suportahan ang Hash",
+  "supportHashSubtitle": "Ang Hash ay isang non-profit na proyekto",
+  "donate": "Mag-donate",
+
+  "appearance": "Hitsura",
+  "theme": "Tema",
+  "themeAuto": "Awtomatiko",
+  "themeAutoSubtitle": "Sumusunod sa mga setting ng system",
+  "themeDark": "Madilim",
+  "themeLight": "Maliwanag",
+  "themeRecommendation": "Inirerekomenda ang madilim na tema para sa mas magandang privacy",
+  "language": "Wika",
+  "languageAuto": "Awtomatiko (system)",
+
+  "notifications": "Mga Notipikasyon",
+  "messages": "Mga Mensahe",
+  "calls": "Mga Tawag",
+  "vibration": "Vibrasyon",
+  "notificationContent": "Nilalaman ng notipikasyon",
+  "notificationContentFull": "Ipakita lahat",
+  "notificationContentFullDesc": "Pangalan ng kontak at preview ng mensahe",
+  "notificationContentName": "Pangalan lamang",
+  "notificationContentNameDesc": "Ipinapakita lamang ang pangalan ng kontak",
+  "notificationContentDiscrete": "Diskrete",
+  "notificationContentDiscreteDesc": "Ipinapakita lamang ang \"Bagong mensahe\"",
+
+  "security": "Seguridad",
+  "howHashProtectsYou": "Paano ka pinoprotektahan ng Hash",
+  "howHashProtectsYouSubtitle": "Unawain ang iyong seguridad",
+  "accountSecurity": "Seguridad ng account",
+  "accountSecuritySubtitle": "PIN, biometrics, Vash Mode",
+  "blockScreenshots": "I-block ang mga screenshot",
+  "transferDevice": "Ilipat sa ibang device",
+  "transferDeviceSubtitle": "Ilipat ang iyong account",
+
+  "pinCode": "PIN code",
+  "changePin": "Palitan ang PIN code",
+  "currentPin": "Kasalukuyang PIN code",
+  "newPin": "Bagong PIN code",
+  "confirmPin": "Kumpirmahin ang PIN code",
+  "pinChanged": "Nabago ang PIN code",
+  "incorrectPin": "Maling PIN",
+  "pinsDoNotMatch": "Hindi magkatugma ang mga PIN",
+
+  "autoLock": "Auto-lock",
+  "autoLockDelay": "Pagkaantala ng lock",
+  "autoLockImmediate": "Agad-agad",
+  "autoLockMinute": "1 minuto",
+  "autoLockMinutes": "{count} minuto",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "vashCode": "Vash code",
+  "vashModeTitle": "Vash Mode",
+  "vashModeExplanation": "Ang iyong pinakahuling safety net.",
+  "vashModeDescription": "Pipili ka ng pangalawang PIN code. Kung mapilitan kang buksan ang Hash, ilagay ang code na ito sa halip na ang iyong regular na PIN.\n\nBubuksan ang app nang normal, pero mawawala na ang lahat ng iyong mga usapan at kontak.\n\nSa sinumang tumitingin sa iyong screen, mukhang walang laman ang Hash \u2014 parang hindi mo pa ito ginamit.",
+  "vashModeIrreversible": "Ang aksyong ito ay tahimik at hindi na maibabalik.",
+  "chooseVashCode": "Piliin ang aking Vash code",
+  "vashCodeInfo": "Isang pangalawang PIN code na nagbubukas ng app nang normal, pero walang laman.",
+  "vashCodeInfoDetail": "Kung ilalagay mo ang code na ito sa halip na iyong PIN:",
+  "vashDeleteContacts": "Mawawala ang iyong mga kontak",
+  "vashDeleteMessages": "Mawawala ang iyong mga usapan",
+  "vashDeleteHistory": "Mawawala ang iyong mga tala",
+  "vashKeepId": "Mananatili ang iyong Hash identity (#XXX-XXX-XXX)",
+  "vashAppearNormal": "Mukhang normal pero walang laman ang app, parang bago. Hindi na maibabalik ang aksyong ito.",
+  "setupVashCode": "I-setup ang Vash code",
+  "modifyVashCode": "Baguhin ang Vash code",
+  "currentVashCode": "Kasalukuyang Vash code",
+  "newVashCode": "Bagong Vash code",
+  "confirmVashCode": "Kumpirmahin ang Vash code",
+  "vashCodeConfigured": "Na-configure na ang Vash code",
+  "vashCodeModified": "Nabago ang Vash code",
+  "vashCodeMustDiffer": "Ang Vash code ay dapat iba sa PIN",
+  "incorrectVashCode": "Maling Vash code",
+  "vashWhatToDelete": "Ano ang dapat ipawala ng Vash Mode?",
+  "vashDeleteContactsOption": "Mga Kontak",
+  "vashDeleteMessagesOption": "Mga Mensahe",
+  "vashDeleteNotesOption": "Mga Tala",
+  "vashActivated": "Na-activate ang Vash Mode",
+  "vashCreateSubtitle": "Pumili ng code na iba sa iyong pangunahing PIN",
+  "vashConfirmSubtitle": "Kumpirmahin ang iyong Vash code",
+  "vashCodeSection": "Vash Mode",
+
+  "pinCodeForEntry": "PIN code para makapasok sa app",
+  "biometric": "Biometrics",
+  "biometricUnlock": "I-unlock gamit ang fingerprint o Face ID",
+  "enableBiometric": "I-enable ang biometrics",
+  "biometricWarningMessage": "Sa pag-enable ng biometrics, hindi mo magagamit ang iyong Vash code para pumasok sa app.\n\nMagagamit mo lamang ang Vash code kung mabigo ang biometrics (pagkatapos ng ilang nabigong pagtatangka).\n\nSigurado ka bang gusto mong magpatuloy?",
+  "understood": "Naiintindihan ko",
+
+  "shareAppSubtitle": "Ibahagi ang Hash sa iyong mga mahal sa buhay",
+  "share": "Ibahagi",
+
+  "danger": "Panganib",
+  "panicButton": "Panic button",
+  "panicButtonSubtitle": "Burahin ang lahat ng data",
+  "deleteAccount": "Burahin ang aking account",
+  "deleteAccountSubtitle": "Hindi na maibabalik na aksyon",
+  "deleteAccountConfirmTitle": "Burahin ang aking account",
+  "deleteAccountConfirmMessage": "Permanenteng mabubura ang iyong account. Hindi na maibabalik ang aksyong ito.\n\n\u2022 Lahat ng iyong mga chat\n\u2022 Lahat ng iyong mga kontak\n\u2022 Ang iyong Hash ID\n\nKailangan mong gumawa ng bagong account.",
+  "deleteForever": "Burahin nang permanente",
+  "cancel": "Kanselahin",
+
+  "panicConfirmTitle": "Panic Button",
+  "panicConfirmMessage": "Permanenteng buburahin ng aksyong ito ang LAHAT ng iyong data:\n\n\u2022 Lahat ng iyong mga mensahe\n\u2022 Lahat ng iyong mga kontak\n\u2022 Ang iyong account\n\nTalagang sigurado ka ba?",
+  "deleteAll": "BURAHIN LAHAT",
+  "dataDeletedForSecurity": "Na-activate ang Vash Mode.",
+  "deletionError": "Error sa pagbura: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "yourSecurity": "Ang iyong seguridad",
+  "securityInfo": "\u2022 End-to-end encryption (Signal Protocol)\n\u2022 Walang data sa aming mga server pagkatapos ng delivery\n\u2022 Mga susi na nakaimbak lamang sa iyong device\n\u2022 Hindi kailanman ipinapadala ang PIN code sa server",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "welcome": "Maligayang pagdating",
+  "securityStatement1": "Protektado ang iyong mga mensahe.",
+  "securityStatement2": "End-to-end encryption.",
+  "securityStatement3": "Walang bakas. Walang kompromiso.",
+  "securityStatement4": "Ang iyong privacy ay isang karapatan.",
+
+  "accessBlocked": "Naka-block ang access",
+  "tooManyAttempts": "Masyadong maraming pagtatangka",
+  "pleaseWait": "Mangyaring maghintay",
+  "waitDelay": "Mangyaring hintayin ang pagtatapos ng pagkaantala",
+  "attemptCount": "Pagtatangka {current} sa {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Subukan muli sa {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Nakalimutan ang PIN? Gamitin ang recovery phrase",
+  "useRecoveryPhrase": "Gamitin ang recovery phrase",
+
+  "recoveryWarningTitle": "Babala",
+  "recoveryWarningMessage": "Ang account recovery ay:",
+  "recoveryDeleteAllMessages": "Buburahin ang LAHAT ng iyong mga mensahe",
+  "recoveryWaitDelay": "Kailangan ng 1 oras na paghihintay",
+  "recoveryKeepContacts": "Pananatilihin ang iyong mga kontak",
+  "recoveryIrreversible": "Hindi na maibabalik ang aksyong ito. Permanenteng mawawala ang iyong mga mensahe.",
+  "iUnderstand": "Naiintindihan ko",
+
+  "accountRecovery": "Account recovery",
+  "enterRecoveryPhrase": "Ilagay ang 24 na salita ng iyong recovery phrase, pinaghihiwalay ng mga espasyo.",
+  "recoveryPhraseHint": "salita1 salita2 salita3 ...",
+  "recover": "I-recover",
+  "recoveryPhraseRequired": "Mangyaring ilagay ang iyong recovery phrase",
+  "recoveryPhrase24Words": "Dapat eksakto 24 na salita ang phrase",
+  "incorrectRecoveryPhrase": "Maling recovery phrase",
+  "recoveryInitError": "Error sa pag-initialize ng recovery",
+
+  "securityDelay": "Pagkaantala ng seguridad",
+  "securityDelayMessage": "Para sa iyong seguridad, kailangan ng panahon ng paghihintay bago ka makagawa ng bagong PIN.",
+  "timeRemaining": "Natitirang oras",
+  "messagesDeletedForProtection": "Nabura na ang iyong mga mensahe para sa iyong proteksyon.",
+  "canCloseApp": "Puwede mong isara ang app at bumalik mamaya.",
+
+  "onboardingTitle1": "Maligayang pagdating sa Hash",
+  "onboardingSubtitle1": "Ang messenger na walang iniiwanang bakas",
+  "onboardingTitle2": "Kabuuang encryption",
+  "onboardingSubtitle2": "Ang iyong mga mensahe ay end-to-end encrypted gamit ang Signal Protocol",
+  "onboardingTitle3": "Walang bakas",
+  "onboardingSubtitle3": "Binubura ang mga mensahe sa mga server pagkatapos maihatid",
+  "onboardingTitle4": "Ang iyong seguridad",
+  "onboardingSubtitle4": "PIN code, Vash Mode at recovery phrase",
+
+  "getStarted": "Magsimula",
+  "next": "Susunod",
+  "skip": "Laktawan",
+  "alreadyHaveAccount": "Mayroon na akong account",
+  "transferMyAccount": "Ilipat ang aking account",
+
+  "createPin": "Gumawa ng PIN code",
+  "createPinSubtitle": "Poprotektahan ng code na ito ang access sa iyong app",
+  "confirmYourPin": "Kumpirmahin ang iyong PIN code",
+  "confirmPinSubtitle": "Ilagay muli ang iyong PIN code",
+
+  "saveRecoveryPhrase": "Recovery phrase",
+  "saveRecoveryPhraseSubtitle": "Isulat ang 24 na salitang ito nang maayos. Magagamit mo ang mga ito para ma-recover ang iyong account kung makalimutan mo ang iyong PIN.",
+  "phraseWritten": "Naisulat ko na ang aking phrase",
+  "warningRecoveryPhrase": "Kung mawala mo ang phrase na ito at makalimutan ang iyong PIN, mawawala ang access mo sa iyong account.",
+
+  "accountTransferred": "Nailipat na ang account",
+  "accountTransferredMessage": "Nailipat na ang iyong account sa ibang device. Hindi na valid ang session na ito.",
+  "accountTransferredInfo": "Kung hindi ikaw ang nagsimula ng paglilipat na ito, maaaring nakompromiso ang iyong account.",
+  "logout": "Mag-log out",
+
+  "transferAccount": "Ilipat ang account",
+  "transferAccountInfo": "Ilipat ang iyong Hash account sa isang bagong device. Ma-i-invalidate ang iyong kasalukuyang session.",
+  "generateTransferCode": "Gumawa ng transfer code",
+  "transferCode": "Transfer code",
+  "transferCodeExpires": "Mag-e-expire ang code na ito sa {minutes} minuto",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Ilagay ang code na ito sa iyong bagong device para ilipat ang iyong account.",
+  "generateNewCode": "Gumawa ng bagong code",
+
+  "scanQrCode": "I-scan ang QR code",
+  "scanQrCodeSubtitle": "I-scan ang QR code ng isang kontak para idagdag sila",
+  "qrCodeDetected": "Na-detect ang QR code",
+  "invalidQrCode": "Hindi valid na QR code",
+  "cameraPermissionRequired": "Kailangan ng pahintulot sa camera",
+
+  "myQrCode": "Aking QR code",
+  "myQrCodeSubtitle": "Ibahagi ang QR code na ito para maidagdag ka ng iyong mga kontak",
+  "shareQrCode": "Ibahagi",
+
+  "addContactTitle": "Magdagdag ng kontak",
+  "addContactByHashId": "Ilagay ang Hash ID ng iyong kontak",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Hanapin",
+  "contactNotFound": "Hindi natagpuan ang kontak",
+  "contactAlreadyAdded": "Nasa iyong listahan na ang kontak na ito",
+  "contactAdded": "Naidagdag ang kontak",
+
+  "myProfile": "Aking profile",
+  "myProfileSubtitle": "Ibahagi ang impormasyong ito para maidagdag ka ng iba",
+  "temporaryCode": "Pansamantalang code",
+  "temporaryCodeExpires": "Mag-e-expire sa {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Nag-expire na ang code",
+  "generateNewCodeButton": "Bagong code",
+  "copyHashId": "Kopyahin ang ID",
+  "copyCode": "Kopyahin ang code",
+  "copiedToClipboard": "Nakopya",
+  "showMyQrCode": "Ipakita ang aking QR code",
+  "orDivider": "o",
+  "openScanner": "Buksan ang scanner",
+  "addManually": "Manu-manong idagdag",
+  "contactHashIdLabel": "Hash ID ng kontak",
+  "temporaryCodeLabel": "Pansamantalang code",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Hilingin sa iyong kontak na gumawa ng code mula sa kanilang profile",
+  "verifyAndAdd": "I-verify at idagdag",
+  "fillAllFields": "Mangyaring punan ang lahat ng field",
+  "invalidHashIdFormat": "Hindi valid na format ng ID (hal.: 123-456-ABC)",
+  "userNotFound": "Hindi natagpuan ang user",
+  "cannotAddYourself": "Hindi mo puwedeng idagdag ang iyong sarili",
+  "invalidOrExpiredCode": "Hindi valid o nag-expire na ang pansamantalang code",
+  "tooManyAttempts": "Masyadong maraming pagtatangka. Subukan muli mamaya.",
+  "contactFound": "Natagpuan ang kontak!",
+  "howToCallContact": "Ano ang gusto mong itawag sa kanila?",
+  "contactNameHint": "Pangalan ng kontak",
+  "addContactButton": "Idagdag",
+
+  "contactDetails": "Mga detalye ng kontak",
+  "contactName": "Pangalan ng kontak",
+  "contactHashId": "Hash ID",
+  "addedOn": "Idinagdag noong {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Burahin ang kontak",
+  "deleteContactConfirm": "Burahin ang kontak na ito?",
+  "deleteContactMessage": "Mabubura rin ang buong chat.",
+  "delete": "Burahin",
+
+  "typeMessage": "Mag-type ng mensahe...",
+  "messageSent": "Naipadala",
+  "messageDelivered": "Naihatid",
+  "messageRead": "Nabasa",
+  "messageFailed": "Hindi naipadala",
+
+  "now": "Ngayon",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}o",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}a",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Ngayon",
+  "yesterday": "Kahapon",
+  "dateAtTime": "{date} nang {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Samahan mo ako sa Hash! \ud83d\udd12\n\nIto ay isang tunay na pribadong messenger: kabuuang encryption, walang bakas sa mga server, at panic mode kung kinakailangan.\n\nI-download ang app dito \ud83d\udc47\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Error",
+  "ok": "OK",
+  "view": "Tingnan",
+  "yes": "Oo",
+  "no": "Hindi",
+  "save": "I-save",
+  "edit": "I-edit",
+  "close": "Isara",
+  "confirm": "Kumpirmahin",
+  "loading": "Naglo-load...",
+  "retry": "Subukan muli",
+
+  "pendingRequests": "Mga naghihintay na kahilingan",
+  "noPendingRequests": "Walang naghihintay na kahilingan",
+  "pendingRequestsSubtitle": "Gustong idagdag ka ng mga taong ito",
+  "requestFromUser": "Kahilingan mula sa {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Mag-e-expire sa {days} araw",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Tanggapin",
+  "rejectRequest": "Tanggihan",
+  "requestAccepted": "Tinanggap ang kahilingan",
+  "requestRejected": "Tinanggihan ang kahilingan",
+  "requestSent": "Naipadala ang kahilingan!",
+  "requestSentSubtitle": "Naipadala na ang iyong kahilingan. Kailangan itong tanggapin ng user bago kayo makapag-chat.",
+  "requestAlreadyPending": "May naghihintay nang kahilingan",
+  "requestAlreadySentByOther": "Nagpadala na sa iyo ng kahilingan ang taong ito",
+  "addByHashId": "Idagdag gamit ang Hash ID",
+  "addByHashIdSubtitle": "Ilagay ang Hash ID at pansamantalang code ng kontak",
+  "enterTemporaryCode": "Ilagay ang 6 na digit na code",
+  "sendRequest": "Ipadala ang kahilingan",
+  "acceptContactTitle": "Tanggapin ang kontak",
+  "acceptContactSubtitle": "Puwede mong bigyan sila ng custom na pangalan",
+  "leaveEmptyForHashId": "Iwanang blangko para gamitin ang Hash ID",
+  "firstName": "Unang pangalan",
+  "lastName": "Apelyido",
+  "notes": "Mga Tala",
+  "notesHint": "Mga personal na tala tungkol sa kontak na ito",
+
+  "photoOptional": "Larawan (opsyonal)",
+  "contactNameOptional": "Pangalan (opsyonal)",
+  "notesOptional": "Mga tala (opsyonal)",
+  "storedLocally": "Nakaimbak lamang sa iyong device",
+  "encryptedMessageLabel": "Naka-encrypt na mensahe",
+  "identityMessageHint": "Sino ka? Paano kayo nagkakilala?",
+  "messageWillBeSentEncrypted": "Ie-encrypt at ipapadala ang mensaheng ito sa tatanggap",
+  "sendRequestButton": "Ipadala ang kahilingan",
+  "requestExpiresIn24h": "Mag-e-expire ang kahilingan sa 24 oras kung hindi tanggapin",
+  "theyAlreadySentYouRequest": "Nagpadala na sa iyo ng kahilingan ang taong ito",
+
+  "requests": "Mga Kahilingan",
+  "receivedRequests": "Natanggap",
+  "sentRequests": "Naipadala",
+  "noSentRequests": "Walang naipadala na kahilingan",
+  "cancelRequest": "Kanselahin",
+  "deleteRequest": "Burahin ang kahilingan",
+  "requestCancelled": "Nakansela ang kahilingan",
+  "sentTo": "Naipadala sa {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Mag-e-expire sa {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Natanggap {time} na ang nakalipas",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Mensahe mula sa nagpadala",
+
+  "copy": "Kopyahin",
+  "messageInfo": "Impormasyon ng mensahe",
+
+  "messageDirection": "Direksyon",
+  "messageSentByYou": "Ipinadala mo",
+  "messageReceived": "Natanggap",
+  "messageSentAt": "Naipadala noong",
+  "messageStatus": "Status",
+  "messageReadAt": "Nabasa noong",
+  "messageType": "Uri",
+  "messageSize": "Laki",
+  "messageExpiresAt": "Mag-e-expire noong",
+  "messageEncrypted": "End-to-end encrypted",
+
+  "messageStatusSending": "Ipinapadala...",
+  "messageStatusSent": "Naipadala",
+  "messageStatusDelivered": "Naihatid",
+  "messageStatusRead": "Nabasa",
+  "messageStatusFailed": "Nabigo",
+
+  "serverStatus": "Server",
+  "onServer": "Naghihintay ng pag-deliver",
+  "deletedFromServer": "Nabura na",
+
+  "messageTypeText": "Teksto",
+  "messageTypeImage": "Larawan",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Boses",
+  "messageTypeFile": "File",
+
+  "indefinitely": "Walang katapusan",
+  "hoursShort": "o",
+  "minutesShort": "min",
+  "hours": "oras",
+  "minutes": "minuto",
+  "seconds": "segundo",
+
+  "ephemeralMessages": "Mga ephemeral na mensahe",
+  "ephemeralMessagesDescription": "Awtomatikong binubura ang mga mensahe pagkatapos ng panahong ito",
+  "ephemeralImmediate": "Agad-agad (pagkatapos basahin)",
+  "ephemeralImmediateDesc": "Binubura pagkatapos mabasa",
+  "ephemeralMyPreference": "Aking kagustuhan",
+  "ephemeralMyPreferenceDesc": "Gamitin ang global na setting",
+  "ephemeralDefaultSetting": "Tagal ng mensahe",
+  "ephemeralChooseDefault": "Inirerekomenda",
+  "ephemeral30Seconds": "30 segundo",
+  "ephemeral30SecondsDesc": "Binubura 30s pagkatapos mabasa",
+  "ephemeral5Minutes": "5 minuto",
+  "ephemeral5MinutesDesc": "Binubura 5min pagkatapos mabasa",
+  "ephemeral1Hour": "1 oras",
+  "ephemeral1HourDesc": "Binubura 1o pagkatapos mabasa",
+  "ephemeral3Hours": "3 oras",
+  "ephemeral6Hours": "6 na oras",
+  "ephemeral6HoursDesc": "Binubura 6o pagkatapos mabasa",
+  "ephemeral12Hours": "12 oras",
+  "ephemeral24Hours": "24 oras",
+  "ephemeral24HoursDesc": "Binubura 24o pagkatapos mabasa",
+  "customDuration": "Custom na tagal",
+
+  "muteNotifications": "I-mute ang mga notipikasyon",
+  "muteDescription": "Hindi ka makakatanggap ng mga notipikasyon para sa kontak na ito",
+  "mutedUntil": "Naka-mute hanggang {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Naka-enable ang mga notipikasyon",
+  "unmute": "I-unmute",
+
+  "notificationSound": "Tunog ng notipikasyon",
+  "defaultSound": "Default",
+
+  "chatSettings": "Mga setting ng chat",
+  "bubbleColor": "Kulay ng bubble",
+  "backgroundColor": "Kulay ng background",
+  "backgroundImage": "Larawan ng background",
+  "chatBackground": "Background ng chat",
+  "customColor": "Custom",
+  "defaultColor": "Default",
+  "imageSelected": "Napili ang larawan",
+  "noImage": "Walang larawan",
+  "color": "Kulay",
+  "image": "Larawan",
+  "tapToSelectImage": "Mag-tap para pumili ng larawan",
+  "changeImage": "Palitan ang larawan",
+  "previewMessageReceived": "Kumusta!",
+  "previewMessageSent": "Uy, kamusta!",
+
+  "messageAction": "Mensahe",
+  "callAction": "Tawag",
+  "videoAction": "Video",
+
+  "personalNotes": "Mga personal na tala",
+  "addNotes": "Magdagdag ng mga tala...",
+  "noNotes": "Walang mga tala",
+
+  "messageNotifications": "Mga notipikasyon ng mensahe",
+  "callNotifications": "Mga notipikasyon ng tawag",
+
+  "useGradient": "Gumamit ng gradient",
+  "gradientStart": "Panimulang kulay",
+  "gradientEnd": "Pangwakas na kulay",
+  "preview": "Preview",
+  "reset": "I-reset",
+
+  "securityNumber": "Security number",
+  "securityNumberDescription": "I-verify na tumutugma ang security number sa device ni {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "I-verify ang end-to-end encryption",
+  "tapToCopy": "Mag-tap para kopyahin",
+  "howToVerify": "Paano i-verify",
+  "verifyStep1": "Makipagkita nang personal sa iyong kontak o tawagan sila",
+  "verifyStep2": "Ikumpara ang mga security number o mag-scan ng mga QR code",
+  "verifyStep3": "Kung magkatugma sila, ligtas ang iyong chat",
+  "scanToVerify": "Mag-scan para i-verify",
+
+  "reportSpam": "I-report ang spam",
+  "reportSpamSubtitle": "I-report ang kontak na ito bilang spam",
+  "reportSpamDescription": "Anonymously ire-report ang kontak na ito. Hindi ibabahagi ang iyong identity. Sigurado ka ba?",
+  "report": "I-report",
+  "spamReported": "Na-report ang spam",
+  "reportError": "Hindi naipadala ang report. Subukan muli.",
+  "reportRateLimited": "Naabot mo na ang maximum na bilang ng mga report para ngayon.",
+
+  "blockContact": "I-block ang kontak",
+  "blockContactDescription": "Hindi na makakapadala ng mga mensahe o makakatawag sa iyo ang kontak na ito. Hindi sila aabisuhan.",
+  "unblockContact": "I-unblock ang kontak",
+  "unblockContactDescription": "Makakapadala muli ng mga mensahe at makakatawag sa iyo ang kontak na ito.",
+  "contactBlocked": "Na-block ang kontak",
+  "contactUnblocked": "Na-unblock ang kontak",
+  "contactIsBlocked": "Naka-block ang kontak na ito",
+  "unblock": "I-unblock",
+
+  "deleteContactSubtitle": "Burahin ang kontak at chat na ito",
+  "confirmWithPin": "Kumpirmahin gamit ang PIN",
+  "enterPinToConfirm": "Ilagay ang iyong PIN para kumpirmahin ang aksyong ito",
+
+  "mute1Hour": "1 oras",
+  "mute8Hours": "8 oras",
+  "mute1Day": "1 araw",
+  "mute1Week": "1 linggo",
+  "muteAlways": "Palagi",
+  "muteExplanation": "Hindi ka makakatanggap ng mga notipikasyon para sa kontak na ito",
+  "howItWorks": "Paano ito gumagana",
+  "ephemeralExplanation1": "Binubura ang mga mensahe mula sa server pagkakatanggap.",
+  "ephemeralExplanation2": "Tinutukoy ng setting na ito kung kailan mawawala ang mga mensahe mula sa IYONG telepono pagkatapos basahin.",
+  "ephemeralExplanation3": "May sariling setting ang iyong kontak para sa kanilang telepono.",
+
+  "showCallsInRecents": "Ipakita sa mga kamakailang tawag",
+  "showCallsInRecentsSubtitle": "Lalabas ang mga Hash na tawag sa history ng tawag ng telepono",
+  "feedback": "Feedback",
+
+  "profilePhoto": "Larawan ng profile",
+  "takePhoto": "Kumuha ng larawan",
+  "chooseFromGallery": "Pumili mula sa gallery",
+  "removePhoto": "Alisin ang larawan",
+
+  "viewContactHashId": "Tingnan ang identifier ng kontak",
+  "hashIdPartiallyMasked": "Bahagyang naka-mask para sa iyong seguridad at privacy ng iyong kontak",
+
+  "addFirstContact": "Idagdag ang iyong unang kontak",
+  "addFirstContactSubtitle": "Ibahagi ang iyong QR code o i-scan ang sa isang kaibigan",
+  "directory": "Direktoryo",
+  "noContacts": "Walang mga kontak",
+  "noContactsSubtitle": "Magdagdag ng kontak para makapagsimula",
+  "sendMessageAction": "Magpadala ng mensahe",
+  "audioCall": "Audio call",
+  "videoCall": "Video call",
+  "viewProfile": "Tingnan ang profile",
+  "deleteContactDirectory": "Burahin ang kontak",
+  "scanShort": "I-scan",
+  "addShort": "Idagdag",
+  "deleteContactConfirmName": "Sigurado ka bang gusto mong burahin si {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Walang mga tala",
+  "noNotesSubtitle": "Gumawa ng iyong unang tala",
+  "newNote": "Bagong tala",
+  "editNote": "I-edit ang tala",
+  "deleteNote": "Burahin ang tala",
+  "deleteNoteConfirm": "Sigurado ka bang gusto mong burahin ang talang ito?",
+  "noteTitle": "Pamagat",
+  "noteContent": "Nilalaman",
+  "addItem": "Magdagdag ng item",
+  "pinNote": "I-pin",
+  "unpinNote": "I-unpin",
+  "noteColor": "Kulay",
+  "notePassword": "Password",
+  "setPassword": "Magtakda ng password",
+  "changePassword": "Palitan ang password",
+  "removePassword": "Alisin ang password",
+  "enterPassword": "Ilagay ang password",
+  "confirmPassword": "Kumpirmahin ang password",
+  "passwordPin": "PIN code",
+  "passwordText": "Text password",
+  "protectedNote": "Protektadong tala",
+  "incorrectPassword": "Maling password",
+  "passwordSet": "Naitakda ang password",
+  "passwordRemoved": "Naalis ang password",
+  "notesBiometric": "Face ID para sa mga tala",
+  "notesBiometricSubtitle": "Mangailangan ng biometric authentication para buksan ang mga protektadong tala",
+  "textNote": "Text na tala",
+  "checklistNote": "Checklist",
+  "tasksProgress": "{checked}/{total} gawain",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Na-save",
+  "searchNotes": "Maghanap ng mga tala",
+  "legalConsent": "Legal na pahintulot",
+  "confirmAge13": "Kinukumpirma kong hindi bababa sa 13 taon ang aking edad",
+  "acceptLegalStart": "Tinatanggap ko ang ",
+  "privacyPolicy": "Patakaran sa Privacy",
+  "termsOfService": "Mga Tuntunin ng Serbisyo",
+  "andThe": " at ang ",
+  "continueButton": "Magpatuloy",
+  "mustAcceptTerms": "Kailangan mong tanggapin ang dalawang kondisyon para makapagpatuloy",
+
+  "support": "Suporta",
+  "contactSupport": "Makipag-ugnayan sa suporta",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "I-report ang pang-aabuso",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Legal",
+  "legalEntity": "Legal na entity",
+  "legalEntityValue": "DEVOLIM \u2014 SIREN 948 000 757",
+
+  "pinConversation": "I-pin",
+  "unpinConversation": "I-unpin",
+  "hideConversation": "Alisin sa feed",
+  "deleteConversation": "Burahin ang usapan",
+  "deleteConversationConfirm": "Ilagay ang iyong PIN para kumpirmahin ang pagbura ng lahat ng mensahe",
+  "noConversations": "Wala pang mga usapan",
+  "startConversation": "Magsimula",
+
+  "microphonePermissionRequired": "Kailangan ng access sa mikropono",
+  "microphonePermissionExplanation": "Kailangan ng Hash ang mikropono para tumawag.",
+  "cameraPermissionExplanation": "Kailangan ng Hash ang camera para sa mga video call.",
+  "openSettings": "Buksan ang Mga Setting",
+
+  "callConnecting": "Kumokonekta...",
+  "callRinging": "Tumutunog...",
+  "callReconnecting": "Muling kumokonekta...",
+  "callReconnectingTimer": "Muling kumokonekta ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Naka-pause",
+  "callPausedSubtitle": "Ang tawag ay aktibo pa rin",
+  "callRemoteMicMuted": "Naka-mute ang mikropono ng kontak",
+  "callMiniControlsMute": "I-mute",
+  "callMiniControlsUnmute": "I-unmute",
+  "callMiniControlsHangUp": "Ibaba",
+  "callMiniControlsReturn": "Bumalik sa tawag",
+  "callNetworkPoor": "Hindi matatag na koneksyon",
+  "callNetworkLost": "Nawala ang koneksyon",
+  "callEndedTitle": "Natapos ang tawag",
+
+  "deviceData": "Data ng device",
+  "deviceDataSubtitle": "Lokal at server storage",
+  "localStorage": "Lokal na storage",
+  "onThisDevice": "sa device na ito",
+  "encryptedDatabases": "Mga naka-encrypt na database",
+  "files": "Mga File",
+  "secureKeychain": "Secure na keychain",
+  "cache": "Cache",
+  "contactsDetail": "Mga pangalan, avatar, Signal key",
+  "messagesDetail": "Mga naka-encrypt na usapan",
+  "notesDetail": "Mga personal na tala",
+  "signalSessions": "Mga Signal session",
+  "signalSessionsDetail": "Mga encryption session",
+  "pendingContacts": "Mga naghihintay na kontak",
+  "pendingContactsDetail": "Mga naghihintay na kahilingan",
+  "callHistory": "Mga Tawag",
+  "callHistoryDetail": "History ng tawag",
+  "preferences": "Mga Kagustuhan",
+  "preferencesDetail": "Mga kagustuhan sa media at tawag",
+  "avatars": "Mga Avatar",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{walang mga file} =1{1 file} other{{count} mga file}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktibo",
+  "notDefined": "Hindi tinukoy",
+  "biometrics": "Biometrics",
+  "recoveryPhrase": "Recovery phrase",
+  "identity": "Identity (Hash ID)",
+  "signalKeys": "Mga Signal Protocol key",
+  "authTokens": "Mga authentication token",
+  "contactNamesCache": "Cache ng mga pangalan ng kontak",
+  "remoteConfig": "Remote config",
+  "notificationPrefs": "Mga kagustuhan sa notipikasyon",
+  "serverData": "Data ng server",
+  "serverDataInfo": "Nagtatago ang Hash ng minimal na data sa server, lahat naka-encrypt o pansamantala.",
+  "serverProfile": "Profile",
+  "serverProfileDetail": "Hash ID, mga pampublikong susi, mailbox token",
+  "serverPrekeys": "Mga Pre-key",
+  "serverPrekeysDetail": "Mga isang-beses na Signal key (nagamit na)",
+  "serverMessages": "Mga mensahe na in-transit",
+  "serverMessagesDetail": "Binubura pagkatapos maihatid (24o max)",
+  "serverMedia": "Mga media na in-transit",
+  "serverMediaDetail": "Binubura pagkatapos ma-download",
+  "serverContactRequests": "Mga kahilingan sa kontak",
+  "serverContactRequestsDetail": "Mag-e-expire pagkatapos ng 24o",
+  "serverRateLimits": "Mga rate limit",
+  "serverRateLimitsDetail": "Pansamantalang anti-abuse data",
+  "privacyReassurance": "Hindi mababasa ng Hash ang iyong mga mensahe. Lahat ng data ay end-to-end encrypted. Awtomatikong binubura ang data sa server.",
+
+  "pinTooSimple": "Masyadong simple ang PIN na ito. Pumili ng mas secure na code.",
+  "genericError": "May nangyaring error. Subukan muli.",
+  "accountCreationError": "Hindi makalikha ng account: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Nakopya ang phrase sa clipboard",
+  "copyPhrase": "Kopyahin ang phrase",
+  "recoveryPhraseSecurityWarning": "Isulat ang phrase na ito sa isang ligtas na lugar. Kung mawala mo ang iyong PIN nang wala ang phrase na ito, permanenteng mawawala ang access mo sa iyong data.",
+
+  "noMessages": "Walang mga mensahe",
+  "deleteAllMessagesWithContact": "Burahin ang lahat ng mensahe kay {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Kumpirmasyon",
+  "untitled": "Walang pamagat",
+  "noSessions": "Walang mga session",
+  "unknownContact": "Hindi kilalang kontak",
+  "unnamed": "Walang pangalan",
+  "noPendingRequestsAlt": "Walang naghihintay na kahilingan",
+  "deleteAllCallHistory": "Burahin ang lahat ng history ng tawag?",
+  "noCalls": "Walang mga tawag",
+  "noPreferences": "Walang mga kagustuhan",
+  "resetAllMediaPrefs": "I-reset ang lahat ng kagustuhan sa media?",
+  "deleteThisAvatar": "Burahin ang avatar na ito?",
+  "deleteAllAvatars": "Burahin ang lahat ng avatar?",
+  "noAvatars": "Walang mga avatar",
+  "deleteThisFile": "Burahin ang file na ito?",
+  "deleteAllMediaFiles": "Burahin ang lahat ng media?",
+  "noMediaFiles": "Walang media",
+  "outgoing": "Papalabas",
+  "incoming": "Papasok",
+  "ephemeralViewDuration": "Ephemeral na view: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normal na view",
+  "callReasonCompleted": "Natapos",
+  "callReasonMissed": "Hindi nasagot",
+  "callReasonDeclined": "Tinanggihan",
+  "callReasonFailed": "Nabigo",
+  "justNow": "Ngayon lang",
+  "timeAgoMinutes": "{count} min nakalipas",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}o nakalipas",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}a nakalipas",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kontak",
+  "messageTypeLocation": "Lokasyon",
+  "statusQueued": "Nakapila",
+  "blockedBadge": "Naka-block",
+  "protectedBadge": "Protektado",
+  "messageCount": "{count} (mga) mensahe",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Burahin?",
+
+  "transferMyAccountTitle": "Ilipat ang aking account",
+  "loadingError": "Error sa pag-load",
+  "transferToNewDevice": "Ilipat sa bagong device",
+  "transferInstructions": "Sa iyong bagong device, piliin ang \"I-recover ang aking account\" at ilagay ang impormasyong ito:",
+  "yourHashIdLabel": "Ang iyong Hash ID",
+  "enterYourPinCode": "Ilagay ang iyong PIN code",
+  "pinOwnerConfirmation": "Para kumpirmahin na ikaw ang may-ari ng account na ito",
+  "scanThisQrCode": "I-scan ang QR code na ito",
+  "withYourNewDevice": "Gamit ang iyong bagong device",
+  "orEnterTheCode": "o ilagay ang code",
+  "transferCodeLabel": "Transfer code",
+  "proximityVerification": "Proximity verification",
+  "bringDevicesCloser": "Ilapit ang dalawang device",
+  "confirmTransferQuestion": "Kumpirmahin ang paglipat?",
+  "accountWillBeTransferred": "Ililipat ang iyong account sa bagong device.\n\nPermanenteng madi-disconnect ang device na ito.",
+  "transferComplete": "Kumpleto ang paglipat",
+  "transferSuccessMessage": "Matagumpay na nailipat ang iyong account.\n\nIsasara na ang application na ito.",
+  "manualVerification": "Manu-manong verification",
+  "codeDisplayedOnBothDevices": "Code na ipinapakita sa dalawang device:",
+  "doesCodeMatchNewDevice": "Tumutugma ba ang code na ito sa nasa bagong device?",
+  "verifiedStatus": "Na-verify",
+  "inProgressStatus": "Isinasagawa...",
+  "notAvailableStatus": "Hindi available",
+  "codeExpiredRestart": "Nag-expire na ang code. Mangyaring magsimula muli.",
+  "codesDoNotMatchCancelled": "Hindi magkatugma ang mga code. Kinansela ang paglipat.",
+  "transferToDevice": "Sa: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Nakopya!",
+  "expiresInTime": "Mag-e-expire sa {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Hindi available ang biometrics sa device na ito",
+  "biometricAuthError": "Error sa biometric authentication",
+  "authenticateForBiometric": "Mangyaring mag-authenticate para i-enable ang biometrics",
+  "biometricAuthFailed": "Nabigo ang biometric authentication",
+
+  "forceUpdateTitle": "Kailangan ng update",
+  "forceUpdateMessage": "May bagong version ng Hash na available. Mangyaring mag-update para makapagpatuloy.",
+  "updateButton": "Mag-update",
+  "maintenanceInProgress": "May isinasagawang maintenance",
+  "tryAgainLater": "Subukan muli mamaya",
+  "information": "Impormasyon",
+
+  "later": "Mamaya",
+  "doYouLikeHash": "Gusto mo ba ang Hash?",
+  "yourFeedbackHelps": "Nakakatulong ang iyong feedback para mapabuti ang app",
+  "ratingTerrible": "Kahindik-hindik",
+  "ratingBad": "Masama",
+  "ratingOk": "Ok",
+  "ratingGood": "Maganda",
+  "ratingExcellent": "Napakagaling!",
+  "donationMessage": "Ang Hash ay isang non-profit na proyekto. Nakakatulong ang iyong suporta para makapagpatuloy kaming bumuo ng tunay na pribadong messenger.",
+
+  "recentConnections": "Mga kamakailang koneksyon",
+  "loginInfoText": "Bawat PIN unlock ay naitatala nang lokal. Ang huling 24 oras lamang ang pinapanatili.",
+  "connectionCount": "(Mga) Koneksyon",
+  "periodLabel": "Panahon",
+  "historyLabel": "History",
+  "noLoginRecorded": "Walang naitatalang login",
+  "nextUnlocksAppearHere": "Lalabas dito ang mga susunod na unlock.",
+  "dataLocalOnly": "Ang data na ito ay nakaimbak lamang sa iyong device at hindi kailanman ipinapadala.",
+  "currentSession": "Kasalukuyan",
+  "todayLabel": "Ngayon",
+  "yesterdayLabel": "Kahapon",
+  "justNowLabel": "Ngayon lang",
+  "minutesAgoLabel": "{count} min nakalipas",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}o nakalipas",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}o {minutes}min nakalipas",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Walang nakaplanong maintenance",
+  "everythingWorkingNormally": "Normal ang lahat ng gumagana",
+  "maintenanceTitle": "Maintenance",
+  "maintenanceActiveLabel": "ISINASAGAWA",
+  "maintenancePlannedLabel": "NAKAPLANDOP",
+
+  "locking": "Nagla-lock...",
+
+  "newMessageNotification": "Bagong mensahe",
+
+  "secExplainTitle": "Paano ka pinoprotektahan ng Hash",
+  "secExplainIntro": "Dinisenyo ang Hash para walang sinumang makabasa ng iyong mga mensahe.",
+  "secExplainIntroSub": "Kahit kami.\nGanito ang paraan nito, ipinaliwanag nang simple.",
+  "secJourneyLabel": "ANG PAGLALAKBAY",
+  "secJourneyTitle": "Ang paglalakbay ng iyong mensahe",
+  "secJourneySubtitle": "Mula sa iyong daliri hanggang sa screen ng iyong kontak, protektado ang bawat hakbang. Sundan ang landas.",
+  "secStep1Title": "Sinusulat mo ang iyong mensahe",
+  "secStep1Desc": "Tina-type mo ang \"Kumusta!\" sa app. Sa puntong ito, nasa memorya lamang ng iyong telepono ang mensahe. Wala pang naipadala.",
+  "secStep2Title": "Encryption gamit ang Signal Protocol",
+  "secStep2Desc": "Pagka-tap mo ng \"Ipadala\", ang iyong mensahe ay nagiging isang hanay ng hindi maintindihang mga karakter. Parang naka-lock ang iyong mensahe sa isang safe na ang iyong kontak lamang ang may susi.",
+  "secStep3Title": "Sealed Sender: ang hindi nakikitang sobre",
+  "secStep3Desc": "Isipin mong nagpapadala ka ng liham sa koreo, pero walang return address sa sobre. Yan mismo ang ginagawa ng Hash. Inilalagay ang mensahe sa isang anonymous na mailbox. Hindi alam ng server kung sino ang nagpadala.",
+  "secStep4Title": "Walang nakikita ang server",
+  "secStep4Desc": "Ang server ay parang isang bulag na kartero. Alam lang nito na \"may naglagay ng isang bagay sa mailbox #A7X9\". Hindi nito alam kung sino ang nagpadala, ano ito, o para kanino.",
+  "secStep4Highlight": "Walang nakaimbak na metadata: walang IP address, walang timestamp, walang koneksyon sa pagitan ng nagpadala at tumanggap.",
+  "secStep5Title": "Natatanggap ng iyong kontak ang mensahe",
+  "secStep5Desc": "Kinukuha ng telepono ng iyong kontak ang nilalaman mula sa kanilang anonymous na mailbox at dine-decrypt ang mensahe gamit ang kanilang private key, na hindi kailanman umalis sa kanilang device. Lumalabas ang \"Kumusta!\" sa kanilang screen.",
+  "secStep6Title": "Nawawala ang mensahe mula sa server",
+  "secStep6Desc": "Pagkakumpirma ng iyong kontak na natanggap na, permanenteng binubura ng server ang mensahe. Walang trash, walang archive, walang backup. Kahit ang mga hindi nabasa na mensahe ay awtomatikong sinisira pagkatapos ng 24 oras.",
+  "secStep7Title": "Lokal na expiration",
+  "secStep7Desc": "Sa telepono ng iyong kontak, awtomatikong nasisira ang mensahe ayon sa pinili mong tagal: agad pagkabasa, 5 minuto, 1 oras... ikaw ang magpapasya.",
+  "secJourneyConclusion": "Resulta: zero trace sa server, zero trace sa mga device. Umiral lamang ang mensahe nang sapat para mabasa, pagkatapos ay nawala ito.",
+  "secArchLabel": "ARKITEKTURA",
+  "secArchTitle": "5 patong ng proteksyon",
+  "secArchSubtitle": "Hindi umaasa ang Hash sa iisang teknolohiya. Pinapalakas ng bawat patong ang iba. Kahit makompromiso ang isang patong, ligtas pa rin ang iyong data.",
+  "secLayer1Title": "End-to-end encryption",
+  "secLayer1Desc": "Ang bawat mensahe ay naka-encrypt gamit ang natatanging susi. Sa simpleng salita: kahit ma-decrypt ng isang tao ang isang mensahe, hindi niya madi-decrypt ang susunod. May sariling lock ang bawat mensahe.",
+  "secLayer1Detail": "Para sa mga file (mga larawan, video, dokumento), gumagamit ang Hash ng karagdagang AES-256-GCM encryption. Naka-encrypt ang file bago ito umalis sa iyong telepono.",
+  "secLayer2Title": "Sealed Sender (anonymity sa network)",
+  "secLayer2Desc": "Ang karaniwang mga messenger ay nagpapadala ng iyong mga mensahe kasama ang iyong identity. Parang sinusulat mo ang pangalan mo sa sobre. Gumagamit ang Hash ng anonymous na mga mailbox: nagde-deliver ang server ng mensahe nang hindi alam kung sino ang nagpadala.",
+  "secLayer2Detail": "Resulta: kahit sa kaso ng data breach sa server, imposibleng i-reconstruct kung sino ang nag-uusap sa sino.",
+  "secLayer3Title": "Awtomatikong pagbura",
+  "secLayer3Desc": "Binubura ang mga mensahe mula sa server pagkakumpirma ng pagtanggap. Kahit hindi kailanman makuha ang isang mensahe, awtomatiko itong sinisira pagkatapos ng 24 oras.",
+  "secLayer3Detail": "Sa iyong telepono, ang mga mensahe ay awtomatikong nasisira ayon sa pinili mong tagal: agad, 5 min, 15 min, 30 min, 1o, 3o, 6o, o 12o.",
+  "secLayer4Title": "Proteksyon ng lokal na access",
+  "secLayer4Desc": "Protektado ang app ng 6 na digit na PIN code at/o biometrics (Face ID, fingerprint). Pagkatapos ng masyadong maraming nabigong pagtatangka, nagla-lock ang app na may pagtaas na pagkaantala pagkatapos ng bawat pagkabigo.",
+  "secLayer5Title": "Naka-lock na database",
+  "secLayer5Desc": "Sa panig ng server, walang user ang makakapagsulat nang direkta sa database. Ang lahat ng aksyon ay dumadaan sa mga secure na function na nagve-verify ng bawat kahilingan.",
+  "secLayer5Detail": "Parang isang bank counter: hindi mo kailanman hahawakan ang vault nang mag-isa. Gumawa ka ng kahilingan, at tsine-check ng system na may karapatan ka bago kumilos.",
+  "secVashLabel": "NATATANGI SA MUNDO",
+  "secVashTitle": "Vash Mode",
+  "secVashSubtitle": "Isang emergency na sistema ng seguridad na wala sa anumang iba pang messaging app.",
+  "secVashScenarioTitle": "Isipin ang sitwasyong ito",
+  "secVashScenario1": "May nakaka-access sa iyong telepono",
+  "secVashScenario2": "Hinihinging ilagay mo ang iyong PIN code",
+  "secVashScenario3": "Gusto mong burahin agad ang lahat ng iyong data",
+  "secVashSolutionTitle": "Ang solusyon: dalawang PIN code",
+  "secVashSolutionDesc": "Nagko-configure ka ng dalawang magkaibang PIN code sa Hash:",
+  "secVashNormalCodeLabel": "Normal na code",
+  "secVashNormalCodeDesc": "Binubuksan ang app nang normal kasama ang lahat ng iyong data",
+  "secVashCodeLabel2": "Vash code",
+  "secVashCodeDescription": "Binubuksan ang app nang normal... pero tahimik na binubura ang lahat ng iyong data sa background",
+  "secVashWhatHappensTitle": "Ano ang nangyayari pagkatapos",
+  "secVashWhatHappensDesc": "Bumubukas ang app nang normal. Walang alerto, walang kahina-hinalang animation. Ipinapakita lamang ng screen ang isang walang lamang app, parang kaka-install mo lang.\n\nSa katotohanan, lahat ng iyong mga usapan, kontak, at mensahe ay hindi na maibabalik na nabura sa isang bahagi ng isang segundo.",
+  "secCallsLabel": "MGA TAWAG AT FILE",
+  "secCallsTitle": "Lahat ay naka-encrypt",
+  "secCallsSubtitle": "Hindi lang mga mensahe. Lahat ng dumadaan sa Hash ay end-to-end encrypted.",
+  "secAudioCallTitle": "Mga audio call",
+  "secAudioCallDesc": "End-to-end encrypted sa pamamagitan ng WebRTC. Direktang ipinapadala ang boses sa pagitan ng mga device.",
+  "secVideoCallTitle": "Mga video call",
+  "secVideoCallDesc": "Parehong teknolohiya, bawat stream ay naka-encrypt nang isa-isa.",
+  "secPhotosTitle": "Mga larawan at video",
+  "secPhotosDesc": "Naka-encrypt sa AES-256-GCM bago umalis sa iyong telepono.",
+  "secDocsTitle": "Mga Dokumento",
+  "secDocsDesc": "PDF, ZIP, anumang file. Pangalan, laki, at nilalaman ay naka-encrypt.",
+  "secAnonLabel": "ANONYMITY",
+  "secAnonTitle": "Walang kinakailangang identity",
+  "secAnonSubtitle": "Hindi kailanman hinihingi ng Hash ang iyong numero ng telepono o email. Kinikilala ka sa pamamagitan ng isang natatangi at anonymous na Hash ID.",
+  "secHashIdTitle": "Ang iyong Hash ID",
+  "secHashIdDesc": "Ito ang iyong natatanging identifier. Walang ibinubunyag ito tungkol sa iyo: hindi ang iyong pangalan, hindi ang iyong numero, hindi ang iyong lokasyon. Parang isang pseudonym na imposibleng i-link sa iyong tunay na identity.\n\nPara magdagdag ng kontak, ibahagi mo ang iyong Hash ID o mag-scan ng QR code. Yan na. Walang naka-sync na address book, walang \"Mga taong maaaring kilala mo\" na mga mungkahi.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "Ang hindi alam ng Hash",
+  "secDataSubtitle": "Ang pinakamahusay na paraan para protektahan ang iyong data ay hindi kolektahin ito.",
+  "secNeverCollected": "Hindi kailanman kinokolekta",
+  "secNeverItem1": "Nilalaman ng mensahe",
+  "secNeverItem2": "Listahan ng kontak",
+  "secNeverItem3": "Numero ng telepono",
+  "secNeverItem4": "Email address",
+  "secNeverItem5": "IP address",
+  "secNeverItem6": "Lokasyon",
+  "secNeverItem7": "Metadata (sino ang nag-uusap sa sino)",
+  "secNeverItem8": "History ng tawag",
+  "secNeverItem9": "Address book",
+  "secNeverItem10": "Mga advertising identifier",
+  "secTempStored": "Pansamantalang nakaimbak",
+  "secTempItem1": "Anonymous na Hash ID (natatanging identifier)",
+  "secTempItem2": "Mga pampublikong encryption key",
+  "secTempItem3": "Mga naka-encrypt na mensahe na in-transit (max 24o)",
+  "secTempNote": "Kahit ang minimal na data na ito ay hindi makakatukoy sa iyo. Ang iyong Hash ID ay hindi konektado sa anumang personal na impormasyon.",
+  "secFooterTitle": "Ang iyong privacy, ang iyong kalayaan",
+  "secFooterDesc": "Gumagamit ang Hash ng parehong mga encryption technology tulad ng mga pinakamahigpit na propesyonal na application. Protektado ang iyong mga mensahe ng matematika, hindi ng mga pangako."
+}

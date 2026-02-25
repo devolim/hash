@@ -1,0 +1,1038 @@
+{
+  "@@locale": "lt",
+
+  "appName": "Hash",
+  "appTagline": "Jokiu pėdsakų. Jokių kompromisų.",
+
+  "conversations": "Pokalbiai",
+  "contacts": "Kontaktai",
+  "noConversation": "Nėra pokalbių",
+  "noConversationSubtitle": "Pridėkite kontaktą, kad pradėtumėte saugiai bendrauti",
+  "pendingRequestsCount": "{count, plural, =1{1 laukianti užklausa} other{{count} laukiančios užklausos}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 išsiųsta laukianti užklausa} other{{count} išsiųstos laukiančios užklausos}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Pridėti kontaktą",
+  "shareApp": "Dalintis programėle",
+  "newMessage": "Nauja žinutė",
+  "newConversation": "Siųsti žinutę",
+
+  "settings": "Nustatymai",
+  "myHashId": "Mano Hash ID",
+  "supportHash": "Paremti Hash",
+  "supportHashSubtitle": "Hash yra ne pelno siekiantis projektas",
+  "donate": "Paaukoti",
+
+  "appearance": "Išvaizda",
+  "theme": "Tema",
+  "themeAuto": "Automatinė",
+  "themeAutoSubtitle": "Pagal sistemos nustatymus",
+  "themeDark": "Tamsi",
+  "themeLight": "Šviesi",
+  "themeRecommendation": "Tamsi tema rekomenduojama geresniam privatumui",
+  "language": "Kalba",
+  "languageAuto": "Automatinė (sistemos)",
+
+  "notifications": "Pranešimai",
+  "messages": "Žinutės",
+  "calls": "Skambučiai",
+  "vibration": "Vibracija",
+  "notificationContent": "Pranešimų turinys",
+  "notificationContentFull": "Rodyti viską",
+  "notificationContentFullDesc": "Kontakto vardas ir žinutės peržiūra",
+  "notificationContentName": "Tik vardas",
+  "notificationContentNameDesc": "Rodo tik kontakto vardą",
+  "notificationContentDiscrete": "Diskretiškas",
+  "notificationContentDiscreteDesc": "Rodo tik \"Nauja žinutė\"",
+
+  "security": "Saugumas",
+  "howHashProtectsYou": "Kaip Hash tave saugo",
+  "howHashProtectsYouSubtitle": "Suprask savo saugumą",
+  "accountSecurity": "Paskyros saugumas",
+  "accountSecuritySubtitle": "PIN, biometrika, Vash režimas",
+  "blockScreenshots": "Blokuoti ekrano kopijas",
+  "transferDevice": "Perkelti į kitą įrenginį",
+  "transferDeviceSubtitle": "Perkelti paskyrą",
+
+  "pinCode": "PIN kodas",
+  "changePin": "Keisti PIN kodą",
+  "currentPin": "Dabartinis PIN kodas",
+  "newPin": "Naujas PIN kodas",
+  "confirmPin": "Patvirtinti PIN kodą",
+  "pinChanged": "PIN kodas pakeistas",
+  "incorrectPin": "Neteisingas PIN",
+  "pinsDoNotMatch": "PIN kodai nesutampa",
+
+  "autoLock": "Automatinis užraktas",
+  "autoLockDelay": "Užrakinimo delsa",
+  "autoLockImmediate": "Nedelsiant",
+  "autoLockMinute": "1 minutė",
+  "autoLockMinutes": "{count} minutės",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash kodas",
+  "vashModeTitle": "Vash režimas",
+  "vashModeExplanation": "Jūsų galutinis saugos tinklas.",
+  "vashModeDescription": "Pasirinksite antrą PIN kodą. Jei kada nors būsite priversti atidaryti Hash, įveskite šį kodą vietoj įprasto PIN.\n\nProgramėlė atsidarys normaliai, bet visi jūsų pokalbiai ir kontaktai bus dingę.\n\nBet kam žiūrinčiam į jūsų ekraną Hash atrodys tiesiog tuščia — tarsi niekada jos nenaudojote.",
+  "vashModeIrreversible": "Šis veiksmas yra tylus ir neatšaukiamas.",
+  "chooseVashCode": "Pasirinkti Vash kodą",
+  "vashCodeInfo": "Antras PIN kodas, kuris atidaro programėlę normaliai, bet tuščią.",
+  "vashCodeInfoDetail": "Jei įvesite šį kodą vietoj PIN:",
+  "vashDeleteContacts": "Jūsų kontaktai dingsta",
+  "vashDeleteMessages": "Jūsų pokalbiai dingsta",
+  "vashDeleteHistory": "Jūsų užrašai dingsta",
+  "vashKeepId": "Jūsų Hash tapatybė (#XXX-XXX-XXX) lieka ta pati",
+  "vashAppearNormal": "Programėlė atrodo normaliai, bet tuščia, kaip nauja. Šis veiksmas neatšaukiamas.",
+  "setupVashCode": "Nustatyti Vash kodą",
+  "modifyVashCode": "Keisti Vash kodą",
+  "currentVashCode": "Dabartinis Vash kodas",
+  "newVashCode": "Naujas Vash kodas",
+  "confirmVashCode": "Patvirtinti Vash kodą",
+  "vashCodeConfigured": "Vash kodas sukonfigūruotas",
+  "vashCodeModified": "Vash kodas pakeistas",
+  "vashCodeMustDiffer": "Vash kodas turi skirtis nuo PIN",
+  "incorrectVashCode": "Neteisingas Vash kodas",
+  "vashWhatToDelete": "Ką Vash režimas turėtų panaikinti?",
+  "vashDeleteContactsOption": "Kontaktai",
+  "vashDeleteMessagesOption": "Žinutės",
+  "vashDeleteNotesOption": "Užrašai",
+  "vashActivated": "Vash režimas aktyvuotas",
+  "vashCreateSubtitle": "Pasirinkite kodą, skirtingą nuo pagrindinio PIN",
+  "vashConfirmSubtitle": "Patvirtinkite savo Vash kodą",
+  "vashCodeSection": "Vash režimas",
+
+  "pinCodeForEntry": "PIN kodas programėlei atrakinti",
+  "biometric": "Biometrika",
+  "biometricUnlock": "Atrakinti piršto antspaudu arba Face ID",
+  "enableBiometric": "Įjungti biometriką",
+  "biometricWarningMessage": "Įjungus biometriką negalėsite naudoti Vash kodo programėlei atrakinti.\n\nVash kodą galėsite naudoti tik jei biometrika nepavyks (po kelių nesėkmingų bandymų).\n\nAr tikrai norite tęsti?",
+  "understood": "Supratau",
+
+  "shareAppSubtitle": "Pasidalinkite Hash su artimaisiais",
+  "share": "Dalintis",
+
+  "danger": "Pavojus",
+  "panicButton": "Panikos mygtukas",
+  "panicButtonSubtitle": "Ištrinti visus duomenis",
+  "deleteAccount": "Ištrinti paskyrą",
+  "deleteAccountSubtitle": "Neatšaukiamas veiksmas",
+  "deleteAccountConfirmTitle": "Ištrinti paskyrą",
+  "deleteAccountConfirmMessage": "Jūsų paskyra bus visam laikui ištrinta. Šis veiksmas neatšaukiamas.\n\n• Visi jūsų pokalbiai\n• Visi jūsų kontaktai\n• Jūsų Hash ID\n\nTurėsite sukurti naują paskyrą.",
+  "deleteForever": "Ištrinti visam laikui",
+  "cancel": "Atšaukti",
+
+  "panicConfirmTitle": "Panikos mygtukas",
+  "panicConfirmMessage": "Šis veiksmas visam laikui ištrins VISUS jūsų duomenis:\n\n• Visas jūsų žinutes\n• Visus jūsų kontaktus\n• Jūsų paskyrą\n\nAr esate visiškai tikri?",
+  "deleteAll": "IŠTRINTI VISKĄ",
+  "dataDeletedForSecurity": "Vash režimas aktyvuotas.",
+  "deletionError": "Trynimo klaida: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Jūsų saugumas",
+  "securityInfo": "• Ištisinis šifravimas (Signal Protocol)\n• Jokių duomenų mūsų serveriuose po pristatymo\n• Raktai saugomi tik jūsų įrenginyje\n• PIN kodas niekada nesiunčiamas į serverį",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Sveiki",
+  "securityStatement1": "Jūsų žinutės yra apsaugotos.",
+  "securityStatement2": "Ištisinis šifravimas.",
+  "securityStatement3": "Jokių pėdsakų. Jokių kompromisų.",
+  "securityStatement4": "Jūsų privatumas yra teisė.",
+
+  "accessBlocked": "Prieiga užblokuota",
+  "tooManyAttempts": "Per daug bandymų",
+  "pleaseWait": "Palaukite",
+  "waitDelay": "Palaukite, kol pasibaigs delsa",
+  "attemptCount": "Bandymas {current} iš {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Bandyti po {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Pamiršote PIN? Naudokite atkūrimo frazę",
+  "useRecoveryPhrase": "Naudoti atkūrimo frazę",
+
+  "recoveryWarningTitle": "Dėmesio",
+  "recoveryWarningMessage": "Paskyros atkūrimas:",
+  "recoveryDeleteAllMessages": "Ištrins VISAS jūsų žinutes",
+  "recoveryWaitDelay": "Reikės 1 valandos delsos",
+  "recoveryKeepContacts": "Išsaugos jūsų kontaktus",
+  "recoveryIrreversible": "Šis veiksmas neatšaukiamas. Jūsų žinutės bus visam laikui prarastos.",
+  "iUnderstand": "Suprantu",
+
+  "accountRecovery": "Paskyros atkūrimas",
+  "enterRecoveryPhrase": "Įveskite 24 atkūrimo frazės žodžius, atskirtus tarpais.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Atkurti",
+  "recoveryPhraseRequired": "Įveskite atkūrimo frazę",
+  "recoveryPhrase24Words": "Frazė turi būti iš lygiai 24 žodžių",
+  "incorrectRecoveryPhrase": "Neteisinga atkūrimo frazė",
+  "recoveryInitError": "Klaida inicializuojant atkūrimą",
+
+  "securityDelay": "Saugumo delsa",
+  "securityDelayMessage": "Jūsų saugumui reikalingas laukimo laikotarpis prieš kuriant naują PIN.",
+  "timeRemaining": "Likęs laikas",
+  "messagesDeletedForProtection": "Jūsų žinutės buvo ištrintos jūsų apsaugai.",
+  "canCloseApp": "Galite uždaryti programėlę ir grįžti vėliau.",
+
+  "onboardingTitle1": "Sveiki atvykę į Hash",
+  "onboardingSubtitle1": "Pranešimų programa, nepaliekanti jokių pėdsakų",
+  "onboardingTitle2": "Visiškas šifravimas",
+  "onboardingSubtitle2": "Jūsų žinutės yra ištisai šifruojamos Signal protokolu",
+  "onboardingTitle3": "Jokių pėdsakų",
+  "onboardingSubtitle3": "Žinutės ištrinamos iš serverių po pristatymo",
+  "onboardingTitle4": "Jūsų saugumas",
+  "onboardingSubtitle4": "PIN kodas, Vash režimas ir atkūrimo frazė",
+
+  "getStarted": "Pradėti",
+  "next": "Toliau",
+  "skip": "Praleisti",
+  "alreadyHaveAccount": "Jau turiu paskyrą",
+  "transferMyAccount": "Perkelti paskyrą",
+
+  "createPin": "Sukurti PIN kodą",
+  "createPinSubtitle": "Šis kodas apsaugos prieigą prie jūsų programėlės",
+  "confirmYourPin": "Patvirtinkite PIN kodą",
+  "confirmPinSubtitle": "Įveskite PIN kodą dar kartą",
+
+  "saveRecoveryPhrase": "Atkūrimo frazė",
+  "saveRecoveryPhraseSubtitle": "Užsirašykite šiuos 24 žodžius eilės tvarka. Jie leis atkurti paskyrą, jei pamiršite PIN.",
+  "phraseWritten": "Užsirašiau frazę",
+  "warningRecoveryPhrase": "Jei prarasite šią frazę ir pamiršite PIN, prarasite prieigą prie paskyros.",
+
+  "accountTransferred": "Paskyra perkelta",
+  "accountTransferredMessage": "Jūsų paskyra buvo perkelta į kitą įrenginį. Ši sesija nebegalioja.",
+  "accountTransferredInfo": "Jei ne jūs inicijavote šį perkėlimą, jūsų paskyra gali būti pažeista.",
+  "logout": "Atsijungti",
+
+  "transferAccount": "Perkelti paskyrą",
+  "transferAccountInfo": "Perkelkite Hash paskyrą į naują įrenginį. Dabartinė sesija bus nutraukta.",
+  "generateTransferCode": "Generuoti perkėlimo kodą",
+  "transferCode": "Perkėlimo kodas",
+  "transferCodeExpires": "Šis kodas baigia galioti po {minutes} minučių",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Įveskite šį kodą naujame įrenginyje, kad perkeltumėte paskyrą.",
+  "generateNewCode": "Generuoti naują kodą",
+
+  "scanQrCode": "Nuskaityti QR kodą",
+  "scanQrCodeSubtitle": "Nuskaitykite kontakto QR kodą, kad jį pridėtumėte",
+  "qrCodeDetected": "QR kodas aptiktas",
+  "invalidQrCode": "Neteisingas QR kodas",
+  "cameraPermissionRequired": "Reikia kameros leidimo",
+
+  "myQrCode": "Mano QR kodas",
+  "myQrCodeSubtitle": "Pasidalinkite šiuo QR kodu, kad kontaktai galėtų jus pridėti",
+  "shareQrCode": "Dalintis",
+
+  "addContactTitle": "Pridėti kontaktą",
+  "addContactByHashId": "Įveskite kontakto Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Ieškoti",
+  "contactNotFound": "Kontaktas nerastas",
+  "contactAlreadyAdded": "Šis kontaktas jau yra jūsų sąraše",
+  "contactAdded": "Kontaktas pridėtas",
+
+  "myProfile": "Mano profilis",
+  "myProfileSubtitle": "Pasidalinkite šia informacija, kad kiti galėtų jus pridėti",
+  "temporaryCode": "Laikinas kodas",
+  "temporaryCodeExpires": "Galioja dar {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Kodas nebegalioja",
+  "generateNewCodeButton": "Naujas kodas",
+  "copyHashId": "Kopijuoti ID",
+  "copyCode": "Kopijuoti kodą",
+  "copiedToClipboard": "Nukopijuota",
+  "showMyQrCode": "Rodyti mano QR kodą",
+  "orDivider": "arba",
+  "openScanner": "Atidaryti skaitytuvą",
+  "addManually": "Pridėti rankiniu būdu",
+  "contactHashIdLabel": "Kontakto Hash ID",
+  "temporaryCodeLabel": "Laikinas kodas",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Paprašykite kontakto sugeneruoti kodą iš savo profilio",
+  "verifyAndAdd": "Patikrinti ir pridėti",
+  "fillAllFields": "Užpildykite visus laukus",
+  "invalidHashIdFormat": "Neteisingas ID formatas (pvz.: 123-456-ABC)",
+  "userNotFound": "Vartotojas nerastas",
+  "cannotAddYourself": "Negalite pridėti savęs",
+  "invalidOrExpiredCode": "Neteisingas arba pasibaigęs laikinas kodas",
+  "tooManyAttempts": "Per daug bandymų. Pabandykite vėliau.",
+  "contactFound": "Kontaktas rastas!",
+  "howToCallContact": "Kaip norėtumėte jį vadinti?",
+  "contactNameHint": "Kontakto vardas",
+  "addContactButton": "Pridėti",
+
+  "contactDetails": "Kontakto informacija",
+  "contactName": "Kontakto vardas",
+  "contactHashId": "Hash ID",
+  "addedOn": "Pridėta {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Ištrinti kontaktą",
+  "deleteContactConfirm": "Ištrinti šį kontaktą?",
+  "deleteContactMessage": "Tai taip pat ištrins visą pokalbį.",
+  "delete": "Ištrinti",
+
+  "typeMessage": "Rašyti žinutę...",
+  "messageSent": "Išsiųsta",
+  "messageDelivered": "Pristatyta",
+  "messageRead": "Perskaityta",
+  "messageFailed": "Nepavyko išsiųsti",
+
+  "now": "Dabar",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}val",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Šiandien",
+  "yesterday": "Vakar",
+  "dateAtTime": "{date}, {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Prisijunk prie manęs Hash! 🔒\n\nTai tikrai privati pranešimų programa: visiškas šifravimas, jokių pėdsakų serveriuose ir panikos režimas prireikus.\n\nAtsisiųsk programėlę čia 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Klaida",
+  "ok": "Gerai",
+  "view": "Peržiūrėti",
+  "yes": "Taip",
+  "no": "Ne",
+  "save": "Išsaugoti",
+  "edit": "Redaguoti",
+  "close": "Uždaryti",
+  "confirm": "Patvirtinti",
+  "loading": "Kraunama...",
+  "retry": "Bandyti dar kartą",
+
+  "pendingRequests": "Laukiančios užklausos",
+  "noPendingRequests": "Nėra laukiančių užklausų",
+  "pendingRequestsSubtitle": "Šie žmonės nori jus pridėti",
+  "requestFromUser": "Užklausa nuo {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Galioja dar {days} dienas",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Priimti",
+  "rejectRequest": "Atmesti",
+  "requestAccepted": "Užklausa priimta",
+  "requestRejected": "Užklausa atmesta",
+  "requestSent": "Užklausa išsiųsta!",
+  "requestSentSubtitle": "Jūsų užklausa buvo išsiųsta. Vartotojas turi ją priimti prieš pradedant pokalbį.",
+  "requestAlreadyPending": "Užklausa jau laukia",
+  "requestAlreadySentByOther": "Šis asmuo jau atsiuntė jums užklausą",
+  "addByHashId": "Pridėti pagal Hash ID",
+  "addByHashIdSubtitle": "Įveskite kontakto Hash ID ir laikiną kodą",
+  "enterTemporaryCode": "Įveskite 6 skaitmenų kodą",
+  "sendRequest": "Siųsti užklausą",
+  "acceptContactTitle": "Priimti kontaktą",
+  "acceptContactSubtitle": "Galite suteikti jam pasirinktinį vardą",
+  "leaveEmptyForHashId": "Palikite tuščią, kad naudotumėte Hash ID",
+  "firstName": "Vardas",
+  "lastName": "Pavardė",
+  "notes": "Užrašai",
+  "notesHint": "Asmeniniai užrašai apie šį kontaktą",
+
+  "photoOptional": "Nuotrauka (neprivaloma)",
+  "contactNameOptional": "Vardas (neprivalomas)",
+  "notesOptional": "Užrašai (neprivalomi)",
+  "storedLocally": "Saugoma tik jūsų įrenginyje",
+  "encryptedMessageLabel": "Šifruota žinutė",
+  "identityMessageHint": "Kas jūs esate? Kaip pažįstate vienas kitą?",
+  "messageWillBeSentEncrypted": "Ši žinutė bus užšifruota ir išsiųsta gavėjui",
+  "sendRequestButton": "Siųsti užklausą",
+  "requestExpiresIn24h": "Užklausa baigia galioti po 24 val., jei nepriimta",
+  "theyAlreadySentYouRequest": "Šis asmuo jau atsiuntė jums užklausą",
+
+  "requests": "Užklausos",
+  "receivedRequests": "Gautos",
+  "sentRequests": "Išsiųstos",
+  "noSentRequests": "Nėra išsiųstų užklausų",
+  "cancelRequest": "Atšaukti",
+  "deleteRequest": "Ištrinti užklausą",
+  "requestCancelled": "Užklausa atšaukta",
+  "sentTo": "Išsiųsta {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Galioja dar {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Gauta prieš {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Žinutė nuo siuntėjo",
+
+  "copy": "Kopijuoti",
+  "messageInfo": "Žinutės informacija",
+
+  "messageDirection": "Kryptis",
+  "messageSentByYou": "Išsiųsta jūsų",
+  "messageReceived": "Gauta",
+  "messageSentAt": "Išsiųsta",
+  "messageStatus": "Būsena",
+  "messageReadAt": "Perskaityta",
+  "messageType": "Tipas",
+  "messageSize": "Dydis",
+  "messageExpiresAt": "Galioja iki",
+  "messageEncrypted": "Ištisai šifruota",
+
+  "messageStatusSending": "Siunčiama...",
+  "messageStatusSent": "Išsiųsta",
+  "messageStatusDelivered": "Pristatyta",
+  "messageStatusRead": "Perskaityta",
+  "messageStatusFailed": "Nepavyko",
+
+  "serverStatus": "Serveris",
+  "onServer": "Laukia pristatymo",
+  "deletedFromServer": "Ištrinta",
+
+  "messageTypeText": "Tekstas",
+  "messageTypeImage": "Paveikslėlis",
+  "messageTypeVideo": "Vaizdo įrašas",
+  "messageTypeVoice": "Balso įrašas",
+  "messageTypeFile": "Failas",
+
+  "indefinitely": "Neribotai",
+  "hoursShort": "val",
+  "minutesShort": "min",
+  "hours": "valandos",
+  "minutes": "minutės",
+  "seconds": "sekundės",
+
+  "ephemeralMessages": "Laikinos žinutės",
+  "ephemeralMessagesDescription": "Žinutės automatiškai ištrinamos po šio laiko",
+  "ephemeralImmediate": "Iš karto (po perskaitymo)",
+  "ephemeralImmediateDesc": "Ištrinta iš karto po perskaitymo",
+  "ephemeralMyPreference": "Mano nuostata",
+  "ephemeralMyPreferenceDesc": "Naudoti bendrą nustatymą",
+  "ephemeralDefaultSetting": "Žinučių trukmė",
+  "ephemeralChooseDefault": "Rekomenduojama",
+  "ephemeral30Seconds": "30 sekundžių",
+  "ephemeral30SecondsDesc": "Ištrinta po 30 s nuo perskaitymo",
+  "ephemeral5Minutes": "5 minutės",
+  "ephemeral5MinutesDesc": "Ištrinta po 5 min nuo perskaitymo",
+  "ephemeral1Hour": "1 valanda",
+  "ephemeral1HourDesc": "Ištrinta po 1 val nuo perskaitymo",
+  "ephemeral3Hours": "3 valandos",
+  "ephemeral6Hours": "6 valandos",
+  "ephemeral6HoursDesc": "Ištrinta po 6 val nuo perskaitymo",
+  "ephemeral12Hours": "12 valandų",
+  "ephemeral24Hours": "24 valandos",
+  "ephemeral24HoursDesc": "Ištrinta po 24 val nuo perskaitymo",
+  "customDuration": "Pasirinktinė trukmė",
+
+  "muteNotifications": "Nutildyti pranešimus",
+  "muteDescription": "Negausite pranešimų iš šio kontakto",
+  "mutedUntil": "Nutildyta iki {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Pranešimai įjungti",
+  "unmute": "Įjungti garsą",
+
+  "notificationSound": "Pranešimo garsas",
+  "defaultSound": "Numatytasis",
+
+  "chatSettings": "Pokalbio nustatymai",
+  "bubbleColor": "Burbulo spalva",
+  "backgroundColor": "Fono spalva",
+  "backgroundImage": "Fono paveikslėlis",
+  "chatBackground": "Pokalbio fonas",
+  "customColor": "Pasirinktinė",
+  "defaultColor": "Numatytoji",
+  "imageSelected": "Paveikslėlis pasirinktas",
+  "noImage": "Nėra paveikslėlio",
+  "color": "Spalva",
+  "image": "Paveikslėlis",
+  "tapToSelectImage": "Bakstelėkite norėdami pasirinkti paveikslėlį",
+  "changeImage": "Keisti paveikslėlį",
+  "previewMessageReceived": "Labas!",
+  "previewMessageSent": "Sveikas!",
+
+  "messageAction": "Žinutė",
+  "callAction": "Skambinti",
+  "videoAction": "Vaizdo",
+
+  "personalNotes": "Asmeniniai užrašai",
+  "addNotes": "Pridėti užrašų...",
+  "noNotes": "Nėra užrašų",
+
+  "messageNotifications": "Žinučių pranešimai",
+  "callNotifications": "Skambučių pranešimai",
+
+  "useGradient": "Naudoti gradientą",
+  "gradientStart": "Pradžios spalva",
+  "gradientEnd": "Pabaigos spalva",
+  "preview": "Peržiūra",
+  "reset": "Atstatyti",
+
+  "securityNumber": "Saugumo numeris",
+  "securityNumberDescription": "Patikrinkite, ar saugumo numeris atitinka {name} įrenginį",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Patikrinti ištisinio šifravimo apsaugą",
+  "tapToCopy": "Bakstelėkite norėdami kopijuoti",
+  "howToVerify": "Kaip patikrinti",
+  "verifyStep1": "Susitikite su kontaktu asmeniškai arba paskambinkite",
+  "verifyStep2": "Palyginkite saugumo numerius arba nuskaitykite QR kodus",
+  "verifyStep3": "Jei jie sutampa, jūsų pokalbis yra saugus",
+  "scanToVerify": "Nuskaityti patikrinimui",
+
+  "reportSpam": "Pranešti apie šlamštą",
+  "reportSpamSubtitle": "Pranešti apie šį kontaktą kaip šlamštą",
+  "reportSpamDescription": "Šis kontaktas bus anonimiškai praneštas. Jūsų tapatybė nebus atskleista. Ar tikrai norite?",
+  "report": "Pranešti",
+  "spamReported": "Šlamštas praneštas",
+  "reportError": "Nepavyko išsiųsti pranešimo. Bandykite dar kartą.",
+  "reportRateLimited": "Pasiekėte didžiausią pranešimų skaičių šiandienai.",
+
+  "blockContact": "Blokuoti kontaktą",
+  "blockContactDescription": "Šis kontaktas nebegalės siųsti jums žinučių ar skambinti. Jis nebus informuotas.",
+  "unblockContact": "Atblokuoti kontaktą",
+  "unblockContactDescription": "Šis kontaktas vėl galės siųsti jums žinutes ir skambinti.",
+  "contactBlocked": "Kontaktas užblokuotas",
+  "contactUnblocked": "Kontaktas atblokuotas",
+  "contactIsBlocked": "Šis kontaktas yra užblokuotas",
+  "unblock": "Atblokuoti",
+
+  "deleteContactSubtitle": "Ištrinti šį kontaktą ir pokalbį",
+  "confirmWithPin": "Patvirtinti su PIN",
+  "enterPinToConfirm": "Įveskite PIN, kad patvirtintumėte šį veiksmą",
+
+  "mute1Hour": "1 valanda",
+  "mute8Hours": "8 valandos",
+  "mute1Day": "1 diena",
+  "mute1Week": "1 savaitė",
+  "muteAlways": "Visada",
+  "muteExplanation": "Negausite pranešimų iš šio kontakto",
+  "howItWorks": "Kaip tai veikia",
+  "ephemeralExplanation1": "Žinutės ištrinamos iš serverio iš karto po gavimo.",
+  "ephemeralExplanation2": "Šis nustatymas apibrėžia, kada žinutės dingsta iš JŪSŲ telefono po perskaitymo.",
+  "ephemeralExplanation3": "Jūsų kontaktas turi savo nustatymą savo telefonui.",
+
+  "showCallsInRecents": "Rodyti neseniai skambintuose",
+  "showCallsInRecentsSubtitle": "Hash skambučiai rodomi telefono istorijoje",
+  "feedback": "Atsiliepimai",
+
+  "profilePhoto": "Profilio nuotrauka",
+  "takePhoto": "Fotografuoti",
+  "chooseFromGallery": "Pasirinkti iš galerijos",
+  "removePhoto": "Pašalinti nuotrauką",
+
+  "viewContactHashId": "Peržiūrėti kontakto identifikatorių",
+  "hashIdPartiallyMasked": "Dalinai paslėptas jūsų saugumui ir kontakto privatumui",
+
+  "addFirstContact": "Pridėkite pirmą kontaktą",
+  "addFirstContactSubtitle": "Pasidalinkite QR kodu arba nuskaitykite draugo",
+  "directory": "Katalogas",
+  "noContacts": "Nėra kontaktų",
+  "noContactsSubtitle": "Pridėkite kontaktą, kad pradėtumėte",
+  "sendMessageAction": "Siųsti žinutę",
+  "audioCall": "Garso skambutis",
+  "videoCall": "Vaizdo skambutis",
+  "viewProfile": "Peržiūrėti profilį",
+  "deleteContactDirectory": "Ištrinti kontaktą",
+  "scanShort": "Nuskaityti",
+  "addShort": "Pridėti",
+  "deleteContactConfirmName": "Ar tikrai norite ištrinti {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Nėra užrašų",
+  "noNotesSubtitle": "Sukurkite pirmą užrašą",
+  "newNote": "Naujas užrašas",
+  "editNote": "Redaguoti užrašą",
+  "deleteNote": "Ištrinti užrašą",
+  "deleteNoteConfirm": "Ar tikrai norite ištrinti šį užrašą?",
+  "noteTitle": "Pavadinimas",
+  "noteContent": "Turinys",
+  "addItem": "Pridėti elementą",
+  "pinNote": "Prisegti",
+  "unpinNote": "Atsegti",
+  "noteColor": "Spalva",
+  "notePassword": "Slaptažodis",
+  "setPassword": "Nustatyti slaptažodį",
+  "changePassword": "Keisti slaptažodį",
+  "removePassword": "Pašalinti slaptažodį",
+  "enterPassword": "Įveskite slaptažodį",
+  "confirmPassword": "Patvirtinkite slaptažodį",
+  "passwordPin": "PIN kodas",
+  "passwordText": "Tekstinis slaptažodis",
+  "protectedNote": "Apsaugotas užrašas",
+  "incorrectPassword": "Neteisingas slaptažodis",
+  "passwordSet": "Slaptažodis nustatytas",
+  "passwordRemoved": "Slaptažodis pašalintas",
+  "notesBiometric": "Face ID užrašams",
+  "notesBiometricSubtitle": "Reikalauti biometrinės tapatybės patvirtinimo atidarant apsaugotus užrašus",
+  "textNote": "Tekstinis užrašas",
+  "checklistNote": "Kontrolinis sąrašas",
+  "tasksProgress": "{checked}/{total} užduočių",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Išsaugota",
+  "searchNotes": "Ieškoti užrašų",
+  "legalConsent": "Teisinis sutikimas",
+  "confirmAge13": "Patvirtinu, kad man yra bent 13 metų",
+  "acceptLegalStart": "Sutinku su ",
+  "privacyPolicy": "Privatumo politika",
+  "termsOfService": "Naudojimo sąlygos",
+  "andThe": " ir ",
+  "continueButton": "Tęsti",
+  "mustAcceptTerms": "Turite priimti abi sąlygas, kad tęstumėte",
+
+  "support": "Palaikymas",
+  "contactSupport": "Susisiekti su palaikymu",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Pranešti apie piktnaudžiavimą",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Teisinė informacija",
+  "legalEntity": "Juridinis asmuo",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Prisegti",
+  "unpinConversation": "Atsegti",
+  "hideConversation": "Pašalinti iš srauto",
+  "deleteConversation": "Ištrinti pokalbį",
+  "deleteConversationConfirm": "Įveskite PIN, kad patvirtintumėte visų žinučių trynimą",
+  "noConversations": "Dar nėra pokalbių",
+  "startConversation": "Pradėti",
+
+  "microphonePermissionRequired": "Reikia mikrofono prieigos",
+  "microphonePermissionExplanation": "Hash reikia mikrofono skambučiams.",
+  "cameraPermissionExplanation": "Hash reikia kameros vaizdo skambučiams.",
+  "openSettings": "Atidaryti nustatymus",
+
+  "callConnecting": "Jungiamasi...",
+  "callRinging": "Skamba...",
+  "callReconnecting": "Persijungiama...",
+  "callReconnectingTimer": "Persijungiama ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Pristabdyta",
+  "callPausedSubtitle": "Skambutis vis dar aktyvus",
+  "callRemoteMicMuted": "Kontakto mikrofonas nutildytas",
+  "callMiniControlsMute": "Nutildyti",
+  "callMiniControlsUnmute": "Įjungti garsą",
+  "callMiniControlsHangUp": "Padėti ragelį",
+  "callMiniControlsReturn": "Grįžti į skambutį",
+  "callNetworkPoor": "Nestabilus ryšys",
+  "callNetworkLost": "Ryšys prarastas",
+  "callEndedTitle": "Skambutis baigtas",
+
+  "deviceData": "Įrenginio duomenys",
+  "deviceDataSubtitle": "Vietinė ir serverio saugykla",
+  "localStorage": "Vietinė saugykla",
+  "onThisDevice": "šiame įrenginyje",
+  "encryptedDatabases": "Šifruotos duomenų bazės",
+  "files": "Failai",
+  "secureKeychain": "Saugus raktų ryšulys",
+  "cache": "Podėlis",
+  "contactsDetail": "Vardai, avatarai, Signal raktai",
+  "messagesDetail": "Šifruoti pokalbiai",
+  "notesDetail": "Asmeniniai užrašai",
+  "signalSessions": "Signal sesijos",
+  "signalSessionsDetail": "Šifravimo sesijos",
+  "pendingContacts": "Laukiantys kontaktai",
+  "pendingContactsDetail": "Laukiančios užklausos",
+  "callHistory": "Skambučiai",
+  "callHistoryDetail": "Skambučių istorija",
+  "preferences": "Nuostatos",
+  "preferencesDetail": "Medijos ir skambučių nuostatos",
+  "avatars": "Avatarai",
+  "media": "Medija",
+  "fileCount": "{count, plural, =0{nėra failų} =1{1 failas} other{{count} failų}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktyvus",
+  "notDefined": "Nenustatyta",
+  "biometrics": "Biometrika",
+  "recoveryPhrase": "Atkūrimo frazė",
+  "identity": "Tapatybė (Hash ID)",
+  "signalKeys": "Signal Protocol raktai",
+  "authTokens": "Autentifikacijos ženklai",
+  "contactNamesCache": "Kontaktų vardų podėlis",
+  "remoteConfig": "Nuotolinė konfigūracija",
+  "notificationPrefs": "Pranešimų nuostatos",
+  "serverData": "Serverio duomenys",
+  "serverDataInfo": "Hash serveryje saugo minimaliai duomenų — visus šifruotus arba laikinus.",
+  "serverProfile": "Profilis",
+  "serverProfileDetail": "Hash ID, viešieji raktai, pašto dėžutės ženklas",
+  "serverPrekeys": "Išankstiniai raktai",
+  "serverPrekeysDetail": "Vienkartiniai Signal raktai (sunaudoti)",
+  "serverMessages": "Žinutės tranzite",
+  "serverMessagesDetail": "Ištrinamos po pristatymo (maks. 24 val)",
+  "serverMedia": "Medija tranzite",
+  "serverMediaDetail": "Ištrinama po atsisiuntimo",
+  "serverContactRequests": "Kontaktų užklausos",
+  "serverContactRequestsDetail": "Baigia galioti po 24 val",
+  "serverRateLimits": "Dažnumo apribojimai",
+  "serverRateLimitsDetail": "Laikini apsaugos nuo piktnaudžiavimo duomenys",
+  "privacyReassurance": "Hash negali skaityti jūsų žinučių. Visi duomenys yra ištisai šifruoti. Serverio duomenys automatiškai ištrinami.",
+
+  "pinTooSimple": "Šis PIN per paprastas. Pasirinkite saugesnį kodą.",
+  "genericError": "Įvyko klaida. Bandykite dar kartą.",
+  "accountCreationError": "Nepavyko sukurti paskyros: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frazė nukopijuota į iškarpinę",
+  "copyPhrase": "Kopijuoti frazę",
+  "recoveryPhraseSecurityWarning": "Užsirašykite šią frazę saugioje vietoje. Jei prarasite PIN be šios frazės, visam laikui prarasite prieigą prie duomenų.",
+
+  "noMessages": "Nėra žinučių",
+  "deleteAllMessagesWithContact": "Ištrinti visas žinutes su {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Patvirtinimas",
+  "untitled": "Be pavadinimo",
+  "noSessions": "Nėra sesijų",
+  "unknownContact": "Nežinomas kontaktas",
+  "unnamed": "Be vardo",
+  "noPendingRequestsAlt": "Nėra laukiančių užklausų",
+  "deleteAllCallHistory": "Ištrinti visą skambučių istoriją?",
+  "noCalls": "Nėra skambučių",
+  "noPreferences": "Nėra nuostatų",
+  "resetAllMediaPrefs": "Atstatyti visas medijos nuostatas?",
+  "deleteThisAvatar": "Ištrinti šį avatarą?",
+  "deleteAllAvatars": "Ištrinti visus avatarus?",
+  "noAvatars": "Nėra avatarų",
+  "deleteThisFile": "Ištrinti šį failą?",
+  "deleteAllMediaFiles": "Ištrinti visą mediją?",
+  "noMediaFiles": "Nėra medijos",
+  "outgoing": "Išeinantis",
+  "incoming": "Įeinantis",
+  "ephemeralViewDuration": "Laikina peržiūra: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Įprasta peržiūra",
+  "callReasonCompleted": "Baigtas",
+  "callReasonMissed": "Praleistas",
+  "callReasonDeclined": "Atmestas",
+  "callReasonFailed": "Nepavyko",
+  "justNow": "Ką tik",
+  "timeAgoMinutes": "Prieš {count} min",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "Prieš {count} val",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "Prieš {count} d",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kontaktas",
+  "messageTypeLocation": "Vieta",
+  "statusQueued": "Eilėje",
+  "blockedBadge": "Užblokuotas",
+  "protectedBadge": "Apsaugotas",
+  "messageCount": "{count} žinutė(-ės)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Ištrinti?",
+
+  "transferMyAccountTitle": "Perkelti paskyrą",
+  "loadingError": "Krovimo klaida",
+  "transferToNewDevice": "Perkelti į naują įrenginį",
+  "transferInstructions": "Naujame įrenginyje pasirinkite \"Atkurti paskyrą\" ir įveskite šią informaciją:",
+  "yourHashIdLabel": "Jūsų Hash ID",
+  "enterYourPinCode": "Įveskite PIN kodą",
+  "pinOwnerConfirmation": "Kad patvirtintumėte, jog esate šios paskyros savininkas",
+  "scanThisQrCode": "Nuskaitykite šį QR kodą",
+  "withYourNewDevice": "Savo nauju įrenginiu",
+  "orEnterTheCode": "arba įveskite kodą",
+  "transferCodeLabel": "Perkėlimo kodas",
+  "proximityVerification": "Artumo patikrinimas",
+  "bringDevicesCloser": "Priartinkite abu įrenginius",
+  "confirmTransferQuestion": "Patvirtinti perkėlimą?",
+  "accountWillBeTransferred": "Jūsų paskyra bus perkelta į naują įrenginį.\n\nŠis įrenginys bus visam laikui atjungtas.",
+  "transferComplete": "Perkėlimas baigtas",
+  "transferSuccessMessage": "Jūsų paskyra sėkmingai perkelta.\n\nŠi programėlė dabar užsidarys.",
+  "manualVerification": "Rankinis patikrinimas",
+  "codeDisplayedOnBothDevices": "Kodas rodomas abiejuose įrenginiuose:",
+  "doesCodeMatchNewDevice": "Ar šis kodas sutampa su naujame įrenginyje rodomu?",
+  "verifiedStatus": "Patvirtintas",
+  "inProgressStatus": "Vykdoma...",
+  "notAvailableStatus": "Nepasiekiamas",
+  "codeExpiredRestart": "Kodas nebegalioja. Pradėkite iš naujo.",
+  "codesDoNotMatchCancelled": "Kodai nesutampa. Perkėlimas atšauktas.",
+  "transferToDevice": "Kam: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Nukopijuota!",
+  "expiresInTime": "Galioja dar {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometrika nepasiekiama šiame įrenginyje",
+  "biometricAuthError": "Klaida biometrinės tapatybės patvirtinimo metu",
+  "authenticateForBiometric": "Patvirtinkite tapatybę, kad įjungtumėte biometriką",
+  "biometricAuthFailed": "Biometrinis tapatybės patvirtinimas nepavyko",
+
+  "forceUpdateTitle": "Reikia atnaujinimo",
+  "forceUpdateMessage": "Galima nauja Hash versija. Atnaujinkite, kad tęstumėte.",
+  "updateButton": "Atnaujinti",
+  "maintenanceInProgress": "Vykdoma priežiūra",
+  "tryAgainLater": "Bandykite vėliau",
+  "information": "Informacija",
+
+  "later": "Vėliau",
+  "doYouLikeHash": "Ar jums patinka Hash?",
+  "yourFeedbackHelps": "Jūsų atsiliepimai padeda tobulinti programėlę",
+  "ratingTerrible": "Baisiai",
+  "ratingBad": "Blogai",
+  "ratingOk": "Neblogai",
+  "ratingGood": "Gerai",
+  "ratingExcellent": "Puiku!",
+  "donationMessage": "Hash yra ne pelno siekiantis projektas. Jūsų parama padeda mums kurti tikrai privatų mesendžerį.",
+
+  "recentConnections": "Naujausi prisijungimai",
+  "loginInfoText": "Kiekvienas PIN atrakinimas registruojamas vietoje. Saugomi tik paskutiniai 24 val.",
+  "connectionCount": "Prisijungimas(-ai)",
+  "periodLabel": "Laikotarpis",
+  "historyLabel": "Istorija",
+  "noLoginRecorded": "Nėra užregistruotų prisijungimų",
+  "nextUnlocksAppearHere": "Kiti atrakinimai bus rodomi čia.",
+  "dataLocalOnly": "Šie duomenys saugomi tik jūsų įrenginyje ir niekada neperduodami.",
+  "currentSession": "Dabartinė",
+  "todayLabel": "Šiandien",
+  "yesterdayLabel": "Vakar",
+  "justNowLabel": "Ką tik",
+  "minutesAgoLabel": "Prieš {count} min",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "Prieš {hours} val",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "Prieš {hours} val {minutes} min",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Nėra suplanuotų priežiūros darbų",
+  "everythingWorkingNormally": "Viskas veikia normaliai",
+  "maintenanceTitle": "Priežiūra",
+  "maintenanceActiveLabel": "VYKDOMA",
+  "maintenancePlannedLabel": "SUPLANUOTA",
+
+  "locking": "Užrakinama...",
+
+  "newMessageNotification": "Nauja žinutė",
+
+  "secExplainTitle": "Kaip Hash tave saugo",
+  "secExplainIntro": "Hash sukurtas taip, kad niekas negalėtų perskaityti tavo žinučių.",
+  "secExplainIntroSub": "Net mes.\nŠtai kaip tai veikia, paaiškinta paprastai.",
+  "secJourneyLabel": "KELIONĖ",
+  "secJourneyTitle": "Tavo žinutės kelionė",
+  "secJourneySubtitle": "Nuo tavo piršto iki kontakto ekrano — kiekvienas žingsnis apsaugotas. Sek kelią.",
+  "secStep1Title": "Tu rašai žinutę",
+  "secStep1Desc": "Tu surašai \"Labas!\" programėlėje. Šiuo metu žinutė egzistuoja tik tavo telefono atmintyje. Nieko neišsiųsta.",
+  "secStep2Title": "Šifravimas su Signal Protocol",
+  "secStep2Desc": "Kai tik paspaudžiate \"Siųsti\", žinutė paverčiama nesuprantamų simbolių eilute. Tai tarsi žinutė būtų užrakinta seife, kurio raktą turi tik jūsų kontaktas.",
+  "secStep3Title": "Sealed Sender: nematomas vokas",
+  "secStep3Desc": "Įsivaizduokite, kad siunčiate laišką paštu, bet be siuntėjo adreso ant voko. Būtent tai daro Hash. Žinutė numečiama į anonimišką pašto dėžutę. Serveris nežino, kas ją atsiuntė.",
+  "secStep4Title": "Serveris nieko nemato",
+  "secStep4Desc": "Serveris veikia kaip aklas paštininkas. Jis tik žino \"kažkas kažką įmetė į dėžutę #A7X9\". Nežino, kas siuntė, kas tai yra ir kam skirta.",
+  "secStep4Highlight": "Jokia metaduomenų saugykla: jokio IP adreso, jokio laiko žymės, jokio ryšio tarp siuntėjo ir gavėjo.",
+  "secStep5Title": "Tavo kontaktas gauna žinutę",
+  "secStep5Desc": "Tavo kontakto telefonas pasiima turinį iš anonimiškos pašto dėžutės ir iššifruoja žinutę savo privačiu raktu, kuris niekada nepaliko jo įrenginio. \"Labas!\" pasirodo ekrane.",
+  "secStep6Title": "Žinutė dingsta iš serverio",
+  "secStep6Desc": "Kai tavo kontaktas patvirtina gavimą, serveris visam laikui ištrina žinutę. Jokios šiukšlinės, jokio archyvo, jokios atsarginės kopijos. Net neskaitytos žinutės automatiškai sunaikinamos po 24 valandų.",
+  "secStep7Title": "Vietinė galiojimo pabaiga",
+  "secStep7Desc": "Tavo kontakto telefone žinutė susinaikina pagal pasirinktą trukmę: iš karto po perskaitymo, po 5 minučių, 1 valandos... tu spręski.",
+  "secJourneyConclusion": "Rezultatas: jokių pėdsakų serveryje, jokių pėdsakų įrenginiuose. Žinutė egzistavo tik tiek, kiek reikėjo ją perskaityti, tada dingo.",
+  "secArchLabel": "ARCHITEKTŪRA",
+  "secArchTitle": "5 apsaugos sluoksniai",
+  "secArchSubtitle": "Hash nesiremia viena technologija. Kiekvienas sluoksnis sustiprina kitus. Net jei vienas sluoksnis pažeidžiamas, tavo duomenys lieka saugūs.",
+  "secLayer1Title": "Ištisinis šifravimas",
+  "secLayer1Desc": "Kiekviena žinutė šifruojama unikaliu raktu. Paprastai tariant: net jei kas nors iššifruoja vieną žinutę, sekančios iššifruoti negalės. Kiekviena žinutė turi savo spyną.",
+  "secLayer1Detail": "Failams (nuotraukoms, vaizdo įrašams, dokumentams) Hash naudoja papildomą AES-256-GCM šifravimą. Failas užšifruojamas prieš paliekant telefoną.",
+  "secLayer2Title": "Sealed Sender (tinklo anonimiškumas)",
+  "secLayer2Desc": "Įprastos pranešimų programos siunčia žinutes su pridėta tapatybe. Tai kaip rašyti savo vardą ant voko. Hash naudoja anonimines pašto dėžutes: serveris pristato žinutę nežinodamas, kas ją siuntė.",
+  "secLayer2Detail": "Rezultatas: net serverio duomenų nutekėjimo atveju neįmanoma atkurti, kas su kuo kalbėjosi.",
+  "secLayer3Title": "Automatinis trynimas",
+  "secLayer3Desc": "Žinutės ištrinamos iš serverio iš karto po gavimo patvirtinimo. Net jei žinutė niekada negaunama, ji automatiškai sunaikinama po 24 valandų.",
+  "secLayer3Detail": "Tavo telefone žinutės susinaikina pagal pasirinktą trukmę: iš karto, 5 min, 15 min, 30 min, 1 val, 3 val, 6 val arba 12 val.",
+  "secLayer4Title": "Vietinės prieigos apsauga",
+  "secLayer4Desc": "Programėlė apsaugota 6 skaitmenų PIN kodu ir/arba biometrika (Face ID, piršto antspaudas). Po per daug nesėkmingų bandymų programėlė užsirakins su vis ilgėjančia delsa.",
+  "secLayer5Title": "Užrakinta duomenų bazė",
+  "secLayer5Desc": "Serverio pusėje joks vartotojas negali tiesiogiai rašyti į duomenų bazę. Visi veiksmai vykdomi per saugias funkcijas, kurios tikrina kiekvieną užklausą.",
+  "secLayer5Detail": "Tai kaip banko langelis: niekada pats nelieti seifo. Pateiki užklausą, o sistema patikrina, ar turi teisę, prieš veikdama.",
+  "secVashLabel": "UNIKALUS PASAULYJE",
+  "secVashTitle": "Vash režimas",
+  "secVashSubtitle": "Avarinė saugumo sistema, kuri neegzistuoja jokioje kitoje pranešimų programėlėje.",
+  "secVashScenarioTitle": "Įsivaizduok šią situaciją",
+  "secVashScenario1": "Kažkas prieina prie tavo telefono",
+  "secVashScenario2": "Tavęs prašo PIN kodo",
+  "secVashScenario3": "Nori skubiai ištrinti visus duomenis",
+  "secVashSolutionTitle": "Sprendimas: du PIN kodai",
+  "secVashSolutionDesc": "Hash sukonfigūruoji du skirtingus PIN kodus:",
+  "secVashNormalCodeLabel": "Įprastas kodas",
+  "secVashNormalCodeDesc": "Atidaro programėlę normaliai su visais duomenimis",
+  "secVashCodeLabel2": "Vash kodas",
+  "secVashCodeDescription": "Atidaro programėlę normaliai... bet visi duomenys tyliai ištrinami fone",
+  "secVashWhatHappensTitle": "Kas vyksta toliau",
+  "secVashWhatHappensDesc": "Programėlė atsidaro normaliai. Jokio įspėjimo, jokios įtartinos animacijos. Ekranas tiesiog rodo tuščią programėlę, tarsi ką tik ją įdiegei.\n\nIš tikrųjų visi pokalbiai, kontaktai ir žinutės buvo neatšaukiamai ištrinti per akimirką.",
+  "secCallsLabel": "SKAMBUČIAI IR FAILAI",
+  "secCallsTitle": "Viskas šifruota",
+  "secCallsSubtitle": "Ne tik žinutės. Absoliučiai viskas, kas eina per Hash, yra ištisai šifruota.",
+  "secAudioCallTitle": "Garso skambučiai",
+  "secAudioCallDesc": "Ištisai šifruoti per WebRTC. Balsas perduodamas tiesiogiai tarp įrenginių.",
+  "secVideoCallTitle": "Vaizdo skambučiai",
+  "secVideoCallDesc": "Ta pati technologija, kiekvienas srautas šifruojamas atskirai.",
+  "secPhotosTitle": "Nuotraukos ir vaizdo įrašai",
+  "secPhotosDesc": "Šifruojami AES-256-GCM prieš paliekant telefoną.",
+  "secDocsTitle": "Dokumentai",
+  "secDocsDesc": "PDF, ZIP, bet koks failas. Pavadinimas, dydis ir turinys šifruojami.",
+  "secAnonLabel": "ANONIMIŠKUMAS",
+  "secAnonTitle": "Tapatybė nereikalinga",
+  "secAnonSubtitle": "Hash niekada neprašo telefono numerio ar el. pašto. Esi identifikuojamas unikaliu ir anonimišku Hash ID.",
+  "secHashIdTitle": "Tavo Hash ID",
+  "secHashIdDesc": "Tai tavo unikalus identifikatorius. Jis nieko neatskleidžia apie tave: nei vardo, nei numerio, nei vietos. Tai tarsi slapyvardis, kurio neįmanoma susieti su tikra tapatybe.\n\nNorint pridėti kontaktą, dalinies Hash ID arba nuskaitai QR kodą. Tiek. Jokio sinchronizuoto adresų sąrašo, jokių \"Žmonės, kuriuos galbūt pažįsti\" pasiūlymų.",
+  "secDataLabel": "DUOMENYS",
+  "secDataTitle": "Ko Hash nežino",
+  "secDataSubtitle": "Geriausias būdas apsaugoti duomenis — jų nerinkti.",
+  "secNeverCollected": "Niekada nerenkami",
+  "secNeverItem1": "Žinučių turinys",
+  "secNeverItem2": "Kontaktų sąrašas",
+  "secNeverItem3": "Telefono numeris",
+  "secNeverItem4": "El. pašto adresas",
+  "secNeverItem5": "IP adresas",
+  "secNeverItem6": "Vieta",
+  "secNeverItem7": "Metaduomenys (kas su kuo kalbasi)",
+  "secNeverItem8": "Skambučių istorija",
+  "secNeverItem9": "Adresų sąrašas",
+  "secNeverItem10": "Reklamos identifikatoriai",
+  "secTempStored": "Saugoma laikinai",
+  "secTempItem1": "Anoniminis Hash ID (unikalus identifikatorius)",
+  "secTempItem2": "Viešieji šifravimo raktai",
+  "secTempItem3": "Šifruotos žinutės tranzite (maks. 24 val)",
+  "secTempNote": "Net šie minimalūs duomenys negali tavęs identifikuoti. Tavo Hash ID nėra susietas su jokia asmenine informacija.",
+  "secFooterTitle": "Tavo privatumas, tavo laisvė",
+  "secFooterDesc": "Hash naudoja tas pačias šifravimo technologijas kaip reikliausios profesionalios programos. Tavo žinutės apsaugotos matematika, ne pažadais."
+}

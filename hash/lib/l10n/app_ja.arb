@@ -1,0 +1,1039 @@
+{
+  "@@locale": "ja",
+  "appName": "Hash",
+  "appTagline": "痕跡ゼロ。妥協ゼロ。",
+  "conversations": "チャット",
+  "contacts": "連絡先",
+  "noConversation": "チャットなし",
+  "noConversationSubtitle": "安全にチャットするには連絡先を追加してください",
+  "pendingRequestsCount": "{count, plural, =1{1件の保留中リクエスト} other{{count}件の保留中リクエスト}}",
+  "sentRequestsCount": "{count, plural, =1{1件の送信済みリクエスト保留中} other{{count}件の送信済みリクエスト保留中}}",
+  "addContact": "連絡先を追加",
+  "shareApp": "アプリを共有",
+  "newMessage": "新しいメッセージ",
+  "newConversation": "メッセージを送信",
+  "settings": "設定",
+  "myHashId": "マイ Hash ID",
+  "supportHash": "Hash を支援",
+  "supportHashSubtitle": "Hash は非営利プロジェクトです",
+  "donate": "寄付",
+  "appearance": "外観",
+  "theme": "テーマ",
+  "themeAuto": "自動",
+  "themeAutoSubtitle": "システム設定に従う",
+  "themeDark": "ダーク",
+  "themeLight": "ライト",
+  "themeRecommendation": "プライバシー保護のためダークテーマを推奨",
+  "language": "言語",
+  "languageAuto": "自動（システム）",
+  "notifications": "通知",
+  "messages": "メッセージ",
+  "calls": "通話",
+  "vibration": "バイブレーション",
+  "notificationContent": "通知内容",
+  "notificationContentFull": "すべて表示",
+  "notificationContentFullDesc": "連絡先名とメッセージプレビュー",
+  "notificationContentName": "名前のみ",
+  "notificationContentNameDesc": "連絡先名のみ表示",
+  "notificationContentDiscrete": "控えめ",
+  "notificationContentDiscreteDesc": "\"新しいメッセージ\"のみ表示",
+  "security": "セキュリティ",
+  "howHashProtectsYou": "Hash があなたを守る方法",
+  "howHashProtectsYouSubtitle": "セキュリティを理解する",
+  "accountSecurity": "アカウントセキュリティ",
+  "accountSecuritySubtitle": "PIN、生体認証、Vash モード",
+  "blockScreenshots": "スクリーンショットをブロック",
+  "transferDevice": "別のデバイスに移行",
+  "transferDeviceSubtitle": "アカウントを移行",
+  "pinCode": "PIN コード",
+  "changePin": "PIN コードを変更",
+  "currentPin": "現在の PIN コード",
+  "newPin": "新しい PIN コード",
+  "confirmPin": "PIN コードを確認",
+  "pinChanged": "PIN コードが変更されました",
+  "incorrectPin": "PIN が正しくありません",
+  "pinsDoNotMatch": "PIN が一致しません",
+  "autoLock": "自動ロック",
+  "autoLockDelay": "ロック遅延",
+  "autoLockImmediate": "即時",
+  "autoLockMinute": "1分",
+  "autoLockMinutes": "{count}分",
+  "vashCode": "Vash コード",
+  "vashModeTitle": "Vash モード",
+  "vashModeExplanation": "あなたの究極のセーフティネット。",
+  "vashModeDescription": "2つ目の PIN コードを選びます。Hash を開くことを強制された場合、通常の PIN の代わりにこのコードを入力してください。\n\nアプリは通常通り開きますが、すべての会話と連絡先は消えます。\n\n画面を見ている人には、Hash は空に見えます — まるで使ったことがないかのように。",
+  "vashModeIrreversible": "この操作は静かで取り消し不可能です。",
+  "chooseVashCode": "Vash コードを選択",
+  "vashCodeInfo": "アプリを通常通り開くが、空の状態にする2つ目の PIN コード。",
+  "vashCodeInfoDetail": "PIN の代わりにこのコードを入力すると：",
+  "vashDeleteContacts": "連絡先が消えます",
+  "vashDeleteMessages": "会話が消えます",
+  "vashDeleteHistory": "メモが消えます",
+  "vashKeepId": "Hash アイデンティティ（#XXX-XXX-XXX）は変わりません",
+  "vashAppearNormal": "アプリは正常に見えますが空で、新品のようです。この操作は取り消し不可能です。",
+  "setupVashCode": "Vash コードを設定",
+  "modifyVashCode": "Vash コードを変更",
+  "currentVashCode": "現在の Vash コード",
+  "newVashCode": "新しい Vash コード",
+  "confirmVashCode": "Vash コードを確認",
+  "vashCodeConfigured": "Vash コードが設定されました",
+  "vashCodeModified": "Vash コードが変更されました",
+  "vashCodeMustDiffer": "Vash コードは PIN と異なる必要があります",
+  "incorrectVashCode": "Vash コードが正しくありません",
+  "vashWhatToDelete": "Vash モードで何を消しますか？",
+  "vashDeleteContactsOption": "連絡先",
+  "vashDeleteMessagesOption": "メッセージ",
+  "vashDeleteNotesOption": "メモ",
+  "vashActivated": "Vash モードが有効化されました",
+  "vashCreateSubtitle": "メイン PIN とは異なるコードを選択してください",
+  "vashConfirmSubtitle": "Vash コードを確認してください",
+  "vashCodeSection": "Vash モード",
+  "danger": "危険",
+  "panicButton": "パニックボタン",
+  "panicButtonSubtitle": "すべてのデータを削除",
+  "deleteAccount": "アカウントを削除",
+  "deleteAccountSubtitle": "取り消し不可能な操作",
+  "deleteAccountConfirmTitle": "アカウントを削除",
+  "deleteAccountConfirmMessage": "アカウントは完全に削除されます。この操作は取り消し不可能です。\n\n• すべてのチャット\n• すべての連絡先\n• Hash ID\n\n新しいアカウントを作成する必要があります。",
+  "deleteForever": "完全に削除",
+  "cancel": "キャンセル",
+  "panicConfirmTitle": "パニックボタン",
+  "panicConfirmMessage": "この操作はすべてのデータを完全に削除します：\n\n• すべてのメッセージ\n• すべての連絡先\n• アカウント\n\n本当によろしいですか？",
+  "deleteAll": "すべて削除",
+  "dataDeletedForSecurity": "Vash モードが有効化されました。",
+  "deletionError": "削除エラー：{error}",
+  "yourSecurity": "あなたのセキュリティ",
+  "securityInfo": "• エンドツーエンド暗号化（Signal Protocol）\n• 配信後サーバーにデータなし\n• 鍵はデバイスにのみ保存\n• PIN コードはサーバーに送信されません",
+  "version": "Hash v{version}",
+  "welcome": "ようこそ",
+  "securityStatement1": "メッセージは保護されています。",
+  "securityStatement2": "エンドツーエンド暗号化。",
+  "securityStatement3": "痕跡なし。妥協なし。",
+  "securityStatement4": "プライバシーは権利です。",
+  "accessBlocked": "アクセスがブロックされました",
+  "tooManyAttempts": "試行回数が多すぎます。後でもう一度お試しください。",
+  "pleaseWait": "お待ちください",
+  "waitDelay": "遅延が終了するまでお待ちください",
+  "attemptCount": "試行 {current}/{max}",
+  "retryIn": "{time}後に再試行",
+  "forgotPin": "PIN を忘れましたか？リカバリフレーズを使用",
+  "useRecoveryPhrase": "リカバリフレーズを使用",
+  "recoveryWarningTitle": "警告",
+  "recoveryWarningMessage": "アカウントの回復は：",
+  "recoveryDeleteAllMessages": "すべてのメッセージを削除します",
+  "recoveryWaitDelay": "1時間の待機が必要です",
+  "recoveryKeepContacts": "連絡先は保持されます",
+  "recoveryIrreversible": "この操作は取り消し不可能です。メッセージは完全に失われます。",
+  "iUnderstand": "理解しました",
+  "accountRecovery": "アカウントの回復",
+  "enterRecoveryPhrase": "リカバリフレーズの24語をスペースで区切って入力してください。",
+  "recoveryPhraseHint": "単語1 単語2 単語3 ...",
+  "recover": "回復",
+  "recoveryPhraseRequired": "リカバリフレーズを入力してください",
+  "recoveryPhrase24Words": "フレーズは正確に24語である必要があります",
+  "incorrectRecoveryPhrase": "リカバリフレーズが正しくありません",
+  "recoveryInitError": "回復の初期化エラー",
+  "securityDelay": "セキュリティ遅延",
+  "securityDelayMessage": "セキュリティのため、新しい PIN を作成する前に待機期間が必要です。",
+  "timeRemaining": "残り時間",
+  "messagesDeletedForProtection": "保護のためメッセージが削除されました。",
+  "canCloseApp": "アプリを閉じて後で戻ることができます。",
+  "onboardingTitle1": "Hash へようこそ",
+  "onboardingSubtitle1": "痕跡を残さないメッセンジャー",
+  "onboardingTitle2": "完全な暗号化",
+  "onboardingSubtitle2": "メッセージは Signal プロトコルでエンドツーエンド暗号化されます",
+  "onboardingTitle3": "痕跡なし",
+  "onboardingSubtitle3": "メッセージは配信後にサーバーから削除されます",
+  "onboardingTitle4": "あなたのセキュリティ",
+  "onboardingSubtitle4": "PIN コード、Vash モード、リカバリフレーズ",
+  "getStarted": "始める",
+  "next": "次へ",
+  "skip": "スキップ",
+  "alreadyHaveAccount": "アカウントをお持ちです",
+  "transferMyAccount": "アカウントを移行",
+  "createPin": "PIN コードを作成",
+  "createPinSubtitle": "このコードでアプリへのアクセスを保護します",
+  "confirmYourPin": "PIN コードを確認",
+  "confirmPinSubtitle": "PIN コードをもう一度入力してください",
+  "saveRecoveryPhrase": "リカバリフレーズ",
+  "saveRecoveryPhraseSubtitle": "これらの24語を順番に書き留めてください。PIN を忘れた場合にアカウントを回復できます。",
+  "phraseWritten": "フレーズを書き留めました",
+  "warningRecoveryPhrase": "このフレーズを失い、PIN を忘れると、アカウントへのアクセスを失います。",
+  "accountTransferred": "アカウントが移行されました",
+  "accountTransferredMessage": "アカウントは別のデバイスに移行されました。このセッションは無効です。",
+  "accountTransferredInfo": "この移行を開始していない場合、アカウントが侵害された可能性があります。",
+  "logout": "ログアウト",
+  "transferAccount": "アカウント移行",
+  "transferAccountInfo": "Hash アカウントを新しいデバイスに移行します。現在のセッションは無効になります。",
+  "generateTransferCode": "移行コードを生成",
+  "transferCode": "移行コード",
+  "transferCodeExpires": "このコードは{minutes}分で期限切れになります",
+  "enterCodeOnNewDevice": "新しいデバイスでこのコードを入力してアカウントを移行してください。",
+  "generateNewCode": "新しいコードを生成",
+  "scanQrCode": "QR code をスキャン",
+  "scanQrCodeSubtitle": "連絡先の QR code をスキャンして追加",
+  "qrCodeDetected": "QR code が検出されました",
+  "invalidQrCode": "無効な QR code",
+  "cameraPermissionRequired": "カメラの許可が必要です",
+  "myQrCode": "マイ QR code",
+  "myQrCodeSubtitle": "この QR code を共有して連絡先に追加してもらいましょう",
+  "shareQrCode": "共有",
+  "addContactTitle": "連絡先を追加",
+  "addContactByHashId": "連絡先の Hash ID を入力",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "検索",
+  "contactNotFound": "連絡先が見つかりません",
+  "contactAlreadyAdded": "この連絡先はすでにリストにあります",
+  "contactAdded": "連絡先が追加されました",
+  "myProfile": "マイプロフィール",
+  "myProfileSubtitle": "この情報を共有して他の人に追加してもらいましょう",
+  "temporaryCode": "一時コード",
+  "temporaryCodeExpires": "{time}で期限切れ",
+  "codeExpired": "コードの期限切れ",
+  "generateNewCodeButton": "新しいコード",
+  "copyHashId": "ID をコピー",
+  "copyCode": "コードをコピー",
+  "copiedToClipboard": "コピーしました",
+  "showMyQrCode": "マイ QR code を表示",
+  "orDivider": "または",
+  "openScanner": "スキャナーを開く",
+  "addManually": "手動で追加",
+  "contactHashIdLabel": "連絡先の Hash ID",
+  "temporaryCodeLabel": "一時コード",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "連絡先にプロフィールからコードを生成してもらってください",
+  "verifyAndAdd": "確認して追加",
+  "fillAllFields": "すべてのフィールドを入力してください",
+  "invalidHashIdFormat": "無効な ID 形式（例：123-456-ABC）",
+  "userNotFound": "ユーザーが見つかりません",
+  "cannotAddYourself": "自分自身を追加することはできません",
+  "invalidOrExpiredCode": "無効または期限切れの一時コード",
+  "contactFound": "連絡先が見つかりました！",
+  "howToCallContact": "どのように呼びますか？",
+  "contactNameHint": "連絡先名",
+  "addContactButton": "追加",
+  "contactDetails": "連絡先の詳細",
+  "contactName": "連絡先名",
+  "contactHashId": "Hash ID",
+  "addedOn": "{date}に追加",
+  "deleteContact": "連絡先を削除",
+  "deleteContactConfirm": "この連絡先を削除しますか？",
+  "deleteContactMessage": "チャット全体も削除されます。",
+  "delete": "削除",
+  "typeMessage": "メッセージを入力...",
+  "messageSent": "送信済み",
+  "messageDelivered": "配信済み",
+  "messageRead": "既読",
+  "messageFailed": "送信失敗",
+  "now": "今",
+  "minutesAgo": "{count}分",
+  "hoursAgo": "{count}時間",
+  "daysAgo": "{count}日",
+  "today": "今日",
+  "yesterday": "昨日",
+  "dateAtTime": "{date} {time}",
+  "shareMessage": "Hash で一緒にチャットしよう！🔒\n\n本当にプライベートなメッセンジャー：完全な暗号化、サーバーに痕跡なし、必要に応じてパニックモード。\n\nここからアプリをダウンロード 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "エラー",
+  "ok": "OK",
+  "view": "表示",
+  "yes": "はい",
+  "no": "いいえ",
+  "save": "保存",
+  "edit": "編集",
+  "close": "閉じる",
+  "confirm": "確認",
+  "loading": "読み込み中...",
+  "retry": "再試行",
+  "pendingRequests": "保留中のリクエスト",
+  "noPendingRequests": "保留中のリクエストはありません",
+  "pendingRequestsSubtitle": "これらの人があなたを追加したいと思っています",
+  "requestFromUser": "{hashId}からのリクエスト",
+  "requestExpiresIn": "{days}日後に期限切れ",
+  "acceptRequest": "承諾",
+  "rejectRequest": "拒否",
+  "requestAccepted": "リクエストが承諾されました",
+  "requestRejected": "リクエストが拒否されました",
+  "requestSent": "リクエストが送信されました！",
+  "requestSentSubtitle": "リクエストが送信されました。ユーザーが承諾するとチャットできるようになります。",
+  "requestAlreadyPending": "リクエストはすでに保留中です",
+  "requestAlreadySentByOther": "この人はすでにあなたにリクエストを送信しています",
+  "addByHashId": "Hash ID で追加",
+  "addByHashIdSubtitle": "連絡先の Hash ID と一時コードを入力",
+  "enterTemporaryCode": "6桁のコードを入力",
+  "sendRequest": "リクエストを送信",
+  "acceptContactTitle": "連絡先を承諾",
+  "acceptContactSubtitle": "カスタム名を付けることができます",
+  "leaveEmptyForHashId": "Hash ID を使用するには空のままにしてください",
+  "firstName": "名",
+  "lastName": "姓",
+  "notes": "メモ",
+  "notesHint": "この連絡先に関する個人的なメモ",
+  "photoOptional": "写真（任意）",
+  "contactNameOptional": "名前（任意）",
+  "notesOptional": "メモ（任意）",
+  "storedLocally": "デバイスにのみ保存",
+  "encryptedMessageLabel": "暗号化されたメッセージ",
+  "identityMessageHint": "あなたは誰ですか？どのように知り合いですか？",
+  "messageWillBeSentEncrypted": "このメッセージは暗号化されて受信者に送信されます",
+  "sendRequestButton": "リクエストを送信",
+  "requestExpiresIn24h": "リクエストは24時間以内に承諾されないと期限切れになります",
+  "theyAlreadySentYouRequest": "この人はすでにあなたにリクエストを送信しています",
+  "requests": "リクエスト",
+  "receivedRequests": "受信済み",
+  "sentRequests": "送信済み",
+  "noSentRequests": "送信済みリクエストはありません",
+  "cancelRequest": "キャンセル",
+  "deleteRequest": "リクエストを削除",
+  "requestCancelled": "リクエストがキャンセルされました",
+  "sentTo": "{hashId}に送信済み",
+  "expiresIn": "{time}後に期限切れ",
+  "receivedAgo": "{time}前に受信",
+  "messageFromRequester": "リクエスト者からのメッセージ",
+  "copy": "コピー",
+  "messageInfo": "メッセージ情報",
+  "messageDirection": "方向",
+  "messageSentByYou": "あなたが送信",
+  "messageReceived": "受信",
+  "messageSentAt": "送信日時",
+  "messageStatus": "ステータス",
+  "messageReadAt": "既読日時",
+  "messageType": "タイプ",
+  "messageSize": "サイズ",
+  "messageExpiresAt": "期限",
+  "messageEncrypted": "エンドツーエンド暗号化",
+  "messageStatusSending": "送信中...",
+  "messageStatusSent": "送信済み",
+  "messageStatusDelivered": "配信済み",
+  "messageStatusRead": "既読",
+  "messageStatusFailed": "失敗",
+  "serverStatus": "サーバー",
+  "onServer": "配信待ち",
+  "deletedFromServer": "削除済み",
+  "messageTypeText": "テキスト",
+  "messageTypeImage": "画像",
+  "messageTypeVideo": "動画",
+  "messageTypeVoice": "音声",
+  "messageTypeFile": "ファイル",
+  "indefinitely": "無期限",
+  "hoursShort": "時",
+  "minutesShort": "分",
+  "hours": "時間",
+  "minutes": "分",
+  "seconds": "秒",
+  "ephemeralMessages": "一時メッセージ",
+  "ephemeralMessagesDescription": "メッセージはこの時間後に自動的に削除されます",
+  "ephemeralImmediate": "即時（既読後）",
+  "ephemeralImmediateDesc": "既読後すぐに削除",
+  "ephemeralMyPreference": "マイ設定",
+  "ephemeralMyPreferenceDesc": "グローバル設定を使用",
+  "ephemeralDefaultSetting": "メッセージの有効期間",
+  "ephemeralChooseDefault": "推奨",
+  "ephemeral30Seconds": "30秒",
+  "ephemeral5Minutes": "5分",
+  "ephemeral1Hour": "1時間",
+  "ephemeral3Hours": "3時間",
+  "ephemeral6Hours": "6時間",
+  "ephemeral12Hours": "12時間",
+  "ephemeral24Hours": "24時間",
+  "customDuration": "カスタム期間",
+  "muteNotifications": "通知をミュート",
+  "muteDescription": "この連絡先の通知を受け取りません",
+  "mutedUntil": "{time}までミュート",
+  "notMuted": "通知が有効",
+  "unmute": "ミュート解除",
+  "notificationSound": "通知音",
+  "defaultSound": "デフォルト",
+  "chatSettings": "チャット設定",
+  "bubbleColor": "吹き出しの色",
+  "backgroundColor": "背景色",
+  "backgroundImage": "背景画像",
+  "chatBackground": "チャット背景",
+  "customColor": "カスタム",
+  "defaultColor": "デフォルト",
+  "imageSelected": "画像が選択されました",
+  "noImage": "画像なし",
+  "color": "色",
+  "image": "画像",
+  "tapToSelectImage": "タップして画像を選択",
+  "changeImage": "画像を変更",
+  "previewMessageReceived": "こんにちは！",
+  "previewMessageSent": "やあ！",
+  "messageAction": "メッセージ",
+  "callAction": "通話",
+  "videoAction": "ビデオ",
+  "personalNotes": "個人メモ",
+  "addNotes": "メモを追加...",
+  "noNotes": "メモなし",
+  "messageNotifications": "メッセージ通知",
+  "callNotifications": "通話通知",
+  "useGradient": "グラデーションを使用",
+  "gradientStart": "開始色",
+  "gradientEnd": "終了色",
+  "preview": "プレビュー",
+  "reset": "リセット",
+  "securityNumber": "セキュリティ番号",
+  "securityNumberDescription": "セキュリティ番号が{name}のデバイスと一致することを確認してください",
+  "verifyEncryption": "エンドツーエンド暗号化を確認",
+  "tapToCopy": "タップしてコピー",
+  "howToVerify": "確認方法",
+  "verifyStep1": "連絡先と直接会うか電話する",
+  "verifyStep2": "セキュリティ番号を比較するか QR code をスキャンする",
+  "verifyStep3": "一致すればチャットは安全です",
+  "scanToVerify": "スキャンして確認",
+  "reportSpam": "スパムを報告",
+  "reportSpamSubtitle": "この連絡先をスパムとして報告",
+  "reportSpamDescription": "この連絡先を匿名で報告します。あなたの身元は共有されません。よろしいですか？",
+  "report": "報告",
+  "spamReported": "スパムが報告されました",
+  "reportError": "報告の送信に失敗しました。もう一度お試しください。",
+  "reportRateLimited": "本日の報告上限に達しました。",
+  "blockContact": "連絡先をブロック",
+  "blockContactDescription": "この連絡先はメッセージの送信や通話ができなくなります。通知されません。",
+  "unblockContact": "連絡先のブロックを解除",
+  "unblockContactDescription": "この連絡先は再びメッセージの送信や通話ができるようになります。",
+  "contactBlocked": "連絡先がブロックされました",
+  "contactUnblocked": "連絡先のブロックが解除されました",
+  "contactIsBlocked": "この連絡先はブロックされています",
+  "unblock": "ブロック解除",
+  "deleteContactSubtitle": "連絡先とチャットを削除",
+  "confirmWithPin": "PIN で確認",
+  "enterPinToConfirm": "この操作を確認するため PIN を入力してください",
+  "mute1Hour": "1時間",
+  "mute8Hours": "8時間",
+  "mute1Day": "1日",
+  "mute1Week": "1週間",
+  "muteAlways": "常時",
+  "muteExplanation": "この連絡先の通知を受け取りません",
+  "howItWorks": "仕組み",
+  "ephemeralExplanation1": "メッセージは受信後すぐにサーバーから削除されます。",
+  "ephemeralExplanation2": "この設定は、既読後にメッセージがあなたの電話から消えるタイミングを定義します。",
+  "ephemeralExplanation3": "連絡先には自分の電話用の独自の設定があります。",
+  "profilePhoto": "プロフィール写真",
+  "takePhoto": "写真を撮る",
+  "chooseFromGallery": "ギャラリーから選択",
+  "removePhoto": "写真を削除",
+  "viewContactHashId": "連絡先の識別子を表示",
+  "hashIdPartiallyMasked": "あなたのセキュリティと連絡先のプライバシーのため部分的にマスクされています",
+  "addFirstContact": "最初の連絡先を追加",
+  "addFirstContactSubtitle": "QR code を共有するか友達のをスキャン",
+  "directory": "ディレクトリ",
+  "noContacts": "連絡先なし",
+  "noContactsSubtitle": "開始するには連絡先を追加してください",
+  "sendMessageAction": "メッセージを送信",
+  "audioCall": "音声通話",
+  "videoCall": "ビデオ通話",
+  "viewProfile": "プロフィールを表示",
+  "deleteContactDirectory": "連絡先を削除",
+  "scanShort": "スキャン",
+  "addShort": "追加",
+  "deleteContactConfirmName": "{name}を削除してもよろしいですか？",
+  "noNotesTitle": "メモなし",
+  "noNotesSubtitle": "最初のメモを作成",
+  "newNote": "新しいメモ",
+  "editNote": "メモを編集",
+  "deleteNote": "メモを削除",
+  "deleteNoteConfirm": "このメモを削除してもよろしいですか？",
+  "noteTitle": "タイトル",
+  "noteContent": "内容",
+  "addItem": "アイテムを追加",
+  "pinNote": "ピン留め",
+  "unpinNote": "ピン留め解除",
+  "noteColor": "色",
+  "notePassword": "パスワード",
+  "setPassword": "パスワードを設定",
+  "changePassword": "パスワードを変更",
+  "removePassword": "パスワードを削除",
+  "enterPassword": "パスワードを入力",
+  "confirmPassword": "パスワードを確認",
+  "passwordPin": "PIN コード",
+  "passwordText": "テキストパスワード",
+  "protectedNote": "保護されたメモ",
+  "incorrectPassword": "パスワードが正しくありません",
+  "passwordSet": "パスワードが設定されました",
+  "passwordRemoved": "パスワードが削除されました",
+  "notesBiometric": "メモ用 Face ID",
+  "notesBiometricSubtitle": "保護されたメモを開くために生体認証を要求",
+  "textNote": "テキストメモ",
+  "checklistNote": "チェックリスト",
+  "tasksProgress": "{checked}/{total}タスク",
+  "autoSaved": "保存済み",
+  "searchNotes": "メモを検索",
+  "legalConsent": "法的同意",
+  "confirmAge13": "13歳以上であることを確認します",
+  "acceptLegalStart": "",
+  "privacyPolicy": "プライバシーポリシー",
+  "termsOfService": "利用規約",
+  "andThe": "と",
+  "continueButton": "続行",
+  "mustAcceptTerms": "続行するには両方の条件に同意する必要があります",
+  "support": "サポート",
+  "contactSupport": "サポートに連絡",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "不正使用を報告",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "法的情報",
+  "legalEntity": "法人",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "ピン留め",
+  "unpinConversation": "ピン留め解除",
+  "hideConversation": "フィードから削除",
+  "deleteConversation": "会話を削除",
+  "deleteConversationConfirm": "すべてのメッセージの削除を確認するため PIN を入力してください",
+  "noConversations": "まだ会話がありません",
+  "startConversation": "開始",
+  "microphonePermissionRequired": "マイクへのアクセスが必要です",
+  "microphonePermissionExplanation": "Hash は通話にマイクが必要です。",
+  "cameraPermissionExplanation": "Hash はビデオ通話にカメラが必要です。",
+  "openSettings": "設定を開く",
+  "callConnecting": "接続中...",
+  "callRinging": "呼び出し中...",
+  "callReconnecting": "再接続中...",
+  "callReconnectingTimer": "再接続中（{seconds}秒）",
+  "callPaused": "一時停止中",
+  "callPausedSubtitle": "通話はまだ続いています",
+  "callRemoteMicMuted": "連絡先のマイクがミュートされています",
+  "callMiniControlsMute": "ミュート",
+  "callMiniControlsUnmute": "ミュート解除",
+  "callMiniControlsHangUp": "切断",
+  "callMiniControlsReturn": "通話に戻る",
+  "callNetworkPoor": "不安定な接続",
+  "callNetworkLost": "接続が切れました",
+  "callEndedTitle": "通話終了",
+  "deviceData": "デバイスデータ",
+  "deviceDataSubtitle": "ローカルとサーバーのストレージ",
+  "localStorage": "ローカルストレージ",
+  "onThisDevice": "このデバイス上",
+  "encryptedDatabases": "暗号化されたデータベース",
+  "files": "ファイル",
+  "secureKeychain": "セキュアキーチェーン",
+  "cache": "キャッシュ",
+  "contactsDetail": "名前、アバター、Signal 鍵",
+  "messagesDetail": "暗号化された会話",
+  "notesDetail": "個人メモ",
+  "signalSessions": "Signal セッション",
+  "signalSessionsDetail": "暗号化セッション",
+  "pendingContacts": "保留中の連絡先",
+  "pendingContactsDetail": "保留中のリクエスト",
+  "callHistory": "通話",
+  "callHistoryDetail": "通話履歴",
+  "preferences": "設定",
+  "preferencesDetail": "メディアと通話の設定",
+  "avatars": "アバター",
+  "media": "メディア",
+  "fileCount": "{count, plural, =0{ファイルなし} =1{1ファイル} other{{count}ファイル}}",
+  "active": "有効",
+  "notDefined": "未設定",
+  "biometrics": "生体認証",
+  "recoveryPhrase": "リカバリフレーズ",
+  "identity": "アイデンティティ（Hash ID）",
+  "signalKeys": "Signal Protocol 鍵",
+  "authTokens": "認証トークン",
+  "contactNamesCache": "連絡先名キャッシュ",
+  "remoteConfig": "リモート設定",
+  "notificationPrefs": "通知設定",
+  "serverData": "サーバーデータ",
+  "serverDataInfo": "Hash はサーバーに最小限のデータのみ保持し、すべて暗号化または一時的です。",
+  "serverProfile": "プロフィール",
+  "serverProfileDetail": "Hash ID、公開鍵、メールボックストークン",
+  "serverPrekeys": "プリキー",
+  "serverPrekeysDetail": "ワンタイム Signal 鍵（消費済み）",
+  "serverMessages": "転送中のメッセージ",
+  "serverMessagesDetail": "配信後に削除（最大24時間）",
+  "serverMedia": "転送中のメディア",
+  "serverMediaDetail": "ダウンロード後に削除",
+  "serverContactRequests": "連絡先リクエスト",
+  "serverContactRequestsDetail": "24時間後に期限切れ",
+  "serverRateLimits": "レート制限",
+  "serverRateLimitsDetail": "一時的な不正使用防止データ",
+  "privacyReassurance": "Hash はあなたのメッセージを読むことができません。すべてのデータはエンドツーエンド暗号化されています。サーバーデータは自動的に削除されます。",
+  "pinTooSimple": "この PIN は簡単すぎます。より安全なコードを選択してください。",
+  "genericError": "エラーが発生しました。もう一度お試しください。",
+  "accountCreationError": "アカウントを作成できません：{error}",
+  "phraseCopiedToClipboard": "フレーズがクリップボードにコピーされました",
+  "copyPhrase": "フレーズをコピー",
+  "recoveryPhraseSecurityWarning": "このフレーズを安全な場所に書き留めてください。このフレーズなしで PIN を失うと、データへのアクセスを永久に失います。",
+  "noMessages": "メッセージなし",
+  "deleteAllMessagesWithContact": "{name}とのすべてのメッセージを削除しますか？",
+  "confirmation": "確認",
+  "untitled": "無題",
+  "noSessions": "セッションなし",
+  "unknownContact": "不明な連絡先",
+  "unnamed": "名前なし",
+  "noPendingRequestsAlt": "保留中のリクエストはありません",
+  "deleteAllCallHistory": "すべての通話履歴を削除しますか？",
+  "noCalls": "通話なし",
+  "noPreferences": "設定なし",
+  "resetAllMediaPrefs": "すべてのメディア設定をリセットしますか？",
+  "deleteThisAvatar": "このアバターを削除しますか？",
+  "deleteAllAvatars": "すべてのアバターを削除しますか？",
+  "noAvatars": "アバターなし",
+  "deleteThisFile": "このファイルを削除しますか？",
+  "deleteAllMediaFiles": "すべてのメディアを削除しますか？",
+  "noMediaFiles": "メディアなし",
+  "outgoing": "発信",
+  "incoming": "着信",
+  "ephemeralViewDuration": "一時表示：{seconds}秒",
+  "normalView": "通常表示",
+  "callReasonCompleted": "完了",
+  "callReasonMissed": "不在着信",
+  "callReasonDeclined": "拒否",
+  "callReasonFailed": "失敗",
+  "justNow": "今",
+  "timeAgoMinutes": "{count}分前",
+  "timeAgoHours": "{count}時間前",
+  "timeAgoDays": "{count}日前",
+  "messageTypeContact": "連絡先",
+  "messageTypeLocation": "位置情報",
+  "statusQueued": "キュー待ち",
+  "blockedBadge": "ブロック済み",
+  "protectedBadge": "保護済み",
+  "messageCount": "{count}件のメッセージ",
+  "deleteQuestion": "削除しますか？",
+  "transferMyAccountTitle": "アカウントを移行",
+  "loadingError": "読み込みエラー",
+  "transferToNewDevice": "新しいデバイスに移行",
+  "transferInstructions": "新しいデバイスで「アカウントを回復」を選択し、この情報を入力してください：",
+  "yourHashIdLabel": "あなたの Hash ID",
+  "enterYourPinCode": "PIN コードを入力",
+  "pinOwnerConfirmation": "このアカウントの所有者であることを確認するため",
+  "scanThisQrCode": "この QR code をスキャン",
+  "withYourNewDevice": "新しいデバイスで",
+  "orEnterTheCode": "またはコードを入力",
+  "transferCodeLabel": "移行コード",
+  "proximityVerification": "近接確認",
+  "bringDevicesCloser": "両方のデバイスを近づけてください",
+  "confirmTransferQuestion": "移行を確認しますか？",
+  "accountWillBeTransferred": "アカウントは新しいデバイスに移行されます。\n\nこのデバイスは完全に切断されます。",
+  "transferComplete": "移行完了",
+  "transferSuccessMessage": "アカウントが正常に移行されました。\n\nこのアプリは閉じられます。",
+  "manualVerification": "手動確認",
+  "codeDisplayedOnBothDevices": "両方のデバイスに表示されたコード：",
+  "doesCodeMatchNewDevice": "このコードは新しいデバイスのものと一致しますか？",
+  "verifiedStatus": "確認済み",
+  "inProgressStatus": "進行中...",
+  "notAvailableStatus": "利用不可",
+  "codeExpiredRestart": "コードの期限が切れました。やり直してください。",
+  "codesDoNotMatchCancelled": "コードが一致しません。移行がキャンセルされました。",
+  "transferToDevice": "宛先：{device}",
+  "copiedExclamation": "コピーしました！",
+  "expiresInTime": "{time}で期限切れ",
+  "biometricNotAvailable": "このデバイスでは生体認証を利用できません",
+  "biometricAuthError": "生体認証中にエラーが発生しました",
+  "authenticateForBiometric": "生体認証を有効にするため認証してください",
+  "biometricAuthFailed": "生体認証に失敗しました",
+  "forceUpdateTitle": "アップデートが必要です",
+  "forceUpdateMessage": "Hash の新しいバージョンが利用可能です。続行するにはアップデートしてください。",
+  "updateButton": "アップデート",
+  "maintenanceInProgress": "メンテナンス中",
+  "tryAgainLater": "後でもう一度お試しください",
+  "information": "情報",
+  "noLoginRecorded": "ログイン記録はありません",
+  "nextUnlocksAppearHere": "次のロック解除がここに表示されます。",
+  "noMaintenancePlanned": "メンテナンスの予定はありません",
+  "everythingWorkingNormally": "すべて正常に動作しています",
+  "locking": "ロック中...",
+  "newMessageNotification": "新しいメッセージ",
+  "secExplainTitle": "Hash があなたを守る方法",
+  "secExplainIntro": "Hash は誰もあなたのメッセージを読めないように設計されています。",
+  "secExplainIntroSub": "私たちでさえも。\nその仕組みを簡単に説明します。",
+  "secJourneyLabel": "旅",
+  "secJourneyTitle": "メッセージの旅",
+  "secJourneySubtitle": "あなたの指から連絡先の画面まで、すべてのステップが保護されています。その道をたどりましょう。",
+  "secStep1Title": "メッセージを書く",
+  "secStep1Desc": "アプリに「こんにちは！」と入力します。この時点で、メッセージは電話のメモリにのみ存在します。何も送信されていません。",
+  "secStep2Title": "Signal Protocol で暗号化",
+  "secStep2Desc": "「送信」を押すと、メッセージは理解不能な文字列に変換されます。メッセージが金庫に閉じ込められ、連絡先だけが鍵を持っているようなものです。",
+  "secStep3Title": "Sealed Sender：見えない封筒",
+  "secStep3Desc": "差出人の住所なしで手紙を送ることを想像してください。それがまさに Hash のすることです。メッセージは匿名のメールボックスに投函されます。サーバーは誰が送ったか知りません。",
+  "secStep4Title": "サーバーには何も見えない",
+  "secStep4Desc": "サーバーは目の見えない郵便配達員のように機能します。「誰かがメールボックス #A7X9 に何かを入れた」ということだけを知っています。誰が送ったか、何であるか、誰宛てかは分かりません。",
+  "secStep4Highlight": "メタデータは保存されません：IP アドレスなし、タイムスタンプなし、送信者と受信者の間のリンクなし。",
+  "secStep5Title": "連絡先がメッセージを受信",
+  "secStep5Desc": "連絡先の電話が匿名メールボックスからコンテンツを取得し、デバイスから離れたことのない秘密鍵でメッセージを復号します。「こんにちは！」が画面に表示されます。",
+  "secStep6Title": "メッセージがサーバーから消える",
+  "secStep6Desc": "連絡先が受信を確認するとすぐに、サーバーはメッセージを完全に削除します。ゴミ箱なし、アーカイブなし、バックアップなし。未読メッセージも24時間後に自動的に破棄されます。",
+  "secStep7Title": "ローカルでの期限切れ",
+  "secStep7Desc": "連絡先の電話では、あなたが選択した期間に従ってメッセージが自己破壊されます：既読後すぐ、5分、1時間...あなたが決めます。",
+  "secJourneyConclusion": "結果：サーバーにゼロの痕跡、デバイスにゼロの痕跡。メッセージは読まれるのに十分な時間だけ存在し、その後消えました。",
+  "secArchLabel": "アーキテクチャ",
+  "secArchTitle": "5層の保護",
+  "secArchSubtitle": "Hash は単一の技術に依存していません。各層が他の層を強化します。1つの層が侵害されても、データは安全です。",
+  "secLayer1Title": "エンドツーエンド暗号化",
+  "secLayer1Desc": "各メッセージは固有の鍵で暗号化されます。簡単に言えば：誰かが1つのメッセージを解読しても、次のメッセージは解読できません。各メッセージに独自のロックがあります。",
+  "secLayer1Detail": "ファイル（写真、動画、ドキュメント）には、Hash は追加の AES-256-GCM 暗号化を使用します。ファイルは電話を離れる前に暗号化されます。",
+  "secLayer2Title": "Sealed Sender（ネットワーク匿名性）",
+  "secLayer2Desc": "通常のメッセンジャーはあなたの身元と一緒にメッセージを送信します。封筒に名前を書くようなものです。Hash は匿名のメールボックスを使用します：サーバーは誰が送ったか知らずにメッセージを配信します。",
+  "secLayer2Detail": "結果：サーバーのデータ侵害が発生しても、誰が誰と話しているかを再構築することは不可能です。",
+  "secLayer3Title": "自動削除",
+  "secLayer3Desc": "メッセージは受信確認後すぐにサーバーから削除されます。取得されなかったメッセージも24時間後に自動的に破棄されます。",
+  "secLayer3Detail": "電話では、選択した期間に従ってメッセージが自己破壊されます：即時、5分、15分、30分、1時間、3時間、6時間、または12時間。",
+  "secLayer4Title": "ローカルアクセス保護",
+  "secLayer4Desc": "アプリは6桁の PIN と/または生体認証（Face ID、指紋）で保護されています。失敗が多すぎると、失敗ごとに増加する遅延でアプリがロックされます。",
+  "secLayer5Title": "ロックされたデータベース",
+  "secLayer5Desc": "サーバー側では、ユーザーがデータベースに直接書き込むことはできません。すべてのアクションは各リクエストを検証する安全な関数を経由します。",
+  "secLayer5Detail": "銀行の窓口のようなものです：金庫に自分で触れることはありません。リクエストを出し、システムが行動する前に権利があるか確認します。",
+  "secVashLabel": "世界で唯一",
+  "secVashTitle": "Vash モード",
+  "secVashSubtitle": "他のメッセージングアプリには存在しない緊急セキュリティシステム。",
+  "secVashScenarioTitle": "この状況を想像してください",
+  "secVashScenario1": "誰かがあなたの電話にアクセスする",
+  "secVashScenario2": "PIN コードを求められる",
+  "secVashScenario3": "すべてのデータを緊急に消去したい",
+  "secVashSolutionTitle": "解決策：2つの PIN コード",
+  "secVashSolutionDesc": "Hash で2つの異なる PIN コードを設定します：",
+  "secVashNormalCodeLabel": "通常コード",
+  "secVashNormalCodeDesc": "すべてのデータと共にアプリを通常通り開きます",
+  "secVashCodeLabel2": "Vash コード",
+  "secVashCodeDescription": "アプリを通常通り開きます...しかしすべてのデータがバックグラウンドで静かに削除されます",
+  "secVashWhatHappensTitle": "次に何が起こるか",
+  "secVashWhatHappensDesc": "アプリは通常通り開きます。アラートなし、怪しいアニメーションなし。画面は単にインストールしたばかりのような空のアプリを表示します。\n\n実際には、すべての会話、連絡先、メッセージが一瞬で不可逆的に削除されています。",
+  "secCallsLabel": "通話とファイル",
+  "secCallsTitle": "すべてが暗号化",
+  "secCallsSubtitle": "メッセージだけではありません。Hash を通過するすべてのものがエンドツーエンド暗号化されています。",
+  "secAudioCallTitle": "音声通話",
+  "secAudioCallDesc": "WebRTC 経由でエンドツーエンド暗号化。音声はデバイス間で直接送信されます。",
+  "secVideoCallTitle": "ビデオ通話",
+  "secVideoCallDesc": "同じ技術、各ストリームが個別に暗号化。",
+  "secPhotosTitle": "写真と動画",
+  "secPhotosDesc": "電話を離れる前に AES-256-GCM で暗号化。",
+  "secDocsTitle": "ドキュメント",
+  "secDocsDesc": "PDF、ZIP、あらゆるファイル。名前、サイズ、内容が暗号化。",
+  "secAnonLabel": "匿名性",
+  "secAnonTitle": "身元確認不要",
+  "secAnonSubtitle": "Hash は電話番号やメールアドレスを要求しません。固有の匿名 Hash ID で識別されます。",
+  "secHashIdTitle": "あなたの Hash ID",
+  "secHashIdDesc": "これはあなたの固有の識別子です。名前も、番号も、場所も明かしません。実際の身元に結びつけることが不可能な仮名のようなものです。\n\n連絡先を追加するには、Hash ID を共有するか QR code をスキャンします。それだけです。同期されたアドレス帳なし、「知り合いかも」の提案なし。",
+  "secDataLabel": "データ",
+  "secDataTitle": "Hash が知らないこと",
+  "secDataSubtitle": "データを保護する最善の方法は、収集しないことです。",
+  "secNeverCollected": "収集しない情報",
+  "secNeverItem1": "メッセージ内容",
+  "secNeverItem2": "連絡先リスト",
+  "secNeverItem3": "電話番号",
+  "secNeverItem4": "メールアドレス",
+  "secNeverItem5": "IP アドレス",
+  "secNeverItem6": "位置情報",
+  "secNeverItem7": "メタデータ（誰が誰と話しているか）",
+  "secNeverItem8": "通話履歴",
+  "secNeverItem9": "アドレス帳",
+  "secNeverItem10": "広告識別子",
+  "secTempStored": "一時的に保存",
+  "secTempItem1": "匿名 Hash ID（固有識別子）",
+  "secTempItem2": "公開暗号鍵",
+  "secTempItem3": "転送中の暗号化メッセージ（最大24時間）",
+  "secTempNote": "この最小限のデータでさえ、あなたを特定することはできません。Hash ID は個人情報に紐づいていません。",
+  "secFooterTitle": "あなたのプライバシー、あなたの自由",
+  "secFooterDesc": "Hash は最も要求の厳しいプロフェッショナルアプリケーションと同じ暗号化技術を使用しています。メッセージは約束ではなく数学で保護されています。",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "生体認証",
+  "biometricUnlock": "指紋またはFace IDでロック解除",
+  "biometricWarningMessage": "生体認証を有効にすると、Vashコードでアプリに入ることができなくなります。\n\nVashコードは生体認証が失敗した場合のみ使用できます（複数回の失敗後）。\n\n続行してもよろしいですか？",
+  "connectionCount": "接続",
+  "currentSession": "現在",
+  "dataLocalOnly": "このデータはデバイスにのみ保存され、送信されることはありません。",
+  "doYouLikeHash": "Hashは気に入りましたか？",
+  "donationMessage": "Hashは非営利プロジェクトです。あなたのサポートが本当にプライベートなメッセンジャーの構築を助けます。",
+  "enableBiometric": "生体認証を有効にする",
+  "ephemeral1HourDesc": "既読1時間後に削除",
+  "ephemeral24HoursDesc": "既読24時間後に削除",
+  "ephemeral30SecondsDesc": "既読30秒後に削除",
+  "ephemeral5MinutesDesc": "既読5分後に削除",
+  "ephemeral6HoursDesc": "既読6時間後に削除",
+  "feedback": "フィードバック",
+  "historyLabel": "履歴",
+  "hoursAgoLabel": "{hours}時間前",
+  "hoursMinutesAgoLabel": "{hours}時間{minutes}分前",
+  "justNowLabel": "たった今",
+  "later": "後で",
+  "loginInfoText": "PINでのロック解除はすべてローカルに記録されます。過去24時間のみ保持されます。",
+  "maintenanceActiveLabel": "進行中",
+  "maintenancePlannedLabel": "予定",
+  "maintenanceTitle": "メンテナンス",
+  "minutesAgoLabel": "{count}分前",
+  "periodLabel": "期間",
+  "pinCodeForEntry": "アプリ入室用PINコード",
+  "ratingBad": "悪い",
+  "ratingExcellent": "素晴らしい！",
+  "ratingGood": "良い",
+  "ratingOk": "普通",
+  "ratingTerrible": "ひどい",
+  "recentConnections": "最近の接続",
+  "share": "共有",
+  "shareAppSubtitle": "Hashを大切な人と共有",
+  "showCallsInRecents": "最近の通話に表示",
+  "showCallsInRecentsSubtitle": "Hash通話が電話の履歴に表示されます",
+  "todayLabel": "今日",
+  "understood": "理解しました",
+  "yesterdayLabel": "昨日",
+  "yourFeedbackHelps": "フィードバックがアプリの改善に役立ちます"
+}

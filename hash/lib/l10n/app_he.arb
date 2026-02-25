@@ -1,0 +1,1044 @@
+{
+  "@@locale": "he",
+
+  "appName": "Hash",
+  "appTagline": "אפס עקבות. אפס פשרות.",
+
+  "conversations": "צ'אטים",
+  "contacts": "אנשי קשר",
+  "noConversation": "אין צ'אטים",
+  "noConversationSubtitle": "הוסף איש קשר כדי להתחיל לשוחח בצורה מאובטחת",
+  "pendingRequestsCount": "{count, plural, =1{בקשה ממתינה אחת} other{{count} בקשות ממתינות}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{בקשה שנשלחה ממתינה} other{{count} בקשות שנשלחו ממתינות}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "הוסף איש קשר",
+  "shareApp": "שתף אפליקציה",
+  "newMessage": "הודעה חדשה",
+  "newConversation": "שלח הודעה",
+
+  "settings": "הגדרות",
+  "myHashId": "ה-Hash ID שלי",
+  "supportHash": "תמוך ב-Hash",
+  "supportHashSubtitle": "Hash הוא פרויקט ללא מטרות רווח",
+  "donate": "תרום",
+
+  "appearance": "מראה",
+  "theme": "ערכת נושא",
+  "themeAuto": "אוטומטי",
+  "themeAutoSubtitle": "עוקב אחר הגדרות המערכת",
+  "themeDark": "כהה",
+  "themeLight": "בהיר",
+  "themeRecommendation": "ערכת נושא כהה מומלצת לפרטיות טובה יותר",
+  "language": "שפה",
+  "languageAuto": "אוטומטי (מערכת)",
+
+  "notifications": "התראות",
+  "messages": "הודעות",
+  "calls": "שיחות",
+  "vibration": "רטט",
+  "notificationContent": "תוכן ההתראה",
+  "notificationContentFull": "הצג הכל",
+  "notificationContentFullDesc": "שם איש הקשר ותצוגה מקדימה של ההודעה",
+  "notificationContentName": "שם בלבד",
+  "notificationContentNameDesc": "מציג רק את שם איש הקשר",
+  "notificationContentDiscrete": "דיסקרטי",
+  "notificationContentDiscreteDesc": "מציג רק \"הודעה חדשה\"",
+
+  "security": "אבטחה",
+  "howHashProtectsYou": "כיצד Hash מגן עליך",
+  "howHashProtectsYouSubtitle": "הבן את האבטחה שלך",
+  "accountSecurity": "אבטחת חשבון",
+  "accountSecuritySubtitle": "PIN, ביומטריה, מצב Vash",
+  "blockScreenshots": "חסום צילומי מסך",
+  "transferDevice": "העבר למכשיר אחר",
+  "transferDeviceSubtitle": "העבר את החשבון שלך",
+
+  "pinCode": "קוד PIN",
+  "changePin": "שנה קוד PIN",
+  "currentPin": "קוד PIN נוכחי",
+  "newPin": "קוד PIN חדש",
+  "confirmPin": "אשר קוד PIN",
+  "pinChanged": "קוד PIN שונה",
+  "incorrectPin": "PIN שגוי",
+  "pinsDoNotMatch": "קודי ה-PIN אינם תואמים",
+
+  "autoLock": "נעילה אוטומטית",
+  "autoLockDelay": "השהיית נעילה",
+  "autoLockImmediate": "מיידי",
+  "autoLockMinute": "דקה אחת",
+  "autoLockMinutes": "{count} דקות",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "vashCode": "קוד Vash",
+  "vashModeTitle": "מצב Vash",
+  "vashModeExplanation": "רשת הביטחון האולטימטיבית שלך.",
+  "vashModeDescription": "תבחר קוד PIN שני. אם אי פעם תיאלץ לפתוח את Hash, הכנס קוד זה במקום ה-PIN הרגיל שלך.\n\nהאפליקציה תיפתח כרגיל, אבל כל השיחות ואנשי הקשר שלך ייעלמו.\n\nלכל מי שמסתכל על המסך שלך, Hash פשוט נראה ריק — כאילו מעולם לא השתמשת בו.",
+  "vashModeIrreversible": "פעולה זו שקטה ובלתי הפיכה.",
+  "chooseVashCode": "בחר את קוד ה-Vash שלי",
+  "vashCodeInfo": "קוד PIN שני שפותח את האפליקציה כרגיל, אך ריקה.",
+  "vashCodeInfoDetail": "אם תכניס קוד זה במקום ה-PIN:",
+  "vashDeleteContacts": "אנשי הקשר שלך נעלמים",
+  "vashDeleteMessages": "השיחות שלך נעלמות",
+  "vashDeleteHistory": "ההערות שלך נעלמות",
+  "vashKeepId": "זהות ה-Hash שלך (#XXX-XXX-XXX) נשארת זהה",
+  "vashAppearNormal": "האפליקציה נראית רגילה אך ריקה, כמו חדשה. פעולה זו בלתי הפיכה.",
+  "setupVashCode": "הגדר קוד Vash",
+  "modifyVashCode": "שנה קוד Vash",
+  "currentVashCode": "קוד Vash נוכחי",
+  "newVashCode": "קוד Vash חדש",
+  "confirmVashCode": "אשר קוד Vash",
+  "vashCodeConfigured": "קוד Vash הוגדר",
+  "vashCodeModified": "קוד Vash שונה",
+  "vashCodeMustDiffer": "קוד Vash חייב להיות שונה מה-PIN",
+  "incorrectVashCode": "קוד Vash שגוי",
+  "vashWhatToDelete": "מה מצב Vash יעלים?",
+  "vashDeleteContactsOption": "אנשי קשר",
+  "vashDeleteMessagesOption": "הודעות",
+  "vashDeleteNotesOption": "הערות",
+  "vashActivated": "מצב Vash הופעל",
+  "vashCreateSubtitle": "בחר קוד שונה מה-PIN הראשי שלך",
+  "vashConfirmSubtitle": "אשר את קוד ה-Vash שלך",
+  "vashCodeSection": "מצב Vash",
+
+  "pinCodeForEntry": "קוד PIN לכניסה לאפליקציה",
+  "biometric": "ביומטריה",
+  "biometricUnlock": "פתח עם טביעת אצבע או Face ID",
+  "enableBiometric": "הפעל ביומטריה",
+  "biometricWarningMessage": "הפעלת ביומטריה תמנע ממך להשתמש בקוד Vash לכניסה לאפליקציה.\n\nתוכל להשתמש בקוד Vash רק אם הביומטריה נכשלת (לאחר מספר ניסיונות כושלים).\n\nהאם אתה בטוח שברצונך להמשיך?",
+  "understood": "הבנתי",
+
+  "shareAppSubtitle": "שתף את Hash עם הקרובים אליך",
+  "share": "שתף",
+
+  "danger": "סכנה",
+  "panicButton": "כפתור פאניקה",
+  "panicButtonSubtitle": "מחק את כל הנתונים",
+  "deleteAccount": "מחק את החשבון שלי",
+  "deleteAccountSubtitle": "פעולה בלתי הפיכה",
+  "deleteAccountConfirmTitle": "מחק את החשבון שלי",
+  "deleteAccountConfirmMessage": "החשבון שלך יימחק לצמיתות. פעולה זו בלתי הפיכה.\n\n• כל הצ'אטים שלך\n• כל אנשי הקשר שלך\n• ה-Hash ID שלך\n\nתצטרך ליצור חשבון חדש.",
+  "deleteForever": "מחק לצמיתות",
+  "cancel": "ביטול",
+
+  "panicConfirmTitle": "כפתור פאניקה",
+  "panicConfirmMessage": "פעולה זו תמחק לצמיתות את כל הנתונים שלך:\n\n• כל ההודעות שלך\n• כל אנשי הקשר שלך\n• החשבון שלך\n\nהאם אתה בטוח לחלוטין?",
+  "deleteAll": "מחק הכל",
+  "dataDeletedForSecurity": "מצב Vash הופעל.",
+  "deletionError": "שגיאת מחיקה: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "yourSecurity": "האבטחה שלך",
+  "securityInfo": "• הצפנה מקצה לקצה (Signal Protocol)\n• אין נתונים בשרתים שלנו לאחר מסירה\n• מפתחות מאוחסנים רק במכשיר שלך\n• קוד PIN אף פעם לא נשלח לשרת",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "welcome": "ברוך הבא",
+  "securityStatement1": "ההודעות שלך מוגנות.",
+  "securityStatement2": "הצפנה מקצה לקצה.",
+  "securityStatement3": "אפס עקבות. אפס פשרות.",
+  "securityStatement4": "הפרטיות שלך היא זכות.",
+
+  "accessBlocked": "הגישה חסומה",
+  "tooManyAttempts": "יותר מדי ניסיונות",
+  "pleaseWait": "אנא המתן",
+  "waitDelay": "אנא המתן עד לסיום ההשהיה",
+  "attemptCount": "ניסיון {current} מתוך {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "נסה שוב בעוד {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "שכחת PIN? השתמש בביטוי שחזור",
+  "useRecoveryPhrase": "השתמש בביטוי שחזור",
+
+  "recoveryWarningTitle": "אזהרה",
+  "recoveryWarningMessage": "שחזור חשבון:",
+  "recoveryDeleteAllMessages": "ימחק את כל ההודעות שלך",
+  "recoveryWaitDelay": "ידרוש השהיה של שעה",
+  "recoveryKeepContacts": "ישמור על אנשי הקשר שלך",
+  "recoveryIrreversible": "פעולה זו בלתי הפיכה. ההודעות שלך יאבדו לצמיתות.",
+  "iUnderstand": "אני מבין",
+
+  "accountRecovery": "שחזור חשבון",
+  "enterRecoveryPhrase": "הכנס את 24 המילים של ביטוי השחזור שלך, מופרדות ברווחים.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "שחזר",
+  "recoveryPhraseRequired": "אנא הכנס את ביטוי השחזור שלך",
+  "recoveryPhrase24Words": "הביטוי חייב להכיל בדיוק 24 מילים",
+  "incorrectRecoveryPhrase": "ביטוי שחזור שגוי",
+  "recoveryInitError": "שגיאה באתחול השחזור",
+
+  "securityDelay": "השהיית אבטחה",
+  "securityDelayMessage": "לביטחונך, נדרשת תקופת המתנה לפני שתוכל ליצור PIN חדש.",
+  "timeRemaining": "זמן שנותר",
+  "messagesDeletedForProtection": "ההודעות שלך נמחקו להגנתך.",
+  "canCloseApp": "תוכל לסגור את האפליקציה ולחזור מאוחר יותר.",
+
+  "onboardingTitle1": "ברוך הבא ל-Hash",
+  "onboardingSubtitle1": "המסנג'ר שלא משאיר עקבות",
+  "onboardingTitle2": "הצפנה מלאה",
+  "onboardingSubtitle2": "ההודעות שלך מוצפנות מקצה לקצה עם פרוטוקול Signal",
+  "onboardingTitle3": "אפס עקבות",
+  "onboardingSubtitle3": "הודעות נמחקות מהשרתים עם המסירה",
+  "onboardingTitle4": "האבטחה שלך",
+  "onboardingSubtitle4": "קוד PIN, מצב Vash וביטוי שחזור",
+
+  "getStarted": "התחל",
+  "next": "הבא",
+  "skip": "דלג",
+  "alreadyHaveAccount": "כבר יש לי חשבון",
+  "transferMyAccount": "העבר את החשבון שלי",
+
+  "createPin": "צור קוד PIN",
+  "createPinSubtitle": "קוד זה יגן על הגישה לאפליקציה שלך",
+  "confirmYourPin": "אשר את קוד ה-PIN שלך",
+  "confirmPinSubtitle": "הכנס שוב את קוד ה-PIN שלך",
+
+  "saveRecoveryPhrase": "ביטוי שחזור",
+  "saveRecoveryPhraseSubtitle": "רשום את 24 המילים האלה לפי הסדר. הן יאפשרו לך לשחזר את החשבון אם תשכח את ה-PIN.",
+  "phraseWritten": "רשמתי את הביטוי שלי",
+  "warningRecoveryPhrase": "אם תאבד ביטוי זה ותשכח את ה-PIN, תאבד גישה לחשבון שלך.",
+
+  "accountTransferred": "החשבון הועבר",
+  "accountTransferredMessage": "החשבון שלך הועבר למכשיר אחר. הפעלה זו אינה תקפה יותר.",
+  "accountTransferredInfo": "אם לא יזמת העברה זו, ייתכן שהחשבון שלך נפרץ.",
+  "logout": "התנתק",
+
+  "transferAccount": "העבר חשבון",
+  "transferAccountInfo": "העבר את חשבון ה-Hash שלך למכשיר חדש. ההפעלה הנוכחית שלך תבוטל.",
+  "generateTransferCode": "צור קוד העברה",
+  "transferCode": "קוד העברה",
+  "transferCodeExpires": "קוד זה יפוג בעוד {minutes} דקות",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "הכנס קוד זה במכשיר החדש שלך כדי להעביר את חשבונך.",
+  "generateNewCode": "צור קוד חדש",
+
+  "scanQrCode": "סרוק קוד QR",
+  "scanQrCodeSubtitle": "סרוק את קוד ה-QR של איש קשר כדי להוסיף אותו",
+  "qrCodeDetected": "קוד QR זוהה",
+  "invalidQrCode": "קוד QR לא תקין",
+  "cameraPermissionRequired": "נדרשת הרשאת מצלמה",
+
+  "myQrCode": "קוד ה-QR שלי",
+  "myQrCodeSubtitle": "שתף קוד QR זה כדי שאנשי הקשר שלך יוכלו להוסיף אותך",
+  "shareQrCode": "שתף",
+
+  "addContactTitle": "הוסף איש קשר",
+  "addContactByHashId": "הכנס את ה-Hash ID של איש הקשר שלך",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "חפש",
+  "contactNotFound": "איש קשר לא נמצא",
+  "contactAlreadyAdded": "איש קשר זה כבר ברשימה שלך",
+  "contactAdded": "איש קשר נוסף",
+
+  "myProfile": "הפרופיל שלי",
+  "myProfileSubtitle": "שתף מידע זה כדי שאחרים יוכלו להוסיף אותך",
+  "temporaryCode": "קוד זמני",
+  "temporaryCodeExpires": "יפוג בעוד {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "הקוד פג",
+  "generateNewCodeButton": "קוד חדש",
+  "copyHashId": "העתק ID",
+  "copyCode": "העתק קוד",
+  "copiedToClipboard": "הועתק",
+  "showMyQrCode": "הצג את קוד ה-QR שלי",
+  "orDivider": "או",
+  "openScanner": "פתח סורק",
+  "addManually": "הוסף ידנית",
+  "contactHashIdLabel": "Hash ID של איש הקשר",
+  "temporaryCodeLabel": "קוד זמני",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "בקש מאיש הקשר שלך ליצור קוד מהפרופיל שלו",
+  "verifyAndAdd": "אמת והוסף",
+  "fillAllFields": "אנא מלא את כל השדות",
+  "invalidHashIdFormat": "פורמט ID לא תקין (דוגמה: 123-456-ABC)",
+  "userNotFound": "משתמש לא נמצא",
+  "cannotAddYourself": "אינך יכול להוסיף את עצמך",
+  "invalidOrExpiredCode": "קוד זמני לא תקין או שפג תוקפו",
+  "tooManyAttempts": "יותר מדי ניסיונות. נסה שוב מאוחר יותר.",
+  "contactFound": "איש קשר נמצא!",
+  "howToCallContact": "איך תרצה לקרוא להם?",
+  "contactNameHint": "שם איש קשר",
+  "addContactButton": "הוסף",
+
+  "contactDetails": "פרטי איש קשר",
+  "contactName": "שם איש קשר",
+  "contactHashId": "Hash ID",
+  "addedOn": "נוסף ב-{date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "מחק איש קשר",
+  "deleteContactConfirm": "למחוק את איש הקשר?",
+  "deleteContactMessage": "פעולה זו תמחק גם את כל הצ'אט.",
+  "delete": "מחק",
+
+  "typeMessage": "כתוב הודעה...",
+  "messageSent": "נשלח",
+  "messageDelivered": "נמסר",
+  "messageRead": "נקרא",
+  "messageFailed": "השליחה נכשלה",
+
+  "now": "עכשיו",
+  "minutesAgo": "{count}ד'",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}ש'",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}י'",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "היום",
+  "yesterday": "אתמול",
+  "dateAtTime": "{date} ב-{time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "הצטרף אליי ב-Hash! 🔒\n\nזהו מסנג'ר פרטי באמת: הצפנה מלאה, אפס עקבות על השרתים, ומצב פאניקה בעת הצורך.\n\nהורד את האפליקציה כאן 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "שגיאה",
+  "ok": "אישור",
+  "view": "הצג",
+  "yes": "כן",
+  "no": "לא",
+  "save": "שמור",
+  "edit": "ערוך",
+  "close": "סגור",
+  "confirm": "אשר",
+  "loading": "טוען...",
+  "retry": "נסה שוב",
+
+  "pendingRequests": "בקשות ממתינות",
+  "noPendingRequests": "אין בקשות ממתינות",
+  "pendingRequestsSubtitle": "אנשים אלה רוצים להוסיף אותך",
+  "requestFromUser": "בקשה מ-{hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "יפוג בעוד {days} ימים",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "אשר",
+  "rejectRequest": "דחה",
+  "requestAccepted": "הבקשה אושרה",
+  "requestRejected": "הבקשה נדחתה",
+  "requestSent": "הבקשה נשלחה!",
+  "requestSentSubtitle": "הבקשה שלך נשלחה. המשתמש צריך לאשר אותה לפני שתוכלו לשוחח.",
+  "requestAlreadyPending": "בקשה כבר ממתינה",
+  "requestAlreadySentByOther": "אדם זה כבר שלח לך בקשה",
+  "addByHashId": "הוסף לפי Hash ID",
+  "addByHashIdSubtitle": "הכנס את ה-Hash ID והקוד הזמני של איש הקשר",
+  "enterTemporaryCode": "הכנס את הקוד בן 6 הספרות",
+  "sendRequest": "שלח בקשה",
+  "acceptContactTitle": "אשר איש קשר",
+  "acceptContactSubtitle": "תוכל לתת להם שם מותאם אישית",
+  "leaveEmptyForHashId": "השאר ריק לשימוש ב-Hash ID",
+  "firstName": "שם פרטי",
+  "lastName": "שם משפחה",
+  "notes": "הערות",
+  "notesHint": "הערות אישיות על איש קשר זה",
+
+  "photoOptional": "תמונה (אופציונלי)",
+  "contactNameOptional": "שם (אופציונלי)",
+  "notesOptional": "הערות (אופציונלי)",
+  "storedLocally": "מאוחסן במכשיר שלך בלבד",
+  "encryptedMessageLabel": "הודעה מוצפנת",
+  "identityMessageHint": "מי אתה? איך אתם מכירים?",
+  "messageWillBeSentEncrypted": "הודעה זו תוצפן ותישלח לנמען",
+  "sendRequestButton": "שלח בקשה",
+  "requestExpiresIn24h": "הבקשה תפוג תוך 24 שעות אם לא תאושר",
+  "theyAlreadySentYouRequest": "אדם זה כבר שלח לך בקשה",
+
+  "requests": "בקשות",
+  "receivedRequests": "התקבלו",
+  "sentRequests": "נשלחו",
+  "noSentRequests": "אין בקשות שנשלחו",
+  "cancelRequest": "ביטול",
+  "deleteRequest": "מחק בקשה",
+  "requestCancelled": "הבקשה בוטלה",
+  "sentTo": "נשלח ל-{hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "יפוג בעוד {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "התקבל לפני {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "הודעה מהמבקש",
+
+  "copy": "העתק",
+  "messageInfo": "פרטי הודעה",
+
+  "messageDirection": "כיוון",
+  "messageSentByYou": "נשלח על ידך",
+  "messageReceived": "התקבל",
+  "messageSentAt": "נשלח ב",
+  "messageStatus": "סטטוס",
+  "messageReadAt": "נקרא ב",
+  "messageType": "סוג",
+  "messageSize": "גודל",
+  "messageExpiresAt": "יפוג ב",
+  "messageEncrypted": "מוצפן מקצה לקצה",
+
+  "messageStatusSending": "שולח...",
+  "messageStatusSent": "נשלח",
+  "messageStatusDelivered": "נמסר",
+  "messageStatusRead": "נקרא",
+  "messageStatusFailed": "נכשל",
+
+  "serverStatus": "שרת",
+  "onServer": "ממתין למסירה",
+  "deletedFromServer": "נמחק",
+
+  "messageTypeText": "טקסט",
+  "messageTypeImage": "תמונה",
+  "messageTypeVideo": "סרטון",
+  "messageTypeVoice": "קול",
+  "messageTypeFile": "קובץ",
+
+  "indefinitely": "ללא הגבלה",
+  "hoursShort": "ש'",
+  "minutesShort": "ד'",
+  "hours": "שעות",
+  "minutes": "דקות",
+  "seconds": "שניות",
+
+  "ephemeralMessages": "הודעות חולפות",
+  "ephemeralMessagesDescription": "הודעות נמחקות אוטומטית אחרי זמן זה",
+  "ephemeralImmediate": "מיידי (אחרי קריאה)",
+  "ephemeralImmediateDesc": "נמחק מיד עם הקריאה",
+  "ephemeralMyPreference": "ההעדפה שלי",
+  "ephemeralMyPreferenceDesc": "השתמש בהגדרה הכללית",
+  "ephemeralDefaultSetting": "משך ההודעה",
+  "ephemeralChooseDefault": "מומלץ",
+  "ephemeral30Seconds": "30 שניות",
+  "ephemeral30SecondsDesc": "נמחק 30 שניות אחרי קריאה",
+  "ephemeral5Minutes": "5 דקות",
+  "ephemeral5MinutesDesc": "נמחק 5 דקות אחרי קריאה",
+  "ephemeral1Hour": "שעה",
+  "ephemeral1HourDesc": "נמחק שעה אחרי קריאה",
+  "ephemeral3Hours": "3 שעות",
+  "ephemeral6Hours": "6 שעות",
+  "ephemeral6HoursDesc": "נמחק 6 שעות אחרי קריאה",
+  "ephemeral12Hours": "12 שעות",
+  "ephemeral24Hours": "24 שעות",
+  "ephemeral24HoursDesc": "נמחק 24 שעות אחרי קריאה",
+  "customDuration": "משך מותאם אישית",
+
+  "muteNotifications": "השתק התראות",
+  "muteDescription": "לא תקבל התראות עבור איש קשר זה",
+  "mutedUntil": "מושתק עד {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "התראות מופעלות",
+  "unmute": "בטל השתקה",
+
+  "notificationSound": "צליל התראה",
+  "defaultSound": "ברירת מחדל",
+
+  "chatSettings": "הגדרות צ'אט",
+  "bubbleColor": "צבע בועה",
+  "backgroundColor": "צבע רקע",
+  "backgroundImage": "תמונת רקע",
+  "chatBackground": "רקע צ'אט",
+  "customColor": "מותאם אישית",
+  "defaultColor": "ברירת מחדל",
+  "imageSelected": "תמונה נבחרה",
+  "noImage": "ללא תמונה",
+  "color": "צבע",
+  "image": "תמונה",
+  "tapToSelectImage": "הקש לבחירת תמונה",
+  "changeImage": "החלף תמונה",
+  "previewMessageReceived": "!שלום",
+  "previewMessageSent": "!מה נשמע",
+
+  "messageAction": "הודעה",
+  "callAction": "שיחה",
+  "videoAction": "וידאו",
+
+  "personalNotes": "הערות אישיות",
+  "addNotes": "הוסף הערות...",
+  "noNotes": "אין הערות",
+
+  "messageNotifications": "התראות הודעות",
+  "callNotifications": "התראות שיחות",
+
+  "useGradient": "השתמש בהדרגה",
+  "gradientStart": "צבע התחלה",
+  "gradientEnd": "צבע סיום",
+  "preview": "תצוגה מקדימה",
+  "reset": "איפוס",
+
+  "securityNumber": "מספר אבטחה",
+  "securityNumberDescription": "ודא שמספר האבטחה תואם למכשיר של {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "אמת הצפנה מקצה לקצה",
+  "tapToCopy": "הקש להעתקה",
+  "howToVerify": "כיצד לאמת",
+  "verifyStep1": "פגוש את איש הקשר שלך באופן אישי או התקשר אליו",
+  "verifyStep2": "השווה את מספרי האבטחה או סרוק קודי QR",
+  "verifyStep3": "אם הם תואמים, הצ'אט שלך מאובטח",
+  "scanToVerify": "סרוק לאימות",
+
+  "reportSpam": "דווח על ספאם",
+  "reportSpamSubtitle": "דווח על איש קשר זה כספאם",
+  "reportSpamDescription": "איש קשר זה ידווח באופן אנונימי. הזהות שלך לא תשותף. האם אתה בטוח?",
+  "report": "דווח",
+  "spamReported": "ספאם דווח",
+  "reportError": "שליחת הדיווח נכשלה. אנא נסה שוב.",
+  "reportRateLimited": "הגעת למספר המקסימלי של דיווחים להיום.",
+
+  "blockContact": "חסום איש קשר",
+  "blockContactDescription": "איש קשר זה לא יוכל עוד לשלוח לך הודעות או להתקשר אליך. הוא לא יקבל הודעה.",
+  "unblockContact": "בטל חסימת איש קשר",
+  "unblockContactDescription": "איש קשר זה יוכל שוב לשלוח לך הודעות ולהתקשר אליך.",
+  "contactBlocked": "איש קשר נחסם",
+  "contactUnblocked": "חסימת איש קשר בוטלה",
+  "contactIsBlocked": "איש קשר זה חסום",
+  "unblock": "בטל חסימה",
+
+  "deleteContactSubtitle": "מחק איש קשר וצ'אט זה",
+  "confirmWithPin": "אשר עם PIN",
+  "enterPinToConfirm": "הכנס את ה-PIN שלך כדי לאשר פעולה זו",
+
+  "mute1Hour": "שעה",
+  "mute8Hours": "8 שעות",
+  "mute1Day": "יום",
+  "mute1Week": "שבוע",
+  "muteAlways": "תמיד",
+  "muteExplanation": "לא תקבל התראות עבור איש קשר זה",
+  "howItWorks": "איך זה עובד",
+  "ephemeralExplanation1": "הודעות נמחקות מהשרת מיד עם קבלתן.",
+  "ephemeralExplanation2": "הגדרה זו קובעת מתי הודעות נעלמות מהטלפון שלך אחרי קריאה.",
+  "ephemeralExplanation3": "לאיש הקשר שלך יש הגדרה משלו לטלפון שלו.",
+
+  "showCallsInRecents": "הצג בשיחות אחרונות",
+  "showCallsInRecentsSubtitle": "שיחות Hash מופיעות בהיסטוריית הטלפון",
+  "feedback": "משוב",
+
+  "profilePhoto": "תמונת פרופיל",
+  "takePhoto": "צלם תמונה",
+  "chooseFromGallery": "בחר מהגלריה",
+  "removePhoto": "הסר תמונה",
+
+  "viewContactHashId": "הצג מזהה איש הקשר",
+  "hashIdPartiallyMasked": "מוסתר חלקית לביטחונך ולפרטיות איש הקשר שלך",
+
+  "addFirstContact": "הוסף את איש הקשר הראשון שלך",
+  "addFirstContactSubtitle": "שתף את קוד ה-QR שלך או סרוק של חבר",
+  "directory": "ספרייה",
+  "noContacts": "אין אנשי קשר",
+  "noContactsSubtitle": "הוסף איש קשר כדי להתחיל",
+  "sendMessageAction": "שלח הודעה",
+  "audioCall": "שיחת קול",
+  "videoCall": "שיחת וידאו",
+  "viewProfile": "הצג פרופיל",
+  "deleteContactDirectory": "מחק איש קשר",
+  "scanShort": "סרוק",
+  "addShort": "הוסף",
+  "deleteContactConfirmName": "האם אתה בטוח שברצונך למחוק את {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "אין הערות",
+  "noNotesSubtitle": "צור את ההערה הראשונה שלך",
+  "newNote": "הערה חדשה",
+  "editNote": "ערוך הערה",
+  "deleteNote": "מחק הערה",
+  "deleteNoteConfirm": "האם אתה בטוח שברצונך למחוק הערה זו?",
+  "noteTitle": "כותרת",
+  "noteContent": "תוכן",
+  "addItem": "הוסף פריט",
+  "pinNote": "הצמד",
+  "unpinNote": "בטל הצמדה",
+  "noteColor": "צבע",
+  "notePassword": "סיסמה",
+  "setPassword": "הגדר סיסמה",
+  "changePassword": "שנה סיסמה",
+  "removePassword": "הסר סיסמה",
+  "enterPassword": "הכנס סיסמה",
+  "confirmPassword": "אשר סיסמה",
+  "passwordPin": "קוד PIN",
+  "passwordText": "סיסמת טקסט",
+  "protectedNote": "הערה מוגנת",
+  "incorrectPassword": "סיסמה שגויה",
+  "passwordSet": "סיסמה הוגדרה",
+  "passwordRemoved": "סיסמה הוסרה",
+  "notesBiometric": "Face ID להערות",
+  "notesBiometricSubtitle": "דרוש אימות ביומטרי לפתיחת הערות מוגנות",
+  "textNote": "הערת טקסט",
+  "checklistNote": "רשימת משימות",
+  "tasksProgress": "{checked}/{total} משימות",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "נשמר",
+  "searchNotes": "חפש הערות",
+  "legalConsent": "הסכמה משפטית",
+  "confirmAge13": "אני מאשר שגילי לפחות 13",
+  "acceptLegalStart": "אני מסכים ל",
+  "privacyPolicy": "מדיניות פרטיות",
+  "termsOfService": "תנאי השימוש",
+  "andThe": " ול",
+  "continueButton": "המשך",
+  "mustAcceptTerms": "עליך לקבל את שני התנאים כדי להמשיך",
+
+  "support": "תמיכה",
+  "contactSupport": "צור קשר עם התמיכה",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "דווח על התעללות",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "משפטי",
+  "legalEntity": "ישות משפטית",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "הצמד",
+  "unpinConversation": "בטל הצמדה",
+  "hideConversation": "הסר מהפיד",
+  "deleteConversation": "מחק שיחה",
+  "deleteConversationConfirm": "הכנס את ה-PIN שלך כדי לאשר מחיקת כל ההודעות",
+  "noConversations": "עדיין אין שיחות",
+  "startConversation": "התחל",
+
+  "microphonePermissionRequired": "נדרשת גישה למיקרופון",
+  "microphonePermissionExplanation": "Hash צריך את המיקרופון כדי לבצע שיחות.",
+  "cameraPermissionExplanation": "Hash צריך את המצלמה לשיחות וידאו.",
+  "openSettings": "פתח הגדרות",
+
+  "callConnecting": "מתחבר...",
+  "callRinging": "מצלצל...",
+  "callReconnecting": "מתחבר מחדש...",
+  "callReconnectingTimer": "מתחבר מחדש ({seconds}ש')",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "מושהה",
+  "callPausedSubtitle": "השיחה עדיין פעילה",
+  "callRemoteMicMuted": "המיקרופון של איש הקשר מושתק",
+  "callMiniControlsMute": "השתק",
+  "callMiniControlsUnmute": "בטל השתקה",
+  "callMiniControlsHangUp": "נתק",
+  "callMiniControlsReturn": "חזור לשיחה",
+  "callNetworkPoor": "חיבור לא יציב",
+  "callNetworkLost": "החיבור אבד",
+  "callEndedTitle": "השיחה הסתיימה",
+
+  "deviceData": "נתוני מכשיר",
+  "deviceDataSubtitle": "אחסון מקומי ושרת",
+  "localStorage": "אחסון מקומי",
+  "onThisDevice": "במכשיר זה",
+  "encryptedDatabases": "מסדי נתונים מוצפנים",
+  "files": "קבצים",
+  "secureKeychain": "מחזיק מפתחות מאובטח",
+  "cache": "מטמון",
+  "contactsDetail": "שמות, אווטארים, מפתחות Signal",
+  "messagesDetail": "שיחות מוצפנות",
+  "notesDetail": "הערות אישיות",
+  "signalSessions": "הפעלות Signal",
+  "signalSessionsDetail": "הפעלות הצפנה",
+  "pendingContacts": "אנשי קשר ממתינים",
+  "pendingContactsDetail": "בקשות ממתינות",
+  "callHistory": "שיחות",
+  "callHistoryDetail": "היסטוריית שיחות",
+  "preferences": "העדפות",
+  "preferencesDetail": "העדפות מדיה ושיחות",
+  "avatars": "אווטארים",
+  "media": "מדיה",
+  "fileCount": "{count, plural, =0{אין קבצים} =1{קובץ אחד} other{{count} קבצים}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "פעיל",
+  "notDefined": "לא מוגדר",
+  "biometrics": "ביומטריה",
+  "recoveryPhrase": "ביטוי שחזור",
+  "identity": "זהות (Hash ID)",
+  "signalKeys": "מפתחות Signal Protocol",
+  "authTokens": "אסימוני אימות",
+  "contactNamesCache": "מטמון שמות אנשי קשר",
+  "remoteConfig": "תצורה מרחוק",
+  "notificationPrefs": "העדפות התראות",
+  "serverData": "נתוני שרת",
+  "serverDataInfo": "Hash שומר מינימום נתונים בשרת, כולם מוצפנים או זמניים.",
+  "serverProfile": "פרופיל",
+  "serverProfileDetail": "Hash ID, מפתחות ציבוריים, אסימון תיבה",
+  "serverPrekeys": "מפתחות מקדימים",
+  "serverPrekeysDetail": "מפתחות Signal חד-פעמיים (נצרכו)",
+  "serverMessages": "הודעות במעבר",
+  "serverMessagesDetail": "נמחקות אחרי מסירה (24 שעות מקס')",
+  "serverMedia": "מדיה במעבר",
+  "serverMediaDetail": "נמחקת אחרי הורדה",
+  "serverContactRequests": "בקשות אנשי קשר",
+  "serverContactRequestsDetail": "פגות אחרי 24 שעות",
+  "serverRateLimits": "הגבלות קצב",
+  "serverRateLimitsDetail": "נתונים זמניים למניעת ניצול",
+  "privacyReassurance": "Hash לא יכול לקרוא את ההודעות שלך. כל הנתונים מוצפנים מקצה לקצה. נתוני השרת נמחקים אוטומטית.",
+
+  "pinTooSimple": "ה-PIN הזה פשוט מדי. בחר קוד מאובטח יותר.",
+  "genericError": "אירעה שגיאה. אנא נסה שוב.",
+  "accountCreationError": "לא ניתן ליצור חשבון: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "הביטוי הועתק ללוח",
+  "copyPhrase": "העתק ביטוי",
+  "recoveryPhraseSecurityWarning": "רשום ביטוי זה במקום בטוח. אם תאבד את ה-PIN בלי ביטוי זה, תאבד לצמיתות גישה לנתונים שלך.",
+
+  "noMessages": "אין הודעות",
+  "deleteAllMessagesWithContact": "למחוק את כל ההודעות עם {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "אישור",
+  "untitled": "ללא כותרת",
+  "noSessions": "אין הפעלות",
+  "unknownContact": "איש קשר לא ידוע",
+  "unnamed": "ללא שם",
+  "noPendingRequestsAlt": "אין בקשות ממתינות",
+  "deleteAllCallHistory": "למחוק את כל היסטוריית השיחות?",
+  "noCalls": "אין שיחות",
+  "noPreferences": "אין העדפות",
+  "resetAllMediaPrefs": "לאפס את כל העדפות המדיה?",
+  "deleteThisAvatar": "למחוק אווטאר זה?",
+  "deleteAllAvatars": "למחוק את כל האווטארים?",
+  "noAvatars": "אין אווטארים",
+  "deleteThisFile": "למחוק קובץ זה?",
+  "deleteAllMediaFiles": "למחוק את כל המדיה?",
+  "noMediaFiles": "אין מדיה",
+  "outgoing": "יוצא",
+  "incoming": "נכנס",
+  "ephemeralViewDuration": "תצוגה חולפת: {seconds}ש'",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "תצוגה רגילה",
+  "callReasonCompleted": "הושלמה",
+  "callReasonMissed": "לא נענתה",
+  "callReasonDeclined": "נדחתה",
+  "callReasonFailed": "נכשלה",
+  "justNow": "עכשיו",
+  "timeAgoMinutes": "לפני {count} דקות",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "לפני {count} שעות",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "לפני {count} ימים",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "איש קשר",
+  "messageTypeLocation": "מיקום",
+  "statusQueued": "בתור",
+  "blockedBadge": "חסום",
+  "protectedBadge": "מוגן",
+  "messageCount": "{count} הודעות",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "למחוק?",
+
+  "transferMyAccountTitle": "העבר את החשבון שלי",
+  "loadingError": "שגיאת טעינה",
+  "transferToNewDevice": "העבר למכשיר חדש",
+  "transferInstructions": "במכשיר החדש שלך, בחר \"שחזר את החשבון שלי\" והכנס מידע זה:",
+  "yourHashIdLabel": "ה-Hash ID שלך",
+  "enterYourPinCode": "הכנס את קוד ה-PIN שלך",
+  "pinOwnerConfirmation": "כדי לאשר שאתה בעל חשבון זה",
+  "scanThisQrCode": "סרוק קוד QR זה",
+  "withYourNewDevice": "עם המכשיר החדש שלך",
+  "orEnterTheCode": "או הכנס את הקוד",
+  "transferCodeLabel": "קוד העברה",
+  "proximityVerification": "אימות קרבה",
+  "bringDevicesCloser": "קרב את שני המכשירים",
+  "confirmTransferQuestion": "לאשר את ההעברה?",
+  "accountWillBeTransferred": "החשבון שלך יועבר למכשיר החדש.\n\nמכשיר זה ינותק לצמיתות.",
+  "transferComplete": "ההעברה הושלמה",
+  "transferSuccessMessage": "החשבון שלך הועבר בהצלחה.\n\nאפליקציה זו תיסגר כעת.",
+  "manualVerification": "אימות ידני",
+  "codeDisplayedOnBothDevices": "קוד המוצג בשני המכשירים:",
+  "doesCodeMatchNewDevice": "האם קוד זה תואם לזה שבמכשיר החדש?",
+  "verifiedStatus": "מאומת",
+  "inProgressStatus": "בתהליך...",
+  "notAvailableStatus": "לא זמין",
+  "codeExpiredRestart": "הקוד פג. אנא התחל מחדש.",
+  "codesDoNotMatchCancelled": "הקודים אינם תואמים. ההעברה בוטלה.",
+  "transferToDevice": "אל: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "הועתק!",
+  "expiresInTime": "יפוג בעוד {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "ביומטריה אינה זמינה במכשיר זה",
+  "biometricAuthError": "שגיאה באימות ביומטרי",
+  "authenticateForBiometric": "אנא אמת כדי להפעיל ביומטריה",
+  "biometricAuthFailed": "אימות ביומטרי נכשל",
+
+  "forceUpdateTitle": "נדרש עדכון",
+  "forceUpdateMessage": "גרסה חדשה של Hash זמינה. אנא עדכן כדי להמשיך.",
+  "updateButton": "עדכן",
+  "maintenanceInProgress": "תחזוקה בתהליך",
+  "tryAgainLater": "אנא נסה שוב מאוחר יותר",
+  "information": "מידע",
+
+  "later": "מאוחר יותר",
+  "doYouLikeHash": "אתה אוהב את Hash?",
+  "yourFeedbackHelps": "המשוב שלך עוזר לנו לשפר את האפליקציה",
+  "ratingTerrible": "נורא",
+  "ratingBad": "רע",
+  "ratingOk": "בסדר",
+  "ratingGood": "טוב",
+  "ratingExcellent": "מצוין!",
+  "donationMessage": "Hash הוא פרויקט ללא מטרות רווח. התמיכה שלך עוזרת לנו להמשיך לבנות מסנג'ר פרטי באמת.",
+
+  "recentConnections": "חיבורים אחרונים",
+  "loginInfoText": "כל פתיחה עם PIN נרשמת מקומית. רק 24 השעות האחרונות נשמרות.",
+  "connectionCount": "חיבורים",
+  "periodLabel": "תקופה",
+  "historyLabel": "היסטוריה",
+  "noLoginRecorded": "לא נרשמה כניסה",
+  "nextUnlocksAppearHere": "פתיחות הבאות יופיעו כאן.",
+  "dataLocalOnly": "נתונים אלה מאוחסנים רק במכשיר שלך ואינם מועברים לעולם.",
+  "currentSession": "נוכחי",
+  "todayLabel": "היום",
+  "yesterdayLabel": "אתמול",
+  "justNowLabel": "עכשיו",
+  "minutesAgoLabel": "לפני {count} דקות",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "לפני {hours} שעות",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "לפני {hours} שעות ו-{minutes} דקות",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "אין תחזוקה מתוכננת",
+  "everythingWorkingNormally": "הכל עובד כרגיל",
+  "maintenanceTitle": "תחזוקה",
+  "maintenanceActiveLabel": "בתהליך",
+  "maintenancePlannedLabel": "מתוכנן",
+
+  "locking": "נועל...",
+
+  "newMessageNotification": "הודעה חדשה",
+
+  "secExplainTitle": "כיצד Hash מגן עליך",
+  "secExplainIntro": "Hash תוכנן כך שאף אחד לא יוכל לקרוא את ההודעות שלך.",
+  "secExplainIntroSub": "אפילו לא אנחנו.\nהנה איך זה עובד, מוסבר בפשטות.",
+  "secJourneyLabel": "המסע",
+  "secJourneyTitle": "המסע של ההודעה שלך",
+  "secJourneySubtitle": "מהאצבע שלך ועד למסך של איש הקשר שלך, כל שלב מוגן. עקוב אחר הנתיב.",
+  "secStep1Title": "אתה כותב את ההודעה שלך",
+  "secStep1Desc": "אתה מקליד \"שלום!\" באפליקציה. ברגע זה, ההודעה קיימת רק בזיכרון הטלפון שלך. שום דבר לא נשלח.",
+  "secStep2Title": "הצפנה עם Signal Protocol",
+  "secStep2Desc": "ברגע שאתה לוחץ \"שלח\", ההודעה שלך מומרת לרצף תווים בלתי מובנים. זה כאילו ההודעה שלך ננעלה בכספת שרק לאיש הקשר שלך יש את המפתח אליה.",
+  "secStep3Title": "Sealed Sender: המעטפה הבלתי נראית",
+  "secStep3Desc": "דמיין שאתה שולח מכתב בדואר, אבל בלי כתובת חוזרת על המעטפה. זה בדיוק מה ש-Hash עושה. ההודעה מופקדת בתיבת דואר אנונימית. השרת לא יודע מי שלח אותה.",
+  "secStep4Title": "השרת לא רואה כלום",
+  "secStep4Desc": "השרת פועל כדוור עיוור. הוא רק יודע \"מישהו הפקיד משהו בתיבה #A7X9\". הוא לא יודע מי שלח, מה זה, או למי זה מיועד.",
+  "secStep4Highlight": "לא נשמרים מטא-נתונים: לא כתובת IP, לא חותמת זמן, לא קשר בין שולח לנמען.",
+  "secStep5Title": "איש הקשר שלך מקבל את ההודעה",
+  "secStep5Desc": "הטלפון של איש הקשר שלך מושך את התוכן מתיבת הדואר האנונימית שלו ומפענח את ההודעה עם המפתח הפרטי שלו, שמעולם לא עזב את מכשירו. \"שלום!\" מופיע על המסך שלו.",
+  "secStep6Title": "ההודעה נעלמת מהשרת",
+  "secStep6Desc": "ברגע שאיש הקשר שלך מאשר קבלה, השרת מוחק לצמיתות את ההודעה. לא פח אשפה, לא ארכיון, לא גיבוי. גם הודעות שלא נקראו נהרסות אוטומטית אחרי 24 שעות.",
+  "secStep7Title": "תפוגה מקומית",
+  "secStep7Desc": "בטלפון של איש הקשר שלך, ההודעה מתרסקת בעצמה בהתאם למשך שבחרת: מיד אחרי קריאה, 5 דקות, שעה... אתה מחליט.",
+  "secJourneyConclusion": "תוצאה: אפס עקבות בשרת, אפס עקבות במכשירים. ההודעה התקיימה רק מספיק זמן כדי להיקרא, ואז נעלמה.",
+  "secArchLabel": "ארכיטקטורה",
+  "secArchTitle": "5 שכבות הגנה",
+  "secArchSubtitle": "Hash לא מסתמך על טכנולוגיה אחת. כל שכבה מחזקת את האחרות. גם אם שכבה אחת נפרצת, הנתונים שלך נשארים בטוחים.",
+  "secLayer1Title": "הצפנה מקצה לקצה",
+  "secLayer1Desc": "כל הודעה מוצפנת במפתח ייחודי. בפשטות: גם אם מישהו מפענח הודעה אחת, הוא לא יוכל לפענח את הבאה. לכל הודעה יש מנעול משלה.",
+  "secLayer1Detail": "עבור קבצים (תמונות, סרטונים, מסמכים), Hash משתמש בהצפנת AES-256-GCM נוספת. הקובץ מוצפן לפני שהוא עוזב את הטלפון שלך.",
+  "secLayer2Title": "Sealed Sender (אנונימיות רשת)",
+  "secLayer2Desc": "מסנג'רים רגילים שולחים את ההודעות שלך עם הזהות שלך מצורפת. זה כמו לכתוב את שמך על המעטפה. Hash משתמש בתיבות דואר אנונימיות: השרת מוסר את ההודעה בלי לדעת מי שלח אותה.",
+  "secLayer2Detail": "תוצאה: גם במקרה של דליפת נתונים מהשרת, בלתי אפשרי לשחזר מי מדבר עם מי.",
+  "secLayer3Title": "מחיקה אוטומטית",
+  "secLayer3Desc": "הודעות נמחקות מהשרת ברגע שהקבלה אושרה. גם אם הודעה מעולם לא נמשכה, היא נהרסת אוטומטית אחרי 24 שעות.",
+  "secLayer3Detail": "בטלפון שלך, הודעות מתרסקות בעצמן בהתאם למשך שתבחר: מיד, 5 דק', 15 דק', 30 דק', שעה, 3 שעות, 6 שעות, או 12 שעות.",
+  "secLayer4Title": "הגנת גישה מקומית",
+  "secLayer4Desc": "האפליקציה מוגנת בקוד PIN בן 6 ספרות ו/או ביומטריה (Face ID, טביעת אצבע). אחרי יותר מדי ניסיונות כושלים, האפליקציה ננעלת עם השהיה שגדלה אחרי כל כישלון.",
+  "secLayer5Title": "מסד נתונים נעול",
+  "secLayer5Desc": "בצד השרת, שום משתמש לא יכול לכתוב ישירות למסד הנתונים. כל הפעולות עוברות דרך פונקציות מאובטחות שמאמתות כל בקשה.",
+  "secLayer5Detail": "זה כמו דלפק בנק: אתה אף פעם לא נוגע בכספת בעצמך. אתה מגיש בקשה, והמערכת בודקת שיש לך הרשאה לפני שהיא פועלת.",
+  "secVashLabel": "ייחודי בעולם",
+  "secVashTitle": "מצב Vash",
+  "secVashSubtitle": "מערכת אבטחת חירום שלא קיימת באף אפליקציית מסרים אחרת.",
+  "secVashScenarioTitle": "דמיין את המצב הזה",
+  "secVashScenario1": "מישהו ניגש לטלפון שלך",
+  "secVashScenario2": "מבקשים ממך את קוד ה-PIN",
+  "secVashScenario3": "אתה רוצה למחוק את כל הנתונים שלך בדחיפות",
+  "secVashSolutionTitle": "הפתרון: שני קודי PIN",
+  "secVashSolutionDesc": "אתה מגדיר שני קודי PIN שונים ב-Hash:",
+  "secVashNormalCodeLabel": "קוד רגיל",
+  "secVashNormalCodeDesc": "פותח את האפליקציה כרגיל עם כל הנתונים שלך",
+  "secVashCodeLabel2": "קוד Vash",
+  "secVashCodeDescription": "פותח את האפליקציה כרגיל... אבל כל הנתונים שלך נמחקים בשקט ברקע",
+  "secVashWhatHappensTitle": "מה קורה אחרי",
+  "secVashWhatHappensDesc": "האפליקציה נפתחת כרגיל. ללא התראה, ללא אנימציה חשודה. המסך פשוט מציג אפליקציה ריקה, כאילו רק התקנת אותה.\n\nבמציאות, כל השיחות, אנשי הקשר וההודעות שלך נמחקו באופן בלתי הפיך בשבריר שנייה.",
+  "secCallsLabel": "שיחות וקבצים",
+  "secCallsTitle": "הכל מוצפן",
+  "secCallsSubtitle": "לא רק הודעות. הכל שעובר דרך Hash מוצפן מקצה לקצה.",
+  "secAudioCallTitle": "שיחות קוליות",
+  "secAudioCallDesc": "מוצפנות מקצה לקצה דרך WebRTC. הקול מועבר ישירות בין המכשירים.",
+  "secVideoCallTitle": "שיחות וידאו",
+  "secVideoCallDesc": "אותה טכנולוגיה, כל זרם מוצפן בנפרד.",
+  "secPhotosTitle": "תמונות וסרטונים",
+  "secPhotosDesc": "מוצפנים ב-AES-256-GCM לפני שהם עוזבים את הטלפון שלך.",
+  "secDocsTitle": "מסמכים",
+  "secDocsDesc": "PDF, ZIP, כל קובץ. שם, גודל ותוכן מוצפנים.",
+  "secAnonLabel": "אנונימיות",
+  "secAnonTitle": "לא נדרש זיהוי",
+  "secAnonSubtitle": "Hash לעולם לא מבקש את מספר הטלפון או האימייל שלך. אתה מזוהה באמצעות Hash ID ייחודי ואנונימי.",
+  "secHashIdTitle": "ה-Hash ID שלך",
+  "secHashIdDesc": "זהו המזהה הייחודי שלך. הוא לא חושף שום דבר עליך: לא השם שלך, לא המספר שלך, לא המיקום שלך. זה כמו כינוי שבלתי אפשרי לקשר לזהות האמיתית שלך.\n\nכדי להוסיף איש קשר, אתה משתף את ה-Hash ID שלך או סורק קוד QR. זהו. לא ספר כתובות מסונכרן, לא הצעות \"אנשים שאתה אולי מכיר\".",
+  "secDataLabel": "נתונים",
+  "secDataTitle": "מה Hash לא יודע",
+  "secDataSubtitle": "הדרך הטובה ביותר להגן על הנתונים שלך היא לא לאסוף אותם.",
+  "secNeverCollected": "אף פעם לא נאסף",
+  "secNeverItem1": "תוכן הודעות",
+  "secNeverItem2": "רשימת אנשי קשר",
+  "secNeverItem3": "מספר טלפון",
+  "secNeverItem4": "כתובת אימייל",
+  "secNeverItem5": "כתובת IP",
+  "secNeverItem6": "מיקום",
+  "secNeverItem7": "מטא-נתונים (מי מדבר עם מי)",
+  "secNeverItem8": "היסטוריית שיחות",
+  "secNeverItem9": "ספר כתובות",
+  "secNeverItem10": "מזהי פרסום",
+  "secTempStored": "מאוחסן זמנית",
+  "secTempItem1": "Hash ID אנונימי (מזהה ייחודי)",
+  "secTempItem2": "מפתחות הצפנה ציבוריים",
+  "secTempItem3": "הודעות מוצפנות במעבר (24 שעות מקס')",
+  "secTempNote": "גם הנתונים המינימליים האלה לא יכולים לזהות אותך. ה-Hash ID שלך אינו מקושר לשום מידע אישי.",
+  "secFooterTitle": "הפרטיות שלך, החופש שלך",
+  "secFooterDesc": "Hash משתמש באותן טכנולוגיות הצפנה כמו האפליקציות המקצועיות המחמירות ביותר. ההודעות שלך מוגנות על ידי מתמטיקה, לא על ידי הבטחות."
+}

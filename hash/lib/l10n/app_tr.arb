@@ -1,0 +1,1038 @@
+{
+  "@@locale": "tr",
+
+  "appName": "Hash",
+  "appTagline": "Sifir Iz. Sifir Taviz.",
+
+  "conversations": "Sohbetler",
+  "contacts": "Kisiler",
+  "noConversation": "Sohbet yok",
+  "noConversationSubtitle": "Guvenli bir sekilde sohbet etmeye baslamak icin bir kisi ekleyin",
+  "pendingRequestsCount": "{count, plural, =1{1 bekleyen istek} other{{count} bekleyen istek}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 gonderilmis istek bekliyor} other{{count} gonderilmis istek bekliyor}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Kisi ekle",
+  "shareApp": "Uygulamayi paylas",
+  "newMessage": "Yeni mesaj",
+  "newConversation": "Mesaj gonder",
+
+  "settings": "Ayarlar",
+  "myHashId": "Hash Kimligim",
+  "supportHash": "Hash'i Destekle",
+  "supportHashSubtitle": "Hash kar amaci gutmeyen bir projedir",
+  "donate": "Bagis yap",
+
+  "appearance": "Gorunum",
+  "theme": "Tema",
+  "themeAuto": "Otomatik",
+  "themeAutoSubtitle": "Sistem ayarlarini takip eder",
+  "themeDark": "Karanlik",
+  "themeLight": "Aydinlik",
+  "themeRecommendation": "Daha iyi gizlilik icin karanlik tema onerilir",
+  "language": "Dil",
+  "languageAuto": "Otomatik (sistem)",
+
+  "notifications": "Bildirimler",
+  "messages": "Mesajlar",
+  "calls": "Aramalar",
+  "vibration": "Titresim",
+  "notificationContent": "Bildirim icerigi",
+  "notificationContentFull": "Tumunu goster",
+  "notificationContentFullDesc": "Kisi adi ve mesaj onizlemesi",
+  "notificationContentName": "Yalnizca ad",
+  "notificationContentNameDesc": "Yalnizca kisi adini gosterir",
+  "notificationContentDiscrete": "Gizli",
+  "notificationContentDiscreteDesc": "Yalnizca \"Yeni mesaj\" gosterir",
+
+  "security": "Guvenlik",
+  "howHashProtectsYou": "Hash seni nasil koruyor",
+  "howHashProtectsYouSubtitle": "Guvenligini anla",
+  "accountSecurity": "Hesap guvenligi",
+  "accountSecuritySubtitle": "PIN, biyometri, Vash Modu",
+  "blockScreenshots": "Ekran goruntularini engelle",
+  "transferDevice": "Baska bir cihaza aktar",
+  "transferDeviceSubtitle": "Hesabinizi tasiyin",
+
+  "pinCode": "PIN kodu",
+  "changePin": "PIN kodunu degistir",
+  "currentPin": "Mevcut PIN kodu",
+  "newPin": "Yeni PIN kodu",
+  "confirmPin": "PIN kodunu onayla",
+  "pinChanged": "PIN kodu degistirildi",
+  "incorrectPin": "Yanlis PIN",
+  "pinsDoNotMatch": "PIN kodlari eslesmiyor",
+
+  "autoLock": "Otomatik kilitleme",
+  "autoLockDelay": "Kilitleme gecikmesi",
+  "autoLockImmediate": "Hemen",
+  "autoLockMinute": "1 dakika",
+  "autoLockMinutes": "{count} dakika",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash kodu",
+  "vashModeTitle": "Vash Modu",
+  "vashModeExplanation": "En son guvenlik aginiz.",
+  "vashModeDescription": "Ikinci bir PIN kodu sececeksiniz. Hash'i acmaya zorlanirseniz, normal PIN'iniz yerine bu kodu girin.\n\nUygulama normal sekilde acilacak, ancak tum sohbetleriniz ve kisileriniz yok olmus olacak.\n\nEkraniniza bakan herhangi biri icin Hash bos gorunur - sanki hic kullanmamissiniz gibi.",
+  "vashModeIrreversible": "Bu islem sessiz ve geri donusuzdur.",
+  "chooseVashCode": "Vash kodumu sec",
+  "vashCodeInfo": "Uygulamayi normal ama bos acan ikinci bir PIN kodu.",
+  "vashCodeInfoDetail": "PIN'iniz yerine bu kodu girerseniz:",
+  "vashDeleteContacts": "Kisileriniz kaybolur",
+  "vashDeleteMessages": "Sohbetleriniz kaybolur",
+  "vashDeleteHistory": "Notlariniz kaybolur",
+  "vashKeepId": "Hash kimliginiz (#XXX-XXX-XXX) ayni kalir",
+  "vashAppearNormal": "Uygulama normal ama bos gorunur, yeni gibi. Bu islem geri donusuzdur.",
+  "setupVashCode": "Vash kodunu ayarla",
+  "modifyVashCode": "Vash kodunu degistir",
+  "currentVashCode": "Mevcut Vash kodu",
+  "newVashCode": "Yeni Vash kodu",
+  "confirmVashCode": "Vash kodunu onayla",
+  "vashCodeConfigured": "Vash kodu yapilandirildi",
+  "vashCodeModified": "Vash kodu degistirildi",
+  "vashCodeMustDiffer": "Vash kodu PIN'den farkli olmalidir",
+  "incorrectVashCode": "Yanlis Vash kodu",
+  "vashWhatToDelete": "Vash Modu neyi yok etsin?",
+  "vashDeleteContactsOption": "Kisiler",
+  "vashDeleteMessagesOption": "Mesajlar",
+  "vashDeleteNotesOption": "Notlar",
+  "vashActivated": "Vash Modu etkinlestirildi",
+  "vashCreateSubtitle": "Ana PIN'inizden farkli bir kod secin",
+  "vashConfirmSubtitle": "Vash kodunuzu onaylayin",
+  "vashCodeSection": "Vash Modu",
+
+  "pinCodeForEntry": "Uygulamaya giris PIN kodu",
+  "biometric": "Biyometri",
+  "biometricUnlock": "Parmak izi veya Face ID ile kilidi ac",
+  "enableBiometric": "Biyometriyi etkinlestir",
+  "biometricWarningMessage": "Biyometriyi etkinlestirdiginizde, uygulamaya girmek icin Vash kodunuzu kullanamazsiniz.\n\nVash kodunu yalnizca biyometri basarisiz olursa (birden fazla basarisiz denemeden sonra) kullanabilirsiniz.\n\nDevam etmek istediginizden emin misiniz?",
+  "understood": "Anladim",
+
+  "shareAppSubtitle": "Hash'i yakinlarinizla paylasin",
+  "share": "Paylas",
+
+  "danger": "Tehlike",
+  "panicButton": "Panik butonu",
+  "panicButtonSubtitle": "Tum verileri sil",
+  "deleteAccount": "Hesabimi sil",
+  "deleteAccountSubtitle": "Geri donulemez islem",
+  "deleteAccountConfirmTitle": "Hesabimi sil",
+  "deleteAccountConfirmMessage": "Hesabiniz kalici olarak silinecektir. Bu islem geri donusuzdur.\n\n- Tum sohbetleriniz\n- Tum kisileriniz\n- Hash Kimliginiz\n\nYeni bir hesap olusturmaniz gerekecektir.",
+  "deleteForever": "Kalici olarak sil",
+  "cancel": "Iptal",
+
+  "panicConfirmTitle": "Panik Butonu",
+  "panicConfirmMessage": "Bu islem TUM verilerinizi kalici olarak silecektir:\n\n- Tum mesajlariniz\n- Tum kisileriniz\n- Hesabiniz\n\nKesinlikle emin misiniz?",
+  "deleteAll": "TUMUNU SIL",
+  "dataDeletedForSecurity": "Vash Modu etkinlestirildi.",
+  "deletionError": "Silme hatasi: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Guvenliginiz",
+  "securityInfo": "- Uctan uca sifreleme (Signal Protocol)\n- Teslimattan sonra sunucularimizda veri yok\n- Anahtarlar yalnizca cihazinizda saklanir\n- PIN kodu asla sunucuya gonderilmez",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Hos geldiniz",
+  "securityStatement1": "Mesajlariniz koruma altinda.",
+  "securityStatement2": "Uctan uca sifreleme.",
+  "securityStatement3": "Iz yok. Taviz yok.",
+  "securityStatement4": "Gizliliginiz bir haktir.",
+
+  "accessBlocked": "Erisim engellendi",
+  "tooManyAttempts": "Cok fazla deneme",
+  "pleaseWait": "Lutfen bekleyin",
+  "waitDelay": "Lutfen gecikmenin bitmesini bekleyin",
+  "attemptCount": "Deneme {current} / {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "{time} sonra tekrar deneyin",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "PIN'i mi unuttunuz? Kurtarma ifadesini kullanin",
+  "useRecoveryPhrase": "Kurtarma ifadesini kullan",
+
+  "recoveryWarningTitle": "Uyari",
+  "recoveryWarningMessage": "Hesap kurtarma su islemleri yapacaktir:",
+  "recoveryDeleteAllMessages": "TUM mesajlarinizi silecektir",
+  "recoveryWaitDelay": "1 saatlik bekleme suresi gerektirecektir",
+  "recoveryKeepContacts": "Kisilerinizi koruyacaktir",
+  "recoveryIrreversible": "Bu islem geri donusuzdur. Mesajlariniz kalici olarak kaybolacaktir.",
+  "iUnderstand": "Anliyorum",
+
+  "accountRecovery": "Hesap kurtarma",
+  "enterRecoveryPhrase": "Kurtarma ifadenizin 24 kelimesini boslukla ayirarak girin.",
+  "recoveryPhraseHint": "kelime1 kelime2 kelime3 ...",
+  "recover": "Kurtar",
+  "recoveryPhraseRequired": "Lutfen kurtarma ifadenizi girin",
+  "recoveryPhrase24Words": "Ifade tam olarak 24 kelime icermelidir",
+  "incorrectRecoveryPhrase": "Yanlis kurtarma ifadesi",
+  "recoveryInitError": "Kurtarma baslatma hatasi",
+
+  "securityDelay": "Guvenlik gecikmesi",
+  "securityDelayMessage": "Guvenliginiz icin, yeni bir PIN olusturmadan once bekleme suresi gerekmektedir.",
+  "timeRemaining": "Kalan sure",
+  "messagesDeletedForProtection": "Mesajlariniz korumaniz icin silindi.",
+  "canCloseApp": "Uygulamayi kapatip daha sonra geri donebilirsiniz.",
+
+  "onboardingTitle1": "Hash'e Hos Geldiniz",
+  "onboardingSubtitle1": "Iz birakmayan mesajlasma uygulamasi",
+  "onboardingTitle2": "Tam sifreleme",
+  "onboardingSubtitle2": "Mesajlariniz Signal protokolu ile uctan uca sifrelenir",
+  "onboardingTitle3": "Iz yok",
+  "onboardingSubtitle3": "Mesajlar teslim edildiginde sunuculardan silinir",
+  "onboardingTitle4": "Guvenliginiz",
+  "onboardingSubtitle4": "PIN kodu, Vash Modu ve kurtarma ifadesi",
+
+  "getStarted": "Basla",
+  "next": "Ileri",
+  "skip": "Atla",
+  "alreadyHaveAccount": "Zaten bir hesabim var",
+  "transferMyAccount": "Hesabimi aktar",
+
+  "createPin": "Bir PIN kodu olusturun",
+  "createPinSubtitle": "Bu kod uygulamaniza erisimi koruyacaktir",
+  "confirmYourPin": "PIN kodunuzu onaylayin",
+  "confirmPinSubtitle": "PIN kodunuzu tekrar girin",
+
+  "saveRecoveryPhrase": "Kurtarma ifadesi",
+  "saveRecoveryPhraseSubtitle": "Bu 24 kelimeyi sirasiyla yazin. PIN'inizi unutursaniz hesabinizi kurtarmanizi saglayacaktir.",
+  "phraseWritten": "Ifademi yazdim",
+  "warningRecoveryPhrase": "Bu ifadeyi kaybeder ve PIN'inizi unutursaniz, hesabiniza erisimi kaybedersiniz.",
+
+  "accountTransferred": "Hesap aktarildi",
+  "accountTransferredMessage": "Hesabiniz baska bir cihaza aktarildi. Bu oturum artik gecerli degil.",
+  "accountTransferredInfo": "Bu aktarimi siz baslatmadiyseniz, hesabiniz ele gecirilmis olabilir.",
+  "logout": "Cikis yap",
+
+  "transferAccount": "Hesabi aktar",
+  "transferAccountInfo": "Hash hesabinizi yeni bir cihaza aktarin. Mevcut oturumunuz gecersiz kilinacaktir.",
+  "generateTransferCode": "Aktarim kodu olustur",
+  "transferCode": "Aktarim kodu",
+  "transferCodeExpires": "Bu kodun suresi {minutes} dakika icinde dolacak",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Hesabinizi aktarmak icin bu kodu yeni cihaziniza girin.",
+  "generateNewCode": "Yeni kod olustur",
+
+  "scanQrCode": "QR kodu tara",
+  "scanQrCodeSubtitle": "Eklemek icin bir kisinin QR kodunu tarayin",
+  "qrCodeDetected": "QR kodu algilandi",
+  "invalidQrCode": "Gecersiz QR kodu",
+  "cameraPermissionRequired": "Kamera izni gerekli",
+
+  "myQrCode": "QR Kodum",
+  "myQrCodeSubtitle": "Kisilerinizin sizi ekleyebilmesi icin bu QR kodu paylasin",
+  "shareQrCode": "Paylas",
+
+  "addContactTitle": "Kisi ekle",
+  "addContactByHashId": "Kisinizin Hash Kimligini girin",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Ara",
+  "contactNotFound": "Kisi bulunamadi",
+  "contactAlreadyAdded": "Bu kisi zaten listenizde",
+  "contactAdded": "Kisi eklendi",
+
+  "myProfile": "Profilim",
+  "myProfileSubtitle": "Baskalari sizi ekleyebilsin diye bu bilgileri paylasin",
+  "temporaryCode": "Gecici kod",
+  "temporaryCodeExpires": "{time} icinde sona erer",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Kodun suresi doldu",
+  "generateNewCodeButton": "Yeni kod",
+  "copyHashId": "Kimligi kopyala",
+  "copyCode": "Kodu kopyala",
+  "copiedToClipboard": "Kopyalandi",
+  "showMyQrCode": "QR kodumu goster",
+  "orDivider": "veya",
+  "openScanner": "Tarayiciyi ac",
+  "addManually": "Elle ekle",
+  "contactHashIdLabel": "Kisinin Hash Kimligi",
+  "temporaryCodeLabel": "Gecici kod",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Kisinizden profilinden bir kod olusturmasini isteyin",
+  "verifyAndAdd": "Dogrula ve ekle",
+  "fillAllFields": "Lutfen tum alanlari doldurun",
+  "invalidHashIdFormat": "Gecersiz kimlik formati (orn: 123-456-ABC)",
+  "userNotFound": "Kullanici bulunamadi",
+  "cannotAddYourself": "Kendinizi ekleyemezsiniz",
+  "invalidOrExpiredCode": "Gecersiz veya suresi dolmus gecici kod",
+  "tooManyAttempts": "Cok fazla deneme. Daha sonra tekrar deneyin.",
+  "contactFound": "Kisi bulundu!",
+  "howToCallContact": "Ona ne ad vermek istersiniz?",
+  "contactNameHint": "Kisi adi",
+  "addContactButton": "Ekle",
+
+  "contactDetails": "Kisi detaylari",
+  "contactName": "Kisi adi",
+  "contactHashId": "Hash Kimligi",
+  "addedOn": "{date} tarihinde eklendi",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Kisiyi sil",
+  "deleteContactConfirm": "Bu kisi silinsin mi?",
+  "deleteContactMessage": "Bu islem tum sohbeti de silecektir.",
+  "delete": "Sil",
+
+  "typeMessage": "Bir mesaj yazin...",
+  "messageSent": "Gonderildi",
+  "messageDelivered": "Iletildi",
+  "messageRead": "Okundu",
+  "messageFailed": "Gonderilemedi",
+
+  "now": "Simdi",
+  "minutesAgo": "{count}dk",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}sa",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}g",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Bugun",
+  "yesterday": "Dun",
+  "dateAtTime": "{date} saat {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Hash'te bana katil! 🔒\n\nGercekten ozel bir mesajlasma uygulamasi: tam sifreleme, sunucularda iz yok ve gerekirse panik modu.\n\nUygulamayi buradan indir 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Hata",
+  "ok": "Tamam",
+  "view": "Goruntule",
+  "yes": "Evet",
+  "no": "Hayir",
+  "save": "Kaydet",
+  "edit": "Duzenle",
+  "close": "Kapat",
+  "confirm": "Onayla",
+  "loading": "Yukleniyor...",
+  "retry": "Tekrar dene",
+
+  "pendingRequests": "Bekleyen istekler",
+  "noPendingRequests": "Bekleyen istek yok",
+  "pendingRequestsSubtitle": "Bu kisiler sizi eklemek istiyor",
+  "requestFromUser": "{hashId} tarafindan istek",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "{days} gun icinde sona erer",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Kabul et",
+  "rejectRequest": "Reddet",
+  "requestAccepted": "Istek kabul edildi",
+  "requestRejected": "Istek reddedildi",
+  "requestSent": "Istek gonderildi!",
+  "requestSentSubtitle": "Isteginiz gonderildi. Sohbet edebilmeniz icin kullanicinin kabul etmesi gerekiyor.",
+  "requestAlreadyPending": "Bir istek zaten beklemede",
+  "requestAlreadySentByOther": "Bu kisi size zaten bir istek gonderdi",
+  "addByHashId": "Hash Kimligi ile ekle",
+  "addByHashIdSubtitle": "Kisinin Hash Kimligini ve gecici kodunu girin",
+  "enterTemporaryCode": "6 haneli kodu girin",
+  "sendRequest": "Istek gonder",
+  "acceptContactTitle": "Kisiyi kabul et",
+  "acceptContactSubtitle": "Ona ozel bir ad verebilirsiniz",
+  "leaveEmptyForHashId": "Hash Kimligini kullanmak icin bos birakin",
+  "firstName": "Ad",
+  "lastName": "Soyad",
+  "notes": "Notlar",
+  "notesHint": "Bu kisi hakkinda kisisel notlar",
+
+  "photoOptional": "Fotograf (istege bagli)",
+  "contactNameOptional": "Ad (istege bagli)",
+  "notesOptional": "Notlar (istege bagli)",
+  "storedLocally": "Yalnizca cihazinizda saklanir",
+  "encryptedMessageLabel": "Sifreli mesaj",
+  "identityMessageHint": "Kimsiniz? Birbirinizi nasil taniyorsunuz?",
+  "messageWillBeSentEncrypted": "Bu mesaj sifrelenerek aliciya gonderilecektir",
+  "sendRequestButton": "Istek gonder",
+  "requestExpiresIn24h": "Kabul edilmezse istek 24 saat icinde sona erer",
+  "theyAlreadySentYouRequest": "Bu kisi size zaten bir istek gonderdi",
+
+  "requests": "Istekler",
+  "receivedRequests": "Alinan",
+  "sentRequests": "Gonderilen",
+  "noSentRequests": "Gonderilen istek yok",
+  "cancelRequest": "Iptal",
+  "deleteRequest": "Istegi sil",
+  "requestCancelled": "Istek iptal edildi",
+  "sentTo": "{hashId} adresine gonderildi",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "{time} icinde sona erer",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "{time} once alindi",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Istek sahibinden mesaj",
+
+  "copy": "Kopyala",
+  "messageInfo": "Mesaj bilgisi",
+
+  "messageDirection": "Yon",
+  "messageSentByYou": "Sizin tarafinizdan gonderildi",
+  "messageReceived": "Alindi",
+  "messageSentAt": "Gonderilme zamani",
+  "messageStatus": "Durum",
+  "messageReadAt": "Okunma zamani",
+  "messageType": "Tur",
+  "messageSize": "Boyut",
+  "messageExpiresAt": "Sona erme zamani",
+  "messageEncrypted": "Uctan uca sifreli",
+
+  "messageStatusSending": "Gonderiliyor...",
+  "messageStatusSent": "Gonderildi",
+  "messageStatusDelivered": "Iletildi",
+  "messageStatusRead": "Okundu",
+  "messageStatusFailed": "Basarisiz",
+
+  "serverStatus": "Sunucu",
+  "onServer": "Teslim bekliyor",
+  "deletedFromServer": "Silindi",
+
+  "messageTypeText": "Metin",
+  "messageTypeImage": "Gorsel",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Ses",
+  "messageTypeFile": "Dosya",
+
+  "indefinitely": "Suresiz",
+  "hoursShort": "sa",
+  "minutesShort": "dk",
+  "hours": "saat",
+  "minutes": "dakika",
+  "seconds": "saniye",
+
+  "ephemeralMessages": "Gecici mesajlar",
+  "ephemeralMessagesDescription": "Mesajlar bu sureden sonra otomatik olarak silinir",
+  "ephemeralImmediate": "Aninda (okuduktan sonra)",
+  "ephemeralImmediateDesc": "Okunur okunmaz silinir",
+  "ephemeralMyPreference": "Benim tercihim",
+  "ephemeralMyPreferenceDesc": "Genel ayari kullan",
+  "ephemeralDefaultSetting": "Mesaj suresi",
+  "ephemeralChooseDefault": "Onerilen",
+  "ephemeral30Seconds": "30 saniye",
+  "ephemeral30SecondsDesc": "Okuduktan 30 saniye sonra silinir",
+  "ephemeral5Minutes": "5 dakika",
+  "ephemeral5MinutesDesc": "Okuduktan 5 dakika sonra silinir",
+  "ephemeral1Hour": "1 saat",
+  "ephemeral1HourDesc": "Okuduktan 1 saat sonra silinir",
+  "ephemeral3Hours": "3 saat",
+  "ephemeral6Hours": "6 saat",
+  "ephemeral6HoursDesc": "Okuduktan 6 saat sonra silinir",
+  "ephemeral12Hours": "12 saat",
+  "ephemeral24Hours": "24 saat",
+  "ephemeral24HoursDesc": "Okuduktan 24 saat sonra silinir",
+  "customDuration": "Ozel sure",
+
+  "muteNotifications": "Bildirimleri sustur",
+  "muteDescription": "Bu kisi icin bildirim almayacaksiniz",
+  "mutedUntil": "{time} tarihine kadar sessiz",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Bildirimler etkin",
+  "unmute": "Sesi ac",
+
+  "notificationSound": "Bildirim sesi",
+  "defaultSound": "Varsayilan",
+
+  "chatSettings": "Sohbet ayarlari",
+  "bubbleColor": "Balon rengi",
+  "backgroundColor": "Arka plan rengi",
+  "backgroundImage": "Arka plan gorseli",
+  "chatBackground": "Sohbet arka plani",
+  "customColor": "Ozel",
+  "defaultColor": "Varsayilan",
+  "imageSelected": "Gorsel secildi",
+  "noImage": "Gorsel yok",
+  "color": "Renk",
+  "image": "Gorsel",
+  "tapToSelectImage": "Gorsel secmek icin dokunun",
+  "changeImage": "Gorseli degistir",
+  "previewMessageReceived": "Merhaba!",
+  "previewMessageSent": "Selam!",
+
+  "messageAction": "Mesaj",
+  "callAction": "Ara",
+  "videoAction": "Goruntulu",
+
+  "personalNotes": "Kisisel notlar",
+  "addNotes": "Not ekle...",
+  "noNotes": "Not yok",
+
+  "messageNotifications": "Mesaj bildirimleri",
+  "callNotifications": "Arama bildirimleri",
+
+  "useGradient": "Degrade kullan",
+  "gradientStart": "Baslangic rengi",
+  "gradientEnd": "Bitis rengi",
+  "preview": "Onizleme",
+  "reset": "Sifirla",
+
+  "securityNumber": "Guvenlik numarasi",
+  "securityNumberDescription": "Guvenlik numarasinin {name} cihazindakiyle eslestigi dogrulayin",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Uctan uca sifrelemeyi dogrula",
+  "tapToCopy": "Kopyalamak icin dokunun",
+  "howToVerify": "Nasil dogrulanir",
+  "verifyStep1": "Kisinizle yuz yuze gorusun veya arayin",
+  "verifyStep2": "Guvenlik numaralarini karsilastirin veya QR kodlari tarayin",
+  "verifyStep3": "Eslesiyorsa, sohbetiniz guvenlidir",
+  "scanToVerify": "Dogrulamak icin tarayin",
+
+  "reportSpam": "Spam olarak bildir",
+  "reportSpamSubtitle": "Bu kisiyi spam olarak bildir",
+  "reportSpamDescription": "Bu kisi anonim olarak bildirilecektir. Kimliginiz paylasılmayacaktir. Emin misiniz?",
+  "report": "Bildir",
+  "spamReported": "Spam bildirildi",
+  "reportError": "Bildirim gonderilemedi. Lutfen tekrar deneyin.",
+  "reportRateLimited": "Bugun icin maksimum bildirim sayisina ulastiniz.",
+
+  "blockContact": "Kisiyi engelle",
+  "blockContactDescription": "Bu kisi artik size mesaj gonderemez veya sizi arayamaz. Bilgilendirilmeyecektir.",
+  "unblockContact": "Engeli kaldir",
+  "unblockContactDescription": "Bu kisi tekrar size mesaj gonderebilir ve sizi arayabilir.",
+  "contactBlocked": "Kisi engellendi",
+  "contactUnblocked": "Engel kaldirildi",
+  "contactIsBlocked": "Bu kisi engellenmis",
+  "unblock": "Engeli kaldir",
+
+  "deleteContactSubtitle": "Bu kisiyi ve sohbeti sil",
+  "confirmWithPin": "PIN ile onayla",
+  "enterPinToConfirm": "Bu islemi onaylamak icin PIN'inizi girin",
+
+  "mute1Hour": "1 saat",
+  "mute8Hours": "8 saat",
+  "mute1Day": "1 gun",
+  "mute1Week": "1 hafta",
+  "muteAlways": "Her zaman",
+  "muteExplanation": "Bu kisi icin bildirim almayacaksiniz",
+  "howItWorks": "Nasil calisir",
+  "ephemeralExplanation1": "Mesajlar alinir alinmaz sunucudan silinir.",
+  "ephemeralExplanation2": "Bu ayar, mesajlarin okuduktan sonra SIZIN telefonunuzdan ne zaman kaybolacagini belirler.",
+  "ephemeralExplanation3": "Kisinizin kendi telefonu icin kendi ayari vardir.",
+
+  "showCallsInRecents": "Son aramalarda goster",
+  "showCallsInRecentsSubtitle": "Hash aramalari telefonun arama gecmisinde gorunur",
+  "feedback": "Geri bildirim",
+
+  "profilePhoto": "Profil fotografi",
+  "takePhoto": "Fotograf cek",
+  "chooseFromGallery": "Galeriden sec",
+  "removePhoto": "Fotografi kaldir",
+
+  "viewContactHashId": "Kisinin kimligini goruntule",
+  "hashIdPartiallyMasked": "Guvenliginiz ve kisinizin gizliligi icin kismen maskelenmis",
+
+  "addFirstContact": "Ilk kisinizi ekleyin",
+  "addFirstContactSubtitle": "QR kodunuzu paylasin veya bir arkadasinizinkini tarayin",
+  "directory": "Rehber",
+  "noContacts": "Kisi yok",
+  "noContactsSubtitle": "Baslamak icin bir kisi ekleyin",
+  "sendMessageAction": "Mesaj gonder",
+  "audioCall": "Sesli arama",
+  "videoCall": "Goruntulu arama",
+  "viewProfile": "Profili goruntule",
+  "deleteContactDirectory": "Kisiyi sil",
+  "scanShort": "Tara",
+  "addShort": "Ekle",
+  "deleteContactConfirmName": "{name} adli kisiyi silmek istediginizden emin misiniz?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Not yok",
+  "noNotesSubtitle": "Ilk notunuzu olusturun",
+  "newNote": "Yeni not",
+  "editNote": "Notu duzenle",
+  "deleteNote": "Notu sil",
+  "deleteNoteConfirm": "Bu notu silmek istediginizden emin misiniz?",
+  "noteTitle": "Baslik",
+  "noteContent": "Icerik",
+  "addItem": "Oge ekle",
+  "pinNote": "Sabitle",
+  "unpinNote": "Sabitlemeyi kaldir",
+  "noteColor": "Renk",
+  "notePassword": "Sifre",
+  "setPassword": "Sifre belirle",
+  "changePassword": "Sifreyi degistir",
+  "removePassword": "Sifreyi kaldir",
+  "enterPassword": "Sifreyi girin",
+  "confirmPassword": "Sifreyi onaylayin",
+  "passwordPin": "PIN kodu",
+  "passwordText": "Metin sifresi",
+  "protectedNote": "Korumali not",
+  "incorrectPassword": "Yanlis sifre",
+  "passwordSet": "Sifre belirlendi",
+  "passwordRemoved": "Sifre kaldirildi",
+  "notesBiometric": "Notlar icin Face ID",
+  "notesBiometricSubtitle": "Korumali notlari acmak icin biyometrik dogrulama gerektir",
+  "textNote": "Metin notu",
+  "checklistNote": "Kontrol listesi",
+  "tasksProgress": "{checked}/{total} gorev",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Kaydedildi",
+  "searchNotes": "Not ara",
+  "legalConsent": "Yasal onay",
+  "confirmAge13": "En az 13 yasinda oldugumu onayliyorum",
+  "acceptLegalStart": "Kabul ediyorum: ",
+  "privacyPolicy": "Gizlilik Politikasi",
+  "termsOfService": "Kullanim Kosullari",
+  "andThe": " ve ",
+  "continueButton": "Devam",
+  "mustAcceptTerms": "Devam etmek icin her iki kosulu da kabul etmelisiniz",
+
+  "support": "Destek",
+  "contactSupport": "Destekle iletisime gec",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Kotuye kullanimi bildir",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Yasal",
+  "legalEntity": "Tüzel kisilik",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Sabitle",
+  "unpinConversation": "Sabitlemeyi kaldir",
+  "hideConversation": "Akistan kaldir",
+  "deleteConversation": "Sohbeti sil",
+  "deleteConversationConfirm": "Tum mesajlarin silinmesini onaylamak icin PIN'inizi girin",
+  "noConversations": "Henuz sohbet yok",
+  "startConversation": "Basla",
+
+  "microphonePermissionRequired": "Mikrofon erisimi gerekli",
+  "microphonePermissionExplanation": "Hash'in arama yapmak icin mikrofona ihtiyaci var.",
+  "cameraPermissionExplanation": "Hash'in goruntulu aramalar icin kameraya ihtiyaci var.",
+  "openSettings": "Ayarlari ac",
+
+  "callConnecting": "Baglaniyor...",
+  "callRinging": "Caliyor...",
+  "callReconnecting": "Yeniden baglaniyor...",
+  "callReconnectingTimer": "Yeniden baglaniyor ({seconds}sn)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Duraklatıldı",
+  "callPausedSubtitle": "Arama hâlâ devam ediyor",
+  "callRemoteMicMuted": "Kisinin mikrofonu kapali",
+  "callMiniControlsMute": "Sesi kapat",
+  "callMiniControlsUnmute": "Sesi ac",
+  "callMiniControlsHangUp": "Kapat",
+  "callMiniControlsReturn": "Aramaya don",
+  "callNetworkPoor": "Kararsiz baglanti",
+  "callNetworkLost": "Baglanti kesildi",
+  "callEndedTitle": "Arama sona erdi",
+
+  "deviceData": "Cihaz verileri",
+  "deviceDataSubtitle": "Yerel ve sunucu depolama",
+  "localStorage": "Yerel depolama",
+  "onThisDevice": "bu cihazda",
+  "encryptedDatabases": "Sifreli veritabanlari",
+  "files": "Dosyalar",
+  "secureKeychain": "Guvenli anahtar zinciri",
+  "cache": "Onbellek",
+  "contactsDetail": "Adlar, avatarlar, Signal anahtarlari",
+  "messagesDetail": "Sifreli sohbetler",
+  "notesDetail": "Kisisel notlar",
+  "signalSessions": "Signal oturumlari",
+  "signalSessionsDetail": "Sifreleme oturumlari",
+  "pendingContacts": "Bekleyen kisiler",
+  "pendingContactsDetail": "Bekleyen istekler",
+  "callHistory": "Aramalar",
+  "callHistoryDetail": "Arama gecmisi",
+  "preferences": "Tercihler",
+  "preferencesDetail": "Medya ve arama tercihleri",
+  "avatars": "Avatarlar",
+  "media": "Medya",
+  "fileCount": "{count, plural, =0{dosya yok} =1{1 dosya} other{{count} dosya}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Etkin",
+  "notDefined": "Tanimlanmamis",
+  "biometrics": "Biyometri",
+  "recoveryPhrase": "Kurtarma ifadesi",
+  "identity": "Kimlik (Hash ID)",
+  "signalKeys": "Signal Protocol anahtarlari",
+  "authTokens": "Kimlik dogrulama belirtecleri",
+  "contactNamesCache": "Kisi adlari onbellegi",
+  "remoteConfig": "Uzak yapilandirma",
+  "notificationPrefs": "Bildirim tercihleri",
+  "serverData": "Sunucu verileri",
+  "serverDataInfo": "Hash sunucuda minimum veri tutar, hepsi sifreli veya gecicidir.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash Kimligi, genel anahtarlar, posta kutusu belirteci",
+  "serverPrekeys": "On-anahtarlar",
+  "serverPrekeysDetail": "Tek kullanimlik Signal anahtarlari (tuketilmis)",
+  "serverMessages": "Aktarimdaki mesajlar",
+  "serverMessagesDetail": "Teslimattan sonra silinir (maks 24sa)",
+  "serverMedia": "Aktarimdaki medya",
+  "serverMediaDetail": "Indirmeden sonra silinir",
+  "serverContactRequests": "Kisi istekleri",
+  "serverContactRequestsDetail": "24 saat sonra sona erer",
+  "serverRateLimits": "Hiz sinirlari",
+  "serverRateLimitsDetail": "Gecici kotuye kullanim onleme verileri",
+  "privacyReassurance": "Hash mesajlarinizi okuyamaz. Tum veriler uctan uca sifrelenmistir. Sunucu verileri otomatik olarak silinir.",
+
+  "pinTooSimple": "Bu PIN cok basit. Daha guvenli bir kod secin.",
+  "genericError": "Bir hata olustu. Lutfen tekrar deneyin.",
+  "accountCreationError": "Hesap olusturulamadi: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Ifade panoya kopyalandi",
+  "copyPhrase": "Ifadeyi kopyala",
+  "recoveryPhraseSecurityWarning": "Bu ifadeyi guvenli bir yere yazin. PIN'inizi bu ifade olmadan kaybederseniz, verilerinize erisimi kalici olarak kaybedersiniz.",
+
+  "noMessages": "Mesaj yok",
+  "deleteAllMessagesWithContact": "{name} ile tum mesajlar silinsin mi?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Onay",
+  "untitled": "Baslıksiz",
+  "noSessions": "Oturum yok",
+  "unknownContact": "Bilinmeyen kisi",
+  "unnamed": "Isimsiz",
+  "noPendingRequestsAlt": "Bekleyen istek yok",
+  "deleteAllCallHistory": "Tum arama gecmisi silinsin mi?",
+  "noCalls": "Arama yok",
+  "noPreferences": "Tercih yok",
+  "resetAllMediaPrefs": "Tum medya tercihleri sifirlansin mi?",
+  "deleteThisAvatar": "Bu avatar silinsin mi?",
+  "deleteAllAvatars": "Tum avatarlar silinsin mi?",
+  "noAvatars": "Avatar yok",
+  "deleteThisFile": "Bu dosya silinsin mi?",
+  "deleteAllMediaFiles": "Tum medya silinsin mi?",
+  "noMediaFiles": "Medya yok",
+  "outgoing": "Giden",
+  "incoming": "Gelen",
+  "ephemeralViewDuration": "Gecici goruntuleme: {seconds}sn",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normal goruntuleme",
+  "callReasonCompleted": "Tamamlandi",
+  "callReasonMissed": "Cevapsiz",
+  "callReasonDeclined": "Reddedildi",
+  "callReasonFailed": "Basarisiz",
+  "justNow": "Az once",
+  "timeAgoMinutes": "{count} dk once",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}sa once",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}g once",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kisi",
+  "messageTypeLocation": "Konum",
+  "statusQueued": "Sirada",
+  "blockedBadge": "Engellenmis",
+  "protectedBadge": "Korumali",
+  "messageCount": "{count} mesaj",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Silinsin mi?",
+
+  "transferMyAccountTitle": "Hesabimi aktar",
+  "loadingError": "Yukleme hatasi",
+  "transferToNewDevice": "Yeni bir cihaza aktar",
+  "transferInstructions": "Yeni cihazinizda \"Hesabimi kurtar\" secenegini secin ve bu bilgileri girin:",
+  "yourHashIdLabel": "Hash Kimliginiz",
+  "enterYourPinCode": "PIN kodunuzu girin",
+  "pinOwnerConfirmation": "Bu hesabin sahibi oldugunuzu onaylamak icin",
+  "scanThisQrCode": "Bu QR kodu tarayin",
+  "withYourNewDevice": "Yeni cihazinizla",
+  "orEnterTheCode": "veya kodu girin",
+  "transferCodeLabel": "Aktarim kodu",
+  "proximityVerification": "Yakinlik dogrulamasi",
+  "bringDevicesCloser": "Her iki cihazi yaklastirin",
+  "confirmTransferQuestion": "Aktarim onaylansin mi?",
+  "accountWillBeTransferred": "Hesabiniz yeni cihaza aktarilacaktir.\n\nBu cihazin baglantisi kalici olarak kesilecektir.",
+  "transferComplete": "Aktarim tamamlandi",
+  "transferSuccessMessage": "Hesabiniz basariyla aktarildi.\n\nBu uygulama simdi kapanacak.",
+  "manualVerification": "Elle dogrulama",
+  "codeDisplayedOnBothDevices": "Her iki cihazda gorunen kod:",
+  "doesCodeMatchNewDevice": "Bu kod yeni cihazdakiyle eslesiyor mu?",
+  "verifiedStatus": "Dogrulandi",
+  "inProgressStatus": "Devam ediyor...",
+  "notAvailableStatus": "Mevcut degil",
+  "codeExpiredRestart": "Kodun suresi doldu. Lutfen yeniden baslatin.",
+  "codesDoNotMatchCancelled": "Kodlar eslesmiyor. Aktarim iptal edildi.",
+  "transferToDevice": "Hedef: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Kopyalandi!",
+  "expiresInTime": "{time} icinde sona erer",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Bu cihazda biyometri kullanilabilir degil",
+  "biometricAuthError": "Biyometrik dogrulama sirasinda hata olustu",
+  "authenticateForBiometric": "Biyometriyi etkinlestirmek icin lutfen kimliginizi dogrulayin",
+  "biometricAuthFailed": "Biyometrik dogrulama basarisiz oldu",
+
+  "forceUpdateTitle": "Guncelleme gerekli",
+  "forceUpdateMessage": "Hash'in yeni bir surumu mevcut. Devam etmek icin lutfen guncelleyin.",
+  "updateButton": "Guncelle",
+  "maintenanceInProgress": "Bakim devam ediyor",
+  "tryAgainLater": "Lutfen daha sonra tekrar deneyin",
+  "information": "Bilgi",
+
+  "later": "Daha sonra",
+  "doYouLikeHash": "Hash'i begendiniz mi?",
+  "yourFeedbackHelps": "Geri bildiriminiz uygulamayi gelistirmemize yardimci olur",
+  "ratingTerrible": "Cok kotu",
+  "ratingBad": "Kotu",
+  "ratingOk": "Orta",
+  "ratingGood": "Iyi",
+  "ratingExcellent": "Mukemmel!",
+  "donationMessage": "Hash kar amaci gutmeyen bir projedir. Desteginiz gercekten ozel bir mesajlasma uygulamasi gelistirmeye devam etmemizi saglar.",
+
+  "recentConnections": "Son baglantilar",
+  "loginInfoText": "Her PIN ile acma islemi yerel olarak kaydedilir. Yalnizca son 24 saat saklanir.",
+  "connectionCount": "Baglanti(lar)",
+  "periodLabel": "Donem",
+  "historyLabel": "Gecmis",
+  "noLoginRecorded": "Kaydedilmis giris yok",
+  "nextUnlocksAppearHere": "Sonraki acma islemleri burada gorunecek.",
+  "dataLocalOnly": "Bu veriler yalnizca cihazinizda saklanir ve asla iletilmez.",
+  "currentSession": "Mevcut",
+  "todayLabel": "Bugun",
+  "yesterdayLabel": "Dun",
+  "justNowLabel": "Az once",
+  "minutesAgoLabel": "{count} dk once",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}sa once",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}sa {minutes}dk once",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Planli bakim yok",
+  "everythingWorkingNormally": "Her sey normal calisiyor",
+  "maintenanceTitle": "Bakim",
+  "maintenanceActiveLabel": "DEVAM EDIYOR",
+  "maintenancePlannedLabel": "PLANLI",
+
+  "locking": "Kilitleniyor...",
+
+  "newMessageNotification": "Yeni mesaj",
+
+  "secExplainTitle": "Hash seni nasil koruyor",
+  "secExplainIntro": "Hash, kimsenin mesajlarini okuyamamasi icin tasarlandi.",
+  "secExplainIntroSub": "Biz bile okuyamayiz.\nIste nasil calistigi, basitce anlatilmis.",
+  "secJourneyLabel": "YOLCULUK",
+  "secJourneyTitle": "Mesajinin yolculugu",
+  "secJourneySubtitle": "Parmagindan kisinin ekranina kadar her adim korunuyor. Yolu takip et.",
+  "secStep1Title": "Mesajini yaziyorsun",
+  "secStep1Desc": "Uygulamada \"Merhaba!\" yaziyorsun. Bu anda mesaj yalnizca telefonunun belleginde var. Hicbir sey gonderilmedi.",
+  "secStep2Title": "Signal Protocol ile sifreleme",
+  "secStep2Desc": "\"Gonder\" dugmesine bastigin anda mesajin anlamsiz karakterlere donusturulur. Mesajin, yalnizca kisinin anahtarina sahip oldugu bir kasaya kilitlenmis gibidir.",
+  "secStep3Title": "Sealed Sender: gorunmez zarf",
+  "secStep3Desc": "Posta ile mektup gonderdiginizi ama zarfta gonderici adresi olmadigini hayal edin. Hash tam olarak bunu yapar. Mesaj anonim bir posta kutusuna birakilir. Sunucu kimin gonderdigini bilmez.",
+  "secStep4Title": "Sunucu hicbir sey gormez",
+  "secStep4Desc": "Sunucu kor bir postaci rolunu oynar. Yalnizca \"birisi #A7X9 kutusuna bir sey birakti\" bilir. Kimin gonderdigini, ne oldugunu veya kime yonelik oldugunu bilmez.",
+  "secStep4Highlight": "Hicbir metaveri saklanmaz: IP adresi yok, zaman damgasi yok, gonderici-alici baglantisi yok.",
+  "secStep5Title": "Kisin mesaji aliyor",
+  "secStep5Desc": "Kisinin telefonu anonim posta kutusundan icerigi alir ve mesaji, cihazindan hic ayrilmamis olan ozel anahtariyla cozer. \"Merhaba!\" ekraninda gorunur.",
+  "secStep6Title": "Mesaj sunucudan kayboluyor",
+  "secStep6Desc": "Kisin alimi onayladiginda, sunucu mesaji kalici olarak siler. Cop kutusu yok, arsiv yok, yedek yok. Okunmamis mesajlar bile 24 saat sonra otomatik olarak yok edilir.",
+  "secStep7Title": "Yerel sona erme",
+  "secStep7Desc": "Kisinin telefonunda mesaj, sectigin sureye gore kendini imha eder: okuduktan hemen sonra, 5 dakika, 1 saat... sen karar verirsin.",
+  "secJourneyConclusion": "Sonuc: sunucuda sifir iz, cihazlarda sifir iz. Mesaj yalnizca okunacak kadar var oldu, sonra kayboldu.",
+  "secArchLabel": "MIMARI",
+  "secArchTitle": "5 koruma katmani",
+  "secArchSubtitle": "Hash tek bir teknolojiye dayanmaz. Her katman digerlerini guclendirir. Bir katman bile tehlikeye girse verileriniz guvendedir.",
+  "secLayer1Title": "Uctan uca sifreleme",
+  "secLayer1Desc": "Her mesaj benzersiz bir anahtarla sifrelenir. Basitce: birisi bir mesaji cozse bile bir sonrakini cozemez. Her mesajin kendi kilidi vardir.",
+  "secLayer1Detail": "Dosyalar (fotograflar, videolar, belgeler) icin Hash ek AES-256-GCM sifreleme kullanir. Dosya telefonunuzdan cikmadan once sifrelenir.",
+  "secLayer2Title": "Sealed Sender (ag anonimlik)",
+  "secLayer2Desc": "Normal mesajlasma uygulamalari mesajlarinizi kimliginiz ekli olarak gonderir. Zarfa adinizi yazmak gibi. Hash anonim posta kutulari kullanir: sunucu mesaji kimin gonderdigini bilmeden iletir.",
+  "secLayer2Detail": "Sonuc: sunucu veri sizintisi durumunda bile kimin kiminle konustugunu yeniden olusturmak mumkun degildir.",
+  "secLayer3Title": "Otomatik silme",
+  "secLayer3Desc": "Mesajlar alim onaylanir onaylanmaz sunucudan silinir. Bir mesaj hic alinmasa bile 24 saat sonra otomatik olarak yok edilir.",
+  "secLayer3Detail": "Telefonunuzda mesajlar sectiginiz sureye gore kendini imha eder: hemen, 5dk, 15dk, 30dk, 1sa, 3sa, 6sa veya 12sa.",
+  "secLayer4Title": "Yerel erisim korumasi",
+  "secLayer4Desc": "Uygulama 6 haneli PIN kodu ve/veya biyometri (Face ID, parmak izi) ile korunur. Cok fazla basarisiz denemeden sonra uygulama, her basarisizlikta artan bir gecikmeyle kilitlenir.",
+  "secLayer5Title": "Kilitli veritabani",
+  "secLayer5Desc": "Sunucu tarafinda hicbir kullanici dogrudan veritabanina yazamaz. Tum islemler her istegi dogrulayan guvenli fonksiyonlar uzerinden gider.",
+  "secLayer5Detail": "Bu bir banka gisesi gibidir: kasaya kendiniz asla dokunmazsiniz. Bir istek yaparsiniz ve sistem harekete gecmeden once hakkiinizi dogrular.",
+  "secVashLabel": "DUNYADA ESSIZ",
+  "secVashTitle": "Vash Modu",
+  "secVashSubtitle": "Baska hicbir mesajlasma uygulamasinda bulunmayan bir acil guvenlik sistemi.",
+  "secVashScenarioTitle": "Bu durumu hayal et",
+  "secVashScenario1": "Birisi telefonuna erisiyor",
+  "secVashScenario2": "Senden PIN kodun isteniyor",
+  "secVashScenario3": "Tum verilerini acilen silmek istiyorsun",
+  "secVashSolutionTitle": "Cozum: iki PIN kodu",
+  "secVashSolutionDesc": "Hash'te iki farkli PIN kodu yapilandirirsin:",
+  "secVashNormalCodeLabel": "Normal kod",
+  "secVashNormalCodeDesc": "Uygulamayi tum verilerinle normal olarak acar",
+  "secVashCodeLabel2": "Vash kodu",
+  "secVashCodeDescription": "Uygulamayi normal olarak acar... ama tum verilerin arka planda sessizce silinir",
+  "secVashWhatHappensTitle": "Sonra ne olur",
+  "secVashWhatHappensDesc": "Uygulama normal olarak acilir. Uyari yok, suphe uyandiran animasyon yok. Ekran sadece bos bir uygulama gosterir, sanki yeni yuklemissiniz gibi.\n\nGerekte tum sohbetleriniz, kisileriniz ve mesajlariniz bir saniyelik kesirde geri donulemez sekilde silindi.",
+  "secCallsLabel": "ARAMALAR & DOSYALAR",
+  "secCallsTitle": "Her sey sifrelidir",
+  "secCallsSubtitle": "Sadece mesajlar degil. Hash uzerinden gecen her sey uctan uca sifrelenir.",
+  "secAudioCallTitle": "Sesli aramalar",
+  "secAudioCallDesc": "WebRTC ile uctan uca sifreli. Ses dogrudan cihazlar arasinda iletilir.",
+  "secVideoCallTitle": "Goruntulu aramalar",
+  "secVideoCallDesc": "Ayni teknoloji, her akis ayri ayri sifrelenmis.",
+  "secPhotosTitle": "Fotograflar ve videolar",
+  "secPhotosDesc": "Telefonunuzdan cikmadan once AES-256-GCM ile sifrelenir.",
+  "secDocsTitle": "Belgeler",
+  "secDocsDesc": "PDF, ZIP, her dosya. Ad, boyut ve icerik sifrelenir.",
+  "secAnonLabel": "ANONIMLIK",
+  "secAnonTitle": "Kimlik gerektirmez",
+  "secAnonSubtitle": "Hash asla telefon numaranizi veya e-posta adresinizi sormaz. Benzersiz ve anonim bir Hash Kimligi ile tanimlanirsiniz.",
+  "secHashIdTitle": "Hash Kimligin",
+  "secHashIdDesc": "Bu senin benzersiz tanimlayicin. Hakkinda hicbir sey ortaya koymaz: ne adin, ne numaran, ne konumun. Gercek kimligine baglanamaycak bir takma ad gibi.\n\nBir kisi eklemek icin Hash Kimligini paylasirsin veya QR kodu taratirsin. Hepsi bu. Senkronize edilmis adres defteri yok, \"Taniyabileceklerin\" onerileri yok.",
+  "secDataLabel": "VERILER",
+  "secDataTitle": "Hash'in bilmedikleri",
+  "secDataSubtitle": "Verilerinizi korumanin en iyi yolu onlari toplamamaktir.",
+  "secNeverCollected": "Asla toplanmaz",
+  "secNeverItem1": "Mesaj icerigi",
+  "secNeverItem2": "Kisi listesi",
+  "secNeverItem3": "Telefon numarasi",
+  "secNeverItem4": "E-posta adresi",
+  "secNeverItem5": "IP adresi",
+  "secNeverItem6": "Konum",
+  "secNeverItem7": "Metaveriler (kim kiminle konusuyor)",
+  "secNeverItem8": "Arama gecmisi",
+  "secNeverItem9": "Adres defteri",
+  "secNeverItem10": "Reklam tanimlayicilari",
+  "secTempStored": "Gecici olarak saklanir",
+  "secTempItem1": "Anonim Hash Kimligi (benzersiz tanimlayici)",
+  "secTempItem2": "Genel sifreleme anahtarlari",
+  "secTempItem3": "Aktarimdaki sifreli mesajlar (maks 24sa)",
+  "secTempNote": "Bu minimum veriler bile sizi tanimlayamaz. Hash Kimliginiz hicbir kisisel bilgiye baglantilanmamistir.",
+  "secFooterTitle": "Gizliligin, ozgurlugun",
+  "secFooterDesc": "Hash, en titiz profesyonel uygulamalarla ayni sifreleme teknolojilerini kullanir. Mesajlariniz vaatlerle degil, matematikle korunur."
+}

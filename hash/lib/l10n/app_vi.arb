@@ -1,0 +1,1044 @@
+{
+  "@@locale": "vi",
+
+  "appName": "Hash",
+  "appTagline": "Không dấu vết. Không thỏa hiệp.",
+
+  "conversations": "Trò chuyện",
+  "contacts": "Danh bạ",
+  "noConversation": "Không có cuộc trò chuyện",
+  "noConversationSubtitle": "Thêm liên hệ để bắt đầu trò chuyện an toàn",
+  "pendingRequestsCount": "{count, plural, =1{1 yêu cầu đang chờ} other{{count} yêu cầu đang chờ}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 yêu cầu đã gửi đang chờ} other{{count} yêu cầu đã gửi đang chờ}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Thêm liên hệ",
+  "shareApp": "Chia sẻ ứng dụng",
+  "newMessage": "Tin nhắn mới",
+  "newConversation": "Gửi tin nhắn",
+
+  "settings": "Cài đặt",
+  "myHashId": "Hash ID của tôi",
+  "supportHash": "Hỗ trợ Hash",
+  "supportHashSubtitle": "Hash là dự án phi lợi nhuận",
+  "donate": "Quyên góp",
+
+  "appearance": "Giao diện",
+  "theme": "Chủ đề",
+  "themeAuto": "Tự động",
+  "themeAutoSubtitle": "Theo cài đặt hệ thống",
+  "themeDark": "Tối",
+  "themeLight": "Sáng",
+  "themeRecommendation": "Chủ đề tối được khuyến nghị để bảo mật tốt hơn",
+  "language": "Ngôn ngữ",
+  "languageAuto": "Tự động (hệ thống)",
+
+  "notifications": "Thông báo",
+  "messages": "Tin nhắn",
+  "calls": "Cuộc gọi",
+  "vibration": "Rung",
+  "notificationContent": "Nội dung thông báo",
+  "notificationContentFull": "Hiển thị tất cả",
+  "notificationContentFullDesc": "Tên liên hệ và xem trước tin nhắn",
+  "notificationContentName": "Chỉ tên",
+  "notificationContentNameDesc": "Chỉ hiển thị tên liên hệ",
+  "notificationContentDiscrete": "Kín đáo",
+  "notificationContentDiscreteDesc": "Chỉ hiển thị \"Tin nhắn mới\"",
+
+  "security": "Bảo mật",
+  "howHashProtectsYou": "Hash bảo vệ bạn như thế nào",
+  "howHashProtectsYouSubtitle": "Hiểu về bảo mật của bạn",
+  "accountSecurity": "Bảo mật tài khoản",
+  "accountSecuritySubtitle": "PIN, sinh trắc học, Chế độ Vash",
+  "blockScreenshots": "Chặn ảnh chụp màn hình",
+  "transferDevice": "Chuyển sang thiết bị khác",
+  "transferDeviceSubtitle": "Di chuyển tài khoản của bạn",
+
+  "pinCode": "Mã PIN",
+  "changePin": "Đổi mã PIN",
+  "currentPin": "Mã PIN hiện tại",
+  "newPin": "Mã PIN mới",
+  "confirmPin": "Xác nhận mã PIN",
+  "pinChanged": "Đã đổi mã PIN",
+  "incorrectPin": "PIN không đúng",
+  "pinsDoNotMatch": "Các mã PIN không khớp",
+
+  "autoLock": "Tự động khóa",
+  "autoLockDelay": "Thời gian chờ khóa",
+  "autoLockImmediate": "Ngay lập tức",
+  "autoLockMinute": "1 phút",
+  "autoLockMinutes": "{count} phút",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "vashCode": "Mã Vash",
+  "vashModeTitle": "Chế độ Vash",
+  "vashModeExplanation": "Lưới an toàn cuối cùng của bạn.",
+  "vashModeDescription": "Bạn sẽ chọn mã PIN thứ hai. Nếu bạn bị buộc phải mở Hash, hãy nhập mã này thay vì PIN thông thường.\n\nỨng dụng sẽ mở bình thường, nhưng tất cả cuộc trò chuyện và danh bạ sẽ biến mất.\n\nĐối với bất kỳ ai nhìn vào màn hình, Hash đơn giản là trống — như thể bạn chưa bao giờ sử dụng.",
+  "vashModeIrreversible": "Hành động này im lặng và không thể hoàn tác.",
+  "chooseVashCode": "Chọn mã Vash",
+  "vashCodeInfo": "Mã PIN thứ hai mở ứng dụng bình thường, nhưng trống.",
+  "vashCodeInfoDetail": "Nếu bạn nhập mã này thay vì PIN:",
+  "vashDeleteContacts": "Danh bạ của bạn biến mất",
+  "vashDeleteMessages": "Cuộc trò chuyện của bạn biến mất",
+  "vashDeleteHistory": "Ghi chú của bạn biến mất",
+  "vashKeepId": "Danh tính Hash (#XXX-XXX-XXX) vẫn giữ nguyên",
+  "vashAppearNormal": "Ứng dụng hiện bình thường nhưng trống, như mới. Hành động này không thể hoàn tác.",
+  "setupVashCode": "Thiết lập mã Vash",
+  "modifyVashCode": "Sửa mã Vash",
+  "currentVashCode": "Mã Vash hiện tại",
+  "newVashCode": "Mã Vash mới",
+  "confirmVashCode": "Xác nhận mã Vash",
+  "vashCodeConfigured": "Đã cấu hình mã Vash",
+  "vashCodeModified": "Đã sửa mã Vash",
+  "vashCodeMustDiffer": "Mã Vash phải khác với PIN",
+  "incorrectVashCode": "Mã Vash không đúng",
+  "vashWhatToDelete": "Chế độ Vash nên làm biến mất gì?",
+  "vashDeleteContactsOption": "Danh bạ",
+  "vashDeleteMessagesOption": "Tin nhắn",
+  "vashDeleteNotesOption": "Ghi chú",
+  "vashActivated": "Đã kích hoạt chế độ Vash",
+  "vashCreateSubtitle": "Chọn mã khác với PIN chính",
+  "vashConfirmSubtitle": "Xác nhận mã Vash của bạn",
+
+  "pinCodeForEntry": "Mã PIN để vào ứng dụng",
+  "vashCodeSection": "Chế độ Vash",
+  "biometric": "Sinh trắc học",
+  "biometricUnlock": "Mở khóa bằng vân tay hoặc Face ID",
+  "enableBiometric": "Bật sinh trắc học",
+  "biometricWarningMessage": "Khi bật sinh trắc học, bạn sẽ không thể sử dụng mã Vash để vào ứng dụng.\n\nBạn chỉ có thể sử dụng mã Vash nếu sinh trắc học thất bại (sau nhiều lần thử không thành công).\n\nBạn có chắc muốn tiếp tục không?",
+  "understood": "Tôi hiểu rồi",
+
+  "shareAppSubtitle": "Chia sẻ Hash với người thân",
+  "share": "Chia sẻ",
+
+  "danger": "Nguy hiểm",
+  "panicButton": "Nút khẩn cấp",
+  "panicButtonSubtitle": "Xóa tất cả dữ liệu",
+  "deleteAccount": "Xóa tài khoản",
+  "deleteAccountSubtitle": "Hành động không thể hoàn tác",
+  "deleteAccountConfirmTitle": "Xóa tài khoản",
+  "deleteAccountConfirmMessage": "Tài khoản của bạn sẽ bị xóa vĩnh viễn. Hành động này không thể hoàn tác.\n\n• Tất cả cuộc trò chuyện\n• Tất cả danh bạ\n• Hash ID của bạn\n\nBạn sẽ cần tạo tài khoản mới.",
+  "deleteForever": "Xóa vĩnh viễn",
+  "cancel": "Hủy",
+
+  "panicConfirmTitle": "Nút khẩn cấp",
+  "panicConfirmMessage": "Hành động này sẽ xóa vĩnh viễn TẤT CẢ dữ liệu:\n\n• Tất cả tin nhắn\n• Tất cả danh bạ\n• Tài khoản của bạn\n\nBạn có chắc chắn không?",
+  "deleteAll": "XÓA TẤT CẢ",
+  "dataDeletedForSecurity": "Đã kích hoạt chế độ Vash.",
+  "deletionError": "Lỗi khi xóa: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "yourSecurity": "Bảo mật của bạn",
+  "securityInfo": "• Mã hóa đầu cuối (Signal Protocol)\n• Không có dữ liệu trên máy chủ sau khi giao\n• Khóa chỉ lưu trên thiết bị của bạn\n• Mã PIN không bao giờ gửi đến máy chủ",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "welcome": "Chào mừng",
+  "securityStatement1": "Tin nhắn của bạn được bảo vệ.",
+  "securityStatement2": "Mã hóa đầu cuối.",
+  "securityStatement3": "Không dấu vết. Không thỏa hiệp.",
+  "securityStatement4": "Quyền riêng tư là quyền của bạn.",
+
+  "accessBlocked": "Truy cập bị chặn",
+  "tooManyAttempts": "Quá nhiều lần thử",
+  "pleaseWait": "Vui lòng đợi",
+  "waitDelay": "Vui lòng đợi hết thời gian chờ",
+  "attemptCount": "Lần thử {current} / {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Thử lại sau {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Quên PIN? Dùng cụm từ khôi phục",
+  "useRecoveryPhrase": "Dùng cụm từ khôi phục",
+
+  "recoveryWarningTitle": "Cảnh báo",
+  "recoveryWarningMessage": "Khôi phục tài khoản sẽ:",
+  "recoveryDeleteAllMessages": "Xóa TẤT CẢ tin nhắn",
+  "recoveryWaitDelay": "Yêu cầu chờ 1 giờ",
+  "recoveryKeepContacts": "Giữ lại danh bạ",
+  "recoveryIrreversible": "Hành động này không thể hoàn tác. Tin nhắn sẽ mất vĩnh viễn.",
+  "iUnderstand": "Tôi hiểu",
+
+  "accountRecovery": "Khôi phục tài khoản",
+  "enterRecoveryPhrase": "Nhập 24 từ của cụm từ khôi phục, cách nhau bằng dấu cách.",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "Khôi phục",
+  "recoveryPhraseRequired": "Vui lòng nhập cụm từ khôi phục",
+  "recoveryPhrase24Words": "Cụm từ phải có đúng 24 từ",
+  "incorrectRecoveryPhrase": "Cụm từ khôi phục không đúng",
+  "recoveryInitError": "Lỗi khi khởi tạo khôi phục",
+
+  "securityDelay": "Thời gian chờ bảo mật",
+  "securityDelayMessage": "Vì bảo mật, cần thời gian chờ trước khi tạo PIN mới.",
+  "timeRemaining": "Thời gian còn lại",
+  "messagesDeletedForProtection": "Tin nhắn đã bị xóa để bảo vệ bạn.",
+  "canCloseApp": "Bạn có thể đóng ứng dụng và quay lại sau.",
+
+  "onboardingTitle1": "Chào mừng đến Hash",
+  "onboardingSubtitle1": "Ứng dụng nhắn tin không để lại dấu vết",
+  "onboardingTitle2": "Mã hóa toàn diện",
+  "onboardingSubtitle2": "Tin nhắn được mã hóa đầu cuối bằng giao thức Signal",
+  "onboardingTitle3": "Không dấu vết",
+  "onboardingSubtitle3": "Tin nhắn bị xóa khỏi máy chủ ngay sau khi giao",
+  "onboardingTitle4": "Bảo mật của bạn",
+  "onboardingSubtitle4": "Mã PIN, Chế độ Vash và cụm từ khôi phục",
+
+  "getStarted": "Bắt đầu",
+  "next": "Tiếp",
+  "skip": "Bỏ qua",
+  "alreadyHaveAccount": "Tôi đã có tài khoản",
+  "transferMyAccount": "Chuyển tài khoản của tôi",
+
+  "createPin": "Tạo mã PIN",
+  "createPinSubtitle": "Mã này sẽ bảo vệ quyền truy cập ứng dụng",
+  "confirmYourPin": "Xác nhận mã PIN",
+  "confirmPinSubtitle": "Nhập lại mã PIN",
+
+  "saveRecoveryPhrase": "Cụm từ khôi phục",
+  "saveRecoveryPhraseSubtitle": "Ghi lại 24 từ này theo thứ tự. Chúng sẽ giúp bạn khôi phục tài khoản nếu quên PIN.",
+  "phraseWritten": "Tôi đã ghi cụm từ",
+  "warningRecoveryPhrase": "Nếu mất cụm từ này và quên PIN, bạn sẽ mất quyền truy cập tài khoản.",
+
+  "accountTransferred": "Đã chuyển tài khoản",
+  "accountTransferredMessage": "Tài khoản đã được chuyển sang thiết bị khác. Phiên này không còn hiệu lực.",
+  "accountTransferredInfo": "Nếu bạn không thực hiện việc chuyển này, tài khoản có thể đã bị xâm phạm.",
+  "logout": "Đăng xuất",
+
+  "transferAccount": "Chuyển tài khoản",
+  "transferAccountInfo": "Chuyển tài khoản Hash sang thiết bị mới. Phiên hiện tại sẽ bị hủy.",
+  "generateTransferCode": "Tạo mã chuyển",
+  "transferCode": "Mã chuyển",
+  "transferCodeExpires": "Mã này hết hạn sau {minutes} phút",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Nhập mã này trên thiết bị mới để chuyển tài khoản.",
+  "generateNewCode": "Tạo mã mới",
+
+  "scanQrCode": "Quét mã QR",
+  "scanQrCodeSubtitle": "Quét mã QR của liên hệ để thêm",
+  "qrCodeDetected": "Đã phát hiện mã QR",
+  "invalidQrCode": "Mã QR không hợp lệ",
+  "cameraPermissionRequired": "Cần quyền truy cập camera",
+
+  "myQrCode": "Mã QR của tôi",
+  "myQrCodeSubtitle": "Chia sẻ mã QR này để liên hệ thêm bạn",
+  "shareQrCode": "Chia sẻ",
+
+  "addContactTitle": "Thêm liên hệ",
+  "addContactByHashId": "Nhập Hash ID của liên hệ",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Tìm kiếm",
+  "contactNotFound": "Không tìm thấy liên hệ",
+  "contactAlreadyAdded": "Liên hệ này đã có trong danh sách",
+  "contactAdded": "Đã thêm liên hệ",
+
+  "myProfile": "Hồ sơ của tôi",
+  "myProfileSubtitle": "Chia sẻ thông tin này để người khác thêm bạn",
+  "temporaryCode": "Mã tạm thời",
+  "temporaryCodeExpires": "Hết hạn sau {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Mã đã hết hạn",
+  "generateNewCodeButton": "Mã mới",
+  "copyHashId": "Sao chép ID",
+  "copyCode": "Sao chép mã",
+  "copiedToClipboard": "Đã sao chép",
+  "showMyQrCode": "Hiện mã QR của tôi",
+  "orDivider": "hoặc",
+  "openScanner": "Mở máy quét",
+  "addManually": "Thêm thủ công",
+  "contactHashIdLabel": "Hash ID liên hệ",
+  "temporaryCodeLabel": "Mã tạm thời",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Yêu cầu liên hệ tạo mã từ hồ sơ của họ",
+  "verifyAndAdd": "Xác minh và thêm",
+  "fillAllFields": "Vui lòng điền tất cả các trường",
+  "invalidHashIdFormat": "Định dạng ID không hợp lệ (vd: 123-456-ABC)",
+  "userNotFound": "Không tìm thấy người dùng",
+  "cannotAddYourself": "Không thể tự thêm mình",
+  "invalidOrExpiredCode": "Mã tạm thời không hợp lệ hoặc đã hết hạn",
+  "tooManyAttempts": "Quá nhiều lần thử. Vui lòng thử lại sau.",
+  "contactFound": "Đã tìm thấy liên hệ!",
+  "howToCallContact": "Bạn muốn gọi họ là gì?",
+  "contactNameHint": "Tên liên hệ",
+  "addContactButton": "Thêm",
+
+  "contactDetails": "Chi tiết liên hệ",
+  "contactName": "Tên liên hệ",
+  "contactHashId": "Hash ID",
+  "addedOn": "Thêm vào {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Xóa liên hệ",
+  "deleteContactConfirm": "Xóa liên hệ này?",
+  "deleteContactMessage": "Thao tác này cũng sẽ xóa toàn bộ cuộc trò chuyện.",
+  "delete": "Xóa",
+
+  "typeMessage": "Nhập tin nhắn...",
+  "messageSent": "Đã gửi",
+  "messageDelivered": "Đã giao",
+  "messageRead": "Đã đọc",
+  "messageFailed": "Gửi thất bại",
+
+  "now": "Bây giờ",
+  "minutesAgo": "{count}ph",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}g",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}ng",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Hôm nay",
+  "yesterday": "Hôm qua",
+  "dateAtTime": "{date} lúc {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Hãy nhắn tin cho tôi trên Hash! 🔒\n\nĐây là ứng dụng nhắn tin thực sự riêng tư: mã hóa toàn diện, không dấu vết trên máy chủ, và chế độ khẩn cấp khi cần.\n\nTải ứng dụng tại 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Lỗi",
+  "ok": "OK",
+  "view": "Xem",
+  "yes": "Có",
+  "no": "Không",
+  "save": "Lưu",
+  "edit": "Sửa",
+  "close": "Đóng",
+  "confirm": "Xác nhận",
+  "loading": "Đang tải...",
+  "retry": "Thử lại",
+
+  "pendingRequests": "Yêu cầu đang chờ",
+  "noPendingRequests": "Không có yêu cầu đang chờ",
+  "pendingRequestsSubtitle": "Những người này muốn thêm bạn",
+  "requestFromUser": "Yêu cầu từ {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Hết hạn sau {days} ngày",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Chấp nhận",
+  "rejectRequest": "Từ chối",
+  "requestAccepted": "Đã chấp nhận yêu cầu",
+  "requestRejected": "Đã từ chối yêu cầu",
+  "requestSent": "Đã gửi yêu cầu!",
+  "requestSentSubtitle": "Yêu cầu đã được gửi. Người dùng phải chấp nhận trước khi bạn có thể trò chuyện.",
+  "requestAlreadyPending": "Đã có yêu cầu đang chờ",
+  "requestAlreadySentByOther": "Người này đã gửi yêu cầu cho bạn",
+  "addByHashId": "Thêm bằng Hash ID",
+  "addByHashIdSubtitle": "Nhập Hash ID và mã tạm thời của liên hệ",
+  "enterTemporaryCode": "Nhập mã 6 chữ số",
+  "sendRequest": "Gửi yêu cầu",
+  "acceptContactTitle": "Chấp nhận liên hệ",
+  "acceptContactSubtitle": "Bạn có thể đặt tên tùy chỉnh cho họ",
+  "leaveEmptyForHashId": "Để trống để dùng Hash ID",
+  "firstName": "Tên",
+  "lastName": "Họ",
+  "notes": "Ghi chú",
+  "notesHint": "Ghi chú cá nhân về liên hệ này",
+
+  "photoOptional": "Ảnh (tùy chọn)",
+  "contactNameOptional": "Tên (tùy chọn)",
+  "notesOptional": "Ghi chú (tùy chọn)",
+  "storedLocally": "Chỉ lưu trên thiết bị của bạn",
+  "encryptedMessageLabel": "Tin nhắn mã hóa",
+  "identityMessageHint": "Bạn là ai? Bạn biết nhau thế nào?",
+  "messageWillBeSentEncrypted": "Tin nhắn này sẽ được mã hóa và gửi đến người nhận",
+  "sendRequestButton": "Gửi yêu cầu",
+  "requestExpiresIn24h": "Yêu cầu hết hạn sau 24 giờ nếu không được chấp nhận",
+  "theyAlreadySentYouRequest": "Người này đã gửi yêu cầu cho bạn",
+
+  "requests": "Yêu cầu",
+  "receivedRequests": "Đã nhận",
+  "sentRequests": "Đã gửi",
+  "noSentRequests": "Không có yêu cầu đã gửi",
+  "cancelRequest": "Hủy",
+  "deleteRequest": "Xóa yêu cầu",
+  "requestCancelled": "Đã hủy yêu cầu",
+  "sentTo": "Gửi đến {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Hết hạn sau {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Nhận {time} trước",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Tin nhắn từ người gửi yêu cầu",
+
+  "copy": "Sao chép",
+  "messageInfo": "Thông tin tin nhắn",
+
+  "messageDirection": "Hướng",
+  "messageSentByYou": "Bạn gửi",
+  "messageReceived": "Đã nhận",
+  "messageSentAt": "Gửi lúc",
+  "messageStatus": "Trạng thái",
+  "messageReadAt": "Đọc lúc",
+  "messageType": "Loại",
+  "messageSize": "Kích thước",
+  "messageExpiresAt": "Hết hạn lúc",
+  "messageEncrypted": "Mã hóa đầu cuối",
+
+  "messageStatusSending": "Đang gửi...",
+  "messageStatusSent": "Đã gửi",
+  "messageStatusDelivered": "Đã giao",
+  "messageStatusRead": "Đã đọc",
+  "messageStatusFailed": "Thất bại",
+
+  "serverStatus": "Máy chủ",
+  "onServer": "Đang chờ giao",
+  "deletedFromServer": "Đã xóa",
+
+  "messageTypeText": "Văn bản",
+  "messageTypeImage": "Hình ảnh",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Giọng nói",
+  "messageTypeFile": "Tệp",
+
+  "indefinitely": "Vô thời hạn",
+  "hoursShort": "g",
+  "minutesShort": "ph",
+  "hours": "giờ",
+  "minutes": "phút",
+  "seconds": "giây",
+
+  "ephemeralMessages": "Tin nhắn tự hủy",
+  "ephemeralMessagesDescription": "Tin nhắn tự động bị xóa sau khoảng thời gian này",
+  "ephemeralImmediate": "Ngay lập tức (sau khi đọc)",
+  "ephemeralImmediateDesc": "Xóa ngay khi đọc",
+  "ephemeralMyPreference": "Ưu tiên của tôi",
+  "ephemeralMyPreferenceDesc": "Dùng cài đặt chung",
+  "ephemeralDefaultSetting": "Thời lượng tin nhắn",
+  "ephemeralChooseDefault": "Đề xuất",
+  "ephemeral30Seconds": "30 giây",
+  "ephemeral30SecondsDesc": "Xóa 30 giây sau khi đọc",
+  "ephemeral5Minutes": "5 phút",
+  "ephemeral5MinutesDesc": "Xóa 5 phút sau khi đọc",
+  "ephemeral1Hour": "1 giờ",
+  "ephemeral1HourDesc": "Xóa 1 giờ sau khi đọc",
+  "ephemeral3Hours": "3 giờ",
+  "ephemeral6Hours": "6 giờ",
+  "ephemeral6HoursDesc": "Xóa 6 giờ sau khi đọc",
+  "ephemeral12Hours": "12 giờ",
+  "ephemeral24Hours": "24 giờ",
+  "ephemeral24HoursDesc": "Xóa 24 giờ sau khi đọc",
+  "customDuration": "Tùy chỉnh",
+
+  "muteNotifications": "Tắt thông báo",
+  "muteDescription": "Bạn sẽ không nhận thông báo từ liên hệ này",
+  "mutedUntil": "Tắt tiếng đến {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Đã bật thông báo",
+  "unmute": "Bật tiếng",
+
+  "notificationSound": "Âm thanh thông báo",
+  "defaultSound": "Mặc định",
+
+  "chatSettings": "Cài đặt trò chuyện",
+  "bubbleColor": "Màu bong bóng",
+  "backgroundColor": "Màu nền",
+  "backgroundImage": "Hình nền",
+  "chatBackground": "Nền trò chuyện",
+  "customColor": "Tùy chỉnh",
+  "defaultColor": "Mặc định",
+  "imageSelected": "Đã chọn hình",
+  "noImage": "Không có hình",
+  "color": "Màu",
+  "image": "Hình",
+  "tapToSelectImage": "Chạm để chọn hình",
+  "changeImage": "Đổi hình",
+  "previewMessageReceived": "Xin chào!",
+  "previewMessageSent": "Chào bạn!",
+
+  "messageAction": "Tin nhắn",
+  "callAction": "Gọi",
+  "videoAction": "Video",
+
+  "personalNotes": "Ghi chú cá nhân",
+  "addNotes": "Thêm ghi chú...",
+  "noNotes": "Không có ghi chú",
+
+  "messageNotifications": "Thông báo tin nhắn",
+  "callNotifications": "Thông báo cuộc gọi",
+
+  "useGradient": "Dùng chuyển màu",
+  "gradientStart": "Màu bắt đầu",
+  "gradientEnd": "Màu kết thúc",
+  "preview": "Xem trước",
+  "reset": "Đặt lại",
+
+  "securityNumber": "Số bảo mật",
+  "securityNumberDescription": "Xác minh số bảo mật khớp với thiết bị của {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Xác minh mã hóa đầu cuối",
+  "tapToCopy": "Chạm để sao chép",
+  "howToVerify": "Cách xác minh",
+  "verifyStep1": "Gặp trực tiếp hoặc gọi cho liên hệ",
+  "verifyStep2": "So sánh số bảo mật hoặc quét mã QR",
+  "verifyStep3": "Nếu khớp, cuộc trò chuyện của bạn an toàn",
+  "scanToVerify": "Quét để xác minh",
+
+  "reportSpam": "Báo cáo spam",
+  "reportSpamSubtitle": "Báo cáo liên hệ này là spam",
+  "reportSpamDescription": "Liên hệ này sẽ bị báo cáo ẩn danh. Danh tính của bạn sẽ không bị tiết lộ. Bạn có chắc không?",
+  "report": "Báo cáo",
+  "spamReported": "Đã báo cáo spam",
+  "reportError": "Gửi báo cáo thất bại. Vui lòng thử lại.",
+  "reportRateLimited": "Bạn đã đạt số lượng báo cáo tối đa trong ngày.",
+
+  "blockContact": "Chặn liên hệ",
+  "blockContactDescription": "Liên hệ này sẽ không thể gửi tin nhắn hoặc gọi cho bạn. Họ sẽ không được thông báo.",
+  "unblockContact": "Bỏ chặn liên hệ",
+  "unblockContactDescription": "Liên hệ này sẽ có thể gửi tin nhắn và gọi cho bạn lại.",
+  "contactBlocked": "Đã chặn liên hệ",
+  "contactUnblocked": "Đã bỏ chặn liên hệ",
+  "contactIsBlocked": "Liên hệ này đã bị chặn",
+  "unblock": "Bỏ chặn",
+
+  "deleteContactSubtitle": "Xóa liên hệ và cuộc trò chuyện",
+  "confirmWithPin": "Xác nhận bằng PIN",
+  "enterPinToConfirm": "Nhập PIN để xác nhận hành động này",
+
+  "mute1Hour": "1 giờ",
+  "mute8Hours": "8 giờ",
+  "mute1Day": "1 ngày",
+  "mute1Week": "1 tuần",
+  "muteAlways": "Luôn luôn",
+  "muteExplanation": "Bạn sẽ không nhận thông báo từ liên hệ này",
+  "howItWorks": "Cách hoạt động",
+  "ephemeralExplanation1": "Tin nhắn bị xóa khỏi máy chủ ngay khi nhận.",
+  "ephemeralExplanation2": "Cài đặt này xác định khi nào tin nhắn biến mất khỏi điện thoại CỦA BẠN sau khi đọc.",
+  "ephemeralExplanation3": "Liên hệ của bạn có cài đặt riêng cho điện thoại của họ.",
+
+  "showCallsInRecents": "Hiện trong cuộc gọi gần đây",
+  "showCallsInRecentsSubtitle": "Cuộc gọi Hash xuất hiện trong lịch sử điện thoại",
+  "feedback": "Phản hồi",
+
+  "profilePhoto": "Ảnh hồ sơ",
+  "takePhoto": "Chụp ảnh",
+  "chooseFromGallery": "Chọn từ thư viện",
+  "removePhoto": "Xóa ảnh",
+
+  "viewContactHashId": "Xem mã định danh liên hệ",
+  "hashIdPartiallyMasked": "Ẩn một phần vì bảo mật của bạn và quyền riêng tư của liên hệ",
+
+  "addFirstContact": "Thêm liên hệ đầu tiên",
+  "addFirstContactSubtitle": "Chia sẻ mã QR hoặc quét mã của bạn bè",
+  "directory": "Danh bạ",
+  "noContacts": "Không có liên hệ",
+  "noContactsSubtitle": "Thêm liên hệ để bắt đầu",
+  "sendMessageAction": "Gửi tin nhắn",
+  "audioCall": "Gọi thoại",
+  "videoCall": "Gọi video",
+  "viewProfile": "Xem hồ sơ",
+  "deleteContactDirectory": "Xóa liên hệ",
+  "scanShort": "Quét",
+  "addShort": "Thêm",
+  "deleteContactConfirmName": "Bạn có chắc muốn xóa {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Không có ghi chú",
+  "noNotesSubtitle": "Tạo ghi chú đầu tiên",
+  "newNote": "Ghi chú mới",
+  "editNote": "Sửa ghi chú",
+  "deleteNote": "Xóa ghi chú",
+  "deleteNoteConfirm": "Bạn có chắc muốn xóa ghi chú này?",
+  "noteTitle": "Tiêu đề",
+  "noteContent": "Nội dung",
+  "addItem": "Thêm mục",
+  "pinNote": "Ghim",
+  "unpinNote": "Bỏ ghim",
+  "noteColor": "Màu",
+  "notePassword": "Mật khẩu",
+  "setPassword": "Đặt mật khẩu",
+  "changePassword": "Đổi mật khẩu",
+  "removePassword": "Xóa mật khẩu",
+  "enterPassword": "Nhập mật khẩu",
+  "confirmPassword": "Xác nhận mật khẩu",
+  "passwordPin": "Mã PIN",
+  "passwordText": "Mật khẩu văn bản",
+  "protectedNote": "Ghi chú được bảo vệ",
+  "incorrectPassword": "Mật khẩu không đúng",
+  "passwordSet": "Đã đặt mật khẩu",
+  "passwordRemoved": "Đã xóa mật khẩu",
+  "notesBiometric": "Face ID cho ghi chú",
+  "notesBiometricSubtitle": "Yêu cầu xác thực sinh trắc học để mở ghi chú được bảo vệ",
+  "textNote": "Ghi chú văn bản",
+  "checklistNote": "Danh sách kiểm tra",
+  "tasksProgress": "{checked}/{total} công việc",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Đã lưu",
+  "searchNotes": "Tìm ghi chú",
+  "legalConsent": "Đồng ý pháp lý",
+  "confirmAge13": "Tôi xác nhận ít nhất 13 tuổi",
+  "acceptLegalStart": "Tôi chấp nhận ",
+  "privacyPolicy": "Chính sách quyền riêng tư",
+  "termsOfService": "Điều khoản dịch vụ",
+  "andThe": " và ",
+  "continueButton": "Tiếp tục",
+  "mustAcceptTerms": "Bạn phải chấp nhận cả hai điều kiện để tiếp tục",
+
+  "support": "Hỗ trợ",
+  "contactSupport": "Liên hệ hỗ trợ",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Báo cáo lạm dụng",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Pháp lý",
+  "legalEntity": "Pháp nhân",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Ghim",
+  "unpinConversation": "Bỏ ghim",
+  "hideConversation": "Xóa khỏi bảng tin",
+  "deleteConversation": "Xóa cuộc trò chuyện",
+  "deleteConversationConfirm": "Nhập PIN để xác nhận xóa tất cả tin nhắn",
+  "noConversations": "Chưa có cuộc trò chuyện",
+  "startConversation": "Bắt đầu",
+
+  "microphonePermissionRequired": "Cần quyền truy cập micro",
+  "microphonePermissionExplanation": "Hash cần micro để thực hiện cuộc gọi.",
+  "cameraPermissionExplanation": "Hash cần camera cho cuộc gọi video.",
+  "openSettings": "Mở cài đặt",
+
+  "callConnecting": "Đang kết nối...",
+  "callRinging": "Đang đổ chuông...",
+  "callReconnecting": "Đang kết nối lại...",
+  "callReconnectingTimer": "Đang kết nối lại ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Tạm dừng",
+  "callPausedSubtitle": "Cuộc gọi vẫn đang diễn ra",
+  "callRemoteMicMuted": "Micro liên hệ đã tắt",
+  "callMiniControlsMute": "Tắt tiếng",
+  "callMiniControlsUnmute": "Bật tiếng",
+  "callMiniControlsHangUp": "Cúp máy",
+  "callMiniControlsReturn": "Quay lại cuộc gọi",
+  "callNetworkPoor": "Kết nối không ổn định",
+  "callNetworkLost": "Mất kết nối",
+  "callEndedTitle": "Cuộc gọi kết thúc",
+
+  "deviceData": "Dữ liệu thiết bị",
+  "deviceDataSubtitle": "Lưu trữ cục bộ và máy chủ",
+  "localStorage": "Lưu trữ cục bộ",
+  "onThisDevice": "trên thiết bị này",
+  "encryptedDatabases": "Cơ sở dữ liệu mã hóa",
+  "files": "Tệp",
+  "secureKeychain": "Chuỗi khóa bảo mật",
+  "cache": "Bộ nhớ đệm",
+  "contactsDetail": "Tên, ảnh đại diện, khóa Signal",
+  "messagesDetail": "Cuộc trò chuyện mã hóa",
+  "notesDetail": "Ghi chú cá nhân",
+  "signalSessions": "Phiên Signal",
+  "signalSessionsDetail": "Phiên mã hóa",
+  "pendingContacts": "Liên hệ đang chờ",
+  "pendingContactsDetail": "Yêu cầu đang chờ",
+  "callHistory": "Cuộc gọi",
+  "callHistoryDetail": "Lịch sử cuộc gọi",
+  "preferences": "Tùy chọn",
+  "preferencesDetail": "Tùy chọn media và cuộc gọi",
+  "avatars": "Ảnh đại diện",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{không có tệp} =1{1 tệp} other{{count} tệp}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Hoạt động",
+  "notDefined": "Chưa xác định",
+  "biometrics": "Sinh trắc học",
+  "recoveryPhrase": "Cụm từ khôi phục",
+  "identity": "Danh tính (Hash ID)",
+  "signalKeys": "Khóa Signal Protocol",
+  "authTokens": "Token xác thực",
+  "contactNamesCache": "Bộ nhớ đệm tên liên hệ",
+  "remoteConfig": "Cấu hình từ xa",
+  "notificationPrefs": "Tùy chọn thông báo",
+  "serverData": "Dữ liệu máy chủ",
+  "serverDataInfo": "Hash lưu ít dữ liệu nhất trên máy chủ, tất cả đều mã hóa hoặc tạm thời.",
+  "serverProfile": "Hồ sơ",
+  "serverProfileDetail": "Hash ID, khóa công khai, token hộp thư",
+  "serverPrekeys": "Pre-key",
+  "serverPrekeysDetail": "Khóa Signal dùng một lần (đã sử dụng)",
+  "serverMessages": "Tin nhắn đang chuyển",
+  "serverMessagesDetail": "Xóa sau khi giao (tối đa 24 giờ)",
+  "serverMedia": "Media đang chuyển",
+  "serverMediaDetail": "Xóa sau khi tải xuống",
+  "serverContactRequests": "Yêu cầu liên hệ",
+  "serverContactRequestsDetail": "Hết hạn sau 24 giờ",
+  "serverRateLimits": "Giới hạn tốc độ",
+  "serverRateLimitsDetail": "Dữ liệu chống lạm dụng tạm thời",
+  "privacyReassurance": "Hash không thể đọc tin nhắn của bạn. Tất cả dữ liệu đều được mã hóa đầu cuối. Dữ liệu máy chủ tự động bị xóa.",
+
+  "pinTooSimple": "Mã PIN quá đơn giản. Hãy chọn mã an toàn hơn.",
+  "genericError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "accountCreationError": "Không thể tạo tài khoản: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Đã sao chép cụm từ vào clipboard",
+  "copyPhrase": "Sao chép cụm từ",
+  "recoveryPhraseSecurityWarning": "Ghi cụm từ này ở nơi an toàn. Nếu mất PIN mà không có cụm từ này, bạn sẽ mất vĩnh viễn quyền truy cập dữ liệu.",
+
+  "noMessages": "Không có tin nhắn",
+  "deleteAllMessagesWithContact": "Xóa tất cả tin nhắn với {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Xác nhận",
+  "untitled": "Chưa đặt tên",
+  "noSessions": "Không có phiên",
+  "unknownContact": "Liên hệ không xác định",
+  "unnamed": "Chưa đặt tên",
+  "noPendingRequestsAlt": "Không có yêu cầu đang chờ",
+  "deleteAllCallHistory": "Xóa toàn bộ lịch sử cuộc gọi?",
+  "noCalls": "Không có cuộc gọi",
+  "noPreferences": "Không có tùy chọn",
+  "resetAllMediaPrefs": "Đặt lại tất cả tùy chọn media?",
+  "deleteThisAvatar": "Xóa ảnh đại diện này?",
+  "deleteAllAvatars": "Xóa tất cả ảnh đại diện?",
+  "noAvatars": "Không có ảnh đại diện",
+  "deleteThisFile": "Xóa tệp này?",
+  "deleteAllMediaFiles": "Xóa tất cả media?",
+  "noMediaFiles": "Không có media",
+  "outgoing": "Gọi đi",
+  "incoming": "Gọi đến",
+  "ephemeralViewDuration": "Xem tự hủy: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Xem bình thường",
+  "callReasonCompleted": "Hoàn thành",
+  "callReasonMissed": "Nhỡ",
+  "callReasonDeclined": "Từ chối",
+  "callReasonFailed": "Thất bại",
+  "justNow": "Vừa xong",
+  "timeAgoMinutes": "{count} phút trước",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count} giờ trước",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count} ngày trước",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Liên hệ",
+  "messageTypeLocation": "Vị trí",
+  "statusQueued": "Đang chờ",
+  "blockedBadge": "Đã chặn",
+  "protectedBadge": "Được bảo vệ",
+  "messageCount": "{count} tin nhắn",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Xóa?",
+
+  "transferMyAccountTitle": "Chuyển tài khoản",
+  "loadingError": "Lỗi khi tải",
+  "transferToNewDevice": "Chuyển sang thiết bị mới",
+  "transferInstructions": "Trên thiết bị mới, chọn \"Khôi phục tài khoản\" và nhập thông tin này:",
+  "yourHashIdLabel": "Hash ID của bạn",
+  "enterYourPinCode": "Nhập mã PIN",
+  "pinOwnerConfirmation": "Để xác nhận bạn là chủ tài khoản",
+  "scanThisQrCode": "Quét mã QR này",
+  "withYourNewDevice": "Với thiết bị mới",
+  "orEnterTheCode": "hoặc nhập mã",
+  "transferCodeLabel": "Mã chuyển",
+  "proximityVerification": "Xác minh khoảng cách",
+  "bringDevicesCloser": "Đưa hai thiết bị lại gần nhau",
+  "confirmTransferQuestion": "Xác nhận chuyển?",
+  "accountWillBeTransferred": "Tài khoản sẽ được chuyển sang thiết bị mới.\n\nThiết bị này sẽ bị ngắt kết nối vĩnh viễn.",
+  "transferComplete": "Chuyển hoàn tất",
+  "transferSuccessMessage": "Tài khoản đã được chuyển thành công.\n\nỨng dụng này sẽ đóng.",
+  "manualVerification": "Xác minh thủ công",
+  "codeDisplayedOnBothDevices": "Mã hiển thị trên cả hai thiết bị:",
+  "doesCodeMatchNewDevice": "Mã này có khớp với mã trên thiết bị mới không?",
+  "verifiedStatus": "Đã xác minh",
+  "inProgressStatus": "Đang xử lý...",
+  "notAvailableStatus": "Không khả dụng",
+  "codeExpiredRestart": "Mã đã hết hạn. Vui lòng bắt đầu lại.",
+  "codesDoNotMatchCancelled": "Mã không khớp. Đã hủy chuyển.",
+  "transferToDevice": "Đến: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Đã sao chép!",
+  "expiresInTime": "Hết hạn sau {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Thiết bị này không hỗ trợ sinh trắc học",
+  "biometricAuthError": "Lỗi xác thực sinh trắc học",
+  "authenticateForBiometric": "Vui lòng xác thực để bật sinh trắc học",
+  "biometricAuthFailed": "Xác thực sinh trắc học thất bại",
+
+  "forceUpdateTitle": "Cần cập nhật",
+  "forceUpdateMessage": "Có phiên bản Hash mới. Vui lòng cập nhật để tiếp tục.",
+  "updateButton": "Cập nhật",
+  "maintenanceInProgress": "Đang bảo trì",
+  "tryAgainLater": "Vui lòng thử lại sau",
+  "information": "Thông tin",
+
+  "later": "Để sau",
+  "doYouLikeHash": "Bạn thích Hash không?",
+  "yourFeedbackHelps": "Phản hồi của bạn giúp cải thiện ứng dụng",
+  "ratingTerrible": "Tệ",
+  "ratingBad": "Kém",
+  "ratingOk": "Tạm được",
+  "ratingGood": "Tốt",
+  "ratingExcellent": "Xuất sắc!",
+  "donationMessage": "Hash là dự án phi lợi nhuận. Sự hỗ trợ của bạn giúp chúng tôi tiếp tục xây dựng ứng dụng nhắn tin thực sự riêng tư.",
+
+  "recentConnections": "Kết nối gần đây",
+  "loginInfoText": "Mỗi lần mở khóa bằng PIN đều được ghi lại cục bộ. Chỉ giữ 24 giờ gần nhất.",
+  "connectionCount": "Kết nối",
+  "periodLabel": "Khoảng thời gian",
+  "historyLabel": "Lịch sử",
+  "noLoginRecorded": "Không có đăng nhập nào",
+  "nextUnlocksAppearHere": "Các lần mở khóa tiếp theo sẽ hiện ở đây.",
+  "dataLocalOnly": "Dữ liệu này chỉ lưu trên thiết bị và không bao giờ được truyền đi.",
+  "currentSession": "Hiện tại",
+  "todayLabel": "Hôm nay",
+  "yesterdayLabel": "Hôm qua",
+  "justNowLabel": "Vừa xong",
+  "minutesAgoLabel": "{count} phút trước",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours} giờ trước",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}g {minutes}ph trước",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Không có bảo trì nào được lên kế hoạch",
+  "everythingWorkingNormally": "Mọi thứ hoạt động bình thường",
+  "maintenanceTitle": "Bảo trì",
+  "maintenanceActiveLabel": "ĐANG TIẾN HÀNH",
+  "maintenancePlannedLabel": "ĐÃ LÊN KẾ HOẠCH",
+
+  "locking": "Đang khóa...",
+
+  "newMessageNotification": "Tin nhắn mới",
+
+  "secExplainTitle": "Hash bảo vệ bạn như thế nào",
+  "secExplainIntro": "Hash được thiết kế để không ai có thể đọc tin nhắn của bạn.",
+  "secExplainIntroSub": "Kể cả chúng tôi.\nĐây là cách nó hoạt động, giải thích đơn giản.",
+  "secJourneyLabel": "HÀNH TRÌNH",
+  "secJourneyTitle": "Hành trình của tin nhắn",
+  "secJourneySubtitle": "Từ ngón tay bạn đến màn hình liên hệ, mỗi bước đều được bảo vệ. Theo dõi con đường.",
+  "secStep1Title": "Bạn viết tin nhắn",
+  "secStep1Desc": "Bạn gõ \"Xin chào!\" trong ứng dụng. Lúc này, tin nhắn chỉ tồn tại trong bộ nhớ điện thoại. Chưa gửi đi.",
+  "secStep2Title": "Mã hóa với Signal Protocol",
+  "secStep2Desc": "Ngay khi nhấn \"Gửi\", tin nhắn được biến thành chuỗi ký tự không thể hiểu. Giống như tin nhắn bị khóa trong két sắt mà chỉ liên hệ của bạn mới có chìa khóa.",
+  "secStep3Title": "Sealed Sender: phong bì vô hình",
+  "secStep3Desc": "Hãy tưởng tượng gửi thư mà không có địa chỉ người gửi trên phong bì. Đó chính xác là điều Hash làm. Tin nhắn được bỏ vào hòm thư ẩn danh. Máy chủ không biết ai gửi.",
+  "secStep4Title": "Máy chủ không thấy gì",
+  "secStep4Desc": "Máy chủ đóng vai người đưa thư mù. Nó chỉ biết \"ai đó bỏ thứ gì vào hòm #A7X9\". Không biết ai gửi, gửi gì, hay gửi cho ai.",
+  "secStep4Highlight": "Không lưu metadata: không IP, không dấu thời gian, không liên kết giữa người gửi và người nhận.",
+  "secStep5Title": "Liên hệ nhận tin nhắn",
+  "secStep5Desc": "Điện thoại liên hệ lấy nội dung từ hòm thư ẩn danh và giải mã bằng khóa riêng chưa bao giờ rời thiết bị. \"Xin chào!\" hiện trên màn hình.",
+  "secStep6Title": "Tin nhắn biến mất khỏi máy chủ",
+  "secStep6Desc": "Ngay khi liên hệ xác nhận đã nhận, máy chủ xóa vĩnh viễn tin nhắn. Không thùng rác, không lưu trữ, không sao lưu. Tin nhắn chưa đọc cũng tự hủy sau 24 giờ.",
+  "secStep7Title": "Hết hạn cục bộ",
+  "secStep7Desc": "Trên điện thoại liên hệ, tin nhắn tự hủy theo thời gian bạn chọn: ngay sau khi đọc, 5 phút, 1 giờ... bạn quyết định.",
+  "secJourneyConclusion": "Kết quả: không dấu vết trên máy chủ, không dấu vết trên thiết bị. Tin nhắn chỉ tồn tại đủ lâu để được đọc, rồi biến mất.",
+  "secArchLabel": "KIẾN TRÚC",
+  "secArchTitle": "5 lớp bảo vệ",
+  "secArchSubtitle": "Hash không dựa vào một công nghệ duy nhất. Mỗi lớp củng cố các lớp khác. Ngay cả khi một lớp bị xâm phạm, dữ liệu vẫn an toàn.",
+  "secLayer1Title": "Mã hóa đầu cuối",
+  "secLayer1Desc": "Mỗi tin nhắn được mã hóa bằng khóa duy nhất. Đơn giản: ngay cả khi giải mã một tin nhắn, cũng không thể giải mã tin tiếp theo. Mỗi tin nhắn có ổ khóa riêng.",
+  "secLayer1Detail": "Đối với tệp (ảnh, video, tài liệu), Hash sử dụng thêm mã hóa AES-256-GCM. Tệp được mã hóa trước khi rời điện thoại.",
+  "secLayer2Title": "Sealed Sender (ẩn danh mạng)",
+  "secLayer2Desc": "Ứng dụng nhắn tin thông thường gửi tin kèm danh tính. Giống viết tên trên phong bì. Hash dùng hòm thư ẩn danh: máy chủ giao tin mà không biết ai gửi.",
+  "secLayer2Detail": "Kết quả: ngay cả khi dữ liệu máy chủ bị rò rỉ, không thể tái tạo ai nói chuyện với ai.",
+  "secLayer3Title": "Tự động xóa",
+  "secLayer3Desc": "Tin nhắn bị xóa khỏi máy chủ ngay khi xác nhận đã nhận. Ngay cả tin chưa được lấy cũng tự hủy sau 24 giờ.",
+  "secLayer3Detail": "Trên điện thoại, tin nhắn tự hủy theo thời gian bạn chọn: ngay lập tức, 5 phút, 15 phút, 30 phút, 1g, 3g, 6g, hoặc 12g.",
+  "secLayer4Title": "Bảo vệ truy cập cục bộ",
+  "secLayer4Desc": "Ứng dụng được bảo vệ bằng PIN 6 chữ số và/hoặc sinh trắc học (Face ID, vân tay). Sau quá nhiều lần thử sai, ứng dụng khóa với thời gian chờ tăng dần.",
+  "secLayer5Title": "Cơ sở dữ liệu bị khóa",
+  "secLayer5Desc": "Phía máy chủ, không người dùng nào có thể ghi trực tiếp vào cơ sở dữ liệu. Mọi hành động đi qua các hàm bảo mật kiểm tra từng yêu cầu.",
+  "secLayer5Detail": "Giống quầy ngân hàng: bạn không bao giờ chạm vào két. Bạn gửi yêu cầu, hệ thống kiểm tra quyền trước khi thực hiện.",
+  "secVashLabel": "DUY NHẤT TRÊN THẾ GIỚI",
+  "secVashTitle": "Chế độ Vash",
+  "secVashSubtitle": "Hệ thống bảo mật khẩn cấp không tồn tại trong bất kỳ ứng dụng nhắn tin nào khác.",
+  "secVashScenarioTitle": "Hãy tưởng tượng tình huống này",
+  "secVashScenario1": "Ai đó truy cập điện thoại của bạn",
+  "secVashScenario2": "Bị yêu cầu mã PIN",
+  "secVashScenario3": "Bạn muốn xóa tất cả dữ liệu khẩn cấp",
+  "secVashSolutionTitle": "Giải pháp: hai mã PIN",
+  "secVashSolutionDesc": "Bạn cấu hình hai mã PIN khác nhau trong Hash:",
+  "secVashNormalCodeLabel": "Mã bình thường",
+  "secVashNormalCodeDesc": "Mở ứng dụng bình thường với tất cả dữ liệu",
+  "secVashCodeLabel2": "Mã Vash",
+  "secVashCodeDescription": "Mở ứng dụng bình thường... nhưng tất cả dữ liệu bị xóa im lặng trong nền",
+  "secVashWhatHappensTitle": "Điều gì xảy ra tiếp",
+  "secVashWhatHappensDesc": "Ứng dụng mở bình thường. Không cảnh báo, không hoạt ảnh đáng ngờ. Màn hình đơn giản hiển thị ứng dụng trống, như vừa cài đặt.\n\nThực tế, tất cả cuộc trò chuyện, danh bạ và tin nhắn đã bị xóa vĩnh viễn trong tích tắc.",
+  "secCallsLabel": "CUỘC GỌI & TỆP",
+  "secCallsTitle": "Mọi thứ đều mã hóa",
+  "secCallsSubtitle": "Không chỉ tin nhắn. Tất cả mọi thứ đi qua Hash đều được mã hóa đầu cuối.",
+  "secAudioCallTitle": "Cuộc gọi thoại",
+  "secAudioCallDesc": "Mã hóa đầu cuối qua WebRTC. Giọng nói truyền trực tiếp giữa các thiết bị.",
+  "secVideoCallTitle": "Cuộc gọi video",
+  "secVideoCallDesc": "Cùng công nghệ, mỗi luồng mã hóa riêng biệt.",
+  "secPhotosTitle": "Ảnh & video",
+  "secPhotosDesc": "Mã hóa AES-256-GCM trước khi rời điện thoại.",
+  "secDocsTitle": "Tài liệu",
+  "secDocsDesc": "PDF, ZIP, bất kỳ tệp nào. Tên, kích thước và nội dung đều mã hóa.",
+  "secAnonLabel": "ẨN DANH",
+  "secAnonTitle": "Không cần danh tính",
+  "secAnonSubtitle": "Hash không bao giờ hỏi số điện thoại hay email. Bạn được nhận dạng bằng Hash ID duy nhất và ẩn danh.",
+  "secHashIdTitle": "Hash ID của bạn",
+  "secHashIdDesc": "Đây là mã định danh duy nhất. Nó không tiết lộ gì về bạn: không tên, không số, không vị trí. Giống bí danh không thể liên kết với danh tính thật.\n\nĐể thêm liên hệ, chia sẻ Hash ID hoặc quét mã QR. Vậy thôi. Không đồng bộ danh bạ, không gợi ý \"Những người bạn có thể biết\".",
+  "secDataLabel": "DỮ LIỆU",
+  "secDataTitle": "Những gì Hash không biết",
+  "secDataSubtitle": "Cách tốt nhất để bảo vệ dữ liệu là không thu thập nó.",
+  "secNeverCollected": "Không bao giờ thu thập",
+  "secNeverItem1": "Nội dung tin nhắn",
+  "secNeverItem2": "Danh sách liên hệ",
+  "secNeverItem3": "Số điện thoại",
+  "secNeverItem4": "Địa chỉ email",
+  "secNeverItem5": "Địa chỉ IP",
+  "secNeverItem6": "Vị trí",
+  "secNeverItem7": "Metadata (ai nói chuyện với ai)",
+  "secNeverItem8": "Lịch sử cuộc gọi",
+  "secNeverItem9": "Danh bạ điện thoại",
+  "secNeverItem10": "Mã quảng cáo",
+  "secTempStored": "Lưu tạm thời",
+  "secTempItem1": "Hash ID ẩn danh (mã định danh duy nhất)",
+  "secTempItem2": "Khóa mã hóa công khai",
+  "secTempItem3": "Tin nhắn mã hóa đang chuyển (tối đa 24g)",
+  "secTempNote": "Ngay cả dữ liệu tối thiểu này cũng không thể nhận dạng bạn. Hash ID không liên kết với bất kỳ thông tin cá nhân nào.",
+  "secFooterTitle": "Quyền riêng tư, tự do của bạn",
+  "secFooterDesc": "Hash sử dụng cùng công nghệ mã hóa với các ứng dụng chuyên nghiệp nghiêm ngặt nhất. Tin nhắn của bạn được bảo vệ bằng toán học, không phải lời hứa."
+}

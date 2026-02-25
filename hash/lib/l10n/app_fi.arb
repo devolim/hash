@@ -1,0 +1,1037 @@
+{
+  "@@locale": "fi",
+
+  "appName": "Hash",
+  "appTagline": "Ei jälkiä. Ei kompromisseja.",
+
+  "conversations": "Keskustelut",
+  "contacts": "Yhteystiedot",
+  "noConversation": "Ei keskusteluja",
+  "noConversationSubtitle": "Lisää yhteystieto aloittaaksesi turvallisen keskustelun",
+  "pendingRequestsCount": "{count, plural, =1{1 odottava pyyntö} other{{count} odottavaa pyyntöä}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 lähetetty pyyntö odottaa} other{{count} lähetettyä pyyntöä odottaa}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Lisää yhteystieto",
+  "shareApp": "Jaa sovellus",
+  "newMessage": "Uusi viesti",
+  "newConversation": "Lähetä viesti",
+
+  "settings": "Asetukset",
+  "myHashId": "Hash ID:ni",
+  "supportHash": "Tue Hashia",
+  "supportHashSubtitle": "Hash on voittoa tavoittelematon projekti",
+  "donate": "Lahjoita",
+
+  "appearance": "Ulkoasu",
+  "theme": "Teema",
+  "themeAuto": "Automaattinen",
+  "themeAutoSubtitle": "Seuraa järjestelmäasetuksia",
+  "themeDark": "Tumma",
+  "themeLight": "Vaalea",
+  "themeRecommendation": "Tumma teema on suositeltava paremman yksityisyyden vuoksi",
+  "language": "Kieli",
+  "languageAuto": "Automaattinen (järjestelmä)",
+
+  "notifications": "Ilmoitukset",
+  "messages": "Viestit",
+  "calls": "Puhelut",
+  "vibration": "Värinä",
+  "notificationContent": "Ilmoituksen sisältö",
+  "notificationContentFull": "Näytä kaikki",
+  "notificationContentFullDesc": "Yhteystiedon nimi ja viestin esikatselu",
+  "notificationContentName": "Vain nimi",
+  "notificationContentNameDesc": "Näyttää vain yhteystiedon nimen",
+  "notificationContentDiscrete": "Huomaamaton",
+  "notificationContentDiscreteDesc": "Näyttää vain \"Uusi viesti\"",
+
+  "security": "Turvallisuus",
+  "howHashProtectsYou": "Kuinka Hash suojaa sinua",
+  "howHashProtectsYouSubtitle": "Ymmärrä turvallisuutesi",
+  "accountSecurity": "Tilin turvallisuus",
+  "accountSecuritySubtitle": "PIN, biometria, Vash-tila",
+  "blockScreenshots": "Estä kuvakaappaukset",
+  "transferDevice": "Siirrä toiselle laitteelle",
+  "transferDeviceSubtitle": "Siirrä tilisi",
+
+  "pinCode": "PIN-koodi",
+  "changePin": "Vaihda PIN-koodi",
+  "currentPin": "Nykyinen PIN-koodi",
+  "newPin": "Uusi PIN-koodi",
+  "confirmPin": "Vahvista PIN-koodi",
+  "pinChanged": "PIN-koodi vaihdettu",
+  "incorrectPin": "Väärä PIN",
+  "pinsDoNotMatch": "PIN-koodit eivät täsmää",
+
+  "autoLock": "Automaattinen lukitus",
+  "autoLockDelay": "Lukitusviive",
+  "autoLockImmediate": "Välitön",
+  "autoLockMinute": "1 minuutti",
+  "autoLockMinutes": "{count} minuuttia",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash-koodi",
+  "vashModeTitle": "Vash-tila",
+  "vashModeExplanation": "Viimeinen turvaverkkosi.",
+  "vashModeDescription": "Valitset toisen PIN-koodin. Jos sinut koskaan pakotetaan avaamaan Hash, syötä tämä koodi tavallisen PIN-koodisi sijaan.\n\nSovellus avautuu normaalisti, mutta kaikki keskustelusi ja yhteystietosi ovat kadonneet.\n\nKenelle tahansa joka katsoo näyttöäsi, Hash näyttää yksinkertaisesti tyhjältä — kuin et olisi koskaan käyttänyt sitä.",
+  "vashModeIrreversible": "Tämä toiminto on hiljainen ja peruuttamaton.",
+  "chooseVashCode": "Valitse Vash-koodini",
+  "vashCodeInfo": "Toinen PIN-koodi joka avaa sovelluksen normaalisti, mutta tyhjänä.",
+  "vashCodeInfoDetail": "Jos syötät tämän koodin PIN-koodisi sijaan:",
+  "vashDeleteContacts": "Yhteystietosi katoavat",
+  "vashDeleteMessages": "Keskustelusi katoavat",
+  "vashDeleteHistory": "Muistiinpanosi katoavat",
+  "vashKeepId": "Hash-identiteettisi (#XXX-XXX-XXX) pysyy samana",
+  "vashAppearNormal": "Sovellus näyttää normaalilta mutta tyhjältä, kuin uusi. Tämä toiminto on peruuttamaton.",
+  "setupVashCode": "Aseta Vash-koodi",
+  "modifyVashCode": "Muokkaa Vash-koodia",
+  "currentVashCode": "Nykyinen Vash-koodi",
+  "newVashCode": "Uusi Vash-koodi",
+  "confirmVashCode": "Vahvista Vash-koodi",
+  "vashCodeConfigured": "Vash-koodi asetettu",
+  "vashCodeModified": "Vash-koodi muokattu",
+  "vashCodeMustDiffer": "Vash-koodin on oltava eri kuin PIN",
+  "incorrectVashCode": "Väärä Vash-koodi",
+  "vashWhatToDelete": "Mitä Vash-tilan tulisi poistaa?",
+  "vashDeleteContactsOption": "Yhteystiedot",
+  "vashDeleteMessagesOption": "Viestit",
+  "vashDeleteNotesOption": "Muistiinpanot",
+  "vashActivated": "Vash-tila aktivoitu",
+  "vashCreateSubtitle": "Valitse koodi, joka on eri kuin pää-PIN",
+  "vashConfirmSubtitle": "Vahvista Vash-koodisi",
+  "vashCodeSection": "Vash-tila",
+
+  "pinCodeForEntry": "PIN-koodi sovellukseen kirjautumiseen",
+  "biometric": "Biometria",
+  "biometricUnlock": "Avaa sormenjäljellä tai Face ID:llä",
+  "enableBiometric": "Ota biometria käyttöön",
+  "biometricWarningMessage": "Biometrian käyttöönoton jälkeen et voi käyttää Vash-koodia sovellukseen kirjautumiseen.\n\nVoit käyttää Vash-koodia vain jos biometria epäonnistuu (useiden epäonnistuneiden yritysten jälkeen).\n\nHaluatko varmasti jatkaa?",
+  "understood": "Ymmärrän",
+
+  "shareAppSubtitle": "Jaa Hash läheistesi kanssa",
+  "share": "Jaa",
+
+  "danger": "Vaara",
+  "panicButton": "Paniikkipainike",
+  "panicButtonSubtitle": "Poista kaikki tiedot",
+  "deleteAccount": "Poista tilini",
+  "deleteAccountSubtitle": "Peruuttamaton toiminto",
+  "deleteAccountConfirmTitle": "Poista tilini",
+  "deleteAccountConfirmMessage": "Tilisi poistetaan pysyvästi. Tätä toimintoa ei voi peruuttaa.\n\n• Kaikki keskustelusi\n• Kaikki yhteystietosi\n• Hash ID:si\n\nSinun on luotava uusi tili.",
+  "deleteForever": "Poista pysyvästi",
+  "cancel": "Peruuta",
+
+  "panicConfirmTitle": "Paniikkipainike",
+  "panicConfirmMessage": "Tämä toiminto poistaa pysyvästi KAIKKI tietosi:\n\n• Kaikki viestisi\n• Kaikki yhteystietosi\n• Tilisi\n\nOletko täysin varma?",
+  "deleteAll": "POISTA KAIKKI",
+  "dataDeletedForSecurity": "Vash-tila aktivoitu.",
+  "deletionError": "Poistamisvirhe: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Turvallisuutesi",
+  "securityInfo": "• Päästä päähän -salaus (Signal Protocol)\n• Ei tietoja palvelimillamme toimituksen jälkeen\n• Avaimet tallennettu vain laitteellesi\n• PIN-koodia ei koskaan lähetetä palvelimelle",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Tervetuloa",
+  "securityStatement1": "Viestisi ovat suojattuja.",
+  "securityStatement2": "Päästä päähän -salaus.",
+  "securityStatement3": "Ei jälkiä. Ei kompromisseja.",
+  "securityStatement4": "Yksityisyytesi on oikeus.",
+
+  "accessBlocked": "Pääsy estetty",
+  "tooManyAttempts": "Liian monta yritystä. Yritä myöhemmin uudelleen.",
+  "pleaseWait": "Odota",
+  "waitDelay": "Odota viiveen päättymistä",
+  "attemptCount": "Yritys {current}/{max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Yritä uudelleen {time} kuluttua",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Unohditko PIN:n? Käytä palautuslausetta",
+  "useRecoveryPhrase": "Käytä palautuslausetta",
+
+  "recoveryWarningTitle": "Varoitus",
+  "recoveryWarningMessage": "Tilin palautus:",
+  "recoveryDeleteAllMessages": "Poistaa KAIKKI viestisi",
+  "recoveryWaitDelay": "Vaatii 1 tunnin viiveen",
+  "recoveryKeepContacts": "Säilyttää yhteystietosi",
+  "recoveryIrreversible": "Tämä toiminto on peruuttamaton. Viestisi menetetään pysyvästi.",
+  "iUnderstand": "Ymmärrän",
+
+  "accountRecovery": "Tilin palautus",
+  "enterRecoveryPhrase": "Syötä palautuslauseesi 24 sanaa välilyönneillä erotettuina.",
+  "recoveryPhraseHint": "sana1 sana2 sana3 ...",
+  "recover": "Palauta",
+  "recoveryPhraseRequired": "Syötä palautuslauseesi",
+  "recoveryPhrase24Words": "Lauseen on sisällettävä tasan 24 sanaa",
+  "incorrectRecoveryPhrase": "Väärä palautuslause",
+  "recoveryInitError": "Virhe palautuksen alustuksessa",
+
+  "securityDelay": "Turvallisuusviive",
+  "securityDelayMessage": "Turvallisuutesi vuoksi odotusaika vaaditaan ennen kuin voit luoda uuden PIN:n.",
+  "timeRemaining": "Aikaa jäljellä",
+  "messagesDeletedForProtection": "Viestisi on poistettu suojauksesi vuoksi.",
+  "canCloseApp": "Voit sulkea sovelluksen ja palata myöhemmin.",
+
+  "onboardingTitle1": "Tervetuloa Hashiin",
+  "onboardingSubtitle1": "Viestisovellus, joka ei jätä jälkiä",
+  "onboardingTitle2": "Täysi salaus",
+  "onboardingSubtitle2": "Viestisi salataan päästä päähän Signal-protokollalla",
+  "onboardingTitle3": "Ei jälkiä",
+  "onboardingSubtitle3": "Viestit poistetaan palvelimilta toimituksen jälkeen",
+  "onboardingTitle4": "Turvallisuutesi",
+  "onboardingSubtitle4": "PIN-koodi, Vash-tila ja palautuslause",
+
+  "getStarted": "Aloita",
+  "next": "Seuraava",
+  "skip": "Ohita",
+  "alreadyHaveAccount": "Minulla on jo tili",
+  "transferMyAccount": "Siirrä tilini",
+
+  "createPin": "Luo PIN-koodi",
+  "createPinSubtitle": "Tämä koodi suojaa pääsyn sovellukseesi",
+  "confirmYourPin": "Vahvista PIN-koodisi",
+  "confirmPinSubtitle": "Syötä PIN-koodisi uudelleen",
+
+  "saveRecoveryPhrase": "Palautuslause",
+  "saveRecoveryPhraseSubtitle": "Kirjoita nämä 24 sanaa muistiin järjestyksessä. Niiden avulla voit palauttaa tilisi, jos unohdat PIN:si.",
+  "phraseWritten": "Olen kirjoittanut lauseeni",
+  "warningRecoveryPhrase": "Jos menetät tämän lauseen ja unohdat PIN:si, menetät pääsyn tiliisi.",
+
+  "accountTransferred": "Tili siirretty",
+  "accountTransferredMessage": "Tilisi on siirretty toiselle laitteelle. Tämä istunto ei ole enää voimassa.",
+  "accountTransferredInfo": "Jos et aloittanut tätä siirtoa, tilisi on saattanut vaarantua.",
+  "logout": "Kirjaudu ulos",
+
+  "transferAccount": "Siirrä tili",
+  "transferAccountInfo": "Siirrä Hash-tilisi uudelle laitteelle. Nykyinen istuntosi mitätöidään.",
+  "generateTransferCode": "Luo siirtokoodi",
+  "transferCode": "Siirtokoodi",
+  "transferCodeExpires": "Tämä koodi vanhenee {minutes} minuutin kuluttua",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Syötä tämä koodi uudella laitteellasi siirtääksesi tilisi.",
+  "generateNewCode": "Luo uusi koodi",
+
+  "scanQrCode": "Skannaa QR-koodi",
+  "scanQrCodeSubtitle": "Skannaa yhteystiedon QR-koodi lisätäksesi hänet",
+  "qrCodeDetected": "QR-koodi tunnistettu",
+  "invalidQrCode": "Virheellinen QR-koodi",
+  "cameraPermissionRequired": "Kameran käyttöoikeus vaaditaan",
+
+  "myQrCode": "QR-koodini",
+  "myQrCodeSubtitle": "Jaa tämä QR-koodi, jotta yhteystietosi voivat lisätä sinut",
+  "shareQrCode": "Jaa",
+
+  "addContactTitle": "Lisää yhteystieto",
+  "addContactByHashId": "Syötä yhteystietosi Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Hae",
+  "contactNotFound": "Yhteystietoa ei löytynyt",
+  "contactAlreadyAdded": "Tämä yhteystieto on jo listallasi",
+  "contactAdded": "Yhteystieto lisätty",
+
+  "myProfile": "Profiilini",
+  "myProfileSubtitle": "Jaa nämä tiedot, jotta muut voivat lisätä sinut",
+  "temporaryCode": "Väliaikainen koodi",
+  "temporaryCodeExpires": "Vanhenee {time} kuluttua",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Koodi vanhentunut",
+  "generateNewCodeButton": "Uusi koodi",
+  "copyHashId": "Kopioi ID",
+  "copyCode": "Kopioi koodi",
+  "copiedToClipboard": "Kopioitu",
+  "showMyQrCode": "Näytä QR-koodini",
+  "orDivider": "tai",
+  "openScanner": "Avaa skanneri",
+  "addManually": "Lisää manuaalisesti",
+  "contactHashIdLabel": "Yhteystiedon Hash ID",
+  "temporaryCodeLabel": "Väliaikainen koodi",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Pyydä yhteystietoasi luomaan koodi profiilistaan",
+  "verifyAndAdd": "Tarkista ja lisää",
+  "fillAllFields": "Täytä kaikki kentät",
+  "invalidHashIdFormat": "Virheellinen ID-muoto (esim.: 123-456-ABC)",
+  "userNotFound": "Käyttäjää ei löytynyt",
+  "cannotAddYourself": "Et voi lisätä itseäsi",
+  "invalidOrExpiredCode": "Virheellinen tai vanhentunut väliaikainen koodi",
+  "contactFound": "Yhteystieto löytyi!",
+  "howToCallContact": "Millä nimellä haluat kutsua häntä?",
+  "contactNameHint": "Yhteystiedon nimi",
+  "addContactButton": "Lisää",
+
+  "contactDetails": "Yhteystiedon tiedot",
+  "contactName": "Yhteystiedon nimi",
+  "contactHashId": "Hash ID",
+  "addedOn": "Lisätty {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Poista yhteystieto",
+  "deleteContactConfirm": "Poista tämä yhteystieto?",
+  "deleteContactMessage": "Tämä poistaa myös koko keskustelun.",
+  "delete": "Poista",
+
+  "typeMessage": "Kirjoita viesti...",
+  "messageSent": "Lähetetty",
+  "messageDelivered": "Toimitettu",
+  "messageRead": "Luettu",
+  "messageFailed": "Lähetys epäonnistui",
+
+  "now": "Nyt",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}t",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}pv",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Tänään",
+  "yesterday": "Eilen",
+  "dateAtTime": "{date} klo {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Liity mukaani Hashissa! 🔒\n\nSe on todella yksityinen viestisovellus: täysi salaus, ei jälkiä palvelimilla ja paniikkitila tarvittaessa.\n\nLataa sovellus täältä 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Virhe",
+  "ok": "OK",
+  "view": "Näytä",
+  "yes": "Kyllä",
+  "no": "Ei",
+  "save": "Tallenna",
+  "edit": "Muokkaa",
+  "close": "Sulje",
+  "confirm": "Vahvista",
+  "loading": "Ladataan...",
+  "retry": "Yritä uudelleen",
+
+  "pendingRequests": "Odottavat pyynnöt",
+  "noPendingRequests": "Ei odottavia pyyntöjä",
+  "pendingRequestsSubtitle": "Nämä henkilöt haluavat lisätä sinut",
+  "requestFromUser": "Pyyntö käyttäjältä {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Vanhenee {days} päivän kuluttua",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Hyväksy",
+  "rejectRequest": "Hylkää",
+  "requestAccepted": "Pyyntö hyväksytty",
+  "requestRejected": "Pyyntö hylätty",
+  "requestSent": "Pyyntö lähetetty!",
+  "requestSentSubtitle": "Pyyntösi on lähetetty. Käyttäjän on hyväksyttävä se ennen kuin voitte keskustella.",
+  "requestAlreadyPending": "Pyyntö on jo odottamassa",
+  "requestAlreadySentByOther": "Tämä henkilö on jo lähettänyt sinulle pyynnön",
+  "addByHashId": "Lisää Hash ID:llä",
+  "addByHashIdSubtitle": "Syötä yhteystiedon Hash ID ja väliaikainen koodi",
+  "enterTemporaryCode": "Syötä 6-numeroinen koodi",
+  "sendRequest": "Lähetä pyyntö",
+  "acceptContactTitle": "Hyväksy yhteystieto",
+  "acceptContactSubtitle": "Voit antaa hänelle mukautetun nimen",
+  "leaveEmptyForHashId": "Jätä tyhjäksi käyttääksesi Hash ID:tä",
+  "firstName": "Etunimi",
+  "lastName": "Sukunimi",
+  "notes": "Muistiinpanot",
+  "notesHint": "Henkilökohtaiset muistiinpanot tästä yhteystiedosta",
+
+  "photoOptional": "Kuva (valinnainen)",
+  "contactNameOptional": "Nimi (valinnainen)",
+  "notesOptional": "Muistiinpanot (valinnainen)",
+  "storedLocally": "Tallennettu vain laitteellesi",
+  "encryptedMessageLabel": "Salattu viesti",
+  "identityMessageHint": "Kuka olet? Mistä tunnette toisenne?",
+  "messageWillBeSentEncrypted": "Tämä viesti salataan ja lähetetään vastaanottajalle",
+  "sendRequestButton": "Lähetä pyyntö",
+  "requestExpiresIn24h": "Pyyntö vanhenee 24 tunnissa, jos sitä ei hyväksytä",
+  "theyAlreadySentYouRequest": "Tämä henkilö on jo lähettänyt sinulle pyynnön",
+
+  "requests": "Pyynnöt",
+  "receivedRequests": "Vastaanotetut",
+  "sentRequests": "Lähetetyt",
+  "noSentRequests": "Ei lähetettyjä pyyntöjä",
+  "cancelRequest": "Peruuta",
+  "deleteRequest": "Poista pyyntö",
+  "requestCancelled": "Pyyntö peruutettu",
+  "sentTo": "Lähetetty käyttäjälle {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Vanhenee {time} kuluttua",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Vastaanotettu {time} sitten",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Viesti pyytäjältä",
+
+  "copy": "Kopioi",
+  "messageInfo": "Viestin tiedot",
+
+  "messageDirection": "Suunta",
+  "messageSentByYou": "Sinun lähettämä",
+  "messageReceived": "Vastaanotettu",
+  "messageSentAt": "Lähetetty",
+  "messageStatus": "Tila",
+  "messageReadAt": "Luettu",
+  "messageType": "Tyyppi",
+  "messageSize": "Koko",
+  "messageExpiresAt": "Vanhenee",
+  "messageEncrypted": "Päästä päähän salattu",
+
+  "messageStatusSending": "Lähetetään...",
+  "messageStatusSent": "Lähetetty",
+  "messageStatusDelivered": "Toimitettu",
+  "messageStatusRead": "Luettu",
+  "messageStatusFailed": "Epäonnistui",
+
+  "serverStatus": "Palvelin",
+  "onServer": "Odottaa toimitusta",
+  "deletedFromServer": "Poistettu",
+
+  "messageTypeText": "Teksti",
+  "messageTypeImage": "Kuva",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Ääni",
+  "messageTypeFile": "Tiedosto",
+
+  "indefinitely": "Toistaiseksi",
+  "hoursShort": "t",
+  "minutesShort": "min",
+  "hours": "tuntia",
+  "minutes": "minuuttia",
+  "seconds": "sekuntia",
+
+  "ephemeralMessages": "Katoavat viestit",
+  "ephemeralMessagesDescription": "Viestit poistetaan automaattisesti tämän ajan jälkeen",
+  "ephemeralImmediate": "Välitön (lukemisen jälkeen)",
+  "ephemeralImmediateDesc": "Poistetaan lukemisen jälkeen",
+  "ephemeralMyPreference": "Oma valintani",
+  "ephemeralMyPreferenceDesc": "Käytä yleisasetusta",
+  "ephemeralDefaultSetting": "Viestin kesto",
+  "ephemeralChooseDefault": "Suositeltu",
+  "ephemeral30Seconds": "30 sekuntia",
+  "ephemeral30SecondsDesc": "Poistetaan 30s lukemisen jälkeen",
+  "ephemeral5Minutes": "5 minuuttia",
+  "ephemeral5MinutesDesc": "Poistetaan 5min lukemisen jälkeen",
+  "ephemeral1Hour": "1 tunti",
+  "ephemeral1HourDesc": "Poistetaan 1t lukemisen jälkeen",
+  "ephemeral3Hours": "3 tuntia",
+  "ephemeral6Hours": "6 tuntia",
+  "ephemeral6HoursDesc": "Poistetaan 6t lukemisen jälkeen",
+  "ephemeral12Hours": "12 tuntia",
+  "ephemeral24Hours": "24 tuntia",
+  "ephemeral24HoursDesc": "Poistetaan 24t lukemisen jälkeen",
+  "customDuration": "Mukautettu kesto",
+
+  "muteNotifications": "Mykistä ilmoitukset",
+  "muteDescription": "Et saa ilmoituksia tästä yhteystiedosta",
+  "mutedUntil": "Mykistetty {time} asti",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Ilmoitukset käytössä",
+  "unmute": "Poista mykistys",
+
+  "notificationSound": "Ilmoitusääni",
+  "defaultSound": "Oletus",
+
+  "chatSettings": "Keskustelun asetukset",
+  "bubbleColor": "Kuplan väri",
+  "backgroundColor": "Taustaväri",
+  "backgroundImage": "Taustakuva",
+  "chatBackground": "Keskustelun tausta",
+  "customColor": "Mukautettu",
+  "defaultColor": "Oletus",
+  "imageSelected": "Kuva valittu",
+  "noImage": "Ei kuvaa",
+  "color": "Väri",
+  "image": "Kuva",
+  "tapToSelectImage": "Napauta valitaksesi kuvan",
+  "changeImage": "Vaihda kuva",
+  "previewMessageReceived": "Hei!",
+  "previewMessageSent": "Moikka!",
+
+  "messageAction": "Viesti",
+  "callAction": "Puhelu",
+  "videoAction": "Video",
+
+  "personalNotes": "Henkilökohtaiset muistiinpanot",
+  "addNotes": "Lisää muistiinpanoja...",
+  "noNotes": "Ei muistiinpanoja",
+
+  "messageNotifications": "Viesti-ilmoitukset",
+  "callNotifications": "Puheluilmoitukset",
+
+  "useGradient": "Käytä liukuväriä",
+  "gradientStart": "Alkuväri",
+  "gradientEnd": "Loppuväri",
+  "preview": "Esikatselu",
+  "reset": "Nollaa",
+
+  "securityNumber": "Turvanumero",
+  "securityNumberDescription": "Varmista, että turvanumero vastaa käyttäjän {name} laitetta",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Tarkista päästä päähän -salaus",
+  "tapToCopy": "Napauta kopioidaksesi",
+  "howToVerify": "Kuinka tarkistaa",
+  "verifyStep1": "Tapaa yhteystietosi henkilökohtaisesti tai soita hänelle",
+  "verifyStep2": "Vertaa turvanumeroita tai skannaa QR-koodit",
+  "verifyStep3": "Jos ne täsmäävät, keskustelusi on turvallinen",
+  "scanToVerify": "Skannaa tarkistaaksesi",
+
+  "reportSpam": "Ilmianna roskaposti",
+  "reportSpamSubtitle": "Ilmianna tämä yhteystieto roskapostiksi",
+  "reportSpamDescription": "Tämä yhteystieto ilmiannetaan anonyymisti. Henkilöllisyyttäsi ei jaeta. Oletko varma?",
+  "report": "Ilmianna",
+  "spamReported": "Roskaposti ilmiannettu",
+  "reportError": "Ilmiannon lähettäminen epäonnistui. Yritä uudelleen.",
+  "reportRateLimited": "Olet saavuttanut tämän päivän ilmiantojen enimmäismäärän.",
+
+  "blockContact": "Estä yhteystieto",
+  "blockContactDescription": "Tämä yhteystieto ei voi enää lähettää sinulle viestejä tai soittaa sinulle. Häntä ei ilmoiteta.",
+  "unblockContact": "Poista esto",
+  "unblockContactDescription": "Tämä yhteystieto voi jälleen lähettää sinulle viestejä ja soittaa sinulle.",
+  "contactBlocked": "Yhteystieto estetty",
+  "contactUnblocked": "Esto poistettu",
+  "contactIsBlocked": "Tämä yhteystieto on estetty",
+  "unblock": "Poista esto",
+
+  "deleteContactSubtitle": "Poista tämä yhteystieto ja keskustelu",
+  "confirmWithPin": "Vahvista PIN:llä",
+  "enterPinToConfirm": "Syötä PIN vahvistaaksesi tämän toiminnon",
+
+  "mute1Hour": "1 tunti",
+  "mute8Hours": "8 tuntia",
+  "mute1Day": "1 päivä",
+  "mute1Week": "1 viikko",
+  "muteAlways": "Aina",
+  "muteExplanation": "Et saa ilmoituksia tästä yhteystiedosta",
+  "howItWorks": "Miten se toimii",
+  "ephemeralExplanation1": "Viestit poistetaan palvelimelta heti vastaanoton jälkeen.",
+  "ephemeralExplanation2": "Tämä asetus määrittää, milloin viestit katoavat SINUN puhelimestasi lukemisen jälkeen.",
+  "ephemeralExplanation3": "Yhteystiedollasi on oma asetuksensa omalle puhelimelleen.",
+
+  "showCallsInRecents": "Näytä viimeaikaisissa puheluissa",
+  "showCallsInRecentsSubtitle": "Hash-puhelut näkyvät puhelimen puheluhistoriassa",
+  "feedback": "Palaute",
+
+  "profilePhoto": "Profiilikuva",
+  "takePhoto": "Ota kuva",
+  "chooseFromGallery": "Valitse galleriasta",
+  "removePhoto": "Poista kuva",
+
+  "viewContactHashId": "Näytä yhteystiedon tunniste",
+  "hashIdPartiallyMasked": "Osittain peitetty turvallisuutesi ja yhteystietosi yksityisyyden vuoksi",
+
+  "addFirstContact": "Lisää ensimmäinen yhteystietosi",
+  "addFirstContactSubtitle": "Jaa QR-koodisi tai skannaa ystäväsi koodi",
+  "directory": "Yhteystietoluettelo",
+  "noContacts": "Ei yhteystietoja",
+  "noContactsSubtitle": "Lisää yhteystieto aloittaaksesi",
+  "sendMessageAction": "Lähetä viesti",
+  "audioCall": "Äänipuhelu",
+  "videoCall": "Videopuhelu",
+  "viewProfile": "Näytä profiili",
+  "deleteContactDirectory": "Poista yhteystieto",
+  "scanShort": "Skannaa",
+  "addShort": "Lisää",
+  "deleteContactConfirmName": "Haluatko varmasti poistaa käyttäjän {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Ei muistiinpanoja",
+  "noNotesSubtitle": "Luo ensimmäinen muistiinpanosi",
+  "newNote": "Uusi muistiinpano",
+  "editNote": "Muokkaa muistiinpanoa",
+  "deleteNote": "Poista muistiinpano",
+  "deleteNoteConfirm": "Haluatko varmasti poistaa tämän muistiinpanon?",
+  "noteTitle": "Otsikko",
+  "noteContent": "Sisältö",
+  "addItem": "Lisää kohde",
+  "pinNote": "Kiinnitä",
+  "unpinNote": "Irrota",
+  "noteColor": "Väri",
+  "notePassword": "Salasana",
+  "setPassword": "Aseta salasana",
+  "changePassword": "Vaihda salasana",
+  "removePassword": "Poista salasana",
+  "enterPassword": "Syötä salasana",
+  "confirmPassword": "Vahvista salasana",
+  "passwordPin": "PIN-koodi",
+  "passwordText": "Tekstisalasana",
+  "protectedNote": "Suojattu muistiinpano",
+  "incorrectPassword": "Väärä salasana",
+  "passwordSet": "Salasana asetettu",
+  "passwordRemoved": "Salasana poistettu",
+  "notesBiometric": "Face ID muistiinpanoille",
+  "notesBiometricSubtitle": "Vaadi biometrinen tunnistautuminen suojattujen muistiinpanojen avaamiseen",
+  "textNote": "Tekstimuistiinpano",
+  "checklistNote": "Tarkistuslista",
+  "tasksProgress": "{checked}/{total} tehtävää",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Tallennettu",
+  "searchNotes": "Hae muistiinpanoja",
+  "legalConsent": "Oikeudellinen suostumus",
+  "confirmAge13": "Vahvistan olevani vähintään 13-vuotias",
+  "acceptLegalStart": "Hyväksyn ",
+  "privacyPolicy": "Tietosuojakäytännön",
+  "termsOfService": "Käyttöehdot",
+  "andThe": " ja ",
+  "continueButton": "Jatka",
+  "mustAcceptTerms": "Sinun on hyväksyttävä molemmat ehdot jatkaaksesi",
+
+  "support": "Tuki",
+  "contactSupport": "Ota yhteyttä tukeen",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Ilmianna väärinkäyttö",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Oikeudelliset tiedot",
+  "legalEntity": "Oikeushenkilö",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Kiinnitä",
+  "unpinConversation": "Irrota",
+  "hideConversation": "Poista syötteestä",
+  "deleteConversation": "Poista keskustelu",
+  "deleteConversationConfirm": "Syötä PIN vahvistaaksesi kaikkien viestien poistamisen",
+  "noConversations": "Ei vielä keskusteluja",
+  "startConversation": "Aloita",
+
+  "microphonePermissionRequired": "Mikrofonin käyttöoikeus vaaditaan",
+  "microphonePermissionExplanation": "Hash tarvitsee mikrofonin puheluihin.",
+  "cameraPermissionExplanation": "Hash tarvitsee kameran videopuheluihin.",
+  "openSettings": "Avaa asetukset",
+
+  "callConnecting": "Yhdistetään...",
+  "callRinging": "Soi...",
+  "callReconnecting": "Yhdistetään uudelleen...",
+  "callReconnectingTimer": "Yhdistetään uudelleen ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Tauolla",
+  "callPausedSubtitle": "Puhelu on edelleen käynnissä",
+  "callRemoteMicMuted": "Yhteystiedon mikrofoni on mykistetty",
+  "callMiniControlsMute": "Mykistä",
+  "callMiniControlsUnmute": "Poista mykistys",
+  "callMiniControlsHangUp": "Lopeta puhelu",
+  "callMiniControlsReturn": "Palaa puheluun",
+  "callNetworkPoor": "Epävakaa yhteys",
+  "callNetworkLost": "Yhteys katkesi",
+  "callEndedTitle": "Puhelu päättyi",
+
+  "deviceData": "Laitteen tiedot",
+  "deviceDataSubtitle": "Paikallinen ja palvelimen tallennus",
+  "localStorage": "Paikallinen tallennus",
+  "onThisDevice": "tällä laitteella",
+  "encryptedDatabases": "Salatut tietokannat",
+  "files": "Tiedostot",
+  "secureKeychain": "Suojattu avainketju",
+  "cache": "Välimuisti",
+  "contactsDetail": "Nimet, avatarit, Signal-avaimet",
+  "messagesDetail": "Salatut keskustelut",
+  "notesDetail": "Henkilökohtaiset muistiinpanot",
+  "signalSessions": "Signal-istunnot",
+  "signalSessionsDetail": "Salausistunnot",
+  "pendingContacts": "Odottavat yhteystiedot",
+  "pendingContactsDetail": "Odottavat pyynnöt",
+  "callHistory": "Puhelut",
+  "callHistoryDetail": "Puheluhistoria",
+  "preferences": "Asetukset",
+  "preferencesDetail": "Media- ja puheluasetukset",
+  "avatars": "Avatarit",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{ei tiedostoja} =1{1 tiedosto} other{{count} tiedostoa}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktiivinen",
+  "notDefined": "Ei määritelty",
+  "biometrics": "Biometria",
+  "recoveryPhrase": "Palautuslause",
+  "identity": "Identiteetti (Hash ID)",
+  "signalKeys": "Signal Protocol -avaimet",
+  "authTokens": "Todennustunnisteet",
+  "contactNamesCache": "Yhteystietonimien välimuisti",
+  "remoteConfig": "Etäkonfiguraatio",
+  "notificationPrefs": "Ilmoitusasetukset",
+  "serverData": "Palvelimen tiedot",
+  "serverDataInfo": "Hash säilyttää minimaalisen määrän tietoja palvelimella, kaikki salattuja tai väliaikaisia.",
+  "serverProfile": "Profiili",
+  "serverProfileDetail": "Hash ID, julkiset avaimet, postilaatikon tunniste",
+  "serverPrekeys": "Esiavaimet",
+  "serverPrekeysDetail": "Kertakäyttöiset Signal-avaimet (kulutetut)",
+  "serverMessages": "Kuljetettavat viestit",
+  "serverMessagesDetail": "Poistetaan toimituksen jälkeen (maks. 24t)",
+  "serverMedia": "Kuljetettava media",
+  "serverMediaDetail": "Poistetaan latauksen jälkeen",
+  "serverContactRequests": "Yhteystietopyynnöt",
+  "serverContactRequestsDetail": "Vanhenevat 24 tunnin jälkeen",
+  "serverRateLimits": "Nopeusrajoitukset",
+  "serverRateLimitsDetail": "Väliaikaiset väärinkäytön estotiedot",
+  "privacyReassurance": "Hash ei voi lukea viestejäsi. Kaikki tiedot on salattu päästä päähän. Palvelimen tiedot poistetaan automaattisesti.",
+
+  "pinTooSimple": "Tämä PIN on liian yksinkertainen. Valitse turvallisempi koodi.",
+  "genericError": "Tapahtui virhe. Yritä uudelleen.",
+  "accountCreationError": "Tilin luonti epäonnistui: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Lause kopioitu leikepöydälle",
+  "copyPhrase": "Kopioi lause",
+  "recoveryPhraseSecurityWarning": "Kirjoita tämä lause turvalliseen paikkaan. Jos menetät PIN:si ilman tätä lausetta, menetät pysyvästi pääsyn tietoihisi.",
+
+  "noMessages": "Ei viestejä",
+  "deleteAllMessagesWithContact": "Poista kaikki viestit käyttäjän {name} kanssa?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Vahvistus",
+  "untitled": "Nimetön",
+  "noSessions": "Ei istuntoja",
+  "unknownContact": "Tuntematon yhteystieto",
+  "unnamed": "Nimetön",
+  "noPendingRequestsAlt": "Ei odottavia pyyntöjä",
+  "deleteAllCallHistory": "Poista koko puheluhistoria?",
+  "noCalls": "Ei puheluita",
+  "noPreferences": "Ei asetuksia",
+  "resetAllMediaPrefs": "Nollaa kaikki media-asetukset?",
+  "deleteThisAvatar": "Poista tämä avatar?",
+  "deleteAllAvatars": "Poista kaikki avatarit?",
+  "noAvatars": "Ei avatareita",
+  "deleteThisFile": "Poista tämä tiedosto?",
+  "deleteAllMediaFiles": "Poista kaikki media?",
+  "noMediaFiles": "Ei mediaa",
+  "outgoing": "Lähtevä",
+  "incoming": "Saapuva",
+  "ephemeralViewDuration": "Katoava näkymä: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normaali näkymä",
+  "callReasonCompleted": "Päättynyt",
+  "callReasonMissed": "Vastaamaton",
+  "callReasonDeclined": "Hylätty",
+  "callReasonFailed": "Epäonnistunut",
+  "justNow": "Juuri nyt",
+  "timeAgoMinutes": "{count} min sitten",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}t sitten",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}pv sitten",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Yhteystieto",
+  "messageTypeLocation": "Sijainti",
+  "statusQueued": "Jonossa",
+  "blockedBadge": "Estetty",
+  "protectedBadge": "Suojattu",
+  "messageCount": "{count} viesti(ä)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Poista?",
+
+  "transferMyAccountTitle": "Siirrä tilini",
+  "loadingError": "Latausvirhe",
+  "transferToNewDevice": "Siirrä uudelle laitteelle",
+  "transferInstructions": "Valitse uudella laitteellasi \"Palauta tilini\" ja syötä nämä tiedot:",
+  "yourHashIdLabel": "Hash ID:si",
+  "enterYourPinCode": "Syötä PIN-koodisi",
+  "pinOwnerConfirmation": "Vahvistaaksesi, että olet tämän tilin omistaja",
+  "scanThisQrCode": "Skannaa tämä QR-koodi",
+  "withYourNewDevice": "Uudella laitteellasi",
+  "orEnterTheCode": "tai syötä koodi",
+  "transferCodeLabel": "Siirtokoodi",
+  "proximityVerification": "Läheisyysvahvistus",
+  "bringDevicesCloser": "Tuo molemmat laitteet lähemmäksi",
+  "confirmTransferQuestion": "Vahvista siirto?",
+  "accountWillBeTransferred": "Tilisi siirretään uudelle laitteelle.\n\nTämä laite poistetaan pysyvästi käytöstä.",
+  "transferComplete": "Siirto valmis",
+  "transferSuccessMessage": "Tilisi on siirretty onnistuneesti.\n\nTämä sovellus sulkeutuu nyt.",
+  "manualVerification": "Manuaalinen vahvistus",
+  "codeDisplayedOnBothDevices": "Koodi näytetään molemmilla laitteilla:",
+  "doesCodeMatchNewDevice": "Vastaako tämä koodi uuden laitteen koodia?",
+  "verifiedStatus": "Vahvistettu",
+  "inProgressStatus": "Käynnissä...",
+  "notAvailableStatus": "Ei saatavilla",
+  "codeExpiredRestart": "Koodi on vanhentunut. Aloita uudelleen.",
+  "codesDoNotMatchCancelled": "Koodit eivät täsmää. Siirto peruutettu.",
+  "transferToDevice": "Kohde: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Kopioitu!",
+  "expiresInTime": "Vanhenee {time} kuluttua",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometria ei ole saatavilla tällä laitteella",
+  "biometricAuthError": "Virhe biometrisessä tunnistautumisessa",
+  "authenticateForBiometric": "Tunnistaudu ottaaksesi biometrian käyttöön",
+  "biometricAuthFailed": "Biometrinen tunnistautuminen epäonnistui",
+
+  "forceUpdateTitle": "Päivitys vaaditaan",
+  "forceUpdateMessage": "Uusi versio Hashista on saatavilla. Päivitä jatkaaksesi.",
+  "updateButton": "Päivitä",
+  "maintenanceInProgress": "Huolto käynnissä",
+  "tryAgainLater": "Yritä myöhemmin uudelleen",
+  "information": "Tiedot",
+
+  "later": "Myöhemmin",
+  "doYouLikeHash": "Pidätkö Hashista?",
+  "yourFeedbackHelps": "Palautteesi auttaa meitä parantamaan sovellusta",
+  "ratingTerrible": "Kauhea",
+  "ratingBad": "Huono",
+  "ratingOk": "Ok",
+  "ratingGood": "Hyvä",
+  "ratingExcellent": "Erinomainen!",
+  "donationMessage": "Hash on voittoa tavoittelematon projekti. Tukesi auttaa meitä jatkamaan todella yksityisen viestisovelluksen rakentamista.",
+
+  "recentConnections": "Viimeaikaiset yhteydet",
+  "loginInfoText": "Jokainen PIN-avaus kirjataan paikallisesti. Vain viimeiset 24 tuntia säilytetään.",
+  "connectionCount": "Yhteys/yhteyksiä",
+  "periodLabel": "Ajanjakso",
+  "historyLabel": "Historia",
+  "noLoginRecorded": "Ei kirjattuja kirjautumisia",
+  "nextUnlocksAppearHere": "Seuraavat avaukset näkyvät täällä.",
+  "dataLocalOnly": "Nämä tiedot tallennetaan vain laitteellesi eikä niitä koskaan lähetetä.",
+  "currentSession": "Nykyinen",
+  "todayLabel": "Tänään",
+  "yesterdayLabel": "Eilen",
+  "justNowLabel": "Juuri nyt",
+  "minutesAgoLabel": "{count} min sitten",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}t sitten",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}t {minutes}min sitten",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Ei suunniteltuja huoltokatkoja",
+  "everythingWorkingNormally": "Kaikki toimii normaalisti",
+  "maintenanceTitle": "Huolto",
+  "maintenanceActiveLabel": "KÄYNNISSÄ",
+  "maintenancePlannedLabel": "SUUNNITELTU",
+
+  "locking": "Lukitaan...",
+
+  "newMessageNotification": "Uusi viesti",
+
+  "secExplainTitle": "Kuinka Hash suojaa sinua",
+  "secExplainIntro": "Hash on suunniteltu niin, ettei kukaan voi lukea viestejäsi.",
+  "secExplainIntroSub": "Ei edes me.\nNäin se toimii, yksinkertaisesti selitettynä.",
+  "secJourneyLabel": "MATKA",
+  "secJourneyTitle": "Viestisi matka",
+  "secJourneySubtitle": "Sormestasi yhteystietosi näytölle, jokainen vaihe on suojattu. Seuraa polkua.",
+  "secStep1Title": "Kirjoitat viestisi",
+  "secStep1Desc": "Kirjoitat \"Hei!\" sovelluksessa. Tässä vaiheessa viesti on olemassa vain puhelimesi muistissa. Mitään ei ole lähetetty.",
+  "secStep2Title": "Salaus Signal-protokollalla",
+  "secStep2Desc": "Heti kun painat \"Lähetä\", viestisi muuttuu käsittämättömiksi merkeiksi. On kuin viestisi lukittaisiin kassakaappiin, jonka avain on vain yhteystiedollasi.",
+  "secStep3Title": "Sealed Sender: näkymätön kirjekuori",
+  "secStep3Desc": "Kuvittele lähettäväsi kirjeen postitse, mutta ilman lähettäjän osoitetta kirjekuoressa. Juuri niin Hash tekee. Viesti pudotetaan anonyymiin postilaatikkoon. Palvelin ei tiedä, kuka sen lähetti.",
+  "secStep4Title": "Palvelin ei näe mitään",
+  "secStep4Desc": "Palvelin toimii sokeana postinkantajana. Se tietää vain \"joku pudotti jotain postilaatikkoon #A7X9\". Se ei tiedä kuka lähetti, mitä se on tai kenelle se on tarkoitettu.",
+  "secStep4Highlight": "Ei tallennettuja metatietoja: ei IP-osoitetta, ei aikaleimaa, ei yhteyttä lähettäjän ja vastaanottajan välillä.",
+  "secStep5Title": "Yhteystietosi vastaanottaa viestin",
+  "secStep5Desc": "Yhteystietosi puhelin noutaa sisällön anonyymistä postilaatikostaan ja purkaa viestin salauksen yksityisellä avaimellaan, joka ei ole koskaan poistunut hänen laitteeltaan. \"Hei!\" ilmestyy hänen näytölleen.",
+  "secStep6Title": "Viesti katoaa palvelimelta",
+  "secStep6Desc": "Heti kun yhteystietosi vahvistaa vastaanoton, palvelin poistaa viestin pysyvästi. Ei roskakoria, ei arkistoa, ei varmuuskopiota. Jopa lukemattomat viestit tuhotaan automaattisesti 24 tunnin jälkeen.",
+  "secStep7Title": "Paikallinen vanheneminen",
+  "secStep7Desc": "Yhteystietosi puhelimessa viesti tuhoutuu itsestään valitsemasi keston mukaan: heti lukemisen jälkeen, 5 minuuttia, 1 tunti... sinä päätät.",
+  "secJourneyConclusion": "Tulos: nolla jälkiä palvelimella, nolla jälkiä laitteilla. Viesti oli olemassa vain sen lukemiseen tarvittavan ajan, sitten se katosi.",
+  "secArchLabel": "ARKKITEHTUURI",
+  "secArchTitle": "5 suojakerrosta",
+  "secArchSubtitle": "Hash ei luota yhteen teknologiaan. Jokainen kerros vahvistaa muita. Vaikka yksi kerros murrettaisiin, tietosi pysyvät turvassa.",
+  "secLayer1Title": "Päästä päähän -salaus",
+  "secLayer1Desc": "Jokainen viesti salataan ainutlaatuisella avaimella. Yksinkertaisesti: vaikka joku purkaa yhden viestin salauksen, hän ei pysty purkamaan seuraavaa. Jokaisella viestillä on oma lukkonsa.",
+  "secLayer1Detail": "Tiedostoille (kuvat, videot, dokumentit) Hash käyttää lisäksi AES-256-GCM-salausta. Tiedosto salataan ennen kuin se lähtee puhelimestasi.",
+  "secLayer2Title": "Sealed Sender (verkon anonymiteetti)",
+  "secLayer2Desc": "Tavalliset viestisovellukset lähettävät viestisi henkilöllisyytesi kanssa. Se on kuin kirjoittaisit nimesi kirjekuoreen. Hash käyttää anonyymejä postilaatikoita: palvelin toimittaa viestin tietämättä, kuka sen lähetti.",
+  "secLayer2Detail": "Tulos: jopa palvelimen tietomurron tapauksessa on mahdotonta selvittää, kuka puhuu kenelle.",
+  "secLayer3Title": "Automaattinen poisto",
+  "secLayer3Desc": "Viestit poistetaan palvelimelta heti vastaanoton vahvistuksen jälkeen. Vaikka viestiä ei koskaan noudeta, se tuhotaan automaattisesti 24 tunnin jälkeen.",
+  "secLayer3Detail": "Puhelimessasi viestit tuhoutuvat itsestään valitsemasi keston mukaan: heti, 5 min, 15 min, 30 min, 1t, 3t, 6t tai 12t.",
+  "secLayer4Title": "Paikallinen pääsynsuojaus",
+  "secLayer4Desc": "Sovellus on suojattu 6-numeroisella PIN-koodilla ja/tai biometrialla (Face ID, sormenjälki). Liian monen epäonnistuneen yrityksen jälkeen sovellus lukittuu kasvavalla viiveellä jokaisen epäonnistumisen jälkeen.",
+  "secLayer5Title": "Lukittu tietokanta",
+  "secLayer5Desc": "Palvelinpuolella kukaan käyttäjä ei voi kirjoittaa suoraan tietokantaan. Kaikki toiminnot kulkevat suojattujen funktioiden kautta, jotka tarkistavat jokaisen pyynnön.",
+  "secLayer5Detail": "Se on kuin pankin palvelutiski: et koskaan kosketa holviin itse. Teet pyynnön, ja järjestelmä tarkistaa, että sinulla on oikeus ennen toimintaa.",
+  "secVashLabel": "AINUTLAATUINEN MAAILMASSA",
+  "secVashTitle": "Vash-tila",
+  "secVashSubtitle": "Hätäturvallisuusjärjestelmä, jota ei ole missään muussa viestisovelluksessa.",
+  "secVashScenarioTitle": "Kuvittele tämä tilanne",
+  "secVashScenario1": "Joku pääsee käsiksi puhelimeesi",
+  "secVashScenario2": "Sinulta kysytään PIN-koodiasi",
+  "secVashScenario3": "Haluat poistaa kaikki tietosi kiireellisesti",
+  "secVashSolutionTitle": "Ratkaisu: kaksi PIN-koodia",
+  "secVashSolutionDesc": "Asetat kaksi eri PIN-koodia Hashissa:",
+  "secVashNormalCodeLabel": "Normaali koodi",
+  "secVashNormalCodeDesc": "Avaa sovelluksen normaalisti kaikilla tiedoillasi",
+  "secVashCodeLabel2": "Vash-koodi",
+  "secVashCodeDescription": "Avaa sovelluksen normaalisti... mutta kaikki tietosi poistetaan hiljaa taustalla",
+  "secVashWhatHappensTitle": "Mitä tapahtuu seuraavaksi",
+  "secVashWhatHappensDesc": "Sovellus avautuu normaalisti. Ei hälytystä, ei epäilyttävää animaatiota. Näyttö näyttää yksinkertaisesti tyhjän sovelluksen, kuin olisit juuri asentanut sen.\n\nTodellisuudessa kaikki keskustelusi, yhteystietosi ja viestisi on peruuttamattomasti poistettu sekunnin murto-osassa.",
+  "secCallsLabel": "PUHELUT & TIEDOSTOT",
+  "secCallsTitle": "Kaikki on salattua",
+  "secCallsSubtitle": "Eivät vain viestit. Aivan kaikki Hashin kautta kulkeva on päästä päähän salattua.",
+  "secAudioCallTitle": "Äänipuhelut",
+  "secAudioCallDesc": "Päästä päähän salattu WebRTC:n kautta. Ääni siirretään suoraan laitteiden välillä.",
+  "secVideoCallTitle": "Videopuhelut",
+  "secVideoCallDesc": "Sama teknologia, jokainen virta salattu erikseen.",
+  "secPhotosTitle": "Kuvat & videot",
+  "secPhotosDesc": "Salattu AES-256-GCM:llä ennen kuin ne lähtevät puhelimestasi.",
+  "secDocsTitle": "Dokumentit",
+  "secDocsDesc": "PDF, ZIP, mikä tahansa tiedosto. Nimi, koko ja sisältö salattu.",
+  "secAnonLabel": "ANONYMITEETTI",
+  "secAnonTitle": "Ei vaadittua henkilöllisyyttä",
+  "secAnonSubtitle": "Hash ei koskaan kysy puhelinnumeroasi tai sähköpostiasi. Sinut tunnistetaan ainutlaatuisella ja anonyymillä Hash ID:llä.",
+  "secHashIdTitle": "Hash ID:si",
+  "secHashIdDesc": "Tämä on ainutlaatuinen tunnisteesi. Se ei paljasta mitään sinusta: ei nimeäsi, ei numeroasi, ei sijaintiasi. Se on kuin pseudonyymi, jota on mahdotonta yhdistää todelliseen henkilöllisyyteesi.\n\nLisätäksesi yhteystiedon jaat Hash ID:si tai skannaat QR-koodin. Siinä kaikki. Ei synkronoitua osoitekirjaa, ei \"Henkilöt jotka saatat tuntea\" -ehdotuksia.",
+  "secDataLabel": "TIEDOT",
+  "secDataTitle": "Mitä Hash ei tiedä",
+  "secDataSubtitle": "Paras tapa suojata tietojasi on olla keräämättä niitä.",
+  "secNeverCollected": "Ei koskaan kerätty",
+  "secNeverItem1": "Viestien sisältö",
+  "secNeverItem2": "Yhteystietoluettelo",
+  "secNeverItem3": "Puhelinnumero",
+  "secNeverItem4": "Sähköpostiosoite",
+  "secNeverItem5": "IP-osoite",
+  "secNeverItem6": "Sijainti",
+  "secNeverItem7": "Metatiedot (kuka puhuu kenelle)",
+  "secNeverItem8": "Puheluhistoria",
+  "secNeverItem9": "Osoitekirja",
+  "secNeverItem10": "Mainostunnisteet",
+  "secTempStored": "Väliaikaisesti tallennettu",
+  "secTempItem1": "Anonyymi Hash ID (ainutlaatuinen tunniste)",
+  "secTempItem2": "Julkiset salausavaimet",
+  "secTempItem3": "Salatut viestit kuljetettavana (maks. 24t)",
+  "secTempNote": "Edes nämä minimaaliset tiedot eivät voi tunnistaa sinua. Hash ID:täsi ei ole yhdistetty mihinkään henkilötietoon.",
+  "secFooterTitle": "Yksityisyytesi, vapautesi",
+  "secFooterDesc": "Hash käyttää samoja salausteknologioita kuin vaativimmat ammattisovellukset. Viestisi ovat matematiikan suojaamia, eivät lupausten."
+}

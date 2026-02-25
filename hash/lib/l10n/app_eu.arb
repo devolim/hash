@@ -1,0 +1,1039 @@
+{
+  "@@locale": "eu",
+  "appName": "Hash",
+  "appTagline": "Arrastorik zero. Konpromisorik zero.",
+  "conversations": "Txatak",
+  "contacts": "Kontaktuak",
+  "noConversation": "Txatik ez",
+  "noConversationSubtitle": "Gehitu kontaktu bat modu seguruan txateatzen hasteko",
+  "pendingRequestsCount": "{count, plural, =1{Eskaera 1 zain} other{{count} eskaera zain}}",
+  "sentRequestsCount": "{count, plural, =1{Bidalitako eskaera 1 zain} other{Bidalitako {count} eskaera zain}}",
+  "addContact": "Gehitu kontaktua",
+  "shareApp": "Partekatu aplikazioa",
+  "newMessage": "Mezu berria",
+  "newConversation": "Bidali mezua",
+  "settings": "Ezarpenak",
+  "myHashId": "Nire Hash ID",
+  "supportHash": "Lagundu Hash",
+  "supportHashSubtitle": "Hash irabazi-asmorik gabeko proiektua da",
+  "donate": "Dohaintza egin",
+  "appearance": "Itxura",
+  "theme": "Gaia",
+  "themeAuto": "Automatikoa",
+  "themeAutoSubtitle": "Sistemaren ezarpenak jarraitzen ditu",
+  "themeDark": "Iluna",
+  "themeLight": "Argia",
+  "themeRecommendation": "Gai iluna gomendatzen da pribatutasun hobea lortzeko",
+  "language": "Hizkuntza",
+  "languageAuto": "Automatikoa (sistema)",
+  "notifications": "Jakinarazpenak",
+  "messages": "Mezuak",
+  "calls": "Deiak",
+  "vibration": "Bibrazioa",
+  "notificationContent": "Jakinarazpenaren edukia",
+  "notificationContentFull": "Dena erakutsi",
+  "notificationContentFullDesc": "Kontaktuaren izena eta mezuaren aurrebista",
+  "notificationContentName": "Izena bakarrik",
+  "notificationContentNameDesc": "Kontaktuaren izena bakarrik erakusten du",
+  "notificationContentDiscrete": "Diskretua",
+  "notificationContentDiscreteDesc": "\"Mezu berria\" bakarrik erakusten du",
+  "security": "Segurtasuna",
+  "howHashProtectsYou": "Nola babesten zaitu Hash-ek",
+  "howHashProtectsYouSubtitle": "Ulertu zure segurtasuna",
+  "accountSecurity": "Kontuaren segurtasuna",
+  "accountSecuritySubtitle": "PIN, biometrikoak, Vash modua",
+  "blockScreenshots": "Pantaila-argazkiak blokeatu",
+  "transferDevice": "Beste gailu batera transferitu",
+  "transferDeviceSubtitle": "Migratu zure kontua",
+  "pinCode": "PIN kodea",
+  "changePin": "Aldatu PIN kodea",
+  "currentPin": "Oraingo PIN kodea",
+  "newPin": "PIN kode berria",
+  "confirmPin": "Berretsi PIN kodea",
+  "pinChanged": "PIN kodea aldatuta",
+  "incorrectPin": "PIN okerra",
+  "pinsDoNotMatch": "PIN kodeak ez datoz bat",
+  "autoLock": "Auto-blokeoa",
+  "autoLockDelay": "Blokeo-atzerapena",
+  "autoLockImmediate": "Berehalakoa",
+  "autoLockMinute": "Minutu 1",
+  "autoLockMinutes": "{count} minutu",
+  "vashCode": "Vash kodea",
+  "vashModeTitle": "Vash modua",
+  "vashModeExplanation": "Zure azken segurtasun-sarea.",
+  "vashModeDescription": "Bigarren PIN kode bat aukeratuko duzu. Inoiz Hash irekitzera behartzen bazaituzte, sartu kode hau zure ohiko PIN-aren ordez.\n\nAplikazioa normaltasunez irekiko da, baina zure elkarrizketa eta kontaktu guztiak desagertu egingo dira.\n\nZure pantailari begiratzen dion edonorentzat, Hash hutsik agertzen da — inoiz erabili ez bazenu bezala.",
+  "vashModeIrreversible": "Ekintza hau isila eta itzulezina da.",
+  "chooseVashCode": "Aukeratu Vash kodea",
+  "vashCodeInfo": "Bigarren PIN kode bat, aplikazioa normaltasunez baina hutsik irekitzen duena.",
+  "vashCodeInfoDetail": "Kode hau zure PIN-aren ordez sartzen baduzu:",
+  "vashDeleteContacts": "Zure kontaktuak desagertzen dira",
+  "vashDeleteMessages": "Zure elkarrizketak desagertzen dira",
+  "vashDeleteHistory": "Zure oharrak desagertzen dira",
+  "vashKeepId": "Zure Hash identitatea (#XXX-XXX-XXX) bera izaten jarraitzen du",
+  "vashAppearNormal": "Aplikazioa normal baina hutsik agertzen da, berria balitz bezala. Ekintza hau itzulezina da.",
+  "setupVashCode": "Konfiguratu Vash kodea",
+  "modifyVashCode": "Aldatu Vash kodea",
+  "currentVashCode": "Oraingo Vash kodea",
+  "newVashCode": "Vash kode berria",
+  "confirmVashCode": "Berretsi Vash kodea",
+  "vashCodeConfigured": "Vash kodea konfiguratuta",
+  "vashCodeModified": "Vash kodea aldatuta",
+  "vashCodeMustDiffer": "Vash kodeak PIN-etik ezberdina izan behar du",
+  "incorrectVashCode": "Vash kode okerra",
+  "vashWhatToDelete": "Zer desagertu behar du Vash moduak?",
+  "vashDeleteContactsOption": "Kontaktuak",
+  "vashDeleteMessagesOption": "Mezuak",
+  "vashDeleteNotesOption": "Oharrak",
+  "vashActivated": "Vash modua aktibatuta",
+  "vashCreateSubtitle": "Aukeratu zure PIN nagusitik ezberdina den kodea",
+  "vashConfirmSubtitle": "Berretsi zure Vash kodea",
+  "vashCodeSection": "Vash modua",
+  "danger": "Arriskua",
+  "panicButton": "Izubide-botoia",
+  "panicButtonSubtitle": "Ezabatu datu guztiak",
+  "deleteAccount": "Ezabatu nire kontua",
+  "deleteAccountSubtitle": "Ekintza itzulezina",
+  "deleteAccountConfirmTitle": "Ezabatu nire kontua",
+  "deleteAccountConfirmMessage": "Zure kontua betirako ezabatuko da. Ekintza hau itzulezina da.\n\n- Zure txat guztiak\n- Zure kontaktu guztiak\n- Zure Hash ID\n\nKontu berri bat sortu beharko duzu.",
+  "deleteForever": "Betirako ezabatu",
+  "cancel": "Utzi",
+  "panicConfirmTitle": "Izubide-botoia",
+  "panicConfirmMessage": "Ekintza honek zure datu GUZTIAK betirako ezabatuko ditu:\n\n- Zure mezu guztiak\n- Zure kontaktu guztiak\n- Zure kontua\n\nZiur al zaude?",
+  "deleteAll": "GUZTIAK EZABATU",
+  "dataDeletedForSecurity": "Vash modua aktibatuta.",
+  "deletionError": "Ezabatze-errorea: {error}",
+  "yourSecurity": "Zure segurtasuna",
+  "securityInfo": "- Muturretik muturrerako enkriptazioa (Signal Protocol)\n- Entregaren ondoren daturik gure zerbitzarietan ez\n- Gakoak zure gailuan bakarrik gordetzen dira\n- PIN kodea ez da inoiz zerbitzarira bidaltzen",
+  "version": "Hash v{version}",
+  "welcome": "Ongi etorri",
+  "securityStatement1": "Zure mezuak babestuta daude.",
+  "securityStatement2": "Muturretik muturrerako enkriptazioa.",
+  "securityStatement3": "Arrastorik ez. Konpromisorik ez.",
+  "securityStatement4": "Zure pribatutasuna eskubide bat da.",
+  "accessBlocked": "Sarbidea blokeatuta",
+  "tooManyAttempts": "Saiakera gehiegi",
+  "pleaseWait": "Itxaron mesedez",
+  "waitDelay": "Itxaron atzerapena amaitu arte",
+  "attemptCount": "Saiakera {current}/{max}",
+  "retryIn": "Saiatu berriro {time}-n",
+  "forgotPin": "PIN-a ahaztu? Erabili berreskuratze-esaldia",
+  "useRecoveryPhrase": "Erabili berreskuratze-esaldia",
+  "recoveryWarningTitle": "Kontuz",
+  "recoveryWarningMessage": "Kontuaren berreskuratzeak:",
+  "recoveryDeleteAllMessages": "Zure mezu GUZTIAK ezabatuko ditu",
+  "recoveryWaitDelay": "Ordubeteko atzerapena eskatuko du",
+  "recoveryKeepContacts": "Zure kontaktuak mantenduko ditu",
+  "recoveryIrreversible": "Ekintza hau itzulezina da. Zure mezuak betirako galduko dira.",
+  "iUnderstand": "Ulertzen dut",
+  "accountRecovery": "Kontuaren berreskuratzea",
+  "enterRecoveryPhrase": "Sartu zure berreskuratze-esaldiaren 24 hitzak, zuriuneez bereizita.",
+  "recoveryPhraseHint": "hitza1 hitza2 hitza3 ...",
+  "recover": "Berreskuratu",
+  "recoveryPhraseRequired": "Sartu zure berreskuratze-esaldia",
+  "recoveryPhrase24Words": "Esaldiak zehazki 24 hitz izan behar ditu",
+  "incorrectRecoveryPhrase": "Berreskuratze-esaldi okerra",
+  "recoveryInitError": "Errorea berreskuratzea hasieratzerakoan",
+  "securityDelay": "Segurtasun-atzerapena",
+  "securityDelayMessage": "Zure segurtasunerako, itxaron-aldi bat beharrezkoa da PIN berria sortu baino lehen.",
+  "timeRemaining": "Geratzen den denbora",
+  "messagesDeletedForProtection": "Zure mezuak ezabatu dira zure babeserako.",
+  "canCloseApp": "Aplikazioa itxi dezakezu eta geroago itzuli.",
+  "onboardingTitle1": "Ongi etorri Hash-era",
+  "onboardingSubtitle1": "Arrastorik uzten ez duen mezularia",
+  "onboardingTitle2": "Enkriptazio osoa",
+  "onboardingSubtitle2": "Zure mezuak muturretik muturrera enkriptatuta daude Signal Protocol-ekin",
+  "onboardingTitle3": "Arrastorik ez",
+  "onboardingSubtitle3": "Mezuak zerbitzarietatik ezabatzen dira entregatzean",
+  "onboardingTitle4": "Zure segurtasuna",
+  "onboardingSubtitle4": "PIN kodea, Vash modua eta berreskuratze-esaldia",
+  "getStarted": "Hasi",
+  "next": "Hurrengoa",
+  "skip": "Saltatu",
+  "alreadyHaveAccount": "Dagoeneko kontua daukat",
+  "transferMyAccount": "Transferitu nire kontua",
+  "createPin": "Sortu PIN kodea",
+  "createPinSubtitle": "Kode honek zure aplikaziorako sarbidea babestuko du",
+  "confirmYourPin": "Berretsi zure PIN kodea",
+  "confirmPinSubtitle": "Sartu berriro zure PIN kodea",
+  "saveRecoveryPhrase": "Berreskuratze-esaldia",
+  "saveRecoveryPhraseSubtitle": "Idatzi 24 hitz hauek ordenan. Zure kontua berreskuratzeko aukera emango dizute PIN-a ahazten baduzu.",
+  "phraseWritten": "Nire esaldia idatzi dut",
+  "warningRecoveryPhrase": "Esaldi hau galtzen baduzu eta PIN-a ahazten baduzu, zure konturako sarbidea galduko duzu.",
+  "accountTransferred": "Kontua transferituta",
+  "accountTransferredMessage": "Zure kontua beste gailu batera transferitu da. Saio hau jada ez da baliozkoa.",
+  "accountTransferredInfo": "Transferentzia hau zuk hasi ez baduzu, zure kontua arriskuan egon daiteke.",
+  "logout": "Saioa itxi",
+  "transferAccount": "Transferitu kontua",
+  "transferAccountInfo": "Transferitu zure Hash kontua gailu berri batera. Zure oraingo saioa baliogabetuko da.",
+  "generateTransferCode": "Sortu transferentzia-kodea",
+  "transferCode": "Transferentzia-kodea",
+  "transferCodeExpires": "Kode honek {minutes} minututan iraungitzen du",
+  "enterCodeOnNewDevice": "Sartu kode hau zure gailu berrian kontua transferitzeko.",
+  "generateNewCode": "Sortu kode berria",
+  "scanQrCode": "Eskaneatu QR code",
+  "scanQrCodeSubtitle": "Eskaneatu kontaktu baten QR code-a gehitzeko",
+  "qrCodeDetected": "QR code detektatuta",
+  "invalidQrCode": "QR code baliogabea",
+  "cameraPermissionRequired": "Kameraren baimena beharrezkoa da",
+  "myQrCode": "Nire QR code",
+  "myQrCodeSubtitle": "Partekatu QR code hau zure kontaktuek zu gehitu ahal izateko",
+  "shareQrCode": "Partekatu",
+  "addContactTitle": "Gehitu kontaktua",
+  "addContactByHashId": "Sartu zure kontaktuaren Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Bilatu",
+  "contactNotFound": "Kontaktua ez da aurkitu",
+  "contactAlreadyAdded": "Kontaktu hau dagoeneko zure zerrendan dago",
+  "contactAdded": "Kontaktua gehituta",
+  "myProfile": "Nire profila",
+  "myProfileSubtitle": "Partekatu informazio hau besteek zu gehitu ahal izateko",
+  "temporaryCode": "Aldi baterako kodea",
+  "temporaryCodeExpires": "{time}-n iraungitzen da",
+  "codeExpired": "Kodea iraungi da",
+  "generateNewCodeButton": "Kode berria",
+  "copyHashId": "Kopiatu ID",
+  "copyCode": "Kopiatu kodea",
+  "copiedToClipboard": "Kopiatuta",
+  "showMyQrCode": "Erakutsi nire QR code",
+  "orDivider": "edo",
+  "openScanner": "Ireki eskanerra",
+  "addManually": "Gehitu eskuz",
+  "contactHashIdLabel": "Kontaktuaren Hash ID",
+  "temporaryCodeLabel": "Aldi baterako kodea",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Eskatu zure kontaktuari kodea bere profiletik sortzeko",
+  "verifyAndAdd": "Egiaztatu eta gehitu",
+  "fillAllFields": "Bete eremu guztiak",
+  "invalidHashIdFormat": "ID formatu baliogabea (adib.: 123-456-ABC)",
+  "userNotFound": "Erabiltzailea ez da aurkitu",
+  "cannotAddYourself": "Ezin duzu zure burua gehitu",
+  "invalidOrExpiredCode": "Aldi baterako kode baliogabea edo iraungitua",
+  "contactFound": "Kontaktua aurkituta!",
+  "howToCallContact": "Nola nahi duzu deitzea?",
+  "contactNameHint": "Kontaktuaren izena",
+  "addContactButton": "Gehitu",
+  "contactDetails": "Kontaktuaren xehetasunak",
+  "contactName": "Kontaktuaren izena",
+  "contactHashId": "Hash ID",
+  "addedOn": "{date}-(e)an gehituta",
+  "deleteContact": "Ezabatu kontaktua",
+  "deleteContactConfirm": "Kontaktu hau ezabatu?",
+  "deleteContactMessage": "Honek txat osoa ere ezabatuko du.",
+  "delete": "Ezabatu",
+  "typeMessage": "Idatzi mezua...",
+  "messageSent": "Bidalita",
+  "messageDelivered": "Entregatuta",
+  "messageRead": "Irakurrita",
+  "messageFailed": "Bidalketa huts egin du",
+  "now": "Orain",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}o",
+  "daysAgo": "{count}e",
+  "today": "Gaur",
+  "yesterday": "Atzo",
+  "dateAtTime": "{date} {time}-(e)tan",
+  "shareMessage": "Batu niri Hash-en! Egiazko mezu pribatua da: enkriptazio osoa, arrastorik zerbitzarietan ez eta izubide-modua behar izanez gero.\n\nDeskargatu aplikazioa hemen\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Errorea",
+  "ok": "Ados",
+  "view": "Ikusi",
+  "yes": "Bai",
+  "no": "Ez",
+  "save": "Gorde",
+  "edit": "Editatu",
+  "close": "Itxi",
+  "confirm": "Berretsi",
+  "loading": "Kargatzen...",
+  "retry": "Saiatu berriro",
+  "pendingRequests": "Zain dauden eskaerak",
+  "noPendingRequests": "Zain dagoen eskaera",
+  "pendingRequestsSubtitle": "Pertsona hauek zu gehitu nahi zaituzte",
+  "requestFromUser": "{hashId}-(r)en eskaera",
+  "requestExpiresIn": "{days} egunetan iraungitzen da",
+  "acceptRequest": "Onartu",
+  "rejectRequest": "Ukatu",
+  "requestAccepted": "Eskaera onartuta",
+  "requestRejected": "Eskaera ukatuta",
+  "requestSent": "Eskaera bidalita!",
+  "requestSentSubtitle": "Zure eskaera bidali da. Erabiltzaileak onartu behar du txateatzen hasi baino lehen.",
+  "requestAlreadyPending": "Eskaera bat dagoeneko zain dago",
+  "requestAlreadySentByOther": "Pertsona honek dagoeneko eskaera bat bidali dizu",
+  "addByHashId": "Gehitu Hash ID bidez",
+  "addByHashIdSubtitle": "Sartu kontaktuaren Hash ID eta aldi baterako kodea",
+  "enterTemporaryCode": "Sartu 6 digituko kodea",
+  "sendRequest": "Bidali eskaera",
+  "acceptContactTitle": "Onartu kontaktua",
+  "acceptContactSubtitle": "Izen pertsonalizatu bat eman diezaiekezu",
+  "leaveEmptyForHashId": "Utzi hutsik Hash ID erabiltzeko",
+  "firstName": "Izena",
+  "lastName": "Abizena",
+  "notes": "Oharrak",
+  "notesHint": "Ohar pertsonalak kontaktu honi buruz",
+  "photoOptional": "Argazkia (aukerakoa)",
+  "contactNameOptional": "Izena (aukerakoa)",
+  "notesOptional": "Oharrak (aukerakoa)",
+  "storedLocally": "Zure gailuan bakarrik gordeta",
+  "encryptedMessageLabel": "Mezu enkriptatua",
+  "identityMessageHint": "Nor zara? Nola ezagutzen zarete?",
+  "messageWillBeSentEncrypted": "Mezu hau enkriptatu eta hartzaileari bidaliko zaio",
+  "sendRequestButton": "Bidali eskaera",
+  "requestExpiresIn24h": "Eskaera 24 ordutan iraungitzen da onartzen ez bada",
+  "theyAlreadySentYouRequest": "Pertsona honek dagoeneko eskaera bat bidali dizu",
+  "requests": "Eskaerak",
+  "receivedRequests": "Jasotakoak",
+  "sentRequests": "Bidalitakoak",
+  "noSentRequests": "Bidalitako eskaerarik ez",
+  "cancelRequest": "Utzi",
+  "deleteRequest": "Ezabatu eskaera",
+  "requestCancelled": "Eskaera bertan behera utzita",
+  "sentTo": "{hashId}-(r)i bidalita",
+  "expiresIn": "{time}-n iraungitzen da",
+  "receivedAgo": "Duela {time} jasota",
+  "messageFromRequester": "Eskatzailearen mezua",
+  "copy": "Kopiatu",
+  "messageInfo": "Mezuaren informazioa",
+  "messageDirection": "Norabidea",
+  "messageSentByYou": "Zuk bidalita",
+  "messageReceived": "Jasota",
+  "messageSentAt": "Bidalita",
+  "messageStatus": "Egoera",
+  "messageReadAt": "Irakurrita",
+  "messageType": "Mota",
+  "messageSize": "Tamaina",
+  "messageExpiresAt": "Iraungitzen da",
+  "messageEncrypted": "Muturretik muturrerako enkriptazioa",
+  "messageStatusSending": "Bidaltzen...",
+  "messageStatusSent": "Bidalita",
+  "messageStatusDelivered": "Entregatuta",
+  "messageStatusRead": "Irakurrita",
+  "messageStatusFailed": "Huts eginda",
+  "serverStatus": "Zerbitzaria",
+  "onServer": "Entregaren zain",
+  "deletedFromServer": "Ezabatuta",
+  "messageTypeText": "Testua",
+  "messageTypeImage": "Irudia",
+  "messageTypeVideo": "Bideoa",
+  "messageTypeVoice": "Ahotsa",
+  "messageTypeFile": "Fitxategia",
+  "indefinitely": "Mugagabe",
+  "hoursShort": "o",
+  "minutesShort": "min",
+  "hours": "ordu",
+  "minutes": "minutu",
+  "seconds": "segundo",
+  "ephemeralMessages": "Mezu iragankorrak",
+  "ephemeralMessagesDescription": "Mezuak automatikoki ezabatzen dira denbora honen ondoren",
+  "ephemeralImmediate": "Berehalakoa (irakurri ondoren)",
+  "ephemeralImmediateDesc": "Irakurri bezain laster ezabatzen da",
+  "ephemeralMyPreference": "Nire lehentasuna",
+  "ephemeralMyPreferenceDesc": "Erabili ezarpen orokorra",
+  "ephemeralDefaultSetting": "Mezuaren iraupena",
+  "ephemeralChooseDefault": "Gomendatua",
+  "ephemeral30Seconds": "30 segundo",
+  "ephemeral5Minutes": "5 minutu",
+  "ephemeral1Hour": "Ordu 1",
+  "ephemeral3Hours": "3 ordu",
+  "ephemeral6Hours": "6 ordu",
+  "ephemeral12Hours": "12 ordu",
+  "ephemeral24Hours": "24 ordu",
+  "customDuration": "Iraupena pertsonalizatua",
+  "muteNotifications": "Isilduta jakinarazpenak",
+  "muteDescription": "Ez duzu kontaktu honen jakinarazpenik jasoko",
+  "mutedUntil": "Isilduta {time} arte",
+  "notMuted": "Jakinarazpenak gaituta",
+  "unmute": "Desblokeatu soinua",
+  "notificationSound": "Jakinarazpen-soinua",
+  "defaultSound": "Lehenetsia",
+  "chatSettings": "Txataren ezarpenak",
+  "bubbleColor": "Burbuilaren kolorea",
+  "backgroundColor": "Atzeko kolorea",
+  "backgroundImage": "Atzeko irudia",
+  "chatBackground": "Txataren atzeko planoa",
+  "customColor": "Pertsonalizatua",
+  "defaultColor": "Lehenetsia",
+  "imageSelected": "Irudia hautatuta",
+  "noImage": "Irudirik ez",
+  "color": "Kolorea",
+  "image": "Irudia",
+  "tapToSelectImage": "Sakatu irudia hautatzeko",
+  "changeImage": "Aldatu irudia",
+  "previewMessageReceived": "Kaixo!",
+  "previewMessageSent": "Aupa!",
+  "messageAction": "Mezua",
+  "callAction": "Deia",
+  "videoAction": "Bideoa",
+  "personalNotes": "Ohar pertsonalak",
+  "addNotes": "Gehitu oharrak...",
+  "noNotes": "Oharrik ez",
+  "messageNotifications": "Mezu-jakinarazpenak",
+  "callNotifications": "Dei-jakinarazpenak",
+  "useGradient": "Erabili gradientea",
+  "gradientStart": "Hasierako kolorea",
+  "gradientEnd": "Amaierako kolorea",
+  "preview": "Aurrebista",
+  "reset": "Berrezarri",
+  "securityNumber": "Segurtasun-zenbakia",
+  "securityNumberDescription": "Egiaztatu segurtasun-zenbakia {name}-(r)en gailuarekin bat datorrela",
+  "verifyEncryption": "Egiaztatu muturretik muturrerako enkriptazioa",
+  "tapToCopy": "Sakatu kopiatzeko",
+  "howToVerify": "Nola egiaztatu",
+  "verifyStep1": "Aurrez aurre bildu zure kontaktuarekin edo deitu iezaiozu",
+  "verifyStep2": "Konparatu segurtasun-zenbakiak edo eskaneatu QR code-ak",
+  "verifyStep3": "Bat badatoz, zure txata segurua da",
+  "scanToVerify": "Eskaneatu egiaztatzeko",
+  "reportSpam": "Salatu spam-a",
+  "reportSpamSubtitle": "Salatu kontaktu hau spam gisa",
+  "reportSpamDescription": "Honek kontaktu hau anonimoki salatuko du. Zure identitatea ez da partekatuko. Ziur zaude?",
+  "report": "Salatu",
+  "spamReported": "Spam-a salatuta",
+  "reportError": "Huts egin du salaketa bidaltzean. Saiatu berriro.",
+  "reportRateLimited": "Gaurko salaketen muga maximora iritsi zara.",
+  "blockContact": "Blokeatu kontaktua",
+  "blockContactDescription": "Kontaktu honek ezin izango dizu mezurik bidali edo deitu. Ez zaio jakinaraziko.",
+  "unblockContact": "Desblokeatu kontaktua",
+  "unblockContactDescription": "Kontaktu honek berriro mezuak bidali eta deitu ahal izango dizu.",
+  "contactBlocked": "Kontaktua blokeatuta",
+  "contactUnblocked": "Kontaktua desblokeatuta",
+  "contactIsBlocked": "Kontaktu hau blokeatuta dago",
+  "unblock": "Desblokeatu",
+  "deleteContactSubtitle": "Ezabatu kontaktu hau eta txata",
+  "confirmWithPin": "Berretsi PIN-arekin",
+  "enterPinToConfirm": "Sartu zure PIN-a ekintza hau berresteko",
+  "mute1Hour": "Ordu 1",
+  "mute8Hours": "8 ordu",
+  "mute1Day": "Egun 1",
+  "mute1Week": "Aste 1",
+  "muteAlways": "Beti",
+  "muteExplanation": "Ez duzu kontaktu honen jakinarazpenik jasoko",
+  "howItWorks": "Nola funtzionatzen du",
+  "ephemeralExplanation1": "Mezuak zerbitzaritik ezabatzen dira jaso bezain laster.",
+  "ephemeralExplanation2": "Ezarpen honek ZURE telefonotik mezuak noiz desagertzen diren definitzen du irakurri ondoren.",
+  "ephemeralExplanation3": "Zure kontaktuak bere ezarpena du bere telefonorako.",
+  "profilePhoto": "Profilaren argazkia",
+  "takePhoto": "Atera argazkia",
+  "chooseFromGallery": "Aukeratu galeriatik",
+  "removePhoto": "Kendu argazkia",
+  "viewContactHashId": "Ikusi kontaktuaren identifikadorea",
+  "hashIdPartiallyMasked": "Partzialki maskaratua zure segurtasunerako eta zure kontaktuaren pribatutasunerako",
+  "addFirstContact": "Gehitu zure lehen kontaktua",
+  "addFirstContactSubtitle": "Partekatu zure QR code edo eskaneatu lagun batena",
+  "directory": "Direktorioa",
+  "noContacts": "Kontakturik ez",
+  "noContactsSubtitle": "Gehitu kontaktu bat hasteko",
+  "sendMessageAction": "Bidali mezua",
+  "audioCall": "Audio-deia",
+  "videoCall": "Bideo-deia",
+  "viewProfile": "Ikusi profila",
+  "deleteContactDirectory": "Ezabatu kontaktua",
+  "scanShort": "Eskaneatu",
+  "addShort": "Gehitu",
+  "deleteContactConfirmName": "Ziur {name} ezabatu nahi duzula?",
+  "noNotesTitle": "Oharrik ez",
+  "noNotesSubtitle": "Sortu zure lehen oharra",
+  "newNote": "Ohar berria",
+  "editNote": "Editatu oharra",
+  "deleteNote": "Ezabatu oharra",
+  "deleteNoteConfirm": "Ziur ohar hau ezabatu nahi duzula?",
+  "noteTitle": "Izenburua",
+  "noteContent": "Edukia",
+  "addItem": "Gehitu elementua",
+  "pinNote": "Finkatu",
+  "unpinNote": "Desfinkatu",
+  "noteColor": "Kolorea",
+  "notePassword": "Pasahitza",
+  "setPassword": "Ezarri pasahitza",
+  "changePassword": "Aldatu pasahitza",
+  "removePassword": "Kendu pasahitza",
+  "enterPassword": "Sartu pasahitza",
+  "confirmPassword": "Berretsi pasahitza",
+  "passwordPin": "PIN kodea",
+  "passwordText": "Testu-pasahitza",
+  "protectedNote": "Ohar babestua",
+  "incorrectPassword": "Pasahitz okerra",
+  "passwordSet": "Pasahitza ezarrita",
+  "passwordRemoved": "Pasahitza kenduta",
+  "notesBiometric": "Face ID oharretarako",
+  "notesBiometricSubtitle": "Eskatu autentifikazio biometrikoa ohar babestuak irekitzeko",
+  "textNote": "Testu-oharra",
+  "checklistNote": "Egiaztapen-zerrenda",
+  "tasksProgress": "{checked}/{total} zeregin",
+  "autoSaved": "Gordeta",
+  "searchNotes": "Bilatu oharrak",
+  "legalConsent": "Lege-adostasuna",
+  "confirmAge13": "Gutxienez 13 urte ditudala baieztatzen dut",
+  "acceptLegalStart": "Onartzen dut ",
+  "privacyPolicy": "Pribatutasun Politika",
+  "termsOfService": "Erabilera Baldintzak",
+  "andThe": " eta ",
+  "continueButton": "Jarraitu",
+  "mustAcceptTerms": "Bi baldintzak onartu behar dituzu jarraitzeko",
+  "support": "Laguntza",
+  "contactSupport": "Jarri harremanetan laguntzarekin",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Salatu abusua",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Legala",
+  "legalEntity": "Entitate legala",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Finkatu",
+  "unpinConversation": "Desfinkatu",
+  "hideConversation": "Kendu jario-tik",
+  "deleteConversation": "Ezabatu elkarrizketa",
+  "deleteConversationConfirm": "Sartu zure PIN-a mezu guztien ezabatzea berresteko",
+  "noConversations": "Oraindik elkarrizketarik ez",
+  "startConversation": "Hasi",
+  "microphonePermissionRequired": "Mikrofonoaren sarbidea beharrezkoa",
+  "microphonePermissionExplanation": "Hash-ek mikrofonoa behar du deiak egiteko.",
+  "cameraPermissionExplanation": "Hash-ek kamera behar du bideo-deietarako.",
+  "openSettings": "Ireki ezarpenak",
+  "callConnecting": "Konektatzen...",
+  "callRinging": "Jotzen...",
+  "callReconnecting": "Birkonektatzen...",
+  "callReconnectingTimer": "Birkonektatzen ({seconds}s)",
+  "callPaused": "Pausatuta",
+  "callPausedSubtitle": "Deia oraindik ere aktiboa da",
+  "callRemoteMicMuted": "Kontaktuaren mikrofonoa isilduta dago",
+  "callMiniControlsMute": "Isilduta",
+  "callMiniControlsUnmute": "Soinua aktibatu",
+  "callMiniControlsHangUp": "Eseki",
+  "callMiniControlsReturn": "Itzuli deira",
+  "callNetworkPoor": "Konexio ezegonkorra",
+  "callNetworkLost": "Konexioa galdu da",
+  "callEndedTitle": "Deia amaitu da",
+  "deviceData": "Gailuaren datuak",
+  "deviceDataSubtitle": "Biltegi lokala eta zerbitzaria",
+  "localStorage": "Biltegi lokala",
+  "onThisDevice": "gailu honetan",
+  "encryptedDatabases": "Datu-base enkriptatuak",
+  "files": "Fitxategiak",
+  "secureKeychain": "Gako-kate segurua",
+  "cache": "Cachea",
+  "contactsDetail": "Izenak, avatarrak, Signal gakoak",
+  "messagesDetail": "Elkarrizketa enkriptatuak",
+  "notesDetail": "Ohar pertsonalak",
+  "signalSessions": "Signal saioak",
+  "signalSessionsDetail": "Enkriptazio saioak",
+  "pendingContacts": "Zain dauden kontaktuak",
+  "pendingContactsDetail": "Zain dauden eskaerak",
+  "callHistory": "Deiak",
+  "callHistoryDetail": "Dei-historia",
+  "preferences": "Lehentasunak",
+  "preferencesDetail": "Multimedia eta deien lehentasunak",
+  "avatars": "Avatarrak",
+  "media": "Multimedia",
+  "fileCount": "{count, plural, =0{fitxategirik ez} =1{fitxategi 1} other{{count} fitxategi}}",
+  "active": "Aktibo",
+  "notDefined": "Ez definitu",
+  "biometrics": "Biometrikoak",
+  "recoveryPhrase": "Berreskuratze-esaldia",
+  "identity": "Identitatea (Hash ID)",
+  "signalKeys": "Signal Protocol gakoak",
+  "authTokens": "Autentifikazio tokenak",
+  "contactNamesCache": "Kontaktu-izenen cachea",
+  "remoteConfig": "Urruneko konfigurazioa",
+  "notificationPrefs": "Jakinarazpen-lehentasunak",
+  "serverData": "Zerbitzariaren datuak",
+  "serverDataInfo": "Hash-ek gutxieneko datuak gordetzen ditu zerbitzarian, guztiak enkriptatuta edo aldi baterakoak.",
+  "serverProfile": "Profila",
+  "serverProfileDetail": "Hash ID, gako publikoak, postontziaren tokena",
+  "serverPrekeys": "Aurre-gakoak",
+  "serverPrekeysDetail": "Erabilera bakarreko Signal gakoak (kontsumituta)",
+  "serverMessages": "Bidean dauden mezuak",
+  "serverMessagesDetail": "Entregaren ondoren ezabatzen dira (max 24o)",
+  "serverMedia": "Bidean dagoen multimedia",
+  "serverMediaDetail": "Deskargaren ondoren ezabatzen da",
+  "serverContactRequests": "Kontaktu-eskaerak",
+  "serverContactRequestsDetail": "24 ordutan iraungitzen dira",
+  "serverRateLimits": "Tasa-mugak",
+  "serverRateLimitsDetail": "Aldi baterako anti-abusu datuak",
+  "privacyReassurance": "Hash-ek ezin ditu zure mezuak irakurri. Datu guztiak muturretik muturrera enkriptatuta daude. Zerbitzariaren datuak automatikoki ezabatzen dira.",
+  "pinTooSimple": "PIN hau sinpleegia da. Aukeratu kode seguruago bat.",
+  "genericError": "Errore bat gertatu da. Saiatu berriro.",
+  "accountCreationError": "Ezin da kontua sortu: {error}",
+  "phraseCopiedToClipboard": "Esaldia arbelera kopiatuta",
+  "copyPhrase": "Kopiatu esaldia",
+  "recoveryPhraseSecurityWarning": "Idatzi esaldi hau leku seguru batean. PIN-a esaldi hau gabe galtzen baduzu, betirako galduko duzu zure datuetarako sarbidea.",
+  "noMessages": "Mezurik ez",
+  "deleteAllMessagesWithContact": "{name}-(r)ekin mezu guztiak ezabatu?",
+  "confirmation": "Berrespena",
+  "untitled": "Izenbururik gabe",
+  "noSessions": "Saiorik ez",
+  "unknownContact": "Kontaktu ezezaguna",
+  "unnamed": "Izenik gabe",
+  "noPendingRequestsAlt": "Zain dagoen eskaerarik ez",
+  "deleteAllCallHistory": "Dei-historia osoa ezabatu?",
+  "noCalls": "Deirik ez",
+  "noPreferences": "Lehentasunik ez",
+  "resetAllMediaPrefs": "Multimedia lehentasun guztiak berrezarri?",
+  "deleteThisAvatar": "Avatar hau ezabatu?",
+  "deleteAllAvatars": "Avatar guztiak ezabatu?",
+  "noAvatars": "Avatarrik ez",
+  "deleteThisFile": "Fitxategi hau ezabatu?",
+  "deleteAllMediaFiles": "Multimedia guztia ezabatu?",
+  "noMediaFiles": "Multimediarik ez",
+  "outgoing": "Irteerako",
+  "incoming": "Sarrerako",
+  "ephemeralViewDuration": "Aldi baterako ikuspegia: {seconds}s",
+  "normalView": "Ikuspegi normala",
+  "callReasonCompleted": "Osatua",
+  "callReasonMissed": "Galdua",
+  "callReasonDeclined": "Baztertua",
+  "callReasonFailed": "Huts eginda",
+  "justNow": "Oraintxe",
+  "timeAgoMinutes": "Duela {count} min",
+  "timeAgoHours": "Duela {count}o",
+  "timeAgoDays": "Duela {count}e",
+  "messageTypeContact": "Kontaktua",
+  "messageTypeLocation": "Kokapena",
+  "statusQueued": "Ilaran",
+  "blockedBadge": "Blokeatuta",
+  "protectedBadge": "Babestuta",
+  "messageCount": "{count} mezu",
+  "deleteQuestion": "Ezabatu?",
+  "transferMyAccountTitle": "Transferitu nire kontua",
+  "loadingError": "Karga-errorea",
+  "transferToNewDevice": "Transferitu gailu berri batera",
+  "transferInstructions": "Zure gailu berrian, aukeratu \"Berreskuratu nire kontua\" eta sartu informazio hau:",
+  "yourHashIdLabel": "Zure Hash ID",
+  "enterYourPinCode": "Sartu zure PIN kodea",
+  "pinOwnerConfirmation": "Kontu honen jabea zarela berresteko",
+  "scanThisQrCode": "Eskaneatu QR code hau",
+  "withYourNewDevice": "Zure gailu berriarekin",
+  "orEnterTheCode": "edo sartu kodea",
+  "transferCodeLabel": "Transferentzia-kodea",
+  "proximityVerification": "Hurbiltasun-egiaztapena",
+  "bringDevicesCloser": "Hurbildu bi gailuak",
+  "confirmTransferQuestion": "Berretsi transferentzia?",
+  "accountWillBeTransferred": "Zure kontua gailu berrira transferituko da.\n\nGailu hau betirako deskonektatuko da.",
+  "transferComplete": "Transferentzia osatuta",
+  "transferSuccessMessage": "Zure kontua arrakastaz transferitu da.\n\nAplikazioa itxiko da orain.",
+  "manualVerification": "Eskuzko egiaztapena",
+  "codeDisplayedOnBothDevices": "Bi gailuetan erakusten den kodea:",
+  "doesCodeMatchNewDevice": "Kode honek bat al dator gailu berrian dagoenarekin?",
+  "verifiedStatus": "Egiaztatuta",
+  "inProgressStatus": "Abian...",
+  "notAvailableStatus": "Ez dago eskuragarri",
+  "codeExpiredRestart": "Kodea iraungi da. Hasi berriro.",
+  "codesDoNotMatchCancelled": "Kodeak ez datoz bat. Transferentzia bertan behera utzita.",
+  "transferToDevice": "Nora: {device}",
+  "copiedExclamation": "Kopiatuta!",
+  "expiresInTime": "{time}-n iraungitzen da",
+  "biometricNotAvailable": "Biometrikoak ez daude gailu honetan eskuragarri",
+  "biometricAuthError": "Errorea autentifikazio biometrikoan",
+  "authenticateForBiometric": "Autentifikatu biometrikoak gaitzeko",
+  "biometricAuthFailed": "Autentifikazio biometrikoak huts egin du",
+  "forceUpdateTitle": "Eguneratzea beharrezkoa",
+  "forceUpdateMessage": "Hash-en bertsio berri bat eskuragarri dago. Eguneratu jarraitzeko.",
+  "updateButton": "Eguneratu",
+  "maintenanceInProgress": "Mantentze-lanak abian",
+  "tryAgainLater": "Saiatu berriro geroago",
+  "information": "Informazioa",
+  "noLoginRecorded": "Ez da saioa hasierarik erregistratu",
+  "nextUnlocksAppearHere": "Hurrengo desblokeatuak hemen agertuko dira.",
+  "noMaintenancePlanned": "Mantentze-lanik ez dago aurreikusia",
+  "everythingWorkingNormally": "Dena normaltasunez funtzionatzen du",
+  "locking": "Blokeatzen...",
+  "newMessageNotification": "Mezu berria",
+  "secExplainTitle": "Nola babesten zaitu Hash-ek",
+  "secExplainIntro": "Hash diseinatuta dago inork zure mezuak irakurri ez ditzan.",
+  "secExplainIntroSub": "Guk ere ez.\nHona hemen nola funtzionatzen duen, modu sinplean azalduta.",
+  "secJourneyLabel": "BIDAIA",
+  "secJourneyTitle": "Zure mezuaren bidaia",
+  "secJourneySubtitle": "Zure hatzetik kontaktuaren pantailara, urrats bakoitza babestuta dago. Jarraitu bidea.",
+  "secStep1Title": "Zure mezua idazten duzu",
+  "secStep1Desc": "\"Kaixo!\" idazten duzu aplikazioan. Momentu honetan, mezua zure telefonoaren memorian bakarrik existitzen da. Ezer ez da bidali.",
+  "secStep2Title": "Enkriptazioa Signal Protocol-ekin",
+  "secStep2Desc": "\"Bidali\" sakatu bezain laster, zure mezua ulertezinezko karaktere-kate batean bihurtzen da. Zure mezua gako-kutxa batean sartu eta zure kontaktuak bakarrik duela gakoa bezala da.",
+  "secStep3Title": "Sealed Sender: ikusezinezko gutun-azala",
+  "secStep3Desc": "Imajinatu gutun bat bidaltzen itzulera-helbiderik gabe gutun-azalean. Hori da zehazki Hash-ek egiten duena. Mezua postontzi anonimo batean uzten da. Zerbitzariak ez daki nork bidali duen.",
+  "secStep4Title": "Zerbitzariak ezer ikusten ez du",
+  "secStep4Desc": "Zerbitzariak kartero itsu gisa jarduten du. Bakarrik badaki \"norbaitek zerbait utzi du #A7X9 postontzia\". Ez daki nork bidali zuen, zer den, edo norentzat den.",
+  "secStep4Highlight": "Metadaturik ez da gordetzen: IP helbiderik ez, denbora-zigilurik ez, bidaltzaile eta hartzaileen arteko loturarik ez.",
+  "secStep5Title": "Zure kontaktuak mezua jasotzen du",
+  "secStep5Desc": "Zure kontaktuaren telefonoak edukia bere postontzi anonimotik eskuratzen du eta mezua bere gako pribatuarekin deszifratzen du, gailutik inoiz atera ez dena. \"Kaixo!\" pantailan agertzen da.",
+  "secStep6Title": "Mezua zerbitzaritik desagertzen da",
+  "secStep6Desc": "Zure kontaktuak jasotze-agiria berretsi bezain laster, zerbitzariak mezua betirako ezabatzen du. Zakarrontzirik ez, artxiborik ez, babeskopiarik ez. Irakurri gabeko mezuak ere automatikoki suntsitzen dira 24 orduren buruan.",
+  "secStep7Title": "Tokiko iraungitzea",
+  "secStep7Desc": "Zure kontaktuaren telefonoan, mezua auto-suntsitzen da aukeratu duzun iraupenaren arabera: irakurri ondoren berehala, 5 minutu, ordu 1... zuk erabakitzen duzu.",
+  "secJourneyConclusion": "Emaitza: zero arrasto zerbitzarian, zero arrasto gailuetan. Mezua irakurtzeko behar adinako denboran existitu zen, eta gero desagertu egin zen.",
+  "secArchLabel": "ARKITEKTURA",
+  "secArchTitle": "Babesaren 5 geruza",
+  "secArchSubtitle": "Hash-ek ez du teknologia bakar batean oinarritzen. Geruza bakoitzak besteak indartzen ditu. Geruza bat arriskuan jarri arren, zure datuak seguru mantendu egiten dira.",
+  "secLayer1Title": "Muturretik muturrerako enkriptazioa",
+  "secLayer1Desc": "Mezu bakoitza gako bakar batekin enkriptatzen da. Modu sinplean: mezu bat deszifratzea lortzen bada ere, ezin izango da hurrengoa deszifratu. Mezu bakoitzak bere sarraila du.",
+  "secLayer1Detail": "Fitxategietarako (argazkiak, bideoak, dokumentuak), Hash-ek AES-256-GCM enkriptazio gehigarria erabiltzen du. Fitxategia enkriptatzen da zure telefonotik atera baino lehen.",
+  "secLayer2Title": "Sealed Sender (sarearen anonimotasuna)",
+  "secLayer2Desc": "Ohiko mezulariek zure identitatearekin bidaltzen dituzte zure mezuak. Gutun-azalean zure izena idaztea bezala da. Hash-ek postontzi anonimoak erabiltzen ditu: zerbitzariak mezua entregatzen du nork bidali duen jakin gabe.",
+  "secLayer2Detail": "Emaitza: zerbitzariaren datu-filtrazio baten kasuan ere, ezinezkoa da nork norekin hitz egiten duen berreraikitzea.",
+  "secLayer3Title": "Ezabatze automatikoa",
+  "secLayer3Desc": "Mezuak zerbitzaritik ezabatzen dira jasotze-agiria berretsi bezain laster. Mezu bat inoiz eskuratzen ez bada ere, automatikoki suntsitzen da 24 orduren ondoren.",
+  "secLayer3Detail": "Zure telefonoan, mezuak auto-suntsitzen dira aukeratu duzun iraupenaren arabera: berehala, 5 min, 15 min, 30 min, 1o, 3o, 6o edo 12o.",
+  "secLayer4Title": "Tokiko sarbidearen babesa",
+  "secLayer4Desc": "Aplikazioa 6 digituko PIN batekin eta/edo biometrikoekin (Face ID, hatz-marka) babestuta dago. Saiakera huts gehiegi ondoren, aplikazioak blokeo-aldi handiagoarekin blokeatzen du porrot bakoitzaren ondoren.",
+  "secLayer5Title": "Blokeatutako datu-basea",
+  "secLayer5Desc": "Zerbitzariaren aldean, ez dago erabiltzaileak zuzenean datu-basean idatzi dezakeenik. Ekintza guztiak eskaera bakoitza egiaztatzen duten funtzio seguruen bidez pasatzen dira.",
+  "secLayer5Detail": "Banku-leihatila bat bezalakoa da: zu ez duzu inoiz gordailua ukitzen. Eskaera bat egiten duzu, eta sistemak egiaztatzen du eskubidea duzula ekin baino lehen.",
+  "secVashLabel": "MUNDUAN BAKARRA",
+  "secVashTitle": "Vash modua",
+  "secVashSubtitle": "Larrialdiko segurtasun-sistema bat, beste inongo mezu-aplikaziotan existitzen ez dena.",
+  "secVashScenarioTitle": "Imajinatu egoera hau",
+  "secVashScenario1": "Norbaitek zure telefonora sarbidea lortu du",
+  "secVashScenario2": "Zure PIN kodea eskatzen dizute",
+  "secVashScenario3": "Zure datu guztiak urgentziaz ezabatu nahi dituzu",
+  "secVashSolutionTitle": "Irtenbidea: bi PIN kode",
+  "secVashSolutionDesc": "Bi PIN kode ezberdin konfiguratzen dituzu Hash-en:",
+  "secVashNormalCodeLabel": "Kode normala",
+  "secVashNormalCodeDesc": "Aplikazioa normaltasunez irekitzen du zure datu guztiekin",
+  "secVashCodeLabel2": "Vash kodea",
+  "secVashCodeDescription": "Aplikazioa normaltasunez irekitzen du... baina zure datu guztiak isil-isilik ezabatzen dira atzeko planoan",
+  "secVashWhatHappensTitle": "Zer gertatzen den ondoren",
+  "secVashWhatHappensDesc": "Aplikazioa normaltasunez irekitzen da. Alertarik ez, animazio susmagarririk ez. Pantailak aplikazio huts bat erakusten du, instalatu berri bazenu bezala.\n\nErrealitatean, zure elkarrizketa, kontaktu eta mezu guztiak itzulezinik ezabatu dira segundo baten frakzio batean.",
+  "secCallsLabel": "DEIAK ETA FITXATEGIAK",
+  "secCallsTitle": "Dena enkriptatuta dago",
+  "secCallsSubtitle": "Ez dira mezuak bakarrik. Hash-en zehar igarotzen den absolutuki dena muturretik muturrera enkriptatuta dago.",
+  "secAudioCallTitle": "Audio-deiak",
+  "secAudioCallDesc": "Muturretik muturrera enkriptatuta WebRTC bidez. Ahotsa zuzenean gailuen artean transmititzen da.",
+  "secVideoCallTitle": "Bideo-deiak",
+  "secVideoCallDesc": "Teknologia bera, fluxu bakoitza banaka enkriptatuta.",
+  "secPhotosTitle": "Argazkiak eta bideoak",
+  "secPhotosDesc": "AES-256-GCM-rekin enkriptatuta zure telefonotik atera baino lehen.",
+  "secDocsTitle": "Dokumentuak",
+  "secDocsDesc": "PDF, ZIP, edozein fitxategi. Izena, tamaina eta edukia enkriptatuta.",
+  "secAnonLabel": "ANONIMOTASUNA",
+  "secAnonTitle": "Identitaterik ez da beharrezkoa",
+  "secAnonSubtitle": "Hash-ek ez dizu inoiz zure telefono-zenbakia edo emaila eskatzen. Hash ID bakar eta anonimo baten bidez identifikatzen zaitu.",
+  "secHashIdTitle": "Zure Hash ID",
+  "secHashIdDesc": "Hau da zure identifikatzaile bakarra. Ez du zuregainean ezer agertzen: ez zure izena, ez zure zenbakia, ez zure kokapena. Zure benetako identitatearekin lotzea ezinezkoa den ezizen bat bezala da.\n\nKontaktu bat gehitzeko, zure Hash ID partekatzen duzu edo QR code bat eskaneatzen duzu. Hori da dena. Sinkronizatutako helbide-libururik ez, \"Agian ezagutzen dituzun pertsonak\" gomendiorik ez.",
+  "secDataLabel": "DATUAK",
+  "secDataTitle": "Zer ez dakien Hash-ek",
+  "secDataSubtitle": "Zure datuak babesteko modurik hoberena da ez biltzea.",
+  "secNeverCollected": "Inoiz ez dira biltzen",
+  "secNeverItem1": "Mezuen edukia",
+  "secNeverItem2": "Kontaktu-zerrenda",
+  "secNeverItem3": "Telefono-zenbakia",
+  "secNeverItem4": "Email helbidea",
+  "secNeverItem5": "IP helbidea",
+  "secNeverItem6": "Kokapena",
+  "secNeverItem7": "Metadatuak (nork norekin hitz egiten duen)",
+  "secNeverItem8": "Dei-historia",
+  "secNeverItem9": "Helbide-liburua",
+  "secNeverItem10": "Iragarki-identifikatzaileak",
+  "secTempStored": "Aldi baterako gordeta",
+  "secTempItem1": "Hash ID anonimoa (identifikatzaile bakarra)",
+  "secTempItem2": "Enkriptazio gako publikoak",
+  "secTempItem3": "Bidean dauden mezu enkriptatuak (max 24o)",
+  "secTempNote": "Gutxieneko datu hauek ere ezin zaituzte identifikatu. Zure Hash ID ez dago informazio pertsonalekin lotuta.",
+  "secFooterTitle": "Zure pribatutasuna, zure askatasuna",
+  "secFooterDesc": "Hash-ek aplikazio profesional zorrotzenek erabiltzen dituzten enkriptazio-teknologia berak erabiltzen ditu. Zure mezuak matematikak babesten ditu, ez promesek.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometria",
+  "biometricUnlock": "Desblokeatu hatz-markarekin edo Face ID-rekin",
+  "biometricWarningMessage": "Biometria aktibatuz gero, ezin izango duzu Vash kodea erabili aplikazioan sartzeko.\n\nVash kodea biometriak huts egiten duenean soilik erabil dezakezu (hainbat saiakera arrakastatsu ondoren).\n\nZiur al zaude jarraitu nahi duzula?",
+  "connectionCount": "Konexio(ak)",
+  "currentSession": "Unekoa",
+  "dataLocalOnly": "Datu hauek zure gailuan bakarrik gordetzen dira eta ez dira inoiz transmititzen.",
+  "doYouLikeHash": "Hash gustuko duzu?",
+  "donationMessage": "Hash irabazi-asmorik gabeko proiektua da. Zure laguntzak benetan pribatua den mezulari bat eraikitzen jarraitzen laguntzen digu.",
+  "enableBiometric": "Biometria aktibatu",
+  "ephemeral1HourDesc": "Ezabatua irakurri eta 1o-ra",
+  "ephemeral24HoursDesc": "Ezabatua irakurri eta 24o-ra",
+  "ephemeral30SecondsDesc": "Ezabatua irakurri eta 30s-ra",
+  "ephemeral5MinutesDesc": "Ezabatua irakurri eta 5min-ra",
+  "ephemeral6HoursDesc": "Ezabatua irakurri eta 6o-ra",
+  "feedback": "Iritzia",
+  "historyLabel": "Historia",
+  "hoursAgoLabel": "Duela {hours}o",
+  "hoursMinutesAgoLabel": "Duela {hours}o {minutes}min",
+  "justNowLabel": "Oraintxe",
+  "later": "Geroago",
+  "loginInfoText": "PIN bidezko desblokeoa lokalean gordetzen da. Azken 24 orduak soilik gordetzen dira.",
+  "maintenanceActiveLabel": "ABIAN",
+  "maintenancePlannedLabel": "AURREIKUSITA",
+  "maintenanceTitle": "Mantentze-lanak",
+  "minutesAgoLabel": "Duela {count} min",
+  "periodLabel": "Aldia",
+  "pinCodeForEntry": "PIN kodea aplikazioan sartzeko",
+  "ratingBad": "Txarra",
+  "ratingExcellent": "Bikaina!",
+  "ratingGood": "Ona",
+  "ratingOk": "Ondo",
+  "ratingTerrible": "Izugarria",
+  "recentConnections": "Azken konexioak",
+  "share": "Partekatu",
+  "shareAppSubtitle": "Hash zure hurbilekoekin partekatu",
+  "showCallsInRecents": "Azken deietan erakutsi",
+  "showCallsInRecentsSubtitle": "Hash deiak telefonoaren historian agertzen dira",
+  "todayLabel": "Gaur",
+  "understood": "Ulertzen dut",
+  "yesterdayLabel": "Atzo",
+  "yourFeedbackHelps": "Zure iritziak aplikazioa hobetzen laguntzen digu"
+}

@@ -1,0 +1,1039 @@
+{
+  "@@locale": "hu",
+  "appName": "Hash",
+  "appTagline": "Nulla nyom. Nulla kompromisszum.",
+  "conversations": "Beszélgetések",
+  "contacts": "Névjegyek",
+  "noConversation": "Nincs beszélgetés",
+  "noConversationSubtitle": "Adjon hozzá egy névjegyet a biztonságos csevegéshez",
+  "pendingRequestsCount": "{count, plural, =1{1 függő kérés} other{{count} függő kérés}}",
+  "sentRequestsCount": "{count, plural, =1{1 elküldött kérés függőben} other{{count} elküldött kérés függőben}}",
+  "addContact": "Névjegy hozzáadása",
+  "shareApp": "Alkalmazás megosztása",
+  "newMessage": "Új üzenet",
+  "newConversation": "Üzenet küldése",
+  "settings": "Beállítások",
+  "myHashId": "Hash ID-m",
+  "supportHash": "Hash támogatása",
+  "supportHashSubtitle": "A Hash egy nonprofit projekt",
+  "donate": "Adományozás",
+  "appearance": "Megjelenés",
+  "theme": "Téma",
+  "themeAuto": "Automatikus",
+  "themeAutoSubtitle": "Rendszerbeállítások követése",
+  "themeDark": "Sötét",
+  "themeLight": "Világos",
+  "themeRecommendation": "A sötét téma ajánlott a jobb adatvédelem érdekében",
+  "language": "Nyelv",
+  "languageAuto": "Automatikus (rendszer)",
+  "notifications": "Értesítések",
+  "messages": "Üzenetek",
+  "calls": "Hívások",
+  "vibration": "Rezgés",
+  "notificationContent": "Értesítés tartalma",
+  "notificationContentFull": "Minden megjelenítése",
+  "notificationContentFullDesc": "Névjegy neve és üzenet előnézete",
+  "notificationContentName": "Csak név",
+  "notificationContentNameDesc": "Csak a névjegy nevét mutatja",
+  "notificationContentDiscrete": "Diszkrét",
+  "notificationContentDiscreteDesc": "Csak \"Új üzenet\" megjelenítése",
+  "security": "Biztonság",
+  "howHashProtectsYou": "Hogyan véd a Hash",
+  "howHashProtectsYouSubtitle": "Ismerje meg a biztonságát",
+  "accountSecurity": "Fiók biztonsága",
+  "accountSecuritySubtitle": "PIN, biometria, Vash mód",
+  "blockScreenshots": "Képernyőfotók tiltása",
+  "transferDevice": "Áthelyezés másik eszközre",
+  "transferDeviceSubtitle": "Fiók migrálása",
+  "pinCode": "PIN kód",
+  "changePin": "PIN kód módosítása",
+  "currentPin": "Jelenlegi PIN kód",
+  "newPin": "Új PIN kód",
+  "confirmPin": "PIN kód megerősítése",
+  "pinChanged": "PIN kód megváltoztatva",
+  "incorrectPin": "Helytelen PIN",
+  "pinsDoNotMatch": "A PIN kódok nem egyeznek",
+  "autoLock": "Automatikus zárolás",
+  "autoLockDelay": "Zárolási késleltetés",
+  "autoLockImmediate": "Azonnali",
+  "autoLockMinute": "1 perc",
+  "autoLockMinutes": "{count} perc",
+  "vashCode": "Vash kód",
+  "vashModeTitle": "Vash mód",
+  "vashModeExplanation": "Az Ön végső biztonsági hálója.",
+  "vashModeDescription": "Egy második PIN kódot fog választani. Ha valaha arra kényszerítik, hogy nyissa meg a Hash-t, adja meg ezt a kódot a szokásos PIN helyett.\n\nAz alkalmazás normálisan megnyílik, de az összes beszélgetése és névjegye eltűnik.\n\nBárki számára, aki a képernyőjére néz, a Hash egyszerűen üresnek tűnik — mintha soha nem használta volna.",
+  "vashModeIrreversible": "Ez a művelet csendes és visszafordíthatatlan.",
+  "chooseVashCode": "Vash kód kiválasztása",
+  "vashCodeInfo": "Egy második PIN kód, amely normálisan megnyitja az alkalmazást, de üresen.",
+  "vashCodeInfoDetail": "Ha ezt a kódot adja meg a PIN helyett:",
+  "vashDeleteContacts": "A névjegyei eltűnnek",
+  "vashDeleteMessages": "A beszélgetései eltűnnek",
+  "vashDeleteHistory": "A jegyzetei eltűnnek",
+  "vashKeepId": "A Hash identitása (#XXX-XXX-XXX) megmarad",
+  "vashAppearNormal": "Az alkalmazás normálisnak tűnik, de üres, mintha új lenne. Ez a művelet visszafordíthatatlan.",
+  "setupVashCode": "Vash kód beállítása",
+  "modifyVashCode": "Vash kód módosítása",
+  "currentVashCode": "Jelenlegi Vash kód",
+  "newVashCode": "Új Vash kód",
+  "confirmVashCode": "Vash kód megerősítése",
+  "vashCodeConfigured": "Vash kód beállítva",
+  "vashCodeModified": "Vash kód módosítva",
+  "vashCodeMustDiffer": "A Vash kódnak különböznie kell a PIN-től",
+  "incorrectVashCode": "Helytelen Vash kód",
+  "vashWhatToDelete": "Mit tüntessen el a Vash mód?",
+  "vashDeleteContactsOption": "Névjegyek",
+  "vashDeleteMessagesOption": "Üzenetek",
+  "vashDeleteNotesOption": "Jegyzetek",
+  "vashActivated": "Vash mód aktiválva",
+  "vashCreateSubtitle": "Válasszon a fő PIN-től eltérő kódot",
+  "vashConfirmSubtitle": "Erősítse meg a Vash kódját",
+  "vashCodeSection": "Vash mód",
+  "danger": "Veszély",
+  "panicButton": "Pánikgomb",
+  "panicButtonSubtitle": "Összes adat törlése",
+  "deleteAccount": "Fiókom törlése",
+  "deleteAccountSubtitle": "Visszafordíthatatlan művelet",
+  "deleteAccountConfirmTitle": "Fiókom törlése",
+  "deleteAccountConfirmMessage": "A fiókja véglegesen törlődik. Ez a művelet visszafordíthatatlan.\n\n• Összes beszélgetése\n• Összes névjegye\n• Hash ID-je\n\nÚj fiókot kell létrehoznia.",
+  "deleteForever": "Végleges törlés",
+  "cancel": "Mégse",
+  "panicConfirmTitle": "Pánikgomb",
+  "panicConfirmMessage": "Ez a művelet véglegesen törli AZ ÖSSZES adatát:\n\n• Összes üzenetét\n• Összes névjegyét\n• Fiókját\n\nBiztosan biztos benne?",
+  "deleteAll": "MINDET TÖRÖL",
+  "dataDeletedForSecurity": "Vash mód aktiválva.",
+  "deletionError": "Törlési hiba: {error}",
+  "yourSecurity": "Az Ön biztonsága",
+  "securityInfo": "• Végponttól végpontig titkosítás (Signal Protocol)\n• Nincs adat a szervereinken a kézbesítés után\n• Kulcsok csak az Ön eszközén tárolva\n• PIN kód soha nincs elküldve a szerverre",
+  "version": "Hash v{version}",
+  "welcome": "Üdvözöljük",
+  "securityStatement1": "Üzenetei védettek.",
+  "securityStatement2": "Végponttól végpontig titkosítás.",
+  "securityStatement3": "Nincs nyom. Nincs kompromisszum.",
+  "securityStatement4": "A magánélet jog.",
+  "accessBlocked": "Hozzáférés blokkolva",
+  "tooManyAttempts": "Túl sok próbálkozás. Próbálja újra később.",
+  "pleaseWait": "Kérjük, várjon",
+  "waitDelay": "Kérjük, várja meg a késleltetés végét",
+  "attemptCount": "{current}. próbálkozás a {max}-ból",
+  "retryIn": "Újrapróbálás: {time} múlva",
+  "forgotPin": "Elfelejtette a PIN-t? Használja a helyreállítási kifejezést",
+  "useRecoveryPhrase": "Helyreállítási kifejezés használata",
+  "recoveryWarningTitle": "Figyelmeztetés",
+  "recoveryWarningMessage": "A fiók helyreállítása:",
+  "recoveryDeleteAllMessages": "Törli AZ ÖSSZES üzenetet",
+  "recoveryWaitDelay": "1 órás várakozást igényel",
+  "recoveryKeepContacts": "Megtartja a névjegyeket",
+  "recoveryIrreversible": "Ez a művelet visszafordíthatatlan. Üzenetei véglegesen elvesznek.",
+  "iUnderstand": "Megértettem",
+  "accountRecovery": "Fiók helyreállítása",
+  "enterRecoveryPhrase": "Adja meg a helyreállítási kifejezés 24 szavát, szóközökkel elválasztva.",
+  "recoveryPhraseHint": "szó1 szó2 szó3 ...",
+  "recover": "Helyreállítás",
+  "recoveryPhraseRequired": "Kérjük, adja meg a helyreállítási kifejezést",
+  "recoveryPhrase24Words": "A kifejezésnek pontosan 24 szóból kell állnia",
+  "incorrectRecoveryPhrase": "Helytelen helyreállítási kifejezés",
+  "recoveryInitError": "Hiba a helyreállítás inicializálásakor",
+  "securityDelay": "Biztonsági késleltetés",
+  "securityDelayMessage": "Az Ön biztonsága érdekében várakozási idő szükséges, mielőtt új PIN-t hozhat létre.",
+  "timeRemaining": "Hátralévő idő",
+  "messagesDeletedForProtection": "Üzenetei az Ön védelme érdekében törlődtek.",
+  "canCloseApp": "Bezárhatja az alkalmazást és visszatérhet később.",
+  "onboardingTitle1": "Üdvözöljük a Hash-ben",
+  "onboardingSubtitle1": "Az üzenetküldő, amely nem hagy nyomot",
+  "onboardingTitle2": "Teljes titkosítás",
+  "onboardingSubtitle2": "Üzenetei végponttól végpontig titkosítva a Signal protokollal",
+  "onboardingTitle3": "Nincs nyom",
+  "onboardingSubtitle3": "Az üzenetek a kézbesítéskor törlődnek a szerverről",
+  "onboardingTitle4": "Az Ön biztonsága",
+  "onboardingSubtitle4": "PIN kód, Vash mód és helyreállítási kifejezés",
+  "getStarted": "Kezdjük",
+  "next": "Következő",
+  "skip": "Kihagyás",
+  "alreadyHaveAccount": "Már van fiókom",
+  "transferMyAccount": "Fiókom áthelyezése",
+  "createPin": "PIN kód létrehozása",
+  "createPinSubtitle": "Ez a kód védi az alkalmazás hozzáférését",
+  "confirmYourPin": "PIN kód megerősítése",
+  "confirmPinSubtitle": "Adja meg újra a PIN kódját",
+  "saveRecoveryPhrase": "Helyreállítási kifejezés",
+  "saveRecoveryPhraseSubtitle": "Írja le ezt a 24 szót sorrendben. Ezek lehetővé teszik fiókja helyreállítását, ha elfelejtené a PIN-jét.",
+  "phraseWritten": "Leírtam a kifejezésemet",
+  "warningRecoveryPhrase": "Ha elveszíti ezt a kifejezést és elfelejti a PIN-jét, elveszíti fiókjához való hozzáférését.",
+  "accountTransferred": "Fiók áthelyezve",
+  "accountTransferredMessage": "Fiókja áthelyezésre került egy másik eszközre. Ez a munkamenet már nem érvényes.",
+  "accountTransferredInfo": "Ha nem Ön kezdeményezte ezt az áthelyezést, fiókja kompromittálódhatott.",
+  "logout": "Kijelentkezés",
+  "transferAccount": "Fiók áthelyezése",
+  "transferAccountInfo": "Helyezze át Hash fiókját egy új eszközre. A jelenlegi munkamenete érvénytelenítésre kerül.",
+  "generateTransferCode": "Áthelyezési kód generálása",
+  "transferCode": "Áthelyezési kód",
+  "transferCodeExpires": "Ez a kód {minutes} perc múlva lejár",
+  "enterCodeOnNewDevice": "Adja meg ezt a kódot az új eszközön a fiók áthelyezéséhez.",
+  "generateNewCode": "Új kód generálása",
+  "scanQrCode": "QR code beolvasása",
+  "scanQrCodeSubtitle": "Olvassa be egy névjegy QR code-ját a hozzáadáshoz",
+  "qrCodeDetected": "QR code észlelve",
+  "invalidQrCode": "Érvénytelen QR code",
+  "cameraPermissionRequired": "Kamera engedély szükséges",
+  "myQrCode": "QR code-om",
+  "myQrCodeSubtitle": "Ossza meg ezt a QR code-ot, hogy névjegyei hozzáadhassák Önt",
+  "shareQrCode": "Megosztás",
+  "addContactTitle": "Névjegy hozzáadása",
+  "addContactByHashId": "Adja meg névjegye Hash ID-jét",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Keresés",
+  "contactNotFound": "Névjegy nem található",
+  "contactAlreadyAdded": "Ez a névjegy már a listáján van",
+  "contactAdded": "Névjegy hozzáadva",
+  "myProfile": "Profilom",
+  "myProfileSubtitle": "Ossza meg ezeket az adatokat, hogy mások hozzáadhassák Önt",
+  "temporaryCode": "Ideiglenes kód",
+  "temporaryCodeExpires": "Lejár: {time} múlva",
+  "codeExpired": "Kód lejárt",
+  "generateNewCodeButton": "Új kód",
+  "copyHashId": "ID másolása",
+  "copyCode": "Kód másolása",
+  "copiedToClipboard": "Másolva",
+  "showMyQrCode": "QR code-om megjelenítése",
+  "orDivider": "vagy",
+  "openScanner": "Szkenner megnyitása",
+  "addManually": "Kézi hozzáadás",
+  "contactHashIdLabel": "Névjegy Hash ID-je",
+  "temporaryCodeLabel": "Ideiglenes kód",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Kérje meg névjegyét, hogy generáljon egy kódot a profiljából",
+  "verifyAndAdd": "Ellenőrzés és hozzáadás",
+  "fillAllFields": "Kérjük, töltse ki az összes mezőt",
+  "invalidHashIdFormat": "Érvénytelen ID formátum (pl.: 123-456-ABC)",
+  "userNotFound": "Felhasználó nem található",
+  "cannotAddYourself": "Nem adhatja hozzá saját magát",
+  "invalidOrExpiredCode": "Érvénytelen vagy lejárt ideiglenes kód",
+  "contactFound": "Névjegy megtalálva!",
+  "howToCallContact": "Hogyan szeretné hívni?",
+  "contactNameHint": "Névjegy neve",
+  "addContactButton": "Hozzáadás",
+  "contactDetails": "Névjegy részletei",
+  "contactName": "Névjegy neve",
+  "contactHashId": "Hash ID",
+  "addedOn": "Hozzáadva: {date}",
+  "deleteContact": "Névjegy törlése",
+  "deleteContactConfirm": "Törli ezt a névjegyet?",
+  "deleteContactMessage": "Ez a teljes beszélgetést is törli.",
+  "delete": "Törlés",
+  "typeMessage": "Írjon üzenetet...",
+  "messageSent": "Elküldve",
+  "messageDelivered": "Kézbesítve",
+  "messageRead": "Olvasva",
+  "messageFailed": "Küldés sikertelen",
+  "now": "Most",
+  "minutesAgo": "{count}p",
+  "hoursAgo": "{count}ó",
+  "daysAgo": "{count}n",
+  "today": "Ma",
+  "yesterday": "Tegnap",
+  "dateAtTime": "{date}, {time}",
+  "shareMessage": "Csatlakozz hozzám a Hash-en! 🔒\n\nEz egy igazán privát üzenetküldő: teljes titkosítás, nincs nyom a szervereken, és pánik mód szükség esetén.\n\nTöltsd le az alkalmazást itt 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Hiba",
+  "ok": "OK",
+  "view": "Megtekintés",
+  "yes": "Igen",
+  "no": "Nem",
+  "save": "Mentés",
+  "edit": "Szerkesztés",
+  "close": "Bezárás",
+  "confirm": "Megerősítés",
+  "loading": "Betöltés...",
+  "retry": "Újrapróbálás",
+  "pendingRequests": "Függő kérések",
+  "noPendingRequests": "Nincs függő kérés",
+  "pendingRequestsSubtitle": "Ezek az emberek szeretnék Önt hozzáadni",
+  "requestFromUser": "Kérés tőle: {hashId}",
+  "requestExpiresIn": "{days} nap múlva lejár",
+  "acceptRequest": "Elfogadás",
+  "rejectRequest": "Elutasítás",
+  "requestAccepted": "Kérés elfogadva",
+  "requestRejected": "Kérés elutasítva",
+  "requestSent": "Kérés elküldve!",
+  "requestSentSubtitle": "Kérése elküldve. A felhasználónak el kell fogadnia, mielőtt cseveghetne.",
+  "requestAlreadyPending": "Egy kérés már függőben van",
+  "requestAlreadySentByOther": "Ez a személy már küldött Önnek kérést",
+  "addByHashId": "Hozzáadás Hash ID-vel",
+  "addByHashIdSubtitle": "Adja meg a névjegy Hash ID-jét és ideiglenes kódját",
+  "enterTemporaryCode": "Adja meg a 6 jegyű kódot",
+  "sendRequest": "Kérés küldése",
+  "acceptContactTitle": "Névjegy elfogadása",
+  "acceptContactSubtitle": "Egyéni nevet adhat nekik",
+  "leaveEmptyForHashId": "Hagyja üresen a Hash ID használatához",
+  "firstName": "Keresztnév",
+  "lastName": "Vezetéknév",
+  "notes": "Jegyzetek",
+  "notesHint": "Személyes jegyzetek erről a névjegyről",
+  "photoOptional": "Fénykép (opcionális)",
+  "contactNameOptional": "Név (opcionális)",
+  "notesOptional": "Jegyzetek (opcionális)",
+  "storedLocally": "Csak az eszközén tárolva",
+  "encryptedMessageLabel": "Titkosított üzenet",
+  "identityMessageHint": "Ki Ön? Honnan ismerik egymást?",
+  "messageWillBeSentEncrypted": "Ez az üzenet titkosítva kerül elküldésre a címzettnek",
+  "sendRequestButton": "Kérés küldése",
+  "requestExpiresIn24h": "A kérés 24 óra múlva lejár, ha nem fogadják el",
+  "theyAlreadySentYouRequest": "Ez a személy már küldött Önnek kérést",
+  "requests": "Kérések",
+  "receivedRequests": "Kapott",
+  "sentRequests": "Küldött",
+  "noSentRequests": "Nincs küldött kérés",
+  "cancelRequest": "Mégse",
+  "deleteRequest": "Kérés törlése",
+  "requestCancelled": "Kérés visszavonva",
+  "sentTo": "Küldve: {hashId}",
+  "expiresIn": "Lejár: {time} múlva",
+  "receivedAgo": "Kapva {time} ezelőtt",
+  "messageFromRequester": "Üzenet a kérelmezőtől",
+  "copy": "Másolás",
+  "messageInfo": "Üzenet információ",
+  "messageDirection": "Irány",
+  "messageSentByYou": "Ön küldte",
+  "messageReceived": "Fogadva",
+  "messageSentAt": "Küldve",
+  "messageStatus": "Állapot",
+  "messageReadAt": "Olvasva",
+  "messageType": "Típus",
+  "messageSize": "Méret",
+  "messageExpiresAt": "Lejár",
+  "messageEncrypted": "Végponttól végpontig titkosítva",
+  "messageStatusSending": "Küldés...",
+  "messageStatusSent": "Elküldve",
+  "messageStatusDelivered": "Kézbesítve",
+  "messageStatusRead": "Olvasva",
+  "messageStatusFailed": "Sikertelen",
+  "serverStatus": "Szerver",
+  "onServer": "Kézbesítésre vár",
+  "deletedFromServer": "Törölve",
+  "messageTypeText": "Szöveg",
+  "messageTypeImage": "Kép",
+  "messageTypeVideo": "Videó",
+  "messageTypeVoice": "Hang",
+  "messageTypeFile": "Fájl",
+  "indefinitely": "Határozatlan ideig",
+  "hoursShort": "ó",
+  "minutesShort": "p",
+  "hours": "óra",
+  "minutes": "perc",
+  "seconds": "másodperc",
+  "ephemeralMessages": "Eltűnő üzenetek",
+  "ephemeralMessagesDescription": "Az üzenetek automatikusan törlődnek ennyi idő után",
+  "ephemeralImmediate": "Azonnali (olvasás után)",
+  "ephemeralImmediateDesc": "Olvasáskor azonnal törlődik",
+  "ephemeralMyPreference": "Saját beállítás",
+  "ephemeralMyPreferenceDesc": "Globális beállítás használata",
+  "ephemeralDefaultSetting": "Üzenet időtartam",
+  "ephemeralChooseDefault": "Ajánlott",
+  "ephemeral30Seconds": "30 másodperc",
+  "ephemeral5Minutes": "5 perc",
+  "ephemeral1Hour": "1 óra",
+  "ephemeral3Hours": "3 óra",
+  "ephemeral6Hours": "6 óra",
+  "ephemeral12Hours": "12 óra",
+  "ephemeral24Hours": "24 óra",
+  "customDuration": "Egyéni időtartam",
+  "muteNotifications": "Értesítések némítása",
+  "muteDescription": "Nem fog értesítéseket kapni erről a névjegyről",
+  "mutedUntil": "Némítva eddig: {time}",
+  "notMuted": "Értesítések engedélyezve",
+  "unmute": "Némítás feloldása",
+  "notificationSound": "Értesítési hang",
+  "defaultSound": "Alapértelmezett",
+  "chatSettings": "Beszélgetés beállításai",
+  "bubbleColor": "Buborék színe",
+  "backgroundColor": "Háttérszín",
+  "backgroundImage": "Háttérkép",
+  "chatBackground": "Beszélgetés háttere",
+  "customColor": "Egyéni",
+  "defaultColor": "Alapértelmezett",
+  "imageSelected": "Kép kiválasztva",
+  "noImage": "Nincs kép",
+  "color": "Szín",
+  "image": "Kép",
+  "tapToSelectImage": "Koppintson a kép kiválasztásához",
+  "changeImage": "Kép módosítása",
+  "previewMessageReceived": "Szia!",
+  "previewMessageSent": "Helló!",
+  "messageAction": "Üzenet",
+  "callAction": "Hívás",
+  "videoAction": "Videó",
+  "personalNotes": "Személyes jegyzetek",
+  "addNotes": "Jegyzetek hozzáadása...",
+  "noNotes": "Nincsenek jegyzetek",
+  "messageNotifications": "Üzenetértesítések",
+  "callNotifications": "Hívásértesítések",
+  "useGradient": "Színátmenet használata",
+  "gradientStart": "Kezdő szín",
+  "gradientEnd": "Záró szín",
+  "preview": "Előnézet",
+  "reset": "Visszaállítás",
+  "securityNumber": "Biztonsági szám",
+  "securityNumberDescription": "Ellenőrizze, hogy a biztonsági szám megegyezik-e {name} eszközével",
+  "verifyEncryption": "Végponttól végpontig titkosítás ellenőrzése",
+  "tapToCopy": "Koppintson a másoláshoz",
+  "howToVerify": "Hogyan ellenőrizze",
+  "verifyStep1": "Találkozzon személyesen a névjegyével, vagy hívja fel",
+  "verifyStep2": "Hasonlítsa össze a biztonsági számokat vagy olvassa be a QR code-okat",
+  "verifyStep3": "Ha egyeznek, a beszélgetése biztonságos",
+  "scanToVerify": "Beolvasás az ellenőrzéshez",
+  "reportSpam": "Spam jelentése",
+  "reportSpamSubtitle": "Névjegy jelentése spamként",
+  "reportSpamDescription": "Ez névtelenül jelenti ezt a névjegyet. A személyazonossága nem kerül megosztásra. Biztos benne?",
+  "report": "Jelentés",
+  "spamReported": "Spam jelentve",
+  "reportError": "Nem sikerült elküldeni a jelentést. Kérjük, próbálja újra.",
+  "reportRateLimited": "Elérte a mai napi maximális jelentések számát.",
+  "blockContact": "Névjegy letiltása",
+  "blockContactDescription": "Ez a névjegy nem tud majd üzenetet küldeni Önnek vagy hívni. Nem kap értesítést.",
+  "unblockContact": "Névjegy feloldása",
+  "unblockContactDescription": "Ez a névjegy újra küldhet üzenetet és hívhat.",
+  "contactBlocked": "Névjegy letiltva",
+  "contactUnblocked": "Névjegy feloldva",
+  "contactIsBlocked": "Ez a névjegy le van tiltva",
+  "unblock": "Feloldás",
+  "deleteContactSubtitle": "Névjegy és beszélgetés törlése",
+  "confirmWithPin": "Megerősítés PIN-nel",
+  "enterPinToConfirm": "Adja meg a PIN-jét a művelet megerősítéséhez",
+  "mute1Hour": "1 óra",
+  "mute8Hours": "8 óra",
+  "mute1Day": "1 nap",
+  "mute1Week": "1 hét",
+  "muteAlways": "Mindig",
+  "muteExplanation": "Nem fog értesítéseket kapni erről a névjegyről",
+  "howItWorks": "Hogyan működik",
+  "ephemeralExplanation1": "Az üzenetek a fogadáskor azonnal törlődnek a szerverről.",
+  "ephemeralExplanation2": "Ez a beállítás meghatározza, mikor tűnnek el az üzenetek AZ ÖN telefonjáról olvasás után.",
+  "ephemeralExplanation3": "Névjegyének saját beállítása van a saját telefonjára.",
+  "profilePhoto": "Profilkép",
+  "takePhoto": "Fénykép készítése",
+  "chooseFromGallery": "Választás a galériából",
+  "removePhoto": "Fénykép eltávolítása",
+  "viewContactHashId": "Névjegy azonosítójának megtekintése",
+  "hashIdPartiallyMasked": "Részben maszkolt az Ön biztonsága és névjegye adatvédelme érdekében",
+  "addFirstContact": "Első névjegy hozzáadása",
+  "addFirstContactSubtitle": "Ossza meg QR code-ját vagy olvassa be egy barátjáét",
+  "directory": "Névjegyzék",
+  "noContacts": "Nincsenek névjegyek",
+  "noContactsSubtitle": "Adjon hozzá egy névjegyet a kezdéshez",
+  "sendMessageAction": "Üzenet küldése",
+  "audioCall": "Hanghívás",
+  "videoCall": "Videóhívás",
+  "viewProfile": "Profil megtekintése",
+  "deleteContactDirectory": "Névjegy törlése",
+  "scanShort": "Beolvasás",
+  "addShort": "Hozzáadás",
+  "deleteContactConfirmName": "Biztosan törli {name} névjegyét?",
+  "noNotesTitle": "Nincsenek jegyzetek",
+  "noNotesSubtitle": "Hozza létre első jegyzetét",
+  "newNote": "Új jegyzet",
+  "editNote": "Jegyzet szerkesztése",
+  "deleteNote": "Jegyzet törlése",
+  "deleteNoteConfirm": "Biztosan törli ezt a jegyzetet?",
+  "noteTitle": "Cím",
+  "noteContent": "Tartalom",
+  "addItem": "Elem hozzáadása",
+  "pinNote": "Rögzítés",
+  "unpinNote": "Rögzítés megszüntetése",
+  "noteColor": "Szín",
+  "notePassword": "Jelszó",
+  "setPassword": "Jelszó beállítása",
+  "changePassword": "Jelszó módosítása",
+  "removePassword": "Jelszó eltávolítása",
+  "enterPassword": "Jelszó megadása",
+  "confirmPassword": "Jelszó megerősítése",
+  "passwordPin": "PIN kód",
+  "passwordText": "Szöveges jelszó",
+  "protectedNote": "Védett jegyzet",
+  "incorrectPassword": "Helytelen jelszó",
+  "passwordSet": "Jelszó beállítva",
+  "passwordRemoved": "Jelszó eltávolítva",
+  "notesBiometric": "Face ID a jegyzetekhez",
+  "notesBiometricSubtitle": "Biometrikus hitelesítés szükséges a védett jegyzetek megnyitásához",
+  "textNote": "Szöveges jegyzet",
+  "checklistNote": "Ellenőrző lista",
+  "tasksProgress": "{checked}/{total} feladat",
+  "autoSaved": "Mentve",
+  "searchNotes": "Jegyzetek keresése",
+  "legalConsent": "Jogi hozzájárulás",
+  "confirmAge13": "Megerősítem, hogy legalább 13 éves vagyok",
+  "acceptLegalStart": "Elfogadom az ",
+  "privacyPolicy": "Adatvédelmi irányelveket",
+  "termsOfService": "Szolgáltatási feltételeket",
+  "andThe": " és a ",
+  "continueButton": "Folytatás",
+  "mustAcceptTerms": "A folytatáshoz mindkét feltételt el kell fogadnia",
+  "support": "Támogatás",
+  "contactSupport": "Kapcsolat a támogatással",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Visszaélés jelentése",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Jogi",
+  "legalEntity": "Jogi személy",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Rögzítés",
+  "unpinConversation": "Rögzítés megszüntetése",
+  "hideConversation": "Eltávolítás a hírfolyamból",
+  "deleteConversation": "Beszélgetés törlése",
+  "deleteConversationConfirm": "Adja meg PIN-jét az összes üzenet törlésének megerősítéséhez",
+  "noConversations": "Még nincsenek beszélgetések",
+  "startConversation": "Indítás",
+  "microphonePermissionRequired": "Mikrofon hozzáférés szükséges",
+  "microphonePermissionExplanation": "A Hash-nek szüksége van a mikrofonra a hívásokhoz.",
+  "cameraPermissionExplanation": "A Hash-nek szüksége van a kamerára a videóhívásokhoz.",
+  "openSettings": "Beállítások megnyitása",
+  "callConnecting": "Kapcsolódás...",
+  "callRinging": "Csörög...",
+  "callReconnecting": "Újrakapcsolódás...",
+  "callReconnectingTimer": "Újrakapcsolódás ({seconds}s)",
+  "callPaused": "Szünetel",
+  "callPausedSubtitle": "A hívás még aktív",
+  "callRemoteMicMuted": "A névjegy mikrofonja némítva van",
+  "callMiniControlsMute": "Némítás",
+  "callMiniControlsUnmute": "Némítás feloldása",
+  "callMiniControlsHangUp": "Befejezés",
+  "callMiniControlsReturn": "Visszatérés a híváshoz",
+  "callNetworkPoor": "Instabil kapcsolat",
+  "callNetworkLost": "Kapcsolat elveszett",
+  "callEndedTitle": "Hívás befejezve",
+  "deviceData": "Eszközadatok",
+  "deviceDataSubtitle": "Helyi és szerver tárhely",
+  "localStorage": "Helyi tárhely",
+  "onThisDevice": "ezen az eszközön",
+  "encryptedDatabases": "Titkosított adatbázisok",
+  "files": "Fájlok",
+  "secureKeychain": "Biztonságos kulcstartó",
+  "cache": "Gyorsítótár",
+  "contactsDetail": "Nevek, avatarok, Signal kulcsok",
+  "messagesDetail": "Titkosított beszélgetések",
+  "notesDetail": "Személyes jegyzetek",
+  "signalSessions": "Signal munkamenetek",
+  "signalSessionsDetail": "Titkosítási munkamenetek",
+  "pendingContacts": "Függő névjegyek",
+  "pendingContactsDetail": "Függő kérések",
+  "callHistory": "Hívások",
+  "callHistoryDetail": "Hívástörténet",
+  "preferences": "Beállítások",
+  "preferencesDetail": "Média és hívási beállítások",
+  "avatars": "Avatarok",
+  "media": "Média",
+  "fileCount": "{count, plural, =0{nincs fájl} =1{1 fájl} other{{count} fájl}}",
+  "active": "Aktív",
+  "notDefined": "Nincs meghatározva",
+  "biometrics": "Biometria",
+  "recoveryPhrase": "Helyreállítási kifejezés",
+  "identity": "Azonosság (Hash ID)",
+  "signalKeys": "Signal Protocol kulcsok",
+  "authTokens": "Hitelesítési tokenek",
+  "contactNamesCache": "Névjegynevek gyorsítótára",
+  "remoteConfig": "Távoli konfiguráció",
+  "notificationPrefs": "Értesítési beállítások",
+  "serverData": "Szerver adatok",
+  "serverDataInfo": "A Hash minimális adatot tárol a szerveren, mind titkosítva vagy ideiglenesen.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash ID, nyilvános kulcsok, postaláda token",
+  "serverPrekeys": "Előkulcsok",
+  "serverPrekeysDetail": "Egyszer használatos Signal kulcsok (felhasználva)",
+  "serverMessages": "Átvitel alatt lévő üzenetek",
+  "serverMessagesDetail": "Kézbesítés után törölve (max. 24ó)",
+  "serverMedia": "Átvitel alatt lévő média",
+  "serverMediaDetail": "Letöltés után törölve",
+  "serverContactRequests": "Névjegy kérések",
+  "serverContactRequestsDetail": "24 óra után lejárnak",
+  "serverRateLimits": "Sebességkorlátozások",
+  "serverRateLimitsDetail": "Ideiglenes visszaélés elleni adatok",
+  "privacyReassurance": "A Hash nem tudja olvasni üzeneteit. Minden adat végponttól végpontig titkosított. A szerver adatok automatikusan törlődnek.",
+  "pinTooSimple": "Ez a PIN túl egyszerű. Válasszon biztonságosabb kódot.",
+  "genericError": "Hiba történt. Kérjük, próbálja újra.",
+  "accountCreationError": "Nem sikerült létrehozni a fiókot: {error}",
+  "phraseCopiedToClipboard": "Kifejezés vágólapra másolva",
+  "copyPhrase": "Kifejezés másolása",
+  "recoveryPhraseSecurityWarning": "Írja le ezt a kifejezést egy biztonságos helyre. Ha elveszíti a PIN-jét e kifejezés nélkül, véglegesen elveszíti hozzáférését az adataihoz.",
+  "noMessages": "Nincsenek üzenetek",
+  "deleteAllMessagesWithContact": "Törli az összes üzenetet {name} felhasználóval?",
+  "confirmation": "Megerősítés",
+  "untitled": "Névtelen",
+  "noSessions": "Nincsenek munkamenetek",
+  "unknownContact": "Ismeretlen névjegy",
+  "unnamed": "Névtelen",
+  "noPendingRequestsAlt": "Nincs függő kérés",
+  "deleteAllCallHistory": "Törli az összes hívástörténetet?",
+  "noCalls": "Nincsenek hívások",
+  "noPreferences": "Nincsenek beállítások",
+  "resetAllMediaPrefs": "Visszaállítja az összes médiabeállítást?",
+  "deleteThisAvatar": "Törli ezt az avatart?",
+  "deleteAllAvatars": "Törli az összes avatart?",
+  "noAvatars": "Nincsenek avatarok",
+  "deleteThisFile": "Törli ezt a fájlt?",
+  "deleteAllMediaFiles": "Törli az összes médiát?",
+  "noMediaFiles": "Nincs média",
+  "outgoing": "Kimenő",
+  "incoming": "Bejövő",
+  "ephemeralViewDuration": "Eltűnő nézet: {seconds}s",
+  "normalView": "Normál nézet",
+  "callReasonCompleted": "Befejezett",
+  "callReasonMissed": "Nem fogadott",
+  "callReasonDeclined": "Elutasított",
+  "callReasonFailed": "Sikertelen",
+  "justNow": "Most",
+  "timeAgoMinutes": "{count} perce",
+  "timeAgoHours": "{count} órája",
+  "timeAgoDays": "{count} napja",
+  "messageTypeContact": "Névjegy",
+  "messageTypeLocation": "Helyzet",
+  "statusQueued": "Sorban áll",
+  "blockedBadge": "Letiltva",
+  "protectedBadge": "Védett",
+  "messageCount": "{count} üzenet",
+  "deleteQuestion": "Törli?",
+  "transferMyAccountTitle": "Fiókom áthelyezése",
+  "loadingError": "Betöltési hiba",
+  "transferToNewDevice": "Áthelyezés új eszközre",
+  "transferInstructions": "Az új eszközön válassza a \"Fiókom helyreállítása\" lehetőséget, és adja meg ezeket az adatokat:",
+  "yourHashIdLabel": "Az Ön Hash ID-je",
+  "enterYourPinCode": "Adja meg PIN kódját",
+  "pinOwnerConfirmation": "Annak megerősítésére, hogy Ön a fiók tulajdonosa",
+  "scanThisQrCode": "Olvassa be ezt a QR code-ot",
+  "withYourNewDevice": "Az új eszközével",
+  "orEnterTheCode": "vagy adja meg a kódot",
+  "transferCodeLabel": "Áthelyezési kód",
+  "proximityVerification": "Közelségi ellenőrzés",
+  "bringDevicesCloser": "Hozza közelebb mindkét eszközt",
+  "confirmTransferQuestion": "Megerősíti az áthelyezést?",
+  "accountWillBeTransferred": "Fiókja áthelyezésre kerül az új eszközre.\n\nEz az eszköz véglegesen lecsatlakozik.",
+  "transferComplete": "Áthelyezés kész",
+  "transferSuccessMessage": "Fiókja sikeresen áthelyezve.\n\nEz az alkalmazás most bezárul.",
+  "manualVerification": "Kézi ellenőrzés",
+  "codeDisplayedOnBothDevices": "Mindkét eszközön megjelenített kód:",
+  "doesCodeMatchNewDevice": "Egyezik ez a kód az új eszközön megjelenővel?",
+  "verifiedStatus": "Ellenőrizve",
+  "inProgressStatus": "Folyamatban...",
+  "notAvailableStatus": "Nem elérhető",
+  "codeExpiredRestart": "A kód lejárt. Kérjük, indítsa újra.",
+  "codesDoNotMatchCancelled": "A kódok nem egyeznek. Áthelyezés megszakítva.",
+  "transferToDevice": "Cél: {device}",
+  "copiedExclamation": "Másolva!",
+  "expiresInTime": "Lejár: {time} múlva",
+  "biometricNotAvailable": "A biometria nem érhető el ezen az eszközön",
+  "biometricAuthError": "Hiba a biometrikus hitelesítés során",
+  "authenticateForBiometric": "Kérjük, hitelesítse magát a biometria engedélyezéséhez",
+  "biometricAuthFailed": "A biometrikus hitelesítés sikertelen",
+  "forceUpdateTitle": "Frissítés szükséges",
+  "forceUpdateMessage": "A Hash új verziója elérhető. Kérjük, frissítsen a folytatáshoz.",
+  "updateButton": "Frissítés",
+  "maintenanceInProgress": "Karbantartás folyamatban",
+  "tryAgainLater": "Kérjük, próbálja újra később",
+  "information": "Információ",
+  "noLoginRecorded": "Nincs rögzített bejelentkezés",
+  "nextUnlocksAppearHere": "A következő feloldások itt jelennek meg.",
+  "noMaintenancePlanned": "Nincs tervezett karbantartás",
+  "everythingWorkingNormally": "Minden normálisan működik",
+  "locking": "Zárolás...",
+  "newMessageNotification": "Új üzenet",
+  "secExplainTitle": "Hogyan véd a Hash",
+  "secExplainIntro": "A Hash úgy lett tervezve, hogy senki ne olvashassa az üzeneteit.",
+  "secExplainIntroSub": "Még mi sem.\nÍgy működik, egyszerűen elmagyarázva.",
+  "secJourneyLabel": "AZ UTAZÁS",
+  "secJourneyTitle": "Az üzenete útja",
+  "secJourneySubtitle": "Az ujjától a névjegye képernyőjéig minden lépés védett. Kövesse az utat.",
+  "secStep1Title": "Megírja üzenetét",
+  "secStep1Desc": "Beírja, hogy \"Szia!\" az alkalmazásba. Ebben a pillanatban az üzenet csak a telefon memóriájában létezik. Semmi nem lett elküldve.",
+  "secStep2Title": "Titkosítás Signal Protocol-lal",
+  "secStep2Desc": "Amint megnyomja a \"Küldés\" gombot, üzenete érthetetlen karakterlánccá alakul. Mintha az üzenetét egy széfbe zárná, amelynek kulcsa csak a névjegyénél van.",
+  "secStep3Title": "Sealed Sender: a láthatatlan boríték",
+  "secStep3Desc": "Képzelje el, hogy levelet küld postán, de feladó nélkül a borítékon. Pontosan ezt teszi a Hash. Az üzenetet egy anonim postaládába dobják. A szerver nem tudja, ki küldte.",
+  "secStep4Title": "A szerver semmit nem lát",
+  "secStep4Desc": "A szerver vak postásként működik. Csak annyit tud, hogy \"valaki bedobott valamit az #A7X9 postaládába\". Nem tudja, ki küldte, mi az, vagy kinek szól.",
+  "secStep4Highlight": "Nem tárol metaadatokat: nincs IP cím, nincs időbélyeg, nincs kapcsolat küldő és címzett között.",
+  "secStep5Title": "Névjegye megkapja az üzenetet",
+  "secStep5Desc": "Névjegye telefonja lekéri a tartalmat az anonim postaládából, és a privát kulcsával visszafejti az üzenetet, amely soha nem hagyta el az eszközét. A \"Szia!\" megjelenik a képernyőjén.",
+  "secStep6Title": "Az üzenet eltűnik a szerverről",
+  "secStep6Desc": "Amint névjegye visszaigazolja a fogadást, a szerver véglegesen törli az üzenetet. Nincs kuka, nincs archívum, nincs biztonsági másolat. Még az olvasatlan üzenetek is automatikusan megsemmisülnek 24 óra után.",
+  "secStep7Title": "Helyi lejárat",
+  "secStep7Desc": "Névjegye telefonján az üzenet az Ön által választott időtartam szerint megsemmisül: olvasás után azonnal, 5 perc, 1 óra... Ön dönti el.",
+  "secJourneyConclusion": "Eredmény: nulla nyom a szerveren, nulla nyom az eszközökön. Az üzenet csak addig létezett, amíg el nem olvasták, aztán eltűnt.",
+  "secArchLabel": "ARCHITEKTÚRA",
+  "secArchTitle": "5 védelmi réteg",
+  "secArchSubtitle": "A Hash nem egyetlen technológiára támaszkodik. Minden réteg erősíti a többit. Még ha egy réteg kompromittálódik is, adatai biztonságban maradnak.",
+  "secLayer1Title": "Végponttól végpontig titkosítás",
+  "secLayer1Desc": "Minden üzenet egyedi kulccsal van titkosítva. Egyszerűen: még ha valaki visszafejt egy üzenetet, a következőt nem tudja. Minden üzenetnek saját zárat van.",
+  "secLayer1Detail": "Fájlokhoz (fotók, videók, dokumentumok) a Hash további AES-256-GCM titkosítást használ. A fájl titkosítva van, mielőtt elhagyná a telefont.",
+  "secLayer2Title": "Sealed Sender (hálózati anonimitás)",
+  "secLayer2Desc": "A hagyományos üzenetküldők az Ön személyazonosságával küldik az üzeneteket. Mintha a nevét írná a borítékra. A Hash anonim postaládákat használ: a szerver kézbesíti az üzenetet anélkül, hogy tudná, ki küldte.",
+  "secLayer2Detail": "Eredmény: még szerver adatszivárgás esetén is lehetetlen rekonstruálni, ki kivel beszél.",
+  "secLayer3Title": "Automatikus törlés",
+  "secLayer3Desc": "Az üzenetek a fogadás visszaigazolása után azonnal törlődnek a szerverről. Még ha egy üzenetet soha nem kérnek le, 24 óra után automatikusan megsemmisül.",
+  "secLayer3Detail": "A telefonján az üzenetek az Ön által választott időtartam szerint semmisülnek meg: azonnal, 5 perc, 15 perc, 30 perc, 1ó, 3ó, 6ó vagy 12ó.",
+  "secLayer4Title": "Helyi hozzáférés védelme",
+  "secLayer4Desc": "Az alkalmazást 6 számjegyű PIN és/vagy biometria (Face ID, ujjlenyomat) védi. Túl sok sikertelen próbálkozás után az alkalmazás zárolódik, minden sikertelen kísérlet után növekvő késleltetéssel.",
+  "secLayer5Title": "Zárolt adatbázis",
+  "secLayer5Desc": "A szerver oldalon egyetlen felhasználó sem írhat közvetlenül az adatbázisba. Minden művelet biztonságos függvényeken keresztül történik, amelyek minden kérést ellenőriznek.",
+  "secLayer5Detail": "Olyan, mint egy bankpult: soha nem nyúl a széfhez. Kérést nyújt be, és a rendszer ellenőrzi, hogy jogosult-e, mielőtt cselekszik.",
+  "secVashLabel": "EGYEDÜLÁLLÓ A VILÁGON",
+  "secVashTitle": "Vash mód",
+  "secVashSubtitle": "Egy vészhelyzeti biztonsági rendszer, amely egyetlen más üzenetküldőben sem létezik.",
+  "secVashScenarioTitle": "Képzelje el ezt a helyzetet",
+  "secVashScenario1": "Valaki hozzáfér a telefonjához",
+  "secVashScenario2": "Kérik a PIN kódját",
+  "secVashScenario3": "Sürgősen törölni akarja az összes adatát",
+  "secVashSolutionTitle": "A megoldás: két PIN kód",
+  "secVashSolutionDesc": "Két különböző PIN kódot konfigurál a Hash-ben:",
+  "secVashNormalCodeLabel": "Normál kód",
+  "secVashNormalCodeDesc": "Normálisan megnyitja az alkalmazást az összes adattal",
+  "secVashCodeLabel2": "Vash kód",
+  "secVashCodeDescription": "Normálisan megnyitja az alkalmazást... de az összes adat csendben törlődik a háttérben",
+  "secVashWhatHappensTitle": "Mi történik ezután",
+  "secVashWhatHappensDesc": "Az alkalmazás normálisan megnyílik. Nincs figyelmeztetés, nincs gyanús animáció. A képernyő egyszerűen egy üres alkalmazást mutat, mintha most telepítette volna.\n\nA valóságban az összes beszélgetése, névjegye és üzenete visszafordíthatatlanul törlődött egy másodperc töredéke alatt.",
+  "secCallsLabel": "HÍVÁSOK ÉS FÁJLOK",
+  "secCallsTitle": "Minden titkosított",
+  "secCallsSubtitle": "Nem csak az üzenetek. Abszolút minden, ami a Hash-en keresztül megy, végponttól végpontig titkosított.",
+  "secAudioCallTitle": "Hanghívások",
+  "secAudioCallDesc": "Végponttól végpontig titkosítva WebRTC-n keresztül. A hang közvetlenül az eszközök között kerül átvitelre.",
+  "secVideoCallTitle": "Videóhívások",
+  "secVideoCallDesc": "Ugyanaz a technológia, minden adatfolyam egyedileg titkosítva.",
+  "secPhotosTitle": "Fotók és videók",
+  "secPhotosDesc": "AES-256-GCM-mel titkosítva, mielőtt elhagynák a telefont.",
+  "secDocsTitle": "Dokumentumok",
+  "secDocsDesc": "PDF, ZIP, bármilyen fájl. Név, méret és tartalom titkosítva.",
+  "secAnonLabel": "ANONIMITÁS",
+  "secAnonTitle": "Nem szükséges személyazonosság",
+  "secAnonSubtitle": "A Hash soha nem kéri telefonszámát vagy e-mail címét. Egyedi és anonim Hash ID azonosítja Önt.",
+  "secHashIdTitle": "Az Ön Hash ID-je",
+  "secHashIdDesc": "Ez az Ön egyedi azonosítója. Semmit nem árul el Önről: sem a nevét, sem a számát, sem a tartózkodási helyét. Olyan, mint egy álnév, amelyet lehetetlen a valódi személyazonossághoz kötni.\n\nNévjegy hozzáadásához megosztja a Hash ID-jét vagy beolvas egy QR code-ot. Ennyi. Nincs szinkronizált címjegyzék, nincsenek \"Ismerősei lehetnek\" javaslatok.",
+  "secDataLabel": "ADATOK",
+  "secDataTitle": "Amit a Hash nem tud",
+  "secDataSubtitle": "A legjobb módja az adatok védelmének, ha nem gyűjtjük őket.",
+  "secNeverCollected": "Soha nem gyűjtött",
+  "secNeverItem1": "Üzenet tartalom",
+  "secNeverItem2": "Névjegylista",
+  "secNeverItem3": "Telefonszám",
+  "secNeverItem4": "E-mail cím",
+  "secNeverItem5": "IP cím",
+  "secNeverItem6": "Tartózkodási hely",
+  "secNeverItem7": "Metaadatok (ki kivel beszél)",
+  "secNeverItem8": "Hívástörténet",
+  "secNeverItem9": "Címjegyzék",
+  "secNeverItem10": "Hirdetési azonosítók",
+  "secTempStored": "Ideiglenesen tárolt",
+  "secTempItem1": "Anonim Hash ID (egyedi azonosító)",
+  "secTempItem2": "Nyilvános titkosítási kulcsok",
+  "secTempItem3": "Titkosított üzenetek átvitel közben (max. 24ó)",
+  "secTempNote": "Még ez a minimális adat sem azonosíthatja Önt. Hash ID-je nem kapcsolódik semmilyen személyes információhoz.",
+  "secFooterTitle": "Az Ön magánélete, az Ön szabadsága",
+  "secFooterDesc": "A Hash ugyanazokat a titkosítási technológiákat használja, mint a legigényesebb professzionális alkalmazások. Üzeneteit matematika védi, nem ígéretek.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometria",
+  "biometricUnlock": "Feloldás ujjlenyomattal vagy Face ID-val",
+  "biometricWarningMessage": "A biometria engedélyezésével nem tudja a Vash kódját használni az alkalmazásba való belépéshez.\n\nA Vash kódot csak akkor használhatja, ha a biometria sikertelen (több sikertelen próbálkozás után).\n\nBiztos, hogy folytatja?",
+  "connectionCount": "Kapcsolat(ok)",
+  "currentSession": "Jelenlegi",
+  "dataLocalOnly": "Ezek az adatok csak az eszközén tárolódnak, és soha nem kerülnek továbbításra.",
+  "doYouLikeHash": "Tetszik a Hash?",
+  "donationMessage": "A Hash egy nonprofit projekt. Támogatásával segít nekünk egy valóban privát üzenetküldő fejlesztésében.",
+  "enableBiometric": "Biometria engedélyezése",
+  "ephemeral1HourDesc": "Törölve 1ó olvasás után",
+  "ephemeral24HoursDesc": "Törölve 24ó olvasás után",
+  "ephemeral30SecondsDesc": "Törölve 30mp olvasás után",
+  "ephemeral5MinutesDesc": "Törölve 5p olvasás után",
+  "ephemeral6HoursDesc": "Törölve 6ó olvasás után",
+  "feedback": "Visszajelzés",
+  "historyLabel": "Előzmények",
+  "hoursAgoLabel": "{hours}ó-val ezelőtt",
+  "hoursMinutesAgoLabel": "{hours}ó {minutes}p-vel ezelőtt",
+  "justNowLabel": "Most",
+  "later": "Később",
+  "loginInfoText": "Minden PIN-feloldás helyben rögzítésre kerül. Csak az utolsó 24 óra kerül megőrzésre.",
+  "maintenanceActiveLabel": "FOLYAMATBAN",
+  "maintenancePlannedLabel": "TERVEZETT",
+  "maintenanceTitle": "Karbantartás",
+  "minutesAgoLabel": "{count} perce",
+  "periodLabel": "Időszak",
+  "pinCodeForEntry": "PIN kód az alkalmazásba való belépéshez",
+  "ratingBad": "Rossz",
+  "ratingExcellent": "Kiváló!",
+  "ratingGood": "Jó",
+  "ratingOk": "Rendben",
+  "ratingTerrible": "Szörnyű",
+  "recentConnections": "Legutóbbi kapcsolatok",
+  "share": "Megosztás",
+  "shareAppSubtitle": "Ossza meg a Hash-t szeretteivel",
+  "showCallsInRecents": "Megjelenítés a legutóbbi hívásokban",
+  "showCallsInRecentsSubtitle": "A Hash hívások megjelennek a telefon előzményeiben",
+  "todayLabel": "Ma",
+  "understood": "Megértettem",
+  "yesterdayLabel": "Tegnap",
+  "yourFeedbackHelps": "Visszajelzése segít nekünk az alkalmazás fejlesztésében"
+}

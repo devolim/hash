@@ -1,0 +1,1034 @@
+{
+  "@@locale": "ar",
+
+  "appName": "Hash",
+  "appTagline": "بدون أثر. بدون تنازل.",
+
+  "conversations": "الدردشات",
+  "contacts": "جهات الاتصال",
+  "noConversation": "لا توجد دردشات",
+  "noConversationSubtitle": "أضف جهة اتصال لبدء الدردشة بأمان",
+  "pendingRequestsCount": "{count, plural, =1{طلب واحد معلق} other{{count} طلبات معلقة}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{طلب مرسل واحد معلق} other{{count} طلبات مرسلة معلقة}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "إضافة جهة اتصال",
+  "shareApp": "مشاركة التطبيق",
+  "newMessage": "رسالة جديدة",
+  "newConversation": "أرسل رسالة",
+
+  "settings": "الإعدادات",
+  "myHashId": "معرّف Hash الخاص بي",
+  "supportHash": "دعم Hash",
+  "supportHashSubtitle": "Hash مشروع غير ربحي",
+  "donate": "تبرع",
+
+  "appearance": "المظهر",
+  "theme": "السمة",
+  "themeAuto": "تلقائي",
+  "themeAutoSubtitle": "يتبع إعدادات النظام",
+  "themeDark": "داكن",
+  "themeLight": "فاتح",
+  "themeRecommendation": "السمة الداكنة موصى بها لمزيد من الخصوصية",
+  "language": "اللغة",
+  "languageAuto": "تلقائي (النظام)",
+
+  "notifications": "الإشعارات",
+  "messages": "الرسائل",
+  "calls": "المكالمات",
+  "vibration": "الاهتزاز",
+  "notificationContent": "محتوى الإشعارات",
+  "notificationContentFull": "عرض الكل",
+  "notificationContentFullDesc": "اسم جهة الاتصال ومعاينة الرسالة",
+  "notificationContentName": "الاسم فقط",
+  "notificationContentNameDesc": "يعرض فقط اسم جهة الاتصال",
+  "notificationContentDiscrete": "سري",
+  "notificationContentDiscreteDesc": "يعرض فقط \"رسالة جديدة\"",
+
+  "security": "الأمان",
+  "howHashProtectsYou": "كيف يحميك Hash",
+  "howHashProtectsYouSubtitle": "افهم أمانك",
+  "accountSecurity": "أمان الحساب",
+  "accountSecuritySubtitle": "رمز PIN، البصمة، وضع Vash",
+  "blockScreenshots": "حظر لقطات الشاشة",
+  "transferDevice": "النقل إلى جهاز آخر",
+  "transferDeviceSubtitle": "نقل حسابك",
+
+  "pinCode": "رمز PIN",
+  "changePin": "تغيير رمز PIN",
+  "currentPin": "رمز PIN الحالي",
+  "newPin": "رمز PIN الجديد",
+  "confirmPin": "تأكيد رمز PIN",
+  "pinChanged": "تم تغيير رمز PIN",
+  "incorrectPin": "رمز PIN غير صحيح",
+  "pinsDoNotMatch": "الرموز غير متطابقة",
+
+  "autoLock": "القفل التلقائي",
+  "autoLockDelay": "مهلة القفل",
+  "autoLockImmediate": "فوري",
+  "autoLockMinute": "دقيقة واحدة",
+  "autoLockMinutes": "{count} دقائق",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "رمز Vash",
+  "vashModeTitle": "وضع Vash",
+  "vashModeExplanation": "شبكة أمانك المطلقة.",
+  "vashModeDescription": "ستختار رمز PIN ثانٍ. إذا أُجبرت يوماً على فتح Hash، أدخل هذا الرمز بدلاً من رمز PIN العادي.\n\nسيفتح التطبيق بشكل عادي، لكن جميع محادثاتك وجهات اتصالك ستكون قد اختفت.\n\nلأي شخص ينظر إلى شاشتك، سيبدو Hash فارغاً — كأنك لم تستخدمه أبداً.",
+  "vashModeIrreversible": "هذا الإجراء صامت ولا رجعة فيه.",
+  "chooseVashCode": "اختيار رمز Vash الخاص بي",
+  "vashCodeInfo": "رمز PIN ثانٍ يفتح التطبيق بشكل عادي، لكن فارغاً.",
+  "vashCodeInfoDetail": "إذا أدخلت هذا الرمز بدلاً من PIN:",
+  "vashDeleteContacts": "جهات اتصالك تختفي",
+  "vashDeleteMessages": "محادثاتك تختفي",
+  "vashDeleteHistory": "ملاحظاتك تختفي",
+  "vashKeepId": "هويتك في Hash (#XXX-XXX-XXX) تبقى كما هي",
+  "vashAppearNormal": "سيظهر التطبيق عادياً لكن فارغاً، كأنه جديد. هذا الإجراء لا رجعة فيه.",
+  "setupVashCode": "إعداد رمز Vash",
+  "modifyVashCode": "تعديل رمز Vash",
+  "currentVashCode": "رمز Vash الحالي",
+  "newVashCode": "رمز Vash الجديد",
+  "confirmVashCode": "تأكيد رمز Vash",
+  "vashCodeConfigured": "تم إعداد رمز Vash",
+  "vashCodeModified": "تم تعديل رمز Vash",
+  "vashCodeMustDiffer": "يجب أن يكون رمز Vash مختلفاً عن PIN",
+  "incorrectVashCode": "رمز Vash غير صحيح",
+  "vashWhatToDelete": "ماذا يجب أن يُخفي وضع Vash؟",
+  "vashDeleteContactsOption": "جهات الاتصال",
+  "vashDeleteMessagesOption": "الرسائل",
+  "vashDeleteNotesOption": "الملاحظات",
+  "vashActivated": "تم تفعيل وضع Vash",
+  "vashCreateSubtitle": "اختر رمزاً مختلفاً عن رمز PIN الرئيسي",
+  "vashConfirmSubtitle": "أكد رمز Vash الخاص بك",
+  "vashCodeSection": "وضع Vash",
+
+  "danger": "خطر",
+  "panicButton": "زر الذعر",
+  "panicButtonSubtitle": "حذف جميع البيانات",
+  "deleteAccount": "حذف حسابي",
+  "deleteAccountSubtitle": "إجراء لا رجعة فيه",
+  "deleteAccountConfirmTitle": "حذف حسابي",
+  "deleteAccountConfirmMessage": "سيتم حذف حسابك نهائياً. هذا الإجراء لا رجعة فيه.\n\n• جميع دردشاتك\n• جميع جهات اتصالك\n• معرّف Hash الخاص بك\n\nستحتاج إلى إنشاء حساب جديد.",
+  "deleteForever": "حذف نهائي",
+  "cancel": "إلغاء",
+
+  "panicConfirmTitle": "زر الذعر",
+  "panicConfirmMessage": "سيحذف هذا الإجراء جميع بياناتك نهائياً:\n\n• جميع رسائلك\n• جميع جهات اتصالك\n• حسابك\n\nهل أنت متأكد تماماً؟",
+  "deleteAll": "حذف الكل",
+  "dataDeletedForSecurity": "تم تفعيل وضع Vash.",
+  "deletionError": "خطأ في الحذف: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "أمانك",
+  "securityInfo": "• تشفير من طرف إلى طرف (بروتوكول Signal)\n• لا بيانات على خوادمنا بعد التسليم\n• المفاتيح مخزنة فقط على جهازك\n• رمز PIN لا يُرسل أبداً للخادم",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "مرحباً",
+  "securityStatement1": "رسائلك محمية.",
+  "securityStatement2": "تشفير من طرف إلى طرف.",
+  "securityStatement3": "بدون أثر. بدون تنازل.",
+  "securityStatement4": "خصوصيتك حق.",
+
+  "accessBlocked": "تم حظر الوصول",
+  "tooManyAttempts": "محاولات كثيرة جداً. حاول مرة أخرى لاحقاً.",
+  "pleaseWait": "يرجى الانتظار",
+  "waitDelay": "يرجى انتظار انتهاء المهلة",
+  "attemptCount": "المحاولة {current} من {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "أعد المحاولة خلال {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "نسيت PIN؟ استخدم عبارة الاسترداد",
+  "useRecoveryPhrase": "استخدم عبارة الاسترداد",
+
+  "recoveryWarningTitle": "تنبيه",
+  "recoveryWarningMessage": "استرداد الحساب سيقوم بـ:",
+  "recoveryDeleteAllMessages": "حذف جميع رسائلك",
+  "recoveryWaitDelay": "طلب انتظار ساعة واحدة",
+  "recoveryKeepContacts": "الاحتفاظ بجهات اتصالك",
+  "recoveryIrreversible": "هذا الإجراء لا رجعة فيه. ستفقد رسائلك نهائياً.",
+  "iUnderstand": "أفهم",
+
+  "accountRecovery": "استرداد الحساب",
+  "enterRecoveryPhrase": "أدخل الكلمات الـ 24 لعبارة الاسترداد، مفصولة بمسافات.",
+  "recoveryPhraseHint": "كلمة1 كلمة2 كلمة3 ...",
+  "recover": "استرداد",
+  "recoveryPhraseRequired": "يرجى إدخال عبارة الاسترداد",
+  "recoveryPhrase24Words": "يجب أن تحتوي العبارة على 24 كلمة بالضبط",
+  "incorrectRecoveryPhrase": "عبارة الاسترداد غير صحيحة",
+  "recoveryInitError": "خطأ في بدء الاسترداد",
+
+  "securityDelay": "مهلة الأمان",
+  "securityDelayMessage": "لأمانك، مطلوب فترة انتظار قبل إنشاء PIN جديد.",
+  "timeRemaining": "الوقت المتبقي",
+  "messagesDeletedForProtection": "تم حذف رسائلك لحمايتك.",
+  "canCloseApp": "يمكنك إغلاق التطبيق والعودة لاحقاً.",
+
+  "onboardingTitle1": "مرحباً بك في Hash",
+  "onboardingSubtitle1": "تطبيق المراسلة الذي لا يترك أثراً",
+  "onboardingTitle2": "تشفير كامل",
+  "onboardingSubtitle2": "رسائلك مشفرة من طرف إلى طرف ببروتوكول Signal",
+  "onboardingTitle3": "بدون أثر",
+  "onboardingSubtitle3": "الرسائل تُحذف من الخوادم بعد التسليم",
+  "onboardingTitle4": "أمانك",
+  "onboardingSubtitle4": "رمز PIN، وضع Vash وعبارة الاسترداد",
+
+  "getStarted": "ابدأ",
+  "next": "التالي",
+  "skip": "تخطي",
+  "alreadyHaveAccount": "لدي حساب بالفعل",
+  "transferMyAccount": "نقل حسابي",
+
+  "createPin": "إنشاء رمز PIN",
+  "createPinSubtitle": "سيحمي هذا الرمز الوصول إلى تطبيقك",
+  "confirmYourPin": "تأكيد رمز PIN",
+  "confirmPinSubtitle": "أدخل رمز PIN مرة أخرى",
+
+  "saveRecoveryPhrase": "عبارة الاسترداد",
+  "saveRecoveryPhraseSubtitle": "اكتب هذه الكلمات الـ 24 بالترتيب. ستسمح لك باسترداد حسابك إذا نسيت PIN.",
+  "phraseWritten": "كتبت العبارة",
+  "warningRecoveryPhrase": "إذا فقدت هذه العبارة ونسيت PIN، ستفقد الوصول إلى حسابك.",
+
+  "accountTransferred": "تم نقل الحساب",
+  "accountTransferredMessage": "تم نقل حسابك إلى جهاز آخر. هذه الجلسة لم تعد صالحة.",
+  "accountTransferredInfo": "إذا لم تبدأ هذا النقل، فربما تم اختراق حسابك.",
+  "logout": "تسجيل الخروج",
+
+  "transferAccount": "نقل الحساب",
+  "transferAccountInfo": "انقل حساب Hash إلى جهاز جديد. ستُبطل جلستك الحالية.",
+  "generateTransferCode": "إنشاء رمز النقل",
+  "transferCode": "رمز النقل",
+  "transferCodeExpires": "ينتهي هذا الرمز خلال {minutes} دقائق",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "أدخل هذا الرمز على جهازك الجديد لنقل حسابك.",
+  "generateNewCode": "إنشاء رمز جديد",
+
+  "scanQrCode": "مسح رمز QR",
+  "scanQrCodeSubtitle": "امسح رمز QR لجهة اتصال لإضافتها",
+  "qrCodeDetected": "تم اكتشاف رمز QR",
+  "invalidQrCode": "رمز QR غير صالح",
+  "cameraPermissionRequired": "إذن الكاميرا مطلوب",
+
+  "myQrCode": "رمز QR الخاص بي",
+  "myQrCodeSubtitle": "شارك رمز QR هذا ليتمكن جهات اتصالك من إضافتك",
+  "shareQrCode": "مشاركة",
+
+  "addContactTitle": "إضافة جهة اتصال",
+  "addContactByHashId": "أدخل معرّف Hash لجهة اتصالك",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "بحث",
+  "contactNotFound": "جهة الاتصال غير موجودة",
+  "contactAlreadyAdded": "جهة الاتصال موجودة بالفعل في قائمتك",
+  "contactAdded": "تمت إضافة جهة الاتصال",
+
+  "myProfile": "ملفي الشخصي",
+  "myProfileSubtitle": "شارك هذه المعلومات ليتمكن الآخرون من إضافتك",
+  "temporaryCode": "الرمز المؤقت",
+  "temporaryCodeExpires": "ينتهي خلال {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "انتهت صلاحية الرمز",
+  "generateNewCodeButton": "رمز جديد",
+  "copyHashId": "نسخ المعرّف",
+  "copyCode": "نسخ الرمز",
+  "copiedToClipboard": "تم النسخ",
+  "showMyQrCode": "عرض رمز QR الخاص بي",
+  "orDivider": "أو",
+  "openScanner": "فتح الماسح",
+  "addManually": "إضافة يدوياً",
+  "contactHashIdLabel": "معرّف Hash لجهة الاتصال",
+  "temporaryCodeLabel": "الرمز المؤقت",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "اطلب من جهة اتصالك إنشاء رمز من ملفه الشخصي",
+  "verifyAndAdd": "التحقق والإضافة",
+  "fillAllFields": "يرجى ملء جميع الحقول",
+  "invalidHashIdFormat": "صيغة المعرّف غير صالحة (مثال: 123-456-ABC)",
+  "userNotFound": "المستخدم غير موجود",
+  "cannotAddYourself": "لا يمكنك إضافة نفسك",
+  "invalidOrExpiredCode": "الرمز المؤقت غير صالح أو منتهي الصلاحية",
+  "contactFound": "تم العثور على جهة الاتصال!",
+  "howToCallContact": "ماذا تريد تسميته؟",
+  "contactNameHint": "اسم جهة الاتصال",
+  "addContactButton": "إضافة",
+
+  "contactDetails": "تفاصيل جهة الاتصال",
+  "contactName": "اسم جهة الاتصال",
+  "contactHashId": "معرّف Hash",
+  "addedOn": "تمت الإضافة في {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "حذف جهة الاتصال",
+  "deleteContactConfirm": "حذف جهة الاتصال هذه؟",
+  "deleteContactMessage": "سيحذف هذا أيضاً الدردشة بأكملها.",
+  "delete": "حذف",
+
+  "typeMessage": "اكتب رسالة...",
+  "messageSent": "مُرسلة",
+  "messageDelivered": "تم التسليم",
+  "messageRead": "مقروءة",
+  "messageFailed": "فشل الإرسال",
+
+  "now": "الآن",
+  "minutesAgo": "{count}د",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}س",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}ي",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "اليوم",
+  "yesterday": "أمس",
+  "dateAtTime": "{date} في {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "انضم إليّ على Hash! 🔒\n\nإنه تطبيق مراسلة خاص حقاً: تشفير كامل، بدون أثر على الخوادم، ووضع الذعر عند الحاجة.\n\nحمّل التطبيق من هنا 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "خطأ",
+  "ok": "موافق",
+  "view": "عرض",
+  "yes": "نعم",
+  "no": "لا",
+  "save": "حفظ",
+  "edit": "تعديل",
+  "close": "إغلاق",
+  "confirm": "تأكيد",
+  "loading": "جاري التحميل...",
+  "retry": "إعادة المحاولة",
+
+  "pendingRequests": "الطلبات المعلقة",
+  "noPendingRequests": "لا توجد طلبات معلقة",
+  "pendingRequestsSubtitle": "هؤلاء الأشخاص يريدون إضافتك",
+  "requestFromUser": "طلب من {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "ينتهي خلال {days} أيام",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "قبول",
+  "rejectRequest": "رفض",
+  "requestAccepted": "تم قبول الطلب",
+  "requestRejected": "تم رفض الطلب",
+  "requestSent": "تم إرسال الطلب!",
+  "requestSentSubtitle": "تم إرسال طلبك. يجب على المستخدم قبوله قبل أن تتمكن من الدردشة.",
+  "requestAlreadyPending": "هناك طلب معلق بالفعل",
+  "requestAlreadySentByOther": "هذا الشخص أرسل لك طلباً بالفعل",
+  "addByHashId": "إضافة عبر Hash ID",
+  "addByHashIdSubtitle": "أدخل معرّف Hash والرمز المؤقت لجهة الاتصال",
+  "enterTemporaryCode": "أدخل الرمز المكون من 6 أرقام",
+  "sendRequest": "إرسال الطلب",
+  "acceptContactTitle": "قبول جهة الاتصال",
+  "acceptContactSubtitle": "يمكنك إعطاؤه اسماً مخصصاً",
+  "leaveEmptyForHashId": "اتركه فارغاً لاستخدام Hash ID",
+  "firstName": "الاسم الأول",
+  "lastName": "الاسم الأخير",
+  "notes": "الملاحظات",
+  "notesHint": "ملاحظات شخصية عن جهة الاتصال هذه",
+
+  "photoOptional": "صورة (اختياري)",
+  "contactNameOptional": "الاسم (اختياري)",
+  "notesOptional": "ملاحظات (اختياري)",
+  "storedLocally": "مخزن على جهازك فقط",
+  "encryptedMessageLabel": "رسالة مشفرة",
+  "identityMessageHint": "من أنت؟ كيف تعرفون بعضكم؟",
+  "messageWillBeSentEncrypted": "سيتم تشفير هذه الرسالة وإرسالها إلى المستلم",
+  "sendRequestButton": "إرسال الطلب",
+  "requestExpiresIn24h": "ينتهي الطلب خلال 24 ساعة إذا لم يُقبل",
+  "theyAlreadySentYouRequest": "هذا الشخص أرسل لك طلباً بالفعل",
+
+  "requests": "الطلبات",
+  "receivedRequests": "المستلمة",
+  "sentRequests": "المرسلة",
+  "noSentRequests": "لا توجد طلبات مرسلة",
+  "cancelRequest": "إلغاء",
+  "deleteRequest": "حذف الطلب",
+  "requestCancelled": "تم إلغاء الطلب",
+  "sentTo": "أُرسل إلى {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "ينتهي خلال {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "تم الاستلام منذ {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "رسالة من مقدم الطلب",
+
+  "copy": "نسخ",
+  "messageInfo": "معلومات الرسالة",
+
+  "messageDirection": "الاتجاه",
+  "messageSentByYou": "أرسلتها أنت",
+  "messageReceived": "مستلمة",
+  "messageSentAt": "أُرسلت في",
+  "messageStatus": "الحالة",
+  "messageReadAt": "قُرئت في",
+  "messageType": "النوع",
+  "messageSize": "الحجم",
+  "messageExpiresAt": "تنتهي في",
+  "messageEncrypted": "مشفرة من طرف إلى طرف",
+
+  "messageStatusSending": "جارٍ الإرسال...",
+  "messageStatusSent": "مُرسلة",
+  "messageStatusDelivered": "تم التسليم",
+  "messageStatusRead": "مقروءة",
+  "messageStatusFailed": "فشلت",
+
+  "serverStatus": "الخادم",
+  "onServer": "في انتظار التسليم",
+  "deletedFromServer": "محذوفة",
+
+  "messageTypeText": "نص",
+  "messageTypeImage": "صورة",
+  "messageTypeVideo": "فيديو",
+  "messageTypeVoice": "صوت",
+  "messageTypeFile": "ملف",
+
+  "indefinitely": "إلى أجل غير مسمى",
+  "hoursShort": "س",
+  "minutesShort": "د",
+  "hours": "ساعات",
+  "minutes": "دقائق",
+  "seconds": "ثوانٍ",
+
+  "ephemeralMessages": "الرسائل المؤقتة",
+  "ephemeralMessagesDescription": "تُحذف الرسائل تلقائياً بعد هذه المدة",
+  "ephemeralImmediate": "فوري (بعد القراءة)",
+  "ephemeralImmediateDesc": "تُحذف فور قراءتها",
+  "ephemeralMyPreference": "تفضيلي",
+  "ephemeralMyPreferenceDesc": "استخدام الإعداد العام",
+  "ephemeralDefaultSetting": "مدة الرسائل",
+  "ephemeralChooseDefault": "موصى به",
+  "ephemeral30Seconds": "30 ثانية",
+  "ephemeral5Minutes": "5 دقائق",
+  "ephemeral1Hour": "ساعة واحدة",
+  "ephemeral3Hours": "3 ساعات",
+  "ephemeral6Hours": "6 ساعات",
+  "ephemeral12Hours": "12 ساعة",
+  "ephemeral24Hours": "24 ساعة",
+  "customDuration": "مدة مخصصة",
+
+  "muteNotifications": "كتم الإشعارات",
+  "muteDescription": "لن تتلقى إشعارات لجهة الاتصال هذه",
+  "mutedUntil": "مكتوم حتى {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "الإشعارات مفعلة",
+  "unmute": "إلغاء الكتم",
+
+  "notificationSound": "صوت الإشعار",
+  "defaultSound": "افتراضي",
+
+  "chatSettings": "إعدادات الدردشة",
+  "bubbleColor": "لون الفقاعات",
+  "backgroundColor": "لون الخلفية",
+  "backgroundImage": "صورة الخلفية",
+  "chatBackground": "خلفية الدردشة",
+  "customColor": "مخصص",
+  "defaultColor": "افتراضي",
+  "imageSelected": "تم اختيار الصورة",
+  "noImage": "بدون صورة",
+  "color": "اللون",
+  "image": "صورة",
+  "tapToSelectImage": "انقر لاختيار صورة",
+  "changeImage": "تغيير الصورة",
+  "previewMessageReceived": "مرحباً!",
+  "previewMessageSent": "أهلاً!",
+
+  "messageAction": "رسالة",
+  "callAction": "مكالمة",
+  "videoAction": "فيديو",
+
+  "personalNotes": "ملاحظات شخصية",
+  "addNotes": "إضافة ملاحظات...",
+  "noNotes": "لا توجد ملاحظات",
+
+  "messageNotifications": "إشعارات الرسائل",
+  "callNotifications": "إشعارات المكالمات",
+
+  "useGradient": "استخدام تدرج",
+  "gradientStart": "لون البداية",
+  "gradientEnd": "لون النهاية",
+  "preview": "معاينة",
+  "reset": "إعادة تعيين",
+
+  "securityNumber": "رقم الأمان",
+  "securityNumberDescription": "تحقق من أن رقم الأمان يتطابق مع جهاز {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "التحقق من التشفير من طرف إلى طرف",
+  "tapToCopy": "انقر للنسخ",
+  "howToVerify": "كيفية التحقق",
+  "verifyStep1": "قابل جهة اتصالك شخصياً أو اتصل بها",
+  "verifyStep2": "قارن أرقام الأمان أو امسح رموز QR",
+  "verifyStep3": "إذا تطابقت، فدردشتك آمنة",
+  "scanToVerify": "امسح للتحقق",
+
+  "reportSpam": "الإبلاغ عن رسائل غير مرغوبة",
+  "reportSpamSubtitle": "الإبلاغ عن جهة الاتصال هذه كرسائل غير مرغوبة",
+  "reportSpamDescription": "سيتم الإبلاغ عن جهة الاتصال هذه بشكل مجهول. لن تتم مشاركة هويتك. هل أنت متأكد؟",
+  "report": "إبلاغ",
+  "spamReported": "تم الإبلاغ عن الرسائل غير المرغوبة",
+  "reportError": "فشل إرسال البلاغ. يرجى المحاولة مرة أخرى.",
+  "reportRateLimited": "لقد وصلت إلى الحد الأقصى من البلاغات لهذا اليوم.",
+
+  "blockContact": "حظر جهة الاتصال",
+  "blockContactDescription": "لن تتمكن جهة الاتصال هذه من إرسال رسائل إليك أو الاتصال بك. لن يتم إخطارها.",
+  "unblockContact": "إلغاء حظر جهة الاتصال",
+  "unblockContactDescription": "ستتمكن جهة الاتصال هذه من إرسال رسائل إليك والاتصال بك مرة أخرى.",
+  "contactBlocked": "تم حظر جهة الاتصال",
+  "contactUnblocked": "تم إلغاء حظر جهة الاتصال",
+  "contactIsBlocked": "جهة الاتصال هذه محظورة",
+  "unblock": "إلغاء الحظر",
+
+  "deleteContactSubtitle": "حذف جهة الاتصال هذه والدردشة",
+  "confirmWithPin": "تأكيد بالـ PIN",
+  "enterPinToConfirm": "أدخل رمز PIN لتأكيد هذا الإجراء",
+
+  "mute1Hour": "ساعة واحدة",
+  "mute8Hours": "8 ساعات",
+  "mute1Day": "يوم واحد",
+  "mute1Week": "أسبوع واحد",
+  "muteAlways": "دائماً",
+  "muteExplanation": "لن تتلقى إشعارات لجهة الاتصال هذه",
+  "howItWorks": "كيف يعمل",
+  "ephemeralExplanation1": "تُحذف الرسائل من الخادم فور استلامها.",
+  "ephemeralExplanation2": "يحدد هذا الإعداد متى تختفي الرسائل من هاتفك بعد قراءتها.",
+  "ephemeralExplanation3": "لدى جهة اتصالك إعداد خاص بهاتفها.",
+
+  "profilePhoto": "صورة الملف الشخصي",
+  "takePhoto": "التقاط صورة",
+  "chooseFromGallery": "اختيار من المعرض",
+  "removePhoto": "إزالة الصورة",
+
+  "viewContactHashId": "عرض معرّف جهة الاتصال",
+  "hashIdPartiallyMasked": "مخفي جزئياً لأمانك وخصوصية جهة اتصالك",
+
+  "addFirstContact": "أضف أول جهة اتصال",
+  "addFirstContactSubtitle": "شارك رمز QR الخاص بك أو امسح رمز صديق",
+  "directory": "الدليل",
+  "noContacts": "لا توجد جهات اتصال",
+  "noContactsSubtitle": "أضف جهة اتصال للبدء",
+  "sendMessageAction": "إرسال رسالة",
+  "audioCall": "مكالمة صوتية",
+  "videoCall": "مكالمة فيديو",
+  "viewProfile": "عرض الملف الشخصي",
+  "deleteContactDirectory": "حذف جهة الاتصال",
+  "scanShort": "مسح",
+  "addShort": "إضافة",
+  "deleteContactConfirmName": "هل تريد حقًا حذف {name}؟",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "لا توجد ملاحظات",
+  "noNotesSubtitle": "أنشئ ملاحظتك الأولى",
+  "newNote": "ملاحظة جديدة",
+  "editNote": "تعديل الملاحظة",
+  "deleteNote": "حذف الملاحظة",
+  "deleteNoteConfirm": "هل تريد حقًا حذف هذه الملاحظة؟",
+  "noteTitle": "العنوان",
+  "noteContent": "المحتوى",
+  "addItem": "إضافة عنصر",
+  "pinNote": "تثبيت",
+  "unpinNote": "إلغاء التثبيت",
+  "noteColor": "اللون",
+  "notePassword": "كلمة المرور",
+  "setPassword": "تعيين كلمة مرور",
+  "changePassword": "تغيير كلمة المرور",
+  "removePassword": "إزالة كلمة المرور",
+  "enterPassword": "أدخل كلمة المرور",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "passwordPin": "رمز PIN",
+  "passwordText": "كلمة مرور نصية",
+  "protectedNote": "ملاحظة محمية",
+  "incorrectPassword": "كلمة مرور غير صحيحة",
+  "passwordSet": "تم تعيين كلمة المرور",
+  "passwordRemoved": "تمت إزالة كلمة المرور",
+  "notesBiometric": "Face ID للملاحظات",
+  "notesBiometricSubtitle": "طلب المصادقة البيومترية لفتح الملاحظات المحمية",
+  "textNote": "ملاحظة نصية",
+  "checklistNote": "قائمة مهام",
+  "tasksProgress": "{checked}/{total} مهام",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "تم الحفظ",
+  "searchNotes": "البحث عن ملاحظة",
+  "legalConsent": "الموافقة القانونية",
+  "confirmAge13": "أؤكد أنني أبلغ من العمر 13 عاماً على الأقل",
+  "acceptLegalStart": "أقبل ",
+  "privacyPolicy": "سياسة الخصوصية",
+  "termsOfService": "شروط الخدمة",
+  "andThe": " و",
+  "continueButton": "متابعة",
+  "mustAcceptTerms": "يجب قبول الشرطين للمتابعة",
+
+  "support": "الدعم",
+  "contactSupport": "الاتصال بالدعم",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "الإبلاغ عن إساءة",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "قانوني",
+  "legalEntity": "الكيان القانوني",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "تثبيت",
+  "unpinConversation": "إلغاء التثبيت",
+  "hideConversation": "إزالة من المحادثات",
+  "deleteConversation": "حذف المحادثة",
+  "deleteConversationConfirm": "أدخل رمز PIN لتأكيد حذف جميع الرسائل",
+  "noConversations": "لا توجد محادثات بعد",
+  "startConversation": "ابدأ",
+
+  "microphonePermissionRequired": "مطلوب الوصول إلى الميكروفون",
+  "microphonePermissionExplanation": "يحتاج Hash إلى الميكروفون لإجراء المكالمات.",
+  "cameraPermissionExplanation": "يحتاج Hash إلى الكاميرا لمكالمات الفيديو.",
+  "openSettings": "فتح الإعدادات",
+
+  "callConnecting": "جارٍ الاتصال...",
+  "callRinging": "جارٍ الرنين...",
+  "callReconnecting": "إعادة الاتصال...",
+  "callReconnectingTimer": "إعادة الاتصال ({seconds}ث)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "متوقف مؤقتاً",
+  "callPausedSubtitle": "المكالمة لا تزال نشطة",
+  "callRemoteMicMuted": "ميكروفون جهة الاتصال مكتوم",
+  "callMiniControlsMute": "كتم الصوت",
+  "callMiniControlsUnmute": "إلغاء كتم الصوت",
+  "callMiniControlsHangUp": "إنهاء المكالمة",
+  "callMiniControlsReturn": "العودة إلى المكالمة",
+  "callNetworkPoor": "اتصال غير مستقر",
+  "callNetworkLost": "فُقد الاتصال",
+  "callEndedTitle": "انتهت المكالمة",
+
+  "deviceData": "بيانات الجهاز",
+  "deviceDataSubtitle": "التخزين المحلي والخادم",
+  "localStorage": "التخزين المحلي",
+  "onThisDevice": "على هذا الجهاز",
+  "encryptedDatabases": "قواعد بيانات مشفرة",
+  "files": "الملفات",
+  "secureKeychain": "سلسلة المفاتيح الآمنة",
+  "cache": "ذاكرة التخزين المؤقت",
+  "contactsDetail": "الأسماء والصور ومفاتيح Signal",
+  "messagesDetail": "المحادثات المشفرة",
+  "notesDetail": "الملاحظات الشخصية",
+  "signalSessions": "جلسات Signal",
+  "signalSessionsDetail": "جلسات التشفير",
+  "pendingContacts": "جهات اتصال معلقة",
+  "pendingContactsDetail": "طلبات قيد الانتظار",
+  "callHistory": "المكالمات",
+  "callHistoryDetail": "سجل المكالمات",
+  "preferences": "التفضيلات",
+  "preferencesDetail": "تفضيلات الوسائط والمكالمات",
+  "avatars": "الصور الرمزية",
+  "media": "الوسائط",
+  "fileCount": "{count, plural, =0{لا ملفات} =1{ملف واحد} other{{count} ملفات}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "نشط",
+  "notDefined": "غير محدد",
+  "biometrics": "المقاييس الحيوية",
+  "recoveryPhrase": "عبارة الاسترداد",
+  "identity": "الهوية (Hash ID)",
+  "signalKeys": "مفاتيح Signal Protocol",
+  "authTokens": "رموز المصادقة",
+  "contactNamesCache": "ذاكرة أسماء جهات الاتصال",
+  "remoteConfig": "التكوين عن بُعد",
+  "notificationPrefs": "تفضيلات الإشعارات",
+  "serverData": "بيانات على الخادم",
+  "serverDataInfo": "يحتفظ Hash بالحد الأدنى من البيانات على الخادم، جميعها مشفرة أو مؤقتة.",
+  "serverProfile": "الملف الشخصي",
+  "serverProfileDetail": "Hash ID، المفاتيح العامة، رمز صندوق البريد",
+  "serverPrekeys": "مفاتيح مسبقة",
+  "serverPrekeysDetail": "مفاتيح Signal للاستخدام الواحد (مستهلكة)",
+  "serverMessages": "رسائل في الطريق",
+  "serverMessagesDetail": "تُحذف بعد الاستلام (24 ساعة كحد أقصى)",
+  "serverMedia": "وسائط في الطريق",
+  "serverMediaDetail": "تُحذف بعد التنزيل",
+  "serverContactRequests": "طلبات الاتصال",
+  "serverContactRequestsDetail": "تنتهي بعد 24 ساعة",
+  "serverRateLimits": "حدود المعدل",
+  "serverRateLimitsDetail": "بيانات مؤقتة لمنع إساءة الاستخدام",
+  "privacyReassurance": "لا يمكن لـ Hash قراءة رسائلك. جميع البيانات مشفرة من طرف إلى طرف. تُحذف بيانات الخادم تلقائيًا.",
+
+  "pinTooSimple": "رمز PIN هذا بسيط جداً. اختر رمزاً أكثر أماناً.",
+  "genericError": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+  "accountCreationError": "تعذر إنشاء الحساب: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "تم نسخ العبارة إلى الحافظة",
+  "copyPhrase": "نسخ العبارة",
+  "recoveryPhraseSecurityWarning": "اكتب هذه العبارة في مكان آمن. إذا فقدت رمز PIN بدون هذه العبارة، ستفقد الوصول إلى بياناتك نهائياً.",
+
+  "noMessages": "لا توجد رسائل",
+  "deleteAllMessagesWithContact": "حذف جميع الرسائل مع {name}؟",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "تأكيد",
+  "untitled": "بدون عنوان",
+  "noSessions": "لا توجد جلسات",
+  "unknownContact": "جهة اتصال غير معروفة",
+  "unnamed": "بدون اسم",
+  "noPendingRequestsAlt": "لا توجد طلبات معلقة",
+  "deleteAllCallHistory": "حذف سجل المكالمات بالكامل؟",
+  "noCalls": "لا توجد مكالمات",
+  "noPreferences": "لا توجد تفضيلات",
+  "resetAllMediaPrefs": "إعادة تعيين جميع تفضيلات الوسائط؟",
+  "deleteThisAvatar": "حذف هذه الصورة الرمزية؟",
+  "deleteAllAvatars": "حذف جميع الصور الرمزية؟",
+  "noAvatars": "لا توجد صور رمزية",
+  "deleteThisFile": "حذف هذا الملف؟",
+  "deleteAllMediaFiles": "حذف جميع الوسائط؟",
+  "noMediaFiles": "لا توجد وسائط",
+  "outgoing": "صادر",
+  "incoming": "وارد",
+  "ephemeralViewDuration": "عرض مؤقت: {seconds}ث",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "عرض عادي",
+  "callReasonCompleted": "مكتمل",
+  "callReasonMissed": "فائت",
+  "callReasonDeclined": "مرفوض",
+  "callReasonFailed": "فشل",
+  "justNow": "الآن",
+  "timeAgoMinutes": "منذ {count} دقيقة",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "منذ {count} ساعة",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "منذ {count} يوم",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "جهة اتصال",
+  "messageTypeLocation": "موقع",
+  "statusQueued": "في قائمة الانتظار",
+  "blockedBadge": "محظور",
+  "protectedBadge": "محمي",
+  "messageCount": "{count} رسالة(رسائل)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "حذف؟",
+
+  "transferMyAccountTitle": "نقل حسابي",
+  "loadingError": "خطأ في التحميل",
+  "transferToNewDevice": "النقل إلى جهاز جديد",
+  "transferInstructions": "على جهازك الجديد، اختر \"استرداد حسابي\" وأدخل هذه المعلومات:",
+  "yourHashIdLabel": "معرّف Hash الخاص بك",
+  "enterYourPinCode": "أدخل رمز PIN الخاص بك",
+  "pinOwnerConfirmation": "لتأكيد أنك مالك هذا الحساب",
+  "scanThisQrCode": "امسح رمز QR هذا",
+  "withYourNewDevice": "بجهازك الجديد",
+  "orEnterTheCode": "أو أدخل الرمز",
+  "transferCodeLabel": "رمز النقل",
+  "proximityVerification": "التحقق من القرب",
+  "bringDevicesCloser": "قرّب الجهازين من بعضهما",
+  "confirmTransferQuestion": "تأكيد النقل؟",
+  "accountWillBeTransferred": "سيتم نقل حسابك إلى الجهاز الجديد.\n\nسيتم فصل هذا الجهاز نهائياً.",
+  "transferComplete": "اكتمل النقل",
+  "transferSuccessMessage": "تم نقل حسابك بنجاح.\n\nسيتم إغلاق هذا التطبيق الآن.",
+  "manualVerification": "التحقق اليدوي",
+  "codeDisplayedOnBothDevices": "الرمز المعروض على كلا الجهازين:",
+  "doesCodeMatchNewDevice": "هل يتطابق هذا الرمز مع الرمز على الجهاز الجديد؟",
+  "verifiedStatus": "تم التحقق",
+  "inProgressStatus": "جارٍ...",
+  "notAvailableStatus": "غير متوفر",
+  "codeExpiredRestart": "انتهت صلاحية الرمز. يرجى البدء من جديد.",
+  "codesDoNotMatchCancelled": "الرموز غير متطابقة. تم إلغاء النقل.",
+  "transferToDevice": "إلى: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "تم النسخ!",
+  "expiresInTime": "ينتهي خلال {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "المقاييس الحيوية غير متوفرة على هذا الجهاز",
+  "biometricAuthError": "خطأ أثناء المصادقة البيومترية",
+  "authenticateForBiometric": "يرجى المصادقة لتفعيل المقاييس الحيوية",
+  "biometricAuthFailed": "فشلت المصادقة البيومترية",
+
+  "forceUpdateTitle": "تحديث مطلوب",
+  "forceUpdateMessage": "إصدار جديد من Hash متوفر. يرجى التحديث للمتابعة.",
+  "updateButton": "تحديث",
+  "maintenanceInProgress": "الصيانة جارية",
+  "tryAgainLater": "يرجى المحاولة مرة أخرى لاحقاً",
+  "information": "معلومات",
+
+  "later": "لاحقاً",
+  "doYouLikeHash": "هل يعجبك Hash؟",
+  "yourFeedbackHelps": "ملاحظاتك تساعدنا على تحسين التطبيق",
+  "ratingTerrible": "سيء جداً",
+  "ratingBad": "سيء",
+  "ratingOk": "مقبول",
+  "ratingGood": "جيد",
+  "ratingExcellent": "ممتاز!",
+  "donationMessage": "Hash مشروع غير ربحي. دعمك يساعدنا في الاستمرار في بناء تطبيق مراسلة خاص حقاً.",
+
+  "recentConnections": "الاتصالات الأخيرة",
+  "loginInfoText": "يتم تسجيل كل فتح بالـ PIN محلياً. يتم الاحتفاظ بآخر 24 ساعة فقط.",
+  "connectionCount": "اتصال(ات)",
+  "periodLabel": "الفترة",
+  "historyLabel": "السجل",
+  "noLoginRecorded": "لم يتم تسجيل أي دخول",
+  "nextUnlocksAppearHere": "ستظهر عمليات الفتح القادمة هنا.",
+  "dataLocalOnly": "هذه البيانات مخزنة فقط على جهازك ولا يتم إرسالها أبداً.",
+  "currentSession": "الحالية",
+  "todayLabel": "اليوم",
+  "yesterdayLabel": "أمس",
+  "justNowLabel": "الآن",
+  "minutesAgoLabel": "منذ {count} دقيقة",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "منذ {hours} ساعة",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "منذ {hours} ساعة و{minutes} دقيقة",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "لا توجد صيانة مخططة",
+  "everythingWorkingNormally": "كل شيء يعمل بشكل طبيعي",
+  "maintenanceTitle": "الصيانة",
+  "maintenanceActiveLabel": "جارية",
+  "maintenancePlannedLabel": "مخططة",
+
+  "locking": "جارٍ القفل...",
+
+  "newMessageNotification": "رسالة جديدة",
+
+  "secExplainTitle": "كيف يحميك Hash",
+  "secExplainIntro": "صُمم Hash بحيث لا يستطيع أحد قراءة رسائلك.",
+  "secExplainIntroSub": "حتى نحن لا نستطيع.\nإليك كيف يعمل الأمر، بشرح بسيط.",
+  "secJourneyLabel": "الرحلة",
+  "secJourneyTitle": "رحلة رسالتك",
+  "secJourneySubtitle": "من إصبعك إلى شاشة جهة اتصالك، كل خطوة محمية. تابع المسار.",
+  "secStep1Title": "تكتب رسالتك",
+  "secStep1Desc": "تكتب \"مرحباً!\" في التطبيق. في هذه اللحظة، الرسالة موجودة فقط في ذاكرة هاتفك. لم يتم إرسال أي شيء.",
+  "secStep2Title": "التشفير ببروتوكول Signal",
+  "secStep2Desc": "بمجرد الضغط على \"إرسال\"، تتحول رسالتك إلى سلسلة من الأحرف غير المفهومة. كأن رسالتك أُقفلت في خزنة لا يملك مفتاحها إلا جهة اتصالك.",
+  "secStep3Title": "Sealed Sender: المظروف الخفي",
+  "secStep3Desc": "تخيل أنك ترسل رسالة بالبريد، لكن بدون عنوان مرسل على المظروف. هذا بالضبط ما يفعله Hash. تُوضع الرسالة في صندوق بريد مجهول. الخادم لا يعرف من أرسلها.",
+  "secStep4Title": "الخادم لا يرى شيئاً",
+  "secStep4Desc": "يعمل الخادم كساعي بريد أعمى. يعرف فقط أن \"شخصاً ما وضع شيئاً في الصندوق #A7X9\". لا يعرف من أرسله، ولا ما هو، ولا لمن.",
+  "secStep4Highlight": "لا يتم تخزين أي بيانات وصفية: لا عنوان IP، لا طابع زمني، لا رابط بين المرسل والمستلم.",
+  "secStep5Title": "جهة اتصالك تستلم الرسالة",
+  "secStep5Desc": "يسترجع هاتف جهة اتصالك المحتوى من صندوق البريد المجهول ويفك تشفير الرسالة بمفتاحه الخاص، الذي لم يغادر جهازه أبداً. تظهر \"مرحباً!\" على شاشته.",
+  "secStep6Title": "الرسالة تختفي من الخادم",
+  "secStep6Desc": "بمجرد تأكيد جهة اتصالك للاستلام، يحذف الخادم الرسالة نهائياً. لا سلة محذوفات، لا أرشيف، لا نسخ احتياطية. حتى الرسائل غير المقروءة تُدمر تلقائياً بعد 24 ساعة.",
+  "secStep7Title": "انتهاء الصلاحية المحلي",
+  "secStep7Desc": "على هاتف جهة اتصالك، تتدمر الرسالة ذاتياً حسب المدة التي اخترتها: فوراً بعد القراءة، 5 دقائق، ساعة واحدة... أنت تقرر.",
+  "secJourneyConclusion": "النتيجة: صفر أثر على الخادم، صفر أثر على الأجهزة. الرسالة وُجدت فقط بما يكفي لقراءتها، ثم اختفت.",
+  "secArchLabel": "البنية",
+  "secArchTitle": "5 طبقات حماية",
+  "secArchSubtitle": "لا يعتمد Hash على تقنية واحدة. كل طبقة تعزز الأخرى. حتى لو تم اختراق طبقة واحدة، تبقى بياناتك آمنة.",
+  "secLayer1Title": "التشفير من طرف إلى طرف",
+  "secLayer1Desc": "كل رسالة مشفرة بمفتاح فريد. ببساطة: حتى لو فك شخص تشفير رسالة واحدة، لن يتمكن من فك تشفير التالية. كل رسالة لها قفلها الخاص.",
+  "secLayer1Detail": "للملفات (الصور والفيديوهات والمستندات)، يستخدم Hash تشفير AES-256-GCM إضافي. يتم تشفير الملف قبل مغادرة هاتفك.",
+  "secLayer2Title": "Sealed Sender (إخفاء هوية الشبكة)",
+  "secLayer2Desc": "تطبيقات المراسلة العادية ترسل رسائلك مع هويتك مرفقة. كأنك تكتب اسمك على المظروف. يستخدم Hash صناديق بريد مجهولة: الخادم يسلم الرسالة دون معرفة من أرسلها.",
+  "secLayer2Detail": "النتيجة: حتى في حالة اختراق بيانات الخادم، يستحيل إعادة بناء من يتحدث مع من.",
+  "secLayer3Title": "الحذف التلقائي",
+  "secLayer3Desc": "تُحذف الرسائل من الخادم فور تأكيد الاستلام. حتى لو لم يتم استلام رسالة أبداً، تُدمر تلقائياً بعد 24 ساعة.",
+  "secLayer3Detail": "على هاتفك، تتدمر الرسائل ذاتياً حسب المدة التي تختارها: فوراً، 5 دقائق، 15 دقيقة، 30 دقيقة، ساعة، 3 ساعات، 6 ساعات أو 12 ساعة.",
+  "secLayer4Title": "حماية الوصول المحلي",
+  "secLayer4Desc": "التطبيق محمي برمز PIN من 6 أرقام و/أو البصمة (Face ID، بصمة الإصبع). بعد محاولات فاشلة كثيرة، يُقفل التطبيق مع تأخير متزايد بعد كل فشل.",
+  "secLayer5Title": "قاعدة بيانات مقفلة",
+  "secLayer5Desc": "من جانب الخادم، لا يمكن لأي مستخدم الكتابة مباشرة في قاعدة البيانات. جميع الإجراءات تمر عبر وظائف آمنة تتحقق من كل طلب.",
+  "secLayer5Detail": "كأنه شباك بنك: لا تلمس الخزنة بنفسك أبداً. تقدم طلباً، والنظام يتحقق من أن لديك الحق قبل التنفيذ.",
+  "secVashLabel": "فريد في العالم",
+  "secVashTitle": "وضع Vash",
+  "secVashSubtitle": "نظام أمان طوارئ لا يوجد في أي تطبيق مراسلة آخر.",
+  "secVashScenarioTitle": "تخيل هذا الموقف",
+  "secVashScenario1": "شخص ما يصل إلى هاتفك",
+  "secVashScenario2": "يُطلب منك رمز PIN",
+  "secVashScenario3": "تريد مسح جميع بياناتك بشكل عاجل",
+  "secVashSolutionTitle": "الحل: رمزا PIN",
+  "secVashSolutionDesc": "تُعدّ رمزي PIN مختلفين في Hash:",
+  "secVashNormalCodeLabel": "الرمز العادي",
+  "secVashNormalCodeDesc": "يفتح التطبيق بشكل عادي مع جميع بياناتك",
+  "secVashCodeLabel2": "رمز Vash",
+  "secVashCodeDescription": "يفتح التطبيق بشكل عادي... لكن جميع بياناتك تُحذف بصمت في الخلفية",
+  "secVashWhatHappensTitle": "ماذا يحدث بعد ذلك",
+  "secVashWhatHappensDesc": "يفتح التطبيق بشكل عادي. لا تنبيه، لا حركة مشبوهة. الشاشة تعرض ببساطة تطبيقاً فارغاً، كأنك ثبته للتو.\n\nفي الواقع، جميع محادثاتك وجهات اتصالك ورسائلك حُذفت بشكل لا رجعة فيه في جزء من الثانية.",
+  "secCallsLabel": "المكالمات والملفات",
+  "secCallsTitle": "كل شيء مشفر",
+  "secCallsSubtitle": "ليست الرسائل فقط. كل شيء يمر عبر Hash مشفر من طرف إلى طرف.",
+  "secAudioCallTitle": "المكالمات الصوتية",
+  "secAudioCallDesc": "مشفرة من طرف إلى طرف عبر WebRTC. الصوت ينتقل مباشرة بين الأجهزة.",
+  "secVideoCallTitle": "مكالمات الفيديو",
+  "secVideoCallDesc": "نفس التقنية، كل تدفق مشفر بشكل فردي.",
+  "secPhotosTitle": "الصور والفيديوهات",
+  "secPhotosDesc": "مشفرة بـ AES-256-GCM قبل مغادرة هاتفك.",
+  "secDocsTitle": "المستندات",
+  "secDocsDesc": "PDF، ZIP، أي ملف. الاسم والحجم والمحتوى مشفرة.",
+  "secAnonLabel": "إخفاء الهوية",
+  "secAnonTitle": "لا هوية مطلوبة",
+  "secAnonSubtitle": "لا يطلب Hash أبداً رقم هاتفك أو بريدك الإلكتروني. يتم التعرف عليك بمعرّف Hash فريد ومجهول.",
+  "secHashIdTitle": "معرّف Hash الخاص بك",
+  "secHashIdDesc": "هذا هو معرّفك الفريد. لا يكشف شيئاً عنك: لا اسمك، لا رقمك، لا موقعك. إنه كاسم مستعار يستحيل ربطه بهويتك الحقيقية.\n\nلإضافة جهة اتصال، تشارك معرّف Hash الخاص بك أو تمسح رمز QR. هذا كل شيء. لا دفتر عناوين متزامن، لا اقتراحات \"أشخاص قد تعرفهم\".",
+  "secDataLabel": "البيانات",
+  "secDataTitle": "ما لا يعرفه Hash",
+  "secDataSubtitle": "أفضل طريقة لحماية بياناتك هي عدم جمعها.",
+  "secNeverCollected": "لا تُجمع أبداً",
+  "secNeverItem1": "محتوى الرسائل",
+  "secNeverItem2": "قائمة جهات الاتصال",
+  "secNeverItem3": "رقم الهاتف",
+  "secNeverItem4": "عنوان البريد الإلكتروني",
+  "secNeverItem5": "عنوان IP",
+  "secNeverItem6": "الموقع",
+  "secNeverItem7": "البيانات الوصفية (من يتحدث مع من)",
+  "secNeverItem8": "سجل المكالمات",
+  "secNeverItem9": "دفتر العناوين",
+  "secNeverItem10": "معرّفات الإعلانات",
+  "secTempStored": "مخزن مؤقتاً",
+  "secTempItem1": "معرّف Hash مجهول (معرّف فريد)",
+  "secTempItem2": "مفاتيح التشفير العامة",
+  "secTempItem3": "رسائل مشفرة في الطريق (24 ساعة كحد أقصى)",
+  "secTempNote": "حتى هذه البيانات الدنيا لا يمكنها التعرف عليك. معرّف Hash الخاص بك غير مرتبط بأي معلومات شخصية.",
+  "secFooterTitle": "خصوصيتك، حريتك",
+  "secFooterDesc": "يستخدم Hash نفس تقنيات التشفير المستخدمة في التطبيقات المهنية الأكثر تطلباً. رسائلك محمية بالرياضيات، وليس بالوعود.",
+  "pinCodeForEntry": "رمز PIN للدخول إلى التطبيق",
+  "biometric": "القياسات الحيوية",
+  "biometricUnlock": "فتح ببصمة الإصبع أو Face ID",
+  "enableBiometric": "تفعيل القياسات الحيوية",
+  "biometricWarningMessage": "بتفعيل القياسات الحيوية، لن تتمكن من استخدام رمز PIN الخاص بك. هل أنت متأكد؟",
+  "understood": "فهمت",
+  "shareAppSubtitle": "شارك Hash مع أحبائك",
+  "share": "مشاركة",
+  "ephemeral30SecondsDesc": "يُحذف بعد 30 ثانية من القراءة",
+  "ephemeral5MinutesDesc": "يُحذف بعد 5 دقائق من القراءة",
+  "ephemeral1HourDesc": "يُحذف بعد ساعة من القراءة",
+  "ephemeral6HoursDesc": "يُحذف بعد 6 ساعات من القراءة",
+  "ephemeral24HoursDesc": "يُحذف بعد 24 ساعة من القراءة",
+  "showCallsInRecents": "عرض في المكالمات الأخيرة",
+  "showCallsInRecentsSubtitle": "تظهر مكالمات Hash في سجل الهاتف",
+  "feedback": "ملاحظات"
+}

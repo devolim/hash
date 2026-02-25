@@ -1,0 +1,1039 @@
+{
+  "@@locale": "lv",
+  "appName": "Hash",
+  "appTagline": "Bez pēdām. Bez kompromisiem.",
+  "conversations": "Sarunas",
+  "contacts": "Kontakti",
+  "noConversation": "Nav sarunu",
+  "noConversationSubtitle": "Pievienojiet kontaktu, lai sāktu drošu sarunu",
+  "pendingRequestsCount": "{count, plural, =1{1 gaidītais pieprasījums} other{{count} gaidītie pieprasījumi}}",
+  "sentRequestsCount": "{count, plural, =1{1 nosūtīts pieprasījums gaida} other{{count} nosūtītie pieprasījumi gaida}}",
+  "addContact": "Pievienot kontaktu",
+  "shareApp": "Dalīties ar lietotni",
+  "newMessage": "Jauna ziņa",
+  "newConversation": "Nosūtīt ziņu",
+  "settings": "Iestatījumi",
+  "myHashId": "Mans Hash ID",
+  "supportHash": "Atbalstīt Hash",
+  "supportHashSubtitle": "Hash ir bezpeļņas projekts",
+  "donate": "Ziedot",
+  "appearance": "Izskats",
+  "theme": "Motīvs",
+  "themeAuto": "Automātiski",
+  "themeAutoSubtitle": "Seko sistēmas iestatījumiem",
+  "themeDark": "Tumšs",
+  "themeLight": "Gaiss",
+  "themeRecommendation": "Tumšais motīvs ir ieteicams labākai privātumam",
+  "language": "Valoda",
+  "languageAuto": "Automātiski (sistēma)",
+  "notifications": "Paziņojumi",
+  "messages": "Ziņas",
+  "calls": "Zvani",
+  "vibration": "Vibrācija",
+  "notificationContent": "Paziņojuma saturs",
+  "notificationContentFull": "Rādīt visu",
+  "notificationContentFullDesc": "Kontakta vārds un ziņas priekšskatījums",
+  "notificationContentName": "Tikai vārds",
+  "notificationContentNameDesc": "Rāda tikai kontakta vārdu",
+  "notificationContentDiscrete": "Diskrēts",
+  "notificationContentDiscreteDesc": "Rāda tikai “Jauna ziņa”",
+  "security": "Drošība",
+  "howHashProtectsYou": "Kā Hash jūs aizsargā",
+  "howHashProtectsYouSubtitle": "Izprotiet savu drošību",
+  "accountSecurity": "Konta drošība",
+  "accountSecuritySubtitle": "PIN, biometrija, Vash režīms",
+  "blockScreenshots": "Bloķēt ekrānuzņēmumus",
+  "transferDevice": "Pārsūtīt uz citu ierīci",
+  "transferDeviceSubtitle": "Migrēt savu kontu",
+  "pinCode": "PIN kods",
+  "changePin": "Mainīt PIN kodu",
+  "currentPin": "Pašreizējais PIN kods",
+  "newPin": "Jaunais PIN kods",
+  "confirmPin": "Apstiprināt PIN kodu",
+  "pinChanged": "PIN kods nomainīts",
+  "incorrectPin": "Nepareizs PIN",
+  "pinsDoNotMatch": "PIN kodi nesakrīt",
+  "autoLock": "Automātiskā bloķēšana",
+  "autoLockDelay": "Bloķēšanas aizkave",
+  "autoLockImmediate": "Tūlītēja",
+  "autoLockMinute": "1 minūte",
+  "autoLockMinutes": "{count} minūtes",
+  "vashCode": "Vash kods",
+  "vashModeTitle": "Vash režīms",
+  "vashModeExplanation": "Jūsu galvenais drošības tīkls.",
+  "vashModeDescription": "Jūs izvēlēsieties otru PIN kodu. Ja jebkad esat spiests atvērt Hash, ievadiet šo kodu parastā PIN vietā.\n\nLietotne atvērsies normāli, bet visas jūsu sarunas un kontakti būs pazuduši.\n\nIkvienam, kas skatās jūsu ekrānā, Hash izskatīsies tukšs — it kā jūs to nekad nebūtu lietojis.",
+  "vashModeIrreversible": "Šī darbība ir klusa un neatgriezeniska.",
+  "chooseVashCode": "Izvēlēties Vash kodu",
+  "vashCodeInfo": "Otrs PIN kods, kas atver lietotni normāli, bet tukšu.",
+  "vashCodeInfoDetail": "Ja ievadīsiet šo kodu sava PIN vietā:",
+  "vashDeleteContacts": "Jūsu kontakti pazudīs",
+  "vashDeleteMessages": "Jūsu sarunas pazudīs",
+  "vashDeleteHistory": "Jūsu piezīmes pazudīs",
+  "vashKeepId": "Jūsu Hash identitāte (#XXX-XXX-XXX) paliks tā pati",
+  "vashAppearNormal": "Lietotne izskatīsies normāla, bet tukša, kā jauna. Šī darbība ir neatgriezeniska.",
+  "setupVashCode": "Iestatīt Vash kodu",
+  "modifyVashCode": "Mainīt Vash kodu",
+  "currentVashCode": "Pašreizējais Vash kods",
+  "newVashCode": "Jaunais Vash kods",
+  "confirmVashCode": "Apstiprināt Vash kodu",
+  "vashCodeConfigured": "Vash kods konfigurēts",
+  "vashCodeModified": "Vash kods mainīts",
+  "vashCodeMustDiffer": "Vash kodam jāatšķiras no PIN",
+  "incorrectVashCode": "Nepareizs Vash kods",
+  "vashWhatToDelete": "Ko Vash režīmam jāliek pazust?",
+  "vashDeleteContactsOption": "Kontakti",
+  "vashDeleteMessagesOption": "Ziņas",
+  "vashDeleteNotesOption": "Piezīmes",
+  "vashActivated": "Vash režīms aktivizēts",
+  "vashCreateSubtitle": "Izvēlieties kodu, kas atšķiras no jūsu galvenā PIN",
+  "vashConfirmSubtitle": "Apstipriniet savu Vash kodu",
+  "vashCodeSection": "Vash režīms",
+  "danger": "Bīstami",
+  "panicButton": "Pānikas poga",
+  "panicButtonSubtitle": "Dzēst visus datus",
+  "deleteAccount": "Dzēst manu kontu",
+  "deleteAccountSubtitle": "Neatgriezeniska darbība",
+  "deleteAccountConfirmTitle": "Dzēst manu kontu",
+  "deleteAccountConfirmMessage": "Jūsu konts tiks neatgriezeniski dzēsts. Šī darbība ir neatgriezeniska.\n\n• Visas jūsu sarunas\n• Visi jūsu kontakti\n• Jūsu Hash ID\n\nJums būs jāizveido jauns konts.",
+  "deleteForever": "Dzēst neatgriezeniski",
+  "cancel": "Atcelt",
+  "panicConfirmTitle": "Pānikas poga",
+  "panicConfirmMessage": "Šī darbība neatgriezeniski dzēsīs VISUS jūsu datus:\n\n• Visas jūsu ziņas\n• Visus jūsu kontaktus\n• Jūsu kontu\n\nVai esat pilnīgi pārliecināts?",
+  "deleteAll": "DZĒST VISU",
+  "dataDeletedForSecurity": "Vash režīms aktivizēts.",
+  "deletionError": "Dzēšanas kļūda: {error}",
+  "yourSecurity": "Jūsu drošība",
+  "securityInfo": "• Pilna šifrēšana (Signal Protocol)\n• Nav datu mūsu serveros pēc piegādes\n• Atslēgas glabājas tikai jūsu ierīcē\n• PIN kods nekad netiek nosūtīts uz serveri",
+  "version": "Hash v{version}",
+  "welcome": "Laipni lūgti",
+  "securityStatement1": "Jūsu ziņas ir aizsargātas.",
+  "securityStatement2": "Pilna šifrēšana.",
+  "securityStatement3": "Bez pēdām. Bez kompromisiem.",
+  "securityStatement4": "Jūsu privātums ir tiesības.",
+  "accessBlocked": "Piekļuve bloķēta",
+  "tooManyAttempts": "Pārāk daudz mēģinājumu. Mēģiniet vēlāk.",
+  "pleaseWait": "Lūdzu, uzgaidiet",
+  "waitDelay": "Lūdzu, pagaidiet, kamēr beigsies aizkave",
+  "attemptCount": "Mēģinājums {current} no {max}",
+  "retryIn": "Mēģināt vēlreiz pēc {time}",
+  "forgotPin": "Aizmirsāt PIN? Izmantojiet atjaunošanas frāzi",
+  "useRecoveryPhrase": "Izmantot atjaunošanas frāzi",
+  "recoveryWarningTitle": "Brīdinājums",
+  "recoveryWarningMessage": "Konta atjaunošana veiks:",
+  "recoveryDeleteAllMessages": "Dzēsīs VISAS jūsu ziņas",
+  "recoveryWaitDelay": "Prasīs 1 stundu gaidīšanu",
+  "recoveryKeepContacts": "Saglabās jūsu kontaktus",
+  "recoveryIrreversible": "Šī darbība ir neatgriezeniska. Jūsu ziņas tiks neatgriezeniski zaudētas.",
+  "iUnderstand": "Es saprotu",
+  "accountRecovery": "Konta atjaunošana",
+  "enterRecoveryPhrase": "Ievadiet 24 vārdus no savas atjaunošanas frāzes, atdalot ar atstarpēm.",
+  "recoveryPhraseHint": "vārds1 vārds2 vārds3 ...",
+  "recover": "Atjaunot",
+  "recoveryPhraseRequired": "Lūdzu, ievadiet savu atjaunošanas frāzi",
+  "recoveryPhrase24Words": "Frāzei jāsatur tieši 24 vārdi",
+  "incorrectRecoveryPhrase": "Nepareiza atjaunošanas frāze",
+  "recoveryInitError": "Kļūda, inicializējot atjaunošanu",
+  "securityDelay": "Drošības aizkave",
+  "securityDelayMessage": "Jūsu drošībai ir nepieciešams gaidīšanas periods, pirms varat izveidot jaunu PIN.",
+  "timeRemaining": "Atlikušais laiks",
+  "messagesDeletedForProtection": "Jūsu ziņas ir dzēstas jūsu aizsardzībai.",
+  "canCloseApp": "Varat aizvērt lietotni un atgriezties vēlāk.",
+  "onboardingTitle1": "Laipni lūgti Hash",
+  "onboardingSubtitle1": "Ziņojumu lietotne, kas neatstāj pēdas",
+  "onboardingTitle2": "Pilnīga šifrēšana",
+  "onboardingSubtitle2": "Jūsu ziņas ir pilnībā šifrētas ar Signal Protocol",
+  "onboardingTitle3": "Bez pēdām",
+  "onboardingSubtitle3": "Ziņas tiek dzēstas no serveriem pēc piegādes",
+  "onboardingTitle4": "Jūsu drošība",
+  "onboardingSubtitle4": "PIN kods, Vash režīms un atjaunošanas frāze",
+  "getStarted": "Sākt",
+  "next": "Tālāk",
+  "skip": "Izlaist",
+  "alreadyHaveAccount": "Man jau ir konts",
+  "transferMyAccount": "Pārsūtīt manu kontu",
+  "createPin": "Izveidot PIN kodu",
+  "createPinSubtitle": "Šis kods aizsargās piekļuvi jūsu lietotnei",
+  "confirmYourPin": "Apstipriniet savu PIN kodu",
+  "confirmPinSubtitle": "Ievadiet savu PIN kodu vēlreiz",
+  "saveRecoveryPhrase": "Atjaunošanas frāze",
+  "saveRecoveryPhraseSubtitle": "Pierakstiet šos 24 vārdus secībā. Tie ļauj atjaunot kontu, ja aizmirsīsiet PIN.",
+  "phraseWritten": "Esmu pierakstījis savu frāzi",
+  "warningRecoveryPhrase": "Ja zaudēsiet šo frāzi un aizmirsīsiet PIN, jūs zaudēsiet piekļuvi savam kontam.",
+  "accountTransferred": "Konts pārsūtīts",
+  "accountTransferredMessage": "Jūsu konts ir pārsūtīts uz citu ierīci. Šī sesija vairs nav derīga.",
+  "accountTransferredInfo": "Ja jūs neuzsākāt šo pārsūtīšanu, jūsu konts varētu būt apdraudēts.",
+  "logout": "Izrakstīties",
+  "transferAccount": "Pārsūtīt kontu",
+  "transferAccountInfo": "Pārsūtiet savu Hash kontu uz jaunu ierīci. Jūsu pašreizējā sesija tiks anulēta.",
+  "generateTransferCode": "Ģenerēt pārsūtīšanas kodu",
+  "transferCode": "Pārsūtīšanas kods",
+  "transferCodeExpires": "Šis kods beigsies pēc {minutes} minūtēm",
+  "enterCodeOnNewDevice": "Ievadiet šo kodu jaunajā ierīcē, lai pārsūtītu kontu.",
+  "generateNewCode": "Ģenerēt jaunu kodu",
+  "scanQrCode": "Skenēt QR code",
+  "scanQrCodeSubtitle": "Skenējiet kontakta QR code, lai pievienotu",
+  "qrCodeDetected": "QR code atpazīts",
+  "invalidQrCode": "Nederīgs QR code",
+  "cameraPermissionRequired": "Nepieciešama kameras atļauja",
+  "myQrCode": "Mans QR code",
+  "myQrCodeSubtitle": "Dalījieties ar šo QR code, lai kontakti varētu jūs pievienot",
+  "shareQrCode": "Dalīties",
+  "addContactTitle": "Pievienot kontaktu",
+  "addContactByHashId": "Ievadiet kontakta Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Meklēt",
+  "contactNotFound": "Kontakts nav atrasts",
+  "contactAlreadyAdded": "Šis kontakts jau ir jūsu sarakstā",
+  "contactAdded": "Kontakts pievienots",
+  "myProfile": "Mans profils",
+  "myProfileSubtitle": "Dalījieties ar šo informāciju, lai citi varētu jūs pievienot",
+  "temporaryCode": "Pagaidu kods",
+  "temporaryCodeExpires": "Beidzas pēc {time}",
+  "codeExpired": "Kods beidzies",
+  "generateNewCodeButton": "Jauns kods",
+  "copyHashId": "Kopēt ID",
+  "copyCode": "Kopēt kodu",
+  "copiedToClipboard": "Nokopēts",
+  "showMyQrCode": "Rādīt manu QR code",
+  "orDivider": "vai",
+  "openScanner": "Atvērt skeneri",
+  "addManually": "Pievienot manuāli",
+  "contactHashIdLabel": "Kontakta Hash ID",
+  "temporaryCodeLabel": "Pagaidu kods",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Lūdziet kontaktam ģenerēt kodu no sava profila",
+  "verifyAndAdd": "Pārbaudīt un pievienot",
+  "fillAllFields": "Lūdzu, aizpildiet visus laukus",
+  "invalidHashIdFormat": "Nederīgs ID formāts (piem.: 123-456-ABC)",
+  "userNotFound": "Lietotājs nav atrasts",
+  "cannotAddYourself": "Jūs nevarat pievienot sevi",
+  "invalidOrExpiredCode": "Nederīgs vai beidzies pagaidu kods",
+  "contactFound": "Kontakts atrasts!",
+  "howToCallContact": "Kā jūs vēlaties viņu saukt?",
+  "contactNameHint": "Kontakta vārds",
+  "addContactButton": "Pievienot",
+  "contactDetails": "Kontakta detaļas",
+  "contactName": "Kontakta vārds",
+  "contactHashId": "Hash ID",
+  "addedOn": "Pievienots {date}",
+  "deleteContact": "Dzēst kontaktu",
+  "deleteContactConfirm": "Dzēst šo kontaktu?",
+  "deleteContactMessage": "Tas arī dzēsīs visu sarunu.",
+  "delete": "Dzēst",
+  "typeMessage": "Rakstīt ziņu...",
+  "messageSent": "Nosūtīts",
+  "messageDelivered": "Piegādāts",
+  "messageRead": "Izlasīts",
+  "messageFailed": "Nosūtīšana neizdevās",
+  "now": "Tagad",
+  "minutesAgo": "{count}min",
+  "hoursAgo": "{count}h",
+  "daysAgo": "{count}d",
+  "today": "Šodien",
+  "yesterday": "Vakar",
+  "dateAtTime": "{date} plkst. {time}",
+  "shareMessage": "Pievienojies man Hash! 🔒\n\nTas ir patiesi privāts ziņojumu lietotne: pilnīga šifrēšana, nav pēdu serveros un pānikas režīms vajadzības gadījumā.\n\nLejupielādē lietotni šeit 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "Kļūda",
+  "ok": "Labi",
+  "view": "Skatīt",
+  "yes": "Jā",
+  "no": "Nē",
+  "save": "Saglabāt",
+  "edit": "Rediģēt",
+  "close": "Aizvērt",
+  "confirm": "Apstiprināt",
+  "loading": "Ielādē...",
+  "retry": "Mēģināt vēlreiz",
+  "pendingRequests": "Gaidītie pieprasījumi",
+  "noPendingRequests": "Nav gaidīto pieprasījumu",
+  "pendingRequestsSubtitle": "Šie cilvēki vēlas jūs pievienot",
+  "requestFromUser": "Pieprasījums no {hashId}",
+  "requestExpiresIn": "Beidzas pēc {days} dienām",
+  "acceptRequest": "Pieņemt",
+  "rejectRequest": "Noraidīt",
+  "requestAccepted": "Pieprasījums pieņemts",
+  "requestRejected": "Pieprasījums noraidīts",
+  "requestSent": "Pieprasījums nosūtīts!",
+  "requestSentSubtitle": "Jūsu pieprasījums ir nosūtīts. Lietotājam tas jāpieņem pirms varat sākt sarunu.",
+  "requestAlreadyPending": "Pieprasījums jau gaida",
+  "requestAlreadySentByOther": "Šī persona jau ir nosūtījusi jums pieprasījumu",
+  "addByHashId": "Pievienot ar Hash ID",
+  "addByHashIdSubtitle": "Ievadiet kontakta Hash ID un pagaidu kodu",
+  "enterTemporaryCode": "Ievadiet 6 ciparu kodu",
+  "sendRequest": "Nosūtīt pieprasījumu",
+  "acceptContactTitle": "Pieņemt kontaktu",
+  "acceptContactSubtitle": "Varat piešķirt pielāgotu vārdu",
+  "leaveEmptyForHashId": "Atstājiet tukšu, lai izmantotu Hash ID",
+  "firstName": "Vārds",
+  "lastName": "Uzvārds",
+  "notes": "Piezīmes",
+  "notesHint": "Personīgās piezīmes par šo kontaktu",
+  "photoOptional": "Foto (neobligāti)",
+  "contactNameOptional": "Vārds (neobligāti)",
+  "notesOptional": "Piezīmes (neobligāti)",
+  "storedLocally": "Glabājas tikai jūsu ierīcē",
+  "encryptedMessageLabel": "Šifrēta ziņa",
+  "identityMessageHint": "Kas jūs esat? Kā jūs pazīstat viens otru?",
+  "messageWillBeSentEncrypted": "Šī ziņa tiks šifrēta un nosūtīta saņēmējam",
+  "sendRequestButton": "Nosūtīt pieprasījumu",
+  "requestExpiresIn24h": "Pieprasījums beidzas pēc 24h, ja netiek pieņemts",
+  "theyAlreadySentYouRequest": "Šī persona jau ir nosūtījusi jums pieprasījumu",
+  "requests": "Pieprasījumi",
+  "receivedRequests": "Saņemtie",
+  "sentRequests": "Nosūtītie",
+  "noSentRequests": "Nav nosūtītu pieprasījumu",
+  "cancelRequest": "Atcelt",
+  "deleteRequest": "Dzēst pieprasījumu",
+  "requestCancelled": "Pieprasījums atcelts",
+  "sentTo": "Nosūtīts {hashId}",
+  "expiresIn": "Beidzas pēc {time}",
+  "receivedAgo": "Saņemts pirms {time}",
+  "messageFromRequester": "Ziņa no pieprasītāja",
+  "copy": "Kopēt",
+  "messageInfo": "Ziņas informācija",
+  "messageDirection": "Virziens",
+  "messageSentByYou": "Nosūtīts no jums",
+  "messageReceived": "Saņemts",
+  "messageSentAt": "Nosūtīts",
+  "messageStatus": "Statuss",
+  "messageReadAt": "Izlasīts",
+  "messageType": "Tips",
+  "messageSize": "Izmērs",
+  "messageExpiresAt": "Beidzas",
+  "messageEncrypted": "Pilna šifrēšana",
+  "messageStatusSending": "Sūta...",
+  "messageStatusSent": "Nosūtīts",
+  "messageStatusDelivered": "Piegādāts",
+  "messageStatusRead": "Izlasīts",
+  "messageStatusFailed": "Neizdevās",
+  "serverStatus": "Serveris",
+  "onServer": "Gaida piegādi",
+  "deletedFromServer": "Dzēsts",
+  "messageTypeText": "Teksts",
+  "messageTypeImage": "Attēls",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Balss",
+  "messageTypeFile": "Fails",
+  "indefinitely": "Bezgalīgi",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "stundas",
+  "minutes": "minūtes",
+  "seconds": "sekundes",
+  "ephemeralMessages": "īslaicīgas ziņas",
+  "ephemeralMessagesDescription": "Ziņas tiek automātiski dzēstas pēc šī laika",
+  "ephemeralImmediate": "Tūlītēji (pēc izlasīšanas)",
+  "ephemeralImmediateDesc": "Dzēsts, tiklīdz izlasīts",
+  "ephemeralMyPreference": "Mana preference",
+  "ephemeralMyPreferenceDesc": "Izmantot globālo iestatījumu",
+  "ephemeralDefaultSetting": "Ziņu ilgums",
+  "ephemeralChooseDefault": "Ieteicams",
+  "ephemeral30Seconds": "30 sekundes",
+  "ephemeral5Minutes": "5 minūtes",
+  "ephemeral1Hour": "1 stunda",
+  "ephemeral3Hours": "3 stundas",
+  "ephemeral6Hours": "6 stundas",
+  "ephemeral12Hours": "12 stundas",
+  "ephemeral24Hours": "24 stundas",
+  "customDuration": "Pielāgots ilgums",
+  "muteNotifications": "Apklusināt paziņojumus",
+  "muteDescription": "Jūs nesaņemsiet paziņojumus par šo kontaktu",
+  "mutedUntil": "Apklusināts līdz {time}",
+  "notMuted": "Paziņojumi ieslēgti",
+  "unmute": "Atcelt apklusināšanu",
+  "notificationSound": "Paziņojuma skaņa",
+  "defaultSound": "Noklusējuma",
+  "chatSettings": "Sarunas iestatījumi",
+  "bubbleColor": "Burbuļa krāsa",
+  "backgroundColor": "Fona krāsa",
+  "backgroundImage": "Fona attēls",
+  "chatBackground": "Sarunas fons",
+  "customColor": "Pielāgota",
+  "defaultColor": "Noklusējuma",
+  "imageSelected": "Attēls izvēlēts",
+  "noImage": "Nav attēla",
+  "color": "Krāsa",
+  "image": "Attēls",
+  "tapToSelectImage": "Pieskarieties, lai izvēlētos attēlu",
+  "changeImage": "Mainīt attēlu",
+  "previewMessageReceived": "Sveiki!",
+  "previewMessageSent": "Čau!",
+  "messageAction": "Ziņa",
+  "callAction": "Zvans",
+  "videoAction": "Video",
+  "personalNotes": "Personīgās piezīmes",
+  "addNotes": "Pievienot piezīmes...",
+  "noNotes": "Nav piezīmju",
+  "messageNotifications": "Ziņu paziņojumi",
+  "callNotifications": "Zvanu paziņojumi",
+  "useGradient": "Izmantot gradientu",
+  "gradientStart": "Sākuma krāsa",
+  "gradientEnd": "Beigu krāsa",
+  "preview": "Priekšskatījums",
+  "reset": "Atiestatīt",
+  "securityNumber": "Drošības numurs",
+  "securityNumberDescription": "Pārbaudiet, vai drošības numurs sakrīt ar {name} ierīci",
+  "verifyEncryption": "Pārbaudīt pilno šifrēšanu",
+  "tapToCopy": "Pieskarieties, lai kopētu",
+  "howToVerify": "Kā pārbaudīt",
+  "verifyStep1": "Tiecieties ar kontaktu personīgi vai piezvaniet",
+  "verifyStep2": "Salīdziniet drošības numurus vai skenējiet QR code",
+  "verifyStep3": "Ja tie sakrīt, jūsu saruna ir droša",
+  "scanToVerify": "Skenēt, lai pārbaudītu",
+  "reportSpam": "Ziņot par mēstuli",
+  "reportSpamSubtitle": "Ziņot par šo kontaktu kā mēstuli",
+  "reportSpamDescription": "Tas anonīmi ziņos par šo kontaktu. Jūsu identitāte netiks kopīgota. Vai esat pārliecināts?",
+  "report": "Ziņot",
+  "spamReported": "Ziņots par mēstuli",
+  "reportError": "Neizdevās nosūtīt ziņojumu. Lūdzu, mēģiniet vēlreiz.",
+  "reportRateLimited": "Jūs esat sasniedzis maksimālo ziņojumu skaitu šodienai.",
+  "blockContact": "Bloķēt kontaktu",
+  "blockContactDescription": "Šis kontakts vairs nevarēs jums sūtīt ziņas vai zvanīt. Viņš netiks informēts.",
+  "unblockContact": "Atbloķēt kontaktu",
+  "unblockContactDescription": "Šis kontakts atkal varēs jums sūtīt ziņas un zvanīt.",
+  "contactBlocked": "Kontakts bloķēts",
+  "contactUnblocked": "Kontakts atbloķēts",
+  "contactIsBlocked": "Šis kontakts ir bloķēts",
+  "unblock": "Atbloķēt",
+  "deleteContactSubtitle": "Dzēst šo kontaktu un sarunu",
+  "confirmWithPin": "Apstiprināt ar PIN",
+  "enterPinToConfirm": "Ievadiet PIN, lai apstiprinātu šo darbību",
+  "mute1Hour": "1 stunda",
+  "mute8Hours": "8 stundas",
+  "mute1Day": "1 diena",
+  "mute1Week": "1 nedēļa",
+  "muteAlways": "Vienmēr",
+  "muteExplanation": "Jūs nesaņemsiet paziņojumus par šo kontaktu",
+  "howItWorks": "Kā tas darbojas",
+  "ephemeralExplanation1": "Ziņas tiek dzēstas no servera, tiklīdz saņemtas.",
+  "ephemeralExplanation2": "Šis iestatījums nosaka, kad ziņas pazudīs no JūSU tālruņa pēc izlasīšanas.",
+  "ephemeralExplanation3": "Jūsu kontaktam ir savs iestatījums savam tālrunim.",
+  "profilePhoto": "Profila foto",
+  "takePhoto": "Uzņemt foto",
+  "chooseFromGallery": "Izvēlēties no galerijas",
+  "removePhoto": "Noņemt foto",
+  "viewContactHashId": "Skatīt kontakta identifikatoru",
+  "hashIdPartiallyMasked": "Daļēji maskēts jūsu un kontakta privātuma dēļ",
+  "addFirstContact": "Pievienojiet pirmo kontaktu",
+  "addFirstContactSubtitle": "Dalījieties ar savu QR code vai skenējiet drauga QR code",
+  "directory": "Direktorija",
+  "noContacts": "Nav kontaktu",
+  "noContactsSubtitle": "Pievienojiet kontaktu, lai sāktu",
+  "sendMessageAction": "Nosūtīt ziņu",
+  "audioCall": "Audio zvans",
+  "videoCall": "Video zvans",
+  "viewProfile": "Skatīt profilu",
+  "deleteContactDirectory": "Dzēst kontaktu",
+  "scanShort": "Skenēt",
+  "addShort": "Pievienot",
+  "deleteContactConfirmName": "Vai tiešām vēlaties dzēst {name}?",
+  "noNotesTitle": "Nav piezīmju",
+  "noNotesSubtitle": "Izveidojiet savu pirmo piezīmi",
+  "newNote": "Jauna piezīme",
+  "editNote": "Rediģēt piezīmi",
+  "deleteNote": "Dzēst piezīmi",
+  "deleteNoteConfirm": "Vai tiešām vēlaties dzēst šo piezīmi?",
+  "noteTitle": "Virsraksts",
+  "noteContent": "Saturs",
+  "addItem": "Pievienot vienību",
+  "pinNote": "Piespraust",
+  "unpinNote": "Atspraust",
+  "noteColor": "Krāsa",
+  "notePassword": "Parole",
+  "setPassword": "Iestatīt paroli",
+  "changePassword": "Mainīt paroli",
+  "removePassword": "Noņemt paroli",
+  "enterPassword": "Ievadīt paroli",
+  "confirmPassword": "Apstiprināt paroli",
+  "passwordPin": "PIN kods",
+  "passwordText": "Teksta parole",
+  "protectedNote": "Aizsargāta piezīme",
+  "incorrectPassword": "Nepareiza parole",
+  "passwordSet": "Parole iestatīta",
+  "passwordRemoved": "Parole noņemta",
+  "notesBiometric": "Face ID piezīmēm",
+  "notesBiometricSubtitle": "Pieprasīt biometrisko autentifikāciju, lai atvērtu aizsargātas piezīmes",
+  "textNote": "Teksta piezīme",
+  "checklistNote": "Kontrolsaraksts",
+  "tasksProgress": "{checked}/{total} uzdevumi",
+  "autoSaved": "Saglabāts",
+  "searchNotes": "Meklēt piezīmes",
+  "legalConsent": "Juridiskā piekrišana",
+  "confirmAge13": "Apstiprināt, ka man ir vismaz 13 gadi",
+  "acceptLegalStart": "Es piekrītu ",
+  "privacyPolicy": "Privātuma politikai",
+  "termsOfService": "Lietošanas noteikumiem",
+  "andThe": " un ",
+  "continueButton": "Turpināt",
+  "mustAcceptTerms": "Jums jāpieņem abi nosacījumi, lai turpinātu",
+  "support": "Atbalsts",
+  "contactSupport": "Sazināties ar atbalstu",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Ziņot par ļaunātnošanu",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Juridiskais",
+  "legalEntity": "Juridiskā persona",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "Piespraust",
+  "unpinConversation": "Atspraust",
+  "hideConversation": "Noņemt no plūsmas",
+  "deleteConversation": "Dzēst sarunu",
+  "deleteConversationConfirm": "Ievadiet PIN, lai apstiprinātu visu ziņu dzēšanu",
+  "noConversations": "Vēl nav sarunu",
+  "startConversation": "Sākt",
+  "microphonePermissionRequired": "Nepieciešama mikrofona piekļuve",
+  "microphonePermissionExplanation": "Hash nepieciešams mikrofons, lai veiktu zvanus.",
+  "cameraPermissionExplanation": "Hash nepieciešama kamera video zvaniem.",
+  "openSettings": "Atvērt iestatījumus",
+  "callConnecting": "Savienojas...",
+  "callRinging": "Zvana...",
+  "callReconnecting": "Atkārtoti savienojas...",
+  "callReconnectingTimer": "Atkārtoti savienojas ({seconds}s)",
+  "callPaused": "Apturēts",
+  "callPausedSubtitle": "Zvans joprojām ir aktīvs",
+  "callRemoteMicMuted": "Kontakta mikrofons ir apklusināts",
+  "callMiniControlsMute": "Apklusināt",
+  "callMiniControlsUnmute": "Ieslēgt skaņu",
+  "callMiniControlsHangUp": "Nolikt klausi",
+  "callMiniControlsReturn": "Atgriezties zvanā",
+  "callNetworkPoor": "Nestabīls savienojums",
+  "callNetworkLost": "Savienojums zaudēts",
+  "callEndedTitle": "Zvans beidzies",
+  "deviceData": "Ierīces dati",
+  "deviceDataSubtitle": "Lokālā un servera krātuve",
+  "localStorage": "Lokālā krātuve",
+  "onThisDevice": "šajā ierīcē",
+  "encryptedDatabases": "Šifrētas datubāzes",
+  "files": "Faili",
+  "secureKeychain": "Drošā atslēgu ķēde",
+  "cache": "Kešatmiņa",
+  "contactsDetail": "Vārdi, avatāri, Signal atslēgas",
+  "messagesDetail": "Šifrētas sarunas",
+  "notesDetail": "Personīgās piezīmes",
+  "signalSessions": "Signal sesijas",
+  "signalSessionsDetail": "Šifrēšanas sesijas",
+  "pendingContacts": "Gaidītie kontakti",
+  "pendingContactsDetail": "Gaidītie pieprasījumi",
+  "callHistory": "Zvani",
+  "callHistoryDetail": "Zvanu vēsture",
+  "preferences": "Iestatījumi",
+  "preferencesDetail": "Multivides un zvanu iestatījumi",
+  "avatars": "Avatāri",
+  "media": "Multivide",
+  "fileCount": "{count, plural, =0{nav failu} =1{1 fails} other{{count} faili}}",
+  "active": "Aktīvs",
+  "notDefined": "Nav noteikts",
+  "biometrics": "Biometrija",
+  "recoveryPhrase": "Atjaunošanas frāze",
+  "identity": "Identitāte (Hash ID)",
+  "signalKeys": "Signal Protocol atslēgas",
+  "authTokens": "Autentifikācijas marķieri",
+  "contactNamesCache": "Kontaktu vārdu kešatmiņa",
+  "remoteConfig": "Attālā konfigurācija",
+  "notificationPrefs": "Paziņojumu iestatījumi",
+  "serverData": "Servera dati",
+  "serverDataInfo": "Hash glabā minimālus datus serverī, visus šifrētus vai īslaicīgus.",
+  "serverProfile": "Profils",
+  "serverProfileDetail": "Hash ID, publiskās atslēgas, pastkastes marķieris",
+  "serverPrekeys": "Iepriekšējās atslēgas",
+  "serverPrekeysDetail": "Vienreizējās Signal atslēgas (izlietotas)",
+  "serverMessages": "Ziņas tranzītā",
+  "serverMessagesDetail": "Dzēstas pēc piegādes (maks. 24h)",
+  "serverMedia": "Multivide tranzītā",
+  "serverMediaDetail": "Dzēsta pēc lejupielādes",
+  "serverContactRequests": "Kontaktu pieprasījumi",
+  "serverContactRequestsDetail": "Beidzas pēc 24h",
+  "serverRateLimits": "Ātruma ierobežojumi",
+  "serverRateLimitsDetail": "īslaicīgi pretļaunprātības dati",
+  "privacyReassurance": "Hash nevar lasīt jūsu ziņas. Visi dati ir pilnībā šifrēti. Servera dati tiek automātiski dzēsti.",
+  "pinTooSimple": "Šis PIN ir pārāk vienkāršs. Izvēlieties drošāku kodu.",
+  "genericError": "Radās kļūda. Lūdzu, mēģiniet vēlreiz.",
+  "accountCreationError": "Nevar izveidot kontu: {error}",
+  "phraseCopiedToClipboard": "Frāze nokopēta starpliktuvē",
+  "copyPhrase": "Kopēt frāzi",
+  "recoveryPhraseSecurityWarning": "Pierakstiet šo frāzi drošā vietā. Ja zaudēsiet PIN bez šīs frāzes, jūs neatgriezeniski zaudēsiet piekļuvi datiem.",
+  "noMessages": "Nav ziņu",
+  "deleteAllMessagesWithContact": "Dzēst visas ziņas ar {name}?",
+  "confirmation": "Apstiprinājums",
+  "untitled": "Bez nosaukuma",
+  "noSessions": "Nav sesiju",
+  "unknownContact": "Nezināms kontakts",
+  "unnamed": "Bez vārda",
+  "noPendingRequestsAlt": "Nav gaidītu pieprasījumu",
+  "deleteAllCallHistory": "Dzēst visu zvanu vēsturi?",
+  "noCalls": "Nav zvanu",
+  "noPreferences": "Nav iestatījumu",
+  "resetAllMediaPrefs": "Atiestatīt visus multivides iestatījumus?",
+  "deleteThisAvatar": "Dzēst šo avatāru?",
+  "deleteAllAvatars": "Dzēst visus avatārus?",
+  "noAvatars": "Nav avatāru",
+  "deleteThisFile": "Dzēst šo failu?",
+  "deleteAllMediaFiles": "Dzēst visu multividi?",
+  "noMediaFiles": "Nav multivides",
+  "outgoing": "Izejošais",
+  "incoming": "Ienākošais",
+  "ephemeralViewDuration": "īslaicīgs skats: {seconds}s",
+  "normalView": "Parasts skats",
+  "callReasonCompleted": "Pabeigts",
+  "callReasonMissed": "Neatbildēts",
+  "callReasonDeclined": "Noraidīts",
+  "callReasonFailed": "Neizdevās",
+  "justNow": "Tikko",
+  "timeAgoMinutes": "pirms {count} min",
+  "timeAgoHours": "pirms {count}h",
+  "timeAgoDays": "pirms {count}d",
+  "messageTypeContact": "Kontakts",
+  "messageTypeLocation": "Atrašanās vieta",
+  "statusQueued": "Rindā",
+  "blockedBadge": "Bloķēts",
+  "protectedBadge": "Aizsargāts",
+  "messageCount": "{count} ziņa(-as)",
+  "deleteQuestion": "Dzēst?",
+  "transferMyAccountTitle": "Pārsūtīt manu kontu",
+  "loadingError": "Ielādes kļūda",
+  "transferToNewDevice": "Pārsūtīt uz jaunu ierīci",
+  "transferInstructions": "Jaunajā ierīcē izvēlieties “Atjaunot manu kontu” un ievadiet šo informāciju:",
+  "yourHashIdLabel": "Jūsu Hash ID",
+  "enterYourPinCode": "Ievadiet savu PIN kodu",
+  "pinOwnerConfirmation": "Lai apstiprinātu, ka esat šī konta īpašnieks",
+  "scanThisQrCode": "Skenējiet šo QR code",
+  "withYourNewDevice": "Ar jūsu jauno ierīci",
+  "orEnterTheCode": "vai ievadiet kodu",
+  "transferCodeLabel": "Pārsūtīšanas kods",
+  "proximityVerification": "Tuvības pārbaude",
+  "bringDevicesCloser": "Tuviniet abas ierīces",
+  "confirmTransferQuestion": "Apstiprināt pārsūtīšanu?",
+  "accountWillBeTransferred": "Jūsu konts tiks pārsūtīts uz jauno ierīci.\n\nŠī ierīce tiks pastāvīgi atvienota.",
+  "transferComplete": "Pārsūtīšana pabeigta",
+  "transferSuccessMessage": "Jūsu konts ir veiksmīgi pārsūtīts.\n\nŠī lietotne tagad tiks aizvērta.",
+  "manualVerification": "Manuāla pārbaude",
+  "codeDisplayedOnBothDevices": "Kods, kas parādīts abās ierīcēs:",
+  "doesCodeMatchNewDevice": "Vai šis kods sakrīt ar jaunās ierīces kodu?",
+  "verifiedStatus": "Pārbaudīts",
+  "inProgressStatus": "Norit...",
+  "notAvailableStatus": "Nav pieejams",
+  "codeExpiredRestart": "Kods ir beidzies. Lūdzu, sāciet no jauna.",
+  "codesDoNotMatchCancelled": "Kodi nesakrīt. Pārsūtīšana atcelta.",
+  "transferToDevice": "Uz: {device}",
+  "copiedExclamation": "Nokopēts!",
+  "expiresInTime": "Beidzas pēc {time}",
+  "biometricNotAvailable": "Biometrija nav pieejama šajā ierīcē",
+  "biometricAuthError": "Kļūda biometriskās autentifikācijas laikā",
+  "authenticateForBiometric": "Lūdzu, autentificējieties, lai ieslēgtu biometriju",
+  "biometricAuthFailed": "Biometriskā autentifikācija neizdevās",
+  "forceUpdateTitle": "Nepieciešams atjauninājums",
+  "forceUpdateMessage": "Ir pieejama jauna Hash versija. Lūdzu, atjauniniet, lai turpinātu.",
+  "updateButton": "Atjaunināt",
+  "maintenanceInProgress": "Notiek apkope",
+  "tryAgainLater": "Lūdzu, mēģiniet vēlāk",
+  "information": "Informācija",
+  "noLoginRecorded": "Nav reģistrētu pieteikšanos",
+  "nextUnlocksAppearHere": "Nākamās atbloķēšanas parādīsies šeit.",
+  "noMaintenancePlanned": "Nav plānota apkope",
+  "everythingWorkingNormally": "Viss darbojas normāli",
+  "locking": "Bloķē...",
+  "newMessageNotification": "Jauna ziņa",
+  "secExplainTitle": "Kā Hash jūs aizsargā",
+  "secExplainIntro": "Hash ir izveidots tā, lai neviens nevarētu lasīt jūsu ziņas.",
+  "secExplainIntroSub": "Pat mēs ne.\nLūk, kā tas darbojas, izskaidrots vienkārši.",
+  "secJourneyLabel": "CEĻŠ",
+  "secJourneyTitle": "Jūsu ziņas ceļš",
+  "secJourneySubtitle": "No jūsu pirksta līdz kontakta ekrānam, katrs solis ir aizsargāts. Sekojiet ceļam.",
+  "secStep1Title": "Jūs rakstāt ziņu",
+  "secStep1Desc": "Jūs ierakstāt “Sveiki!” lietotnē. Šobrīd ziņa pastāv tikai jūsu tālruņa atmiņā. Nekas nav nosūtīts.",
+  "secStep2Title": "Šifrēšana ar Signal Protocol",
+  "secStep2Desc": "Tiklīdz nospiežat “Nosūtīt”, jūsu ziņa tiek pārvērsta nesaprotamā rakstzīmju virknē. Tas ir kā ieslēgt ziņu seifā, kuram atslēga ir tikai jūsu kontaktam.",
+  "secStep3Title": "Aizzīmogots sūtītājs: neredzamā aploksne",
+  "secStep3Desc": "Iedomājieties, ka sūtāt vēstuli pa pastu, bet bez atpakaļ adreses uz aploksnes. Tieši to dara Hash. Ziņa tiek ievietota anonīmā pastkastītē. Serveris nezina, kas to nosūtīja.",
+  "secStep4Title": "Serveris neredz neko",
+  "secStep4Desc": "Serveris darbojas kā akls pastnieks. Tas zina tikai “kāds ievietoja kaut ko pastkastītē #A7X9”. Tas nezina, kas to nosūtīja, kas tas ir, vai kam tas domāts.",
+  "secStep4Highlight": "Nav saglabātu metadatu: nav IP adreses, nav laikspiedoga, nav saites starp sūtītāju un saņēmēju.",
+  "secStep5Title": "Jūsu kontakts saņem ziņu",
+  "secStep5Desc": "Jūsu kontakta tālrunis izņem saturu no anonīmās pastkastītes un atšifrē ziņu ar privāto atslēgu, kas nekad nav pametusi ierīci. “Sveiki!” parādās ekrānā.",
+  "secStep6Title": "Ziņa pazūd no servera",
+  "secStep6Desc": "Tiklīdz kontakts apstiprina saņemšanu, serveris neatgriezeniski dzēš ziņu. Nav atkritnes, nav arhīva, nav rezerves kopijas. Pat neizlasītas ziņas tiek automātiski iznīcinātas pēc 24 stundām.",
+  "secStep7Title": "Lokālā termiņš",
+  "secStep7Desc": "Kontakta tālrunī ziņa pašiznīcinās atbilstoši jūsu izvēlētajam ilgumam: tūlīt pēc izlasīšanas, 5 minūtes, 1 stunda... jūs izlemjat.",
+  "secJourneyConclusion": "Rezultāts: nulles pēdas serverī, nulles pēdas ierīcēs. Ziņa pastāvēja tikai tik ilgi, cik nepieciešams, lai to izlasītu, tad pazuda.",
+  "secArchLabel": "ARHITEKTŪRA",
+  "secArchTitle": "5 aizsardzības slāņi",
+  "secArchSubtitle": "Hash nepaļaujas uz vienu tehnoloģiju. Katrs slānis pastiprina pārējos. Pat ja viens slānis tiek kompromitēts, jūsu dati paliek drošībā.",
+  "secLayer1Title": "Pilna šifrēšana",
+  "secLayer1Desc": "Katra ziņa tiek šifrēta ar unikālu atslēgu. Vienkārši: pat ja kāds atšifrē vienu ziņu, viņš nevarēs atšifrēt nākamo. Katrai ziņai ir sava slēdzene.",
+  "secLayer1Detail": "Failiem (fotoattēli, video, dokumenti) Hash izmanto papildu AES-256-GCM šifrēšanu. Fails tiek šifrēts, pirms tas pamet jūsu tālruni.",
+  "secLayer2Title": "Aizzīmogots sūtītājs (tīkla anonimitāte)",
+  "secLayer2Desc": "Parastās ziņojumu lietotnes sūta ziņas ar jūsu pievienoto identitāti. Tas ir kā rakstīt vārdu uz aploksnes. Hash izmanto anonīmas pastkastītes: serveris piegādā ziņu, nezinot, kas to nosūtīja.",
+  "secLayer2Detail": "Rezultāts: pat servera datu noplūdes gadījumā nav iespējams rekonstruēt, kas ar ko sarunājas.",
+  "secLayer3Title": "Automātiskā dzēšana",
+  "secLayer3Desc": "Ziņas tiek dzēstas no servera, tiklīdz saņemšana ir apstiprināta. Pat ja ziņa nekad netiek saņemta, tā automātiski tiek iznīcināta pēc 24 stundām.",
+  "secLayer3Detail": "Jūsu tālrunī ziņas pašiznīcinās atbilstoši izvēlētajam ilgumam: tūlīt, 5 min, 15 min, 30 min, 1h, 3h, 6h vai 12h.",
+  "secLayer4Title": "Lokālā piekļuves aizsardzība",
+  "secLayer4Desc": "Lietotne ir aizsargāta ar 6 ciparu PIN un/vai biometriju (Face ID, pirkstu nospiedums). Pēc pārāk daudziem neveiksmīgiem mēģinājumiem lietotne bloķējas ar pieaugošu aizkavi pēc katras neizdošanās.",
+  "secLayer5Title": "Noslēgta datubāze",
+  "secLayer5Desc": "Servera pusē neviens lietotājs nevar tieši rakstīt datubāzē. Visas darbības iet caur drošām funkcijām, kas pārbauda katru pieprasījumu.",
+  "secLayer5Detail": "Tas ir kā bankas skatis: jūs nekad nepieskaraties seifam pats. Jūs izsakāt pieprasījumu, un sistēma pārbauda, vai jums ir tiesības, pirms rīkojas.",
+  "secVashLabel": "UNIKĀLS PASAULĒ",
+  "secVashTitle": "Vash režīms",
+  "secVashSubtitle": "Ārkārtas drošības sistēma, kas neeksistē nevienā citā ziņojumu lietotnē.",
+  "secVashScenarioTitle": "Iedomājieties šo situāciju",
+  "secVashScenario1": "Kāds piekļūst jūsu tālrunim",
+  "secVashScenario2": "Jums prasa PIN kodu",
+  "secVashScenario3": "Vēlaties steidzami dzēst visus datus",
+  "secVashSolutionTitle": "Risinājums: divi PIN kodi",
+  "secVashSolutionDesc": "Jūs konfigurējat divus dažādus PIN kodus Hash:",
+  "secVashNormalCodeLabel": "Parastais kods",
+  "secVashNormalCodeDesc": "Atver lietotni normāli ar visiem datiem",
+  "secVashCodeLabel2": "Vash kods",
+  "secVashCodeDescription": "Atver lietotni normāli... bet visi dati tiek klusi dzēsti fonā",
+  "secVashWhatHappensTitle": "Kas notiek tālāk",
+  "secVashWhatHappensDesc": "Lietotne atvēras normāli. Nav brīdinājuma, nav aizdomīgas animācijas. Ekrāns vienkārši rāda tukšu lietotni, it kā jūs to tikko instalējāt.\n\nPatīām visas jūsu sarunas, kontakti un ziņas ir neatgriezeniski dzēsti sekundes daļā.",
+  "secCallsLabel": "ZVANI UN FAILI",
+  "secCallsTitle": "Viss ir šifrēts",
+  "secCallsSubtitle": "Tas nav tikai ziņas. Pilnīgi viss, kas iet caur Hash, ir pilnībā šifrēts.",
+  "secAudioCallTitle": "Audio zvani",
+  "secAudioCallDesc": "Pilna šifrēšana caur WebRTC. Balss tiek pārraidīta tieši starp ierīcēm.",
+  "secVideoCallTitle": "Video zvani",
+  "secVideoCallDesc": "Tā pati tehnoloģija, katrs plūsma šifrēta individuāli.",
+  "secPhotosTitle": "Fotoattēli un video",
+  "secPhotosDesc": "Šifrēti ar AES-256-GCM pirms aiziešanas no tālruņa.",
+  "secDocsTitle": "Dokumenti",
+  "secDocsDesc": "PDF, ZIP, jebkurš fails. Nosaukums, izmērs un saturs šifrēts.",
+  "secAnonLabel": "ANONIMITĀTE",
+  "secAnonTitle": "Nav nepieciešama identitāte",
+  "secAnonSubtitle": "Hash nekad neprasa jūsu tālruņa numuru vai e-pastu. Jūs esat identificēts ar unikālu un anonīmu Hash ID.",
+  "secHashIdTitle": "Jūsu Hash ID",
+  "secHashIdDesc": "Šis ir jūsu unikālais identifikators. Tas neatkļāj neko par jums: ne jūsu vārdu, ne numuru, ne atrašanās vietu. Tas ir kā pseidonīms, ko neiespējami saistīt ar jūsu īsto identitāti.\n\nLai pievienotu kontaktu, jūs dalāties ar savu Hash ID vai skenējat QR code. Tas ir viss. Nav sinhronizētu adrešu grāmatu, nav “Cilvēki, kurus varētu pazīt” ieteikumu.",
+  "secDataLabel": "DATI",
+  "secDataTitle": "Ko Hash nezina",
+  "secDataSubtitle": "Labākais veids, kā aizsargāt jūsu datus, ir tos neievākt.",
+  "secNeverCollected": "Nekad netiek ievākts",
+  "secNeverItem1": "Ziņu saturs",
+  "secNeverItem2": "Kontaktu saraksts",
+  "secNeverItem3": "Tālruņa numurs",
+  "secNeverItem4": "E-pasta adrese",
+  "secNeverItem5": "IP adrese",
+  "secNeverItem6": "Atrašanās vieta",
+  "secNeverItem7": "Metadati (kas ar ko sarunājas)",
+  "secNeverItem8": "Zvanu vēsture",
+  "secNeverItem9": "Adrešu grāmata",
+  "secNeverItem10": "Reklāmas identifikatori",
+  "secTempStored": "Glabāts īslaicīgi",
+  "secTempItem1": "Anonīms Hash ID (unikāls identifikators)",
+  "secTempItem2": "Publiskās šifrēšanas atslēgas",
+  "secTempItem3": "Šifrētas ziņas tranzītā (maks. 24h)",
+  "secTempNote": "Pat šie minimālie dati nevar jūs identificēt. Jūsu Hash ID nav saistīts ar personīgu informāciju.",
+  "secFooterTitle": "Jūsu privātums, jūsu brīvība",
+  "secFooterDesc": "Hash izmanto tās pašas šifrēšanas tehnoloģijas kā visprasīgākās profesionālās lietojumprogrammas. Jūsu ziņas aizsargā matemātika, nevis solījumi.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "Biometrija",
+  "biometricUnlock": "Atbloķēt ar pirkstu nospiedumu vai Face ID",
+  "biometricWarningMessage": "Aktivizējot biometriju, jūs nevarēsiet izmantot Vash kodu, lai ievadītu lietotni.\n\nVash kodu varēsiet izmantot tikai tad, ja biometrija neizdodas (pēc vairākiem neveiksmīgiem mēģinājumiem).\n\nVai esat pārliecināts, ka vēlaties turpināt?",
+  "connectionCount": "Savienojums(i)",
+  "currentSession": "Pašreizējā",
+  "dataLocalOnly": "Šie dati tiek glabāti tikai jūsu ierīcē un nekad netiek pārsūtīti.",
+  "doYouLikeHash": "Vai jums patīk Hash?",
+  "donationMessage": "Hash ir bezpeļņas projekts. Jūsu atbalsts palīdz mums turpināt veidot patiesi privātu ziņojumu lietotni.",
+  "enableBiometric": "Aktivizēt biometriju",
+  "ephemeral1HourDesc": "Dzēsts 1h pēc lasīšanas",
+  "ephemeral24HoursDesc": "Dzēsts 24h pēc lasīšanas",
+  "ephemeral30SecondsDesc": "Dzēsts 30s pēc lasīšanas",
+  "ephemeral5MinutesDesc": "Dzēsts 5min pēc lasīšanas",
+  "ephemeral6HoursDesc": "Dzēsts 6h pēc lasīšanas",
+  "feedback": "Atsauksmes",
+  "historyLabel": "Vēsture",
+  "hoursAgoLabel": "Pirms {hours}h",
+  "hoursMinutesAgoLabel": "Pirms {hours}h {minutes}min",
+  "justNowLabel": "Tikko",
+  "later": "Vēlāk",
+  "loginInfoText": "Katra PIN atbloķēšana tiek ierakstīta lokāli. Tiek saglabātas tikai pēdējās 24 stundas.",
+  "maintenanceActiveLabel": "NOTIEK",
+  "maintenancePlannedLabel": "PLĀNOTA",
+  "maintenanceTitle": "Uzturēšana",
+  "minutesAgoLabel": "Pirms {count} min",
+  "periodLabel": "Periods",
+  "pinCodeForEntry": "PIN kods lietotnes atvēršanai",
+  "ratingBad": "Slikti",
+  "ratingExcellent": "Lieliski!",
+  "ratingGood": "Labi",
+  "ratingOk": "Normāli",
+  "ratingTerrible": "Šausmīgi",
+  "recentConnections": "Nesenie savienojumi",
+  "share": "Dalīties",
+  "shareAppSubtitle": "Dalieties ar Hash saviem tuvākajiem",
+  "showCallsInRecents": "Rādīt nesenajiem zvaniem",
+  "showCallsInRecentsSubtitle": "Hash zvani parādās tālruņa vēsturē",
+  "todayLabel": "Šodien",
+  "understood": "Saprotu",
+  "yesterdayLabel": "Vakar",
+  "yourFeedbackHelps": "Jūsu atsauksmes palīdz mums uzlabot lietotni"
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Удаление аккаунта Hash - Инструкция по окончательному удалению вашего аккаунта и данных.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Удаление аккаунта - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .step-list {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: step-counter;
+      margin: 24px 0;
+    }
+    .step-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding: 16px 16px 16px 64px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+    }
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--accent-dim);
+      border: 1px solid var(--border-accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--accent);
+      text-align: center;
+      line-height: 32px;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .data-item {
+      background: rgba(255, 71, 87, 0.08);
+      border: 1px solid rgba(255, 71, 87, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .data-item .icon {
+      color: var(--error);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .alternative-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .alternative-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .data-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">ГЛАВНАЯ</a></li>
+        <li><a href="security.html">БЕЗОПАСНОСТЬ</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">ПОДДЕРЖАТЬ</a></li>
+        <li><a href="index.html#download" class="nav__cta">СКАЧАТЬ</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Удаление аккаунта Hash</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Последнее обновление: февраль 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="warning-box">
+      <p><strong>Внимание:</strong> Удаление аккаунта Hash происходит <strong>мгновенно и необратимо</strong>. Все ваши данные (сообщения, контакты, ключи шифрования) будут окончательно удалены. Восстановить аккаунт после удаления невозможно.</p>
+    </div>
+
+    <h2>Удаление аккаунта из приложения</h2>
+    <p>Самый простой способ удалить аккаунт -- воспользоваться опцией <strong>Удалить аккаунт</strong> непосредственно в приложении:</p>
+
+    <ol class="step-list">
+      <li>Откройте приложение <strong>Hash</strong> на вашем устройстве</li>
+      <li>Перейдите в <strong>Настройки</strong>, нажав на значок шестерёнки</li>
+      <li>Прокрутите до раздела <strong>«Аккаунт»</strong></li>
+      <li>Нажмите <strong>«Удалить аккаунт»</strong></li>
+      <li>Подтвердите удаление, следуя инструкциям на экране</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p><strong>Что произойдёт?</strong> Как только вы подтвердите, все ваши данные будут мгновенно удалены как с вашего устройства, так и с наших серверов. Приложение вернётся в исходное состояние, как будто оно только что было установлено.</p>
+    </div>
+
+    <h2>Удаляемые данные</h2>
+    <p>При удалении аккаунта следующие данные будут <strong>окончательно удалены</strong>:</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Ваш Hash ID</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Открытые ключи шифрования</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Приватные ключи (на устройстве)</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Информация об устройстве</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Непрочитанные сообщения в пути</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Все контакты</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>История переписок</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Локальные файлы и медиа</span>
+      </div>
+    </div>
+
+    <h2>Альтернативный способ: по электронной почте</h2>
+
+    <div class="alternative-box">
+      <h3>Нет доступа к приложению?</h3>
+      <p>Если у вас больше нет доступа к устройству или приложению, вы можете запросить удаление аккаунта, написав нам по адресу:</p>
+      <p><strong><a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></strong></p>
+      <p>Пожалуйста, укажите в письме:</p>
+      <ul>
+        <li>Ваш <strong>Hash ID</strong> (формат 000-000-XXX), если он вам известен</li>
+        <li>Любую информацию, позволяющую идентифицировать ваш аккаунт</li>
+      </ul>
+      <p style="margin-bottom: 0;">Мы обработаем ваш запрос в течение <strong>48 часов</strong>.</p>
+    </div>
+
+    <h2>Последствия удаления</h2>
+    <p>После удаления аккаунта:</p>
+    <ul>
+      <li>Ваши контакты <strong>больше не смогут отправлять вам сообщения</strong>. Сообщения, отправленные на ваш бывший аккаунт, будут отклонены</li>
+      <li>Ваш Hash ID будет <strong>освобождён</strong> и потенциально может быть присвоен другому пользователю</li>
+      <li>Ваши локальные переписки будут <strong>удалены с вашего устройства</strong></li>
+      <li>Сообщения, которые вы отправили и которые уже были получены вашими контактами, останутся на <strong>их устройствах</strong> (мы не контролируем данные, хранящиеся локально другими пользователями)</li>
+      <li><strong>Восстановить</strong> аккаунт или данные после удаления <strong>невозможно</strong></li>
+    </ul>
+
+    <h2>Контакт</h2>
+    <p>По любым вопросам, связанным с удалением аккаунта, свяжитесь с нами:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></li>
+      <li><strong>Конфиденциальность:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">Мессенджер, который ничего о вас не знает.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Продукт</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Возможности</a></li>
+            <li><a href="security.html">Безопасность</a></li>
+            <li><a href="index.html#download">Скачать</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Проект</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Поддержать Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Контакт</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Правовая информация</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Конфиденциальность</a></li>
+            <li><a href="terms.html">Условия использования</a></li>
+            <li><a href="delete-account.html">Удалить аккаунт</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

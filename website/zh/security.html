@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>安全 — Hash | 您的数据如何保持隐形</title>
+  <meta name="description" content="了解 Hash 如何保护您的对话：Signal Protocol、Sealed Sender、AES-256 加密以及消息自动删除。">
+  <meta name="theme-color" content="#FFAB00">
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .security-diagram {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      margin: 40px 0;
+      text-align: center;
+    }
+    .security-diagram__flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 24px 0;
+    }
+    .security-diagram__node {
+      background: var(--bg-surface-light);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 24px;
+      text-align: center;
+      min-width: 120px;
+    }
+    .security-diagram__node--accent {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+    .security-diagram__node--danger {
+      border-color: var(--error);
+      background: rgba(255, 71, 87, 0.08);
+    }
+    .security-diagram__node-icon {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    .security-diagram__node-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .security-diagram__arrow {
+      color: var(--accent);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .security-diagram__node-sub {
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+    }
+    .security-diagram__caption {
+      color: var(--text-tertiary);
+      font-size: 0.85rem;
+      margin-top: 16px;
+    }
+    .tech-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+    .tech-badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .layer-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      margin-bottom: 24px;
+      border-left: 3px solid var(--accent);
+      text-align: center;
+    }
+    .layer-card__number {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin: 0 auto 20px;
+    }
+    .layer-card h3 {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 0.95rem;
+    }
+    .layer-card p {
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+    @media (max-width: 600px) {
+      .security-diagram {
+        padding: 24px 16px;
+      }
+      .security-diagram__flow {
+        flex-direction: column;
+      }
+      .security-diagram__arrow {
+        transform: rotate(90deg);
+      }
+    }
+
+    /* Encryption crossfade */
+    .encryption-demo__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 1.2s ease-in-out;
+    }
+
+    .encryption-demo__img--visible {
+      opacity: 1;
+    }
+
+    /* Parcours Hero */
+    .parcours-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+
+    @media (max-width: 768px) {
+      .parcours-hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+      }
+      .parcours-hero .hero__visual {
+        order: -1;
+      }
+      .parcours-hero h2 {
+        font-size: 1.8rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="security.html" class="active">安全</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">支持我们</a></li>
+        <li><a href="index.html#download" class="nav__cta">下载</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="section-header__label">安全</span>
+      <h1 class="page-header__title">零痕迹。<br><span class="text-gradient">源于设计，而非承诺。</span></h1>
+      <p class="page-header__text">
+        我们不是简单地给普通通讯应用加上加密。
+        我们构建了每一层架构，使得<strong>物理上不可能</strong>访问您的数据。
+      </p>
+    </div>
+  </header>
+
+  <!-- How a Message Travels -->
+  <section class="section" id="parcours">
+    <div class="container">
+      <div class="parcours-hero">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/security_chat_1.webp" alt="消息 你好" class="encryption-demo__img encryption-demo__img--visible" id="encImg1">
+              <img src="../assets/images/security_chat_2.webp" alt="加密消息" class="encryption-demo__img" id="encImg2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-header__label" style="margin-bottom: 16px; display: inline-block;">消息的旅程</span>
+          <h2>从您的指尖到<br><span style="color: var(--accent);">联系人的屏幕。</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            跟随一条 Hash 消息的旅程，逐步了解。您将理解为什么
+            <strong style="color: #fff;">没有人 — 甚至是我们</strong> — 能读取您的对话。
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            左侧是<strong style="color: #fff;">您</strong>看到的：一条简单的"你好"。
+            但服务器收到的是一串完全不可读的 <strong style="color: var(--accent);">610 字节</strong>加密数据。
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            两层加密。每条消息都有一个唯一的临时密钥。
+            即使有人截获了所有内容 — <strong style="color: var(--error);">没有接收者的私钥也毫无用处</strong>，
+            而私钥仅存储在接收者的手机上。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container container--narrow">
+
+      <!-- Step 1 -->
+      <div class="steps" style="margin-top: 80px;">
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">1</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">您输入消息</h3>
+            <p class="step__text">
+              您在应用中写下"你好！"。此时，消息仅存在于您手机的内存中。什么都还没有发送。
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">2</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">使用 Signal Protocol 加密</h3>
+            <p class="step__text">
+              当您按下"发送"时，您的消息通过 <strong>Signal Protocol</strong> 被转换为一串无法理解的字符。
+            </p>
+            <p class="step__text mt-2">
+              简单来说：您的消息被锁在一个数字保险箱中，只有您的联系人拥有钥匙。即使有人在传输途中截获消息，他们看到的也只是毫无意义的字母和数字。
+            </p>
+            <div class="tech-badges">
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> DOUBLE RATCHET</span>
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg> CURVE25519</span>
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> AES-256</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">3</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Sealed Sender：隐形信封</h3>
+            <p class="step__text">
+              想象您寄一封信，但<strong>信封上没有寄件人地址</strong>。
+              这正是 Hash 的 "Sealed Sender" 系统所做的。
+            </p>
+            <p class="step__text mt-2">
+              加密后的消息被放入我们服务器上的<strong>匿名信箱</strong>中。
+              服务器不知道是谁放入了消息。它只知道放入哪个信箱 — 但不知道信箱主人的身份。
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">4</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">经过服务器</h3>
+            <p class="step__text">
+              服务器扮演一个盲人邮递员的角色。以下是它所看到的：
+            </p>
+            <div class="highlight-box mt-2">
+              <p>
+                <strong>服务器知道的：</strong>"有人在 #A7X9 信箱中放了什么东西。"<br>
+                <strong>服务器不知道的：</strong>谁发的。是什么。真正要发给谁。
+              </p>
+            </div>
+            <p class="step__text mt-2">
+              服务器不存储任何元数据：没有 IP 地址，没有发送时间戳，没有发送者和接收者之间的关联。
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">5</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">您的联系人收到消息</h3>
+            <p class="step__text">
+              您联系人的手机从其匿名信箱中获取内容。
+              消息在本地使用其私钥解密 — 私钥<strong>从未离开过其设备</strong>。
+            </p>
+            <p class="step__text mt-2">
+              "你好！"出现在其屏幕上。任务完成。
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">6</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">消息从服务器消失</h3>
+            <p class="step__text">
+              一旦您的联系人确认收到，服务器<strong>永久删除该消息</strong>。
+              没有回收站，没有归档，没有备份。数据从数据库中被抹除。
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">7</div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">本地过期</h3>
+            <p class="step__text">
+              在您联系人的设备上，消息根据您选择的时间自动销毁：
+              阅读后立即、5分钟、1小时...由您决定。
+            </p>
+            <p class="step__text mt-2">
+              最终：<strong>服务器上零痕迹，设备上零痕迹</strong>。消息存在的时间仅够被阅读，然后永远消失。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diagram -->
+      <div class="security-diagram animate-on-scroll">
+        <p style="font-weight: 600; margin-bottom: 24px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);">HASH 消息流</p>
+        <div class="security-diagram__flow">
+          <div class="security-diagram__node security-diagram__node--accent">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+            <div class="security-diagram__node-label">您的手机</div>
+            <div class="security-diagram__node-sub">明文消息</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+            <div class="security-diagram__node-label">SIGNAL 加密</div>
+            <div class="security-diagram__node-sub">Double Ratchet + AES-256</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div class="security-diagram__node-label">SEALED SENDER</div>
+            <div class="security-diagram__node-sub">发送者隐藏</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node security-diagram__node--danger">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+            <div class="security-diagram__node-label">服务器（盲态）</div>
+            <div class="security-diagram__node-sub">不读取，不存储</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 5-5 5 5 0 0 1 5 5v4"/></svg></div>
+            <div class="security-diagram__node-label">解密</div>
+            <div class="security-diagram__node-sub">本地私钥</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node security-diagram__node--accent">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+            <div class="security-diagram__node-label">联系人手机</div>
+            <div class="security-diagram__node-sub">可读消息</div>
+          </div>
+        </div>
+        <p class="security-diagram__caption">服务器无法读取消息、无法识别发送者、无法保留任何痕迹。消息在接收后立即删除。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Layers -->
+  <section class="section" style="background: var(--bg-secondary);" id="couches">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">架构</span>
+        <h2 class="section-header__title">5 层保护。</h2>
+        <p class="section-header__text">
+          Hash 不依赖单一技术。每一层都强化其他层，
+          创建一个即使某个元素被攻破也不会危及您数据的系统。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">1</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          端到端加密 (SIGNAL PROTOCOL)
+        </h3>
+        <p>
+          每条消息都使用 "Double Ratchet" 算法生成的唯一密钥进行加密。
+          简单来说：即使有人破解了一条消息，也无法破解下一条。
+          每条消息都有自己的锁。
+        </p>
+        <p class="mt-2">
+          <strong style="color: var(--text-primary);">对于文件</strong>（照片、视频、文档），
+          Hash 使用额外的 AES-256-GCM 加密。文件在离开您的手机<em>之前</em>就已加密。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">2</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          SEALED SENDER（网络匿名）
+        </h3>
+        <p>
+          传统通讯应用发送消息时会附上您的身份 — 就像在信封上写上您的名字。
+          Hash 使用"匿名信箱"系统：服务器投递消息时不知道是谁发送的。
+        </p>
+        <p class="mt-2">
+          结果：即使服务器被攻破，攻击者也无法重建谁在和谁通信。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">3</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          自动删除
+        </h3>
+        <p>
+          消息在确认接收后立即从服务器删除。
+          即使消息从未被取回，也会在<strong>24小时后自动销毁</strong>。
+        </p>
+        <p class="mt-2">
+          在您的手机上，消息根据您选择的时长自动销毁：
+          立即、5分钟、15分钟、30分钟、1小时、3小时、6小时或12小时。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">4</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          本地访问保护
+        </h3>
+        <p>
+          应用受6位数 PIN 码和/或生物识别（Face ID、指纹）保护。
+          多次尝试失败后，应用将以指数级延迟锁定。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">5</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          锁定的数据库
+        </h3>
+        <p>
+          在服务器端，<strong>没有用户可以直接写入数据库</strong>。
+          所有操作（发送消息、添加联系人、删除账户）都通过安全函数进行，
+          在执行前验证每个操作。
+        </p>
+        <p class="mt-2">
+          就像银行柜台：您永远不会亲自触碰保险库。
+          您提出请求，系统在执行前验证您是否有权限。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vash Mode Detail -->
+  <section class="section vash-section" id="vash">
+    <div class="container">
+      <div class="parcours-hero">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_vash_1.webp" alt="Hash - Vash 模式" class="vash-demo__img vash-demo__img--visible" id="vashImg1">
+              <img src="../assets/images/screen_vash_2.webp" alt="Hash - Vash 模式已激活" class="vash-demo__img" id="vashImg2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>VASH 模式。<br><span style="color: var(--error);">全球独创。</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            一个在全球任何其他通讯应用中都不存在的紧急安全系统。
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Hash 是唯一提供<strong style="color: #fff;">销毁码</strong>的通讯应用。
+            第二个 PIN 码，表面上正常打开应用 — 但实际上
+            <strong style="color: var(--error);">在后台静默清除您的所有数据</strong>。
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            对话、联系人、加密密钥、文件 — 一切在瞬间被销毁。
+            旁观者看到一个空的应用，以为您不使用它。
+            <strong style="color: #fff;">无痕迹。无警告。不可逆。</strong>
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Signal 拒绝了这个功能。Telegram 从未考虑过。WhatsApp 甚至没有想到。
+            <strong style="color: #fff;">只有 Hash 实现了它。</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container container--narrow">
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          使用场景
+        </h3>
+        <p>
+          想象：有人要求您解锁手机。
+          一次检查、一个压力场景、一个恶意的人。
+          您无法拒绝。怎么办？
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+          解决方案：两个 PIN 码
+        </h3>
+        <p>
+          Hash 允许您设置<strong>两个不同的 PIN 码</strong>：
+        </p>
+        <p class="mt-2">
+          <strong style="color: var(--success);">正常码</strong> — 正常打开应用，显示所有数据。<br>
+          <strong style="color: var(--error);">Vash 码</strong> — 正常打开应用...但所有数据在<strong>后台被静默删除</strong>。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          旁观者看到的
+        </h3>
+        <p>
+          应用正常打开。没有警告，没有可疑动画，没有错误消息。
+          屏幕只是显示一个空的应用 — 就像您从未使用过一样。
+        </p>
+        <p class="mt-2">
+          旁观者以为您不使用 Hash。实际上，您的所有对话、联系人和消息已在一瞬间被
+          <strong>不可逆地删除</strong>。
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          可配置
+        </h3>
+        <p>
+          您可以精确选择激活 Vash 模式时删除的内容：
+        </p>
+        <ul class="mt-2" style="color: var(--text-secondary); padding-left: 20px; line-height: 2;">
+          <li>您的联系人</li>
+          <li>您的消息和对话</li>
+          <li>您的私密笔记</li>
+        </ul>
+        <p class="mt-2">
+          删除在本地和服务器上同时执行。如果激活时您处于离线状态，
+          服务器端的删除会被加入队列，并在连接恢复后立即执行。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calls & Media Security -->
+  <section class="section" id="appels">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">通话与文件</span>
+        <h2 class="section-header__title">一切都被加密。绝对一切。</h2>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3 class="card__title">加密语音通话</h3>
+          <p class="card__text">
+            您的语音通话通过 WebRTC (LiveKit) 端到端加密。
+            声音直接在设备之间传输 — 服务器仅促进初始连接。
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <h3 class="card__title">加密视频通话</h3>
+          <p class="card__text">
+            与语音通话相同的技术，加上视频。
+            每个流都单独加密。没有人可以拦截您的画面或声音。
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+            </svg>
+          </div>
+          <h3 class="card__title">照片和视频</h3>
+          <p class="card__text">
+            每个文件在离开您的设备前都使用 AES-256-GCM 加密。
+            服务器仅存储不可读的加密数据，接收后即删除。
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/>
+            </svg>
+          </div>
+          <h3 class="card__title">文档</h3>
+          <p class="card__text">
+            PDF、ZIP，任何文件 — 应用相同级别的加密。
+            文件名、大小和内容全部被加密。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we don't collect -->
+  <section class="section" style="background: var(--bg-secondary);" id="donnees">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">数据</span>
+        <h2 class="section-header__title">我们不收集的内容。</h2>
+        <p class="section-header__text">
+          保护您数据的最佳方式就是不收集它们。
+        </p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="card card--flat animate-on-scroll">
+          <h3 class="card__title" style="color: var(--error);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> 从不收集</h3>
+          <ul style="color: var(--text-secondary); padding-left: 20px; line-height: 2.2;">
+            <li>消息内容</li>
+            <li>联系人列表</li>
+            <li>手机号码</li>
+            <li>电子邮箱</li>
+            <li>IP 地址</li>
+            <li>位置信息</li>
+            <li>元数据（谁和谁通信）</li>
+            <li>通话记录</li>
+            <li>通讯录</li>
+            <li>广告标识符</li>
+          </ul>
+        </div>
+        <div class="card card--flat animate-on-scroll">
+          <h3 class="card__title" style="color: var(--success);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 临时存储</h3>
+          <ul style="color: var(--text-secondary); padding-left: 20px; line-height: 2.2;">
+            <li>匿名 Hash ID（唯一标识符）</li>
+            <li>加密公钥</li>
+            <li>传输中的加密消息（最长24小时）</li>
+          </ul>
+          <div class="highlight-box mt-4">
+            <p>
+              <strong>即使是这些最少的数据</strong>也无法识别您的身份。
+              您的 Hash ID 不与任何个人信息关联。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 class="cta-banner__title">信服了吗？</h2>
+        <p class="cta-banner__text">
+          下载 Hash，开始安全地聊天。
+          无需创建账户。无需提供任何信息。
+        </p>
+        <div class="gap-row" style="justify-content: center;">
+          <a href="#" class="btn btn--primary btn--large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            APP STORE
+          </a>
+          <a href="#" class="btn btn--primary btn--large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+            GOOGLE PLAY
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">
+            一款对您一无所知的通讯应用。
+            加密、阅后即焚、匿名。这是设计使然。
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">产品</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">功能</a></li>
+            <li><a href="security.html">安全</a></li>
+            <li><a href="index.html#comparison">对比</a></li>
+            <li><a href="index.html#download">下载</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">项目</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">支持 Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">联系我们</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">法律</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">隐私政策</a></li>
+            <li><a href="terms.html">使用条款</a></li>
+            <li><a href="delete-account.html">删除我的账户</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. 保留所有权利。</p>
+        <div class="footer__social">
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Encryption demo crossfade
+    const img1 = document.getElementById('encImg1');
+    const img2 = document.getElementById('encImg2');
+    if (img1 && img2) {
+      setInterval(() => {
+        img1.classList.toggle('encryption-demo__img--visible');
+        img2.classList.toggle('encryption-demo__img--visible');
+      }, 3000);
+    }
+
+    // Vash crossfade
+    const vashImg1 = document.getElementById('vashImg1');
+    const vashImg2 = document.getElementById('vashImg2');
+    if (vashImg1 && vashImg2) {
+      setInterval(() => {
+        vashImg1.classList.toggle('vash-demo__img--visible');
+        vashImg2.classList.toggle('vash-demo__img--visible');
+      }, 3000);
+    }
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

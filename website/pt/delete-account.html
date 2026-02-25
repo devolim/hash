@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Excluir sua conta Hash - Instru&ccedil;&otilde;es para a exclus&atilde;o definitiva da sua conta e dos seus dados.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Excluir sua conta - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .step-list {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: step-counter;
+      margin: 24px 0;
+    }
+    .step-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding: 16px 16px 16px 64px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+    }
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--accent-dim);
+      border: 1px solid var(--border-accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--accent);
+      text-align: center;
+      line-height: 32px;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .data-item {
+      background: rgba(255, 71, 87, 0.08);
+      border: 1px solid rgba(255, 71, 87, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .data-item .icon {
+      color: var(--error);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .alternative-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .alternative-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .data-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="security.html">SEGURAN&Ccedil;A</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">APOIAR</a></li>
+        <li><a href="index.html#download" class="nav__cta">BAIXAR</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Excluir sua conta Hash</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Ultima atualiza&ccedil;&atilde;o: Fevereiro 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="warning-box">
+      <p><strong>Aten&ccedil;&atilde;o:</strong> A exclus&atilde;o da sua conta Hash &eacute; <strong>imediata e irreversivel</strong>. Todos os seus dados (mensagens, contatos, chaves de criptografia) ser&atilde;o permanentemente apagados. N&atilde;o existe nenhum meio de recuperar sua conta ap&oacute;s a exclus&atilde;o.</p>
+    </div>
+
+    <h2>Excluir sua conta pelo aplicativo</h2>
+    <p>A maneira mais simples de excluir sua conta &eacute; usar a op&ccedil;&atilde;o <strong>Excluir minha conta</strong> diretamente no aplicativo:</p>
+
+    <ol class="step-list">
+      <li>Abra o aplicativo <strong>Hash</strong> no seu dispositivo</li>
+      <li>Acesse as <strong>Configura&ccedil;&otilde;es</strong> tocando no icone de engrenagem</li>
+      <li>Role at&eacute; a se&ccedil;&atilde;o <strong>"Conta"</strong></li>
+      <li>Toque em <strong>"Excluir minha conta"</strong></li>
+      <li>Confirme a exclus&atilde;o seguindo as instru&ccedil;&otilde;es na tela</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p><strong>O que acontece?</strong> Assim que voc&ecirc; confirmar, todos os seus dados s&atilde;o instantaneamente apagados, tanto no seu dispositivo quanto em nossos servidores. O aplicativo retorna ao seu estado inicial, como se tivesse acabado de ser instalado.</p>
+    </div>
+
+    <h2>Dados excluidos</h2>
+    <p>Ao excluir sua conta, os seguintes dados s&atilde;o <strong>permanentemente apagados</strong>:</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Seu Hash ID</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Chaves p&uacute;blicas de criptografia</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Chaves privadas (no dispositivo)</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Informa&ccedil;&otilde;es do dispositivo</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Mensagens n&atilde;o lidas em tr&acirc;nsito</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Todos os contatos</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Hist&oacute;rico de conversas</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Arquivos e midias locais</span>
+      </div>
+    </div>
+
+    <h2>M&eacute;todo alternativo: por email</h2>
+
+    <div class="alternative-box">
+      <h3>Voc&ecirc; n&atilde;o consegue mais acessar o aplicativo?</h3>
+      <p>Se voc&ecirc; n&atilde;o tem mais acesso ao seu dispositivo ou ao aplicativo, pode solicitar a exclus&atilde;o da sua conta escrevendo para:</p>
+      <p><strong><a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></strong></p>
+      <p>Por favor, inclua no seu email:</p>
+      <ul>
+        <li>Seu <strong>Hash ID</strong> (formato 000-000-XXX) se souber</li>
+        <li>Qualquer informa&ccedil;&atilde;o que permita identificar sua conta</li>
+      </ul>
+      <p style="margin-bottom: 0;">Processaremos sua solicita&ccedil;&atilde;o em um prazo de <strong>48 horas</strong>.</p>
+    </div>
+
+    <h2>Consequ&ecirc;ncias da exclus&atilde;o</h2>
+    <p>Ap&oacute;s a exclus&atilde;o da sua conta:</p>
+    <ul>
+      <li>Seus contatos n&atilde;o poder&atilde;o <strong>mais enviar mensagens para voc&ecirc;</strong>. As mensagens enviadas para sua antiga conta ser&atilde;o rejeitadas</li>
+      <li>Seu Hash ID ser&aacute; <strong>liberado</strong> e poder&aacute; potencialmente ser reatribuido a outro usu&aacute;rio</li>
+      <li>Suas conversas locais ser&atilde;o <strong>apagadas do seu dispositivo</strong></li>
+      <li>As mensagens que voc&ecirc; enviou e que j&aacute; foram recebidas pelos seus contatos permanecer&atilde;o nos <strong>dispositivos deles</strong> (n&atilde;o temos nenhum controle sobre os dados armazenados localmente por outros usu&aacute;rios)</li>
+      <li>&Eacute; <strong>impossivel recuperar</strong> sua conta ou seus dados ap&oacute;s a exclus&atilde;o</li>
+    </ul>
+
+    <h2>Contato</h2>
+    <p>Para qualquer d&uacute;vida sobre a exclus&atilde;o da sua conta, entre em contato conosco:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></li>
+      <li><strong>Privacidade:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">O mensageiro que n&atilde;o sabe nada sobre voc&ecirc;.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Produto</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Funcionalidades</a></li>
+            <li><a href="security.html">Seguran&ccedil;a</a></li>
+            <li><a href="index.html#download">Baixar</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Projeto</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Apoiar o Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Privacidade</a></li>
+            <li><a href="terms.html">Termos de Uso</a></li>
+            <li><a href="delete-account.html">Excluir minha conta</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

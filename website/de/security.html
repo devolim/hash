@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sicherheit — Hash | Wie Ihre Daten unsichtbar bleiben</title>
+  <meta name="description" content="Erfahren Sie, wie Hash Ihre Gespr&auml;che sch&uuml;tzt: Signal Protocol, Sealed Sender, AES-256-Verschl&uuml;sselung und automatische Nachrichtenl&ouml;schung.">
+  <meta name="theme-color" content="#FFAB00">
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .security-diagram {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      margin: 40px 0;
+      text-align: center;
+    }
+    .security-diagram__flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 24px 0;
+    }
+    .security-diagram__node {
+      background: var(--bg-surface-light);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 24px;
+      text-align: center;
+      min-width: 120px;
+    }
+    .security-diagram__node--accent {
+      border-color: var(--accent);
+      background: var(--accent-dim);
+    }
+    .security-diagram__node--danger {
+      border-color: var(--error);
+      background: rgba(255, 71, 87, 0.08);
+    }
+    .security-diagram__node-icon {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+    .security-diagram__node-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .security-diagram__arrow {
+      color: var(--accent);
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .security-diagram__node-sub {
+      font-size: 0.7rem;
+      color: var(--text-tertiary);
+      margin-top: 4px;
+    }
+    .security-diagram__caption {
+      color: var(--text-tertiary);
+      font-size: 0.85rem;
+      margin-top: 16px;
+    }
+    .tech-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+    .tech-badges {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .layer-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      margin-bottom: 24px;
+      border-left: 3px solid var(--accent);
+      text-align: center;
+    }
+    .layer-card__number {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--accent);
+      margin: 0 auto 20px;
+    }
+    .layer-card h3 {
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 0.95rem;
+    }
+    .layer-card p {
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+    @media (max-width: 600px) {
+      .security-diagram {
+        padding: 24px 16px;
+      }
+      .security-diagram__flow {
+        flex-direction: column;
+      }
+      .security-diagram__arrow {
+        transform: rotate(90deg);
+      }
+    }
+
+    /* Encryption crossfade */
+    .encryption-demo__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 1.2s ease-in-out;
+    }
+
+    .encryption-demo__img--visible {
+      opacity: 1;
+    }
+
+    /* Parcours Hero */
+    .parcours-hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+
+    @media (max-width: 768px) {
+      .parcours-hero {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+      }
+      .parcours-hero .hero__visual {
+        order: -1;
+      }
+      .parcours-hero h2 {
+        font-size: 1.8rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">STARTSEITE</a></li>
+        <li><a href="security.html" class="active">SICHERHEIT</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">UNTERST&Uuml;TZEN</a></li>
+        <li><a href="index.html#download" class="nav__cta">HERUNTERLADEN</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="section-header__label">Sicherheit</span>
+      <h1 class="page-header__title">Keine Spuren.<br><span class="text-gradient">Konzeptbedingt, nicht nur versprochen.</span></h1>
+      <p class="page-header__text">
+        Wir haben nicht einfach Verschl&uuml;sselung zu einem herk&ouml;mmlichen Messenger hinzugef&uuml;gt.
+        Wir haben jede Schicht so aufgebaut, dass es <strong>physisch unm&ouml;glich</strong> ist, auf Ihre Daten zuzugreifen.
+      </p>
+    </div>
+  </header>
+
+  <!-- How a Message Travels -->
+  <section class="section" id="parcours">
+    <div class="container">
+      <div class="parcours-hero">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/security_chat_1.webp" alt="Nachricht Hallo" class="encryption-demo__img encryption-demo__img--visible" id="encImg1">
+              <img src="../assets/images/security_chat_2.webp" alt="Verschl&uuml;sselte Nachricht" class="encryption-demo__img" id="encImg2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-header__label" style="margin-bottom: 16px; display: inline-block;">DER WEG EINER NACHRICHT</span>
+          <h2>VON IHREM FINGER ZUM BILDSCHIRM<br><span style="color: var(--accent);">IHRES KONTAKTS.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Verfolgen Sie die Reise einer Hash-Nachricht, Schritt f&uuml;r Schritt. Sie werden verstehen, warum
+            <strong style="color: #fff;">niemand — nicht einmal wir</strong> — Ihre Gespr&auml;che lesen kann.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Links sehen Sie, was <strong style="color: #fff;">Sie</strong> sehen: ein einfaches "Hallo".
+            Aber was der Server empf&auml;ngt, ist eine Folge von <strong style="color: var(--accent);">610 Bytes</strong> v&ouml;llig unlesbarer verschl&uuml;sselter Daten.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Zwei Verschl&uuml;sselungsschichten. Ein einzigartiger fl&uuml;chtiger Schl&uuml;ssel f&uuml;r jede Nachricht.
+            Selbst wenn jemand alles abf&auml;ngt — <strong style="color: var(--error);">es ist nutzlos</strong> ohne den privaten Schl&uuml;ssel des Empf&auml;ngers,
+            der nur auf dessen Telefon gespeichert ist.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container container--narrow">
+
+      <!-- Step 1 -->
+      <div class="steps" style="margin-top: 80px;">
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">1</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Sie tippen Ihre Nachricht</h3>
+            <p class="step__text">
+              Sie schreiben "Hallo!" in der App. Zu diesem Zeitpunkt existiert die Nachricht nur im Speicher Ihres Telefons. Noch wurde nichts gesendet.
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">2</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Verschl&uuml;sselung mit dem Signal Protocol</h3>
+            <p class="step__text">
+              Sobald Sie auf "Senden" dr&uuml;cken, wird Ihre Nachricht durch das <strong>Signal Protocol</strong> in eine unverst&auml;ndliche Zeichenfolge umgewandelt.
+            </p>
+            <p class="step__text mt-2">
+              Einfach gesagt: Ihre Nachricht wird in einen digitalen Tresor eingeschlossen, zu dem nur Ihr Kontakt den Schl&uuml;ssel besitzt. Selbst wenn jemand die Nachricht unterwegs abf&auml;ngt, sieht er nur eine sinnlose Folge von Buchstaben und Zahlen.
+            </p>
+            <div class="tech-badges">
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> DOUBLE RATCHET</span>
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg> CURVE25519</span>
+              <span class="tech-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> AES-256</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">3</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Sealed Sender: der unsichtbare Umschlag</h3>
+            <p class="step__text">
+              Stellen Sie sich vor, Sie senden einen Brief per Post, aber <strong>ohne Absenderadresse auf dem Umschlag</strong>.
+              Genau das macht das "Sealed Sender"-System von Hash.
+            </p>
+            <p class="step__text mt-2">
+              Die verschl&uuml;sselte Nachricht wird in einem <strong>anonymen Postfach</strong> auf unserem Server hinterlegt.
+              Der Server wei&szlig; nicht, wer die Nachricht hinterlegt hat. Er wei&szlig; nur, in welches Postfach er sie legen soll — aber er kennt nicht die Identit&auml;t des Postfachbesitzers.
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">4</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Durchleitung &uuml;ber den Server</h3>
+            <p class="step__text">
+              Der Server spielt die Rolle eines blinden Brieftr&auml;gers. Hier ist, was er sieht:
+            </p>
+            <div class="highlight-box mt-2">
+              <p>
+                <strong>Was der Server wei&szlig;:</strong> "Jemand hat etwas in Postfach #A7X9 hinterlegt."<br>
+                <strong>Was der Server NICHT wei&szlig;:</strong> Wer es gesendet hat. Was es ist. F&uuml;r wen es wirklich bestimmt ist.
+              </p>
+            </div>
+            <p class="step__text mt-2">
+              Der Server speichert keine Metadaten: keine IP-Adresse, keinen Sendezeitstempel, keine Verbindung zwischen Absender und Empf&auml;nger.
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">5</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Ihr Kontakt empf&auml;ngt die Nachricht</h3>
+            <p class="step__text">
+              Das Telefon Ihres Kontakts ruft den Inhalt seines anonymen Postfachs ab.
+              Es entschl&uuml;sselt die Nachricht lokal mit seinem privaten Schl&uuml;ssel — der <strong>niemals sein Ger&auml;t verlassen hat</strong>.
+            </p>
+            <p class="step__text mt-2">
+              "Hallo!" erscheint auf seinem Bildschirm. Mission erf&uuml;llt.
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">6</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Die Nachricht verschwindet vom Server</h3>
+            <p class="step__text">
+              Sobald Ihr Kontakt den Empfang best&auml;tigt, <strong>l&ouml;scht der Server die Nachricht endg&uuml;ltig</strong>.
+              Kein Papierkorb, kein Archiv, kein Backup. Die Daten werden aus der Datenbank gel&ouml;scht.
+            </p>
+          </div>
+        </div>
+
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">7</div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">Lokales Verfallsdatum</h3>
+            <p class="step__text">
+              Auf dem Ger&auml;t Ihres Kontakts zerst&ouml;rt sich die Nachricht selbst gem&auml;&szlig; der von Ihnen gew&auml;hlten Dauer:
+              sofort nach dem Lesen, 5 Minuten, 1 Stunde... Sie entscheiden.
+            </p>
+            <p class="step__text mt-2">
+              Am Ende: <strong>Keine Spur auf dem Server, keine Spur auf den Ger&auml;ten</strong>. Die Nachricht existierte nur so lange, wie sie gelesen wurde, dann ist sie f&uuml;r immer verschwunden.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Diagram -->
+      <div class="security-diagram animate-on-scroll">
+        <p style="font-weight: 600; margin-bottom: 24px; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);">ABLAUF EINER HASH-NACHRICHT</p>
+        <div class="security-diagram__flow">
+          <div class="security-diagram__node security-diagram__node--accent">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+            <div class="security-diagram__node-label">IHR TELEFON</div>
+            <div class="security-diagram__node-sub">Nachricht im Klartext</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+            <div class="security-diagram__node-label">SIGNAL-VERSCHL&Uuml;SSELUNG</div>
+            <div class="security-diagram__node-sub">Double Ratchet + AES-256</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div class="security-diagram__node-label">SEALED SENDER</div>
+            <div class="security-diagram__node-sub">Absender maskiert</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node security-diagram__node--danger">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+            <div class="security-diagram__node-label">SERVER (BLIND)</div>
+            <div class="security-diagram__node-sub">Liest nichts, speichert nichts</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 5-5 5 5 0 0 1 5 5v4"/></svg></div>
+            <div class="security-diagram__node-label">ENTSCHL&Uuml;SSELUNG</div>
+            <div class="security-diagram__node-sub">Lokaler privater Schl&uuml;ssel</div>
+          </div>
+          <div class="security-diagram__arrow"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></div>
+          <div class="security-diagram__node security-diagram__node--accent">
+            <div class="security-diagram__node-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+            <div class="security-diagram__node-label">TELEFON DES KONTAKTS</div>
+            <div class="security-diagram__node-sub">Lesbare Nachricht</div>
+          </div>
+        </div>
+        <p class="security-diagram__caption">Der Server kann weder die Nachricht lesen noch den Absender identifizieren noch eine Spur aufbewahren. Die Nachricht wird nach Empfang gel&ouml;scht.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Layers -->
+  <section class="section" style="background: var(--bg-secondary);" id="couches">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Architektur</span>
+        <h2 class="section-header__title">5 SCHUTZSCHICHTEN.</h2>
+        <p class="section-header__text">
+          Hash basiert nicht auf einer einzigen Technologie. Jede Schicht verst&auml;rkt die anderen,
+          wodurch ein System entsteht, bei dem selbst die Kompromittierung eines Elements Ihre Daten nicht gef&auml;hrdet.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">1</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          ENDE-ZU-ENDE-VERSCHL&Uuml;SSELUNG (SIGNAL PROTOCOL)
+        </h3>
+        <p>
+          Jede Nachricht wird dank des "Double Ratchet"-Algorithmus mit einem einzigartigen Schl&uuml;ssel verschl&uuml;sselt.
+          Einfach gesagt: Selbst wenn jemand eine Nachricht entschl&uuml;sselt, kann er die n&auml;chste nicht entschl&uuml;sseln.
+          Jede Nachricht hat ihr eigenes Schloss.
+        </p>
+        <p class="mt-2">
+          <strong style="color: var(--text-primary);">F&uuml;r Dateien</strong> (Fotos, Videos, Dokumente)
+          verwendet Hash eine zus&auml;tzliche AES-256-GCM-Verschl&uuml;sselung. Die Datei wird verschl&uuml;sselt, <em>bevor</em> sie Ihr Telefon verl&auml;sst.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">2</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          SEALED SENDER (NETZWERK-ANONYMIT&Auml;T)
+        </h3>
+        <p>
+          Herk&ouml;mmliche Messenger senden Ihre Nachrichten mit Ihrer angeh&auml;ngten Identit&auml;t — das ist wie Ihren Namen auf den Umschlag zu schreiben.
+          Hash verwendet ein System von "anonymen Postf&auml;chern": Der Server hinterlegt die Nachricht, ohne zu wissen, wer sie gesendet hat.
+        </p>
+        <p class="mt-2">
+          Ergebnis: Selbst wenn der Server kompromittiert wird, kann ein Angreifer nicht rekonstruieren, wer mit wem spricht.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">3</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+          AUTOMATISCHE L&Ouml;SCHUNG
+        </h3>
+        <p>
+          Nachrichten werden nach best&auml;tigtem Empfang vom Server gel&ouml;scht.
+          Selbst wenn eine Nachricht nie abgeholt wird, wird sie <strong>nach 24 Stunden automatisch zerst&ouml;rt</strong>.
+        </p>
+        <p class="mt-2">
+          Auf Ihrem Telefon zerst&ouml;ren sich Nachrichten selbst gem&auml;&szlig; der von Ihnen gew&auml;hlten Dauer:
+          sofort, 5 Min., 15 Min., 30 Min., 1 Std., 3 Std., 6 Std. oder 12 Std.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">4</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          LOKALER ZUGRIFFSSCHUTZ
+        </h3>
+        <p>
+          Die App wird durch einen 6-stelligen PIN-Code und/oder Biometrie (Face ID, Fingerabdruck) gesch&uuml;tzt.
+          Nach zu vielen Fehlversuchen sperrt sich die App mit einer exponentiellen Verz&ouml;gerung.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll">
+        <div class="layer-card__number">5</div>
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          GESICHERTE DATENBANK
+        </h3>
+        <p>
+          Serverseitig kann <strong>kein Benutzer direkt in die Datenbank schreiben</strong>.
+          Alle Operationen (Nachricht senden, Kontakt hinzuf&uuml;gen, Konto l&ouml;schen) laufen &uuml;ber gesicherte Funktionen,
+          die jede Aktion &uuml;berpr&uuml;fen, bevor sie ausgef&uuml;hrt wird.
+        </p>
+        <p class="mt-2">
+          Es ist wie ein Bankschalter: Sie ber&uuml;hren nie selbst den Tresor.
+          Sie stellen eine Anfrage, und das System pr&uuml;ft, ob Sie berechtigt sind, bevor es handelt.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vash Mode Detail -->
+  <section class="section vash-section" id="vash">
+    <div class="container">
+      <div class="parcours-hero">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_vash_1.webp" alt="Hash - Vash-Modus" class="vash-demo__img vash-demo__img--visible" id="vashImg1">
+              <img src="../assets/images/screen_vash_2.webp" alt="Hash - Vash-Modus aktiviert" class="vash-demo__img" id="vashImg2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>VASH-MODUS.<br><span style="color: var(--error);">WELTWEIT EINZIGARTIG.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            EIN NOTFALL-SICHERHEITSSYSTEM, DAS IN KEINER ANDEREN MESSENGER-APP DER WELT EXISTIERT.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Hash ist der einzige Messenger, der einen <strong style="color: #fff;">Zerst&ouml;rungscode</strong> bietet.
+            Ein zweiter PIN-Code, der die App scheinbar normal &ouml;ffnet — aber in Wirklichkeit
+            <strong style="color: var(--error);">stillschweigend alle Ihre Daten l&ouml;scht</strong> im Hintergrund.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Gespr&auml;che, Kontakte, Verschl&uuml;sselungsschl&uuml;ssel, Dateien — alles wird in Sekundenbruchteilen zerst&ouml;rt.
+            Der Beobachter sieht eine leere App und denkt, Sie benutzen sie nicht.
+            <strong style="color: #fff;">Keine Spur. Keine Warnung. Unwiderruflich.</strong>
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Signal hat diese Funktion abgelehnt. Telegram hat sie nie in Betracht gezogen. WhatsApp hat nicht einmal daran gedacht.
+            <strong style="color: #fff;">Nur Hash hat sie implementiert.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container container--narrow">
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          Das Szenario
+        </h3>
+        <p>
+          Stellen Sie sich vor: Jemand verlangt, dass Sie Ihr Telefon entsperren.
+          Eine Kontrolle, eine Drucksituation, eine b&ouml;swillige Person.
+          Sie k&ouml;nnen nicht ablehnen. Was tun?
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>
+          Die L&ouml;sung: Zwei PIN-Codes
+        </h3>
+        <p>
+          Hash erm&ouml;glicht es Ihnen, <strong>zwei verschiedene PIN-Codes</strong> einzurichten:
+        </p>
+        <p class="mt-2">
+          <strong style="color: var(--success);">Normaler Code</strong> — &Ouml;ffnet die App normal, mit allen Ihren Daten.<br>
+          <strong style="color: var(--error);">Vash-Code</strong> — &Ouml;ffnet die App normal... aber alle Ihre Daten werden <strong>stillschweigend im Hintergrund gel&ouml;scht</strong>.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Was der Beobachter sieht
+        </h3>
+        <p>
+          Die App &ouml;ffnet sich normal. Keine Warnung, keine verd&auml;chtige Animation, keine Fehlermeldung.
+          Der Bildschirm zeigt einfach eine leere App — als h&auml;tten Sie sie nie benutzt.
+        </p>
+        <p class="mt-2">
+          Der Beobachter denkt, Sie benutzen Hash nicht. In Wirklichkeit wurden alle Ihre Gespr&auml;che, Kontakte und Nachrichten
+          <strong>unwiderruflich gel&ouml;scht</strong> in Sekundenbruchteilen.
+        </p>
+      </div>
+
+      <div class="layer-card animate-on-scroll" style="border-left-color: var(--error);">
+        <h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          Konfigurierbar
+        </h3>
+        <p>
+          Sie w&auml;hlen genau aus, was bei der Aktivierung des Vash-Modus gel&ouml;scht wird:
+        </p>
+        <ul class="mt-2" style="color: var(--text-secondary); padding-left: 20px; line-height: 2;">
+          <li>Ihre Kontakte</li>
+          <li>Ihre Nachrichten und Gespr&auml;che</li>
+          <li>Ihre privaten Notizen</li>
+        </ul>
+        <p class="mt-2">
+          Die L&ouml;schung erfolgt lokal UND auf dem Server. Wenn Sie zum Zeitpunkt der Aktivierung offline sind,
+          wird die Server-L&ouml;schung in eine Warteschlange gestellt und ausgef&uuml;hrt, sobald die Verbindung wiederhergestellt ist.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calls & Media Security -->
+  <section class="section" id="appels">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Anrufe & Dateien</span>
+        <h2 class="section-header__title">ALLES IST VERSCHL&Uuml;SSELT. ABSOLUT ALLES.</h2>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3 class="card__title">VERSCHL&Uuml;SSELTE AUDIOANRUFE</h3>
+          <p class="card__text">
+            Ihre Sprachanrufe sind Ende-zu-Ende-verschl&uuml;sselt &uuml;ber WebRTC (LiveKit).
+            Die Stimme wird direkt zwischen den Ger&auml;ten &uuml;bertragen — der Server erleichtert nur den anf&auml;nglichen Verbindungsaufbau.
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+          </div>
+          <h3 class="card__title">VERSCHL&Uuml;SSELTE VIDEOANRUFE</h3>
+          <p class="card__text">
+            Gleiche Technologie wie bei Audioanrufen, plus Video.
+            Jeder Stream wird einzeln verschl&uuml;sselt. Niemand kann Ihr Bild oder Ihren Ton abfangen.
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+            </svg>
+          </div>
+          <h3 class="card__title">FOTOS & VIDEOS</h3>
+          <p class="card__text">
+            Jede Datei wird mit AES-256-GCM verschl&uuml;sselt, bevor sie Ihr Ger&auml;t verl&auml;sst.
+            Der Server speichert nur unlesbare verschl&uuml;sselte Daten, die nach Empfang gel&ouml;scht werden.
+          </p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/>
+            </svg>
+          </div>
+          <h3 class="card__title">DOKUMENTE</h3>
+          <p class="card__text">
+            PDF, ZIP, jede Datei — das gleiche Verschl&uuml;sselungsniveau gilt.
+            Der Dateiname, die Gr&ouml;&szlig;e und der Inhalt werden alle verschl&uuml;sselt.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What we don't collect -->
+  <section class="section" style="background: var(--bg-secondary);" id="donnees">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Daten</span>
+        <h2 class="section-header__title">WAS WIR NICHT SAMMELN.</h2>
+        <p class="section-header__text">
+          DER BESTE WEG, IHRE DATEN ZU SCH&Uuml;TZEN, IST, SIE GAR NICHT ERST ZU SAMMELN.
+        </p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: 1fr 1fr;">
+        <div class="card card--flat animate-on-scroll">
+          <h3 class="card__title" style="color: var(--error);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> NIEMALS GESAMMELT</h3>
+          <ul style="color: var(--text-secondary); padding-left: 20px; line-height: 2.2;">
+            <li>Nachrichteninhalte</li>
+            <li>Kontaktliste</li>
+            <li>Telefonnummer</li>
+            <li>E-Mail-Adresse</li>
+            <li>IP-Adresse</li>
+            <li>Standort</li>
+            <li>Metadaten (wer mit wem spricht)</li>
+            <li>Anrufverlauf</li>
+            <li>Adressbuch</li>
+            <li>Werbe-Identifikatoren</li>
+          </ul>
+        </div>
+        <div class="card card--flat animate-on-scroll">
+          <h3 class="card__title" style="color: var(--success);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> TEMPOR&Auml;R GESPEICHERT</h3>
+          <ul style="color: var(--text-secondary); padding-left: 20px; line-height: 2.2;">
+            <li>Anonyme Hash ID (eindeutiger Identifikator)</li>
+            <li>&Ouml;ffentliche Verschl&uuml;sselungsschl&uuml;ssel</li>
+            <li>Verschl&uuml;sselte Nachrichten im Transit (max. 24 Std.)</li>
+          </ul>
+          <div class="highlight-box mt-4">
+            <p>
+              <strong>Selbst diese minimalen Daten</strong> erm&ouml;glichen es nicht, Sie zu identifizieren.
+              Ihre Hash ID ist mit keiner pers&ouml;nlichen Information verkn&uuml;pft.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 class="cta-banner__title">&Uuml;BERZEUGT?</h2>
+        <p class="cta-banner__text">
+          Laden Sie Hash herunter und beginnen Sie sicher zu chatten.
+          Kein Konto erstellen. Keine Informationen angeben.
+        </p>
+        <div class="gap-row" style="justify-content: center;">
+          <a href="#" class="btn btn--primary btn--large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            APP STORE
+          </a>
+          <a href="#" class="btn btn--primary btn--large">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+            GOOGLE PLAY
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">
+            Der Messenger, der nichts &uuml;ber Sie wei&szlig;.
+            Verschl&uuml;sselt, fl&uuml;chtig, anonym. Konzeptbedingt.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">Produkt</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Funktionen</a></li>
+            <li><a href="security.html">Sicherheit</a></li>
+            <li><a href="index.html#comparison">Vergleich</a></li>
+            <li><a href="index.html#download">Herunterladen</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Projekt</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Hash unterst&uuml;tzen</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Rechtliches</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Datenschutzerkl&auml;rung</a></li>
+            <li><a href="terms.html">Nutzungsbedingungen</a></li>
+            <li><a href="delete-account.html">Konto l&ouml;schen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Alle Rechte vorbehalten.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Encryption demo crossfade
+    const img1 = document.getElementById('encImg1');
+    const img2 = document.getElementById('encImg2');
+    if (img1 && img2) {
+      setInterval(() => {
+        img1.classList.toggle('encryption-demo__img--visible');
+        img2.classList.toggle('encryption-demo__img--visible');
+      }, 3000);
+    }
+
+    // Vash crossfade
+    const vashImg1 = document.getElementById('vashImg1');
+    const vashImg2 = document.getElementById('vashImg2');
+    if (vashImg1 && vashImg2) {
+      setInterval(() => {
+        vashImg1.classList.toggle('vash-demo__img--visible');
+        vashImg2.classList.toggle('vash-demo__img--visible');
+      }, 3000);
+    }
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

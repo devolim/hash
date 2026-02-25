@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hash — Ultra-secure messaging | Zero trace. Zero compromise.</title>
+  <meta name="description" content="Hash is the most secure messaging app in the world. End-to-end encryption, ephemeral messages, no sign-up required. 100% free, 0% trace.">
+  <meta name="theme-color" content="#FFAB00">
+  <meta property="og:title" content="Hash — Ultra-secure messaging">
+  <meta property="og:description" content="Zero trace. Zero compromise. The messaging app that knows nothing about you.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://hash.devolim.fr/assets/images/hash_icons.png">
+  <meta property="og:url" content="https://hash.devolim.fr/en/">
+  <meta property="og:locale" content="sv_SE">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hash — Ultra-secure messaging">
+  <meta name="twitter:description" content="Zero trace. Zero compromise. The messenger that knows nothing about you.">
+  <meta name="twitter:image" content="https://hash.devolim.fr/assets/images/hash_icons.png">
+  <link rel="canonical" href="https://hash.devolim.fr/en/">
+  <link rel="alternate" hreflang="fr" href="https://hash.devolim.fr/">
+  <link rel="alternate" hreflang="en" href="https://hash.devolim.fr/en/">
+  <link rel="alternate" hreflang="es" href="https://hash.devolim.fr/es/">
+  <link rel="alternate" hreflang="de" href="https://hash.devolim.fr/de/">
+  <link rel="alternate" hreflang="pt" href="https://hash.devolim.fr/pt/">
+  <link rel="alternate" hreflang="it" href="https://hash.devolim.fr/it/">
+  <link rel="alternate" hreflang="ar" href="https://hash.devolim.fr/ar/">
+  <link rel="alternate" hreflang="zh" href="https://hash.devolim.fr/zh/">
+  <link rel="alternate" hreflang="ja" href="https://hash.devolim.fr/ja/">
+  <link rel="alternate" hreflang="ru" href="https://hash.devolim.fr/ru/">
+  <link rel="alternate" hreflang="ko" href="https://hash.devolim.fr/ko/">
+  <link rel="alternate" hreflang="tr" href="https://hash.devolim.fr/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://hash.devolim.fr/">
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="apple-touch-icon" href="../assets/images/hash_icons.png">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Hash",
+        "url": "https://hash.devolim.fr",
+        "logo": "https://hash.devolim.fr/assets/images/hash_icons.png",
+        "description": "Messagerie ultra-sécurisée. Zéro trace. Zéro compromis.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hash-support@devolim.fr",
+          "contactType": "customer support"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Hash",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "CommunicationApplication",
+        "description": "Messagerie ultra-sécurisée avec chiffrement de bout en bout, messages éphémères et anonymat total.",
+        "url": "https://hash.devolim.fr",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        }
+      }
+    ]
+  }
+  </script>
+  <style>
+    .vash-blink {
+      animation: vashBlink 2.5s ease-in-out infinite;
+    }
+    @keyframes vashBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="security.html">SECURITY</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">SUPPORT US</a></li>
+        <li><a href="#download" class="nav__cta">DOWNLOAD</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">Your conversations<br><span class="text-gradient">leave no trace.</span></h1>
+          <p class="hero__subtitle">
+            Hash is the messaging app that knows nothing about you. No phone number. No email. No password. Just you and your messages — encrypted, ephemeral, and deleted upon receipt.
+          </p>
+          <div class="hero__actions">
+            <a href="#" class="btn btn--primary btn--large">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              APP STORE
+            </a>
+            <a href="#" class="btn btn--primary btn--large">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+              GOOGLE PLAY
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="phone-glow"></div>
+          <div class="phone-mockup phone-mockup--float">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_home.webp" alt="Hash - Home screen" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Promise -->
+  <section class="section--sm" style="border-bottom: 1px solid var(--border);">
+    <div class="container">
+      <div class="stats">
+        <div class="stat animate-on-scroll">
+          <div class="stat__value">0</div>
+          <div class="stat__label">DATA COLLECTED</div>
+        </div>
+        <div class="stat animate-on-scroll">
+          <div class="stat__value">0</div>
+          <div class="stat__label">ADVERTISING</div>
+        </div>
+        <div class="stat animate-on-scroll">
+          <div class="stat__value">0</div>
+          <div class="stat__label">TRACKERS</div>
+        </div>
+        <div class="stat animate-on-scroll">
+          <div class="stat__value">100%</div>
+          <div class="stat__label">FREE. FOREVER.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zero Account -->
+  <section class="section" id="anonyme">
+    <div class="container">
+      <div class="anon-grid">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_qr_1.webp" alt="Hash - Anonymous contact adding" class="vash-demo__img vash-demo__img--visible" id="qrImg1" loading="lazy">
+              <img src="../assets/images/screen_qr_2.webp" alt="Hash - QR Code" class="vash-demo__img" id="qrImg2" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-header__label" style="margin-bottom: 16px; display: inline-block;">TOTAL ANONYMITY</span>
+          <h2>NO ACCOUNT TO CREATE.<br><span style="color: var(--accent);">NO IDENTITY TO REVEAL.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Most messaging apps require a phone number or an email address.
+            Hash requires <strong style="color: #fff;">nothing</strong>. Install, open, chat.
+          </p>
+          <div class="anon-list mt-4">
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="11" width="14" height="11" rx="2" ry="2"/><path d="M12 11V7a3 3 0 0 1 6 0v4M6 11V7a3 3 0 0 1 6 0v4"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">NO PHONE NUMBER</h4>
+                <p class="anon-item__text">Unlike Signal, WhatsApp or Telegram, Hash never asks for your number.</p>
+              </div>
+            </div>
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">NO EMAIL ADDRESS</h4>
+                <p class="anon-item__text">No verification. You receive a unique and anonymous Hash ID. That's it.</p>
+              </div>
+            </div>
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">NO PASSWORD</h4>
+                <p class="anon-item__text">Your device is your identity. A local PIN protects access — nothing is stored on our end.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section class="section" style="background: var(--bg-secondary);" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label">FEATURES</span>
+        <h2 class="section-header__title">EVERYTHING A MESSAGING APP SHOULD BE.</h2>
+        <p class="section-header__text">
+          Messages, audio and video calls, files — everything is end-to-end encrypted.
+          And everything disappears. By design.
+        </p>
+      </div>
+      <div class="features-grid">
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </div>
+          <h3 class="card__title">EPHEMERAL MESSAGES</h3>
+          <p class="card__text">Every message is encrypted with the Signal Protocol and deleted from the server as soon as it is received. No copy, no backup, no trace.</p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <h3 class="card__title">ENCRYPTED CALLS</h3>
+          <p class="card__text">Peer-to-peer audio and video calls, end-to-end encrypted. Even we cannot listen to your conversations.</p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/>
+            </svg>
+          </div>
+          <h3 class="card__title">SECURE FILES</h3>
+          <p class="card__text">Photos, videos, documents — everything is encrypted with AES-256 before sending. Files are deleted from the server after receipt.</p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3 class="card__title">"VIEW ONCE" MESSAGES</h3>
+          <p class="card__text">Send photos and videos that disappear after a single viewing. Impossible to view again or capture.</p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <h3 class="card__title">SECURE NOTES</h3>
+          <p class="card__text">A private space for your personal notes, protected by biometrics. To-do lists, passwords, thoughts — everything stays local and encrypted.</p>
+        </div>
+        <div class="card animate-on-scroll">
+          <div class="card__icon card__icon--raw">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <h3 class="card__title">100% FREE, NO LIMITS</h3>
+          <p class="card__text">No subscription, no premium version, no ads. Unlimited messages, unlimited calls, unlimited files. Everything is free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vash Mode -->
+  <section class="section vash-section" id="vash">
+    <div class="container">
+      <div class="vash-grid">
+        <div>
+          <h2>VASH MODE.<br><span class="vash-blink" style="color: var(--error);">EVERYTHING DISAPPEARS.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            A <strong style="color: #fff;">world-first</strong> security system.
+            You have two PIN codes: one to open the app normally, and a second one — the Vash code.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            If someone forces you to unlock your phone, enter the Vash code.
+            The app opens normally... but <strong style="color: var(--error);">all your data has been silently deleted</strong>.
+            Conversations, contacts, messages — everything is gone. Without any visible alert.
+          </p>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            The observer sees an empty app. They think you don't use it.
+            You know your data is safe. <strong style="color: #fff;">Irreversible. Undetectable.</strong>
+          </p>
+          <div class="mt-4 gap-row">
+            <a href="security.html#vash" class="btn btn--primary">LEARN MORE</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_vash_1.webp" alt="Hash - Vash Mode" class="vash-demo__img vash-demo__img--visible" id="vashImg1" loading="lazy">
+              <img src="../assets/images/screen_vash_2.webp" alt="Hash - Vash Mode activated" class="vash-demo__img" id="vashImg2" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Notifications -->
+  <section class="section" id="notifications">
+    <div class="container">
+      <div class="notif-grid">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_notif_1.webp" alt="Hash - Custom Notifications" class="vash-demo__img vash-demo__img--visible" id="notifImg1" loading="lazy">
+              <img src="../assets/images/screen_notif_2.webp" alt="Hash - Custom Notifications" class="vash-demo__img" id="notifImg2" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-header__label" style="margin-bottom: 16px; display: inline-block;">STEALTH</span>
+          <h2>YOUR NOTIFICATIONS, YOUR RULES.<br><span class="typewriter" style="color: var(--accent);">NO ONE WILL KNOW.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Hash lets you fully customize your notifications so that <strong style="color: #fff;">no one knows which app you're using</strong>.
+          </p>
+          <div class="anon-list mt-4">
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">RENAME THE APP</h4>
+                <p class="anon-item__text">Change the name shown in notifications. "Reminder", "Notes", or whatever you want — instead of "Hash".</p>
+              </div>
+            </div>
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">HIDE THE CONTENT</h4>
+                <p class="anon-item__text">No message preview in notifications. No one can read your conversations over your shoulder.</p>
+              </div>
+            </div>
+            <div class="anon-item animate-on-scroll">
+              <div class="anon-item__icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="anon-item__title">TOTAL STEALTH</h4>
+                <p class="anon-item__text">In daily life, no one will suspect you're using a secure messenger. Your privacy stays invisible.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sealed Sender -->
+  <section class="section" id="zero-knowledge">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label">ZERO-KNOWLEDGE</span>
+        <h2 class="section-header__title">EVEN WE KNOW NOTHING.</h2>
+        <p class="section-header__text">
+          Hash uses the "Sealed Sender" protocol: the server relays your messages
+          without ever knowing who sends them or who receives them. Zero metadata. Zero logs.
+        </p>
+      </div>
+      <div class="steps">
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">1</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">You send a message</h3>
+            <p class="step__text">Your message is encrypted on your device with the Signal Protocol. Only the recipient has the key to decrypt it.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">2</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">The server sees nothing</h3>
+            <p class="step__text">The message arrives in an anonymous mailbox. The server doesn't know who sent it, nor what it contains.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">3</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">The recipient receives it</h3>
+            <p class="step__text">The message is decrypted locally. A delivery receipt is sent automatically.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">4</div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">The message disappears</h3>
+            <p class="step__text">As soon as receipt is confirmed, the message is permanently deleted from the server. No copy is kept, anywhere.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ephemeral -->
+  <section class="section" id="ephemeral">
+    <div class="container">
+      <div class="ephemeral-grid">
+        <div class="hero__visual">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_chat_1.webp" alt="Hash - Ephemeral chat" class="vash-demo__img vash-demo__img--visible" id="chatImg1">
+              <img src="../assets/images/screen_chat_2.webp" alt="Hash - Encrypted chat" class="vash-demo__img" id="chatImg2">
+            </div>
+          </div>
+        </div>
+        <div>
+          <span class="section-header__label" style="margin-bottom: 16px; display: inline-block;">EPHEMERAL MESSAGES</span>
+          <h2>AFTER 24H, NOTHING EXISTS.<br><span style="color: var(--accent);">BY DESIGN.</span></h2>
+          <p class="mt-2" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.05rem;">
+            Hash is not a traditional messaging app. Here, <strong style="color: #fff;">no conversation lasts</strong>.
+            Messages are encrypted, sent, received — then <strong style="color: #fff;">permanently deleted</strong>.
+          </p>
+          <div class="ephemeral-steps mt-4">
+            <div class="ephemeral-step animate-on-scroll">
+              <div class="ephemeral-step__number">1</div>
+              <div>
+                <h4 class="ephemeral-step__title">ENCRYPTED SENDING</h4>
+                <p class="ephemeral-step__text">Your message is encrypted on your device before being sent. The server only sees an unreadable blob.</p>
+              </div>
+            </div>
+            <div class="ephemeral-step animate-on-scroll">
+              <div class="ephemeral-step__number">2</div>
+              <div>
+                <h4 class="ephemeral-step__title">RECEIPT & DELETION</h4>
+                <p class="ephemeral-step__text">As soon as the recipient receives the message, it is deleted from the server. Immediately. No backup.</p>
+              </div>
+            </div>
+            <div class="ephemeral-step animate-on-scroll">
+              <div class="ephemeral-step__number">3</div>
+              <div>
+                <h4 class="ephemeral-step__title">24H MAXIMUM</h4>
+                <p class="ephemeral-step__text">If the recipient doesn't come online, the message is automatically destroyed after 24 hours. No trace remains.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="section" style="background: var(--bg-secondary);" id="screenshots">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-header__label">PREVIEW</span>
+        <h2 class="section-header__title">DESIGNED FOR PRIVACY.<br>CRAFTED FOR ELEGANCE.</h2>
+      </div>
+      <div class="screenshots" style="justify-content: center;">
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_home.webp" alt="Conversations" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Conversations</p>
+        </div>
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_chat_1.webp" alt="Secure chat" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Encrypted chat</p>
+        </div>
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_vash_1.webp" alt="Vash Mode" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Vash Mode</p>
+        </div>
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_security.webp" alt="Security" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Security</p>
+        </div>
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_notes.webp" alt="Private notes" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Private notes</p>
+        </div>
+        <div class="screenshot-item animate-on-scroll">
+          <div class="phone-mockup">
+            <div class="phone-mockup__notch"></div>
+            <div class="phone-mockup__screen">
+              <img src="../assets/images/screen_qr_1.webp" alt="Add by QR" loading="lazy">
+            </div>
+          </div>
+          <p class="screenshot-label">Add by QR</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison -->
+  <section class="section" id="comparison">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">COMPARISON</span>
+        <h2 class="section-header__title">HASH VS. THE OTHERS.</h2>
+        <p class="section-header__text">We don't claim to be better. We simply eliminated every compromise.</p>
+      </div>
+      <div style="overflow-x: auto;">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th style="color: var(--accent);">Hash</th>
+              <th>WhatsApp</th>
+              <th>Telegram</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>E2E ENCRYPTION</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span> OPT-IN</td>
+            </tr>
+            <tr>
+              <td>NO PHONE NUMBER REQUIRED</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>MANDATORY EPHEMERAL</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>SERVER DELETION AFTER RECEIPT</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>SEALED SENDER (ZERO-KNOWLEDGE)</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>VASH MODE</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>NO DATA COLLECTION</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+            </tr>
+            <tr>
+              <td>OPEN SOURCE</td>
+              <td><span class="check">&#10003;</span></td>
+              <td><span class="cross">&#10007;</span></td>
+              <td><span class="partial">PARTIAL</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA -->
+  <section class="section" id="download">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 class="cta-banner__title">READY TO TAKE BACK CONTROL?</h2>
+        <p class="cta-banner__text">
+          Download Hash for free. No account to create, no personal information required. You can start chatting in seconds.
+        </p>
+        <div class="gap-row" style="justify-content: center;">
+          <a href="#" class="btn btn--primary btn--large" id="btn-ios">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            APP STORE
+          </a>
+          <a href="#" class="btn btn--primary btn--large" id="btn-android">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/></svg>
+            GOOGLE PLAY
+          </a>
+        </div>
+        <p class="mt-2" style="color: var(--text-tertiary); font-size: 0.85rem;">Available on iOS and Android. 100% free.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">
+            The messaging app that knows nothing about you.
+            Encrypted, ephemeral, anonymous. By design.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">Product</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="security.html">Security</a></li>
+            <li><a href="index.html#comparison">Comparison</a></li>
+            <li><a href="index.html#download">Download</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Project</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Support Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="delete-account.html">Delete my account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js" defer></script>
+  <script>
+    // Mobile menu
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Crossfade effect for phone mockups
+    function setupCrossfade(id1, id2, interval) {
+      const a = document.getElementById(id1);
+      const b = document.getElementById(id2);
+      if (a && b) {
+        setInterval(() => {
+          a.classList.toggle('vash-demo__img--visible');
+          b.classList.toggle('vash-demo__img--visible');
+        }, interval);
+      }
+    }
+    setupCrossfade('qrImg1', 'qrImg2', 3000);
+    setupCrossfade('chatImg1', 'chatImg2', 3000);
+    setupCrossfade('vashImg1', 'vashImg2', 3000);
+    setupCrossfade('notifImg1', 'notifImg2', 3000);
+
+    // Smart download button
+    (function() {
+      const btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      const ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // Replace with App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Replace with Google Play URL
+      } else {
+        btn.href = '#download';
+      }
+    })();
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.nav');
+      if (window.scrollY > 50) {
+        nav.style.background = 'rgba(10, 10, 10, 0.95)';
+      } else {
+        nav.style.background = 'rgba(10, 10, 10, 0.85)';
+      }
+    });
+
+    // Typewriter effect (SEO-friendly: text stays in DOM)
+    (function() {
+      var els = document.querySelectorAll('.typewriter');
+      els.forEach(function(el) {
+        el.dataset.fullWidth = el.scrollWidth;
+        el.style.overflow = 'hidden';
+        el.style.whiteSpace = 'nowrap';
+        el.style.verticalAlign = 'bottom';
+        el.style.width = '0';
+      });
+      function typeReveal(el) {
+        var fullWidth = parseInt(el.dataset.fullWidth);
+        var len = el.textContent.length;
+        var i = 0;
+        (function tick() {
+          if (i <= len) {
+            el.style.width = (fullWidth * i / len) + 'px';
+            i++;
+            setTimeout(tick, 80);
+          } else {
+            el.style.width = 'auto';
+            el.classList.add('typewriter--done');
+          }
+        })();
+      }
+      var twObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting && !entry.target.dataset.typed) {
+            entry.target.dataset.typed = 'true';
+            typeReveal(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      els.forEach(function(el) { twObserver.observe(el); });
+    })();
+  </script>
+
+</body>
+</html>

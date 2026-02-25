@@ -1,0 +1,1038 @@
+{
+  "@@locale": "zh_Hant",
+
+  "appName": "Hash",
+  "appTagline": "零痕跡。零妥協。",
+
+  "conversations": "聊天",
+  "contacts": "聯絡人",
+  "noConversation": "尚無聊天",
+  "noConversationSubtitle": "新增聯絡人開始安全聊天",
+  "pendingRequestsCount": "{count, plural, =1{1 則待處理請求} other{{count} 則待處理請求}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 則已發送的請求待處理} other{{count} 則已發送的請求待處理}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "新增聯絡人",
+  "shareApp": "分享應用程式",
+  "newMessage": "新訊息",
+  "newConversation": "發送訊息",
+
+  "settings": "設定",
+  "myHashId": "我的 Hash ID",
+  "supportHash": "支持 Hash",
+  "supportHashSubtitle": "Hash 是非營利專案",
+  "donate": "捐款",
+
+  "appearance": "外觀",
+  "theme": "主題",
+  "themeAuto": "自動",
+  "themeAutoSubtitle": "跟隨系統設定",
+  "themeDark": "深色",
+  "themeLight": "淺色",
+  "themeRecommendation": "建議使用深色主題以獲得更好的隱私保護",
+  "language": "語言",
+  "languageAuto": "自動（系統）",
+
+  "notifications": "通知",
+  "messages": "訊息",
+  "calls": "通話",
+  "vibration": "振動",
+  "notificationContent": "通知內容",
+  "notificationContentFull": "顯示全部",
+  "notificationContentFullDesc": "聯絡人姓名與訊息預覽",
+  "notificationContentName": "僅顯示姓名",
+  "notificationContentNameDesc": "僅顯示聯絡人姓名",
+  "notificationContentDiscrete": "低調",
+  "notificationContentDiscreteDesc": "僅顯示「新訊息」",
+
+  "security": "安全",
+  "howHashProtectsYou": "Hash 如何保護你",
+  "howHashProtectsYouSubtitle": "瞭解你的安全防護",
+  "accountSecurity": "帳號安全",
+  "accountSecuritySubtitle": "PIN碼、生物辨識、Vash 模式",
+  "blockScreenshots": "禁止截圖",
+  "transferDevice": "轉移到其他裝置",
+  "transferDeviceSubtitle": "遷移你的帳號",
+
+  "pinCode": "PIN碼",
+  "changePin": "變更PIN碼",
+  "currentPin": "目前PIN碼",
+  "newPin": "新PIN碼",
+  "confirmPin": "確認PIN碼",
+  "pinChanged": "PIN碼已變更",
+  "incorrectPin": "PIN碼錯誤",
+  "pinsDoNotMatch": "PIN碼不一致",
+
+  "autoLock": "自動鎖定",
+  "autoLockDelay": "鎖定延遲",
+  "autoLockImmediate": "立即",
+  "autoLockMinute": "1 分鐘",
+  "autoLockMinutes": "{count} 分鐘",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash 碼",
+  "vashModeTitle": "Vash 模式",
+  "vashModeExplanation": "你的終極安全網。",
+  "vashModeDescription": "你將選擇第二個PIN碼。如果你被迫開啟Hash，輸入此碼代替你的常規PIN。\n\n應用程式將正常開啟，但你的所有對話和聯絡人都已消失。\n\n對任何看著你螢幕的人來說，Hash看起來就是空的——彷彿你從未使用過。",
+  "vashModeIrreversible": "此操作無聲且不可逆。",
+  "chooseVashCode": "選擇我的 Vash 碼",
+  "vashCodeInfo": "第二個PIN碼，可正常開啟應用程式，但內容為空。",
+  "vashCodeInfoDetail": "如果你輸入此碼代替PIN碼：",
+  "vashDeleteContacts": "你的聯絡人會消失",
+  "vashDeleteMessages": "你的對話會消失",
+  "vashDeleteHistory": "你的筆記會消失",
+  "vashKeepId": "你的Hash身份（#XXX-XXX-XXX）保持不變",
+  "vashAppearNormal": "應用程式看起來正常但為空，如同全新。此操作不可逆。",
+  "setupVashCode": "設定 Vash 碼",
+  "modifyVashCode": "修改 Vash 碼",
+  "currentVashCode": "目前 Vash 碼",
+  "newVashCode": "新 Vash 碼",
+  "confirmVashCode": "確認 Vash 碼",
+  "vashCodeConfigured": "Vash 碼已設定",
+  "vashCodeModified": "Vash 碼已修改",
+  "vashCodeMustDiffer": "Vash 碼必須與PIN碼不同",
+  "incorrectVashCode": "Vash 碼錯誤",
+  "vashWhatToDelete": "Vash 模式要讓什麼消失？",
+  "vashDeleteContactsOption": "聯絡人",
+  "vashDeleteMessagesOption": "訊息",
+  "vashDeleteNotesOption": "筆記",
+  "vashActivated": "Vash 模式已啟用",
+  "vashCreateSubtitle": "請選擇與主PIN不同的碼",
+  "vashConfirmSubtitle": "確認你的 Vash 碼",
+  "vashCodeSection": "Vash 模式",
+
+  "pinCodeForEntry": "PIN碼用於進入應用程式",
+  "biometric": "生物辨識",
+  "biometricUnlock": "使用指紋或 Face ID 解鎖",
+  "enableBiometric": "啟用生物辨識",
+  "biometricWarningMessage": "啟用生物辨識後，你將無法使用 Vash 碼進入應用程式。\n\n只有在生物辨識失敗（多次嘗試未果後）時，才能使用 Vash 碼。\n\n你確定要繼續嗎？",
+  "understood": "我明白了",
+
+  "shareAppSubtitle": "與你的親友分享 Hash",
+  "share": "分享",
+
+  "danger": "危險",
+  "panicButton": "緊急按鈕",
+  "panicButtonSubtitle": "刪除所有資料",
+  "deleteAccount": "刪除我的帳號",
+  "deleteAccountSubtitle": "不可逆操作",
+  "deleteAccountConfirmTitle": "刪除我的帳號",
+  "deleteAccountConfirmMessage": "你的帳號將被永久刪除。此操作不可逆。\n\n• 你的所有聊天\n• 你的所有聯絡人\n• 你的 Hash ID\n\n你將需要建立新帳號。",
+  "deleteForever": "永久刪除",
+  "cancel": "取消",
+
+  "panicConfirmTitle": "緊急按鈕",
+  "panicConfirmMessage": "此操作將永久刪除你的所有資料：\n\n• 你的所有訊息\n• 你的所有聯絡人\n• 你的帳號\n\n你確定嗎？",
+  "deleteAll": "全部刪除",
+  "dataDeletedForSecurity": "Vash 模式已啟用。",
+  "deletionError": "刪除錯誤：{error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "你的安全",
+  "securityInfo": "• 端對端加密（Signal Protocol）\n• 傳送後伺服器不保留資料\n• 金鑰僅儲存在你的裝置上\n• PIN碼從不傳送到伺服器",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "歡迎",
+  "securityStatement1": "你的訊息受到保護。",
+  "securityStatement2": "端對端加密。",
+  "securityStatement3": "零痕跡。零妥協。",
+  "securityStatement4": "你的隱私是一項權利。",
+
+  "accessBlocked": "存取被封鎖",
+  "tooManyAttempts": "嘗試次數過多",
+  "pleaseWait": "請稍候",
+  "waitDelay": "請等待倒數結束",
+  "attemptCount": "第 {current} 次嘗試，共 {max} 次",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "{time}後重試",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "忘記PIN碼？使用恢復短語",
+  "useRecoveryPhrase": "使用恢復短語",
+
+  "recoveryWarningTitle": "警告",
+  "recoveryWarningMessage": "帳號恢復將：",
+  "recoveryDeleteAllMessages": "刪除你的所有訊息",
+  "recoveryWaitDelay": "需要等待 1 小時",
+  "recoveryKeepContacts": "保留你的聯絡人",
+  "recoveryIrreversible": "此操作不可逆。你的訊息將永久遺失。",
+  "iUnderstand": "我瞭解",
+
+  "accountRecovery": "帳號恢復",
+  "enterRecoveryPhrase": "輸入你的24個恢復短語單詞，以空格分隔。",
+  "recoveryPhraseHint": "word1 word2 word3 ...",
+  "recover": "恢復",
+  "recoveryPhraseRequired": "請輸入你的恢復短語",
+  "recoveryPhrase24Words": "短語必須包含24個單詞",
+  "incorrectRecoveryPhrase": "恢復短語錯誤",
+  "recoveryInitError": "初始化恢復時發生錯誤",
+
+  "securityDelay": "安全延遲",
+  "securityDelayMessage": "為了你的安全，建立新PIN碼前需要一段等待時間。",
+  "timeRemaining": "剩餘時間",
+  "messagesDeletedForProtection": "你的訊息已被刪除以保護你。",
+  "canCloseApp": "你可以關閉應用程式稍後再回來。",
+
+  "onboardingTitle1": "歡迎使用 Hash",
+  "onboardingSubtitle1": "不留痕跡的通訊工具",
+  "onboardingTitle2": "完全加密",
+  "onboardingSubtitle2": "你的訊息使用 Signal 協議進行端對端加密",
+  "onboardingTitle3": "零痕跡",
+  "onboardingSubtitle3": "訊息在傳送後即從伺服器刪除",
+  "onboardingTitle4": "你的安全",
+  "onboardingSubtitle4": "PIN碼、Vash 模式與恢復短語",
+
+  "getStarted": "開始使用",
+  "next": "下一步",
+  "skip": "略過",
+  "alreadyHaveAccount": "我已有帳號",
+  "transferMyAccount": "轉移我的帳號",
+
+  "createPin": "建立PIN碼",
+  "createPinSubtitle": "此碼將保護你的應用程式存取",
+  "confirmYourPin": "確認你的PIN碼",
+  "confirmPinSubtitle": "再次輸入你的PIN碼",
+
+  "saveRecoveryPhrase": "恢復短語",
+  "saveRecoveryPhraseSubtitle": "按順序寫下這24個單詞。如果你忘記PIN碼，它們將幫助你恢復帳號。",
+  "phraseWritten": "我已寫下短語",
+  "warningRecoveryPhrase": "如果你遺失此短語並忘記PIN碼，你將無法存取你的帳號。",
+
+  "accountTransferred": "帳號已轉移",
+  "accountTransferredMessage": "你的帳號已轉移到另一台裝置。此工作階段已失效。",
+  "accountTransferredInfo": "如果你沒有發起此轉移，你的帳號可能已被盜用。",
+  "logout": "登出",
+
+  "transferAccount": "轉移帳號",
+  "transferAccountInfo": "將你的Hash帳號轉移到新裝置。你目前的工作階段將失效。",
+  "generateTransferCode": "產生轉移碼",
+  "transferCode": "轉移碼",
+  "transferCodeExpires": "此碼將在 {minutes} 分鐘後過期",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "在新裝置上輸入此碼以轉移你的帳號。",
+  "generateNewCode": "產生新碼",
+
+  "scanQrCode": "掃描 QR 碼",
+  "scanQrCodeSubtitle": "掃描聯絡人的 QR 碼以新增",
+  "qrCodeDetected": "偵測到 QR 碼",
+  "invalidQrCode": "無效的 QR 碼",
+  "cameraPermissionRequired": "需要相機權限",
+
+  "myQrCode": "我的 QR 碼",
+  "myQrCodeSubtitle": "分享此 QR 碼讓你的聯絡人新增你",
+  "shareQrCode": "分享",
+
+  "addContactTitle": "新增聯絡人",
+  "addContactByHashId": "輸入聯絡人的 Hash ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "搜尋",
+  "contactNotFound": "找不到聯絡人",
+  "contactAlreadyAdded": "此聯絡人已在你的清單中",
+  "contactAdded": "聯絡人已新增",
+
+  "myProfile": "我的個人資料",
+  "myProfileSubtitle": "分享此資訊以便他人新增你",
+  "temporaryCode": "臨時碼",
+  "temporaryCodeExpires": "{time}後過期",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "驗證碼已過期",
+  "generateNewCodeButton": "新驗證碼",
+  "copyHashId": "複製 ID",
+  "copyCode": "複製驗證碼",
+  "copiedToClipboard": "已複製",
+  "showMyQrCode": "顯示我的 QR 碼",
+  "orDivider": "或",
+  "openScanner": "開啟掃描器",
+  "addManually": "手動新增",
+  "contactHashIdLabel": "聯絡人的 Hash ID",
+  "temporaryCodeLabel": "臨時碼",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "請聯絡人從其個人資料中產生驗證碼",
+  "verifyAndAdd": "驗證並新增",
+  "fillAllFields": "請填寫所有欄位",
+  "invalidHashIdFormat": "ID格式無效（例如：123-456-ABC）",
+  "userNotFound": "找不到使用者",
+  "cannotAddYourself": "你不能新增自己",
+  "invalidOrExpiredCode": "臨時碼無效或已過期",
+  "tooManyAttempts": "嘗試次數過多，請稍後再試。",
+  "contactFound": "找到聯絡人！",
+  "howToCallContact": "你想怎麼稱呼對方？",
+  "contactNameHint": "聯絡人名稱",
+  "addContactButton": "新增",
+
+  "contactDetails": "聯絡人詳情",
+  "contactName": "聯絡人名稱",
+  "contactHashId": "Hash ID",
+  "addedOn": "新增於 {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "刪除聯絡人",
+  "deleteContactConfirm": "刪除此聯絡人？",
+  "deleteContactMessage": "這也將刪除整個聊天。",
+  "delete": "刪除",
+
+  "typeMessage": "輸入訊息...",
+  "messageSent": "已傳送",
+  "messageDelivered": "已送達",
+  "messageRead": "已讀",
+  "messageFailed": "傳送失敗",
+
+  "now": "現在",
+  "minutesAgo": "{count}分鐘",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}小時",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}天",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "今天",
+  "yesterday": "昨天",
+  "dateAtTime": "{date} {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "加入我使用 Hash！🔒\n\n這是一款真正私密的通訊工具：完全加密，伺服器零痕跡，需要時還有緊急模式。\n\n在這裡下載應用程式 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "錯誤",
+  "ok": "確定",
+  "view": "檢視",
+  "yes": "是",
+  "no": "否",
+  "save": "儲存",
+  "edit": "編輯",
+  "close": "關閉",
+  "confirm": "確認",
+  "loading": "載入中...",
+  "retry": "重試",
+
+  "pendingRequests": "待處理請求",
+  "noPendingRequests": "沒有待處理的請求",
+  "pendingRequestsSubtitle": "這些人想要新增你",
+  "requestFromUser": "來自 {hashId} 的請求",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "{days} 天後過期",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "接受",
+  "rejectRequest": "拒絕",
+  "requestAccepted": "請求已接受",
+  "requestRejected": "請求已拒絕",
+  "requestSent": "請求已傳送！",
+  "requestSentSubtitle": "你的請求已傳送。對方必須接受後你們才能聊天。",
+  "requestAlreadyPending": "已有一個待處理的請求",
+  "requestAlreadySentByOther": "此人已向你發送請求",
+  "addByHashId": "透過 Hash ID 新增",
+  "addByHashIdSubtitle": "輸入聯絡人的 Hash ID 與臨時碼",
+  "enterTemporaryCode": "輸入6位數驗證碼",
+  "sendRequest": "傳送請求",
+  "acceptContactTitle": "接受聯絡人",
+  "acceptContactSubtitle": "你可以給對方取一個自訂名稱",
+  "leaveEmptyForHashId": "留空則使用 Hash ID",
+  "firstName": "名字",
+  "lastName": "姓氏",
+  "notes": "筆記",
+  "notesHint": "關於此聯絡人的個人筆記",
+
+  "photoOptional": "照片（選填）",
+  "contactNameOptional": "名稱（選填）",
+  "notesOptional": "筆記（選填）",
+  "storedLocally": "僅儲存在你的裝置上",
+  "encryptedMessageLabel": "加密訊息",
+  "identityMessageHint": "你是誰？你們怎麼認識的？",
+  "messageWillBeSentEncrypted": "此訊息將被加密並傳送給對方",
+  "sendRequestButton": "傳送請求",
+  "requestExpiresIn24h": "請求將在24小時內未接受則過期",
+  "theyAlreadySentYouRequest": "此人已向你發送請求",
+
+  "requests": "請求",
+  "receivedRequests": "已接收",
+  "sentRequests": "已傳送",
+  "noSentRequests": "沒有已傳送的請求",
+  "cancelRequest": "取消",
+  "deleteRequest": "刪除請求",
+  "requestCancelled": "請求已取消",
+  "sentTo": "已傳送至 {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "{time}後過期",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "{time}前收到",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "請求者的訊息",
+
+  "copy": "複製",
+  "messageInfo": "訊息資訊",
+
+  "messageDirection": "方向",
+  "messageSentByYou": "你傳送的",
+  "messageReceived": "已接收",
+  "messageSentAt": "傳送於",
+  "messageStatus": "狀態",
+  "messageReadAt": "讀取於",
+  "messageType": "類型",
+  "messageSize": "大小",
+  "messageExpiresAt": "過期於",
+  "messageEncrypted": "端對端加密",
+
+  "messageStatusSending": "傳送中...",
+  "messageStatusSent": "已傳送",
+  "messageStatusDelivered": "已送達",
+  "messageStatusRead": "已讀",
+  "messageStatusFailed": "失敗",
+
+  "serverStatus": "伺服器",
+  "onServer": "等待送達",
+  "deletedFromServer": "已刪除",
+
+  "messageTypeText": "文字",
+  "messageTypeImage": "圖片",
+  "messageTypeVideo": "影片",
+  "messageTypeVoice": "語音",
+  "messageTypeFile": "檔案",
+
+  "indefinitely": "無限期",
+  "hoursShort": "小時",
+  "minutesShort": "分鐘",
+  "hours": "小時",
+  "minutes": "分鐘",
+  "seconds": "秒",
+
+  "ephemeralMessages": "閱後即焚訊息",
+  "ephemeralMessagesDescription": "訊息在此時間後自動刪除",
+  "ephemeralImmediate": "立即（閱讀後）",
+  "ephemeralImmediateDesc": "閱讀後立即刪除",
+  "ephemeralMyPreference": "我的偏好",
+  "ephemeralMyPreferenceDesc": "使用全域設定",
+  "ephemeralDefaultSetting": "訊息存續時間",
+  "ephemeralChooseDefault": "建議",
+  "ephemeral30Seconds": "30 秒",
+  "ephemeral30SecondsDesc": "閱讀後30秒刪除",
+  "ephemeral5Minutes": "5 分鐘",
+  "ephemeral5MinutesDesc": "閱讀後5分鐘刪除",
+  "ephemeral1Hour": "1 小時",
+  "ephemeral1HourDesc": "閱讀後1小時刪除",
+  "ephemeral3Hours": "3 小時",
+  "ephemeral6Hours": "6 小時",
+  "ephemeral6HoursDesc": "閱讀後6小時刪除",
+  "ephemeral12Hours": "12 小時",
+  "ephemeral24Hours": "24 小時",
+  "ephemeral24HoursDesc": "閱讀後24小時刪除",
+  "customDuration": "自訂時間",
+
+  "muteNotifications": "靜音通知",
+  "muteDescription": "你將不會收到此聯絡人的通知",
+  "mutedUntil": "靜音至 {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "通知已啟用",
+  "unmute": "取消靜音",
+
+  "notificationSound": "通知音效",
+  "defaultSound": "預設",
+
+  "chatSettings": "聊天設定",
+  "bubbleColor": "氣泡顏色",
+  "backgroundColor": "背景顏色",
+  "backgroundImage": "背景圖片",
+  "chatBackground": "聊天背景",
+  "customColor": "自訂",
+  "defaultColor": "預設",
+  "imageSelected": "已選擇圖片",
+  "noImage": "沒有圖片",
+  "color": "顏色",
+  "image": "圖片",
+  "tapToSelectImage": "點選以選擇圖片",
+  "changeImage": "更換圖片",
+  "previewMessageReceived": "你好！",
+  "previewMessageSent": "嗨！",
+
+  "messageAction": "訊息",
+  "callAction": "通話",
+  "videoAction": "視訊",
+
+  "personalNotes": "個人筆記",
+  "addNotes": "新增筆記...",
+  "noNotes": "沒有筆記",
+
+  "messageNotifications": "訊息通知",
+  "callNotifications": "通話通知",
+
+  "useGradient": "使用漸層",
+  "gradientStart": "起始顏色",
+  "gradientEnd": "結束顏色",
+  "preview": "預覽",
+  "reset": "重設",
+
+  "securityNumber": "安全號碼",
+  "securityNumberDescription": "驗證安全號碼是否與 {name} 的裝置一致",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "驗證端對端加密",
+  "tapToCopy": "點選複製",
+  "howToVerify": "如何驗證",
+  "verifyStep1": "親自見面或打電話給你的聯絡人",
+  "verifyStep2": "比較安全號碼或掃描 QR 碼",
+  "verifyStep3": "如果一致，你的聊天是安全的",
+  "scanToVerify": "掃描驗證",
+
+  "reportSpam": "檢舉垃圾訊息",
+  "reportSpamSubtitle": "將此聯絡人檢舉為垃圾訊息",
+  "reportSpamDescription": "這將匿名檢舉此聯絡人。你的身份不會被分享。你確定嗎？",
+  "report": "檢舉",
+  "spamReported": "垃圾訊息已檢舉",
+  "reportError": "檢舉傳送失敗。請重試。",
+  "reportRateLimited": "你今天的檢舉次數已達上限。",
+
+  "blockContact": "封鎖聯絡人",
+  "blockContactDescription": "此聯絡人將無法再向你傳送訊息或撥打電話。對方不會收到通知。",
+  "unblockContact": "解除封鎖",
+  "unblockContactDescription": "此聯絡人將能夠再次向你傳送訊息和撥打電話。",
+  "contactBlocked": "聯絡人已封鎖",
+  "contactUnblocked": "聯絡人已解除封鎖",
+  "contactIsBlocked": "此聯絡人已被封鎖",
+  "unblock": "解除封鎖",
+
+  "deleteContactSubtitle": "刪除此聯絡人與聊天",
+  "confirmWithPin": "使用PIN碼確認",
+  "enterPinToConfirm": "輸入你的PIN碼以確認此操作",
+
+  "mute1Hour": "1 小時",
+  "mute8Hours": "8 小時",
+  "mute1Day": "1 天",
+  "mute1Week": "1 週",
+  "muteAlways": "永遠",
+  "muteExplanation": "你將不會收到此聯絡人的通知",
+  "howItWorks": "如何運作",
+  "ephemeralExplanation1": "訊息在接收後即從伺服器刪除。",
+  "ephemeralExplanation2": "此設定定義訊息在你閱讀後何時從你的手機上消失。",
+  "ephemeralExplanation3": "你的聯絡人有自己的設定用於其手機。",
+
+  "showCallsInRecents": "在最近通話中顯示",
+  "showCallsInRecentsSubtitle": "Hash 通話將出現在手機通話紀錄中",
+  "feedback": "意見回饋",
+
+  "profilePhoto": "個人照片",
+  "takePhoto": "拍照",
+  "chooseFromGallery": "從相簿選擇",
+  "removePhoto": "移除照片",
+
+  "viewContactHashId": "檢視聯絡人識別碼",
+  "hashIdPartiallyMasked": "為你的安全和聯絡人的隱私而部分遮蔽",
+
+  "addFirstContact": "新增你的第一個聯絡人",
+  "addFirstContactSubtitle": "分享你的 QR 碼或掃描朋友的",
+  "directory": "通訊錄",
+  "noContacts": "沒有聯絡人",
+  "noContactsSubtitle": "新增聯絡人以開始",
+  "sendMessageAction": "傳送訊息",
+  "audioCall": "語音通話",
+  "videoCall": "視訊通話",
+  "viewProfile": "檢視個人資料",
+  "deleteContactDirectory": "刪除聯絡人",
+  "scanShort": "掃描",
+  "addShort": "新增",
+  "deleteContactConfirmName": "確定要刪除 {name} 嗎？",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "沒有筆記",
+  "noNotesSubtitle": "建立你的第一個筆記",
+  "newNote": "新筆記",
+  "editNote": "編輯筆記",
+  "deleteNote": "刪除筆記",
+  "deleteNoteConfirm": "確定要刪除此筆記嗎？",
+  "noteTitle": "標題",
+  "noteContent": "內容",
+  "addItem": "新增項目",
+  "pinNote": "釘選",
+  "unpinNote": "取消釘選",
+  "noteColor": "顏色",
+  "notePassword": "密碼",
+  "setPassword": "設定密碼",
+  "changePassword": "變更密碼",
+  "removePassword": "移除密碼",
+  "enterPassword": "輸入密碼",
+  "confirmPassword": "確認密碼",
+  "passwordPin": "PIN碼",
+  "passwordText": "文字密碼",
+  "protectedNote": "受保護的筆記",
+  "incorrectPassword": "密碼錯誤",
+  "passwordSet": "密碼已設定",
+  "passwordRemoved": "密碼已移除",
+  "notesBiometric": "Face ID 用於筆記",
+  "notesBiometricSubtitle": "需要生物辨識驗證才能開啟受保護的筆記",
+  "textNote": "文字筆記",
+  "checklistNote": "待辦清單",
+  "tasksProgress": "{checked}/{total} 個任務",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "已儲存",
+  "searchNotes": "搜尋筆記",
+  "legalConsent": "法律同意",
+  "confirmAge13": "我確認我已年滿13歲",
+  "acceptLegalStart": "我接受",
+  "privacyPolicy": "隱私權政策",
+  "termsOfService": "服務條款",
+  "andThe": "與",
+  "continueButton": "繼續",
+  "mustAcceptTerms": "你必須同意兩項條件才能繼續",
+
+  "support": "支援",
+  "contactSupport": "聯絡支援",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "檢舉濫用",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "法律",
+  "legalEntity": "法律實體",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "釘選",
+  "unpinConversation": "取消釘選",
+  "hideConversation": "從動態中移除",
+  "deleteConversation": "刪除對話",
+  "deleteConversationConfirm": "輸入你的PIN碼以確認刪除所有訊息",
+  "noConversations": "尚無對話",
+  "startConversation": "開始",
+
+  "microphonePermissionRequired": "需要麥克風存取權限",
+  "microphonePermissionExplanation": "Hash 需要麥克風來進行通話。",
+  "cameraPermissionExplanation": "Hash 需要相機來進行視訊通話。",
+  "openSettings": "開啟設定",
+
+  "callConnecting": "連線中...",
+  "callRinging": "撥號中...",
+  "callReconnecting": "重新連線中...",
+  "callReconnectingTimer": "重新連線中（{seconds}秒）",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "已暫停",
+  "callPausedSubtitle": "通話仍在進行中",
+  "callRemoteMicMuted": "對方已靜音",
+  "callMiniControlsMute": "靜音",
+  "callMiniControlsUnmute": "取消靜音",
+  "callMiniControlsHangUp": "掛斷",
+  "callMiniControlsReturn": "返回通話",
+  "callNetworkPoor": "連線不穩定",
+  "callNetworkLost": "連線已中斷",
+  "callEndedTitle": "通話已結束",
+
+  "deviceData": "裝置資料",
+  "deviceDataSubtitle": "本機與伺服器儲存",
+  "localStorage": "本機儲存",
+  "onThisDevice": "在此裝置上",
+  "encryptedDatabases": "加密資料庫",
+  "files": "檔案",
+  "secureKeychain": "安全鑰匙圈",
+  "cache": "快取",
+  "contactsDetail": "姓名、頭像、Signal 金鑰",
+  "messagesDetail": "加密對話",
+  "notesDetail": "個人筆記",
+  "signalSessions": "Signal 工作階段",
+  "signalSessionsDetail": "加密工作階段",
+  "pendingContacts": "待處理聯絡人",
+  "pendingContactsDetail": "待處理的請求",
+  "callHistory": "通話",
+  "callHistoryDetail": "通話紀錄",
+  "preferences": "偏好設定",
+  "preferencesDetail": "媒體與通話偏好",
+  "avatars": "頭像",
+  "media": "媒體",
+  "fileCount": "{count, plural, =0{無檔案} =1{1 個檔案} other{{count} 個檔案}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "已啟用",
+  "notDefined": "未設定",
+  "biometrics": "生物辨識",
+  "recoveryPhrase": "恢復短語",
+  "identity": "身份（Hash ID）",
+  "signalKeys": "Signal Protocol 金鑰",
+  "authTokens": "驗證權杖",
+  "contactNamesCache": "聯絡人名稱快取",
+  "remoteConfig": "遠端設定",
+  "notificationPrefs": "通知偏好",
+  "serverData": "伺服器資料",
+  "serverDataInfo": "Hash 在伺服器上僅保留最少量的資料，全部加密或為臨時性。",
+  "serverProfile": "個人資料",
+  "serverProfileDetail": "Hash ID、公鑰、信箱權杖",
+  "serverPrekeys": "預先金鑰",
+  "serverPrekeysDetail": "一次性 Signal 金鑰（已消耗）",
+  "serverMessages": "傳輸中的訊息",
+  "serverMessagesDetail": "送達後刪除（最長24小時）",
+  "serverMedia": "傳輸中的媒體",
+  "serverMediaDetail": "下載後刪除",
+  "serverContactRequests": "聯絡請求",
+  "serverContactRequestsDetail": "24小時後過期",
+  "serverRateLimits": "速率限制",
+  "serverRateLimitsDetail": "臨時防濫用資料",
+  "privacyReassurance": "Hash 無法讀取你的訊息。所有資料均採用端對端加密。伺服器資料會自動刪除。",
+
+  "pinTooSimple": "此PIN碼太簡單。請選擇更安全的碼。",
+  "genericError": "發生錯誤。請重試。",
+  "accountCreationError": "無法建立帳號：{error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "短語已複製到剪貼簿",
+  "copyPhrase": "複製短語",
+  "recoveryPhraseSecurityWarning": "請將此短語寫在安全的地方。如果你遺失PIN碼又沒有此短語，你將永久失去資料存取權。",
+
+  "noMessages": "沒有訊息",
+  "deleteAllMessagesWithContact": "刪除與 {name} 的所有訊息？",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "確認",
+  "untitled": "無標題",
+  "noSessions": "沒有工作階段",
+  "unknownContact": "未知聯絡人",
+  "unnamed": "未命名",
+  "noPendingRequestsAlt": "沒有待處理的請求",
+  "deleteAllCallHistory": "刪除所有通話紀錄？",
+  "noCalls": "沒有通話",
+  "noPreferences": "沒有偏好設定",
+  "resetAllMediaPrefs": "重設所有媒體偏好？",
+  "deleteThisAvatar": "刪除此頭像？",
+  "deleteAllAvatars": "刪除所有頭像？",
+  "noAvatars": "沒有頭像",
+  "deleteThisFile": "刪除此檔案？",
+  "deleteAllMediaFiles": "刪除所有媒體？",
+  "noMediaFiles": "沒有媒體",
+  "outgoing": "撥出",
+  "incoming": "撥入",
+  "ephemeralViewDuration": "閱後即焚：{seconds}秒",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "一般檢視",
+  "callReasonCompleted": "已完成",
+  "callReasonMissed": "未接",
+  "callReasonDeclined": "已拒絕",
+  "callReasonFailed": "失敗",
+  "justNow": "剛剛",
+  "timeAgoMinutes": "{count} 分鐘前",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count} 小時前",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count} 天前",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "聯絡人",
+  "messageTypeLocation": "位置",
+  "statusQueued": "排隊中",
+  "blockedBadge": "已封鎖",
+  "protectedBadge": "受保護",
+  "messageCount": "{count} 則訊息",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "刪除？",
+
+  "transferMyAccountTitle": "轉移我的帳號",
+  "loadingError": "載入錯誤",
+  "transferToNewDevice": "轉移到新裝置",
+  "transferInstructions": "在新裝置上選擇「恢復我的帳號」並輸入以下資訊：",
+  "yourHashIdLabel": "你的 Hash ID",
+  "enterYourPinCode": "輸入你的PIN碼",
+  "pinOwnerConfirmation": "確認你是此帳號的擁有者",
+  "scanThisQrCode": "掃描此 QR 碼",
+  "withYourNewDevice": "使用你的新裝置",
+  "orEnterTheCode": "或輸入代碼",
+  "transferCodeLabel": "轉移碼",
+  "proximityVerification": "近距離驗證",
+  "bringDevicesCloser": "將兩台裝置靠近",
+  "confirmTransferQuestion": "確認轉移？",
+  "accountWillBeTransferred": "你的帳號將轉移到新裝置。\n\n此裝置將被永久中斷連線。",
+  "transferComplete": "轉移完成",
+  "transferSuccessMessage": "你的帳號已成功轉移。\n\n此應用程式將立即關閉。",
+  "manualVerification": "手動驗證",
+  "codeDisplayedOnBothDevices": "兩台裝置上顯示的代碼：",
+  "doesCodeMatchNewDevice": "此代碼是否與新裝置上的一致？",
+  "verifiedStatus": "已驗證",
+  "inProgressStatus": "進行中...",
+  "notAvailableStatus": "無法使用",
+  "codeExpiredRestart": "代碼已過期。請重新開始。",
+  "codesDoNotMatchCancelled": "代碼不一致。轉移已取消。",
+  "transferToDevice": "至：{device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "已複製！",
+  "expiresInTime": "{time}後過期",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "此裝置不支援生物辨識",
+  "biometricAuthError": "生物辨識驗證時發生錯誤",
+  "authenticateForBiometric": "請進行驗證以啟用生物辨識",
+  "biometricAuthFailed": "生物辨識驗證失敗",
+
+  "forceUpdateTitle": "需要更新",
+  "forceUpdateMessage": "有新版本的 Hash 可用。請更新以繼續使用。",
+  "updateButton": "更新",
+  "maintenanceInProgress": "維護中",
+  "tryAgainLater": "請稍後再試",
+  "information": "資訊",
+
+  "later": "稍後",
+  "doYouLikeHash": "你喜歡 Hash 嗎？",
+  "yourFeedbackHelps": "你的回饋有助於我們改善應用程式",
+  "ratingTerrible": "很差",
+  "ratingBad": "差",
+  "ratingOk": "一般",
+  "ratingGood": "好",
+  "ratingExcellent": "非常好！",
+  "donationMessage": "Hash 是非營利專案。你的支持幫助我們持續開發真正私密的通訊工具。",
+
+  "recentConnections": "最近的連線",
+  "loginInfoText": "每次PIN解鎖都會在本機記錄。僅保留最近24小時的紀錄。",
+  "connectionCount": "連線次數",
+  "periodLabel": "期間",
+  "historyLabel": "紀錄",
+  "noLoginRecorded": "沒有登入紀錄",
+  "nextUnlocksAppearHere": "下次解鎖將顯示在此。",
+  "dataLocalOnly": "此資料僅儲存在你的裝置上，永不傳送。",
+  "currentSession": "目前",
+  "todayLabel": "今天",
+  "yesterdayLabel": "昨天",
+  "justNowLabel": "剛剛",
+  "minutesAgoLabel": "{count} 分鐘前",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours} 小時前",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}小時{minutes}分鐘前",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "無預定維護",
+  "everythingWorkingNormally": "一切運作正常",
+  "maintenanceTitle": "維護",
+  "maintenanceActiveLabel": "進行中",
+  "maintenancePlannedLabel": "已預定",
+
+  "locking": "鎖定中...",
+
+  "newMessageNotification": "新訊息",
+
+  "secExplainTitle": "Hash 如何保護你",
+  "secExplainIntro": "Hash 的設計使任何人都無法讀取你的訊息。",
+  "secExplainIntroSub": "連我們也不行。\n以下是簡單說明。",
+  "secJourneyLabel": "旅程",
+  "secJourneyTitle": "你的訊息之旅",
+  "secJourneySubtitle": "從你的手指到聯絡人的螢幕，每一步都受到保護。跟隨這條路。",
+  "secStep1Title": "你撰寫訊息",
+  "secStep1Desc": "你在應用程式中輸入「嗨！」。此時訊息僅存在於手機記憶體中。什麼都還沒送出。",
+  "secStep2Title": "Signal Protocol 加密",
+  "secStep2Desc": "當你按下「傳送」，你的訊息會被轉換成一串無法理解的字元。就像你的訊息被鎖進一個只有聯絡人才有鑰匙的保險箱。",
+  "secStep3Title": "Sealed Sender：隱形信封",
+  "secStep3Desc": "想像你寄了一封信，但信封上沒有寄件人地址。這正是 Hash 所做的。訊息被投入匿名信箱。伺服器不知道是誰寄的。",
+  "secStep4Title": "伺服器什麼都看不到",
+  "secStep4Desc": "伺服器扮演一個盲目的郵差。它只知道「有人在信箱 #A7X9 投了東西」。它不知道是誰寄的、內容是什麼、也不知道要給誰。",
+  "secStep4Highlight": "不儲存任何中繼資料：沒有 IP 位址、沒有時間戳記、沒有寄件人與收件人的關聯。",
+  "secStep5Title": "你的聯絡人收到訊息",
+  "secStep5Desc": "聯絡人的手機從匿名信箱取出內容，並用從未離開其裝置的私鑰解密訊息。「嗨！」出現在其螢幕上。",
+  "secStep6Title": "訊息從伺服器消失",
+  "secStep6Desc": "聯絡人確認收到後，伺服器會永久刪除訊息。沒有垃圾桶、沒有存檔、沒有備份。未讀訊息也會在24小時後自動銷毀。",
+  "secStep7Title": "本機過期",
+  "secStep7Desc": "在聯絡人的手機上，訊息會根據你選擇的時間自動銷毀：閱讀後立即、5分鐘、1小時……由你決定。",
+  "secJourneyConclusion": "結果：伺服器上零痕跡，裝置上零痕跡。訊息僅存在到被閱讀為止，然後消失。",
+  "secArchLabel": "架構",
+  "secArchTitle": "5 層保護",
+  "secArchSubtitle": "Hash 不依賴單一技術。每一層都強化其他層。即使一層被突破，你的資料仍然安全。",
+  "secLayer1Title": "端對端加密",
+  "secLayer1Desc": "每則訊息都使用獨特的金鑰加密。簡單來說：即使有人解密了一則訊息，也無法解密下一則。每則訊息都有自己的鎖。",
+  "secLayer1Detail": "對於檔案（照片、影片、文件），Hash 使用額外的 AES-256-GCM 加密。檔案在離開你的手機前就已加密。",
+  "secLayer2Title": "Sealed Sender（網路匿名）",
+  "secLayer2Desc": "一般通訊工具傳送訊息時會附上你的身份，就像在信封上寫上你的名字。Hash 使用匿名信箱：伺服器送出訊息時不知道是誰寄的。",
+  "secLayer2Detail": "結果：即使伺服器資料洩漏，也不可能重建誰與誰通訊。",
+  "secLayer3Title": "自動刪除",
+  "secLayer3Desc": "訊息在確認收到後即從伺服器刪除。即使訊息從未被取回，也會在24小時後自動銷毀。",
+  "secLayer3Detail": "在你的手機上，訊息會根據你選擇的時間自動銷毀：立即、5分鐘、15分鐘、30分鐘、1小時、3小時、6小時或12小時。",
+  "secLayer4Title": "本機存取保護",
+  "secLayer4Desc": "應用程式受6位數PIN碼和/或生物辨識（Face ID、指紋）保護。嘗試失敗過多次後，應用程式會鎖定，每次失敗延遲遞增。",
+  "secLayer5Title": "鎖定的資料庫",
+  "secLayer5Desc": "在伺服器端，沒有使用者可以直接寫入資料庫。所有操作都通過安全函式進行，每個請求都會被驗證。",
+  "secLayer5Detail": "就像銀行櫃台：你永遠不會自己碰到金庫。你提出請求，系統在執行前驗證你的權限。",
+  "secVashLabel": "全球獨創",
+  "secVashTitle": "Vash 模式",
+  "secVashSubtitle": "一個不存在於任何其他通訊應用程式的緊急安全系統。",
+  "secVashScenarioTitle": "想像這個情境",
+  "secVashScenario1": "有人拿到你的手機",
+  "secVashScenario2": "有人要求你輸入PIN碼",
+  "secVashScenario3": "你想緊急清除所有資料",
+  "secVashSolutionTitle": "解決方案：兩組PIN碼",
+  "secVashSolutionDesc": "你在 Hash 中設定兩組不同的PIN碼：",
+  "secVashNormalCodeLabel": "正常碼",
+  "secVashNormalCodeDesc": "正常開啟應用程式，顯示所有資料",
+  "secVashCodeLabel2": "Vash 碼",
+  "secVashCodeDescription": "正常開啟應用程式……但所有資料在背景中悄悄被刪除",
+  "secVashWhatHappensTitle": "接下來會發生什麼",
+  "secVashWhatHappensDesc": "應用程式正常開啟。沒有警示、沒有可疑動畫。螢幕只是顯示一個空的應用程式，彷彿你剛安裝。\n\n實際上，你的所有對話、聯絡人和訊息已在瞬間被不可逆地刪除。",
+  "secCallsLabel": "通話與檔案",
+  "secCallsTitle": "一切都經過加密",
+  "secCallsSubtitle": "不僅僅是訊息。所有通過 Hash 傳輸的內容都經過端對端加密。",
+  "secAudioCallTitle": "語音通話",
+  "secAudioCallDesc": "透過 WebRTC 端對端加密。語音在裝置間直接傳輸。",
+  "secVideoCallTitle": "視訊通話",
+  "secVideoCallDesc": "相同技術，每個串流個別加密。",
+  "secPhotosTitle": "照片與影片",
+  "secPhotosDesc": "以 AES-256-GCM 加密後才離開你的手機。",
+  "secDocsTitle": "文件",
+  "secDocsDesc": "PDF、ZIP 或任何檔案。名稱、大小與內容皆加密。",
+  "secAnonLabel": "匿名",
+  "secAnonTitle": "不需要任何身份",
+  "secAnonSubtitle": "Hash 從不要求你的電話號碼或電子郵件。你以獨特且匿名的 Hash ID 識別。",
+  "secHashIdTitle": "你的 Hash ID",
+  "secHashIdDesc": "這是你的唯一識別碼。它不揭露你的任何資訊：你的名字、電話號碼、位置。就像一個無法與你真實身份連結的化名。\n\n要新增聯絡人，你分享 Hash ID 或掃描 QR 碼。就這樣。沒有同步的通訊錄，沒有「你可能認識的人」建議。",
+  "secDataLabel": "資料",
+  "secDataTitle": "Hash 不知道的事",
+  "secDataSubtitle": "保護資料的最好方式就是不收集它。",
+  "secNeverCollected": "從未收集",
+  "secNeverItem1": "訊息內容",
+  "secNeverItem2": "聯絡人清單",
+  "secNeverItem3": "電話號碼",
+  "secNeverItem4": "電子郵件",
+  "secNeverItem5": "IP 位址",
+  "secNeverItem6": "位置",
+  "secNeverItem7": "中繼資料（誰與誰通訊）",
+  "secNeverItem8": "通話紀錄",
+  "secNeverItem9": "通訊錄",
+  "secNeverItem10": "廣告識別碼",
+  "secTempStored": "臨時儲存",
+  "secTempItem1": "匿名 Hash ID（唯一識別碼）",
+  "secTempItem2": "公開加密金鑰",
+  "secTempItem3": "傳輸中的加密訊息（最長24小時）",
+  "secTempNote": "即使是這些最少量的資料也無法識別你的身份。你的 Hash ID 未與任何個人資訊連結。",
+  "secFooterTitle": "你的隱私，你的自由",
+  "secFooterDesc": "Hash 使用與最嚴格的專業應用程式相同的加密技術。你的訊息受數學保護，而非承諾。"
+}

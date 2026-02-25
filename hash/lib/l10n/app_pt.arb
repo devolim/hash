@@ -1,0 +1,1042 @@
+{
+  "@@locale": "pt",
+
+  "appName": "Hash",
+  "appTagline": "Zero Rastro. Zero Compromisso.",
+
+  "conversations": "Chats",
+  "contacts": "Contatos",
+  "noConversation": "Nenhum chat",
+  "noConversationSubtitle": "Adicione um contato para comecar a conversar com seguranca",
+  "pendingRequestsCount": "{count, plural, =1{1 solicitacao recebida} other{{count} solicitacoes recebidas}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 solicitacao enviada pendente} other{{count} solicitacoes enviadas pendentes}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Adicionar contato",
+  "shareApp": "Compartilhar app",
+  "newMessage": "Nova mensagem",
+  "newConversation": "Enviar uma mensagem",
+
+  "settings": "Configuracoes",
+  "myHashId": "Meu Hash ID",
+  "supportHash": "Apoiar Hash",
+  "supportHashSubtitle": "Hash e um projeto sem fins lucrativos",
+  "donate": "Doar",
+
+  "appearance": "Aparencia",
+  "theme": "Tema",
+  "themeAuto": "Automatico",
+  "themeAutoSubtitle": "Segue as configuracoes do sistema",
+  "themeDark": "Escuro",
+  "themeLight": "Claro",
+  "themeRecommendation": "O tema escuro e recomendado para maior privacidade",
+  "language": "Idioma",
+  "languageAuto": "Automatico (sistema)",
+
+  "notifications": "Notificacoes",
+  "messages": "Mensagens",
+  "calls": "Chamadas",
+  "vibration": "Vibracao",
+  "notificationContent": "Conteudo das notificacoes",
+  "notificationContentFull": "Mostrar tudo",
+  "notificationContentFullDesc": "Nome do contato e previa da mensagem",
+  "notificationContentName": "Apenas nome",
+  "notificationContentNameDesc": "Mostra apenas o nome do contato",
+  "notificationContentDiscrete": "Discreto",
+  "notificationContentDiscreteDesc": "Mostra apenas \"Nova mensagem\"",
+
+  "security": "Seguranca",
+  "howHashProtectsYou": "Como o Hash te protege",
+  "howHashProtectsYouSubtitle": "Entenda sua seguranca",
+  "accountSecurity": "Seguranca da conta",
+  "accountSecuritySubtitle": "PIN, biometria, Modo Vash",
+  "blockScreenshots": "Bloquear capturas de tela",
+  "transferDevice": "Transferir para outro dispositivo",
+  "transferDeviceSubtitle": "Migrar sua conta",
+
+  "pinCode": "Codigo PIN",
+  "changePin": "Alterar codigo PIN",
+  "currentPin": "Codigo PIN atual",
+  "newPin": "Novo codigo PIN",
+  "confirmPin": "Confirmar codigo PIN",
+  "pinChanged": "Codigo PIN alterado",
+  "incorrectPin": "PIN incorreto",
+  "pinsDoNotMatch": "Os codigos nao coincidem",
+
+  "autoLock": "Bloqueio automatico",
+  "autoLockDelay": "Tempo de bloqueio",
+  "autoLockImmediate": "Imediato",
+  "autoLockMinute": "1 minuto",
+  "autoLockMinutes": "{count} minutos",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "vashCode": "Codigo Vash",
+  "vashModeTitle": "Modo Vash",
+  "vashModeExplanation": "Sua rede de seguranca definitiva.",
+  "vashModeDescription": "Voce vai escolher um segundo codigo PIN. Se um dia for obrigado a abrir o Hash, digite este codigo no lugar do seu PIN habitual.\n\nO app vai abrir normalmente, mas todas as suas conversas e contatos terao desaparecido.\n\nPara qualquer pessoa olhando sua tela, o Hash parecera simplesmente vazio — como se voce nunca o tivesse usado.",
+  "vashModeIrreversible": "Esta acao e silenciosa e irreversivel.",
+  "chooseVashCode": "Escolher meu codigo Vash",
+  "vashCodeInfo": "Um segundo codigo PIN que abre o app normalmente, mas vazio.",
+  "vashCodeInfoDetail": "Se voce digitar este codigo no lugar do seu PIN:",
+  "vashDeleteContacts": "Seus contatos desaparecem",
+  "vashDeleteMessages": "Suas conversas desaparecem",
+  "vashDeleteHistory": "Suas notas desaparecem",
+  "vashKeepId": "Sua identidade Hash (#XXX-XXX-XXX) permanece a mesma",
+  "vashAppearNormal": "O app aparece normal mas vazio, como novo. Esta acao e irreversivel.",
+  "setupVashCode": "Configurar codigo Vash",
+  "modifyVashCode": "Modificar codigo Vash",
+  "currentVashCode": "Codigo Vash atual",
+  "newVashCode": "Novo codigo Vash",
+  "confirmVashCode": "Confirmar codigo Vash",
+  "vashCodeConfigured": "Codigo Vash configurado",
+  "vashCodeModified": "Codigo Vash modificado",
+  "vashCodeMustDiffer": "O codigo Vash deve ser diferente do PIN",
+  "incorrectVashCode": "Codigo Vash incorreto",
+  "vashWhatToDelete": "O que o Modo Vash deve apagar?",
+  "vashDeleteContactsOption": "Contatos",
+  "vashDeleteMessagesOption": "Mensagens",
+  "vashDeleteNotesOption": "Notas",
+  "vashActivated": "Modo Vash ativado",
+  "vashCreateSubtitle": "Escolha um codigo diferente do seu PIN principal",
+  "vashConfirmSubtitle": "Confirme seu codigo Vash",
+
+  "pinCodeForEntry": "Codigo PIN para entrar no aplicativo",
+  "vashCodeSection": "Modo Vash",
+  "biometric": "Biometria",
+  "biometricUnlock": "Desbloquear com impressao digital ou Face ID",
+  "enableBiometric": "Ativar biometria",
+  "biometricWarningMessage": "Ao ativar a biometria, voce nao podera usar seu codigo Vash para entrar no aplicativo.\n\nVoce so podera usar o codigo Vash se a biometria falhar (apos varias tentativas malsucedidas).\n\nTem certeza de que deseja continuar?",
+  "understood": "Entendi",
+
+  "shareAppSubtitle": "Compartilhe o Hash com seus amigos",
+  "share": "Compartilhar",
+
+  "danger": "Perigo",
+  "panicButton": "Botao de panico",
+  "panicButtonSubtitle": "Excluir todos os dados",
+  "deleteAccount": "Excluir minha conta",
+  "deleteAccountSubtitle": "Acao irreversivel",
+  "deleteAccountConfirmTitle": "Excluir minha conta",
+  "deleteAccountConfirmMessage": "Sua conta sera excluida permanentemente. Esta acao e irreversivel.\n\n- Todos os seus chats\n- Todos os seus contatos\n- Seu Hash ID\n\nVoce precisara criar uma nova conta.",
+  "deleteForever": "Excluir permanentemente",
+  "cancel": "Cancelar",
+
+  "panicConfirmTitle": "Botao de Panico",
+  "panicConfirmMessage": "Esta acao excluira TODOS os seus dados permanentemente:\n\n- Todas as suas mensagens\n- Todos os seus contatos\n- Sua conta\n\nVoce tem certeza absoluta?",
+  "deleteAll": "EXCLUIR TUDO",
+  "dataDeletedForSecurity": "Modo Vash ativado.",
+  "deletionError": "Erro ao excluir: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "yourSecurity": "Sua seguranca",
+  "securityInfo": "- Criptografia de ponta a ponta (Protocolo Signal)\n- Nenhum dado em nossos servidores apos entrega\n- Chaves armazenadas apenas no seu dispositivo\n- Codigo PIN nunca enviado ao servidor",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+
+  "welcome": "Bem-vindo",
+  "securityStatement1": "Suas mensagens estao protegidas.",
+  "securityStatement2": "Criptografia de ponta a ponta.",
+  "securityStatement3": "Sem rastro. Sem compromisso.",
+  "securityStatement4": "Sua privacidade e um direito.",
+
+  "accessBlocked": "Acesso bloqueado",
+  "tooManyAttempts": "Muitas tentativas",
+  "pleaseWait": "Por favor aguarde",
+  "waitDelay": "Por favor aguarde o tempo terminar",
+  "attemptCount": "Tentativa {current} de {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Tentar novamente em {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Esqueceu o PIN? Use a frase de recuperacao",
+  "useRecoveryPhrase": "Usar frase de recuperacao",
+
+  "recoveryWarningTitle": "Atencao",
+  "recoveryWarningMessage": "A recuperacao da conta ira:",
+  "recoveryDeleteAllMessages": "Excluir TODAS as suas mensagens",
+  "recoveryWaitDelay": "Exigir um tempo de espera de 1 hora",
+  "recoveryKeepContacts": "Manter seus contatos",
+  "recoveryIrreversible": "Esta acao e irreversivel. Suas mensagens serao perdidas permanentemente.",
+  "iUnderstand": "Eu entendo",
+
+  "accountRecovery": "Recuperacao de conta",
+  "enterRecoveryPhrase": "Digite as 24 palavras da sua frase de recuperacao, separadas por espacos.",
+  "recoveryPhraseHint": "palavra1 palavra2 palavra3 ...",
+  "recover": "Recuperar",
+  "recoveryPhraseRequired": "Por favor digite sua frase de recuperacao",
+  "recoveryPhrase24Words": "A frase deve conter exatamente 24 palavras",
+  "incorrectRecoveryPhrase": "Frase de recuperacao incorreta",
+  "recoveryInitError": "Erro ao iniciar recuperacao",
+
+  "securityDelay": "Tempo de seguranca",
+  "securityDelayMessage": "Para sua seguranca, e necessario um tempo de espera antes de poder criar um novo PIN.",
+  "timeRemaining": "Tempo restante",
+  "messagesDeletedForProtection": "Suas mensagens foram excluidas para sua protecao.",
+  "canCloseApp": "Voce pode fechar o app e voltar mais tarde.",
+
+  "onboardingTitle1": "Bem-vindo ao Hash",
+  "onboardingSubtitle1": "O mensageiro que nao deixa rastros",
+  "onboardingTitle2": "Criptografia total",
+  "onboardingSubtitle2": "Suas mensagens sao criptografadas de ponta a ponta com o protocolo Signal",
+  "onboardingTitle3": "Sem rastros",
+  "onboardingSubtitle3": "As mensagens sao excluidas dos servidores apos a entrega",
+  "onboardingTitle4": "Sua seguranca",
+  "onboardingSubtitle4": "Codigo PIN, Modo Vash e frase de recuperacao",
+
+  "getStarted": "Comecar",
+  "next": "Proximo",
+  "skip": "Pular",
+  "alreadyHaveAccount": "Ja tenho uma conta",
+  "transferMyAccount": "Transferir minha conta",
+
+  "createPin": "Criar um codigo PIN",
+  "createPinSubtitle": "Este codigo protegera o acesso ao seu app",
+  "confirmYourPin": "Confirme seu codigo PIN",
+  "confirmPinSubtitle": "Digite seu codigo PIN novamente",
+
+  "saveRecoveryPhrase": "Frase de recuperacao",
+  "saveRecoveryPhraseSubtitle": "Anote estas 24 palavras em ordem. Elas permitirao que voce recupere sua conta se esquecer seu PIN.",
+  "phraseWritten": "Anotei minha frase",
+  "warningRecoveryPhrase": "Se voce perder esta frase e esquecer seu PIN, perdera o acesso a sua conta.",
+
+  "accountTransferred": "Conta transferida",
+  "accountTransferredMessage": "Sua conta foi transferida para outro dispositivo. Esta sessao nao e mais valida.",
+  "accountTransferredInfo": "Se voce nao iniciou esta transferencia, sua conta pode ter sido comprometida.",
+  "logout": "Sair",
+
+  "transferAccount": "Transferir conta",
+  "transferAccountInfo": "Transfira sua conta Hash para um novo dispositivo. Sua sessao atual sera invalidada.",
+  "generateTransferCode": "Gerar codigo de transferencia",
+  "transferCode": "Codigo de transferencia",
+  "transferCodeExpires": "Este codigo expira em {minutes} minutos",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Digite este codigo no seu novo dispositivo para transferir sua conta.",
+  "generateNewCode": "Gerar novo codigo",
+
+  "scanQrCode": "Escanear codigo QR",
+  "scanQrCodeSubtitle": "Escaneie o codigo QR de um contato para adiciona-lo",
+  "qrCodeDetected": "Codigo QR detectado",
+  "invalidQrCode": "Codigo QR invalido",
+  "cameraPermissionRequired": "Permissao de camera necessaria",
+
+  "myQrCode": "Meu codigo QR",
+  "myQrCodeSubtitle": "Compartilhe este codigo QR para que seus contatos possam adiciona-lo",
+  "shareQrCode": "Compartilhar",
+
+  "addContactTitle": "Adicionar contato",
+  "addContactByHashId": "Digite o Hash ID do seu contato",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Buscar",
+  "contactNotFound": "Contato nao encontrado",
+  "contactAlreadyAdded": "Este contato ja esta na sua lista",
+  "contactAdded": "Contato adicionado",
+
+  "myProfile": "Meu perfil",
+  "myProfileSubtitle": "Compartilhe essas informacoes para que possam te adicionar",
+  "temporaryCode": "Codigo temporario",
+  "temporaryCodeExpires": "Expira em {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Codigo expirado",
+  "generateNewCodeButton": "Novo codigo",
+  "copyHashId": "Copiar ID",
+  "copyCode": "Copiar codigo",
+  "copiedToClipboard": "Copiado",
+  "showMyQrCode": "Mostrar meu QR code",
+  "orDivider": "ou",
+  "openScanner": "Abrir scanner",
+  "addManually": "Adicionar manualmente",
+  "contactHashIdLabel": "Hash ID do contato",
+  "temporaryCodeLabel": "Codigo temporario",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Peca ao seu contato para gerar um codigo no perfil dele",
+  "verifyAndAdd": "Verificar e adicionar",
+  "fillAllFields": "Por favor, preencha todos os campos",
+  "invalidHashIdFormat": "Formato de ID invalido (ex: 123-456-ABC)",
+  "userNotFound": "Usuario nao encontrado",
+  "cannotAddYourself": "Voce nao pode se adicionar",
+  "invalidOrExpiredCode": "Codigo temporario invalido ou expirado",
+  "tooManyAttempts": "Muitas tentativas. Tente novamente mais tarde.",
+  "contactFound": "Contato encontrado!",
+  "howToCallContact": "Como voce quer chama-lo?",
+  "contactNameHint": "Nome do contato",
+  "addContactButton": "Adicionar",
+
+  "contactDetails": "Detalhes do contato",
+  "contactName": "Nome do contato",
+  "contactHashId": "Hash ID",
+  "addedOn": "Adicionado em {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Excluir contato",
+  "deleteContactConfirm": "Excluir este contato?",
+  "deleteContactMessage": "Isso tambem excluira todo o chat.",
+  "delete": "Excluir",
+
+  "typeMessage": "Digite uma mensagem...",
+  "messageSent": "Enviada",
+  "messageDelivered": "Entregue",
+  "messageRead": "Lida",
+  "messageFailed": "Falha ao enviar",
+
+  "now": "Agora",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}h",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Hoje",
+  "yesterday": "Ontem",
+  "dateAtTime": "{date} as {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Junte-se a mim no Hash! 🔒\n\nE um mensageiro verdadeiramente privado: criptografia total, sem rastros nos servidores e modo panico se necessario.\n\nBaixe o app aqui 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Erro",
+  "ok": "OK",
+  "view": "Ver",
+  "yes": "Sim",
+  "no": "Nao",
+  "save": "Salvar",
+  "edit": "Editar",
+  "close": "Fechar",
+  "confirm": "Confirmar",
+  "loading": "Carregando...",
+  "retry": "Tentar novamente",
+
+  "pendingRequests": "Solicitacoes recebidas",
+  "noPendingRequests": "Nenhuma solicitacao pendente",
+  "pendingRequestsSubtitle": "Estas pessoas querem adicionar voce",
+  "requestFromUser": "Solicitacao de {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Expira em {days} dias",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Aceitar",
+  "rejectRequest": "Recusar",
+  "requestAccepted": "Solicitacao aceita",
+  "requestRejected": "Solicitacao recusada",
+  "requestSent": "Solicitacao enviada!",
+  "requestSentSubtitle": "Sua solicitacao foi enviada. O usuario precisa aceita-la para que possam conversar.",
+  "requestAlreadyPending": "Uma solicitacao ja esta pendente",
+  "requestAlreadySentByOther": "Esta pessoa ja lhe enviou uma solicitacao",
+  "addByHashId": "Adicionar por Hash ID",
+  "addByHashIdSubtitle": "Digite o Hash ID e o codigo temporario do contato",
+  "enterTemporaryCode": "Digite o codigo de 6 digitos",
+  "sendRequest": "Enviar solicitacao",
+  "acceptContactTitle": "Aceitar contato",
+  "acceptContactSubtitle": "Voce pode dar um nome personalizado",
+  "leaveEmptyForHashId": "Deixe vazio para usar o Hash ID",
+  "firstName": "Nome",
+  "lastName": "Sobrenome",
+  "notes": "Notas",
+  "notesHint": "Notas pessoais sobre este contato",
+
+  "photoOptional": "Foto (opcional)",
+  "contactNameOptional": "Nome (opcional)",
+  "notesOptional": "Notas (opcional)",
+  "storedLocally": "Armazenado apenas no seu dispositivo",
+  "encryptedMessageLabel": "Mensagem criptografada",
+  "identityMessageHint": "Quem e voce? Como se conhecem?",
+  "messageWillBeSentEncrypted": "Esta mensagem sera criptografada e enviada ao destinatario",
+  "sendRequestButton": "Enviar solicitacao",
+  "requestExpiresIn24h": "A solicitacao expira em 24h se nao for aceita",
+  "theyAlreadySentYouRequest": "Esta pessoa ja lhe enviou uma solicitacao",
+
+  "requests": "Solicitacoes",
+  "receivedRequests": "Recebidas",
+  "sentRequests": "Enviadas",
+  "noSentRequests": "Nenhuma solicitacao enviada",
+  "cancelRequest": "Cancelar",
+  "deleteRequest": "Excluir solicitacao",
+  "requestCancelled": "Solicitacao cancelada",
+  "sentTo": "Enviada para {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Expira em {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Recebida ha {time}",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Mensagem do solicitante",
+
+  "copy": "Copiar",
+  "messageInfo": "Info da mensagem",
+
+  "messageDirection": "Direcao",
+  "messageSentByYou": "Enviada por voce",
+  "messageReceived": "Recebida",
+  "messageSentAt": "Enviada em",
+  "messageStatus": "Status",
+  "messageReadAt": "Lida em",
+  "messageType": "Tipo",
+  "messageSize": "Tamanho",
+  "messageExpiresAt": "Expira em",
+  "messageEncrypted": "Criptografada de ponta a ponta",
+
+  "messageStatusSending": "Enviando...",
+  "messageStatusSent": "Enviada",
+  "messageStatusDelivered": "Entregue",
+  "messageStatusRead": "Lida",
+  "messageStatusFailed": "Falhou",
+
+  "serverStatus": "Servidor",
+  "onServer": "Aguardando entrega",
+  "deletedFromServer": "Excluida",
+
+  "messageTypeText": "Texto",
+  "messageTypeImage": "Imagem",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Audio",
+  "messageTypeFile": "Arquivo",
+
+  "indefinitely": "Indefinidamente",
+  "hoursShort": "h",
+  "minutesShort": "min",
+  "hours": "horas",
+  "minutes": "minutos",
+  "seconds": "segundos",
+
+  "ephemeralMessages": "Mensagens efemeras",
+  "ephemeralMessagesDescription": "As mensagens sao automaticamente excluidas apos este tempo",
+  "ephemeralImmediate": "Imediato",
+  "ephemeralImmediateDesc": "Excluida assim que lida",
+  "ephemeralMyPreference": "Minha preferencia",
+  "ephemeralMyPreferenceDesc": "Usar a configuracao global",
+  "ephemeralDefaultSetting": "Duracao das mensagens",
+  "ephemeralChooseDefault": "Recomendado",
+  "ephemeral30Seconds": "30 segundos",
+  "ephemeral30SecondsDesc": "Excluida 30s apos leitura",
+  "ephemeral5Minutes": "5 minutos",
+  "ephemeral5MinutesDesc": "Excluida 5min apos leitura",
+  "ephemeral1Hour": "1 hora",
+  "ephemeral1HourDesc": "Excluida 1h apos leitura",
+  "ephemeral3Hours": "3 horas",
+  "ephemeral6Hours": "6 horas",
+  "ephemeral6HoursDesc": "Excluida 6h apos leitura",
+  "ephemeral12Hours": "12 horas",
+  "ephemeral24Hours": "24 horas",
+  "ephemeral24HoursDesc": "Excluida 24h apos leitura",
+  "customDuration": "Duracao personalizada",
+  "howItWorks": "Como funciona?",
+  "ephemeralExplanation1": "As mensagens ja sao excluidas do servidor ao serem recebidas.",
+  "ephemeralExplanation2": "Esta configuracao define quando as mensagens desaparecem do SEU telefone apos le-las.",
+  "ephemeralExplanation3": "Seu contato tem sua propria configuracao para o telefone dele.",
+  "mute1Hour": "1 hora",
+  "mute8Hours": "8 horas",
+  "mute1Day": "1 dia",
+  "mute1Week": "1 semana",
+  "muteAlways": "Sempre",
+  "muteExplanation": "Voce nao recebera mais notificacoes deste contato",
+  "showCallsInRecents": "Mostrar nas chamadas recentes",
+  "showCallsInRecentsSubtitle": "As chamadas do Hash aparecem no historico do telefone",
+  "feedback": "Feedback",
+
+  "muteNotifications": "Silenciar notificacoes",
+  "muteDescription": "Voce nao recebera notificacoes deste contato",
+  "mutedUntil": "Silenciado ate {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Notificacoes ativadas",
+  "unmute": "Reativar",
+
+  "notificationSound": "Som de notificacao",
+  "defaultSound": "Padrao",
+
+  "chatSettings": "Configuracoes do chat",
+  "bubbleColor": "Cor dos baloes",
+  "backgroundColor": "Cor de fundo",
+  "backgroundImage": "Imagem de fundo",
+  "chatBackground": "Fundo do chat",
+  "customColor": "Personalizada",
+  "defaultColor": "Padrao",
+  "imageSelected": "Imagem selecionada",
+  "noImage": "Sem imagem",
+  "color": "Cor",
+  "image": "Imagem",
+  "tapToSelectImage": "Toque para selecionar uma imagem",
+  "changeImage": "Trocar imagem",
+  "previewMessageReceived": "Oi!",
+  "previewMessageSent": "Ola!",
+
+  "messageAction": "Mensagem",
+  "callAction": "Chamada",
+  "videoAction": "Video",
+
+  "personalNotes": "Notas pessoais",
+  "addNotes": "Adicionar notas...",
+  "noNotes": "Nenhuma nota",
+
+  "messageNotifications": "Notificacoes de mensagens",
+  "callNotifications": "Notificacoes de chamadas",
+
+  "useGradient": "Usar degradee",
+  "gradientStart": "Cor inicial",
+  "gradientEnd": "Cor final",
+  "preview": "Previa",
+  "reset": "Redefinir",
+
+  "securityNumber": "Numero de seguranca",
+  "securityNumberDescription": "Verifique se o numero de seguranca corresponde ao dispositivo de {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Verificar criptografia de ponta a ponta",
+  "tapToCopy": "Toque para copiar",
+  "howToVerify": "Como verificar",
+  "verifyStep1": "Encontre seu contato pessoalmente ou ligue para ele",
+  "verifyStep2": "Compare os numeros de seguranca ou escaneie os codigos QR",
+  "verifyStep3": "Se corresponderem, seu chat e seguro",
+  "scanToVerify": "Escanear para verificar",
+
+  "reportSpam": "Denunciar como spam",
+  "reportSpamSubtitle": "Denunciar este contato como spam",
+  "reportSpamDescription": "Este contato sera denunciado anonimamente. Sua identidade nao sera compartilhada. Tem certeza?",
+  "report": "Denunciar",
+  "spamReported": "Spam denunciado",
+  "reportError": "Falha ao enviar a denuncia. Tente novamente.",
+  "reportRateLimited": "Voce atingiu o numero maximo de denuncias para hoje.",
+
+  "blockContact": "Bloquear contato",
+  "blockContactDescription": "Este contato nao podera mais lhe enviar mensagens ou ligar. Ele nao sera notificado.",
+  "unblockContact": "Desbloquear contato",
+  "unblockContactDescription": "Este contato podera novamente lhe enviar mensagens e ligar.",
+  "contactBlocked": "Contato bloqueado",
+  "contactUnblocked": "Contato desbloqueado",
+  "contactIsBlocked": "Este contato esta bloqueado",
+  "unblock": "Desbloquear",
+
+  "deleteContactSubtitle": "Excluir este contato e o chat",
+  "confirmWithPin": "Confirmar com PIN",
+  "enterPinToConfirm": "Digite seu PIN para confirmar esta acao",
+
+  "profilePhoto": "Foto de perfil",
+  "takePhoto": "Tirar uma foto",
+  "chooseFromGallery": "Escolher da galeria",
+  "removePhoto": "Remover foto",
+
+  "viewContactHashId": "Ver identificador do contato",
+  "hashIdPartiallyMasked": "Parcialmente oculto para sua seguranca e a do seu contato",
+
+  "addFirstContact": "Adicione seu primeiro contato",
+  "addFirstContactSubtitle": "Compartilhe seu codigo QR ou escaneie o de um amigo",
+  "directory": "Diretorio",
+  "noContacts": "Nenhum contato",
+  "noContactsSubtitle": "Adicione um contato para comecar",
+  "sendMessageAction": "Enviar uma mensagem",
+  "audioCall": "Chamada de audio",
+  "videoCall": "Videochamada",
+  "viewProfile": "Ver perfil",
+  "deleteContactDirectory": "Excluir contato",
+  "scanShort": "Escanear",
+  "addShort": "Adicionar",
+  "deleteContactConfirmName": "Tem certeza de que deseja excluir {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Sem notas",
+  "noNotesSubtitle": "Crie sua primeira nota",
+  "newNote": "Nova nota",
+  "editNote": "Editar nota",
+  "deleteNote": "Excluir nota",
+  "deleteNoteConfirm": "Tem certeza de que deseja excluir esta nota?",
+  "noteTitle": "Titulo",
+  "noteContent": "Conteudo",
+  "addItem": "Adicionar item",
+  "pinNote": "Fixar",
+  "unpinNote": "Desafixar",
+  "noteColor": "Cor",
+  "notePassword": "Senha",
+  "setPassword": "Definir senha",
+  "changePassword": "Alterar senha",
+  "removePassword": "Remover senha",
+  "enterPassword": "Digite a senha",
+  "confirmPassword": "Confirme a senha",
+  "passwordPin": "Codigo PIN",
+  "passwordText": "Senha de texto",
+  "protectedNote": "Nota protegida",
+  "incorrectPassword": "Senha incorreta",
+  "passwordSet": "Senha definida",
+  "passwordRemoved": "Senha removida",
+  "notesBiometric": "Face ID para notas",
+  "notesBiometricSubtitle": "Exigir autenticacao biometrica para abrir notas protegidas",
+  "textNote": "Nota de texto",
+  "checklistNote": "Lista de tarefas",
+  "tasksProgress": "{checked}/{total} tarefas",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Salvo",
+  "searchNotes": "Pesquisar nota",
+  "legalConsent": "Consentimento legal",
+  "confirmAge13": "Confirmo que tenho pelo menos 13 anos",
+  "acceptLegalStart": "Aceito a ",
+  "privacyPolicy": "Politica de Privacidade",
+  "termsOfService": "Termos de Servico",
+  "andThe": " e os ",
+  "continueButton": "Continuar",
+  "mustAcceptTerms": "Voce deve aceitar ambas as condicoes para continuar",
+
+  "support": "Suporte",
+  "contactSupport": "Contatar suporte",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Denunciar abuso",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Legal",
+  "legalEntity": "Entidade legal",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Fixar",
+  "unpinConversation": "Desfixar",
+  "hideConversation": "Remover do feed",
+  "deleteConversation": "Excluir conversa",
+  "deleteConversationConfirm": "Digite seu PIN para confirmar a exclusao de todas as mensagens",
+  "noConversations": "Nenhuma conversa",
+  "startConversation": "Iniciar",
+
+  "microphonePermissionRequired": "Acesso ao microfone necessario",
+  "microphonePermissionExplanation": "O Hash precisa do microfone para fazer chamadas.",
+  "cameraPermissionExplanation": "O Hash precisa da camera para chamadas de video.",
+  "openSettings": "Abrir configuracoes",
+
+  "callConnecting": "Conectando...",
+  "callRinging": "Chamando...",
+  "callReconnecting": "Reconectando...",
+  "callReconnectingTimer": "Reconectando ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Pausado",
+  "callPausedSubtitle": "A chamada ainda está ativa",
+  "callRemoteMicMuted": "Microfone do contato silenciado",
+  "callMiniControlsMute": "Silenciar",
+  "callMiniControlsUnmute": "Ativar microfone",
+  "callMiniControlsHangUp": "Desligar",
+  "callMiniControlsReturn": "Voltar a chamada",
+  "callNetworkPoor": "Conexao instavel",
+  "callNetworkLost": "Conexao perdida",
+  "callEndedTitle": "Chamada encerrada",
+
+  "deviceData": "Dados do dispositivo",
+  "deviceDataSubtitle": "Armazenamento local e servidor",
+  "localStorage": "Armazenamento local",
+  "onThisDevice": "neste dispositivo",
+  "encryptedDatabases": "Bancos de dados criptografados",
+  "files": "Arquivos",
+  "secureKeychain": "Chaveiro seguro",
+  "cache": "Cache",
+  "contactsDetail": "Nomes, avatares, chaves Signal",
+  "messagesDetail": "Conversas criptografadas",
+  "notesDetail": "Notas pessoais",
+  "signalSessions": "Sessoes Signal",
+  "signalSessionsDetail": "Sessoes de criptografia",
+  "pendingContacts": "Contatos pendentes",
+  "pendingContactsDetail": "Solicitacoes em andamento",
+  "callHistory": "Chamadas",
+  "callHistoryDetail": "Historico de chamadas",
+  "preferences": "Preferencias",
+  "preferencesDetail": "Preferencias de midia e chamadas",
+  "avatars": "Avatares",
+  "media": "Midia",
+  "fileCount": "{count, plural, =0{nenhum arquivo} =1{1 arquivo} other{{count} arquivos}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Ativo",
+  "notDefined": "Nao definido",
+  "biometrics": "Biometria",
+  "recoveryPhrase": "Frase de recuperacao",
+  "identity": "Identidade (Hash ID)",
+  "signalKeys": "Chaves Signal Protocol",
+  "authTokens": "Tokens de autenticacao",
+  "contactNamesCache": "Cache de nomes",
+  "remoteConfig": "Config remota",
+  "notificationPrefs": "Preferencias de notificacoes",
+  "serverData": "Dados no servidor",
+  "serverDataInfo": "O Hash mantem o minimo de dados no servidor, todos criptografados ou temporarios.",
+  "serverProfile": "Perfil",
+  "serverProfileDetail": "Hash ID, chaves publicas, token de caixa",
+  "serverPrekeys": "Pre-chaves",
+  "serverPrekeysDetail": "Chaves Signal de uso unico (consumidas)",
+  "serverMessages": "Mensagens em transito",
+  "serverMessagesDetail": "Excluidas apos recebimento (max. 24h)",
+  "serverMedia": "Midia em transito",
+  "serverMediaDetail": "Excluida apos download",
+  "serverContactRequests": "Solicitacoes de contato",
+  "serverContactRequestsDetail": "Expiram apos 24h",
+  "serverRateLimits": "Limites de taxa",
+  "serverRateLimitsDetail": "Dados temporarios anti-abuso",
+  "privacyReassurance": "O Hash nao pode ler suas mensagens. Todos os dados sao criptografados de ponta a ponta. Os dados do servidor sao excluidos automaticamente.",
+
+  "pinTooSimple": "Este codigo PIN e muito simples. Escolha um codigo mais seguro.",
+  "genericError": "Ocorreu um erro. Tente novamente.",
+  "accountCreationError": "Impossivel criar a conta: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frase copiada para a area de transferencia",
+  "copyPhrase": "Copiar a frase",
+  "recoveryPhraseSecurityWarning": "Anote esta frase em um lugar seguro. Se voce perder seu codigo PIN sem esta frase, perdera permanentemente o acesso aos seus dados.",
+
+  "noMessages": "Nenhuma mensagem",
+  "deleteAllMessagesWithContact": "Excluir todas as mensagens com {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Confirmacao",
+  "untitled": "Sem titulo",
+  "noSessions": "Nenhuma sessao",
+  "unknownContact": "Contato desconhecido",
+  "unnamed": "Sem nome",
+  "noPendingRequestsAlt": "Nenhuma solicitacao pendente",
+  "deleteAllCallHistory": "Excluir todo o historico de chamadas?",
+  "noCalls": "Nenhuma chamada",
+  "noPreferences": "Nenhuma preferencia",
+  "resetAllMediaPrefs": "Redefinir todas as preferencias de midia?",
+  "deleteThisAvatar": "Excluir este avatar?",
+  "deleteAllAvatars": "Excluir todos os avatares?",
+  "noAvatars": "Nenhum avatar",
+  "deleteThisFile": "Excluir este arquivo?",
+  "deleteAllMediaFiles": "Excluir todas as midias?",
+  "noMediaFiles": "Nenhuma midia",
+  "outgoing": "Efetuada",
+  "incoming": "Recebida",
+  "ephemeralViewDuration": "Visualizacao efemera: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Visualizacao normal",
+  "callReasonCompleted": "Concluida",
+  "callReasonMissed": "Perdida",
+  "callReasonDeclined": "Recusada",
+  "callReasonFailed": "Falhou",
+  "justNow": "Agora mesmo",
+  "timeAgoMinutes": "Ha {count} min",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "Ha {count}h",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "Ha {count}d",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Contato",
+  "messageTypeLocation": "Localizacao",
+  "statusQueued": "Na fila",
+  "blockedBadge": "Bloqueado",
+  "protectedBadge": "Protegida",
+  "messageCount": "{count} mensagem(ns)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Excluir?",
+
+  "transferMyAccountTitle": "Transferir minha conta",
+  "loadingError": "Erro de carregamento",
+  "transferToNewDevice": "Transferir para um novo dispositivo",
+  "transferInstructions": "No seu novo dispositivo, escolha \"Recuperar minha conta\" e insira estas informacoes:",
+  "yourHashIdLabel": "Seu Hash ID",
+  "enterYourPinCode": "Digite seu codigo PIN",
+  "pinOwnerConfirmation": "Para confirmar que voce e o proprietario desta conta",
+  "scanThisQrCode": "Escaneie este codigo QR",
+  "withYourNewDevice": "Com seu novo dispositivo",
+  "orEnterTheCode": "ou digite o codigo",
+  "transferCodeLabel": "Codigo de transferencia",
+  "proximityVerification": "Verificacao de proximidade",
+  "bringDevicesCloser": "Aproxime os dois dispositivos",
+  "confirmTransferQuestion": "Confirmar a transferencia?",
+  "accountWillBeTransferred": "Sua conta sera transferida para o novo dispositivo.\n\nEste dispositivo sera permanentemente desconectado.",
+  "transferComplete": "Transferencia concluida",
+  "transferSuccessMessage": "Sua conta foi transferida com sucesso.\n\nEste aplicativo sera fechado agora.",
+  "manualVerification": "Verificacao manual",
+  "codeDisplayedOnBothDevices": "Codigo exibido em ambos os dispositivos:",
+  "doesCodeMatchNewDevice": "Este codigo corresponde ao do novo dispositivo?",
+  "verifiedStatus": "Verificado",
+  "inProgressStatus": "Em andamento...",
+  "notAvailableStatus": "Nao disponivel",
+  "codeExpiredRestart": "O codigo expirou. Por favor, recomece.",
+  "codesDoNotMatchCancelled": "Os codigos nao correspondem. Transferencia cancelada.",
+  "transferToDevice": "Para: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Copiado!",
+  "expiresInTime": "Expira em {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "A biometria nao esta disponivel neste dispositivo",
+  "biometricAuthError": "Erro durante a autenticacao biometrica",
+  "authenticateForBiometric": "Por favor, autentique-se para ativar a biometria",
+  "biometricAuthFailed": "Autenticacao biometrica falhou",
+
+  "forceUpdateTitle": "Atualizacao necessaria",
+  "forceUpdateMessage": "Uma nova versao do Hash esta disponivel. Por favor, atualize para continuar.",
+  "updateButton": "Atualizar",
+  "maintenanceInProgress": "Manutencao em andamento",
+  "tryAgainLater": "Tente novamente mais tarde",
+  "information": "Informacao",
+
+  "later": "Mais tarde",
+  "doYouLikeHash": "Voce gosta do Hash?",
+  "yourFeedbackHelps": "Seu feedback nos ajuda a melhorar o app",
+  "ratingTerrible": "Terrivel",
+  "ratingBad": "Ruim",
+  "ratingOk": "OK",
+  "ratingGood": "Bom",
+  "ratingExcellent": "Excelente!",
+  "donationMessage": "Hash e um projeto sem fins lucrativos. Seu apoio nos permite continuar a desenvolver um mensageiro verdadeiramente privado.",
+
+  "recentConnections": "Conexoes recentes",
+  "loginInfoText": "Cada desbloqueio por PIN e registrado localmente. Apenas as ultimas 24 horas sao mantidas.",
+  "connectionCount": "Conexao(oes)",
+  "periodLabel": "Periodo",
+  "historyLabel": "Historico",
+  "noLoginRecorded": "Nenhuma conexao registrada",
+  "nextUnlocksAppearHere": "Os proximos desbloqueios aparecera aqui.",
+  "dataLocalOnly": "Estes dados sao armazenados apenas no seu dispositivo e nunca sao transmitidos.",
+  "currentSession": "Atual",
+  "todayLabel": "Hoje",
+  "yesterdayLabel": "Ontem",
+  "justNowLabel": "Agora mesmo",
+  "minutesAgoLabel": "Ha {count} min",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "Ha {hours}h",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "Ha {hours}h {minutes}min",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Nenhuma manutencao planejada",
+  "everythingWorkingNormally": "Tudo funcionando normalmente",
+  "maintenanceTitle": "Manutencao",
+  "maintenanceActiveLabel": "EM ANDAMENTO",
+  "maintenancePlannedLabel": "PLANEJADA",
+
+  "locking": "Bloqueando...",
+
+  "newMessageNotification": "Nova mensagem",
+
+  "secExplainTitle": "Como o Hash te protege",
+  "secExplainIntro": "O Hash foi projetado para que ninguem possa ler suas mensagens.",
+  "secExplainIntroSub": "Nem mesmo nos.\nVeja como funciona, explicado de forma simples.",
+  "secJourneyLabel": "O PERCURSO",
+  "secJourneyTitle": "A viagem da sua mensagem",
+  "secJourneySubtitle": "Do seu dedo ate a tela do seu contato, cada etapa e protegida. Siga o caminho.",
+  "secStep1Title": "Voce escreve sua mensagem",
+  "secStep1Desc": "Voce digita \"Oi!\" no app. Neste momento, a mensagem existe apenas na memoria do seu telefone. Nada foi enviado.",
+  "secStep2Title": "Criptografia com o protocolo Signal",
+  "secStep2Desc": "Quando voce pressiona \"Enviar\", sua mensagem e transformada em uma serie de caracteres incompreensiveis. E como se sua mensagem fosse trancada em um cofre cuja chave so o seu contato possui.",
+  "secStep3Title": "Sealed Sender: o envelope invisivel",
+  "secStep3Desc": "Imagine que voce envia uma carta pelo correio, mas sem endereco de remetente no envelope. E exatamente isso que o Hash faz. A mensagem e depositada em uma caixa postal anonima. O servidor nao sabe quem a enviou.",
+  "secStep4Title": "O servidor nao ve nada",
+  "secStep4Desc": "O servidor age como um carteiro cego. Ele so sabe que \"alguem depositou algo na caixa #A7X9\". Nao sabe quem enviou, o que e, nem para quem e destinado.",
+  "secStep4Highlight": "Nenhum metadado armazenado: sem endereco IP, sem timestamp, sem vinculo entre remetente e destinatario.",
+  "secStep5Title": "Seu contato recebe a mensagem",
+  "secStep5Desc": "O telefone do seu contato recupera o conteudo da sua caixa postal anonima e descriptografa a mensagem com sua chave privada, que nunca saiu do dispositivo. \"Oi!\" aparece na tela.",
+  "secStep6Title": "A mensagem desaparece do servidor",
+  "secStep6Desc": "Assim que seu contato confirma o recebimento, o servidor exclui permanentemente a mensagem. Sem lixeira, sem arquivo, sem backup. Mesmo mensagens nao lidas sao automaticamente destruidas apos 24 horas.",
+  "secStep7Title": "Expiracao local",
+  "secStep7Desc": "No telefone do seu contato, a mensagem se autodestroi conforme a duracao que voce escolheu: imediatamente apos a leitura, 5 minutos, 1 hora... voce decide.",
+  "secJourneyConclusion": "Resultado: zero rastro no servidor, zero rastro nos dispositivos. A mensagem existiu o tempo de ser lida e depois desapareceu.",
+  "secArchLabel": "ARQUITETURA",
+  "secArchTitle": "5 camadas de protecao",
+  "secArchSubtitle": "O Hash nao depende de uma unica tecnologia. Cada camada reforca as outras. Mesmo se uma camada for comprometida, seus dados permanecem seguros.",
+  "secLayer1Title": "Criptografia de ponta a ponta",
+  "secLayer1Desc": "Cada mensagem e criptografada com uma chave unica. Em termos simples: mesmo se alguem descriptografar uma mensagem, nao podera descriptografar a proxima. Cada mensagem tem seu proprio cadeado.",
+  "secLayer1Detail": "Para arquivos (fotos, videos, documentos), o Hash usa uma criptografia AES-256-GCM adicional. O arquivo e criptografado antes de sair do seu telefone.",
+  "secLayer2Title": "Sealed Sender (anonimato de rede)",
+  "secLayer2Desc": "Apps de mensagens classicos enviam suas mensagens com sua identidade anexada. E como escrever seu nome no envelope. O Hash usa caixas postais anonimas: o servidor deposita a mensagem sem saber quem a enviou.",
+  "secLayer2Detail": "Resultado: mesmo em caso de vazamento de dados do servidor, e impossivel reconstruir quem fala com quem.",
+  "secLayer3Title": "Exclusao automatica",
+  "secLayer3Desc": "As mensagens sao excluidas do servidor apos confirmacao de recebimento. Mesmo que uma mensagem nunca seja recuperada, ela e automaticamente destruida apos 24 horas.",
+  "secLayer3Detail": "No seu telefone, as mensagens se autodestroem conforme a duracao que voce escolher: imediatamente, 5 min, 15 min, 30 min, 1h, 3h, 6h ou 12h.",
+  "secLayer4Title": "Protecao de acesso local",
+  "secLayer4Desc": "O app e protegido por um codigo PIN de 6 digitos e/ou biometria (Face ID, impressao digital). Apos muitas tentativas fracassadas, o app e bloqueado com um atraso que aumenta a cada falha.",
+  "secLayer5Title": "Banco de dados bloqueado",
+  "secLayer5Desc": "No lado do servidor, nenhum usuario pode escrever diretamente no banco de dados. Todas as acoes passam por funcoes seguras que verificam cada solicitacao.",
+  "secLayer5Detail": "E como o guiche de um banco: voce nunca toca no cofre. Voce faz uma solicitacao, e o sistema verifica se voce tem permissao antes de agir.",
+  "secVashLabel": "UNICO NO MUNDO",
+  "secVashTitle": "Modo Vash",
+  "secVashSubtitle": "Um sistema de seguranca de emergencia que nao existe em nenhum outro app de mensagens.",
+  "secVashScenarioTitle": "Imagine esta situacao",
+  "secVashScenario1": "Alguem acessa seu telefone",
+  "secVashScenario2": "Pedem seu codigo PIN",
+  "secVashScenario3": "Voce quer apagar todos os seus dados com urgencia",
+  "secVashSolutionTitle": "A solucao: dois codigos PIN",
+  "secVashSolutionDesc": "Voce configura dois codigos PIN diferentes no Hash:",
+  "secVashNormalCodeLabel": "Codigo normal",
+  "secVashNormalCodeDesc": "Abre o app normalmente com todos os seus dados",
+  "secVashCodeLabel2": "Codigo Vash",
+  "secVashCodeDescription": "Abre o app normalmente... mas todos os seus dados sao silenciosamente excluidos em segundo plano",
+  "secVashWhatHappensTitle": "O que acontece depois",
+  "secVashWhatHappensDesc": "O app abre normalmente. Sem alerta, sem animacao suspeita. A tela simplesmente mostra um app vazio, como se voce acabou de instala-lo.\n\nNa realidade, todas as suas conversas, contatos e mensagens foram irreversivelmente excluidos em uma fracao de segundo.",
+  "secCallsLabel": "CHAMADAS E ARQUIVOS",
+  "secCallsTitle": "Tudo e criptografado",
+  "secCallsSubtitle": "Nao sao apenas as mensagens. Absolutamente tudo que transita pelo Hash e criptografado de ponta a ponta.",
+  "secAudioCallTitle": "Chamadas de audio",
+  "secAudioCallDesc": "Criptografadas de ponta a ponta via WebRTC. A voz e transmitida diretamente entre os dispositivos.",
+  "secVideoCallTitle": "Videochamadas",
+  "secVideoCallDesc": "Mesma tecnologia, cada fluxo criptografado individualmente.",
+  "secPhotosTitle": "Fotos e videos",
+  "secPhotosDesc": "Criptografados em AES-256-GCM antes de sair do seu telefone.",
+  "secDocsTitle": "Documentos",
+  "secDocsDesc": "PDF, ZIP, qualquer arquivo. Nome, tamanho e conteudo criptografados.",
+  "secAnonLabel": "ANONIMATO",
+  "secAnonTitle": "Nenhuma identidade necessaria",
+  "secAnonSubtitle": "O Hash nunca pede seu numero de telefone nem seu email. Voce e identificado por um Hash ID unico e anonimo.",
+  "secHashIdTitle": "Seu Hash ID",
+  "secHashIdDesc": "E seu identificador unico. Nao revela nada sobre voce: nem seu nome, nem seu numero, nem sua localizacao. E como um pseudonimo impossivel de vincular a sua identidade real.\n\nPara adicionar um contato, voce compartilha seu Hash ID ou escaneia um codigo QR. E so isso. Sem agenda sincronizada, sem sugestoes \"Pessoas que voce pode conhecer\".",
+  "secDataLabel": "DADOS",
+  "secDataTitle": "O que o Hash nao sabe",
+  "secDataSubtitle": "A melhor forma de proteger seus dados e nao coleta-los.",
+  "secNeverCollected": "Nunca coletado",
+  "secNeverItem1": "Conteudo das mensagens",
+  "secNeverItem2": "Lista de contatos",
+  "secNeverItem3": "Numero de telefone",
+  "secNeverItem4": "Endereco de email",
+  "secNeverItem5": "Endereco IP",
+  "secNeverItem6": "Localizacao",
+  "secNeverItem7": "Metadados (quem fala com quem)",
+  "secNeverItem8": "Historico de chamadas",
+  "secNeverItem9": "Agenda de contatos",
+  "secNeverItem10": "Identificadores publicitarios",
+  "secTempStored": "Armazenado temporariamente",
+  "secTempItem1": "Hash ID anonimo (identificador unico)",
+  "secTempItem2": "Chaves publicas de criptografia",
+  "secTempItem3": "Mensagens criptografadas em transito (max 24h)",
+  "secTempNote": "Mesmo estes dados minimos nao permitem identifica-lo. Seu Hash ID nao esta vinculado a nenhuma informacao pessoal.",
+  "secFooterTitle": "Sua privacidade, sua liberdade",
+  "secFooterDesc": "O Hash utiliza as mesmas tecnologias de criptografia dos aplicativos profissionais mais exigentes. Suas mensagens sao protegidas pela matematica, nao por promessas."
+}

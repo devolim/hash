@@ -1,0 +1,66 @@
+# ============================================
+# Hash - Root .gitignore
+# ============================================
+
+# === Environment & Secrets ===
+.env
+.env.*
+*.env
+!.env.example
+
+# === IDE ===
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Supabase secrets ===
+supabase/.env
+supabase/.env.*
+supabase/functions/.env
+supabase/functions/.env.*
+!supabase/.env.example
+!supabase/functions/.env.example
+
+# === LiveKit (infra config, not app code) ===
+livekit/
+
+# === Firebase ===
+**/google-services.json
+**/GoogleService-Info.plist
+
+# === Signing & Certificates ===
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# === Build artifacts ===
+hash/build/
+hash/ios/build/
+hash/android/build/
+
+# === Local config ===
+hash/android/local.properties
+
+# === Private / non-project files ===
+idea/
+image/
+Signal/
+.claude/
+~$*
+
+# === Supabase local files ===
+supabase/.branches/
+supabase/.temp/
+supabase/notes.txt
+supabase/snippets/

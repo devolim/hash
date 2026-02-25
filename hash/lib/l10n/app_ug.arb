@@ -1,0 +1,1039 @@
+{
+  "@@locale": "ug",
+  "appName": "Hash",
+  "appTagline": "ئىز قالدۇرمايدۇ. تاۋۇر بەرمەيدۇ.",
+  "conversations": "پاراڭلار",
+  "contacts": "ئالاقىداشلار",
+  "noConversation": "پاراڭ يوق",
+  "noConversationSubtitle": "بىخەتەر پاراڭلاشتۇرۇش ئۈچۈن ئالاقىداش قوشۇڭ",
+  "pendingRequestsCount": "{count, plural, =1{1 ساقلاۋاتقان ئىلتىماس} other{{count} ساقلاۋاتقان ئىلتىماسلار}}",
+  "sentRequestsCount": "{count, plural, =1{1 يوللانغان ئىلتىماس ساقلاۋاتىدۇ} other{{count} يوللانغان ئىلتىماسلار ساقلاۋاتىدۇ}}",
+  "addContact": "ئالاقىداش قوشۇش",
+  "shareApp": "ئەپنى ھەمبەھىرلەش",
+  "newMessage": "يېڭى ئۇچۇر",
+  "newConversation": "ئۇچۇر يوللاش",
+  "settings": "تەڭشەكلەر",
+  "myHashId": "مېنىڭ Hash ID",
+  "supportHash": "Hash نى قوللاش",
+  "supportHashSubtitle": "Hash پايدا ئىزدىمەيدىغان تۈر",
+  "donate": "ئىئانە",
+  "appearance": "كۆرۈنۈش",
+  "theme": "تېما",
+  "themeAuto": "ئاپتوماتىك",
+  "themeAutoSubtitle": "سىستېما تەڭشىكىگە ئەگىشىدۇ",
+  "themeDark": "قاراڭغۇ",
+  "themeLight": "يورۇق",
+  "themeRecommendation": "ياخشىراق مەخپىيەتلىك ئۈچۈن قاراڭغۇ تېما تەۋسىيە قىلىنىدۇ",
+  "language": "تىل",
+  "languageAuto": "ئاپتوماتىك (سىستېما)",
+  "notifications": "ئۇقتۇرۇشلار",
+  "messages": "ئۇچۇرلار",
+  "calls": "چاقىرىشلار",
+  "vibration": "تىترەش",
+  "notificationContent": "ئۇقتۇرۇش مەزمۇنى",
+  "notificationContentFull": "ھەممىنى كۆرسەت",
+  "notificationContentFullDesc": "ئالاقىداش ئىسمى ۋە ئۇچۇر ئالدىن كۆرۈشى",
+  "notificationContentName": "پەقەت ئىسىم",
+  "notificationContentNameDesc": "پەقەت ئالاقىداش ئىسمىنى كۆرسىتىدۇ",
+  "notificationContentDiscrete": "ئەستايىدىل",
+  "notificationContentDiscreteDesc": "پەقەت «يېڭى ئۇچۇر» كۆرسىتىدۇ",
+  "security": "بىخەتەرلىك",
+  "howHashProtectsYou": "Hash سىزنى قانداق قوغدايدۇ",
+  "howHashProtectsYouSubtitle": "بىخەتەرلىكىڭىزنى چۈشىنىڭ",
+  "accountSecurity": "ھېسابات بىخەتەرلىكى",
+  "accountSecuritySubtitle": "PIN، بىئولوگىيىلىك، Vash ھالىتى",
+  "blockScreenshots": "ئېكران رەسىمىنى توسۇش",
+  "transferDevice": "باشقا ئۈسكۈنىگە يۆتكەش",
+  "transferDeviceSubtitle": "ھېساباتىڭىزنى يۆتكەڭ",
+  "pinCode": "PIN كود",
+  "changePin": "PIN كودنى ئۆزگەرتىش",
+  "currentPin": "نۆۋەتتىكى PIN كود",
+  "newPin": "يېڭى PIN كود",
+  "confirmPin": "PIN كودنى جەزملەش",
+  "pinChanged": "PIN كود ئۆزگەرتىلدى",
+  "incorrectPin": "خاتا PIN",
+  "pinsDoNotMatch": "PIN لار ماس كەلمىدى",
+  "autoLock": "ئاپتوماتىك قۇلۇپلاش",
+  "autoLockDelay": "قۇلۇپلاش كېچىكتۈرۈش",
+  "autoLockImmediate": "دەرھال",
+  "autoLockMinute": "1 مىنۇت",
+  "autoLockMinutes": "{count} مىنۇت",
+  "vashCode": "Vash كودى",
+  "vashModeTitle": "Vash ھالىتى",
+  "vashModeExplanation": "ئاخىرقى بىخەتەرلىك تورىڭىز.",
+  "vashModeDescription": "سىز ئىككىنچى PIN كود تاللايسىز. ئەگەر سىزنى Hash ئېچىشقا مەجبۇرلىسا، نورمال PIN ئورنىغا بۇ كودنى كىرگۈزۈڭ.\n\nئەپ نورمال ئېچىلىدۇ، لېكىن بارلىق سۆھبەت ۋە ئالاقىداشلىرىڭىز يوقىلىدۇ.\n\nئېكرانىڭىزغا قاراۋاتقان ھەر كىشىگە، Hash بوش كۆرۈنىدۇ — ھەرگىز ئىشلەتمىگەندەك.",
+  "vashModeIrreversible": "بۇ مەشغۇلات جىم ۋە قايتۇرغۇسىز.",
+  "chooseVashCode": "Vash كودىمنى تاللاش",
+  "vashCodeInfo": "ئەپنى نورمال لېكىن بوش ئاچىدىغان ئىككىنچى PIN كود.",
+  "vashCodeInfoDetail": "ئەگەر PIN ئورنىغا بۇ كودنى كىرگۈزسىڭىز:",
+  "vashDeleteContacts": "ئالاقىداشلىرىڭىز يوقىلىدۇ",
+  "vashDeleteMessages": "سۆھبەتلىرىڭىز يوقىلىدۇ",
+  "vashDeleteHistory": "خاتىرىلىرىڭىز يوقىلىدۇ",
+  "vashKeepId": "Hash كىملىكىڭىز (#XXX-XXX-XXX) ئۆزگەرمەيدۇ",
+  "vashAppearNormal": "ئەپ نورمال لېكىن بوش كۆرۈنىدۇ، يېڭىدەك. بۇ مەشغۇلات قايتۇرغۇسىز.",
+  "setupVashCode": "Vash كودىنى تەڭشەش",
+  "modifyVashCode": "Vash كودىنى ئۆزگەرتىش",
+  "currentVashCode": "نۆۋەتتىكى Vash كودى",
+  "newVashCode": "يېڭى Vash كودى",
+  "confirmVashCode": "Vash كودىنى جەزملەش",
+  "vashCodeConfigured": "Vash كودى تەڭشەلدى",
+  "vashCodeModified": "Vash كودى ئۆزگەرتىلدى",
+  "vashCodeMustDiffer": "Vash كودى PIN دىن ئوخشىمىسلىقى كېرەك",
+  "incorrectVashCode": "خاتا Vash كودى",
+  "vashWhatToDelete": "Vash ھالىتى نېمىنى يوقىتىشى كېرەك؟",
+  "vashDeleteContactsOption": "ئالاقىداشلار",
+  "vashDeleteMessagesOption": "ئۇچۇرلار",
+  "vashDeleteNotesOption": "خاتىرىلەر",
+  "vashActivated": "Vash ھالىتى ئاكتىپلاندى",
+  "vashCreateSubtitle": "ئاساسىي PIN دىن باشقا كود تاللاڭ",
+  "vashConfirmSubtitle": "Vash كودىڭىزنى جەزملەڭ",
+  "vashCodeSection": "Vash ھالىتى",
+  "danger": "خەتەر",
+  "panicButton": "ۋەھىمە كۇنۇپكىسى",
+  "panicButtonSubtitle": "بارلىق سانلىق مەلۇماتنى ئۆچۈرۈش",
+  "deleteAccount": "ھېساباتىمنى ئۆچۈرۈش",
+  "deleteAccountSubtitle": "قايتۇرغۇسىز مەشغۇلات",
+  "deleteAccountConfirmTitle": "ھېساباتىمنى ئۆچۈرۈش",
+  "deleteAccountConfirmMessage": "ھېساباتىڭىز مەڭگۈلۈك ئۆچۈرۈلىدۇ. بۇ مەشغۇلات قايتۇرغۇسىز.\n\n• بارلىق پاراڭلىرىڭىز\n• بارلىق ئالاقىداشلىرىڭىز\n• Hash ID ڭىز\n\nيېڭى ھېسابات قۇرۇشىڭىز كېرەك.",
+  "deleteForever": "مەڭگۈلۈك ئۆچۈرۈش",
+  "cancel": "بىكار قىلىش",
+  "panicConfirmTitle": "ۋەھىمە كۇنۇپكىسى",
+  "panicConfirmMessage": "بۇ مەشغۇلات بارلىق سانلىق مەلۇماتىڭىزنى مەڭگۈلۈك ئۆچۈرىدۇ:\n\n• بارلىق ئۇچۇرلىرىڭىز\n• بارلىق ئالاقىداشلىرىڭىز\n• ھېساباتىڭىز\n\nمۇتلەق جەزىملىمۇ؟",
+  "deleteAll": "ھەممىنى ئۆچۈرۈش",
+  "dataDeletedForSecurity": "Vash ھالىتى ئاكتىپلاندى.",
+  "deletionError": "ئۆچۈرۈش خاتالىقى: {error}",
+  "yourSecurity": "بىخەتەرلىكىڭىز",
+  "securityInfo": "• ئۇچتىن-ئۇچقا شىفىرلاش (Signal Protocol)\n• يەتكۈزگەندىن كېيىن مۇلازىمېتىردا سانلىق مەلۇمات يوق\n• ئاچقۇچلار پەقەت ئۈسكۈنىڭىزدە ساقلىنىدۇ\n• PIN كود ھەرگىز مۇلازىمېتىرغا يوللانمايدۇ",
+  "version": "Hash v{version}",
+  "welcome": "خۇش كەلدىڭىز",
+  "securityStatement1": "ئۇچۇرلىرىڭىز قوغدالغان.",
+  "securityStatement2": "ئۇچتىن-ئۇچقا شىفىرلاش.",
+  "securityStatement3": "ئىز يوق. تاۋۇر يوق.",
+  "securityStatement4": "مەخپىيەتلىكىڭىز بىر ھوقۇق.",
+  "accessBlocked": "كىرىش توسۇلدى",
+  "tooManyAttempts": "بەك كۆپ سىناش",
+  "pleaseWait": "ساقلاڭ",
+  "waitDelay": "كېچىكتۈرۈش ئاخىرلاشقۇچە ساقلاڭ",
+  "attemptCount": "سىناش {current} / {max}",
+  "retryIn": "{time} دىن كېيىن قايتا سىناڭ",
+  "forgotPin": "PIN ئۇنتۇلدىمۇ؟ ئەسلىگە كەلتۈرۈش ئىبارىسىنى ئىشلىتىڭ",
+  "useRecoveryPhrase": "ئەسلىگە كەلتۈرۈش ئىبارىسىنى ئىشلىتىش",
+  "recoveryWarningTitle": "ئاگاھلاندۇرۇش",
+  "recoveryWarningMessage": "ھېسابات ئەسلىگە كەلتۈرۈش:",
+  "recoveryDeleteAllMessages": "بارلىق ئۇچۇرلىرىڭىزنى ئۆچۈرىدۇ",
+  "recoveryWaitDelay": "1 سائەت كېچىكتۈرۈش تەلەپ قىلىنىدۇ",
+  "recoveryKeepContacts": "ئالاقىداشلىرىڭىزنى ساقلايدۇ",
+  "recoveryIrreversible": "بۇ مەشغۇلات قايتۇرغۇسىز. ئۇچۇرلىرىڭىز مەڭگۈلۈك يوقىلىدۇ.",
+  "iUnderstand": "چۈشەندىم",
+  "accountRecovery": "ھېسابات ئەسلىگە كەلتۈرۈش",
+  "enterRecoveryPhrase": "ئەسلىگە كەلتۈرۈش ئىبارىسىنىڭ 24 سۆزىنى بوشلۇق بىلەن ئايرىپ كىرگۈزۈڭ.",
+  "recoveryPhraseHint": "سۆز1 سۆز2 سۆز3 ...",
+  "recover": "ئەسلىگە كەلتۈرۈش",
+  "recoveryPhraseRequired": "ئەسلىگە كەلتۈرۈش ئىبارىسىنى كىرگۈزۈڭ",
+  "recoveryPhrase24Words": "ئىبارە چوقۇم 24 سۆزدىن تۈزۈلىشى كېرەك",
+  "incorrectRecoveryPhrase": "خاتا ئەسلىگە كەلتۈرۈش ئىبارىسى",
+  "recoveryInitError": "ئەسلىگە كەلتۈرۈشنى باشلاشتا خاتالىق",
+  "securityDelay": "بىخەتەرلىك كېچىكتۈرۈشى",
+  "securityDelayMessage": "بىخەتەرلىكىڭىز ئۈچۈن، يېڭى PIN قۇرۇشتىن بۇرۇن كۈتۈش مەزگىلى تەلەپ قىلىنىدۇ.",
+  "timeRemaining": "قالغان ۋاقىت",
+  "messagesDeletedForProtection": "قوغداش ئۈچۈن ئۇچۇرلىرىڭىز ئۆچۈرۈلدى.",
+  "canCloseApp": "ئەپنى ئېتىپ كېيىن قايتىپ كېلەلەيسىز.",
+  "onboardingTitle1": "Hash غا خۇش كەلدىڭىز",
+  "onboardingSubtitle1": "ئىز قالدۇرمايدىغان ئۇچۇرلاشقۇ",
+  "onboardingTitle2": "تولۇق شىفىرلاش",
+  "onboardingSubtitle2": "ئۇچۇرلىرىڭىز Signal protocol بىلەن ئۇچتىن-ئۇچقا شىفىرلانغان",
+  "onboardingTitle3": "ئىز يوق",
+  "onboardingSubtitle3": "يەتكۈزگەندىن كېيىن ئۇچۇرلار مۇلازىمېتىرلاردىن ئۆچۈرۈلىدۇ",
+  "onboardingTitle4": "بىخەتەرلىكىڭىز",
+  "onboardingSubtitle4": "PIN كود، Vash ھالىتى ۋە ئەسلىگە كەلتۈرۈش ئىبارىسى",
+  "getStarted": "باشلاش",
+  "next": "كېيىنكى",
+  "skip": "ئاتلاش",
+  "alreadyHaveAccount": "ھېساباتىم بار",
+  "transferMyAccount": "ھېساباتىمنى يۆتكەش",
+  "createPin": "PIN كود قۇرۇش",
+  "createPinSubtitle": "بۇ كود ئەپنىڭ كىرىشىنى قوغدايدۇ",
+  "confirmYourPin": "PIN كودىڭىزنى جەزملەڭ",
+  "confirmPinSubtitle": "PIN كودىڭىزنى قايتا كىرگۈزۈڭ",
+  "saveRecoveryPhrase": "ئەسلىگە كەلتۈرۈش ئىبارىسى",
+  "saveRecoveryPhraseSubtitle": "بۇ 24 سۆزنى تەرتىپ بويىچە يېزىپ قويۇڭ. PIN ئۇنتۇلسا ھېساباتنى ئەسلىگە كەلتۈرەلەيسىز.",
+  "phraseWritten": "ئىبارىمنى يېزىپ بولدۇم",
+  "warningRecoveryPhrase": "بۇ ئىبارىنى يوقىتىپ PIN نى ئۇنتۇسىڭىز، ھېساباتقا كىرەلمەيسىز.",
+  "accountTransferred": "ھېسابات يۆتكەلدى",
+  "accountTransferredMessage": "ھېساباتىڭىز باشقا ئۈسكۈنىگە يۆتكەلدى. بۇ يىغىن ئەمدى ئىناۋەتسىز.",
+  "accountTransferredInfo": "بۇ يۆتكەشنى سىز باشلىمىغان بولسىڭىز، ھېساباتىڭىز خەتەرگە ئۇچرىغان بولۇشى مۇمكىن.",
+  "logout": "چېكىنىش",
+  "transferAccount": "ھېسابات يۆتكەش",
+  "transferAccountInfo": "Hash ھېساباتىڭىزنى يېڭى ئۈسكۈنىگە يۆتكەڭ. نۆۋەتتىكى يىغىنىڭىز ئىناۋەتسىز بولىدۇ.",
+  "generateTransferCode": "يۆتكەش كودى ھاسىللاش",
+  "transferCode": "يۆتكەش كودى",
+  "transferCodeExpires": "بۇ كود {minutes} مىنۇتتا ۋاقتى ئۆتىدۇ",
+  "enterCodeOnNewDevice": "ھېساباتىڭىزنى يۆتكەش ئۈچۈن يېڭى ئۈسكۈنىدە بۇ كودنى كىرگۈزۈڭ.",
+  "generateNewCode": "يېڭى كود ھاسىللاش",
+  "scanQrCode": "QR code سىكانىرلاش",
+  "scanQrCodeSubtitle": "ئالاقىداشنىڭ QR code نى سىكانىرلاپ قوشۇڭ",
+  "qrCodeDetected": "QR code بايقالدى",
+  "invalidQrCode": "ئىناۋەتسىز QR code",
+  "cameraPermissionRequired": "كامېرا ئىجازىتى تەلەپ قىلىنىدۇ",
+  "myQrCode": "مېنىڭ QR code",
+  "myQrCodeSubtitle": "ئالاقىداشلىرىڭىز سىزنى قوشالاشى ئۈچۈن بۇ QR code نى ھەمبەھىرلەڭ",
+  "shareQrCode": "ھەمبەھىرلەش",
+  "addContactTitle": "ئالاقىداش قوشۇش",
+  "addContactByHashId": "ئالاقىداشىڭىزنىڭ Hash ID سىنى كىرگۈزۈڭ",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "ئىزدەش",
+  "contactNotFound": "ئالاقىداش تېپىلمىدى",
+  "contactAlreadyAdded": "بۇ ئالاقىداش تىزىملىكتە بار",
+  "contactAdded": "ئالاقىداش قوشۇلدى",
+  "myProfile": "مېنىڭ تەرجىمىھالىم",
+  "myProfileSubtitle": "باشقىلار سىزنى قوشالاشى ئۈچۈن بۇ ئۇچۇرنى ھەمبەھىرلەڭ",
+  "temporaryCode": "ۋاقىتلىق كود",
+  "temporaryCodeExpires": "{time} دا ۋاقتى ئۆتىدۇ",
+  "codeExpired": "كود ۋاقتى ئۆتتى",
+  "generateNewCodeButton": "يېڭى كود",
+  "copyHashId": "ID كۆچۈرۈش",
+  "copyCode": "كود كۆچۈرۈش",
+  "copiedToClipboard": "كۆچۈرۈلدى",
+  "showMyQrCode": "QR code منى كۆرسەت",
+  "orDivider": "ياكى",
+  "openScanner": "سىكانېرنى ئاچ",
+  "addManually": "قولدا قوشۇش",
+  "contactHashIdLabel": "ئالاقىداشنىڭ Hash ID سى",
+  "temporaryCodeLabel": "ۋاقىتلىق كود",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "ئالاقىداشىڭىزدىن تەرجىمىھالىدىن كود ھاسىللاشنى سوراڭ",
+  "verifyAndAdd": "تەكشۈرۈپ قوشۇش",
+  "fillAllFields": "بارلىق بۆلەكلەرنى تولدۇرۇڭ",
+  "invalidHashIdFormat": "ئىناۋەتسىز ID فورماتى (مەسىلەن: 123-456-ABC)",
+  "userNotFound": "ئىشلەتكۈچى تېپىلمىدى",
+  "cannotAddYourself": "ئۆزىڭىزنى قوشالمايسىز",
+  "invalidOrExpiredCode": "ئىناۋەتسىز ياكى ۋاقتى ئۆتكەن ۋاقىتلىق كود",
+  "contactFound": "ئالاقىداش تېپىلدى!",
+  "howToCallContact": "ئۇلارنى نېمە دەپ ئاتىماقچى؟",
+  "contactNameHint": "ئالاقىداش ئىسمى",
+  "addContactButton": "قوشۇش",
+  "contactDetails": "ئالاقىداش تەپسىلاتى",
+  "contactName": "ئالاقىداش ئىسمى",
+  "contactHashId": "Hash ID",
+  "addedOn": "{date} دا قوشۇلغان",
+  "deleteContact": "ئالاقىداش ئۆچۈرۈش",
+  "deleteContactConfirm": "بۇ ئالاقىداشنى ئۆچۈرەمسىز؟",
+  "deleteContactMessage": "بۇ پۈتۈن پاراڭنىمۇ ئۆچۈرىدۇ.",
+  "delete": "ئۆچۈرۈش",
+  "typeMessage": "ئۇچۇر يېزىڭ...",
+  "messageSent": "يوللاندى",
+  "messageDelivered": "يەتكۈزۈلدى",
+  "messageRead": "ئوقۇلدى",
+  "messageFailed": "يوللاش مەغلۇب بولدى",
+  "now": "ھازىر",
+  "minutesAgo": "{count}مىن",
+  "hoursAgo": "{count}سائ",
+  "daysAgo": "{count}كۈن",
+  "today": "بۈگۈن",
+  "yesterday": "تۈنۈگۈن",
+  "dateAtTime": "{date} سائەت {time}",
+  "shareMessage": "Hash دا ماڭا قوشۇلۇڭ! 🔒\n\nبۇ ھەقىقىي مەخپىي ئۇچۇرلاشقۇ: تولۇق شىفىرلاش، مۇلازىمېتىرلاردا ئىز يوق ۋە لازىم بولسا ۋەھىمە ھالىتى.\n\nئەپنى بۇ يەردىن چۈشۈرۈڭ 👇\nhttps://hash.devolim.fr/share/index.html",
+  "error": "خاتالىق",
+  "ok": "ماقۇل",
+  "view": "كۆرۈش",
+  "yes": "ھەئە",
+  "no": "ياق",
+  "save": "ساقلاش",
+  "edit": "تەھرىرلەش",
+  "close": "تاقاش",
+  "confirm": "جەزملەش",
+  "loading": "يۈكلىنىۋاتىدۇ...",
+  "retry": "قايتا سىناش",
+  "pendingRequests": "ساقلاۋاتقان ئىلتىماسلار",
+  "noPendingRequests": "ساقلاۋاتقان ئىلتىماس يوق",
+  "pendingRequestsSubtitle": "بۇ كىشىلەر سىزنى قوشماقچى",
+  "requestFromUser": "{hashId} دىن ئىلتىماس",
+  "requestExpiresIn": "{days} كۈندىن كېيىن ۋاقتى ئۆتىدۇ",
+  "acceptRequest": "قوبۇل قىلىش",
+  "rejectRequest": "رەت قىلىش",
+  "requestAccepted": "ئىلتىماس قوبۇل قىلىندى",
+  "requestRejected": "ئىلتىماس رەت قىلىندى",
+  "requestSent": "ئىلتىماس يوللاندى!",
+  "requestSentSubtitle": "ئىلتىماسىڭىز يوللاندى. پاراڭلاشتىن بۇرۇن ئىشلەتكۈچى قوبۇل قىلىشى كېرەك.",
+  "requestAlreadyPending": "ئىلتىماس ساقلاۋاتىدۇ",
+  "requestAlreadySentByOther": "بۇ كىشى سىزگە ئىلتىماس يوللىغان",
+  "addByHashId": "Hash ID بىلەن قوشۇش",
+  "addByHashIdSubtitle": "ئالاقىداشنىڭ Hash ID سى ۋە ۋاقىتلىق كودنى كىرگۈزۈڭ",
+  "enterTemporaryCode": "6 خانىلىق كودنى كىرگۈزۈڭ",
+  "sendRequest": "ئىلتىماس يوللاش",
+  "acceptContactTitle": "ئالاقىداش قوبۇل قىلىش",
+  "acceptContactSubtitle": "ئۇلارغا ئالاھىدە ئىسىم بەرسىڭىز بولىدۇ",
+  "leaveEmptyForHashId": "Hash ID ئىشلىتىش ئۈچۈن بوش قالدۇرۇڭ",
+  "firstName": "ئىسمى",
+  "lastName": "فامىلىسى",
+  "notes": "خاتىرىلەر",
+  "notesHint": "بۇ ئالاقىداش ھەققىدە شەخسىي خاتىرىلەر",
+  "photoOptional": "رەسىم (ئىختىيارىي)",
+  "contactNameOptional": "ئىسىم (ئىختىيارىي)",
+  "notesOptional": "خاتىرىلەر (ئىختىيارىي)",
+  "storedLocally": "پەقەت ئۈسكۈنىڭىزدە ساقلىنىدۇ",
+  "encryptedMessageLabel": "شىفىرلانغان ئۇچۇر",
+  "identityMessageHint": "سىز كىم؟ بىر-بىرىڭىزنى قانداق تونۇيسىز؟",
+  "messageWillBeSentEncrypted": "بۇ ئۇچۇر شىفىرلىنىپ تاپشۇرۇۋالغۇچىغا يوللىنىدۇ",
+  "sendRequestButton": "ئىلتىماس يوللاش",
+  "requestExpiresIn24h": "قوبۇل قىلىنمىسا ئىلتىماس 24 سائەتتە ۋاقتى ئۆتىدۇ",
+  "theyAlreadySentYouRequest": "بۇ كىشى سىزگە ئىلتىماس يوللىغان",
+  "requests": "ئىلتىماسلار",
+  "receivedRequests": "كەلگەن",
+  "sentRequests": "يوللانغان",
+  "noSentRequests": "يوللانغان ئىلتىماس يوق",
+  "cancelRequest": "بىكار قىلىش",
+  "deleteRequest": "ئىلتىماس ئۆچۈرۈش",
+  "requestCancelled": "ئىلتىماس بىكار قىلىندى",
+  "sentTo": "{hashId} غا يوللاندى",
+  "expiresIn": "{time} دا ۋاقتى ئۆتىدۇ",
+  "receivedAgo": "{time} ئىلگىرى كەلگەن",
+  "messageFromRequester": "ئىلتىماسچىدىن ئۇچۇر",
+  "copy": "كۆچۈرۈش",
+  "messageInfo": "ئۇچۇر ئۇچۇرى",
+  "messageDirection": "يۆنىلىش",
+  "messageSentByYou": "سىز يوللىدىڭىز",
+  "messageReceived": "كەلدى",
+  "messageSentAt": "يوللانغان ۋاقىت",
+  "messageStatus": "ھالەت",
+  "messageReadAt": "ئوقۇلغان ۋاقىت",
+  "messageType": "تۈرى",
+  "messageSize": "چوڭلۇقى",
+  "messageExpiresAt": "ۋاقتى ئۆتىدىغان ۋاقىت",
+  "messageEncrypted": "ئۇچتىن-ئۇچقا شىفىرلانغان",
+  "messageStatusSending": "يوللاۋاتىدۇ...",
+  "messageStatusSent": "يوللاندى",
+  "messageStatusDelivered": "يەتكۈزۈلدى",
+  "messageStatusRead": "ئوقۇلدى",
+  "messageStatusFailed": "مەغلۇب",
+  "serverStatus": "مۇلازىمېتىر",
+  "onServer": "يەتكۈزۈش ساقلاۋاتىدۇ",
+  "deletedFromServer": "ئۆچۈرۈلدى",
+  "messageTypeText": "تېكىست",
+  "messageTypeImage": "رەسىم",
+  "messageTypeVideo": "سىن",
+  "messageTypeVoice": "ئاۋاز",
+  "messageTypeFile": "ھۆججەت",
+  "indefinitely": "چەكسىز",
+  "hoursShort": "سائ",
+  "minutesShort": "مىن",
+  "hours": "سائەت",
+  "minutes": "مىنۇت",
+  "seconds": "سېكۇنت",
+  "ephemeralMessages": "ۋاقىتلىق ئۇچۇرلار",
+  "ephemeralMessagesDescription": "بۇ ۋاقىتتىن كېيىن ئۇچۇرلار ئاپتوماتىك ئۆچۈرۈلىدۇ",
+  "ephemeralImmediate": "دەرھال (ئوقۇغاندىن كېيىن)",
+  "ephemeralImmediateDesc": "ئوقۇغاندىلا ئۆچۈرۈلىدۇ",
+  "ephemeralMyPreference": "مېنىڭ مايىللىقىم",
+  "ephemeralMyPreferenceDesc": "ئومۇمىي تەڭشەكنى ئىشلىتىش",
+  "ephemeralDefaultSetting": "ئۇچۇر مۇددىتى",
+  "ephemeralChooseDefault": "تەۋسىيە",
+  "ephemeral30Seconds": "30 سېكۇنت",
+  "ephemeral5Minutes": "5 مىنۇت",
+  "ephemeral1Hour": "1 سائەت",
+  "ephemeral3Hours": "3 سائەت",
+  "ephemeral6Hours": "6 سائەت",
+  "ephemeral12Hours": "12 سائەت",
+  "ephemeral24Hours": "24 سائەت",
+  "customDuration": "ئىختىيارىي مۇددەت",
+  "muteNotifications": "ئۇقتۇرۇشلارنى ئۈنسىز قىلىش",
+  "muteDescription": "بۇ ئالاقىداشتىن ئۇقتۇرۇش كەلمەيدۇ",
+  "mutedUntil": "{time} غىچە ئۈنسىز",
+  "notMuted": "ئۇقتۇرۇشلار ئاكتىپ",
+  "unmute": "ئۈن ئاچ",
+  "notificationSound": "ئۇقتۇرۇش ئاۋازى",
+  "defaultSound": "سۈكۈتتىكى",
+  "chatSettings": "پاراڭ تەڭشىكى",
+  "bubbleColor": "كۆپۈكچە رەڭگى",
+  "backgroundColor": "تەگلىك رەڭگى",
+  "backgroundImage": "تەگلىك رەسىمى",
+  "chatBackground": "پاراڭ تەگلىكى",
+  "customColor": "ئىختىيارىي",
+  "defaultColor": "سۈكۈتتىكى",
+  "imageSelected": "رەسىم تاللاندى",
+  "noImage": "رەسىم يوق",
+  "color": "رەڭ",
+  "image": "رەسىم",
+  "tapToSelectImage": "رەسىم تاللاش ئۈچۈن چېكىڭ",
+  "changeImage": "رەسىم ئۆزگەرتىش",
+  "previewMessageReceived": "ياخشىمۇسىز!",
+  "previewMessageSent": "سالام!",
+  "messageAction": "ئۇچۇر",
+  "callAction": "چاقىرىش",
+  "videoAction": "سىن",
+  "personalNotes": "شەخسىي خاتىرىلەر",
+  "addNotes": "خاتىرە قوشۇش...",
+  "noNotes": "خاتىرە يوق",
+  "messageNotifications": "ئۇچۇر ئۇقتۇرۇشى",
+  "callNotifications": "چاقىرىش ئۇقتۇرۇشى",
+  "useGradient": "گرادىيېنت ئىشلىتىش",
+  "gradientStart": "باشلىنىش رەڭگى",
+  "gradientEnd": "ئاخىرقى رەڭگى",
+  "preview": "ئالدىن كۆرۈش",
+  "reset": "ئەسلىگە قايتۇرۇش",
+  "securityNumber": "بىخەتەرلىك نومۇرى",
+  "securityNumberDescription": "بىخەتەرلىك نومۇرى {name} نىڭ ئۈسكۈنىسى بىلەن ماسلىشىدىغانلىقىنى تەكشۈرۈڭ",
+  "verifyEncryption": "ئۇچتىن-ئۇچقا شىفىرلاشنى تەكشۈرۈش",
+  "tapToCopy": "كۆچۈرۈش ئۈچۈن چېكىڭ",
+  "howToVerify": "قانداق تەكشۈرۈش",
+  "verifyStep1": "ئالاقىداشىڭىز بىلەن يۈزمۇ-يۈز كۆرۈشۈڭ ياكى چاقىرىڭ",
+  "verifyStep2": "بىخەتەرلىك نومۇرلىرىنى سېلىشتۇرۇڭ ياكى QR code سىكانىرلاڭ",
+  "verifyStep3": "ماس كەلسە، پاراڭىڭىز بىخەتەر",
+  "scanToVerify": "تەكشۈرۈش ئۈچۈن سىكانىرلاش",
+  "reportSpam": "ئەخلەت خەت دوكلاتىش",
+  "reportSpamSubtitle": "بۇ ئالاقىداشنى ئەخلەت دەپ دوكلاتىش",
+  "reportSpamDescription": "بۇ ئالاقىداشنى نامسىز دوكلاتىدۇ. كىملىكىڭىز ئاشكارىلانمايدۇ. جەزىملىمۇ؟",
+  "report": "دوكلاتىش",
+  "spamReported": "ئەخلەت خەت دوكلاتىلدى",
+  "reportError": "دوكلات يوللاش مەغلۇب بولدى. قايتا سىناڭ.",
+  "reportRateLimited": "بۈگۈنكى ئەڭ كۆپ دوكلات سانىغا يەتتىڭىز.",
+  "blockContact": "ئالاقىداش توسۇش",
+  "blockContactDescription": "بۇ ئالاقىداش سىزگە ئۇچۇر يوللاش ياكى چاقىرىش ئىمكانىيىتىدىن مەھرۇم بولىدۇ. ئۇقتۇرۇش بېرىلمەيدۇ.",
+  "unblockContact": "ئالاقىداش توسۇشنى ئېچىش",
+  "unblockContactDescription": "بۇ ئالاقىداش قايتا ئۇچۇر يوللاش ۋە چاقىرىش ئىمكانىيىتىگە ئېرىشىدۇ.",
+  "contactBlocked": "ئالاقىداش توسۇلدى",
+  "contactUnblocked": "ئالاقىداش توسۇشى ئېچىلدى",
+  "contactIsBlocked": "بۇ ئالاقىداش توسۇلغان",
+  "unblock": "توسۇشنى ئېچىش",
+  "deleteContactSubtitle": "بۇ ئالاقىداش ۋە پاراڭنى ئۆچۈرۈش",
+  "confirmWithPin": "PIN بىلەن جەزملەش",
+  "enterPinToConfirm": "بۇ مەشغۇلاتنى جەزملەش ئۈچۈن PIN كىرگۈزۈڭ",
+  "mute1Hour": "1 سائەت",
+  "mute8Hours": "8 سائەت",
+  "mute1Day": "1 كۈن",
+  "mute1Week": "1 ھەپتە",
+  "muteAlways": "ھەمىشە",
+  "muteExplanation": "بۇ ئالاقىداشتىن ئۇقتۇرۇش كەلمەيدۇ",
+  "howItWorks": "قانداق ئىشلەيدۇ",
+  "ephemeralExplanation1": "ئۇچۇرلار كەلگەندىلا مۇلازىمېتىردىن ئۆچۈرۈلىدۇ.",
+  "ephemeralExplanation2": "بۇ تەڭشەك ئوقۇغاندىن كېيىن تېلېفونىڭىزدىن ئۇچۇرلار قاچان يوقىلىدىغانلىقىنى بەلگىلەيدۇ.",
+  "ephemeralExplanation3": "ئالاقىداشىڭىزنىڭ ئۆز تېلېفونى ئۈچۈن ئۆز تەڭشىكى بار.",
+  "profilePhoto": "تەرجىمىھال رەسىمى",
+  "takePhoto": "رەسىم تارتىش",
+  "chooseFromGallery": "رەسىم ئامبىرىدىن تاللاش",
+  "removePhoto": "رەسىم ئۆچۈرۈش",
+  "viewContactHashId": "ئالاقىداشنىڭ كىملىكىنى كۆرۈش",
+  "hashIdPartiallyMasked": "بىخەتەرلىكىڭىز ۋە ئالاقىداشنىڭ مەخپىيەتلىكى ئۈچۈن قىسمەن يوشۇرۇلغان",
+  "addFirstContact": "بىرىنچى ئالاقىداشنى قوشۇڭ",
+  "addFirstContactSubtitle": "QR code ھەمبەھىرلەڭ ياكى دوستىڭىزنىڭ QR code نى سىكانىرلاڭ",
+  "directory": "مۇندەرىجە",
+  "noContacts": "ئالاقىداش يوق",
+  "noContactsSubtitle": "باشلاش ئۈچۈن ئالاقىداش قوشۇڭ",
+  "sendMessageAction": "ئۇچۇر يوللاش",
+  "audioCall": "ئاۋاز چاقىرىش",
+  "videoCall": "سىن چاقىرىش",
+  "viewProfile": "تەرجىمىھالنى كۆرۈش",
+  "deleteContactDirectory": "ئالاقىداش ئۆچۈرۈش",
+  "scanShort": "سىكانىرلاش",
+  "addShort": "قوشۇش",
+  "deleteContactConfirmName": "{name} نى ئۆچۈرمەكچىمۇ؟",
+  "noNotesTitle": "خاتىرە يوق",
+  "noNotesSubtitle": "بىرىنچى خاتىرىڭىزنى قۇرۇڭ",
+  "newNote": "يېڭى خاتىرە",
+  "editNote": "خاتىرە تەھرىرلەش",
+  "deleteNote": "خاتىرە ئۆچۈرۈش",
+  "deleteNoteConfirm": "بۇ خاتىرىنى ئۆچۈرمەكچىمۇ؟",
+  "noteTitle": "ماۋزۇ",
+  "noteContent": "مەزمۇن",
+  "addItem": "تۈر قوشۇش",
+  "pinNote": "چىڭلاش",
+  "unpinNote": "چىڭلاشنى بىكار قىلىش",
+  "noteColor": "رەڭ",
+  "notePassword": "پارول",
+  "setPassword": "پارول بەلگىلەش",
+  "changePassword": "پارول ئۆزگەرتىش",
+  "removePassword": "پارول ئۆچۈرۈش",
+  "enterPassword": "پارول كىرگۈزۈش",
+  "confirmPassword": "پارول جەزملەش",
+  "passwordPin": "PIN كود",
+  "passwordText": "تېكىست پارول",
+  "protectedNote": "قوغدالغان خاتىرە",
+  "incorrectPassword": "خاتا پارول",
+  "passwordSet": "پارول بەلگىلەندى",
+  "passwordRemoved": "پارول ئۆچۈرۈلدى",
+  "notesBiometric": "خاتىرىلەر ئۈچۈن Face ID",
+  "notesBiometricSubtitle": "قوغدالغان خاتىرىلەرنى ئېچىش ئۈچۈن بىئولوگىيىلىك دەلىللەش تەلەپ قىلىنىدۇ",
+  "textNote": "تېكىست خاتىرەسى",
+  "checklistNote": "تەكشۈرۈش تىزىملىكى",
+  "tasksProgress": "{checked}/{total} ۋەزىپە",
+  "autoSaved": "ساقلاندى",
+  "searchNotes": "خاتىرە ئىزدەش",
+  "legalConsent": "قانۇنىي رازىلىق",
+  "confirmAge13": "كەم دېگەندە 13 ياشقا تولغانلىقىمنى جەزملەيمەن",
+  "acceptLegalStart": "مەن قوبۇل قىلىمەن ",
+  "privacyPolicy": "مەخپىيەتلىك سىياسىتى",
+  "termsOfService": "مۇلازىمەت شەرتلىرى",
+  "andThe": " ۋە ",
+  "continueButton": "داۋاملاشتۇرۇش",
+  "mustAcceptTerms": "داۋاملاشتۇرۇش ئۈچۈن ھەر ئىككى شەرتنى قوبۇل قىلىشىڭىز كېرەك",
+  "support": "قوللاش",
+  "contactSupport": "قوللاش بىلەن ئالاقىلىشىش",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "سۇئىستىمال دوكلاتىش",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "قانۇنىي",
+  "legalEntity": "قانۇنىي ئورگان",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "چىڭلاش",
+  "unpinConversation": "چىڭلاشنى بىكار قىلىش",
+  "hideConversation": "ئېقىمدىن ئۆچۈرۈش",
+  "deleteConversation": "سۆھبەت ئۆچۈرۈش",
+  "deleteConversationConfirm": "بارلىق ئۇچۇرلارنى ئۆچۈرۈشنى جەزملەش ئۈچۈن PIN كىرگۈزۈڭ",
+  "noConversations": "تېخى سۆھبەت يوق",
+  "startConversation": "باشلاش",
+  "microphonePermissionRequired": "مىكروفون ئىجازىتى تەلەپ قىلىنىدۇ",
+  "microphonePermissionExplanation": "Hash چاقىرىش ئۈچۈن مىكروفون ئىشلىتىدۇ.",
+  "cameraPermissionExplanation": "Hash سىن چاقىرىش ئۈچۈن كامېرا ئىشلىتىدۇ.",
+  "openSettings": "تەڭشەكلەرنى ئاچ",
+  "callConnecting": "ئۇلاۋاتىدۇ...",
+  "callRinging": "جىرىڭلاۋاتىدۇ...",
+  "callReconnecting": "قايتا ئۇلاۋاتىدۇ...",
+  "callReconnectingTimer": "قايتا ئۇلاۋاتىدۇ ({seconds}s)",
+  "callPaused": "ۋاقىتلىق توختىتىلدى",
+  "callPausedSubtitle": "تېلېفون ھازاھان ئاكتىپ",
+  "callRemoteMicMuted": "ئالاقىداشنىڭ مىكروفونى ئۈنسىز",
+  "callMiniControlsMute": "ئۈنسىز",
+  "callMiniControlsUnmute": "ئۈن ئاچ",
+  "callMiniControlsHangUp": "ئۈزۈش",
+  "callMiniControlsReturn": "چاقىرىشقا قايتىش",
+  "callNetworkPoor": "تۇراقسىز ئۇلىنىش",
+  "callNetworkLost": "ئۇلىنىش ئۈزۈلدى",
+  "callEndedTitle": "چاقىرىش تاماملاندى",
+  "deviceData": "ئۈسكۈنە سانلىق مەلۇماتى",
+  "deviceDataSubtitle": "يەرلىك ۋە مۇلازىمېتىر ساقلىغۇچ",
+  "localStorage": "يەرلىك ساقلىغۇچ",
+  "onThisDevice": "بۇ ئۈسكۈنىدە",
+  "encryptedDatabases": "شىفىرلانغان ساندانلار",
+  "files": "ھۆججەتلەر",
+  "secureKeychain": "بىخەتەر ئاچقۇچ زەنجىرى",
+  "cache": "غەملەك",
+  "contactsDetail": "ئىسىملار، ئاۋاتارلار، Signal ئاچقۇچلىرى",
+  "messagesDetail": "شىفىرلانغان سۆھبەتلەر",
+  "notesDetail": "شەخسىي خاتىرىلەر",
+  "signalSessions": "Signal يىغىنلىرى",
+  "signalSessionsDetail": "شىفىرلاش يىغىنلىرى",
+  "pendingContacts": "ساقلاۋاتقان ئالاقىداشلار",
+  "pendingContactsDetail": "ساقلاۋاتقان ئىلتىماسلار",
+  "callHistory": "چاقىرىشلار",
+  "callHistoryDetail": "چاقىرىش تارىخى",
+  "preferences": "مايىللىقلار",
+  "preferencesDetail": "ۋاسىتە ۋە چاقىرىش مايىللىقلىرى",
+  "avatars": "ئاۋاتارلار",
+  "media": "ۋاسىتە",
+  "fileCount": "{count, plural, =0{ھۆججەت يوق} =1{1 ھۆججەت} other{{count} ھۆججەت}}",
+  "active": "ئاكتىپ",
+  "notDefined": "بەلگىلەنمىگەن",
+  "biometrics": "بىئولوگىيىلىك",
+  "recoveryPhrase": "ئەسلىگە كەلتۈرۈش ئىبارىسى",
+  "identity": "كىملىك (Hash ID)",
+  "signalKeys": "Signal Protocol ئاچقۇچلىرى",
+  "authTokens": "دەلىللەش بەلگىلىرى",
+  "contactNamesCache": "ئالاقىداش ئىسىم غەملىكى",
+  "remoteConfig": "يىراقتىن تەڭشەك",
+  "notificationPrefs": "ئۇقتۇرۇش مايىللىقلىرى",
+  "serverData": "مۇلازىمېتىر سانلىق مەلۇماتى",
+  "serverDataInfo": "Hash مۇلازىمېتىردا ئەڭ ئاز سانلىق مەلۇمات ساقلايدۇ، ھەممىسى شىفىرلانغان ياكى ۋاقىتلىق.",
+  "serverProfile": "تەرجىمىھال",
+  "serverProfileDetail": "Hash ID، ئاممىۋى ئاچقۇچلار، پوچتا ساندۇقى بەلگىسى",
+  "serverPrekeys": "ئالدىنقى ئاچقۇچلار",
+  "serverPrekeysDetail": "بىر قېتىملىق Signal ئاچقۇچلىرى (ئىشلىتىلگەن)",
+  "serverMessages": "يولدىكى ئۇچۇرلار",
+  "serverMessagesDetail": "يەتكۈزگەندىن كېيىن ئۆچۈرۈلىدۇ (ئەڭ كۆپ 24 سائەت)",
+  "serverMedia": "يولدىكى ۋاسىتە",
+  "serverMediaDetail": "چۈشۈرگەندىن كېيىن ئۆچۈرۈلىدۇ",
+  "serverContactRequests": "ئالاقىداش ئىلتىماسلىرى",
+  "serverContactRequestsDetail": "24 سائەتتىن كېيىن ۋاقتى ئۆتىدۇ",
+  "serverRateLimits": "تەزلىك چەكلىمىسى",
+  "serverRateLimitsDetail": "ۋاقىتلىق سۇئىستىمالغا قارشى سانلىق مەلۇمات",
+  "privacyReassurance": "Hash ئۇچۇرلىرىڭىزنى ئوقۇيالمايدۇ. بارلىق سانلىق مەلۇمات ئۇچتىن-ئۇچقا شىفىرلانغان. مۇلازىمېتىر سانلىق مەلۇماتى ئاپتوماتىك ئۆچۈرۈلىدۇ.",
+  "pinTooSimple": "بۇ PIN بەك ئاددىي. تېخىمۇ بىخەتەر كود تاللاڭ.",
+  "genericError": "خاتالىق يۈز بەردى. قايتا سىناڭ.",
+  "accountCreationError": "ھېسابات قۇرالمىدى: {error}",
+  "phraseCopiedToClipboard": "ئىبارە چاپلاش تاختىسىغا كۆچۈرۈلدى",
+  "copyPhrase": "ئىبارە كۆچۈرۈش",
+  "recoveryPhraseSecurityWarning": "بۇ ئىبارىنى بىخەتەر يەرگە يېزىپ قويۇڭ. ئىبارىسىز PIN نى يوقاتسىڭىز، سانلىق مەلۇماتىڭىزغا مەڭگۈلۈك كىرەلمەيسىز.",
+  "noMessages": "ئۇچۇر يوق",
+  "deleteAllMessagesWithContact": "{name} بىلەن بارلىق ئۇچۇرلارنى ئۆچۈرەمسىز؟",
+  "confirmation": "جەزملەش",
+  "untitled": "ماۋزۇسىز",
+  "noSessions": "يىغىن يوق",
+  "unknownContact": "نامەلۇم ئالاقىداش",
+  "unnamed": "ئىسىمسىز",
+  "noPendingRequestsAlt": "ساقلاۋاتقان ئىلتىماس يوق",
+  "deleteAllCallHistory": "بارلىق چاقىرىش تارىخىنى ئۆچۈرەمسىز؟",
+  "noCalls": "چاقىرىش يوق",
+  "noPreferences": "مايىللىق يوق",
+  "resetAllMediaPrefs": "بارلىق ۋاسىتە مايىللىقلىرىنى ئەسلىگە قايتۇرامسىز؟",
+  "deleteThisAvatar": "بۇ ئاۋاتارنى ئۆچۈرەمسىز؟",
+  "deleteAllAvatars": "بارلىق ئاۋاتارلارنى ئۆچۈرەمسىز؟",
+  "noAvatars": "ئاۋاتار يوق",
+  "deleteThisFile": "بۇ ھۆججەتنى ئۆچۈرەمسىز؟",
+  "deleteAllMediaFiles": "بارلىق ۋاسىتىنى ئۆچۈرەمسىز؟",
+  "noMediaFiles": "ۋاسىتە يوق",
+  "outgoing": "چىقىش",
+  "incoming": "كىرىش",
+  "ephemeralViewDuration": "ۋاقىتلىق كۆرۈش: {seconds}s",
+  "normalView": "نورمال كۆرۈش",
+  "callReasonCompleted": "تاماملاندى",
+  "callReasonMissed": "قالدۇرۇلدى",
+  "callReasonDeclined": "رەت قىلىندى",
+  "callReasonFailed": "مەغلۇب",
+  "justNow": "ھازىر",
+  "timeAgoMinutes": "{count} مىنۇت ئىلگىرى",
+  "timeAgoHours": "{count} سائەت ئىلگىرى",
+  "timeAgoDays": "{count} كۈن ئىلگىرى",
+  "messageTypeContact": "ئالاقىداش",
+  "messageTypeLocation": "ئورۇن",
+  "statusQueued": "نۆۋەتتە",
+  "blockedBadge": "توسۇلغان",
+  "protectedBadge": "قوغدالغان",
+  "messageCount": "{count} ئۇچۇر",
+  "deleteQuestion": "ئۆچۈرەمسىز؟",
+  "transferMyAccountTitle": "ھېساباتىمنى يۆتكەش",
+  "loadingError": "يۈكلەش خاتالىقى",
+  "transferToNewDevice": "يېڭى ئۈسكۈنىگە يۆتكەش",
+  "transferInstructions": "يېڭى ئۈسكۈنىڭىزدە «ھېساباتىمنى ئەسلىگە كەلتۈرۈش» نى تاللاپ بۇ ئۇچۇرنى كىرگۈزۈڭ:",
+  "yourHashIdLabel": "Hash ID ڭىز",
+  "enterYourPinCode": "PIN كودىڭىزنى كىرگۈزۈڭ",
+  "pinOwnerConfirmation": "بۇ ھېسابات ئىگىسى ئىكەنلىكىڭىزنى جەزملەش ئۈچۈن",
+  "scanThisQrCode": "بۇ QR code نى سىكانىرلاڭ",
+  "withYourNewDevice": "يېڭى ئۈسكۈنىڭىز بىلەن",
+  "orEnterTheCode": "ياكى كود كىرگۈزۈڭ",
+  "transferCodeLabel": "يۆتكەش كودى",
+  "proximityVerification": "يېقىنلىق تەكشۈرۈشى",
+  "bringDevicesCloser": "ئىككى ئۈسكۈنىنى يېقىنلاشتۇرۇڭ",
+  "confirmTransferQuestion": "يۆتكەشنى جەزملەمسىز؟",
+  "accountWillBeTransferred": "ھېساباتىڭىز يېڭى ئۈسكۈنىگە يۆتكىلىدۇ.\n\nبۇ ئۈسكۈنە مەڭگۈلۈك ئۈزۈلىدۇ.",
+  "transferComplete": "يۆتكەش تاماملاندى",
+  "transferSuccessMessage": "ھېساباتىڭىز مۇۋەپپەقىيەتلىك يۆتكەلدى.\n\nبۇ ئەپ ھازىر تاقىلىدۇ.",
+  "manualVerification": "قولدا تەكشۈرۈش",
+  "codeDisplayedOnBothDevices": "ئىككى ئۈسكۈنىدە كۆرسىتىلگەن كود:",
+  "doesCodeMatchNewDevice": "بۇ كود يېڭى ئۈسكۈنىدىكى كود بىلەن ماسمۇ؟",
+  "verifiedStatus": "تەكشۈرۈلدى",
+  "inProgressStatus": "جەرياندا...",
+  "notAvailableStatus": "يوق",
+  "codeExpiredRestart": "كود ۋاقتى ئۆتتى. قايتا باشلاڭ.",
+  "codesDoNotMatchCancelled": "كودلار ماس كەلمىدى. يۆتكەش بىكار قىلىندى.",
+  "transferToDevice": "غا: {device}",
+  "copiedExclamation": "كۆچۈرۈلدى!",
+  "expiresInTime": "{time} دا ۋاقتى ئۆتىدۇ",
+  "biometricNotAvailable": "بىئولوگىيىلىك بۇ ئۈسكۈنىدە يوق",
+  "biometricAuthError": "بىئولوگىيىلىك دەلىللەشتە خاتالىق",
+  "authenticateForBiometric": "بىئولوگىيىلىكنى ئاكتىپلاش ئۈچۈن دەلىللەڭ",
+  "biometricAuthFailed": "بىئولوگىيىلىك دەلىللەش مەغلۇب بولدى",
+  "forceUpdateTitle": "يېڭىلاش تەلەپ قىلىنىدۇ",
+  "forceUpdateMessage": "Hash نىڭ يېڭى نەشرى بار. داۋاملاشتۇرۇش ئۈچۈن يېڭىلاڭ.",
+  "updateButton": "يېڭىلاش",
+  "maintenanceInProgress": "ئاسراش جەريانى",
+  "tryAgainLater": "كېيىن قايتا سىناڭ",
+  "information": "ئۇچۇر",
+  "noLoginRecorded": "كىرىش خاتىرىلەنمىگەن",
+  "nextUnlocksAppearHere": "كېيىنكى قۇلۇپ ئېچىشلار بۇ يەردە كۆرۈنىدۇ.",
+  "noMaintenancePlanned": "ئاسراش پىلانلانمىغان",
+  "everythingWorkingNormally": "ھەممىسى نورمال ئىشلەۋاتىدۇ",
+  "locking": "قۇلۇپلاۋاتىدۇ...",
+  "newMessageNotification": "يېڭى ئۇچۇر",
+  "secExplainTitle": "Hash سىزنى قانداق قوغدايدۇ",
+  "secExplainIntro": "Hash ھېچكىم ئۇچۇرلىرىڭىزنى ئوقۇيالمايدىغان قىلىپ لايىھەلەنگەن.",
+  "secExplainIntroSub": "بىزمۇ ئوقۇيالمايمىز.\nمانا ئاددىي چۈشەندۈرۈلگىنى.",
+  "secJourneyLabel": "سەپەر",
+  "secJourneyTitle": "ئۇچۇرىڭىزنىڭ سەپىرى",
+  "secJourneySubtitle": "بارمىقىڭىزدىن ئالاقىداشنىڭ ئېكرانىغىچە، ھەر قەدەم قوغدالغان. يولنى ئىز قوۋۇڭ.",
+  "secStep1Title": "ئۇچۇرىڭىزنى يازىسىز",
+  "secStep1Desc": "ئەپتە «سالام!» دەپ يازىسىز. بۇ چاغدا ئۇچۇر پەقەت تېلېفون ئەسلىمىسىدە. ھېچنىمە يوللانمىغان.",
+  "secStep2Title": "Signal Protocol بىلەن شىفىرلاش",
+  "secStep2Desc": "«يوللاش» نى باسسىڭىز، ئۇچۇرىڭىز چۈشىنىكسىز ھەرپلەر قاتارىغا ئايلىنىدۇ. ئۇچۇرىڭىز ئاچقۇچى پەقەت ئالاقىداشىڭىزدا بولغان گاۋزاغا قۇلۇپلانغاندەك.",
+  "secStep3Title": "Sealed Sender: كۆرۈنمەس كونۋېرت",
+  "secStep3Desc": "پوچتا بىلەن خەت يوللاشنى تەسەۋۋۇر قىلىڭ، لېكىن كونۋېرتتا قايتۇرۇش ئادرېسى يوق. Hash دەل شۇنداق قىلىدۇ. ئۇچۇر نامسىز پوچتا ساندۇقىغا تاشلىنىدۇ. مۇلازىمېتىر كىمنىڭ يوللىغانلىقىنى بىلمەيدۇ.",
+  "secStep4Title": "مۇلازىمېتىر ھېچنىمە كۆرمەيدۇ",
+  "secStep4Desc": "مۇلازىمېتىر سوقۇر پوچتاچىدەك ئىشلەيدۇ. پەقەت «بىرسى #A7X9 ساندۇقىغا بىرنىمە تاشلىدى» نى بىلىدۇ. كىم يوللىدى، نېمە، كىمگە — بىلمەيدۇ.",
+  "secStep4Highlight": "ھېچقانداق مېتا سانلىق مەلۇمات ساقلانمايدۇ: IP ئادرېس يوق، ۋاقىت تامغىسى يوق، يوللىغۇچى بىلەن تاپشۇرۇۋالغۇچى ئارىسىدا باغلىنىش يوق.",
+  "secStep5Title": "ئالاقىداشىڭىز ئۇچۇرنى تاپشۇرۇۋالىدۇ",
+  "secStep5Desc": "ئالاقىداشىڭىزنىڭ تېلېفونى نامسىز ساندۇقتىن مەزمۇننى ئېلىپ، ھەرگىز ئۈسكۈنىنى تەرك قىلمىغان شەخسىي ئاچقۇچ بىلەن ئۇچۇرنى يەشلەيدۇ. ئېكراندا «سالام!» كۆرۈنىدۇ.",
+  "secStep6Title": "ئۇچۇر مۇلازىمېتىردىن يوقىلىدۇ",
+  "secStep6Desc": "ئالاقىداش تاپشۇرۇۋېلىشنى جەزملىگەندىلا، مۇلازىمېتىر ئۇچۇرنى مەڭگۈلۈك ئۆچۈرىدۇ. ئەخلەتدان يوق، ئارخىپ يوق، زاپاس يوق. ئوقۇلمىغان ئۇچۇرلارمۇ 24 سائەتتىن كېيىن ئاپتوماتىك يوق قىلىنىدۇ.",
+  "secStep7Title": "يەرلىك ۋاقتى ئۆتۈش",
+  "secStep7Desc": "ئالاقىداشنىڭ تېلېفونىدا، ئۇچۇر تاللىغان مۇددىتىڭىز بويىچە ئۆزىنى يوق قىلىدۇ: ئوقۇغاندىلا، 5 مىنۇت، 1 سائەت... سىز بەلگىلەيسىز.",
+  "secJourneyConclusion": "نەتىجە: مۇلازىمېتىردا نۆل ئىز، ئۈسكۈنىلەردە نۆل ئىز. ئۇچۇر پەقەت ئوقۇشقا يەتكۈدەك ۋاقىت مەۋجۇت بولدى، ئاندىن يوقالدى.",
+  "secArchLabel": "قۇرۇلما",
+  "secArchTitle": "5 قوغداش قاتلىمى",
+  "secArchSubtitle": "Hash بىرلا تېخنىكىغا تايانمايدۇ. ھەر قاتلام باشقىلارنى كۈچەيتىدۇ. بىر قاتلام بۇزۇلسىمۇ، سانلىق مەلۇماتىڭىز بىخەتەر.",
+  "secLayer1Title": "ئۇچتىن-ئۇچقا شىفىرلاش",
+  "secLayer1Desc": "ھەر ئۇچۇر ئۆزگىچە ئاچقۇچ بىلەن شىفىرلىنىدۇ. ئاددىي قىلىپ ئېيتقاندا: بىرسى بىر ئۇچۇرنى يەشلىسىمۇ، كېيىنكىسىنى يەشلەيەلمەيدۇ. ھەر ئۇچۇرنىڭ ئۆز قۇلۇپى بار.",
+  "secLayer1Detail": "ھۆججەتلەر (رەسىم، سىن، ھۆججەت) ئۈچۈن Hash قوشۇمچە AES-256-GCM شىفىرلاش ئىشلىتىدۇ. ھۆججەت تېلېفوندىن چىقىشتىن بۇرۇن شىفىرلىنىدۇ.",
+  "secLayer2Title": "Sealed Sender (تور نامسىزلىقى)",
+  "secLayer2Desc": "ئادەتتىكى ئۇچۇرلاشقۇلار ئۇچۇرلىرىڭىزنى كىملىكىڭىز بىلەن يوللايدۇ. كونۋېرتقا ئىسمىڭىزنى يېزىشتەك. Hash نامسىز ساندۇقلارنى ئىشلىتىدۇ: مۇلازىمېتىر كىمنىڭ يوللىغانلىقىنى بىلمەي ئۇچۇرنى يەتكۈزىدۇ.",
+  "secLayer2Detail": "نەتىجە: مۇلازىمېتىر سانلىق مەلۇمات ئېقىپ چىققاندا بەلكى، كىم كىم بىلەن سۆزلىشىدىغانلىقىنى قايتا قۇرۇش مۇمكىن ئەمەس.",
+  "secLayer3Title": "ئاپتوماتىك ئۆچۈرۈش",
+  "secLayer3Desc": "تاپشۇرۇۋېلىش جەزملەنگەندىلا ئۇچۇرلار مۇلازىمېتىردىن ئۆچۈرۈلىدۇ. ئۇچۇر ھەرگىز ئېلىنمىسىمۇ، 24 سائەتتىن كېيىن ئاپتوماتىك يوق قىلىنىدۇ.",
+  "secLayer3Detail": "تېلېفونىڭىزدا، تاللىغان مۇددىتىڭىز بويىچە ئۇچۇرلار ئۆزىنى يوق قىلىدۇ: دەرھال، 5 مىن، 15 مىن، 30 مىن، 1 سائ، 3 سائ، 6 سائ ياكى 12 سائ.",
+  "secLayer4Title": "يەرلىك كىرىش قوغدىشى",
+  "secLayer4Desc": "ئەپ 6 خانىلىق PIN ۋە/ياكى بىئولوگىيىلىك (Face ID، بارماق ئىزى) بىلەن قوغدالغان. بەك كۆپ مەغلۇب سىناشتىن كېيىن، ھەر مەغلۇبىيەتتىن كېيىن ئاشىدىغان كېچىكتۈرۈش بىلەن ئەپ قۇلۇپلىنىدۇ.",
+  "secLayer5Title": "قۇلۇپلانغان ساندان",
+  "secLayer5Desc": "مۇلازىمېتىر تەرەپتە، ھېچبىر ئىشلەتكۈچى ساندانغا بىۋاسىتە يازالمايدۇ. بارلىق مەشغۇلاتلار ھەر ئىلتىماسنى تەكشۈرىدىغان بىخەتەر فۇنكسىيەلەردىن ئۆتىدۇ.",
+  "secLayer5Detail": "بانكا سايۋىنىدەك: سىز ھەرگىز خەزىنىنى ئۆزىڭىز تەگمەيسىز. ئىلتىماس قىلىسىز، سىستېما مەشغۇلات قىلىشتىن بۇرۇن ھوقۇقىڭىزنى تەكشۈرىدۇ.",
+  "secVashLabel": "دۇنيادا يالغۇز",
+  "secVashTitle": "Vash ھالىتى",
+  "secVashSubtitle": "باشقا ھېچبىر ئۇچۇرلاشقۇدا مەۋجۇت بولمىغان جىددىي بىخەتەرلىك سىستېمىسى.",
+  "secVashScenarioTitle": "بۇ ئەھۋالنى تەسەۋۋۇر قىلىڭ",
+  "secVashScenario1": "بىرسى تېلېفونىڭىزغا كىرىدۇ",
+  "secVashScenario2": "سىزدىن PIN كود سورايدۇ",
+  "secVashScenario3": "بارلىق سانلىق مەلۇماتىڭىزنى جىددىي ئۆچۈرمەكچى",
+  "secVashSolutionTitle": "ھەل: ئىككى PIN كود",
+  "secVashSolutionDesc": "Hash دا ئىككى ئوخشىمىغان PIN كود تەڭشەيسىز:",
+  "secVashNormalCodeLabel": "نورمال كود",
+  "secVashNormalCodeDesc": "ئەپنى بارلىق سانلىق مەلۇمات بىلەن نورمال ئاچىدۇ",
+  "secVashCodeLabel2": "Vash كودى",
+  "secVashCodeDescription": "ئەپنى نورمال ئاچىدۇ... لېكىن بارلىق سانلىق مەلۇمات ئارقا سۇپىدا جىمجىت ئۆچۈرۈلىدۇ",
+  "secVashWhatHappensTitle": "كېيىن نېمە بولىدۇ",
+  "secVashWhatHappensDesc": "ئەپ نورمال ئېچىلىدۇ. ئاگاھلاندۇرۇش يوق، گۇمانلىق كارتۇن يوق. ئېكران پەقەت بوش ئەپ كۆرسىتىدۇ، ھازىرلا ئورناتقاندەك.\n\nئەمەلىيەتتە، بارلىق سۆھبەت، ئالاقىداش ۋە ئۇچۇرلىرىڭىز بىر سېكۇنت ئىچىدە قايتۇرغۇسىز ئۆچۈرۈلدى.",
+  "secCallsLabel": "چاقىرىش ۋە ھۆججەتلەر",
+  "secCallsTitle": "ھەممىسى شىفىرلانغان",
+  "secCallsSubtitle": "پەقەت ئۇچۇرلار ئەمەس. Hash دىن ئۆتىدىغان ھەممە نەرسە ئۇچتىن-ئۇچقا شىفىرلانغان.",
+  "secAudioCallTitle": "ئاۋاز چاقىرىش",
+  "secAudioCallDesc": "WebRTC ئارقىلىق ئۇچتىن-ئۇچقا شىفىرلانغان. ئاۋاز ئۈسكۈنىلەر ئارىسىدا بىۋاسىتە يەتكۈزۈلىدۇ.",
+  "secVideoCallTitle": "سىن چاقىرىش",
+  "secVideoCallDesc": "ئوخشاش تېخنىكا، ھەر ئېقىم ئايرىم شىفىرلانغان.",
+  "secPhotosTitle": "رەسىم ۋە سىن",
+  "secPhotosDesc": "تېلېفوندىن چىقىشتىن بۇرۇن AES-256-GCM دا شىفىرلانغان.",
+  "secDocsTitle": "ھۆججەتلەر",
+  "secDocsDesc": "PDF، ZIP، ھەر قانداق ھۆججەت. ئىسمى، چوڭلۇقى ۋە مەزمۇنى شىفىرلانغان.",
+  "secAnonLabel": "نامسىزلىق",
+  "secAnonTitle": "كىملىك تەلەپ قىلىنمايدۇ",
+  "secAnonSubtitle": "Hash ھەرگىز تېلېفون نومۇرى ياكى ئېلخەت سورىمايدۇ. ئۆزگىچە ۋە نامسىز Hash ID بىلەن پەرقلىنىسىز.",
+  "secHashIdTitle": "Hash ID ڭىز",
+  "secHashIdDesc": "بۇ ئۆزگىچە كىملىكىڭىز. سىز ھەققىڭىزدە ھېچنىمە ئاشكارىلىمايدۇ: ئىسمىڭىز ئەمەس، نومۇرىڭىز ئەمەس، ئورنىڭىز ئەمەس. ھەقىقىي كىملىكىڭىزگە باغلاش مۇمكىن بولمىغان تەخەللۇستەك.\n\nئالاقىداش قوشۇش ئۈچۈن Hash ID ھەمبەھىرلەيسىز ياكى QR code سىكانىرلايسىز. شۇ. ماسلاشتۇرۇلغان ئادرېس دەپتىرى يوق، «تونۇشىڭىز مۇمكىن بولغان كىشىلەر» تەۋسىيەسى يوق.",
+  "secDataLabel": "سانلىق مەلۇمات",
+  "secDataTitle": "Hash بىلمەيدىغانلىرى",
+  "secDataSubtitle": "سانلىق مەلۇماتنى قوغداشنىڭ ئەڭ ياخشى ئۇسۇلى ئۇنى توپلىماسلىق.",
+  "secNeverCollected": "ھەرگىز توپلانمايدۇ",
+  "secNeverItem1": "ئۇچۇر مەزمۇنى",
+  "secNeverItem2": "ئالاقىداش تىزىملىكى",
+  "secNeverItem3": "تېلېفون نومۇرى",
+  "secNeverItem4": "ئېلخەت ئادرېسى",
+  "secNeverItem5": "IP ئادرېسى",
+  "secNeverItem6": "ئورۇن",
+  "secNeverItem7": "مېتا سانلىق مەلۇمات (كىم كىم بىلەن سۆزلىشىدۇ)",
+  "secNeverItem8": "چاقىرىش تارىخى",
+  "secNeverItem9": "ئادرېس دەپتىرى",
+  "secNeverItem10": "ئېلان كىملىكلىرى",
+  "secTempStored": "ۋاقىتلىق ساقلىنىدۇ",
+  "secTempItem1": "نامسىز Hash ID (ئۆزگىچە كىملىك)",
+  "secTempItem2": "ئاممىۋى شىفىرلاش ئاچقۇچلىرى",
+  "secTempItem3": "يولدىكى شىفىرلانغان ئۇچۇرلار (ئەڭ كۆپ 24 سائەت)",
+  "secTempNote": "بۇ ئەڭ ئاز سانلىق مەلۇماتمۇ سىزنى پەرقلەندۈرەلمەيدۇ. Hash ID ڭىز ھېچقانداق شەخسىي ئۇچۇرغا باغلانمىغان.",
+  "secFooterTitle": "مەخپىيەتلىكىڭىز، ئەركىنلىكىڭىز",
+  "secFooterDesc": "Hash ئەڭ تەلەپچان كەسپىي پروگراممىلار بىلەن ئوخشاش شىفىرلاش تېخنىكىلىرىنى ئىشلىتىدۇ. ئۇچۇرلىرىڭىز ماتېماتىكا بىلەن قوغدالغان، ۋەدە بىلەن ئەمەس.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "بىئولوگىيەلىك",
+  "biometricUnlock": "بارماق ئىزى ياكى Face ID بىلەن قۇلۇپ ئېچىش",
+  "biometricWarningMessage": "بىئولوگىيەلىكنى قوزغىتىش بىلەن، Vash كودىڭىزنى ئەپكە كىرىشكە ئىشلەتەلمەيسىز.\n\nVash كودىنى پەقەت بىئولوگىيەلىك مەغلۇب بولغاندا (بىر قانچە مەغلۇب سىناقتىن كېيىن) ئىشلەتەلەيسىز.\n\nداۋاملاشتۇرماقچىمۇ?",
+  "connectionCount": "باغلىنىش",
+  "currentSession": "نۆۋەتتىكى",
+  "dataLocalOnly": "بۇ سانلىق مەلۇماتلار پەقەت ئۈسكۈنىڭىزدە ساقلىنىدۇ ۋە ھەرگىز يوللانمايدۇ.",
+  "doYouLikeHash": "Hash ياقامدۇ?",
+  "donationMessage": "Hash تىجارەت مەقسىتى يوق تۈر. قوللىشىڭىز بىزگە ھەقىقىي مەخپىيەتلىك ئۇچۇر ئەپى ياسايدىغانلىقىمىزغا ياردەم بېرىدۇ.",
+  "enableBiometric": "بىئولوگىيەلىكنى قوزغىتىش",
+  "ephemeral1HourDesc": "ئوقۇغاندىن 1 سائەت كېيىن ئۆچۈرۈلىدۇ",
+  "ephemeral24HoursDesc": "ئوقۇغاندىن 24 سائەت كېيىن ئۆچۈرۈلىدۇ",
+  "ephemeral30SecondsDesc": "ئوقۇغاندىن 30 سېكۇنت كېيىن ئۆچۈرۈلىدۇ",
+  "ephemeral5MinutesDesc": "ئوقۇغاندىن 5 مىنۇت كېيىن ئۆچۈرۈلىدۇ",
+  "ephemeral6HoursDesc": "ئوقۇغاندىن 6 سائەت كېيىن ئۆچۈرۈلىدۇ",
+  "feedback": "ئىنكاس",
+  "historyLabel": "تارىخ",
+  "hoursAgoLabel": "{hours} سائەت ئىلگىرى",
+  "hoursMinutesAgoLabel": "{hours} سائەت {minutes} مىنۇت ئىلگىرى",
+  "justNowLabel": "ھازىر",
+  "later": "كېيىن",
+  "loginInfoText": "ھەر بىر PIN قۇلۇپ ئېچىش يەرلىكتە خاتىرىلىنىدۇ. پەقەت ئاخىرقى 24 سائەت ساقلىنىدۇ.",
+  "maintenanceActiveLabel": "جەريان قىلىۋاتىدۇ",
+  "maintenancePlannedLabel": "پىلانلانغان",
+  "maintenanceTitle": "ئاسراش",
+  "minutesAgoLabel": "{count} مىنۇت ئىلگىرى",
+  "periodLabel": "مەزگىل",
+  "pinCodeForEntry": "ئەپكە كىرىش ئۈچۈن PIN كود",
+  "ratingBad": "ناچار",
+  "ratingExcellent": "ئەلا!",
+  "ratingGood": "ياخشى",
+  "ratingOk": "بولىدۇ",
+  "ratingTerrible": "بەك يامان",
+  "recentConnections": "يېقىنقى باغلىنىشلار",
+  "share": "ھەمبەھىرلەش",
+  "shareAppSubtitle": "Hash نى يېقىنلىرىڭىز بىلەن ھەمبەھىرلەڭ",
+  "showCallsInRecents": "يېقىنقى چاقىرىقلاردا كۆرسەت",
+  "showCallsInRecentsSubtitle": "Hash چاقىرىقلىرى تېلېفون تارىخىدا كۆرۈنىدۇ",
+  "todayLabel": "بۈگۈن",
+  "understood": "چۈشەندىم",
+  "yesterdayLabel": "تۈنۈگۈن",
+  "yourFeedbackHelps": "ئىنكاسىڭىز ئەپنى ياخشىلاشقا ياردەم بېرىدۇ"
+}

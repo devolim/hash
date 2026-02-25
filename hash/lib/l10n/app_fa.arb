@@ -1,0 +1,1039 @@
+{
+  "@@locale": "fa",
+  "appName": "Hash",
+  "appTagline": "بدون ردپا. بدون سازش.",
+  "conversations": "گفتگوها",
+  "contacts": "مخاطبین",
+  "noConversation": "گفتگویی وجود ندارد",
+  "noConversationSubtitle": "یک مخاطب اضافه کنید تا گفتگوی امن شروع شود",
+  "pendingRequestsCount": "{count, plural, =1{۱ درخواست در انتظار} other{{count} درخواست در انتظار}}",
+  "sentRequestsCount": "{count, plural, =1{۱ درخواست ارسالی در انتظار} other{{count} درخواست ارسالی در انتظار}}",
+  "addContact": "افزودن مخاطب",
+  "shareApp": "اشتراک‌گذاری برنامه",
+  "newMessage": "پیام جدید",
+  "newConversation": "ارسال پیام",
+  "settings": "تنظیمات",
+  "myHashId": "Hash ID من",
+  "supportHash": "حمایت از Hash",
+  "supportHashSubtitle": "Hash یک پروژه غیرانتفاعی است",
+  "donate": "کمک مالی",
+  "appearance": "ظاهر",
+  "theme": "تم",
+  "themeAuto": "خودکار",
+  "themeAutoSubtitle": "تنظیمات سیستم را دنبال می‌کند",
+  "themeDark": "تاریک",
+  "themeLight": "روشن",
+  "themeRecommendation": "تم تاریک برای حریم خصوصی بهتر توصیه می‌شود",
+  "language": "زبان",
+  "languageAuto": "خودکار (سیستم)",
+  "notifications": "اعلان‌ها",
+  "messages": "پیام‌ها",
+  "calls": "تماس‌ها",
+  "vibration": "لرزش",
+  "notificationContent": "محتوای اعلان",
+  "notificationContentFull": "نمایش همه",
+  "notificationContentFullDesc": "نام مخاطب و پیش‌نمایش پیام",
+  "notificationContentName": "فقط نام",
+  "notificationContentNameDesc": "فقط نام مخاطب را نمایش می‌دهد",
+  "notificationContentDiscrete": "محرمانه",
+  "notificationContentDiscreteDesc": "فقط \"پیام جدید\" نمایش می‌دهد",
+  "security": "امنیت",
+  "howHashProtectsYou": "Hash چگونه از شما محافظت می‌کند",
+  "howHashProtectsYouSubtitle": "امنیت خود را درک کنید",
+  "accountSecurity": "امنیت حساب",
+  "accountSecuritySubtitle": "PIN، بیومتریک، حالت Vash",
+  "blockScreenshots": "مسدود کردن تصاویر صفحه",
+  "transferDevice": "انتقال به دستگاه دیگر",
+  "transferDeviceSubtitle": "انتقال حساب خود",
+  "pinCode": "کد PIN",
+  "changePin": "تغییر کد PIN",
+  "currentPin": "کد PIN فعلی",
+  "newPin": "کد PIN جدید",
+  "confirmPin": "تأیید کد PIN",
+  "pinChanged": "کد PIN تغییر کرد",
+  "incorrectPin": "PIN نادرست",
+  "pinsDoNotMatch": "کدهای PIN مطابقت ندارند",
+  "autoLock": "قفل خودکار",
+  "autoLockDelay": "تأخیر قفل",
+  "autoLockImmediate": "فوری",
+  "autoLockMinute": "۱ دقیقه",
+  "autoLockMinutes": "{count} دقیقه",
+  "vashCode": "کد Vash",
+  "vashModeTitle": "حالت Vash",
+  "vashModeExplanation": "آخرین شبکه امنیتی شما.",
+  "vashModeDescription": "یک کد PIN دوم انتخاب خواهید کرد. اگر مجبور به باز کردن Hash شدید، این کد را به جای PIN معمولی خود وارد کنید.\n\nبرنامه به طور عادی باز می‌شود، اما همه مکالمات و مخاطبین شما ناپدید شده‌اند.\n\nبرای هر کسی که به صفحه شما نگاه می‌کند، Hash خالی به نظر می‌رسد — انگار هرگز استفاده نشده.",
+  "vashModeIrreversible": "این عمل بی‌صدا و برگشت‌ناپذیر است.",
+  "chooseVashCode": "انتخاب کد Vash",
+  "vashCodeInfo": "یک کد PIN دوم که برنامه را به طور عادی اما خالی باز می‌کند.",
+  "vashCodeInfoDetail": "اگر این کد را به جای PIN وارد کنید:",
+  "vashDeleteContacts": "مخاطبین شما ناپدید می‌شوند",
+  "vashDeleteMessages": "مکالمات شما ناپدید می‌شوند",
+  "vashDeleteHistory": "یادداشت‌های شما ناپدید می‌شوند",
+  "vashKeepId": "هویت Hash شما (#XXX-XXX-XXX) بدون تغییر باقی می‌ماند",
+  "vashAppearNormal": "برنامه عادی اما خالی به نظر می‌رسد، مانند جدید. این عمل برگشت‌ناپذیر است.",
+  "setupVashCode": "راه‌اندازی کد Vash",
+  "modifyVashCode": "تغییر کد Vash",
+  "currentVashCode": "کد Vash فعلی",
+  "newVashCode": "کد Vash جدید",
+  "confirmVashCode": "تأیید کد Vash",
+  "vashCodeConfigured": "کد Vash پیکربندی شد",
+  "vashCodeModified": "کد Vash تغییر کرد",
+  "vashCodeMustDiffer": "کد Vash باید از PIN متفاوت باشد",
+  "incorrectVashCode": "کد Vash نادرست",
+  "vashWhatToDelete": "حالت Vash چه چیزی را ناپدید کند؟",
+  "vashDeleteContactsOption": "مخاطبین",
+  "vashDeleteMessagesOption": "پیام‌ها",
+  "vashDeleteNotesOption": "یادداشت‌ها",
+  "vashActivated": "حالت Vash فعال شد",
+  "vashCreateSubtitle": "کدی متفاوت از PIN اصلی خود انتخاب کنید",
+  "vashConfirmSubtitle": "کد Vash خود را تأیید کنید",
+  "vashCodeSection": "حالت Vash",
+  "danger": "خطر",
+  "panicButton": "دکمه وحشت",
+  "panicButtonSubtitle": "حذف همه داده‌ها",
+  "deleteAccount": "حذف حساب من",
+  "deleteAccountSubtitle": "عمل برگشت‌ناپذیر",
+  "deleteAccountConfirmTitle": "حذف حساب من",
+  "deleteAccountConfirmMessage": "حساب شما برای همیشه حذف خواهد شد. این عمل برگشت‌ناپذیر است.\n\n- همه گفتگوهای شما\n- همه مخاطبین شما\n- Hash ID شما\n\nباید یک حساب جدید بسازید.",
+  "deleteForever": "حذف دائمی",
+  "cancel": "لغو",
+  "panicConfirmTitle": "دکمه وحشت",
+  "panicConfirmMessage": "این عمل تمام داده‌های شما را برای همیشه حذف می‌کند:\n\n- همه پیام‌های شما\n- همه مخاطبین شما\n- حساب شما\n\nآیا کاملاً مطمئن هستید؟",
+  "deleteAll": "حذف همه",
+  "dataDeletedForSecurity": "حالت Vash فعال شد.",
+  "deletionError": "خطای حذف: {error}",
+  "yourSecurity": "امنیت شما",
+  "securityInfo": "- رمزنگاری سرتاسری (Signal Protocol)\n- بدون داده در سرورهای ما پس از تحویل\n- کلیدها فقط در دستگاه شما ذخیره می‌شوند\n- کد PIN هرگز به سرور ارسال نمی‌شود",
+  "version": "Hash نسخه {version}",
+  "welcome": "خوش آمدید",
+  "securityStatement1": "پیام‌های شما محافظت شده‌اند.",
+  "securityStatement2": "رمزنگاری سرتاسری.",
+  "securityStatement3": "بدون ردپا. بدون سازش.",
+  "securityStatement4": "حریم خصوصی شما یک حق است.",
+  "accessBlocked": "دسترسی مسدود شد",
+  "tooManyAttempts": "تلاش‌های بیش از حد",
+  "pleaseWait": "لطفاً صبر کنید",
+  "waitDelay": "لطفاً تا پایان تأخیر صبر کنید",
+  "attemptCount": "تلاش {current} از {max}",
+  "retryIn": "تلاش مجدد در {time}",
+  "forgotPin": "PIN را فراموش کردید؟ از عبارت بازیابی استفاده کنید",
+  "useRecoveryPhrase": "استفاده از عبارت بازیابی",
+  "recoveryWarningTitle": "هشدار",
+  "recoveryWarningMessage": "بازیابی حساب:",
+  "recoveryDeleteAllMessages": "همه پیام‌های شما را حذف می‌کند",
+  "recoveryWaitDelay": "نیاز به تأخیر ۱ ساعته دارد",
+  "recoveryKeepContacts": "مخاطبین شما را نگه می‌دارد",
+  "recoveryIrreversible": "این عمل برگشت‌ناپذیر است. پیام‌های شما برای همیشه از دست خواهند رفت.",
+  "iUnderstand": "متوجه هستم",
+  "accountRecovery": "بازیابی حساب",
+  "enterRecoveryPhrase": "۲۴ کلمه عبارت بازیابی خود را با فاصله وارد کنید.",
+  "recoveryPhraseHint": "کلمه۱ کلمه۲ کلمه۳ ...",
+  "recover": "بازیابی",
+  "recoveryPhraseRequired": "لطفاً عبارت بازیابی خود را وارد کنید",
+  "recoveryPhrase24Words": "عبارت باید دقیقاً ۲۴ کلمه داشته باشد",
+  "incorrectRecoveryPhrase": "عبارت بازیابی نادرست",
+  "recoveryInitError": "خطا در شروع بازیابی",
+  "securityDelay": "تأخیر امنیتی",
+  "securityDelayMessage": "برای امنیت شما، قبل از ایجاد PIN جدید یک دوره انتظار لازم است.",
+  "timeRemaining": "زمان باقی‌مانده",
+  "messagesDeletedForProtection": "پیام‌های شما برای محافظت حذف شده‌اند.",
+  "canCloseApp": "می‌توانید برنامه را ببندید و بعداً برگردید.",
+  "onboardingTitle1": "به Hash خوش آمدید",
+  "onboardingSubtitle1": "پیام‌رسانی که ردپایی از خود نمی‌گذارد",
+  "onboardingTitle2": "رمزنگاری کامل",
+  "onboardingSubtitle2": "پیام‌های شما با Signal Protocol سرتاسر رمزنگاری شده‌اند",
+  "onboardingTitle3": "بدون ردپا",
+  "onboardingSubtitle3": "پیام‌ها پس از تحویل از سرورها حذف می‌شوند",
+  "onboardingTitle4": "امنیت شما",
+  "onboardingSubtitle4": "کد PIN، حالت Vash و عبارت بازیابی",
+  "getStarted": "شروع کنید",
+  "next": "بعدی",
+  "skip": "رد شدن",
+  "alreadyHaveAccount": "قبلاً حساب دارم",
+  "transferMyAccount": "انتقال حساب من",
+  "createPin": "ایجاد کد PIN",
+  "createPinSubtitle": "این کد از دسترسی به برنامه شما محافظت می‌کند",
+  "confirmYourPin": "تأیید کد PIN",
+  "confirmPinSubtitle": "کد PIN خود را دوباره وارد کنید",
+  "saveRecoveryPhrase": "عبارت بازیابی",
+  "saveRecoveryPhraseSubtitle": "این ۲۴ کلمه را به ترتیب بنویسید. در صورت فراموشی PIN، امکان بازیابی حساب شما را فراهم می‌کنند.",
+  "phraseWritten": "عبارت خود را نوشته‌ام",
+  "warningRecoveryPhrase": "اگر این عبارت را گم کنید و PIN خود را فراموش کنید، دسترسی به حساب خود را از دست خواهید داد.",
+  "accountTransferred": "حساب منتقل شد",
+  "accountTransferredMessage": "حساب شما به دستگاه دیگری منتقل شده است. این نشست دیگر معتبر نیست.",
+  "accountTransferredInfo": "اگر شما این انتقال را آغاز نکرده‌اید، ممکن است حساب شما به خطر افتاده باشد.",
+  "logout": "خروج",
+  "transferAccount": "انتقال حساب",
+  "transferAccountInfo": "حساب Hash خود را به دستگاه جدید منتقل کنید. نشست فعلی شما باطل خواهد شد.",
+  "generateTransferCode": "تولید کد انتقال",
+  "transferCode": "کد انتقال",
+  "transferCodeExpires": "این کد در {minutes} دقیقه منقضی می‌شود",
+  "enterCodeOnNewDevice": "این کد را در دستگاه جدید خود وارد کنید تا حساب منتقل شود.",
+  "generateNewCode": "تولید کد جدید",
+  "scanQrCode": "اسکن QR code",
+  "scanQrCodeSubtitle": "QR code مخاطب را اسکن کنید تا او را اضافه کنید",
+  "qrCodeDetected": "QR code شناسایی شد",
+  "invalidQrCode": "QR code نامعتبر",
+  "cameraPermissionRequired": "مجوز دوربین لازم است",
+  "myQrCode": "QR code من",
+  "myQrCodeSubtitle": "این QR code را به اشتراک بگذارید تا مخاطبینتان شما را اضافه کنند",
+  "shareQrCode": "اشتراک‌گذاری",
+  "addContactTitle": "افزودن مخاطب",
+  "addContactByHashId": "Hash ID مخاطب خود را وارد کنید",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "جستجو",
+  "contactNotFound": "مخاطب یافت نشد",
+  "contactAlreadyAdded": "این مخاطب قبلاً در لیست شماست",
+  "contactAdded": "مخاطب اضافه شد",
+  "myProfile": "پروفایل من",
+  "myProfileSubtitle": "این اطلاعات را به اشتراک بگذارید تا دیگران شما را اضافه کنند",
+  "temporaryCode": "کد موقت",
+  "temporaryCodeExpires": "در {time} منقضی می‌شود",
+  "codeExpired": "کد منقضی شده",
+  "generateNewCodeButton": "کد جدید",
+  "copyHashId": "کپی ID",
+  "copyCode": "کپی کد",
+  "copiedToClipboard": "کپی شد",
+  "showMyQrCode": "نمایش QR code من",
+  "orDivider": "یا",
+  "openScanner": "باز کردن اسکنر",
+  "addManually": "افزودن دستی",
+  "contactHashIdLabel": "Hash ID مخاطب",
+  "temporaryCodeLabel": "کد موقت",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "از مخاطب خود بخواهید از پروفایلش کد تولید کند",
+  "verifyAndAdd": "تأیید و افزودن",
+  "fillAllFields": "لطفاً همه فیلدها را پر کنید",
+  "invalidHashIdFormat": "فرمت ID نامعتبر (مثال: 123-456-ABC)",
+  "userNotFound": "کاربر یافت نشد",
+  "cannotAddYourself": "نمی‌توانید خودتان را اضافه کنید",
+  "invalidOrExpiredCode": "کد موقت نامعتبر یا منقضی شده",
+  "contactFound": "مخاطب یافت شد!",
+  "howToCallContact": "می‌خواهید آنها را چه بنامید؟",
+  "contactNameHint": "نام مخاطب",
+  "addContactButton": "افزودن",
+  "contactDetails": "جزئیات مخاطب",
+  "contactName": "نام مخاطب",
+  "contactHashId": "Hash ID",
+  "addedOn": "اضافه شده در {date}",
+  "deleteContact": "حذف مخاطب",
+  "deleteContactConfirm": "این مخاطب حذف شود؟",
+  "deleteContactMessage": "این کار گفتگوی کامل را نیز حذف می‌کند.",
+  "delete": "حذف",
+  "typeMessage": "پیام بنویسید...",
+  "messageSent": "ارسال شد",
+  "messageDelivered": "تحویل داده شد",
+  "messageRead": "خوانده شد",
+  "messageFailed": "ارسال نشد",
+  "now": "الان",
+  "minutesAgo": "{count}دقیقه",
+  "hoursAgo": "{count}ساعت",
+  "daysAgo": "{count}روز",
+  "today": "امروز",
+  "yesterday": "دیروز",
+  "dateAtTime": "{date} ساعت {time}",
+  "shareMessage": "به من در Hash بپیوندید! یک پیام‌رسان واقعاً خصوصی: رمزنگاری کامل، بدون ردپا در سرورها و حالت وحشت در صورت نیاز.\n\nبرنامه را اینجا دانلود کنید\nhttps://hash.devolim.fr/share/index.html",
+  "error": "خطا",
+  "ok": "تأیید",
+  "view": "مشاهده",
+  "yes": "بله",
+  "no": "خیر",
+  "save": "ذخیره",
+  "edit": "ویرایش",
+  "close": "بستن",
+  "confirm": "تأیید",
+  "loading": "بارگذاری...",
+  "retry": "تلاش مجدد",
+  "pendingRequests": "درخواست‌های در انتظار",
+  "noPendingRequests": "درخواست در انتظاری نیست",
+  "pendingRequestsSubtitle": "این افراد می‌خواهند شما را اضافه کنند",
+  "requestFromUser": "درخواست از {hashId}",
+  "requestExpiresIn": "در {days} روز منقضی می‌شود",
+  "acceptRequest": "قبول",
+  "rejectRequest": "رد",
+  "requestAccepted": "درخواست پذیرفته شد",
+  "requestRejected": "درخواست رد شد",
+  "requestSent": "درخواست ارسال شد!",
+  "requestSentSubtitle": "درخواست شما ارسال شد. کاربر باید آن را بپذیرد تا بتوانید گفتگو کنید.",
+  "requestAlreadyPending": "یک درخواست در انتظار است",
+  "requestAlreadySentByOther": "این شخص قبلاً به شما درخواست فرستاده است",
+  "addByHashId": "افزودن با Hash ID",
+  "addByHashIdSubtitle": "Hash ID و کد موقت مخاطب را وارد کنید",
+  "enterTemporaryCode": "کد ۶ رقمی را وارد کنید",
+  "sendRequest": "ارسال درخواست",
+  "acceptContactTitle": "پذیرش مخاطب",
+  "acceptContactSubtitle": "می‌توانید نام سفارشی بدهید",
+  "leaveEmptyForHashId": "برای استفاده از Hash ID خالی بگذارید",
+  "firstName": "نام",
+  "lastName": "نام خانوادگی",
+  "notes": "یادداشت‌ها",
+  "notesHint": "یادداشت‌های شخصی درباره این مخاطب",
+  "photoOptional": "عکس (اختیاری)",
+  "contactNameOptional": "نام (اختیاری)",
+  "notesOptional": "یادداشت‌ها (اختیاری)",
+  "storedLocally": "فقط در دستگاه شما ذخیره شده",
+  "encryptedMessageLabel": "پیام رمزنگاری‌شده",
+  "identityMessageHint": "شما کی هستید؟ چگونه یکدیگر را می‌شناسید؟",
+  "messageWillBeSentEncrypted": "این پیام رمزنگاری شده و به گیرنده ارسال خواهد شد",
+  "sendRequestButton": "ارسال درخواست",
+  "requestExpiresIn24h": "درخواست در صورت عدم پذیرش در ۲۴ ساعت منقضی می‌شود",
+  "theyAlreadySentYouRequest": "این شخص قبلاً به شما درخواست فرستاده است",
+  "requests": "درخواست‌ها",
+  "receivedRequests": "دریافت‌شده",
+  "sentRequests": "ارسال‌شده",
+  "noSentRequests": "درخواست ارسالی نیست",
+  "cancelRequest": "لغو",
+  "deleteRequest": "حذف درخواست",
+  "requestCancelled": "درخواست لغو شد",
+  "sentTo": "ارسال شده به {hashId}",
+  "expiresIn": "در {time} منقضی می‌شود",
+  "receivedAgo": "{time} پیش دریافت شد",
+  "messageFromRequester": "پیام از درخواست‌کننده",
+  "copy": "کپی",
+  "messageInfo": "اطلاعات پیام",
+  "messageDirection": "جهت",
+  "messageSentByYou": "ارسال‌شده توسط شما",
+  "messageReceived": "دریافت‌شده",
+  "messageSentAt": "ارسال‌شده در",
+  "messageStatus": "وضعیت",
+  "messageReadAt": "خوانده‌شده در",
+  "messageType": "نوع",
+  "messageSize": "اندازه",
+  "messageExpiresAt": "منقضی می‌شود در",
+  "messageEncrypted": "رمزنگاری سرتاسری",
+  "messageStatusSending": "در حال ارسال...",
+  "messageStatusSent": "ارسال شد",
+  "messageStatusDelivered": "تحویل داده شد",
+  "messageStatusRead": "خوانده شد",
+  "messageStatusFailed": "ناموفق",
+  "serverStatus": "سرور",
+  "onServer": "در انتظار تحویل",
+  "deletedFromServer": "حذف شد",
+  "messageTypeText": "متن",
+  "messageTypeImage": "تصویر",
+  "messageTypeVideo": "ویدیو",
+  "messageTypeVoice": "صدا",
+  "messageTypeFile": "فایل",
+  "indefinitely": "نامحدود",
+  "hoursShort": "ساعت",
+  "minutesShort": "دقیقه",
+  "hours": "ساعت",
+  "minutes": "دقیقه",
+  "seconds": "ثانیه",
+  "ephemeralMessages": "پیام‌های ناپایدار",
+  "ephemeralMessagesDescription": "پیام‌ها پس از این مدت به طور خودکار حذف می‌شوند",
+  "ephemeralImmediate": "فوری (پس از خواندن)",
+  "ephemeralImmediateDesc": "بلافاصله پس از خواندن حذف می‌شود",
+  "ephemeralMyPreference": "ترجیح من",
+  "ephemeralMyPreferenceDesc": "استفاده از تنظیم کلی",
+  "ephemeralDefaultSetting": "مدت پیام",
+  "ephemeralChooseDefault": "توصیه‌شده",
+  "ephemeral30Seconds": "۳۰ ثانیه",
+  "ephemeral5Minutes": "۵ دقیقه",
+  "ephemeral1Hour": "۱ ساعت",
+  "ephemeral3Hours": "۳ ساعت",
+  "ephemeral6Hours": "۶ ساعت",
+  "ephemeral12Hours": "۱۲ ساعت",
+  "ephemeral24Hours": "۲۴ ساعت",
+  "customDuration": "مدت سفارشی",
+  "muteNotifications": "بی‌صدا کردن اعلان‌ها",
+  "muteDescription": "اعلانی برای این مخاطب دریافت نخواهید کرد",
+  "mutedUntil": "بی‌صدا تا {time}",
+  "notMuted": "اعلان‌ها فعال",
+  "unmute": "فعال کردن صدا",
+  "notificationSound": "صدای اعلان",
+  "defaultSound": "پیش‌فرض",
+  "chatSettings": "تنظیمات گفتگو",
+  "bubbleColor": "رنگ حباب",
+  "backgroundColor": "رنگ پس‌زمینه",
+  "backgroundImage": "تصویر پس‌زمینه",
+  "chatBackground": "پس‌زمینه گفتگو",
+  "customColor": "سفارشی",
+  "defaultColor": "پیش‌فرض",
+  "imageSelected": "تصویر انتخاب شد",
+  "noImage": "بدون تصویر",
+  "color": "رنگ",
+  "image": "تصویر",
+  "tapToSelectImage": "برای انتخاب تصویر ضربه بزنید",
+  "changeImage": "تغییر تصویر",
+  "previewMessageReceived": "سلام!",
+  "previewMessageSent": "درود!",
+  "messageAction": "پیام",
+  "callAction": "تماس",
+  "videoAction": "ویدیو",
+  "personalNotes": "یادداشت‌های شخصی",
+  "addNotes": "افزودن یادداشت...",
+  "noNotes": "بدون یادداشت",
+  "messageNotifications": "اعلان‌های پیام",
+  "callNotifications": "اعلان‌های تماس",
+  "useGradient": "استفاده از گرادیانت",
+  "gradientStart": "رنگ شروع",
+  "gradientEnd": "رنگ پایان",
+  "preview": "پیش‌نمایش",
+  "reset": "بازنشانی",
+  "securityNumber": "شماره امنیتی",
+  "securityNumberDescription": "تأیید کنید که شماره امنیتی با دستگاه {name} مطابقت دارد",
+  "verifyEncryption": "تأیید رمزنگاری سرتاسری",
+  "tapToCopy": "برای کپی ضربه بزنید",
+  "howToVerify": "چگونه تأیید کنیم",
+  "verifyStep1": "مخاطب خود را حضوری ملاقات کنید یا تماس بگیرید",
+  "verifyStep2": "شماره‌های امنیتی را مقایسه کنید یا QR code اسکن کنید",
+  "verifyStep3": "اگر مطابقت دارند، گفتگوی شما امن است",
+  "scanToVerify": "اسکن برای تأیید",
+  "reportSpam": "گزارش هرزنامه",
+  "reportSpamSubtitle": "گزارش این مخاطب به عنوان هرزنامه",
+  "reportSpamDescription": "این مخاطب به صورت ناشناس گزارش می‌شود. هویت شما فاش نمی‌شود. آیا مطمئن هستید؟",
+  "report": "گزارش",
+  "spamReported": "هرزنامه گزارش شد",
+  "reportError": "ارسال گزارش ناموفق بود. لطفاً دوباره تلاش کنید.",
+  "reportRateLimited": "به حداکثر تعداد گزارش‌های امروز رسیده‌اید.",
+  "blockContact": "مسدود کردن مخاطب",
+  "blockContactDescription": "این مخاطب دیگر نمی‌تواند برای شما پیام بفرستد یا تماس بگیرد. مطلع نخواهد شد.",
+  "unblockContact": "رفع مسدودیت مخاطب",
+  "unblockContactDescription": "این مخاطب دوباره می‌تواند برای شما پیام بفرستد و تماس بگیرد.",
+  "contactBlocked": "مخاطب مسدود شد",
+  "contactUnblocked": "مسدودیت مخاطب رفع شد",
+  "contactIsBlocked": "این مخاطب مسدود است",
+  "unblock": "رفع مسدودیت",
+  "deleteContactSubtitle": "حذف این مخاطب و گفتگو",
+  "confirmWithPin": "تأیید با PIN",
+  "enterPinToConfirm": "PIN خود را برای تأیید این عمل وارد کنید",
+  "mute1Hour": "۱ ساعت",
+  "mute8Hours": "۸ ساعت",
+  "mute1Day": "۱ روز",
+  "mute1Week": "۱ هفته",
+  "muteAlways": "همیشه",
+  "muteExplanation": "اعلانی برای این مخاطب دریافت نخواهید کرد",
+  "howItWorks": "نحوه کار",
+  "ephemeralExplanation1": "پیام‌ها بلافاصله پس از دریافت از سرور حذف می‌شوند.",
+  "ephemeralExplanation2": "این تنظیم مشخص می‌کند پیام‌ها چه زمانی پس از خواندن از تلفن شما ناپدید شوند.",
+  "ephemeralExplanation3": "مخاطب شما تنظیمات خود را برای تلفن خود دارد.",
+  "profilePhoto": "عکس پروفایل",
+  "takePhoto": "عکس بگیرید",
+  "chooseFromGallery": "انتخاب از گالری",
+  "removePhoto": "حذف عکس",
+  "viewContactHashId": "مشاهده شناسه مخاطب",
+  "hashIdPartiallyMasked": "برای امنیت شما و حریم خصوصی مخاطبتان تا حدی پنهان شده",
+  "addFirstContact": "اولین مخاطب خود را اضافه کنید",
+  "addFirstContactSubtitle": "QR code خود را به اشتراک بگذارید یا مال دوستتان را اسکن کنید",
+  "directory": "فهرست",
+  "noContacts": "مخاطبی نیست",
+  "noContactsSubtitle": "یک مخاطب اضافه کنید تا شروع کنید",
+  "sendMessageAction": "ارسال پیام",
+  "audioCall": "تماس صوتی",
+  "videoCall": "تماس تصویری",
+  "viewProfile": "مشاهده پروفایل",
+  "deleteContactDirectory": "حذف مخاطب",
+  "scanShort": "اسکن",
+  "addShort": "افزودن",
+  "deleteContactConfirmName": "آیا مطمئن هستید که می‌خواهید {name} را حذف کنید؟",
+  "noNotesTitle": "یادداشتی نیست",
+  "noNotesSubtitle": "اولین یادداشت خود را بسازید",
+  "newNote": "یادداشت جدید",
+  "editNote": "ویرایش یادداشت",
+  "deleteNote": "حذف یادداشت",
+  "deleteNoteConfirm": "آیا مطمئن هستید که می‌خواهید این یادداشت را حذف کنید؟",
+  "noteTitle": "عنوان",
+  "noteContent": "محتوا",
+  "addItem": "افزودن مورد",
+  "pinNote": "سنجاق",
+  "unpinNote": "برداشتن سنجاق",
+  "noteColor": "رنگ",
+  "notePassword": "رمز عبور",
+  "setPassword": "تنظیم رمز عبور",
+  "changePassword": "تغییر رمز عبور",
+  "removePassword": "حذف رمز عبور",
+  "enterPassword": "رمز عبور را وارد کنید",
+  "confirmPassword": "تأیید رمز عبور",
+  "passwordPin": "کد PIN",
+  "passwordText": "رمز عبور متنی",
+  "protectedNote": "یادداشت محافظت‌شده",
+  "incorrectPassword": "رمز عبور نادرست",
+  "passwordSet": "رمز عبور تنظیم شد",
+  "passwordRemoved": "رمز عبور حذف شد",
+  "notesBiometric": "Face ID برای یادداشت‌ها",
+  "notesBiometricSubtitle": "نیاز به احراز هویت بیومتریک برای باز کردن یادداشت‌های محافظت‌شده",
+  "textNote": "یادداشت متنی",
+  "checklistNote": "چک‌لیست",
+  "tasksProgress": "{checked}/{total} وظیفه",
+  "autoSaved": "ذخیره شد",
+  "searchNotes": "جستجوی یادداشت‌ها",
+  "legalConsent": "رضایت قانونی",
+  "confirmAge13": "تأیید می‌کنم که حداقل ۱۳ سال دارم",
+  "acceptLegalStart": "می‌پذیرم ",
+  "privacyPolicy": "سیاست حریم خصوصی",
+  "termsOfService": "شرایط خدمات",
+  "andThe": " و ",
+  "continueButton": "ادامه",
+  "mustAcceptTerms": "برای ادامه باید هر دو شرط را بپذیرید",
+  "support": "پشتیبانی",
+  "contactSupport": "تماس با پشتیبانی",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "گزارش سوء‌استفاده",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "قانونی",
+  "legalEntity": "شخص حقوقی",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+  "pinConversation": "سنجاق",
+  "unpinConversation": "برداشتن سنجاق",
+  "hideConversation": "حذف از فید",
+  "deleteConversation": "حذف گفتگو",
+  "deleteConversationConfirm": "PIN خود را برای تأیید حذف همه پیام‌ها وارد کنید",
+  "noConversations": "هنوز گفتگویی نیست",
+  "startConversation": "شروع",
+  "microphonePermissionRequired": "دسترسی میکروفون لازم است",
+  "microphonePermissionExplanation": "Hash برای برقراری تماس به میکروفون نیاز دارد.",
+  "cameraPermissionExplanation": "Hash برای تماس تصویری به دوربین نیاز دارد.",
+  "openSettings": "باز کردن تنظیمات",
+  "callConnecting": "اتصال...",
+  "callRinging": "زنگ زدن...",
+  "callReconnecting": "اتصال مجدد...",
+  "callReconnectingTimer": "اتصال مجدد ({seconds}ث)",
+  "callPaused": "متوقف",
+  "callPausedSubtitle": "تماس هنوز فعال است",
+  "callRemoteMicMuted": "میکروفون مخاطب بی‌صداست",
+  "callMiniControlsMute": "بی‌صدا",
+  "callMiniControlsUnmute": "فعال کردن صدا",
+  "callMiniControlsHangUp": "قطع تماس",
+  "callMiniControlsReturn": "بازگشت به تماس",
+  "callNetworkPoor": "اتصال ناپایدار",
+  "callNetworkLost": "اتصال قطع شد",
+  "callEndedTitle": "تماس پایان یافت",
+  "deviceData": "داده‌های دستگاه",
+  "deviceDataSubtitle": "فضای ذخیره‌سازی محلی و سرور",
+  "localStorage": "فضای ذخیره‌سازی محلی",
+  "onThisDevice": "در این دستگاه",
+  "encryptedDatabases": "پایگاه‌های داده رمزنگاری‌شده",
+  "files": "فایل‌ها",
+  "secureKeychain": "زنجیره کلید امن",
+  "cache": "حافظه پنهان",
+  "contactsDetail": "نام‌ها، آواتارها، کلیدهای Signal",
+  "messagesDetail": "مکالمات رمزنگاری‌شده",
+  "notesDetail": "یادداشت‌های شخصی",
+  "signalSessions": "نشست‌های Signal",
+  "signalSessionsDetail": "نشست‌های رمزنگاری",
+  "pendingContacts": "مخاطبین در انتظار",
+  "pendingContactsDetail": "درخواست‌های در انتظار",
+  "callHistory": "تماس‌ها",
+  "callHistoryDetail": "سابقه تماس",
+  "preferences": "ترجیحات",
+  "preferencesDetail": "ترجیحات رسانه و تماس",
+  "avatars": "آواتارها",
+  "media": "رسانه",
+  "fileCount": "{count, plural, =0{بدون فایل} =1{۱ فایل} other{{count} فایل}}",
+  "active": "فعال",
+  "notDefined": "تعریف نشده",
+  "biometrics": "بیومتریک",
+  "recoveryPhrase": "عبارت بازیابی",
+  "identity": "هویت (Hash ID)",
+  "signalKeys": "کلیدهای Signal Protocol",
+  "authTokens": "توکن‌های احراز هویت",
+  "contactNamesCache": "حافظه پنهان نام مخاطبین",
+  "remoteConfig": "پیکربندی راه دور",
+  "notificationPrefs": "ترجیحات اعلان",
+  "serverData": "داده‌های سرور",
+  "serverDataInfo": "Hash حداقل داده را در سرور نگه می‌دارد، همه رمزنگاری‌شده یا موقت.",
+  "serverProfile": "پروفایل",
+  "serverProfileDetail": "Hash ID، کلیدهای عمومی، توکن صندوق پستی",
+  "serverPrekeys": "پیش‌کلیدها",
+  "serverPrekeysDetail": "کلیدهای یک‌بار مصرف Signal (مصرف‌شده)",
+  "serverMessages": "پیام‌های در حال انتقال",
+  "serverMessagesDetail": "پس از تحویل حذف می‌شوند (حداکثر ۲۴ ساعت)",
+  "serverMedia": "رسانه در حال انتقال",
+  "serverMediaDetail": "پس از دانلود حذف می‌شود",
+  "serverContactRequests": "درخواست‌های مخاطب",
+  "serverContactRequestsDetail": "پس از ۲۴ ساعت منقضی می‌شوند",
+  "serverRateLimits": "محدودیت‌های نرخ",
+  "serverRateLimitsDetail": "داده‌های موقت ضد سوء‌استفاده",
+  "privacyReassurance": "Hash نمی‌تواند پیام‌های شما را بخواند. همه داده‌ها سرتاسر رمزنگاری شده‌اند. داده‌های سرور به طور خودکار حذف می‌شوند.",
+  "pinTooSimple": "این PIN خیلی ساده است. کد امن‌تری انتخاب کنید.",
+  "genericError": "خطایی رخ داد. لطفاً دوباره تلاش کنید.",
+  "accountCreationError": "ایجاد حساب ناموفق: {error}",
+  "phraseCopiedToClipboard": "عبارت در کلیپ‌بورد کپی شد",
+  "copyPhrase": "کپی عبارت",
+  "recoveryPhraseSecurityWarning": "این عبارت را در مکانی امن بنویسید. اگر PIN خود را بدون این عبارت گم کنید، برای همیشه دسترسی به داده‌های خود را از دست خواهید داد.",
+  "noMessages": "پیامی نیست",
+  "deleteAllMessagesWithContact": "همه پیام‌ها با {name} حذف شوند؟",
+  "confirmation": "تأیید",
+  "untitled": "بدون عنوان",
+  "noSessions": "نشستی نیست",
+  "unknownContact": "مخاطب ناشناس",
+  "unnamed": "بدون نام",
+  "noPendingRequestsAlt": "درخواست در انتظاری نیست",
+  "deleteAllCallHistory": "همه سابقه تماس حذف شود؟",
+  "noCalls": "تماسی نیست",
+  "noPreferences": "ترجیحی نیست",
+  "resetAllMediaPrefs": "همه ترجیحات رسانه بازنشانی شوند؟",
+  "deleteThisAvatar": "این آواتار حذف شود؟",
+  "deleteAllAvatars": "همه آواتارها حذف شوند؟",
+  "noAvatars": "آواتاری نیست",
+  "deleteThisFile": "این فایل حذف شود؟",
+  "deleteAllMediaFiles": "همه رسانه‌ها حذف شوند؟",
+  "noMediaFiles": "رسانه‌ای نیست",
+  "outgoing": "خروجی",
+  "incoming": "ورودی",
+  "ephemeralViewDuration": "نمایش ناپایدار: {seconds}ث",
+  "normalView": "نمایش عادی",
+  "callReasonCompleted": "تکمیل‌شده",
+  "callReasonMissed": "بی‌پاسخ",
+  "callReasonDeclined": "رد شده",
+  "callReasonFailed": "ناموفق",
+  "justNow": "همین الان",
+  "timeAgoMinutes": "{count} دقیقه پیش",
+  "timeAgoHours": "{count} ساعت پیش",
+  "timeAgoDays": "{count} روز پیش",
+  "messageTypeContact": "مخاطب",
+  "messageTypeLocation": "موقعیت",
+  "statusQueued": "در صف",
+  "blockedBadge": "مسدود",
+  "protectedBadge": "محافظت‌شده",
+  "messageCount": "{count} پیام",
+  "deleteQuestion": "حذف شود؟",
+  "transferMyAccountTitle": "انتقال حساب من",
+  "loadingError": "خطای بارگذاری",
+  "transferToNewDevice": "انتقال به دستگاه جدید",
+  "transferInstructions": "در دستگاه جدید خود، \"بازیابی حساب من\" را انتخاب کنید و این اطلاعات را وارد کنید:",
+  "yourHashIdLabel": "Hash ID شما",
+  "enterYourPinCode": "کد PIN خود را وارد کنید",
+  "pinOwnerConfirmation": "برای تأیید اینکه مالک این حساب هستید",
+  "scanThisQrCode": "این QR code را اسکن کنید",
+  "withYourNewDevice": "با دستگاه جدید خود",
+  "orEnterTheCode": "یا کد را وارد کنید",
+  "transferCodeLabel": "کد انتقال",
+  "proximityVerification": "تأیید مجاورت",
+  "bringDevicesCloser": "هر دو دستگاه را نزدیک‌تر کنید",
+  "confirmTransferQuestion": "تأیید انتقال؟",
+  "accountWillBeTransferred": "حساب شما به دستگاه جدید منتقل خواهد شد.\n\nاین دستگاه برای همیشه قطع خواهد شد.",
+  "transferComplete": "انتقال کامل شد",
+  "transferSuccessMessage": "حساب شما با موفقیت منتقل شد.\n\nبرنامه اکنون بسته می‌شود.",
+  "manualVerification": "تأیید دستی",
+  "codeDisplayedOnBothDevices": "کد نمایش‌داده‌شده در هر دو دستگاه:",
+  "doesCodeMatchNewDevice": "آیا این کد با کد دستگاه جدید مطابقت دارد؟",
+  "verifiedStatus": "تأیید شد",
+  "inProgressStatus": "در حال انجام...",
+  "notAvailableStatus": "در دسترس نیست",
+  "codeExpiredRestart": "کد منقضی شده. لطفاً دوباره شروع کنید.",
+  "codesDoNotMatchCancelled": "کدها مطابقت ندارند. انتقال لغو شد.",
+  "transferToDevice": "به: {device}",
+  "copiedExclamation": "کپی شد!",
+  "expiresInTime": "در {time} منقضی می‌شود",
+  "biometricNotAvailable": "بیومتریک در این دستگاه در دسترس نیست",
+  "biometricAuthError": "خطا در احراز هویت بیومتریک",
+  "authenticateForBiometric": "لطفاً برای فعال‌سازی بیومتریک احراز هویت کنید",
+  "biometricAuthFailed": "احراز هویت بیومتریک ناموفق بود",
+  "forceUpdateTitle": "به‌روزرسانی لازم است",
+  "forceUpdateMessage": "نسخه جدیدی از Hash در دسترس است. لطفاً برای ادامه به‌روزرسانی کنید.",
+  "updateButton": "به‌روزرسانی",
+  "maintenanceInProgress": "تعمیرات در حال انجام",
+  "tryAgainLater": "لطفاً بعداً دوباره تلاش کنید",
+  "information": "اطلاعات",
+  "noLoginRecorded": "ورودی ثبت نشده",
+  "nextUnlocksAppearHere": "بازگشایی‌های بعدی اینجا نمایش داده می‌شوند.",
+  "noMaintenancePlanned": "تعمیراتی برنامه‌ریزی نشده",
+  "everythingWorkingNormally": "همه چیز به طور عادی کار می‌کند",
+  "locking": "قفل شدن...",
+  "newMessageNotification": "پیام جدید",
+  "secExplainTitle": "Hash چگونه از شما محافظت می‌کند",
+  "secExplainIntro": "Hash طراحی شده تا هیچ‌کس نتواند پیام‌های شما را بخواند.",
+  "secExplainIntroSub": "حتی ما.\nاینجا نحوه کار آن به زبان ساده توضیح داده شده.",
+  "secJourneyLabel": "سفر",
+  "secJourneyTitle": "سفر پیام شما",
+  "secJourneySubtitle": "از انگشت شما تا صفحه مخاطبتان، هر مرحله محافظت شده است. مسیر را دنبال کنید.",
+  "secStep1Title": "پیام خود را می‌نویسید",
+  "secStep1Desc": "\"سلام!\" را در برنامه تایپ می‌کنید. در این مرحله، پیام فقط در حافظه تلفن شما وجود دارد. هیچ چیز ارسال نشده.",
+  "secStep2Title": "رمزنگاری با Signal Protocol",
+  "secStep2Desc": "به محض فشردن \"ارسال\"، پیام شما به رشته‌ای از کاراکترهای نامفهوم تبدیل می‌شود. مثل اینکه پیام شما در گاوصندوقی قفل شود که فقط مخاطب شما کلید آن را دارد.",
+  "secStep3Title": "Sealed Sender: پاکت نامه نامرئی",
+  "secStep3Desc": "تصور کنید نامه‌ای بدون آدرس فرستنده روی پاکت ارسال می‌کنید. دقیقاً همین کار را Hash انجام می‌دهد. پیام در صندوق پستی ناشناس رها می‌شود. سرور نمی‌داند چه کسی آن را فرستاده.",
+  "secStep4Title": "سرور چیزی نمی‌بیند",
+  "secStep4Desc": "سرور مانند یک پستچی نابینا عمل می‌کند. فقط می‌داند \"کسی چیزی در صندوق پستی #A7X9 گذاشت\". نمی‌داند چه کسی فرستاده، چیست، یا برای کیست.",
+  "secStep4Highlight": "هیچ فراداده‌ای ذخیره نمی‌شود: آدرس IP نه، مهر زمانی نه، ارتباطی بین فرستنده و گیرنده نه.",
+  "secStep5Title": "مخاطب شما پیام را دریافت می‌کند",
+  "secStep5Desc": "تلفن مخاطب شما محتوا را از صندوق پستی ناشناس خود بازیابی می‌کند و پیام را با کلید خصوصی خود رمزگشایی می‌کند، کلیدی که هرگز دستگاه را ترک نکرده. \"سلام!\" روی صفحه ظاهر می‌شود.",
+  "secStep6Title": "پیام از سرور ناپدید می‌شود",
+  "secStep6Desc": "به محض تأیید دریافت توسط مخاطب، سرور پیام را برای همیشه حذف می‌کند. سطل زباله نه، آرشیو نه، پشتیبان نه. حتی پیام‌های خوانده‌نشده پس از ۲۴ ساعت به طور خودکار نابود می‌شوند.",
+  "secStep7Title": "انقضای محلی",
+  "secStep7Desc": "در تلفن مخاطب شما، پیام طبق مدتی که انتخاب کرده‌اید خود را نابود می‌کند: بلافاصله پس از خواندن، ۵ دقیقه، ۱ ساعت... شما تصمیم می‌گیرید.",
+  "secJourneyConclusion": "نتیجه: صفر ردپا در سرور، صفر ردپا در دستگاه‌ها. پیام فقط به اندازه خوانده شدن وجود داشت، سپس ناپدید شد.",
+  "secArchLabel": "معماری",
+  "secArchTitle": "۵ لایه محافظت",
+  "secArchSubtitle": "Hash به یک فناوری تکیه نمی‌کند. هر لایه بقیه را تقویت می‌کند. حتی اگر یک لایه به خطر بیفتد، داده‌های شما امن می‌مانند.",
+  "secLayer1Title": "رمزنگاری سرتاسری",
+  "secLayer1Desc": "هر پیام با کلیدی منحصربه‌فرد رمزنگاری می‌شود. به زبان ساده: حتی اگر کسی یک پیام را رمزگشایی کند، نمی‌تواند پیام بعدی را رمزگشایی کند. هر پیام قفل خود را دارد.",
+  "secLayer1Detail": "برای فایل‌ها (عکس‌ها، ویدیوها، اسناد)، Hash از رمزنگاری اضافی AES-256-GCM استفاده می‌کند. فایل قبل از خروج از تلفن شما رمزنگاری می‌شود.",
+  "secLayer2Title": "Sealed Sender (ناشناسی شبکه)",
+  "secLayer2Desc": "پیام‌رسان‌های معمولی پیام‌های شما را با هویتتان ارسال می‌کنند. مانند نوشتن نامتان روی پاکت. Hash از صندوق‌های پستی ناشناس استفاده می‌کند: سرور پیام را بدون دانستن فرستنده تحویل می‌دهد.",
+  "secLayer2Detail": "نتیجه: حتی در صورت نشت داده سرور، بازسازی اینکه چه کسی با چه کسی صحبت می‌کند غیرممکن است.",
+  "secLayer3Title": "حذف خودکار",
+  "secLayer3Desc": "پیام‌ها بلافاصله پس از تأیید دریافت از سرور حذف می‌شوند. حتی اگر پیامی هرگز بازیابی نشود، پس از ۲۴ ساعت به طور خودکار نابود می‌شود.",
+  "secLayer3Detail": "در تلفن شما، پیام‌ها طبق مدت انتخابی خود نابود می‌شوند: فوری، ۵ دقیقه، ۱۵ دقیقه، ۳۰ دقیقه، ۱ ساعت، ۳ ساعت، ۶ ساعت یا ۱۲ ساعت.",
+  "secLayer4Title": "محافظت از دسترسی محلی",
+  "secLayer4Desc": "برنامه با PIN ۶ رقمی و/یا بیومتریک (Face ID، اثر انگشت) محافظت می‌شود. پس از تلاش‌های ناموفق زیاد، برنامه با تأخیر افزایشی پس از هر شکست قفل می‌شود.",
+  "secLayer5Title": "پایگاه داده قفل‌شده",
+  "secLayer5Desc": "در سمت سرور، هیچ کاربری نمی‌تواند مستقیماً در پایگاه داده بنویسد. همه اقدامات از طریق توابع امن که هر درخواست را بررسی می‌کنند انجام می‌شوند.",
+  "secLayer5Detail": "مانند باجه بانک: شما هرگز خودتان به خزانه دسترسی ندارید. درخواست می‌دهید و سیستم قبل از اقدام بررسی می‌کند که حق دارید.",
+  "secVashLabel": "منحصر در جهان",
+  "secVashTitle": "حالت Vash",
+  "secVashSubtitle": "سیستم امنیتی اضطراری که در هیچ برنامه پیام‌رسان دیگری وجود ندارد.",
+  "secVashScenarioTitle": "این وضعیت را تصور کنید",
+  "secVashScenario1": "کسی به تلفن شما دسترسی پیدا می‌کند",
+  "secVashScenario2": "کد PIN شما خواسته می‌شود",
+  "secVashScenario3": "می‌خواهید همه داده‌ها را فوراً پاک کنید",
+  "secVashSolutionTitle": "راه‌حل: دو کد PIN",
+  "secVashSolutionDesc": "دو کد PIN متفاوت در Hash پیکربندی می‌کنید:",
+  "secVashNormalCodeLabel": "کد عادی",
+  "secVashNormalCodeDesc": "برنامه را به طور عادی با همه داده‌هایتان باز می‌کند",
+  "secVashCodeLabel2": "کد Vash",
+  "secVashCodeDescription": "برنامه را به طور عادی باز می‌کند... اما همه داده‌هایتان بی‌صدا در پس‌زمینه حذف می‌شوند",
+  "secVashWhatHappensTitle": "بعد چه اتفاقی می‌افتد",
+  "secVashWhatHappensDesc": "برنامه به طور عادی باز می‌شود. هشداری نه، انیمیشن مشکوکی نه. صفحه فقط برنامه‌ای خالی نشان می‌دهد، انگار تازه نصب شده.\n\nدر واقعیت، همه مکالمات، مخاطبین و پیام‌های شما در کسری از ثانیه به طور غیرقابل برگشت حذف شده‌اند.",
+  "secCallsLabel": "تماس‌ها و فایل‌ها",
+  "secCallsTitle": "همه چیز رمزنگاری شده",
+  "secCallsSubtitle": "فقط پیام‌ها نیست. مطلقاً هر چیزی که از Hash عبور می‌کند سرتاسر رمزنگاری شده است.",
+  "secAudioCallTitle": "تماس‌های صوتی",
+  "secAudioCallDesc": "رمزنگاری سرتاسری از طریق WebRTC. صدا مستقیماً بین دستگاه‌ها منتقل می‌شود.",
+  "secVideoCallTitle": "تماس‌های تصویری",
+  "secVideoCallDesc": "همان فناوری، هر جریان به صورت جداگانه رمزنگاری شده.",
+  "secPhotosTitle": "عکس‌ها و ویدیوها",
+  "secPhotosDesc": "با AES-256-GCM قبل از خروج از تلفن شما رمزنگاری می‌شوند.",
+  "secDocsTitle": "اسناد",
+  "secDocsDesc": "PDF، ZIP، هر فایلی. نام، اندازه و محتوا رمزنگاری شده.",
+  "secAnonLabel": "ناشناسی",
+  "secAnonTitle": "نیازی به هویت نیست",
+  "secAnonSubtitle": "Hash هرگز شماره تلفن یا ایمیل شما را نمی‌خواهد. شما با یک Hash ID منحصربه‌فرد و ناشناس شناسایی می‌شوید.",
+  "secHashIdTitle": "Hash ID شما",
+  "secHashIdDesc": "این شناسه منحصربه‌فرد شماست. هیچ چیز درباره شما فاش نمی‌کند: نه نامتان، نه شماره‌تان، نه موقعیتتان. مانند نام مستعاری است که غیرممکن است به هویت واقعی شما مرتبط شود.\n\nبرای افزودن مخاطب، Hash ID خود را به اشتراک می‌گذارید یا QR code اسکن می‌کنید. همین. دفترچه تلفن همگام‌شده نه، پیشنهاد \"افرادی که ممکن است بشناسید\" نه.",
+  "secDataLabel": "داده‌ها",
+  "secDataTitle": "چیزی که Hash نمی‌داند",
+  "secDataSubtitle": "بهترین راه محافظت از داده‌های شما، جمع‌نکردن آنهاست.",
+  "secNeverCollected": "هرگز جمع‌آوری نمی‌شود",
+  "secNeverItem1": "محتوای پیام",
+  "secNeverItem2": "لیست مخاطبین",
+  "secNeverItem3": "شماره تلفن",
+  "secNeverItem4": "آدرس ایمیل",
+  "secNeverItem5": "آدرس IP",
+  "secNeverItem6": "موقعیت مکانی",
+  "secNeverItem7": "فراداده (چه کسی با چه کسی صحبت می‌کند)",
+  "secNeverItem8": "سابقه تماس",
+  "secNeverItem9": "دفترچه تلفن",
+  "secNeverItem10": "شناسه‌های تبلیغاتی",
+  "secTempStored": "به طور موقت ذخیره شده",
+  "secTempItem1": "Hash ID ناشناس (شناسه منحصربه‌فرد)",
+  "secTempItem2": "کلیدهای عمومی رمزنگاری",
+  "secTempItem3": "پیام‌های رمزنگاری‌شده در حال انتقال (حداکثر ۲۴ ساعت)",
+  "secTempNote": "حتی این حداقل داده‌ها نمی‌توانند شما را شناسایی کنند. Hash ID شما به هیچ اطلاعات شخصی مرتبط نیست.",
+  "secFooterTitle": "حریم خصوصی شما، آزادی شما",
+  "secFooterDesc": "Hash از همان فناوری‌های رمزنگاری استفاده می‌کند که سخت‌گیرترین برنامه‌های حرفه‌ای. پیام‌های شما با ریاضیات محافظت می‌شوند، نه با وعده‌ها.",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@deletionError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "@attemptCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "@retryIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@addedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@daysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@fileCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@messageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "biometric": "بیومتریک",
+  "biometricUnlock": "باز کردن با اثر انگشت یا Face ID",
+  "biometricWarningMessage": "با فعال کردن بیومتریک، نمی‌توانید از کد Vash برای ورود به برنامه استفاده کنید.\n\nفقط در صورت شکست بیومتریک (پس از چند تلاش ناموفق) می‌توانید از کد Vash استفاده کنید.\n\nآیا مطمئن هستید که می‌خواهید ادامه دهید؟",
+  "connectionCount": "اتصال(ها)",
+  "currentSession": "فعلی",
+  "dataLocalOnly": "این داده‌ها فقط در دستگاه شما ذخیره می‌شوند و هرگز ارسال نمی‌شوند.",
+  "doYouLikeHash": "آیا Hash را دوست دارید؟",
+  "donationMessage": "Hash یک پروژه غیرانتفاعی است. حمایت شما به ما کمک می‌کند تا یک پیام‌رسان واقعاً خصوصی بسازیم.",
+  "enableBiometric": "فعال کردن بیومتریک",
+  "ephemeral1HourDesc": "حذف ۱ ساعت پس از خواندن",
+  "ephemeral24HoursDesc": "حذف ۲۴ ساعت پس از خواندن",
+  "ephemeral30SecondsDesc": "حذف ۳۰ ثانیه پس از خواندن",
+  "ephemeral5MinutesDesc": "حذف ۵ دقیقه پس از خواندن",
+  "ephemeral6HoursDesc": "حذف ۶ ساعت پس از خواندن",
+  "feedback": "بازخورد",
+  "historyLabel": "تاریخچه",
+  "hoursAgoLabel": "{hours} ساعت پیش",
+  "hoursMinutesAgoLabel": "{hours} ساعت و {minutes} دقیقه پیش",
+  "justNowLabel": "همین الان",
+  "later": "بعداً",
+  "loginInfoText": "هر باز کردن با PIN به صورت محلی ثبت می‌شود. فقط ۲۴ ساعت آخر نگهداری می‌شود.",
+  "maintenanceActiveLabel": "در حال انجام",
+  "maintenancePlannedLabel": "برنامه‌ریزی شده",
+  "maintenanceTitle": "تعمیرات",
+  "minutesAgoLabel": "{count} دقیقه پیش",
+  "periodLabel": "دوره",
+  "pinCodeForEntry": "کد PIN برای ورود به برنامه",
+  "ratingBad": "بد",
+  "ratingExcellent": "عالی!",
+  "ratingGood": "خوب",
+  "ratingOk": "متوسط",
+  "ratingTerrible": "وحشتناک",
+  "recentConnections": "اتصالات اخیر",
+  "share": "اشتراک‌گذاری",
+  "shareAppSubtitle": "Hash را با نزدیکان خود به اشتراک بگذارید",
+  "showCallsInRecents": "نمایش در تماس‌های اخیر",
+  "showCallsInRecentsSubtitle": "تماس‌های Hash در تاریخچه تلفن نمایش داده می‌شوند",
+  "todayLabel": "امروز",
+  "understood": "متوجه شدم",
+  "yesterdayLabel": "دیروز",
+  "yourFeedbackHelps": "بازخورد شما به ما کمک می‌کند برنامه را بهبود دهیم"
+}

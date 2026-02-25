@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hash hesabinizi silin - Hesabinizin ve verilerinizin kalici olarak silinmesi icin talimatlar.">
+  <meta name="theme-color" content="#FFAB00">
+  <title>Hesabinizi silin - Hash</title>
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .step-list {
+      list-style: none;
+      padding-left: 0;
+      counter-reset: step-counter;
+      margin: 24px 0;
+    }
+    .step-list li {
+      counter-increment: step-counter;
+      position: relative;
+      padding: 16px 16px 16px 64px;
+      margin-bottom: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text-secondary);
+    }
+    .step-list li::before {
+      content: counter(step-counter);
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 32px;
+      height: 32px;
+      background: var(--accent-dim);
+      border: 1px solid var(--border-accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: var(--accent);
+      text-align: center;
+      line-height: 32px;
+    }
+    .data-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .data-item {
+      background: rgba(255, 71, 87, 0.08);
+      border: 1px solid rgba(255, 71, 87, 0.2);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    .data-item .icon {
+      color: var(--error);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .alternative-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      margin: 24px 0;
+    }
+    .alternative-box h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    @media (max-width: 600px) {
+      .data-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">ANA SAYFA</a></li>
+        <li><a href="security.html">GUVENLIK</a></li>
+        <li><a href="opensource.html">OPEN SOURCE</a></li>
+        <li><a href="support.html">DESTEKLE</a></li>
+        <li><a href="index.html#download" class="nav__cta">INDIR</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Hash hesabinizi silin</h1>
+      <p class="page-header__text" style="color: var(--text-tertiary); font-size: 0.9rem;">Son guncelleme: Subat 2026</p>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div class="legal-content">
+
+    <div class="warning-box">
+      <p><strong>Dikkat:</strong> Hash hesabinizin silinmesi <strong>aninda ve geri donusumsuz</strong> olarak gerceklesir. Tum verileriniz (mesajlar, kisiler, sifreleme anahtarlari) kalici olarak silinecektir. Silme isleminden sonra hesabinizi kurtarmanin hicbir yolu yoktur.</p>
+    </div>
+
+    <h2>Hesabinizi uygulamadan silin</h2>
+    <p>Hesabinizi silmenin en kolay yolu dogrudan uygulamadaki <strong>Hesabimi sil</strong> secenegini kullanmaktir:</p>
+
+    <ol class="step-list">
+      <li>Cihazinizda <strong>Hash</strong> uygulamasini acin</li>
+      <li>Disli simgesine dokunarak <strong>Ayarlar</strong>'a gidin</li>
+      <li><strong>"Hesap"</strong> bolumune kadar asagi kaydin</li>
+      <li><strong>"Hesabimi sil"</strong> secenegine dokunun</li>
+      <li>Ekrandaki talimatlari izleyerek silme islemini onaylayin</li>
+    </ol>
+
+    <div class="highlight-box">
+      <p><strong>Ne olur?</strong> Onayladiginiz anda tum verileriniz hem cihazinizdan hem de sunucularimizdan aninda silinir. Uygulama, yeni yuklenmis gibi baslangic durumuna doner.</p>
+    </div>
+
+    <h2>Silinen veriler</h2>
+    <p>Hesabiniz silindiginde asagidaki veriler <strong>kalici olarak silinir</strong>:</p>
+
+    <div class="data-grid">
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Hash ID'niz</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Acik sifreleme anahtarlari</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Ozel anahtarlar (cihazda)</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Cihaz bilgileri</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Okunmamis transit mesajlar</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Tum kisiler</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Konusma gecmisi</span>
+      </div>
+      <div class="data-item">
+        <span class="icon">&#10005;</span>
+        <span>Yerel dosyalar ve medya</span>
+      </div>
+    </div>
+
+    <h2>Alternatif yontem: e-posta ile</h2>
+
+    <div class="alternative-box">
+      <h3>Uygulamaya artik erisimiyor musunuz?</h3>
+      <p>Cihaziniza veya uygulamaya artik eriseniyorsaniz, asagidaki adrese yazarak hesabinizin silinmesini talep edebilirsiniz:</p>
+      <p><strong><a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></strong></p>
+      <p>Lutfen e-postaniza asagidakileri ekleyin:</p>
+      <ul>
+        <li>Biliyorsaniz <strong>Hash ID</strong>'niz (000-000-XXX formati)</li>
+        <li>Hesabinizi tanimlamaya yardimci olacak herhangi bir bilgi</li>
+      </ul>
+      <p style="margin-bottom: 0;">Talebiniz <strong>48 saat</strong> icinde islenecektir.</p>
+    </div>
+
+    <h2>Silmenin sonuclari</h2>
+    <p>Hesabiniz silindikten sonra:</p>
+    <ul>
+      <li>Kisileriniz artik size <strong>mesaj gonderemeyecektir</strong>. Eski hesabiniza gonderilen mesajlar reddedilecektir</li>
+      <li>Hash ID'niz <strong>serbest birakilacak</strong> ve potansiyel olarak baska bir kullaniciya atanabilecektir</li>
+      <li>Yerel konusmalariniz <strong>cihazinizdan silinecektir</strong></li>
+      <li>Gonderdiginiz ve kisileriniz tarafindan zaten alinan mesajlar <strong>onlarin cihazlarinda</strong> kalacaktir (diger kullanicilar tarafindan yerel olarak depolanan veriler uzerinde hicbir kontrolumuz yoktur)</li>
+      <li>Silme isleminden sonra hesabinizi veya verilerinizi <strong>kurtarmak mumkun degildir</strong></li>
+    </ul>
+
+    <h2>Iletisim</h2>
+    <p>Hesabinizin silinmesiyle ilgili herhangi bir sorunuz icin bizimle iletisime gecin:</p>
+    <ul>
+      <li><strong>E-posta:</strong> <a href="mailto:hash-support@devolim.fr">hash-support@devolim.fr</a></li>
+      <li><strong>Gizlilik:</strong> <a href="mailto:hash-privacy@devolim.fr">hash-privacy@devolim.fr</a></li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">Hakkinda hicbir sey bilmeyen mesajlasma uygulamasi.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Urun</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Ozellikler</a></li>
+            <li><a href="security.html">Guvenlik</a></li>
+            <li><a href="index.html#download">Indir</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Proje</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Hash'i Destekle</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Iletisim</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Yasal</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Gizlilik</a></li>
+            <li><a href="terms.html">Kullanim Kosullari</a></li>
+            <li><a href="delete-account.html">Hesabimi sil</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Tum haklari saklidir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

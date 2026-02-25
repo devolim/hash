@@ -1,0 +1,1037 @@
+{
+  "@@locale": "nl",
+
+  "appName": "Hash",
+  "appTagline": "Geen spoor. Geen compromis.",
+
+  "conversations": "Chats",
+  "contacts": "Contacten",
+  "noConversation": "Geen chats",
+  "noConversationSubtitle": "Voeg een contact toe om veilig te beginnen chatten",
+  "pendingRequestsCount": "{count, plural, =1{1 wachtend verzoek} other{{count} wachtende verzoeken}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 verzonden verzoek in afwachting} other{{count} verzonden verzoeken in afwachting}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Contact toevoegen",
+  "shareApp": "App delen",
+  "newMessage": "Nieuw bericht",
+  "newConversation": "Stuur een bericht",
+
+  "settings": "Instellingen",
+  "myHashId": "Mijn Hash-ID",
+  "supportHash": "Steun Hash",
+  "supportHashSubtitle": "Hash is een project zonder winstoogmerk",
+  "donate": "Doneren",
+
+  "appearance": "Uiterlijk",
+  "theme": "Thema",
+  "themeAuto": "Automatisch",
+  "themeAutoSubtitle": "Volgt systeeminstellingen",
+  "themeDark": "Donker",
+  "themeLight": "Licht",
+  "themeRecommendation": "Donker thema wordt aanbevolen voor betere privacy",
+  "language": "Taal",
+  "languageAuto": "Automatisch (systeem)",
+
+  "notifications": "Meldingen",
+  "messages": "Berichten",
+  "calls": "Oproepen",
+  "vibration": "Trillen",
+  "notificationContent": "Meldingsinhoud",
+  "notificationContentFull": "Alles tonen",
+  "notificationContentFullDesc": "Contactnaam en berichtvoorbeeld",
+  "notificationContentName": "Alleen naam",
+  "notificationContentNameDesc": "Toont alleen de contactnaam",
+  "notificationContentDiscrete": "Discreet",
+  "notificationContentDiscreteDesc": "Toont alleen \"Nieuw bericht\"",
+
+  "security": "Beveiliging",
+  "howHashProtectsYou": "Hoe Hash je beschermt",
+  "howHashProtectsYouSubtitle": "Begrijp je beveiliging",
+  "accountSecurity": "Accountbeveiliging",
+  "accountSecuritySubtitle": "PIN, biometrie, Vash-modus",
+  "blockScreenshots": "Screenshots blokkeren",
+  "transferDevice": "Overzetten naar ander apparaat",
+  "transferDeviceSubtitle": "Je account migreren",
+
+  "pinCode": "PIN-code",
+  "changePin": "PIN-code wijzigen",
+  "currentPin": "Huidige PIN-code",
+  "newPin": "Nieuwe PIN-code",
+  "confirmPin": "PIN-code bevestigen",
+  "pinChanged": "PIN-code gewijzigd",
+  "incorrectPin": "Onjuiste PIN",
+  "pinsDoNotMatch": "PIN-codes komen niet overeen",
+
+  "autoLock": "Automatisch vergrendelen",
+  "autoLockDelay": "Vergrendelingsvertraging",
+  "autoLockImmediate": "Onmiddellijk",
+  "autoLockMinute": "1 minuut",
+  "autoLockMinutes": "{count} minuten",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash-code",
+  "vashModeTitle": "Vash-modus",
+  "vashModeExplanation": "Je ultieme vangnet.",
+  "vashModeDescription": "Je kiest een tweede PIN-code. Als je ooit gedwongen wordt om Hash te openen, voer je deze code in in plaats van je gewone PIN.\n\nDe app opent normaal, maar al je gesprekken en contacten zijn verdwenen.\n\nVoor iedereen die naar je scherm kijkt, lijkt Hash gewoon leeg — alsof je het nooit hebt gebruikt.",
+  "vashModeIrreversible": "Deze actie is stil en onomkeerbaar.",
+  "chooseVashCode": "Kies mijn Vash-code",
+  "vashCodeInfo": "Een tweede PIN-code die de app normaal opent, maar leeg.",
+  "vashCodeInfoDetail": "Als je deze code invoert in plaats van je PIN:",
+  "vashDeleteContacts": "Je contacten verdwijnen",
+  "vashDeleteMessages": "Je gesprekken verdwijnen",
+  "vashDeleteHistory": "Je notities verdwijnen",
+  "vashKeepId": "Je Hash-identiteit (#XXX-XXX-XXX) blijft hetzelfde",
+  "vashAppearNormal": "De app ziet er normaal maar leeg uit, als nieuw. Deze actie is onomkeerbaar.",
+  "setupVashCode": "Vash-code instellen",
+  "modifyVashCode": "Vash-code wijzigen",
+  "currentVashCode": "Huidige Vash-code",
+  "newVashCode": "Nieuwe Vash-code",
+  "confirmVashCode": "Vash-code bevestigen",
+  "vashCodeConfigured": "Vash-code geconfigureerd",
+  "vashCodeModified": "Vash-code gewijzigd",
+  "vashCodeMustDiffer": "Vash-code moet verschillen van de PIN",
+  "incorrectVashCode": "Onjuiste Vash-code",
+  "vashWhatToDelete": "Wat moet Vash-modus laten verdwijnen?",
+  "vashDeleteContactsOption": "Contacten",
+  "vashDeleteMessagesOption": "Berichten",
+  "vashDeleteNotesOption": "Notities",
+  "vashActivated": "Vash-modus geactiveerd",
+  "vashCreateSubtitle": "Kies een code die verschilt van je hoofd-PIN",
+  "vashConfirmSubtitle": "Bevestig je Vash-code",
+  "vashCodeSection": "Vash-modus",
+
+  "pinCodeForEntry": "PIN-code om de app te openen",
+  "biometric": "Biometrie",
+  "biometricUnlock": "Ontgrendelen met vingerafdruk of Face ID",
+  "enableBiometric": "Biometrie activeren",
+  "biometricWarningMessage": "Als je biometrie activeert, kun je je Vash-code niet gebruiken om de app te openen.\n\nJe kunt de Vash-code alleen gebruiken als biometrie mislukt (na meerdere mislukte pogingen).\n\nWeet je zeker dat je wilt doorgaan?",
+  "understood": "Ik begrijp het",
+
+  "shareAppSubtitle": "Deel Hash met je naasten",
+  "share": "Delen",
+
+  "danger": "Gevaar",
+  "panicButton": "Paniekknop",
+  "panicButtonSubtitle": "Alle gegevens verwijderen",
+  "deleteAccount": "Mijn account verwijderen",
+  "deleteAccountSubtitle": "Onomkeerbare actie",
+  "deleteAccountConfirmTitle": "Mijn account verwijderen",
+  "deleteAccountConfirmMessage": "Je account wordt permanent verwijderd. Deze actie is onomkeerbaar.\n\n• Al je chats\n• Al je contacten\n• Je Hash-ID\n\nJe moet een nieuw account aanmaken.",
+  "deleteForever": "Permanent verwijderen",
+  "cancel": "Annuleren",
+
+  "panicConfirmTitle": "Paniekknop",
+  "panicConfirmMessage": "Deze actie verwijdert permanent AL je gegevens:\n\n• Al je berichten\n• Al je contacten\n• Je account\n\nWeet je het absoluut zeker?",
+  "deleteAll": "ALLES VERWIJDEREN",
+  "dataDeletedForSecurity": "Vash-modus geactiveerd.",
+  "deletionError": "Verwijderingsfout: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Jouw beveiliging",
+  "securityInfo": "• End-to-end-versleuteling (Signal Protocol)\n• Geen gegevens op onze servers na aflevering\n• Sleutels alleen opgeslagen op jouw apparaat\n• PIN-code wordt nooit naar de server gestuurd",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Welkom",
+  "securityStatement1": "Je berichten zijn beschermd.",
+  "securityStatement2": "End-to-end-versleuteling.",
+  "securityStatement3": "Geen spoor. Geen compromis.",
+  "securityStatement4": "Je privacy is een recht.",
+
+  "accessBlocked": "Toegang geblokkeerd",
+  "tooManyAttempts": "Te veel pogingen. Probeer het later opnieuw.",
+  "pleaseWait": "Even geduld",
+  "waitDelay": "Wacht tot de vertraging is afgelopen",
+  "attemptCount": "Poging {current} van {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Opnieuw proberen in {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "PIN vergeten? Gebruik herstelfrase",
+  "useRecoveryPhrase": "Herstelfrase gebruiken",
+
+  "recoveryWarningTitle": "Waarschuwing",
+  "recoveryWarningMessage": "Accountherstel zal:",
+  "recoveryDeleteAllMessages": "AL je berichten verwijderen",
+  "recoveryWaitDelay": "Een wachttijd van 1 uur vereisen",
+  "recoveryKeepContacts": "Je contacten behouden",
+  "recoveryIrreversible": "Deze actie is onomkeerbaar. Je berichten gaan permanent verloren.",
+  "iUnderstand": "Ik begrijp het",
+
+  "accountRecovery": "Accountherstel",
+  "enterRecoveryPhrase": "Voer de 24 woorden van je herstelfrase in, gescheiden door spaties.",
+  "recoveryPhraseHint": "woord1 woord2 woord3 ...",
+  "recover": "Herstellen",
+  "recoveryPhraseRequired": "Voer je herstelfrase in",
+  "recoveryPhrase24Words": "De frase moet precies 24 woorden bevatten",
+  "incorrectRecoveryPhrase": "Onjuiste herstelfrase",
+  "recoveryInitError": "Fout bij initialiseren van herstel",
+
+  "securityDelay": "Beveiligingsvertraging",
+  "securityDelayMessage": "Voor je veiligheid is een wachttijd vereist voordat je een nieuwe PIN kunt maken.",
+  "timeRemaining": "Resterende tijd",
+  "messagesDeletedForProtection": "Je berichten zijn verwijderd voor je bescherming.",
+  "canCloseApp": "Je kunt de app sluiten en later terugkomen.",
+
+  "onboardingTitle1": "Welkom bij Hash",
+  "onboardingSubtitle1": "De messenger die geen spoor achterlaat",
+  "onboardingTitle2": "Totale versleuteling",
+  "onboardingSubtitle2": "Je berichten zijn end-to-end versleuteld met het Signal-protocol",
+  "onboardingTitle3": "Geen spoor",
+  "onboardingSubtitle3": "Berichten worden bij aflevering van de servers verwijderd",
+  "onboardingTitle4": "Jouw beveiliging",
+  "onboardingSubtitle4": "PIN-code, Vash-modus en herstelfrase",
+
+  "getStarted": "Aan de slag",
+  "next": "Volgende",
+  "skip": "Overslaan",
+  "alreadyHaveAccount": "Ik heb al een account",
+  "transferMyAccount": "Mijn account overzetten",
+
+  "createPin": "Maak een PIN-code aan",
+  "createPinSubtitle": "Deze code beschermt de toegang tot je app",
+  "confirmYourPin": "Bevestig je PIN-code",
+  "confirmPinSubtitle": "Voer je PIN-code opnieuw in",
+
+  "saveRecoveryPhrase": "Herstelfrase",
+  "saveRecoveryPhraseSubtitle": "Schrijf deze 24 woorden op volgorde op. Ze stellen je in staat om je account te herstellen als je je PIN vergeet.",
+  "phraseWritten": "Ik heb mijn frase opgeschreven",
+  "warningRecoveryPhrase": "Als je deze frase verliest en je PIN vergeet, verlies je de toegang tot je account.",
+
+  "accountTransferred": "Account overgezet",
+  "accountTransferredMessage": "Je account is overgezet naar een ander apparaat. Deze sessie is niet meer geldig.",
+  "accountTransferredInfo": "Als je deze overdracht niet hebt gestart, is je account mogelijk gecompromitteerd.",
+  "logout": "Uitloggen",
+
+  "transferAccount": "Account overzetten",
+  "transferAccountInfo": "Zet je Hash-account over naar een nieuw apparaat. Je huidige sessie wordt ongeldig gemaakt.",
+  "generateTransferCode": "Overdrachtscode genereren",
+  "transferCode": "Overdrachtscode",
+  "transferCodeExpires": "Deze code verloopt over {minutes} minuten",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Voer deze code in op je nieuwe apparaat om je account over te zetten.",
+  "generateNewCode": "Nieuwe code genereren",
+
+  "scanQrCode": "QR-code scannen",
+  "scanQrCodeSubtitle": "Scan de QR-code van een contact om ze toe te voegen",
+  "qrCodeDetected": "QR-code gedetecteerd",
+  "invalidQrCode": "Ongeldige QR-code",
+  "cameraPermissionRequired": "Cameratoestemming vereist",
+
+  "myQrCode": "Mijn QR-code",
+  "myQrCodeSubtitle": "Deel deze QR-code zodat je contacten je kunnen toevoegen",
+  "shareQrCode": "Delen",
+
+  "addContactTitle": "Contact toevoegen",
+  "addContactByHashId": "Voer de Hash-ID van je contact in",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Zoeken",
+  "contactNotFound": "Contact niet gevonden",
+  "contactAlreadyAdded": "Dit contact staat al in je lijst",
+  "contactAdded": "Contact toegevoegd",
+
+  "myProfile": "Mijn profiel",
+  "myProfileSubtitle": "Deel deze informatie zodat anderen je kunnen toevoegen",
+  "temporaryCode": "Tijdelijke code",
+  "temporaryCodeExpires": "Verloopt over {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Code verlopen",
+  "generateNewCodeButton": "Nieuwe code",
+  "copyHashId": "ID kopiëren",
+  "copyCode": "Code kopiëren",
+  "copiedToClipboard": "Gekopieerd",
+  "showMyQrCode": "Mijn QR-code tonen",
+  "orDivider": "of",
+  "openScanner": "Scanner openen",
+  "addManually": "Handmatig toevoegen",
+  "contactHashIdLabel": "Hash-ID van contact",
+  "temporaryCodeLabel": "Tijdelijke code",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Vraag je contact om een code te genereren vanuit hun profiel",
+  "verifyAndAdd": "Verifiëren en toevoegen",
+  "fillAllFields": "Vul alle velden in",
+  "invalidHashIdFormat": "Ongeldig ID-formaat (bijv.: 123-456-ABC)",
+  "userNotFound": "Gebruiker niet gevonden",
+  "cannotAddYourself": "Je kunt jezelf niet toevoegen",
+  "invalidOrExpiredCode": "Ongeldige of verlopen tijdelijke code",
+  "contactFound": "Contact gevonden!",
+  "howToCallContact": "Hoe wil je ze noemen?",
+  "contactNameHint": "Contactnaam",
+  "addContactButton": "Toevoegen",
+
+  "contactDetails": "Contactgegevens",
+  "contactName": "Contactnaam",
+  "contactHashId": "Hash-ID",
+  "addedOn": "Toegevoegd op {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Contact verwijderen",
+  "deleteContactConfirm": "Dit contact verwijderen?",
+  "deleteContactMessage": "Dit verwijdert ook de hele chat.",
+  "delete": "Verwijderen",
+
+  "typeMessage": "Typ een bericht...",
+  "messageSent": "Verzonden",
+  "messageDelivered": "Afgeleverd",
+  "messageRead": "Gelezen",
+  "messageFailed": "Verzenden mislukt",
+
+  "now": "Nu",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}u",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "Vandaag",
+  "yesterday": "Gisteren",
+  "dateAtTime": "{date} om {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Doe mee met Hash! 🔒\n\nHet is een echt privé-messenger: totale versleuteling, geen spoor op servers en paniekmodus indien nodig.\n\nDownload de app hier 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Fout",
+  "ok": "OK",
+  "view": "Bekijken",
+  "yes": "Ja",
+  "no": "Nee",
+  "save": "Opslaan",
+  "edit": "Bewerken",
+  "close": "Sluiten",
+  "confirm": "Bevestigen",
+  "loading": "Laden...",
+  "retry": "Opnieuw proberen",
+
+  "pendingRequests": "Wachtende verzoeken",
+  "noPendingRequests": "Geen wachtende verzoeken",
+  "pendingRequestsSubtitle": "Deze mensen willen je toevoegen",
+  "requestFromUser": "Verzoek van {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Verloopt over {days} dagen",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Accepteren",
+  "rejectRequest": "Weigeren",
+  "requestAccepted": "Verzoek geaccepteerd",
+  "requestRejected": "Verzoek geweigerd",
+  "requestSent": "Verzoek verzonden!",
+  "requestSentSubtitle": "Je verzoek is verzonden. De gebruiker moet het accepteren voordat jullie kunnen chatten.",
+  "requestAlreadyPending": "Er is al een verzoek in afwachting",
+  "requestAlreadySentByOther": "Deze persoon heeft je al een verzoek gestuurd",
+  "addByHashId": "Toevoegen via Hash-ID",
+  "addByHashIdSubtitle": "Voer de Hash-ID en tijdelijke code van het contact in",
+  "enterTemporaryCode": "Voer de 6-cijferige code in",
+  "sendRequest": "Verzoek versturen",
+  "acceptContactTitle": "Contact accepteren",
+  "acceptContactSubtitle": "Je kunt ze een aangepaste naam geven",
+  "leaveEmptyForHashId": "Laat leeg om Hash-ID te gebruiken",
+  "firstName": "Voornaam",
+  "lastName": "Achternaam",
+  "notes": "Notities",
+  "notesHint": "Persoonlijke notities over dit contact",
+
+  "photoOptional": "Foto (optioneel)",
+  "contactNameOptional": "Naam (optioneel)",
+  "notesOptional": "Notities (optioneel)",
+  "storedLocally": "Alleen op je apparaat opgeslagen",
+  "encryptedMessageLabel": "Versleuteld bericht",
+  "identityMessageHint": "Wie ben je? Hoe kennen jullie elkaar?",
+  "messageWillBeSentEncrypted": "Dit bericht wordt versleuteld en naar de ontvanger gestuurd",
+  "sendRequestButton": "Verzoek versturen",
+  "requestExpiresIn24h": "Verzoek verloopt over 24 uur als het niet wordt geaccepteerd",
+  "theyAlreadySentYouRequest": "Deze persoon heeft je al een verzoek gestuurd",
+
+  "requests": "Verzoeken",
+  "receivedRequests": "Ontvangen",
+  "sentRequests": "Verzonden",
+  "noSentRequests": "Geen verzonden verzoeken",
+  "cancelRequest": "Annuleren",
+  "deleteRequest": "Verzoek verwijderen",
+  "requestCancelled": "Verzoek geannuleerd",
+  "sentTo": "Verzonden naar {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Verloopt over {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "{time} geleden ontvangen",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Bericht van verzoeker",
+
+  "copy": "Kopiëren",
+  "messageInfo": "Berichtinfo",
+
+  "messageDirection": "Richting",
+  "messageSentByYou": "Door jou verzonden",
+  "messageReceived": "Ontvangen",
+  "messageSentAt": "Verzonden op",
+  "messageStatus": "Status",
+  "messageReadAt": "Gelezen op",
+  "messageType": "Type",
+  "messageSize": "Grootte",
+  "messageExpiresAt": "Verloopt op",
+  "messageEncrypted": "End-to-end versleuteld",
+
+  "messageStatusSending": "Verzenden...",
+  "messageStatusSent": "Verzonden",
+  "messageStatusDelivered": "Afgeleverd",
+  "messageStatusRead": "Gelezen",
+  "messageStatusFailed": "Mislukt",
+
+  "serverStatus": "Server",
+  "onServer": "Wacht op aflevering",
+  "deletedFromServer": "Verwijderd",
+
+  "messageTypeText": "Tekst",
+  "messageTypeImage": "Afbeelding",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Spraak",
+  "messageTypeFile": "Bestand",
+
+  "indefinitely": "Onbeperkt",
+  "hoursShort": "u",
+  "minutesShort": "min",
+  "hours": "uur",
+  "minutes": "minuten",
+  "seconds": "seconden",
+
+  "ephemeralMessages": "Verdwijnende berichten",
+  "ephemeralMessagesDescription": "Berichten worden automatisch verwijderd na deze tijd",
+  "ephemeralImmediate": "Onmiddellijk (na lezen)",
+  "ephemeralImmediateDesc": "Verwijderd zodra gelezen",
+  "ephemeralMyPreference": "Mijn voorkeur",
+  "ephemeralMyPreferenceDesc": "Algemene instelling gebruiken",
+  "ephemeralDefaultSetting": "Berichtduur",
+  "ephemeralChooseDefault": "Aanbevolen",
+  "ephemeral30Seconds": "30 seconden",
+  "ephemeral30SecondsDesc": "Verwijderd 30s na lezen",
+  "ephemeral5Minutes": "5 minuten",
+  "ephemeral5MinutesDesc": "Verwijderd 5min na lezen",
+  "ephemeral1Hour": "1 uur",
+  "ephemeral1HourDesc": "Verwijderd 1u na lezen",
+  "ephemeral3Hours": "3 uur",
+  "ephemeral6Hours": "6 uur",
+  "ephemeral6HoursDesc": "Verwijderd 6u na lezen",
+  "ephemeral12Hours": "12 uur",
+  "ephemeral24Hours": "24 uur",
+  "ephemeral24HoursDesc": "Verwijderd 24u na lezen",
+  "customDuration": "Aangepaste duur",
+
+  "muteNotifications": "Meldingen dempen",
+  "muteDescription": "Je ontvangt geen meldingen voor dit contact",
+  "mutedUntil": "Gedempt tot {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Meldingen ingeschakeld",
+  "unmute": "Dempen opheffen",
+
+  "notificationSound": "Meldingsgeluid",
+  "defaultSound": "Standaard",
+
+  "chatSettings": "Chatinstellingen",
+  "bubbleColor": "Bubbekleur",
+  "backgroundColor": "Achtergrondkleur",
+  "backgroundImage": "Achtergrondafbeelding",
+  "chatBackground": "Chatachtergrond",
+  "customColor": "Aangepast",
+  "defaultColor": "Standaard",
+  "imageSelected": "Afbeelding geselecteerd",
+  "noImage": "Geen afbeelding",
+  "color": "Kleur",
+  "image": "Afbeelding",
+  "tapToSelectImage": "Tik om een afbeelding te selecteren",
+  "changeImage": "Afbeelding wijzigen",
+  "previewMessageReceived": "Hallo!",
+  "previewMessageSent": "Hoi!",
+
+  "messageAction": "Bericht",
+  "callAction": "Bellen",
+  "videoAction": "Video",
+
+  "personalNotes": "Persoonlijke notities",
+  "addNotes": "Notities toevoegen...",
+  "noNotes": "Geen notities",
+
+  "messageNotifications": "Berichtmeldingen",
+  "callNotifications": "Oproepmeldingen",
+
+  "useGradient": "Verloop gebruiken",
+  "gradientStart": "Startkleur",
+  "gradientEnd": "Eindkleur",
+  "preview": "Voorbeeld",
+  "reset": "Resetten",
+
+  "securityNumber": "Beveiligingsnummer",
+  "securityNumberDescription": "Controleer of het beveiligingsnummer overeenkomt met het apparaat van {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "End-to-end-versleuteling verifiëren",
+  "tapToCopy": "Tik om te kopiëren",
+  "howToVerify": "Hoe te verifiëren",
+  "verifyStep1": "Ontmoet je contact persoonlijk of bel ze",
+  "verifyStep2": "Vergelijk de beveiligingsnummers of scan QR-codes",
+  "verifyStep3": "Als ze overeenkomen, is je chat beveiligd",
+  "scanToVerify": "Scannen om te verifiëren",
+
+  "reportSpam": "Spam melden",
+  "reportSpamSubtitle": "Dit contact als spam melden",
+  "reportSpamDescription": "Dit contact wordt anoniem gemeld. Je identiteit wordt niet gedeeld. Weet je het zeker?",
+  "report": "Melden",
+  "spamReported": "Spam gemeld",
+  "reportError": "Rapport kon niet worden verzonden. Probeer het opnieuw.",
+  "reportRateLimited": "Je hebt het maximale aantal meldingen voor vandaag bereikt.",
+
+  "blockContact": "Contact blokkeren",
+  "blockContactDescription": "Dit contact kan je geen berichten meer sturen of bellen. Ze worden niet op de hoogte gebracht.",
+  "unblockContact": "Contact deblokkeren",
+  "unblockContactDescription": "Dit contact kan je weer berichten sturen en bellen.",
+  "contactBlocked": "Contact geblokkeerd",
+  "contactUnblocked": "Contact gedeblokkeerd",
+  "contactIsBlocked": "Dit contact is geblokkeerd",
+  "unblock": "Deblokkeren",
+
+  "deleteContactSubtitle": "Dit contact en chat verwijderen",
+  "confirmWithPin": "Bevestigen met PIN",
+  "enterPinToConfirm": "Voer je PIN in om deze actie te bevestigen",
+
+  "mute1Hour": "1 uur",
+  "mute8Hours": "8 uur",
+  "mute1Day": "1 dag",
+  "mute1Week": "1 week",
+  "muteAlways": "Altijd",
+  "muteExplanation": "Je ontvangt geen meldingen voor dit contact",
+  "howItWorks": "Hoe het werkt",
+  "ephemeralExplanation1": "Berichten worden van de server verwijderd zodra ze zijn ontvangen.",
+  "ephemeralExplanation2": "Deze instelling bepaalt wanneer berichten van JOUW telefoon verdwijnen na het lezen.",
+  "ephemeralExplanation3": "Je contact heeft een eigen instelling voor hun telefoon.",
+
+  "showCallsInRecents": "Tonen in recente oproepen",
+  "showCallsInRecentsSubtitle": "Hash-oproepen verschijnen in de telefoongeschiedenis",
+  "feedback": "Feedback",
+
+  "profilePhoto": "Profielfoto",
+  "takePhoto": "Foto nemen",
+  "chooseFromGallery": "Kiezen uit galerij",
+  "removePhoto": "Foto verwijderen",
+
+  "viewContactHashId": "Identificatie van contact bekijken",
+  "hashIdPartiallyMasked": "Gedeeltelijk gemaskeerd voor jouw veiligheid en de privacy van je contact",
+
+  "addFirstContact": "Voeg je eerste contact toe",
+  "addFirstContactSubtitle": "Deel je QR-code of scan die van een vriend",
+  "directory": "Adresboek",
+  "noContacts": "Geen contacten",
+  "noContactsSubtitle": "Voeg een contact toe om te beginnen",
+  "sendMessageAction": "Stuur een bericht",
+  "audioCall": "Audiogesprek",
+  "videoCall": "Videogesprek",
+  "viewProfile": "Profiel bekijken",
+  "deleteContactDirectory": "Contact verwijderen",
+  "scanShort": "Scannen",
+  "addShort": "Toevoegen",
+  "deleteContactConfirmName": "Weet je zeker dat je {name} wilt verwijderen?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Geen notities",
+  "noNotesSubtitle": "Maak je eerste notitie",
+  "newNote": "Nieuwe notitie",
+  "editNote": "Notitie bewerken",
+  "deleteNote": "Notitie verwijderen",
+  "deleteNoteConfirm": "Weet je zeker dat je deze notitie wilt verwijderen?",
+  "noteTitle": "Titel",
+  "noteContent": "Inhoud",
+  "addItem": "Item toevoegen",
+  "pinNote": "Vastpinnen",
+  "unpinNote": "Losmaken",
+  "noteColor": "Kleur",
+  "notePassword": "Wachtwoord",
+  "setPassword": "Wachtwoord instellen",
+  "changePassword": "Wachtwoord wijzigen",
+  "removePassword": "Wachtwoord verwijderen",
+  "enterPassword": "Voer wachtwoord in",
+  "confirmPassword": "Bevestig wachtwoord",
+  "passwordPin": "PIN-code",
+  "passwordText": "Tekstwachtwoord",
+  "protectedNote": "Beveiligde notitie",
+  "incorrectPassword": "Onjuist wachtwoord",
+  "passwordSet": "Wachtwoord ingesteld",
+  "passwordRemoved": "Wachtwoord verwijderd",
+  "notesBiometric": "Face ID voor notities",
+  "notesBiometricSubtitle": "Biometrische authenticatie vereisen om beveiligde notities te openen",
+  "textNote": "Tekstnotitie",
+  "checklistNote": "Checklist",
+  "tasksProgress": "{checked}/{total} taken",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Opgeslagen",
+  "searchNotes": "Notities zoeken",
+  "legalConsent": "Juridische toestemming",
+  "confirmAge13": "Ik bevestig dat ik minstens 13 jaar oud ben",
+  "acceptLegalStart": "Ik accepteer het ",
+  "privacyPolicy": "Privacybeleid",
+  "termsOfService": "Servicevoorwaarden",
+  "andThe": " en de ",
+  "continueButton": "Doorgaan",
+  "mustAcceptTerms": "Je moet beide voorwaarden accepteren om door te gaan",
+
+  "support": "Ondersteuning",
+  "contactSupport": "Contact opnemen met ondersteuning",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Misbruik melden",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Juridisch",
+  "legalEntity": "Juridische entiteit",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Vastpinnen",
+  "unpinConversation": "Losmaken",
+  "hideConversation": "Verwijderen uit feed",
+  "deleteConversation": "Gesprek verwijderen",
+  "deleteConversationConfirm": "Voer je PIN in om het verwijderen van alle berichten te bevestigen",
+  "noConversations": "Nog geen gesprekken",
+  "startConversation": "Start",
+
+  "microphonePermissionRequired": "Microfoontoegang vereist",
+  "microphonePermissionExplanation": "Hash heeft de microfoon nodig om te bellen.",
+  "cameraPermissionExplanation": "Hash heeft de camera nodig voor videogesprekken.",
+  "openSettings": "Instellingen openen",
+
+  "callConnecting": "Verbinden...",
+  "callRinging": "Bellen...",
+  "callReconnecting": "Opnieuw verbinden...",
+  "callReconnectingTimer": "Opnieuw verbinden ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Gepauzeerd",
+  "callPausedSubtitle": "Het gesprek is nog actief",
+  "callRemoteMicMuted": "Microfoon van contact is gedempt",
+  "callMiniControlsMute": "Dempen",
+  "callMiniControlsUnmute": "Dempen opheffen",
+  "callMiniControlsHangUp": "Ophangen",
+  "callMiniControlsReturn": "Terug naar gesprek",
+  "callNetworkPoor": "Instabiele verbinding",
+  "callNetworkLost": "Verbinding verloren",
+  "callEndedTitle": "Gesprek beëindigd",
+
+  "deviceData": "Apparaatgegevens",
+  "deviceDataSubtitle": "Lokale en serveropslag",
+  "localStorage": "Lokale opslag",
+  "onThisDevice": "op dit apparaat",
+  "encryptedDatabases": "Versleutelde databases",
+  "files": "Bestanden",
+  "secureKeychain": "Beveiligde sleutelhanger",
+  "cache": "Cache",
+  "contactsDetail": "Namen, avatars, Signal-sleutels",
+  "messagesDetail": "Versleutelde gesprekken",
+  "notesDetail": "Persoonlijke notities",
+  "signalSessions": "Signal-sessies",
+  "signalSessionsDetail": "Versleutelingssessies",
+  "pendingContacts": "Wachtende contacten",
+  "pendingContactsDetail": "Lopende verzoeken",
+  "callHistory": "Oproepen",
+  "callHistoryDetail": "Oproepgeschiedenis",
+  "preferences": "Voorkeuren",
+  "preferencesDetail": "Media- en oproepvoorkeuren",
+  "avatars": "Avatars",
+  "media": "Media",
+  "fileCount": "{count, plural, =0{geen bestanden} =1{1 bestand} other{{count} bestanden}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Actief",
+  "notDefined": "Niet gedefinieerd",
+  "biometrics": "Biometrie",
+  "recoveryPhrase": "Herstelfrase",
+  "identity": "Identiteit (Hash-ID)",
+  "signalKeys": "Signal Protocol-sleutels",
+  "authTokens": "Authenticatietokens",
+  "contactNamesCache": "Contactnamencache",
+  "remoteConfig": "Externe configuratie",
+  "notificationPrefs": "Meldingsvoorkeuren",
+  "serverData": "Servergegevens",
+  "serverDataInfo": "Hash bewaart minimale gegevens op de server, allemaal versleuteld of tijdelijk.",
+  "serverProfile": "Profiel",
+  "serverProfileDetail": "Hash-ID, openbare sleutels, mailboxtoken",
+  "serverPrekeys": "Pre-sleutels",
+  "serverPrekeysDetail": "Eenmalige Signal-sleutels (verbruikt)",
+  "serverMessages": "Berichten onderweg",
+  "serverMessagesDetail": "Verwijderd na aflevering (max 24u)",
+  "serverMedia": "Media onderweg",
+  "serverMediaDetail": "Verwijderd na download",
+  "serverContactRequests": "Contactverzoeken",
+  "serverContactRequestsDetail": "Verlopen na 24u",
+  "serverRateLimits": "Snelheidslimieten",
+  "serverRateLimitsDetail": "Tijdelijke anti-misbruikgegevens",
+  "privacyReassurance": "Hash kan je berichten niet lezen. Alle gegevens zijn end-to-end versleuteld. Servergegevens worden automatisch verwijderd.",
+
+  "pinTooSimple": "Deze PIN is te eenvoudig. Kies een veiligere code.",
+  "genericError": "Er is een fout opgetreden. Probeer het opnieuw.",
+  "accountCreationError": "Kan account niet aanmaken: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frase gekopieerd naar klembord",
+  "copyPhrase": "Frase kopiëren",
+  "recoveryPhraseSecurityWarning": "Schrijf deze frase op een veilige plaats op. Als je je PIN verliest zonder deze frase, verlies je permanent de toegang tot je gegevens.",
+
+  "noMessages": "Geen berichten",
+  "deleteAllMessagesWithContact": "Alle berichten met {name} verwijderen?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Bevestiging",
+  "untitled": "Zonder titel",
+  "noSessions": "Geen sessies",
+  "unknownContact": "Onbekend contact",
+  "unnamed": "Naamloos",
+  "noPendingRequestsAlt": "Geen wachtende verzoeken",
+  "deleteAllCallHistory": "Alle oproepgeschiedenis verwijderen?",
+  "noCalls": "Geen oproepen",
+  "noPreferences": "Geen voorkeuren",
+  "resetAllMediaPrefs": "Alle mediavoorkeuren resetten?",
+  "deleteThisAvatar": "Deze avatar verwijderen?",
+  "deleteAllAvatars": "Alle avatars verwijderen?",
+  "noAvatars": "Geen avatars",
+  "deleteThisFile": "Dit bestand verwijderen?",
+  "deleteAllMediaFiles": "Alle media verwijderen?",
+  "noMediaFiles": "Geen media",
+  "outgoing": "Uitgaand",
+  "incoming": "Inkomend",
+  "ephemeralViewDuration": "Verdwijnende weergave: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normale weergave",
+  "callReasonCompleted": "Voltooid",
+  "callReasonMissed": "Gemist",
+  "callReasonDeclined": "Geweigerd",
+  "callReasonFailed": "Mislukt",
+  "justNow": "Zojuist",
+  "timeAgoMinutes": "{count} min geleden",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "{count}u geleden",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "{count}d geleden",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Contact",
+  "messageTypeLocation": "Locatie",
+  "statusQueued": "In wachtrij",
+  "blockedBadge": "Geblokkeerd",
+  "protectedBadge": "Beveiligd",
+  "messageCount": "{count} bericht(en)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Verwijderen?",
+
+  "transferMyAccountTitle": "Mijn account overzetten",
+  "loadingError": "Laadfout",
+  "transferToNewDevice": "Overzetten naar een nieuw apparaat",
+  "transferInstructions": "Kies op je nieuwe apparaat \"Mijn account herstellen\" en voer deze informatie in:",
+  "yourHashIdLabel": "Je Hash-ID",
+  "enterYourPinCode": "Voer je PIN-code in",
+  "pinOwnerConfirmation": "Om te bevestigen dat je de eigenaar van dit account bent",
+  "scanThisQrCode": "Scan deze QR-code",
+  "withYourNewDevice": "Met je nieuwe apparaat",
+  "orEnterTheCode": "of voer de code in",
+  "transferCodeLabel": "Overdrachtscode",
+  "proximityVerification": "Nabijheidsverificatie",
+  "bringDevicesCloser": "Breng beide apparaten dichterbij",
+  "confirmTransferQuestion": "Overdracht bevestigen?",
+  "accountWillBeTransferred": "Je account wordt overgezet naar het nieuwe apparaat.\n\nDit apparaat wordt permanent losgekoppeld.",
+  "transferComplete": "Overdracht voltooid",
+  "transferSuccessMessage": "Je account is succesvol overgezet.\n\nDeze applicatie wordt nu gesloten.",
+  "manualVerification": "Handmatige verificatie",
+  "codeDisplayedOnBothDevices": "Code weergegeven op beide apparaten:",
+  "doesCodeMatchNewDevice": "Komt deze code overeen met die op het nieuwe apparaat?",
+  "verifiedStatus": "Geverifieerd",
+  "inProgressStatus": "Bezig...",
+  "notAvailableStatus": "Niet beschikbaar",
+  "codeExpiredRestart": "De code is verlopen. Begin opnieuw.",
+  "codesDoNotMatchCancelled": "De codes komen niet overeen. Overdracht geannuleerd.",
+  "transferToDevice": "Naar: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Gekopieerd!",
+  "expiresInTime": "Verloopt over {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometrie is niet beschikbaar op dit apparaat",
+  "biometricAuthError": "Fout bij biometrische authenticatie",
+  "authenticateForBiometric": "Authenticeer om biometrie te activeren",
+  "biometricAuthFailed": "Biometrische authenticatie mislukt",
+
+  "forceUpdateTitle": "Update vereist",
+  "forceUpdateMessage": "Een nieuwe versie van Hash is beschikbaar. Update om door te gaan.",
+  "updateButton": "Updaten",
+  "maintenanceInProgress": "Onderhoud bezig",
+  "tryAgainLater": "Probeer het later opnieuw",
+  "information": "Informatie",
+
+  "later": "Later",
+  "doYouLikeHash": "Vind je Hash leuk?",
+  "yourFeedbackHelps": "Je feedback helpt ons de app te verbeteren",
+  "ratingTerrible": "Verschrikkelijk",
+  "ratingBad": "Slecht",
+  "ratingOk": "Oké",
+  "ratingGood": "Goed",
+  "ratingExcellent": "Uitstekend!",
+  "donationMessage": "Hash is een project zonder winstoogmerk. Jouw steun helpt ons een echt privé-messenger te blijven bouwen.",
+
+  "recentConnections": "Recente verbindingen",
+  "loginInfoText": "Elke PIN-ontgrendeling wordt lokaal geregistreerd. Alleen de laatste 24 uur worden bewaard.",
+  "connectionCount": "Verbinding(en)",
+  "periodLabel": "Periode",
+  "historyLabel": "Geschiedenis",
+  "noLoginRecorded": "Geen login geregistreerd",
+  "nextUnlocksAppearHere": "Volgende ontgrendelingen verschijnen hier.",
+  "dataLocalOnly": "Deze gegevens worden alleen op je apparaat opgeslagen en worden nooit verzonden.",
+  "currentSession": "Huidig",
+  "todayLabel": "Vandaag",
+  "yesterdayLabel": "Gisteren",
+  "justNowLabel": "Zojuist",
+  "minutesAgoLabel": "{count} min geleden",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "{hours}u geleden",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "{hours}u {minutes}min geleden",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Geen onderhoud gepland",
+  "everythingWorkingNormally": "Alles werkt normaal",
+  "maintenanceTitle": "Onderhoud",
+  "maintenanceActiveLabel": "BEZIG",
+  "maintenancePlannedLabel": "GEPLAND",
+
+  "locking": "Vergrendelen...",
+
+  "newMessageNotification": "Nieuw bericht",
+
+  "secExplainTitle": "Hoe Hash je beschermt",
+  "secExplainIntro": "Hash is ontworpen zodat niemand je berichten kan lezen.",
+  "secExplainIntroSub": "Zelfs wij niet.\nZo werkt het, eenvoudig uitgelegd.",
+  "secJourneyLabel": "DE REIS",
+  "secJourneyTitle": "De reis van je bericht",
+  "secJourneySubtitle": "Van je vinger tot het scherm van je contact, elke stap is beschermd. Volg het pad.",
+  "secStep1Title": "Je schrijft je bericht",
+  "secStep1Desc": "Je typt \"Hoi!\" in de app. Op dit moment bestaat het bericht alleen in het geheugen van je telefoon. Er is niets verzonden.",
+  "secStep2Title": "Versleuteling met Signal Protocol",
+  "secStep2Desc": "Zodra je op \"Verzenden\" drukt, wordt je bericht omgezet in een reeks onbegrijpelijke tekens. Het is alsof je bericht in een kluis is opgesloten waarvan alleen je contact de sleutel heeft.",
+  "secStep3Title": "Sealed Sender: de onzichtbare envelop",
+  "secStep3Desc": "Stel je voor dat je een brief per post verstuurt, maar zonder afzender op de envelop. Dat is precies wat Hash doet. Het bericht wordt in een anonieme brievenbus gedeponeerd. De server weet niet wie het heeft verstuurd.",
+  "secStep4Title": "De server ziet niets",
+  "secStep4Desc": "De server fungeert als een blinde postbode. Het weet alleen dat \"iemand iets in brievenbus #A7X9 heeft gedeponeerd\". Het weet niet wie het heeft gestuurd, wat het is of voor wie het is.",
+  "secStep4Highlight": "Geen metadata opgeslagen: geen IP-adres, geen tijdstempel, geen link tussen afzender en ontvanger.",
+  "secStep5Title": "Je contact ontvangt het bericht",
+  "secStep5Desc": "De telefoon van je contact haalt de inhoud op uit hun anonieme brievenbus en ontsleutelt het bericht met hun privésleutel, die nooit hun apparaat heeft verlaten. \"Hoi!\" verschijnt op hun scherm.",
+  "secStep6Title": "Het bericht verdwijnt van de server",
+  "secStep6Desc": "Zodra je contact de ontvangst bevestigt, verwijdert de server het bericht permanent. Geen prullenbak, geen archief, geen back-up. Zelfs ongelezen berichten worden automatisch vernietigd na 24 uur.",
+  "secStep7Title": "Lokale verlooptijd",
+  "secStep7Desc": "Op de telefoon van je contact vernietigt het bericht zichzelf volgens de duur die je hebt gekozen: direct na lezen, 5 minuten, 1 uur... jij beslist.",
+  "secJourneyConclusion": "Resultaat: geen spoor op de server, geen spoor op apparaten. Het bericht bestond net lang genoeg om gelezen te worden en verdween toen.",
+  "secArchLabel": "ARCHITECTUUR",
+  "secArchTitle": "5 lagen bescherming",
+  "secArchSubtitle": "Hash vertrouwt niet op één enkele technologie. Elke laag versterkt de andere. Zelfs als één laag wordt gecompromitteerd, blijven je gegevens veilig.",
+  "secLayer1Title": "End-to-end-versleuteling",
+  "secLayer1Desc": "Elk bericht wordt versleuteld met een unieke sleutel. Simpel gezegd: zelfs als iemand één bericht ontsleutelt, kan diegene het volgende niet ontsleutelen. Elk bericht heeft zijn eigen slot.",
+  "secLayer1Detail": "Voor bestanden (foto's, video's, documenten) gebruikt Hash extra AES-256-GCM-versleuteling. Het bestand wordt versleuteld voordat het je telefoon verlaat.",
+  "secLayer2Title": "Sealed Sender (netwerkanonimiteit)",
+  "secLayer2Desc": "Gewone messengers sturen je berichten met je identiteit erbij. Het is alsof je je naam op de envelop schrijft. Hash gebruikt anonieme brievenbussen: de server bezorgt het bericht zonder te weten wie het heeft gestuurd.",
+  "secLayer2Detail": "Resultaat: zelfs bij een serverdatalek is het onmogelijk te reconstrueren wie met wie praat.",
+  "secLayer3Title": "Automatische verwijdering",
+  "secLayer3Desc": "Berichten worden van de server verwijderd zodra ontvangst is bevestigd. Zelfs als een bericht nooit wordt opgehaald, wordt het automatisch vernietigd na 24 uur.",
+  "secLayer3Detail": "Op je telefoon vernietigen berichten zichzelf volgens de duur die je kiest: onmiddellijk, 5 min, 15 min, 30 min, 1u, 3u, 6u of 12u.",
+  "secLayer4Title": "Lokale toegangsbescherming",
+  "secLayer4Desc": "De app is beveiligd met een 6-cijferige PIN-code en/of biometrie (Face ID, vingerafdruk). Na te veel mislukte pogingen wordt de app vergrendeld met een toenemende vertraging na elke mislukking.",
+  "secLayer5Title": "Vergrendelde database",
+  "secLayer5Desc": "Aan de serverzijde kan geen enkele gebruiker rechtstreeks naar de database schrijven. Alle acties verlopen via beveiligde functies die elk verzoek verifiëren.",
+  "secLayer5Detail": "Het is als een bankbalie: je raakt nooit zelf de kluis aan. Je doet een verzoek en het systeem controleert of je het recht hebt voordat het handelt.",
+  "secVashLabel": "UNIEK IN DE WERELD",
+  "secVashTitle": "Vash-modus",
+  "secVashSubtitle": "Een noodbeveiligingssysteem dat in geen enkele andere messaging-app bestaat.",
+  "secVashScenarioTitle": "Stel je deze situatie voor",
+  "secVashScenario1": "Iemand krijgt toegang tot je telefoon",
+  "secVashScenario2": "Je wordt gevraagd om je PIN-code",
+  "secVashScenario3": "Je wilt al je gegevens dringend wissen",
+  "secVashSolutionTitle": "De oplossing: twee PIN-codes",
+  "secVashSolutionDesc": "Je configureert twee verschillende PIN-codes in Hash:",
+  "secVashNormalCodeLabel": "Normale code",
+  "secVashNormalCodeDesc": "Opent de app normaal met al je gegevens",
+  "secVashCodeLabel2": "Vash-code",
+  "secVashCodeDescription": "Opent de app normaal... maar al je gegevens worden stil op de achtergrond verwijderd",
+  "secVashWhatHappensTitle": "Wat er daarna gebeurt",
+  "secVashWhatHappensDesc": "De app opent normaal. Geen melding, geen verdachte animatie. Het scherm toont gewoon een lege app, alsof je het net hebt geïnstalleerd.\n\nIn werkelijkheid zijn al je gesprekken, contacten en berichten onomkeerbaar verwijderd in een fractie van een seconde.",
+  "secCallsLabel": "OPROEPEN & BESTANDEN",
+  "secCallsTitle": "Alles is versleuteld",
+  "secCallsSubtitle": "Het zijn niet alleen berichten. Absoluut alles dat door Hash gaat is end-to-end versleuteld.",
+  "secAudioCallTitle": "Audiogesprekken",
+  "secAudioCallDesc": "End-to-end versleuteld via WebRTC. Spraak wordt rechtstreeks tussen apparaten verzonden.",
+  "secVideoCallTitle": "Videogesprekken",
+  "secVideoCallDesc": "Dezelfde technologie, elke stream individueel versleuteld.",
+  "secPhotosTitle": "Foto's en video's",
+  "secPhotosDesc": "Versleuteld in AES-256-GCM voordat ze je telefoon verlaten.",
+  "secDocsTitle": "Documenten",
+  "secDocsDesc": "PDF, ZIP, elk bestand. Naam, grootte en inhoud versleuteld.",
+  "secAnonLabel": "ANONIMITEIT",
+  "secAnonTitle": "Geen identiteit vereist",
+  "secAnonSubtitle": "Hash vraagt nooit om je telefoonnummer of e-mailadres. Je wordt geïdentificeerd door een unieke en anonieme Hash-ID.",
+  "secHashIdTitle": "Je Hash-ID",
+  "secHashIdDesc": "Dit is je unieke identificatiecode. Het onthult niets over jou: niet je naam, niet je nummer, niet je locatie. Het is als een pseudoniem dat onmogelijk te koppelen is aan je echte identiteit.\n\nOm een contact toe te voegen, deel je je Hash-ID of scan je een QR-code. Dat is alles. Geen gesynchroniseerd adresboek, geen \"Mensen die je misschien kent\"-suggesties.",
+  "secDataLabel": "GEGEVENS",
+  "secDataTitle": "Wat Hash niet weet",
+  "secDataSubtitle": "De beste manier om je gegevens te beschermen is ze niet te verzamelen.",
+  "secNeverCollected": "Nooit verzameld",
+  "secNeverItem1": "Berichtinhoud",
+  "secNeverItem2": "Contactenlijst",
+  "secNeverItem3": "Telefoonnummer",
+  "secNeverItem4": "E-mailadres",
+  "secNeverItem5": "IP-adres",
+  "secNeverItem6": "Locatie",
+  "secNeverItem7": "Metadata (wie praat met wie)",
+  "secNeverItem8": "Oproepgeschiedenis",
+  "secNeverItem9": "Adresboek",
+  "secNeverItem10": "Advertentie-identificatoren",
+  "secTempStored": "Tijdelijk opgeslagen",
+  "secTempItem1": "Anonieme Hash-ID (unieke identificatiecode)",
+  "secTempItem2": "Openbare versleutelingssleutels",
+  "secTempItem3": "Versleutelde berichten onderweg (max 24u)",
+  "secTempNote": "Zelfs deze minimale gegevens kunnen je niet identificeren. Je Hash-ID is niet gekoppeld aan persoonlijke informatie.",
+  "secFooterTitle": "Jouw privacy, jouw vrijheid",
+  "secFooterDesc": "Hash gebruikt dezelfde versleutelingstechnologieën als de meest veeleisende professionele applicaties. Je berichten worden beschermd door wiskunde, niet door beloften."
+}

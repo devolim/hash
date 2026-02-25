@@ -1,0 +1,1037 @@
+{
+  "@@locale": "nb",
+
+  "appName": "Hash",
+  "appTagline": "Null spor. Null kompromiss.",
+
+  "conversations": "Chatter",
+  "contacts": "Kontakter",
+  "noConversation": "Ingen chatter",
+  "noConversationSubtitle": "Legg til en kontakt for å begynne å chatte sikkert",
+  "pendingRequestsCount": "{count, plural, =1{1 ventende forespørsel} other{{count} ventende forespørsler}}",
+  "@pendingRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "sentRequestsCount": "{count, plural, =1{1 sendt forespørsel venter} other{{count} sendte forespørsler venter}}",
+  "@sentRequestsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "addContact": "Legg til kontakt",
+  "shareApp": "Del appen",
+  "newMessage": "Ny melding",
+  "newConversation": "Send en melding",
+
+  "settings": "Innstillinger",
+  "myHashId": "Min Hash-ID",
+  "supportHash": "Støtt Hash",
+  "supportHashSubtitle": "Hash er et ideelt prosjekt",
+  "donate": "Doner",
+
+  "appearance": "Utseende",
+  "theme": "Tema",
+  "themeAuto": "Automatisk",
+  "themeAutoSubtitle": "Følger systeminnstillingene",
+  "themeDark": "Mørkt",
+  "themeLight": "Lyst",
+  "themeRecommendation": "Mørkt tema anbefales for bedre personvern",
+  "language": "Språk",
+  "languageAuto": "Automatisk (system)",
+
+  "notifications": "Varsler",
+  "messages": "Meldinger",
+  "calls": "Samtaler",
+  "vibration": "Vibrasjon",
+  "notificationContent": "Varselinnhold",
+  "notificationContentFull": "Vis alt",
+  "notificationContentFullDesc": "Kontaktnavn og forhåndsvisning av melding",
+  "notificationContentName": "Kun navn",
+  "notificationContentNameDesc": "Viser bare kontaktnavnet",
+  "notificationContentDiscrete": "Diskret",
+  "notificationContentDiscreteDesc": "Viser bare «Ny melding»",
+
+  "security": "Sikkerhet",
+  "howHashProtectsYou": "Hvordan Hash beskytter deg",
+  "howHashProtectsYouSubtitle": "Forstå sikkerheten din",
+  "accountSecurity": "Kontosikkerhet",
+  "accountSecuritySubtitle": "PIN, biometri, Vash-modus",
+  "blockScreenshots": "Blokker skjermbilder",
+  "transferDevice": "Overfør til en annen enhet",
+  "transferDeviceSubtitle": "Migrer kontoen din",
+
+  "pinCode": "PIN-kode",
+  "changePin": "Endre PIN-kode",
+  "currentPin": "Nåværende PIN-kode",
+  "newPin": "Ny PIN-kode",
+  "confirmPin": "Bekreft PIN-kode",
+  "pinChanged": "PIN-kode endret",
+  "incorrectPin": "Feil PIN",
+  "pinsDoNotMatch": "PIN-kodene stemmer ikke overens",
+
+  "autoLock": "Autolås",
+  "autoLockDelay": "Låseforsinkelse",
+  "autoLockImmediate": "Umiddelbart",
+  "autoLockMinute": "1 minutt",
+  "autoLockMinutes": "{count} minutter",
+  "@autoLockMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "vashCode": "Vash-kode",
+  "vashModeTitle": "Vash-modus",
+  "vashModeExplanation": "Ditt ultimate sikkerhetsnett.",
+  "vashModeDescription": "Du velger en ekstra PIN-kode. Hvis du noen gang blir tvunget til å åpne Hash, taster du inn denne koden i stedet for din vanlige PIN.\n\nAppen åpnes normalt, men alle samtaler og kontakter er borte.\n\nFor alle som ser på skjermen din, ser Hash bare tomt ut — som om du aldri har brukt den.",
+  "vashModeIrreversible": "Denne handlingen er stille og irreversibel.",
+  "chooseVashCode": "Velg min Vash-kode",
+  "vashCodeInfo": "En ekstra PIN-kode som åpner appen normalt, men tom.",
+  "vashCodeInfoDetail": "Hvis du taster inn denne koden i stedet for PIN-en din:",
+  "vashDeleteContacts": "Kontaktene dine forsvinner",
+  "vashDeleteMessages": "Samtalene dine forsvinner",
+  "vashDeleteHistory": "Notatene dine forsvinner",
+  "vashKeepId": "Hash-identiteten din (#XXX-XXX-XXX) forblir den samme",
+  "vashAppearNormal": "Appen ser normal men tom ut, som ny. Denne handlingen er irreversibel.",
+  "setupVashCode": "Sett opp Vash-kode",
+  "modifyVashCode": "Endre Vash-kode",
+  "currentVashCode": "Nåværende Vash-kode",
+  "newVashCode": "Ny Vash-kode",
+  "confirmVashCode": "Bekreft Vash-kode",
+  "vashCodeConfigured": "Vash-kode konfigurert",
+  "vashCodeModified": "Vash-kode endret",
+  "vashCodeMustDiffer": "Vash-koden må være forskjellig fra PIN-koden",
+  "incorrectVashCode": "Feil Vash-kode",
+  "vashWhatToDelete": "Hva skal Vash-modus fjerne?",
+  "vashDeleteContactsOption": "Kontakter",
+  "vashDeleteMessagesOption": "Meldinger",
+  "vashDeleteNotesOption": "Notater",
+  "vashActivated": "Vash-modus aktivert",
+  "vashCreateSubtitle": "Velg en kode som er forskjellig fra hoved-PIN-en din",
+  "vashConfirmSubtitle": "Bekreft Vash-koden din",
+  "vashCodeSection": "Vash-modus",
+
+  "pinCodeForEntry": "PIN-kode for å gå inn i appen",
+  "biometric": "Biometri",
+  "biometricUnlock": "Lås opp med fingeravtrykk eller Face ID",
+  "enableBiometric": "Aktiver biometri",
+  "biometricWarningMessage": "Hvis du aktiverer biometri, kan du ikke bruke Vash-koden din til å logge inn i appen.\n\nDu kan bare bruke Vash-koden hvis biometri mislykkes (etter flere mislykkede forsøk).\n\nEr du sikker på at du vil fortsette?",
+  "understood": "Jeg forstår",
+
+  "shareAppSubtitle": "Del Hash med venner og familie",
+  "share": "Del",
+
+  "danger": "Fare",
+  "panicButton": "Panikkknapp",
+  "panicButtonSubtitle": "Slett alle data",
+  "deleteAccount": "Slett kontoen min",
+  "deleteAccountSubtitle": "Irreversibel handling",
+  "deleteAccountConfirmTitle": "Slett kontoen min",
+  "deleteAccountConfirmMessage": "Kontoen din vil bli permanent slettet. Denne handlingen er irreversibel.\n\n• Alle chattene dine\n• Alle kontaktene dine\n• Hash-ID-en din\n\nDu må opprette en ny konto.",
+  "deleteForever": "Slett permanent",
+  "cancel": "Avbryt",
+
+  "panicConfirmTitle": "Panikkknapp",
+  "panicConfirmMessage": "Denne handlingen vil permanent slette ALLE dataene dine:\n\n• Alle meldingene dine\n• Alle kontaktene dine\n• Kontoen din\n\nEr du helt sikker?",
+  "deleteAll": "SLETT ALT",
+  "dataDeletedForSecurity": "Vash-modus aktivert.",
+  "deletionError": "Slettingsfeil: {error}",
+  "@deletionError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "yourSecurity": "Din sikkerhet",
+  "securityInfo": "• Ende-til-ende-kryptering (Signal Protocol)\n• Ingen data på serverne våre etter levering\n• Nøkler lagret kun på enheten din\n• PIN-kode sendes aldri til serveren",
+
+  "version": "Hash v{version}",
+  "@version": {
+    "placeholders": {
+      "version": {"type": "String"}
+    }
+  },
+
+  "welcome": "Velkommen",
+  "securityStatement1": "Meldingene dine er beskyttet.",
+  "securityStatement2": "Ende-til-ende-kryptering.",
+  "securityStatement3": "Ingen spor. Ingen kompromiss.",
+  "securityStatement4": "Personvernet ditt er en rettighet.",
+
+  "accessBlocked": "Tilgang blokkert",
+  "tooManyAttempts": "For mange forsøk. Prøv igjen senere.",
+  "pleaseWait": "Vennligst vent",
+  "waitDelay": "Vennligst vent til forsinkelsen er over",
+  "attemptCount": "Forsøk {current} av {max}",
+  "@attemptCount": {
+    "placeholders": {
+      "current": {"type": "int"},
+      "max": {"type": "int"}
+    }
+  },
+  "retryIn": "Prøv igjen om {time}",
+  "@retryIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "forgotPin": "Glemt PIN? Bruk gjenopprettingsfrase",
+  "useRecoveryPhrase": "Bruk gjenopprettingsfrase",
+
+  "recoveryWarningTitle": "Advarsel",
+  "recoveryWarningMessage": "Kontogjenoppretting vil:",
+  "recoveryDeleteAllMessages": "Slette ALLE meldingene dine",
+  "recoveryWaitDelay": "Kreve en ventetid på 1 time",
+  "recoveryKeepContacts": "Beholde kontaktene dine",
+  "recoveryIrreversible": "Denne handlingen er irreversibel. Meldingene dine vil bli permanent tapt.",
+  "iUnderstand": "Jeg forstår",
+
+  "accountRecovery": "Kontogjenoppretting",
+  "enterRecoveryPhrase": "Skriv inn de 24 ordene i gjenopprettingsfrasen din, atskilt med mellomrom.",
+  "recoveryPhraseHint": "ord1 ord2 ord3 ...",
+  "recover": "Gjenopprett",
+  "recoveryPhraseRequired": "Vennligst skriv inn gjenopprettingsfrasen din",
+  "recoveryPhrase24Words": "Frasen må inneholde nøyaktig 24 ord",
+  "incorrectRecoveryPhrase": "Feil gjenopprettingsfrase",
+  "recoveryInitError": "Feil ved initialisering av gjenoppretting",
+
+  "securityDelay": "Sikkerhetsforsinkelse",
+  "securityDelayMessage": "For din sikkerhet kreves en ventetid før du kan opprette en ny PIN.",
+  "timeRemaining": "Tid igjen",
+  "messagesDeletedForProtection": "Meldingene dine er slettet for din beskyttelse.",
+  "canCloseApp": "Du kan lukke appen og komme tilbake senere.",
+
+  "onboardingTitle1": "Velkommen til Hash",
+  "onboardingSubtitle1": "Meldingstjenesten som ikke etterlater spor",
+  "onboardingTitle2": "Total kryptering",
+  "onboardingSubtitle2": "Meldingene dine er ende-til-ende-kryptert med Signal-protokollen",
+  "onboardingTitle3": "Ingen spor",
+  "onboardingSubtitle3": "Meldinger slettes fra serverne ved levering",
+  "onboardingTitle4": "Din sikkerhet",
+  "onboardingSubtitle4": "PIN-kode, Vash-modus og gjenopprettingsfrase",
+
+  "getStarted": "Kom i gang",
+  "next": "Neste",
+  "skip": "Hopp over",
+  "alreadyHaveAccount": "Jeg har allerede en konto",
+  "transferMyAccount": "Overfør kontoen min",
+
+  "createPin": "Opprett en PIN-kode",
+  "createPinSubtitle": "Denne koden beskytter tilgangen til appen din",
+  "confirmYourPin": "Bekreft PIN-koden din",
+  "confirmPinSubtitle": "Tast inn PIN-koden din igjen",
+
+  "saveRecoveryPhrase": "Gjenopprettingsfrase",
+  "saveRecoveryPhraseSubtitle": "Skriv ned disse 24 ordene i rekkefølge. De lar deg gjenopprette kontoen din hvis du glemmer PIN-koden.",
+  "phraseWritten": "Jeg har skrevet ned frasen min",
+  "warningRecoveryPhrase": "Hvis du mister denne frasen og glemmer PIN-koden din, mister du tilgangen til kontoen din.",
+
+  "accountTransferred": "Konto overført",
+  "accountTransferredMessage": "Kontoen din er overført til en annen enhet. Denne økten er ikke lenger gyldig.",
+  "accountTransferredInfo": "Hvis du ikke startet denne overføringen, kan kontoen din ha blitt kompromittert.",
+  "logout": "Logg ut",
+
+  "transferAccount": "Overfør konto",
+  "transferAccountInfo": "Overfør Hash-kontoen din til en ny enhet. Den nåværende økten din vil bli ugyldiggjort.",
+  "generateTransferCode": "Generer overføringskode",
+  "transferCode": "Overføringskode",
+  "transferCodeExpires": "Denne koden utløper om {minutes} minutter",
+  "@transferCodeExpires": {
+    "placeholders": {
+      "minutes": {"type": "int"}
+    }
+  },
+  "enterCodeOnNewDevice": "Tast inn denne koden på den nye enheten din for å overføre kontoen.",
+  "generateNewCode": "Generer ny kode",
+
+  "scanQrCode": "Skann QR-kode",
+  "scanQrCodeSubtitle": "Skann en kontakts QR-kode for å legge dem til",
+  "qrCodeDetected": "QR-kode oppdaget",
+  "invalidQrCode": "Ugyldig QR-kode",
+  "cameraPermissionRequired": "Kameratillatelse kreves",
+
+  "myQrCode": "Min QR-kode",
+  "myQrCodeSubtitle": "Del denne QR-koden slik at kontaktene dine kan legge deg til",
+  "shareQrCode": "Del",
+
+  "addContactTitle": "Legg til kontakt",
+  "addContactByHashId": "Skriv inn kontaktens Hash-ID",
+  "hashIdHint": "000-000-XXX",
+  "searchContact": "Søk",
+  "contactNotFound": "Kontakt ikke funnet",
+  "contactAlreadyAdded": "Denne kontakten er allerede i listen din",
+  "contactAdded": "Kontakt lagt til",
+
+  "myProfile": "Min profil",
+  "myProfileSubtitle": "Del denne informasjonen slik at andre kan legge deg til",
+  "temporaryCode": "Midlertidig kode",
+  "temporaryCodeExpires": "Utløper om {time}",
+  "@temporaryCodeExpires": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "codeExpired": "Kode utløpt",
+  "generateNewCodeButton": "Ny kode",
+  "copyHashId": "Kopier ID",
+  "copyCode": "Kopier kode",
+  "copiedToClipboard": "Kopiert",
+  "showMyQrCode": "Vis min QR-kode",
+  "orDivider": "eller",
+  "openScanner": "Åpne skanner",
+  "addManually": "Legg til manuelt",
+  "contactHashIdLabel": "Kontaktens Hash-ID",
+  "temporaryCodeLabel": "Midlertidig kode",
+  "temporaryCodeHint": "000000",
+  "askContactForCode": "Be kontakten din om å generere en kode fra profilen sin",
+  "verifyAndAdd": "Verifiser og legg til",
+  "fillAllFields": "Vennligst fyll ut alle felt",
+  "invalidHashIdFormat": "Ugyldig ID-format (f.eks.: 123-456-ABC)",
+  "userNotFound": "Bruker ikke funnet",
+  "cannotAddYourself": "Du kan ikke legge til deg selv",
+  "invalidOrExpiredCode": "Ugyldig eller utløpt midlertidig kode",
+  "contactFound": "Kontakt funnet!",
+  "howToCallContact": "Hva vil du kalle dem?",
+  "contactNameHint": "Kontaktnavn",
+  "addContactButton": "Legg til",
+
+  "contactDetails": "Kontaktdetaljer",
+  "contactName": "Kontaktnavn",
+  "contactHashId": "Hash-ID",
+  "addedOn": "Lagt til {date}",
+  "@addedOn": {
+    "placeholders": {
+      "date": {"type": "String"}
+    }
+  },
+  "deleteContact": "Slett kontakt",
+  "deleteContactConfirm": "Slette denne kontakten?",
+  "deleteContactMessage": "Dette sletter også hele chatten.",
+  "delete": "Slett",
+
+  "typeMessage": "Skriv en melding...",
+  "messageSent": "Sendt",
+  "messageDelivered": "Levert",
+  "messageRead": "Lest",
+  "messageFailed": "Sending mislyktes",
+
+  "now": "Nå",
+  "minutesAgo": "{count}min",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgo": "{count}t",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "daysAgo": "{count}d",
+  "@daysAgo": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "today": "I dag",
+  "yesterday": "I går",
+  "dateAtTime": "{date} kl. {time}",
+  "@dateAtTime": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "time": {"type": "String"}
+    }
+  },
+
+  "shareMessage": "Bli med meg på Hash! 🔒\n\nDet er en virkelig privat meldingstjeneste: total kryptering, ingen spor på servere, og panikkmodus ved behov.\n\nLast ned appen her 👇\nhttps://hash.devolim.fr/share/index.html",
+
+  "error": "Feil",
+  "ok": "OK",
+  "view": "Vis",
+  "yes": "Ja",
+  "no": "Nei",
+  "save": "Lagre",
+  "edit": "Rediger",
+  "close": "Lukk",
+  "confirm": "Bekreft",
+  "loading": "Laster...",
+  "retry": "Prøv igjen",
+
+  "pendingRequests": "Ventende forespørsler",
+  "noPendingRequests": "Ingen ventende forespørsler",
+  "pendingRequestsSubtitle": "Disse personene ønsker å legge deg til",
+  "requestFromUser": "Forespørsel fra {hashId}",
+  "@requestFromUser": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "requestExpiresIn": "Utløper om {days} dager",
+  "@requestExpiresIn": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "acceptRequest": "Godta",
+  "rejectRequest": "Avvis",
+  "requestAccepted": "Forespørsel godtatt",
+  "requestRejected": "Forespørsel avvist",
+  "requestSent": "Forespørsel sendt!",
+  "requestSentSubtitle": "Forespørselen din er sendt. Brukeren må godta den før dere kan chatte.",
+  "requestAlreadyPending": "En forespørsel venter allerede",
+  "requestAlreadySentByOther": "Denne personen har allerede sendt deg en forespørsel",
+  "addByHashId": "Legg til med Hash-ID",
+  "addByHashIdSubtitle": "Skriv inn kontaktens Hash-ID og midlertidige kode",
+  "enterTemporaryCode": "Skriv inn den 6-sifrede koden",
+  "sendRequest": "Send forespørsel",
+  "acceptContactTitle": "Godta kontakt",
+  "acceptContactSubtitle": "Du kan gi dem et tilpasset navn",
+  "leaveEmptyForHashId": "La stå tomt for å bruke Hash-ID",
+  "firstName": "Fornavn",
+  "lastName": "Etternavn",
+  "notes": "Notater",
+  "notesHint": "Personlige notater om denne kontakten",
+
+  "photoOptional": "Bilde (valgfritt)",
+  "contactNameOptional": "Navn (valgfritt)",
+  "notesOptional": "Notater (valgfritt)",
+  "storedLocally": "Lagret kun på enheten din",
+  "encryptedMessageLabel": "Kryptert melding",
+  "identityMessageHint": "Hvem er du? Hvordan kjenner dere hverandre?",
+  "messageWillBeSentEncrypted": "Denne meldingen blir kryptert og sendt til mottakeren",
+  "sendRequestButton": "Send forespørsel",
+  "requestExpiresIn24h": "Forespørselen utløper om 24 timer hvis den ikke godtas",
+  "theyAlreadySentYouRequest": "Denne personen har allerede sendt deg en forespørsel",
+
+  "requests": "Forespørsler",
+  "receivedRequests": "Mottatt",
+  "sentRequests": "Sendt",
+  "noSentRequests": "Ingen sendte forespørsler",
+  "cancelRequest": "Avbryt",
+  "deleteRequest": "Slett forespørsel",
+  "requestCancelled": "Forespørsel avbrutt",
+  "sentTo": "Sendt til {hashId}",
+  "@sentTo": {
+    "placeholders": {
+      "hashId": {"type": "String"}
+    }
+  },
+  "expiresIn": "Utløper om {time}",
+  "@expiresIn": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "receivedAgo": "Mottatt for {time} siden",
+  "@receivedAgo": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "messageFromRequester": "Melding fra avsender",
+
+  "copy": "Kopier",
+  "messageInfo": "Meldingsinfo",
+
+  "messageDirection": "Retning",
+  "messageSentByYou": "Sendt av deg",
+  "messageReceived": "Mottatt",
+  "messageSentAt": "Sendt",
+  "messageStatus": "Status",
+  "messageReadAt": "Lest",
+  "messageType": "Type",
+  "messageSize": "Størrelse",
+  "messageExpiresAt": "Utløper",
+  "messageEncrypted": "Ende-til-ende-kryptert",
+
+  "messageStatusSending": "Sender...",
+  "messageStatusSent": "Sendt",
+  "messageStatusDelivered": "Levert",
+  "messageStatusRead": "Lest",
+  "messageStatusFailed": "Mislyktes",
+
+  "serverStatus": "Server",
+  "onServer": "Venter på levering",
+  "deletedFromServer": "Slettet",
+
+  "messageTypeText": "Tekst",
+  "messageTypeImage": "Bilde",
+  "messageTypeVideo": "Video",
+  "messageTypeVoice": "Stemme",
+  "messageTypeFile": "Fil",
+
+  "indefinitely": "Ubestemt",
+  "hoursShort": "t",
+  "minutesShort": "min",
+  "hours": "timer",
+  "minutes": "minutter",
+  "seconds": "sekunder",
+
+  "ephemeralMessages": "Forsvinnende meldinger",
+  "ephemeralMessagesDescription": "Meldinger slettes automatisk etter denne tiden",
+  "ephemeralImmediate": "Umiddelbart (etter lesing)",
+  "ephemeralImmediateDesc": "Slettes så snart de er lest",
+  "ephemeralMyPreference": "Min preferanse",
+  "ephemeralMyPreferenceDesc": "Bruk global innstilling",
+  "ephemeralDefaultSetting": "Meldingsvarighet",
+  "ephemeralChooseDefault": "Anbefalt",
+  "ephemeral30Seconds": "30 sekunder",
+  "ephemeral30SecondsDesc": "Slettes 30s etter lesing",
+  "ephemeral5Minutes": "5 minutter",
+  "ephemeral5MinutesDesc": "Slettes 5min etter lesing",
+  "ephemeral1Hour": "1 time",
+  "ephemeral1HourDesc": "Slettes 1t etter lesing",
+  "ephemeral3Hours": "3 timer",
+  "ephemeral6Hours": "6 timer",
+  "ephemeral6HoursDesc": "Slettes 6t etter lesing",
+  "ephemeral12Hours": "12 timer",
+  "ephemeral24Hours": "24 timer",
+  "ephemeral24HoursDesc": "Slettes 24t etter lesing",
+  "customDuration": "Egendefinert varighet",
+
+  "muteNotifications": "Demp varsler",
+  "muteDescription": "Du vil ikke motta varsler for denne kontakten",
+  "mutedUntil": "Dempet til {time}",
+  "@mutedUntil": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+  "notMuted": "Varsler aktivert",
+  "unmute": "Slå på igjen",
+
+  "notificationSound": "Varsellyd",
+  "defaultSound": "Standard",
+
+  "chatSettings": "Chat-innstillinger",
+  "bubbleColor": "Boblefarge",
+  "backgroundColor": "Bakgrunnsfarge",
+  "backgroundImage": "Bakgrunnsbilde",
+  "chatBackground": "Chat-bakgrunn",
+  "customColor": "Egendefinert",
+  "defaultColor": "Standard",
+  "imageSelected": "Bilde valgt",
+  "noImage": "Ingen bilde",
+  "color": "Farge",
+  "image": "Bilde",
+  "tapToSelectImage": "Trykk for å velge et bilde",
+  "changeImage": "Bytt bilde",
+  "previewMessageReceived": "Hei!",
+  "previewMessageSent": "Hei der!",
+
+  "messageAction": "Melding",
+  "callAction": "Ring",
+  "videoAction": "Video",
+
+  "personalNotes": "Personlige notater",
+  "addNotes": "Legg til notater...",
+  "noNotes": "Ingen notater",
+
+  "messageNotifications": "Meldingsvarsler",
+  "callNotifications": "Samtalevarsler",
+
+  "useGradient": "Bruk gradient",
+  "gradientStart": "Startfarge",
+  "gradientEnd": "Sluttfarge",
+  "preview": "Forhåndsvisning",
+  "reset": "Tilbakestill",
+
+  "securityNumber": "Sikkerhetsnummer",
+  "securityNumberDescription": "Bekreft at sikkerhetsnummeret stemmer med enheten til {name}",
+  "@securityNumberDescription": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "verifyEncryption": "Verifiser ende-til-ende-kryptering",
+  "tapToCopy": "Trykk for å kopiere",
+  "howToVerify": "Hvordan verifisere",
+  "verifyStep1": "Møt kontakten din personlig eller ring dem",
+  "verifyStep2": "Sammenlign sikkerhetsnumrene eller skann QR-koder",
+  "verifyStep3": "Hvis de stemmer, er chatten din sikker",
+  "scanToVerify": "Skann for å verifisere",
+
+  "reportSpam": "Rapporter som spam",
+  "reportSpamSubtitle": "Rapporter denne kontakten som spam",
+  "reportSpamDescription": "Denne kontakten rapporteres anonymt. Din identitet deles ikke. Er du sikker?",
+  "report": "Rapporter",
+  "spamReported": "Spam rapportert",
+  "reportError": "Kunne ikke sende rapport. Vennligst prøv igjen.",
+  "reportRateLimited": "Du har nådd maksimalt antall rapporter for i dag.",
+
+  "blockContact": "Blokker kontakt",
+  "blockContactDescription": "Denne kontakten vil ikke lenger kunne sende deg meldinger eller ringe deg. De vil ikke bli varslet.",
+  "unblockContact": "Opphev blokkering",
+  "unblockContactDescription": "Denne kontakten vil igjen kunne sende deg meldinger og ringe deg.",
+  "contactBlocked": "Kontakt blokkert",
+  "contactUnblocked": "Blokkering opphevet",
+  "contactIsBlocked": "Denne kontakten er blokkert",
+  "unblock": "Opphev blokkering",
+
+  "deleteContactSubtitle": "Slett denne kontakten og chatten",
+  "confirmWithPin": "Bekreft med PIN",
+  "enterPinToConfirm": "Tast inn PIN-koden din for å bekrefte denne handlingen",
+
+  "mute1Hour": "1 time",
+  "mute8Hours": "8 timer",
+  "mute1Day": "1 dag",
+  "mute1Week": "1 uke",
+  "muteAlways": "Alltid",
+  "muteExplanation": "Du vil ikke motta varsler for denne kontakten",
+  "howItWorks": "Slik fungerer det",
+  "ephemeralExplanation1": "Meldinger slettes fra serveren så snart de er mottatt.",
+  "ephemeralExplanation2": "Denne innstillingen definerer når meldinger forsvinner fra DIN telefon etter lesing.",
+  "ephemeralExplanation3": "Kontakten din har sin egen innstilling for sin telefon.",
+
+  "showCallsInRecents": "Vis i nylige samtaler",
+  "showCallsInRecentsSubtitle": "Hash-samtaler vises i telefonhistorikken",
+  "feedback": "Tilbakemelding",
+
+  "profilePhoto": "Profilbilde",
+  "takePhoto": "Ta et bilde",
+  "chooseFromGallery": "Velg fra galleri",
+  "removePhoto": "Fjern bilde",
+
+  "viewContactHashId": "Vis kontaktens identifikator",
+  "hashIdPartiallyMasked": "Delvis maskert for din sikkerhet og kontaktens personvern",
+
+  "addFirstContact": "Legg til din første kontakt",
+  "addFirstContactSubtitle": "Del QR-koden din eller skann en venns",
+  "directory": "Katalog",
+  "noContacts": "Ingen kontakter",
+  "noContactsSubtitle": "Legg til en kontakt for å komme i gang",
+  "sendMessageAction": "Send en melding",
+  "audioCall": "Lydsamtale",
+  "videoCall": "Videosamtale",
+  "viewProfile": "Vis profil",
+  "deleteContactDirectory": "Slett kontakt",
+  "scanShort": "Skann",
+  "addShort": "Legg til",
+  "deleteContactConfirmName": "Er du sikker på at du vil slette {name}?",
+  "@deleteContactConfirmName": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+
+  "noNotesTitle": "Ingen notater",
+  "noNotesSubtitle": "Opprett ditt første notat",
+  "newNote": "Nytt notat",
+  "editNote": "Rediger notat",
+  "deleteNote": "Slett notat",
+  "deleteNoteConfirm": "Er du sikker på at du vil slette dette notatet?",
+  "noteTitle": "Tittel",
+  "noteContent": "Innhold",
+  "addItem": "Legg til element",
+  "pinNote": "Fest",
+  "unpinNote": "Løsne",
+  "noteColor": "Farge",
+  "notePassword": "Passord",
+  "setPassword": "Sett passord",
+  "changePassword": "Endre passord",
+  "removePassword": "Fjern passord",
+  "enterPassword": "Skriv inn passord",
+  "confirmPassword": "Bekreft passord",
+  "passwordPin": "PIN-kode",
+  "passwordText": "Tekstpassord",
+  "protectedNote": "Beskyttet notat",
+  "incorrectPassword": "Feil passord",
+  "passwordSet": "Passord satt",
+  "passwordRemoved": "Passord fjernet",
+  "notesBiometric": "Face ID for notater",
+  "notesBiometricSubtitle": "Krev biometrisk autentisering for å åpne beskyttede notater",
+  "textNote": "Tekstnotat",
+  "checklistNote": "Sjekkliste",
+  "tasksProgress": "{checked}/{total} oppgaver",
+  "@tasksProgress": {
+    "placeholders": {
+      "checked": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "autoSaved": "Lagret",
+  "searchNotes": "Søk i notater",
+  "legalConsent": "Juridisk samtykke",
+  "confirmAge13": "Jeg bekrefter at jeg er minst 13 år gammel",
+  "acceptLegalStart": "Jeg godtar ",
+  "privacyPolicy": "Personvernregler",
+  "termsOfService": "Vilkår for bruk",
+  "andThe": " og ",
+  "continueButton": "Fortsett",
+  "mustAcceptTerms": "Du må godta begge betingelsene for å fortsette",
+
+  "support": "Støtte",
+  "contactSupport": "Kontakt kundestøtte",
+  "contactSupportSubtitle": "hash-support@devolim.fr",
+  "reportAbuse": "Rapporter misbruk",
+  "reportAbuseSubtitle": "hash-abuse@devolim.fr",
+  "legal": "Juridisk",
+  "legalEntity": "Juridisk enhet",
+  "legalEntityValue": "DEVOLIM — SIREN 948 000 757",
+
+  "pinConversation": "Fest",
+  "unpinConversation": "Løsne",
+  "hideConversation": "Fjern fra feed",
+  "deleteConversation": "Slett samtale",
+  "deleteConversationConfirm": "Tast inn PIN-koden din for å bekrefte sletting av alle meldinger",
+  "noConversations": "Ingen samtaler ennå",
+  "startConversation": "Start",
+
+  "microphonePermissionRequired": "Mikrofontilgang kreves",
+  "microphonePermissionExplanation": "Hash trenger mikrofonen for å ringe.",
+  "cameraPermissionExplanation": "Hash trenger kameraet for videosamtaler.",
+  "openSettings": "Åpne innstillinger",
+
+  "callConnecting": "Kobler til...",
+  "callRinging": "Ringer...",
+  "callReconnecting": "Kobler til på nytt...",
+  "callReconnectingTimer": "Kobler til på nytt ({seconds}s)",
+  "@callReconnectingTimer": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "callPaused": "Satt på pause",
+  "callPausedSubtitle": "Samtalen pågår fortsatt",
+  "callRemoteMicMuted": "Kontaktens mikrofon er dempet",
+  "callMiniControlsMute": "Demp",
+  "callMiniControlsUnmute": "Slå på lyd",
+  "callMiniControlsHangUp": "Legg på",
+  "callMiniControlsReturn": "Tilbake til samtalen",
+  "callNetworkPoor": "Ustabil tilkobling",
+  "callNetworkLost": "Tilkobling tapt",
+  "callEndedTitle": "Samtale avsluttet",
+
+  "deviceData": "Enhetsdata",
+  "deviceDataSubtitle": "Lokal og serverlagring",
+  "localStorage": "Lokal lagring",
+  "onThisDevice": "på denne enheten",
+  "encryptedDatabases": "Krypterte databaser",
+  "files": "Filer",
+  "secureKeychain": "Sikker nøkkelring",
+  "cache": "Hurtigbuffer",
+  "contactsDetail": "Navn, avatarer, Signal-nøkler",
+  "messagesDetail": "Krypterte samtaler",
+  "notesDetail": "Personlige notater",
+  "signalSessions": "Signal-økter",
+  "signalSessionsDetail": "Krypteringsøkter",
+  "pendingContacts": "Ventende kontakter",
+  "pendingContactsDetail": "Ventende forespørsler",
+  "callHistory": "Samtaler",
+  "callHistoryDetail": "Samtalehistorikk",
+  "preferences": "Preferanser",
+  "preferencesDetail": "Medie- og samtalepreferanser",
+  "avatars": "Avatarer",
+  "media": "Medier",
+  "fileCount": "{count, plural, =0{ingen filer} =1{1 fil} other{{count} filer}}",
+  "@fileCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "active": "Aktiv",
+  "notDefined": "Ikke definert",
+  "biometrics": "Biometri",
+  "recoveryPhrase": "Gjenopprettingsfrase",
+  "identity": "Identitet (Hash-ID)",
+  "signalKeys": "Signal Protocol-nøkler",
+  "authTokens": "Autentiseringstokens",
+  "contactNamesCache": "Hurtigbuffer for kontaktnavn",
+  "remoteConfig": "Fjernkonfigurasjon",
+  "notificationPrefs": "Varselpreferanser",
+  "serverData": "Serverdata",
+  "serverDataInfo": "Hash lagrer minimalt med data på serveren, alt kryptert eller midlertidig.",
+  "serverProfile": "Profil",
+  "serverProfileDetail": "Hash-ID, offentlige nøkler, postkassetoken",
+  "serverPrekeys": "Forhåndsnøkler",
+  "serverPrekeysDetail": "Engangsnøkler for Signal (brukt opp)",
+  "serverMessages": "Meldinger under overføring",
+  "serverMessagesDetail": "Slettes etter levering (maks 24t)",
+  "serverMedia": "Medier under overføring",
+  "serverMediaDetail": "Slettes etter nedlasting",
+  "serverContactRequests": "Kontaktforespørsler",
+  "serverContactRequestsDetail": "Utløper etter 24t",
+  "serverRateLimits": "Hastighetsbegrensninger",
+  "serverRateLimitsDetail": "Midlertidige anti-misbruk-data",
+  "privacyReassurance": "Hash kan ikke lese meldingene dine. All data er ende-til-ende-kryptert. Serverdata slettes automatisk.",
+
+  "pinTooSimple": "Denne PIN-koden er for enkel. Velg en mer sikker kode.",
+  "genericError": "En feil oppstod. Vennligst prøv igjen.",
+  "accountCreationError": "Kunne ikke opprette konto: {error}",
+  "@accountCreationError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "phraseCopiedToClipboard": "Frase kopiert til utklippstavle",
+  "copyPhrase": "Kopier frase",
+  "recoveryPhraseSecurityWarning": "Skriv ned denne frasen på et trygt sted. Hvis du mister PIN-koden uten denne frasen, mister du permanent tilgangen til dataene dine.",
+
+  "noMessages": "Ingen meldinger",
+  "deleteAllMessagesWithContact": "Slette alle meldinger med {name}?",
+  "@deleteAllMessagesWithContact": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "confirmation": "Bekreftelse",
+  "untitled": "Uten tittel",
+  "noSessions": "Ingen økter",
+  "unknownContact": "Ukjent kontakt",
+  "unnamed": "Uten navn",
+  "noPendingRequestsAlt": "Ingen ventende forespørsler",
+  "deleteAllCallHistory": "Slette all samtalehistorikk?",
+  "noCalls": "Ingen samtaler",
+  "noPreferences": "Ingen preferanser",
+  "resetAllMediaPrefs": "Tilbakestille alle mediepreferanser?",
+  "deleteThisAvatar": "Slette denne avataren?",
+  "deleteAllAvatars": "Slette alle avatarer?",
+  "noAvatars": "Ingen avatarer",
+  "deleteThisFile": "Slette denne filen?",
+  "deleteAllMediaFiles": "Slette alle medier?",
+  "noMediaFiles": "Ingen medier",
+  "outgoing": "Utgående",
+  "incoming": "Innkommende",
+  "ephemeralViewDuration": "Forsvinnende visning: {seconds}s",
+  "@ephemeralViewDuration": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "normalView": "Normal visning",
+  "callReasonCompleted": "Fullført",
+  "callReasonMissed": "Ubesvart",
+  "callReasonDeclined": "Avvist",
+  "callReasonFailed": "Mislyktes",
+  "justNow": "Akkurat nå",
+  "timeAgoMinutes": "For {count} min siden",
+  "@timeAgoMinutes": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoHours": "For {count}t siden",
+  "@timeAgoHours": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "timeAgoDays": "For {count}d siden",
+  "@timeAgoDays": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "messageTypeContact": "Kontakt",
+  "messageTypeLocation": "Posisjon",
+  "statusQueued": "I kø",
+  "blockedBadge": "Blokkert",
+  "protectedBadge": "Beskyttet",
+  "messageCount": "{count} melding(er)",
+  "@messageCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "deleteQuestion": "Slette?",
+
+  "transferMyAccountTitle": "Overfør kontoen min",
+  "loadingError": "Innlastingsfeil",
+  "transferToNewDevice": "Overfør til en ny enhet",
+  "transferInstructions": "Velg «Gjenopprett kontoen min» på den nye enheten din og skriv inn denne informasjonen:",
+  "yourHashIdLabel": "Din Hash-ID",
+  "enterYourPinCode": "Tast inn PIN-koden din",
+  "pinOwnerConfirmation": "For å bekrefte at du er eieren av denne kontoen",
+  "scanThisQrCode": "Skann denne QR-koden",
+  "withYourNewDevice": "Med den nye enheten din",
+  "orEnterTheCode": "eller tast inn koden",
+  "transferCodeLabel": "Overføringskode",
+  "proximityVerification": "Nærhetverifisering",
+  "bringDevicesCloser": "Hold begge enhetene nærmere hverandre",
+  "confirmTransferQuestion": "Bekreft overføringen?",
+  "accountWillBeTransferred": "Kontoen din overføres til den nye enheten.\n\nDenne enheten kobles permanent fra.",
+  "transferComplete": "Overføring fullført",
+  "transferSuccessMessage": "Kontoen din er overført.\n\nDenne applikasjonen lukkes nå.",
+  "manualVerification": "Manuell verifisering",
+  "codeDisplayedOnBothDevices": "Kode vist på begge enheter:",
+  "doesCodeMatchNewDevice": "Stemmer denne koden med den på den nye enheten?",
+  "verifiedStatus": "Verifisert",
+  "inProgressStatus": "Pågår...",
+  "notAvailableStatus": "Ikke tilgjengelig",
+  "codeExpiredRestart": "Koden har utløpt. Vennligst start på nytt.",
+  "codesDoNotMatchCancelled": "Kodene stemmer ikke overens. Overføring avbrutt.",
+  "transferToDevice": "Til: {device}",
+  "@transferToDevice": {
+    "placeholders": {
+      "device": {"type": "String"}
+    }
+  },
+  "copiedExclamation": "Kopiert!",
+  "expiresInTime": "Utløper om {time}",
+  "@expiresInTime": {
+    "placeholders": {
+      "time": {"type": "String"}
+    }
+  },
+
+  "biometricNotAvailable": "Biometri er ikke tilgjengelig på denne enheten",
+  "biometricAuthError": "Feil under biometrisk autentisering",
+  "authenticateForBiometric": "Vennligst autentiser for å aktivere biometri",
+  "biometricAuthFailed": "Biometrisk autentisering mislyktes",
+
+  "forceUpdateTitle": "Oppdatering kreves",
+  "forceUpdateMessage": "En ny versjon av Hash er tilgjengelig. Vennligst oppdater for å fortsette.",
+  "updateButton": "Oppdater",
+  "maintenanceInProgress": "Vedlikehold pågår",
+  "tryAgainLater": "Vennligst prøv igjen senere",
+  "information": "Informasjon",
+
+  "later": "Senere",
+  "doYouLikeHash": "Liker du Hash?",
+  "yourFeedbackHelps": "Din tilbakemelding hjelper oss med å forbedre appen",
+  "ratingTerrible": "Forferdelig",
+  "ratingBad": "Dårlig",
+  "ratingOk": "Greit",
+  "ratingGood": "Bra",
+  "ratingExcellent": "Utmerket!",
+  "donationMessage": "Hash er et ideelt prosjekt. Din støtte hjelper oss med å fortsette å bygge en virkelig privat meldingstjeneste.",
+
+  "recentConnections": "Nylige tilkoblinger",
+  "loginInfoText": "Hver PIN-opplåsing registreres lokalt. Kun de siste 24 timene lagres.",
+  "connectionCount": "Tilkobling(er)",
+  "periodLabel": "Periode",
+  "historyLabel": "Historikk",
+  "noLoginRecorded": "Ingen innlogging registrert",
+  "nextUnlocksAppearHere": "Neste opplåsinger vil vises her.",
+  "dataLocalOnly": "Disse dataene lagres kun på enheten din og overføres aldri.",
+  "currentSession": "Nåværende",
+  "todayLabel": "I dag",
+  "yesterdayLabel": "I går",
+  "justNowLabel": "Akkurat nå",
+  "minutesAgoLabel": "For {count} min siden",
+  "@minutesAgoLabel": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "hoursAgoLabel": "For {hours}t siden",
+  "@hoursAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"}
+    }
+  },
+  "hoursMinutesAgoLabel": "For {hours}t {minutes}min siden",
+  "@hoursMinutesAgoLabel": {
+    "placeholders": {
+      "hours": {"type": "int"},
+      "minutes": {"type": "int"}
+    }
+  },
+
+  "noMaintenancePlanned": "Ingen planlagt vedlikehold",
+  "everythingWorkingNormally": "Alt fungerer normalt",
+  "maintenanceTitle": "Vedlikehold",
+  "maintenanceActiveLabel": "PÅGÅR",
+  "maintenancePlannedLabel": "PLANLAGT",
+
+  "locking": "Låser...",
+
+  "newMessageNotification": "Ny melding",
+
+  "secExplainTitle": "Hvordan Hash beskytter deg",
+  "secExplainIntro": "Hash er designet slik at ingen kan lese meldingene dine.",
+  "secExplainIntroSub": "Ikke engang oss.\nSlik fungerer det, enkelt forklart.",
+  "secJourneyLabel": "REISEN",
+  "secJourneyTitle": "Meldingen din sin reise",
+  "secJourneySubtitle": "Fra fingeren din til kontaktens skjerm er hvert steg beskyttet. Følg stien.",
+  "secStep1Title": "Du skriver meldingen din",
+  "secStep1Desc": "Du skriver «Hei!» i appen. Nå eksisterer meldingen bare i telefonens minne. Ingenting er sendt.",
+  "secStep2Title": "Kryptering med Signal Protocol",
+  "secStep2Desc": "Så snart du trykker «Send», forvandles meldingen din til en rekke uforståelige tegn. Det er som om meldingen din er låst i en safe som bare kontakten din har nøkkelen til.",
+  "secStep3Title": "Sealed Sender: den usynlige konvolutten",
+  "secStep3Desc": "Se for deg at du sender et brev i posten, men uten avsenderadresse på konvolutten. Det er akkurat det Hash gjør. Meldingen legges i en anonym postkasse. Serveren vet ikke hvem som sendte den.",
+  "secStep4Title": "Serveren ser ingenting",
+  "secStep4Desc": "Serveren fungerer som en blind postmann. Den vet bare at «noen la noe i postkasse #A7X9». Den vet ikke hvem som sendte det, hva det er, eller hvem det er til.",
+  "secStep4Highlight": "Ingen metadata lagres: ingen IP-adresse, ingen tidsstempel, ingen kobling mellom avsender og mottaker.",
+  "secStep5Title": "Kontakten din mottar meldingen",
+  "secStep5Desc": "Kontaktens telefon henter innholdet fra den anonyme postkassen og dekrypterer meldingen med sin private nøkkel, som aldri har forlatt enheten. «Hei!» vises på skjermen.",
+  "secStep6Title": "Meldingen forsvinner fra serveren",
+  "secStep6Desc": "Så snart kontakten din bekrefter mottak, sletter serveren meldingen permanent. Ingen papirkurv, ingen arkiv, ingen sikkerhetskopi. Selv uleste meldinger ødelegges automatisk etter 24 timer.",
+  "secStep7Title": "Lokal utløp",
+  "secStep7Desc": "På kontaktens telefon selvdestruerer meldingen i henhold til varigheten du valgte: umiddelbart etter lesing, 5 minutter, 1 time... du bestemmer.",
+  "secJourneyConclusion": "Resultat: null spor på serveren, null spor på enhetene. Meldingen eksisterte bare lenge nok til å bli lest, deretter forsvant den.",
+  "secArchLabel": "ARKITEKTUR",
+  "secArchTitle": "5 lag med beskyttelse",
+  "secArchSubtitle": "Hash baserer seg ikke på én enkelt teknologi. Hvert lag forsterker de andre. Selv om ett lag kompromitteres, forblir dataene dine trygge.",
+  "secLayer1Title": "Ende-til-ende-kryptering",
+  "secLayer1Desc": "Hver melding krypteres med en unik nøkkel. Enkelt sagt: selv om noen dekrypterer én melding, kan de ikke dekryptere den neste. Hver melding har sin egen lås.",
+  "secLayer1Detail": "For filer (bilder, videoer, dokumenter) bruker Hash ekstra AES-256-GCM-kryptering. Filen krypteres før den forlater telefonen din.",
+  "secLayer2Title": "Sealed Sender (nettverksanonymitet)",
+  "secLayer2Desc": "Vanlige meldingstjenester sender meldingene dine med identiteten din vedlagt. Det er som å skrive navnet ditt på konvolutten. Hash bruker anonyme postkasser: serveren leverer meldingen uten å vite hvem som sendte den.",
+  "secLayer2Detail": "Resultat: selv ved en serverdatalekkasje er det umulig å rekonstruere hvem som snakker med hvem.",
+  "secLayer3Title": "Automatisk sletting",
+  "secLayer3Desc": "Meldinger slettes fra serveren så snart mottak er bekreftet. Selv om en melding aldri hentes, ødelegges den automatisk etter 24 timer.",
+  "secLayer3Detail": "På telefonen din selvdestruerer meldinger i henhold til varigheten du velger: umiddelbart, 5 min, 15 min, 30 min, 1t, 3t, 6t eller 12t.",
+  "secLayer4Title": "Lokal tilgangsbeskyttelse",
+  "secLayer4Desc": "Appen er beskyttet med en 6-sifret PIN-kode og/eller biometri (Face ID, fingeravtrykk). Etter for mange mislykkede forsøk låses appen med en økende forsinkelse etter hvert feil.",
+  "secLayer5Title": "Låst database",
+  "secLayer5Desc": "På serversiden kan ingen bruker skrive direkte til databasen. Alle handlinger går gjennom sikre funksjoner som verifiserer hver forespørsel.",
+  "secLayer5Detail": "Det er som en bankskranke: du rører aldri hvelvet selv. Du sender en forespørsel, og systemet sjekker at du har rettigheten før det handler.",
+  "secVashLabel": "UNIKT I VERDEN",
+  "secVashTitle": "Vash-modus",
+  "secVashSubtitle": "Et nødsikkerhetssystem som ikke finnes i noen annen meldingsapp.",
+  "secVashScenarioTitle": "Se for deg denne situasjonen",
+  "secVashScenario1": "Noen får tilgang til telefonen din",
+  "secVashScenario2": "Du blir bedt om PIN-koden din",
+  "secVashScenario3": "Du vil slette alle dataene dine umiddelbart",
+  "secVashSolutionTitle": "Løsningen: to PIN-koder",
+  "secVashSolutionDesc": "Du konfigurerer to forskjellige PIN-koder i Hash:",
+  "secVashNormalCodeLabel": "Normal kode",
+  "secVashNormalCodeDesc": "Åpner appen normalt med alle dataene dine",
+  "secVashCodeLabel2": "Vash-kode",
+  "secVashCodeDescription": "Åpner appen normalt... men alle dataene dine slettes stille i bakgrunnen",
+  "secVashWhatHappensTitle": "Hva som skjer etterpå",
+  "secVashWhatHappensDesc": "Appen åpnes normalt. Ingen varsel, ingen mistenkelig animasjon. Skjermen viser ganske enkelt en tom app, som om du nettopp installerte den.\n\nI virkeligheten har alle samtalene, kontaktene og meldingene dine blitt irreversibelt slettet på en brøkdel av et sekund.",
+  "secCallsLabel": "SAMTALER & FILER",
+  "secCallsTitle": "Alt er kryptert",
+  "secCallsSubtitle": "Det er ikke bare meldinger. Absolutt alt som går gjennom Hash er ende-til-ende-kryptert.",
+  "secAudioCallTitle": "Lydsamtaler",
+  "secAudioCallDesc": "Ende-til-ende-kryptert via WebRTC. Tale overføres direkte mellom enheter.",
+  "secVideoCallTitle": "Videosamtaler",
+  "secVideoCallDesc": "Samme teknologi, hver strøm kryptert individuelt.",
+  "secPhotosTitle": "Bilder og videoer",
+  "secPhotosDesc": "Kryptert med AES-256-GCM før de forlater telefonen din.",
+  "secDocsTitle": "Dokumenter",
+  "secDocsDesc": "PDF, ZIP, enhver fil. Navn, størrelse og innhold kryptert.",
+  "secAnonLabel": "ANONYMITET",
+  "secAnonTitle": "Ingen identitet kreves",
+  "secAnonSubtitle": "Hash ber aldri om telefonnummeret eller e-posten din. Du identifiseres med en unik og anonym Hash-ID.",
+  "secHashIdTitle": "Din Hash-ID",
+  "secHashIdDesc": "Dette er din unike identifikator. Den avslører ingenting om deg: ikke navnet ditt, ikke nummeret ditt, ikke posisjonen din. Det er som et pseudonym som er umulig å knytte til din virkelige identitet.\n\nFor å legge til en kontakt deler du Hash-ID-en din eller skanner en QR-kode. Det er alt. Ingen synkronisert adressebok, ingen «Personer du kanskje kjenner»-forslag.",
+  "secDataLabel": "DATA",
+  "secDataTitle": "Hva Hash ikke vet",
+  "secDataSubtitle": "Den beste måten å beskytte dataene dine på er å ikke samle dem inn.",
+  "secNeverCollected": "Aldri samlet inn",
+  "secNeverItem1": "Meldingsinnhold",
+  "secNeverItem2": "Kontaktliste",
+  "secNeverItem3": "Telefonnummer",
+  "secNeverItem4": "E-postadresse",
+  "secNeverItem5": "IP-adresse",
+  "secNeverItem6": "Posisjon",
+  "secNeverItem7": "Metadata (hvem snakker med hvem)",
+  "secNeverItem8": "Samtalehistorikk",
+  "secNeverItem9": "Adressebok",
+  "secNeverItem10": "Reklameidentifikatorer",
+  "secTempStored": "Lagret midlertidig",
+  "secTempItem1": "Anonym Hash-ID (unik identifikator)",
+  "secTempItem2": "Offentlige krypteringsnøkler",
+  "secTempItem3": "Krypterte meldinger under overføring (maks 24t)",
+  "secTempNote": "Selv disse minimale dataene kan ikke identifisere deg. Hash-ID-en din er ikke knyttet til noen personlig informasjon.",
+  "secFooterTitle": "Personvernet ditt, friheten din",
+  "secFooterDesc": "Hash bruker de samme krypteringsteknologiene som de mest krevende profesjonelle applikasjonene. Meldingene dine er beskyttet av matematikk, ikke av løfter."
+}

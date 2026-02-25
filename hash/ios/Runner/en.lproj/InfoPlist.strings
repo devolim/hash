@@ -1,0 +1,6 @@
+NSCameraUsageDescription = "Hash needs access to the camera to scan your contacts' QR codes";
+NSMicrophoneUsageDescription = "Hash needs access to the microphone for audio calls";
+NSPhotoLibraryUsageDescription = "Hash needs access to your photos to send images";
+NSPhotoLibraryAddUsageDescription = "Hash needs access to your photos to save media";
+NSContactsUsageDescription = "Hash needs access to your contacts to share contact information";
+NSFaceIDUsageDescription = "Hash uses Face ID or Touch ID to secure access to your application";

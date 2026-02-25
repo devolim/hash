@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source — Hash | Trasparenza totale</title>
+  <meta name="description" content="Hash è open source. Tutto il codice è pubblico, verificabile e controllabile. Perché la fiducia si merita.">
+  <meta name="theme-color" content="#FFAB00">
+  <link rel="icon" type="image/png" href="../assets/images/hash_icons.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .code-block {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 0.85rem;
+      line-height: 1.8;
+      overflow-x: auto;
+      color: var(--text-secondary);
+      margin: 24px 0;
+    }
+    .code-block .comment {
+      color: var(--text-tertiary);
+    }
+    .code-block .keyword {
+      color: var(--accent);
+    }
+    .code-block .string {
+      color: var(--success);
+    }
+    .arch-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .arch-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+    }
+    .arch-card__header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .arch-card__icon {
+      width: 32px;
+      height: 32px;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .arch-card__icon svg {
+      width: 32px;
+      height: 32px;
+    }
+    .arch-card__title {
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .arch-card__subtitle {
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+    }
+    .arch-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .arch-card li {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .arch-card li:last-child {
+      border-bottom: none;
+    }
+    .arch-card li::before {
+      content: '>';
+      color: var(--accent);
+      font-weight: 700;
+      font-family: monospace;
+    }
+    @media (max-width: 768px) {
+      .arch-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .github-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 40px;
+      background: #fff;
+      color: #000;
+      font-size: 1.05rem;
+      font-weight: 700;
+      border-radius: var(--radius-md);
+      text-decoration: none;
+      transition: all 0.25s;
+      font-family: var(--font);
+    }
+    .github-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+      opacity: 1;
+    }
+    .github-btn svg {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__brand">
+        <img src="../assets/images/hash_icons.webp" alt="Hash" class="nav__icon">
+        <img src="../assets/images/hash_logo_text_white.webp" alt="Hash" class="nav__logo">
+      </a>
+      <div class="nav__mobile-actions">
+        <button class="nav__menu-btn" onclick="toggleMenu()" aria-label="Menu">
+          <span id="menu-icon">&#9776;</span>
+        </button>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="security.html">SICUREZZA</a></li>
+        <li><a href="opensource.html" class="active">OPEN SOURCE</a></li>
+        <li><a href="support.html">SOSTIENI</a></li>
+        <li><a href="index.html#download" class="nav__cta">SCARICA</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <span class="section-header__label">Open Source</span>
+      <h1 class="page-header__title">Codice aperto.<br><span class="text-gradient">Fiducia meritata.</span></h1>
+      <p class="page-header__text">
+        Quando un'applicazione dice "non raccogliamo nulla", devi crederci sulla parola.
+        Con Hash, puoi <strong>verificare tu stesso</strong>.
+      </p>
+    </div>
+  </header>
+
+  <!-- Why Open Source -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Trasparenza</span>
+        <h2 class="section-header__title">NON FIDARTI DI NESSUNO.<br>VERIFICA.</h2>
+        <p class="section-header__text">
+          Hash è un progetto open source. Ogni riga di codice — dall'applicazione mobile alle funzioni server —
+          è pubblica e verificabile.
+        </p>
+      </div>
+
+      <div class="features-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div class="card animate-on-scroll" style="text-align: center;">
+          <div class="card__icon card__icon--raw" style="margin: 0 auto 20px;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h3 class="card__title">CODICE VERIFICABILE</h3>
+          <p class="card__text">
+            Chiunque può leggere il codice sorgente di Hash e verificare che l'applicazione faccia esattamente ciò che promette.
+          </p>
+        </div>
+        <div class="card animate-on-scroll" style="text-align: center;">
+          <div class="card__icon card__icon--raw" style="margin: 0 auto 20px;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg></div>
+          <h3 class="card__title">NESSUNA PORTA SEGRETA</h3>
+          <p class="card__text">
+            Con codice chiuso, impossibile sapere se c'è una backdoor. Con Hash, tutto è visibile. Zero segreti.
+          </p>
+        </div>
+        <div class="card animate-on-scroll" style="text-align: center;">
+          <div class="card__icon card__icon--raw" style="margin: 0 auto 20px;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h3 class="card__title">COMUNITÀ</h3>
+          <p class="card__text">
+            Sviluppatori ed esperti di sicurezza di tutto il mondo possono contribuire, migliorare e rafforzare Hash.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contribute -->
+  <section class="section" id="contribuer">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <span class="section-header__label">Contribuire</span>
+        <h2 class="section-header__title">UNISCITI AL PROGETTO.</h2>
+        <p class="section-header__text">
+          Sviluppatore, designer, esperto di sicurezza, traduttore — ognuno può dare il proprio contributo.
+        </p>
+      </div>
+
+      <div class="steps">
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">1</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">FORK DEL REPOSITORY</h3>
+            <p class="step__text">Clona il repository sulla tua macchina e crea un branch per il tuo contributo.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">2</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">SVILUPPA E TESTA</h3>
+            <p class="step__text">Implementa la tua correzione o funzionalità. Assicurati che i test passino e che il codice rispetti le convenzioni del progetto.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">3</div>
+            <div class="step__line"></div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">APRI UNA PULL REQUEST</h3>
+            <p class="step__text">Invia la tua PR con una descrizione chiara. Il team la esaminerà e ti darà un feedback.</p>
+          </div>
+        </div>
+        <div class="step animate-on-scroll">
+          <div class="step__marker">
+            <div class="step__number">4</div>
+          </div>
+          <div class="step__content">
+            <h3 class="step__title">IL TUO CODICE VIENE INTEGRATO</h3>
+            <p class="step__text">Una volta approvato, il tuo contributo viene fuso. Ora fai parte della storia di Hash.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub CTA -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container" style="text-align: center;">
+      <div class="cta-banner" style="border-color: rgba(255,255,255,0.15);">
+        <h2 class="cta-banner__title">ESPLORA IL CODICE SORGENTE.</h2>
+        <p class="cta-banner__text">
+          Tutto è trasparente. Sfoglia il codice, apri delle issue, proponi miglioramenti.
+        </p>
+        <a href="#" class="github-btn" id="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          VEDI SU GITHUB
+        </a>
+        <p class="mt-4" style="color: var(--text-tertiary); font-size: 0.85rem;">
+          Il link GitHub sarà aggiunto prossimamente.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brand">
+            <img src="../assets/images/hash_icons.webp" alt="Hash">
+            <img src="../assets/images/hash_logo_text_white.webp" alt="Hash">
+          </div>
+          <p class="footer__desc">
+            La messaggistica che non sa nulla di te.
+            Crittografata, effimera, anonima. Per design.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__title">Prodotto</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#features">Funzionalità</a></li>
+            <li><a href="security.html">Sicurezza</a></li>
+            <li><a href="index.html#comparison">Confronto</a></li>
+            <li><a href="index.html#download">Scarica</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Progetto</h4>
+          <ul class="footer__list">
+            <li><a href="opensource.html">Open Source</a></li>
+            <li><a href="support.html">Sostieni Hash</a></li>
+            <li><a href="mailto:hash-support@devolim.fr">Contatto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Legale</h4>
+          <ul class="footer__list">
+            <li><a href="privacy.html">Informativa sulla privacy</a></li>
+            <li><a href="terms.html">Condizioni d'uso</a></li>
+            <li><a href="delete-account.html">Elimina il mio account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="lang-picker"></div>
+        <p class="footer__copy">&copy; 2026 Hash by <a href="https://devolim.fr" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">DEVOLIM</a>. Tutti i diritti riservati.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script>
+    function toggleMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('open');
+      icon.innerHTML = links.classList.contains('open') ? '&#10005;' : '&#9776;';
+    }
+
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('menu-icon').innerHTML = '&#9776;';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+    // Smart download button
+    (function() {
+      var btn = document.getElementById('navDownloadBtn');
+      if (!btn) return;
+      var ua = navigator.userAgent || '';
+      if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
+        btn.href = '#'; // App Store URL
+      } else if (/android/i.test(ua)) {
+        btn.href = '#'; // Google Play URL
+      } else {
+        btn.href = 'index.html#download';
+      }
+    })();
+  </script>
+
+</body>
+</html>

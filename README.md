@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="website/assets/images/hash_logo_text_white.png" alt="Hash" width="200">
+  <img src="https://hash.devolim.fr/assets/images/hash_logo_text_white.png" alt="Hash" width="200">
 </p>
 
 <p align="center">
@@ -29,10 +29,10 @@ Hash is a messaging app built for people who take privacy seriously. No phone nu
 Every message is end-to-end encrypted using the **Signal Protocol** (Double Ratchet), wrapped in a **Sealed Sender** envelope so even the server doesn't know who's talking to whom. Messages are deleted from the server the moment they're delivered.
 
 <p align="center">
-  <img src="website/assets/images/screen_home.webp" width="180">&nbsp;&nbsp;
-  <img src="website/assets/images/screen_chat_1.webp" width="180">&nbsp;&nbsp;
-  <img src="website/assets/images/screen_security.webp" width="180">&nbsp;&nbsp;
-  <img src="website/assets/images/screen_call_1.webp" width="180">
+  <img src="https://hash.devolim.fr/assets/images/screen_home.webp" width="180">&nbsp;&nbsp;
+  <img src="https://hash.devolim.fr/assets/images/screen_chat_1.webp" width="180">&nbsp;&nbsp;
+  <img src="https://hash.devolim.fr/assets/images/screen_security.webp" width="180">&nbsp;&nbsp;
+  <img src="https://hash.devolim.fr/assets/images/screen_call_1.webp" width="180">
 </p>
 
 ## Core Principles
@@ -100,16 +100,14 @@ Every message is end-to-end encrypted using the **Signal Protocol** (Double Ratc
 │   │   └── presentation/    # Screens, widgets, providers (Riverpod)
 │   └── assets/              # Icons, sounds, fonts
 │
-├── supabase/                # Backend
-│   ├── config.toml          # Supabase project configuration
-│   ├── migrations/          # PostgreSQL schema & RLS policies
-│   └── functions/           # Edge Functions (Deno/TypeScript)
-│       ├── _shared/         # Auth validation & rate limiting
-│       ├── send-sealed-message/
-│       ├── register-user/
-│       └── ...              # 35+ Edge Functions
-│
-└── website/                 # Public website (30+ languages)
+└── supabase/                # Backend
+    ├── config.toml          # Supabase project configuration
+    ├── migrations/          # PostgreSQL schema & RLS policies
+    └── functions/           # Edge Functions (Deno/TypeScript)
+        ├── _shared/         # Auth validation & rate limiting
+        ├── send-sealed-message/
+        ├── register-user/
+        └── ...              # 35+ Edge Functions
 ```
 
 ### Security Model
